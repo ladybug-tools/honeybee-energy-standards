@@ -1,0 +1,1287 @@
+{
+  "ASHRAE 189.1-2009 ExtWindow ClimateZone 1": {
+    "name": "ASHRAE 189.1-2009 ExtWindow ClimateZone 1",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "Theoretical Glass [167]"
+    ]
+  },
+  "ASHRAE 189.1-2009 ExtWindow ClimateZone 2": {
+    "name": "ASHRAE 189.1-2009 ExtWindow ClimateZone 2",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "Theoretical Glass [197]"
+    ]
+  },
+  "ASHRAE 189.1-2009 ExtWindow ClimateZone 3": {
+    "name": "ASHRAE 189.1-2009 ExtWindow ClimateZone 3",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "Theoretical Glass [202]"
+    ]
+  },
+  "ASHRAE 189.1-2009 ExtWindow ClimateZone 4-5": {
+    "name": "ASHRAE 189.1-2009 ExtWindow ClimateZone 4-5",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "Theoretical Glass [207]"
+    ]
+  },
+  "ASHRAE 189.1-2009 ExtWindow ClimateZone 6": {
+    "name": "ASHRAE 189.1-2009 ExtWindow ClimateZone 6",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "Theoretical Glass [216]"
+    ]
+  },
+  "ASHRAE 189.1-2009 ExtWindow ClimateZone 7-8": {
+    "name": "ASHRAE 189.1-2009 ExtWindow ClimateZone 7-8",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "Theoretical Glass [221]"
+    ]
+  },
+  "ASHRAE 189.1-2009 ExtWindow ClimateZone alt-res 4-5": {
+    "name": "ASHRAE 189.1-2009 ExtWindow ClimateZone alt-res 4-5",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "Theoretical Glass [216]"
+    ]
+  },
+  "Typical Interior Window": {
+    "name": "Typical Interior Window",
+    "intended_surface_type": "InteriorWindow",
+    "materials": [
+      "Clear 3mm"
+    ]
+  },
+  "U 0.19 SHGC 0.20 Trp LoE Film (55) Bronze 6mm/13mm Air": {
+    "name": "U 0.19 SHGC 0.20 Trp LoE Film (55) Bronze 6mm/13mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "BRONZE 6MM",
+      "AIR 13MM",
+      "COATED POLY-55",
+      "AIR 13MM",
+      "CLEAR 3MM"
+    ]
+  },
+  "U 0.24 SHGC 0.11 Dbl LoE Elec Abs Colored 6mm/13mm Arg": {
+    "name": "U 0.24 SHGC 0.11 Dbl LoE Elec Abs Colored 6mm/13mm Arg",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "ECABS-2 COLORED 6MM",
+      "ARGON 13MM",
+      "LoE SPEC SEL CLEAR 6MM Rev"
+    ]
+  },
+  "U 0.24 SHGC 0.16 Dbl Elec Abs Colored 6mm/13mm Arg": {
+    "name": "U 0.24 SHGC 0.16 Dbl Elec Abs Colored 6mm/13mm Arg",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "ECABS-2 COLORED 6MM",
+      "ARGON 13MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.24 SHGC 0.23 Dbl LoE Spec Sel Tint 6mm/13mm Arg": {
+    "name": "U 0.24 SHGC 0.23 Dbl LoE Spec Sel Tint 6mm/13mm Arg",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "LoE SPEC SEL TINT 6MM",
+      "ARGON 13MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.25 SHGC 0.40 Dbl LoE (e2-.1) Tint 6mm/13mm Arg": {
+    "name": "U 0.25 SHGC 0.40 Dbl LoE (e2-.1) Tint 6mm/13mm Arg",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "LoE TINT 6MM",
+      "ARGON 13MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.26 SHGC 0.40 Simple Glazing Window": {
+    "name": "U 0.26 SHGC 0.40 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.26 SHGC 0.40 Simple Glazing"
+    ]
+  },
+  "U 0.29 SHGC 0.11 Dbl LoE Elec Ref Colored 6mm/13mm Air": {
+    "name": "U 0.29 SHGC 0.11 Dbl LoE Elec Ref Colored 6mm/13mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "ECREF-2 COLORED 6MM",
+      "AIR 13MM",
+      "LoE SPEC SEL CLEAR 6MM Rev"
+    ]
+  },
+  "U 0.29 SHGC 0.17 Dbl Elec Abs Colored 6mm/13mm Air": {
+    "name": "U 0.29 SHGC 0.17 Dbl Elec Abs Colored 6mm/13mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "ECABS-2 COLORED 6MM",
+      "AIR 13MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.29 SHGC 0.22 Trp LoE Film (55) Bronze 6mm/6mm Air": {
+    "name": "U 0.29 SHGC 0.22 Trp LoE Film (55) Bronze 6mm/6mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "BRONZE 6MM",
+      "AIR 6MM",
+      "COATED POLY-55",
+      "AIR 6MM",
+      "CLEAR 3MM"
+    ]
+  },
+  "U 0.29 SHGC 0.40 Simple Glazing Window": {
+    "name": "U 0.29 SHGC 0.40 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.29 SHGC 0.40 Simple Glazing"
+    ]
+  },
+  "U 0.30 SHGC 0.40 Dbl LoE (e2-.1) Tint 6mm/13mm Air": {
+    "name": "U 0.30 SHGC 0.40 Dbl LoE (e2-.1) Tint 6mm/13mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "LoE TINT 6MM",
+      "AIR 13MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.32 SHGC 0.36 Simple Glazing Window": {
+    "name": "U 0.32 SHGC 0.36 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.32 SHGC 0.36 Simple Glazing"
+    ]
+  },
+  "U 0.33 SHGC 0.11 Dbl LoE Elec Ref Colored 6mm/13mm Air": {
+    "name": "U 0.33 SHGC 0.11 Dbl LoE Elec Ref Colored 6mm/13mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "ECREF-2 COLORED 6MM",
+      "AIR 13MM",
+      "LoE SPEC SEL CLEAR 6MM Rev"
+    ]
+  },
+  "U 0.33 SHGC 0.40 Dbl LoE (e2-.1) Tint 6mm/13mm Air": {
+    "name": "U 0.33 SHGC 0.40 Dbl LoE (e2-.1) Tint 6mm/13mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "LoE TINT 6MM",
+      "AIR 13MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.33 SHGC 0.45 Trp LoE Film (77) Clr 3mm/6mm Air": {
+    "name": "U 0.33 SHGC 0.45 Trp LoE Film (77) Clr 3mm/6mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "CLEAR 3MM",
+      "AIR 6MM",
+      "COATED POLY-77",
+      "AIR 6MM",
+      "CLEAR 3MM"
+    ]
+  },
+  "U 0.34 SHGC 0.38 Simple Glazing Window": {
+    "name": "U 0.34 SHGC 0.38 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.34 SHGC 0.38 Simple Glazing"
+    ]
+  },
+  "U 0.34 SHGC 0.40 Dbl LoE (e2-.1) Tint 6mm/13mm Air": {
+    "name": "U 0.34 SHGC 0.40 Dbl LoE (e2-.1) Tint 6mm/13mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "LoE TINT 6MM",
+      "AIR 13MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.34 SHGC 0.45 Dbl LoE (e2-.2) Clr 6mm/13mm Air": {
+    "name": "U 0.34 SHGC 0.45 Dbl LoE (e2-.2) Clr 6mm/13mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "PYR B CLEAR 6MM",
+      "AIR 13MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.35 SHGC 0.26 Dbl Ref-C-M Clr 6mm/13mm Arg": {
+    "name": "U 0.35 SHGC 0.26 Dbl Ref-C-M Clr 6mm/13mm Arg",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF C CLEAR MID 6MM",
+      "ARGON 13MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.35 SHGC 0.35 Dbl LoE (e2-.1) Tint 6mm/13mm Air": {
+    "name": "U 0.35 SHGC 0.35 Dbl LoE (e2-.1) Tint 6mm/13mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "LoE TINT 6MM",
+      "AIR 13MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.36 SHGC 0.35 Dbl LoE Spec Sel Tint 6mm/6mm Air": {
+    "name": "U 0.36 SHGC 0.35 Dbl LoE Spec Sel Tint 6mm/6mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "LoE SPEC SEL TINT 6MM",
+      "AIR 6MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.36 SHGC 0.36 Simple Glazing Window": {
+    "name": "U 0.36 SHGC 0.36 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.36 SHGC 0.36 Simple Glazing"
+    ]
+  },
+  "U 0.36 SHGC 0.38 Simple Glazing Window": {
+    "name": "U 0.36 SHGC 0.38 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.36 SHGC 0.38 Simple Glazing"
+    ]
+  },
+  "U 0.38 SHGC 0.26 Dbl Ref B-H Tint 6mm/13mm Arg": {
+    "name": "U 0.38 SHGC 0.26 Dbl Ref B-H Tint 6mm/13mm Arg",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF B TINT HI 6MM",
+      "ARGON 13MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.38 SHGC 0.30 Dbl Ref-B-H Clr 6mm/13mm Arg": {
+    "name": "U 0.38 SHGC 0.30 Dbl Ref-B-H Clr 6mm/13mm Arg",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF B CLEAR HI 6MM",
+      "ARGON 13MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.39 SHGC 0.32": {
+    "name": "U 0.39 SHGC 0.32",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "Theoretical Glass 347"
+    ]
+  },
+  "U 0.39 SHGC 0.38": {
+    "name": "U 0.39 SHGC 0.38",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "Theoretical Glass 297"
+    ]
+  },
+  "U 0.40 SHGC 0.43 Dbl LoE Spec Sel Clr 3mm/6mm/6mm Air": {
+    "name": "U 0.40 SHGC 0.43 Dbl LoE Spec Sel Clr 3mm/6mm/6mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "LoE SPEC SEL CLEAR 3MM",
+      "AIR 6MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.40 SHGC 0.45": {
+    "name": "U 0.40 SHGC 0.45",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "ECABS-2 BLEACHED 6MM",
+      "AIR 6MM",
+      "LoE SPEC SEL CLEAR 6MM Rev"
+    ]
+  },
+  "U 0.42 SHGC 0.25 Simple Glazing Window": {
+    "name": "U 0.42 SHGC 0.25 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.42 SHGC 0.25 Simple Glazing"
+    ]
+  },
+  "U 0.42 SHGC 0.34 Simple Glazing Window": {
+    "name": "U 0.42 SHGC 0.34 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.42 SHGC 0.34 Simple Glazing"
+    ]
+  },
+  "U 0.42 SHGC 0.35 Dbl LoE (e2-.1) Tint 6mm/6mm Air": {
+    "name": "U 0.42 SHGC 0.35 Dbl LoE (e2-.1) Tint 6mm/6mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "LoE TINT 6MM",
+      "AIR 6MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.42 SHGC 0.40 Dbl LoE (e2-.1) Tint 6mm/6mm Air": {
+    "name": "U 0.42 SHGC 0.40 Dbl LoE (e2-.1) Tint 6mm/6mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "LoE TINT 6MM",
+      "AIR 6MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.42 SHGC 0.45 Dbl Ref-D Clr 6mm/13mm Arg": {
+    "name": "U 0.42 SHGC 0.45 Dbl Ref-D Clr 6mm/13mm Arg",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF D CLEAR 6MM",
+      "ARGON 13MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.43 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air": {
+    "name": "U 0.43 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF B CLEAR HI 6MM",
+      "AIR 13MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.43 SHGC 0.29 Dbl LoE Spec Sel Tint 6mm/6mm Air": {
+    "name": "U 0.43 SHGC 0.29 Dbl LoE Spec Sel Tint 6mm/6mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "LoE SPEC SEL TINT 6MM",
+      "AIR 6MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.44 SHGC 0.20 Dbl Ref-B-H Tint 6mm/13mm Air": {
+    "name": "U 0.44 SHGC 0.20 Dbl Ref-B-H Tint 6mm/13mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF B TINT HI 6MM",
+      "AIR 13MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air": {
+    "name": "U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF B CLEAR HI 6MM",
+      "AIR 13MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.45 SHGC 0.25 Simple Glazing Window": {
+    "name": "U 0.45 SHGC 0.25 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.45 SHGC 0.25 Simple Glazing"
+    ]
+  },
+  "U 0.45 SHGC 0.31 Dbl Ref-B-H Clr 6mm/13mm Air": {
+    "name": "U 0.45 SHGC 0.31 Dbl Ref-B-H Clr 6mm/13mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF B CLEAR HI 6MM",
+      "AIR 13MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.45 SHGC 0.33 Simple Glazing Window": {
+    "name": "U 0.45 SHGC 0.33 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.45 SHGC 0.33 Simple Glazing"
+    ]
+  },
+  "U 0.46 SHGC 0.45 Dbl Grey 6mm/13mm Air": {
+    "name": "U 0.46 SHGC 0.45 Dbl Grey 6mm/13mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "GREY 6MM",
+      "AIR 13MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.47 SHGC 0.33 Simple Glazing Window": {
+    "name": "U 0.47 SHGC 0.33 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.47 SHGC 0.33 Simple Glazing"
+    ]
+  },
+  "U 0.48 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm": {
+    "name": "U 0.48 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF D CLEAR 6MM",
+      "AIR 13MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.50 SHGC 0.23 Simple Glazing Window": {
+    "name": "U 0.50 SHGC 0.23 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.50 SHGC 0.23 Simple Glazing"
+    ]
+  },
+  "U 0.52 SHGC 0.22 Dbl Ref-B-L Clr 6mm/6mm Air": {
+    "name": "U 0.52 SHGC 0.22 Dbl Ref-B-L Clr 6mm/6mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF B CLEAR LO 6MM",
+      "AIR 6MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.52 SHGC 0.39 Simple Glazing Window": {
+    "name": "U 0.52 SHGC 0.39 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.52 SHGC 0.39 Simple Glazing"
+    ]
+  },
+  "U 0.52 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm Air": {
+    "name": "U 0.52 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF D CLEAR 6MM",
+      "AIR 13MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.52 SHGC 0.49 Simple Glazing Window": {
+    "name": "U 0.52 SHGC 0.49 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.52 SHGC 0.49 Simple Glazing"
+    ]
+  },
+  "U 0.52 SHGC 0.615 Simple Glazing Window": {
+    "name": "U 0.52 SHGC 0.615 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.52 SHGC 0.615 Simple Glazing"
+    ]
+  },
+  "U 0.54 SHGC 0.13 Dbl Ref-A-L Clr 6mm/13mm Air": {
+    "name": "U 0.54 SHGC 0.13 Dbl Ref-A-L Clr 6mm/13mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF A CLEAR LO 6MM",
+      "AIR 13MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.54 SHGC 0.18 Dbl Ref-A-M Tint 6mm/6mm Air": {
+    "name": "U 0.54 SHGC 0.18 Dbl Ref-A-M Tint 6mm/6mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF A TINT MID 6MM",
+      "AIR 6MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.54 SHGC 0.23 Simple Glazing Window": {
+    "name": "U 0.54 SHGC 0.23 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.54 SHGC 0.23 Simple Glazing"
+    ]
+  },
+  "U 0.54 SHGC 0.27 Dbl Ref-C-H Clr 6mm/6mm Air": {
+    "name": "U 0.54 SHGC 0.27 Dbl Ref-C-H Clr 6mm/6mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF C CLEAR HI 6MM",
+      "AIR 6MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.55 SHGC 0.25": {
+    "name": "U 0.55 SHGC 0.25",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "Glass_2175_LayerAvg",
+      "Gap_1_W_0_0032",
+      "Glass_2022F_LayerAvg"
+    ]
+  },
+  "U 0.55 SHGC 0.31 Dbl Ref-D Tint 6mm/6mm Air": {
+    "name": "U 0.55 SHGC 0.31 Dbl Ref-D Tint 6mm/6mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF D TINT 6MM",
+      "AIR 6MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.56 SHGC 0.35 Dbl Ref-D Tint 6mm/6mm": {
+    "name": "U 0.56 SHGC 0.35 Dbl Ref-D Tint 6mm/6mm",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF D TINT 6MM",
+      "AIR 6MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.56 SHGC 0.76 Dbl Clr 3mm/6mm Air": {
+    "name": "U 0.56 SHGC 0.76 Dbl Clr 3mm/6mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "CLEAR 3MM",
+      "AIR 6MM",
+      "CLEAR 3MM"
+    ]
+  },
+  "U 0.57 SHGC 0.25 Dbl Ref-C-H Clr 6mm/6mm Air": {
+    "name": "U 0.57 SHGC 0.25 Dbl Ref-C-H Clr 6mm/6mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF C CLEAR HI 6MM",
+      "AIR 6MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air": {
+    "name": "U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF D CLEAR 6MM",
+      "AIR 6MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.57 SHGC 0.49 Dbl Blue 6mm/6mm Air": {
+    "name": "U 0.57 SHGC 0.49 Dbl Blue 6mm/6mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "BLUE 6MM",
+      "AIR 6MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.58 SHGC 0.19 Simple Glazing Skylight": {
+    "name": "U 0.58 SHGC 0.19 Simple Glazing Skylight",
+    "intended_surface_type": "Skylight",
+    "materials": [
+      "U 0.58 SHGC 0.19 Simple Glazing"
+    ]
+  },
+  "U 0.58 SHGC 0.36 Simple Glazing Skylight": {
+    "name": "U 0.58 SHGC 0.36 Simple Glazing Skylight",
+    "intended_surface_type": "Skylight",
+    "materials": [
+      "U 0.58 SHGC 0.36 Simple Glazing"
+    ]
+  },
+  "U 0.59 SHGC 0.36 Simple Glazing Window": {
+    "name": "U 0.59 SHGC 0.36 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.59 SHGC 0.36 Simple Glazing"
+    ]
+  },
+  "U 0.59 SHGC 0.39 Simple Glazing Window": {
+    "name": "U 0.59 SHGC 0.39 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.59 SHGC 0.39 Simple Glazing"
+    ]
+  },
+  "U 0.60 SHGC 0.23 Simple Glazing Window": {
+    "name": "U 0.60 SHGC 0.23 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.60 SHGC 0.23 Simple Glazing"
+    ]
+  },
+  "U 0.60 SHGC 0.25 Dbl 2.5mm air": {
+    "name": "U 0.60 SHGC 0.25 Dbl 2.5mm air",
+    "intended_surface_type": null,
+    "materials": [
+      "Glass_2175_LayerAvg",
+      "Gap_1_W_0_0025",
+      "Glass_2022F_LayerAvg"
+    ]
+  },
+  "U 0.61 SHGC 0.77 Simple Glazing Skylight": {
+    "name": "U 0.61 SHGC 0.77 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 0.61 SHGC 0.77 Simple Glazing"
+    ]
+  },
+  "U 0.62 SHGC 0.21 Simple Glazing Window": {
+    "name": "U 0.62 SHGC 0.21 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.62 SHGC 0.21 Simple Glazing"
+    ]
+  },
+  "U 0.62 SHGC 0.25 Dbl Ref-C-H Clr 6mm/6mm Air": {
+    "name": "U 0.62 SHGC 0.25 Dbl Ref-C-H Clr 6mm/6mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF C CLEAR HI 6MM",
+      "AIR 6MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.62 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air": {
+    "name": "U 0.62 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF D CLEAR 6MM",
+      "AIR 6MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.62 SHGC 0.41 Simple Glazing Window": {
+    "name": "U 0.62 SHGC 0.41 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.62 SHGC 0.41 Simple Glazing"
+    ]
+  },
+  "U 0.62 SHGC 0.49 Dbl Blue 6mm/6mm Air": {
+    "name": "U 0.62 SHGC 0.49 Dbl Blue 6mm/6mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "BLUE 6MM",
+      "AIR 6MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.65 SHGC 0.25 Dbl Ref-C-H Clr 6mm/6mm Air": {
+    "name": "U 0.65 SHGC 0.25 Dbl Ref-C-H Clr 6mm/6mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF C CLEAR HI 6MM",
+      "AIR 6MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.65 SHGC 0.35 Simple Glazing Skylight": {
+    "name": "U 0.65 SHGC 0.35 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 0.65 SHGC 0.35 Simple Glazing"
+    ]
+  },
+  "U 0.67 SHGC 0.77 Sgl LoE (e2-.2) Clr 3mm": {
+    "name": "U 0.67 SHGC 0.77 Sgl LoE (e2-.2) Clr 3mm",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "PYR B CLEAR 3MM"
+    ]
+  },
+  "U 0.69 SHGC 0.19 Simple Glazing Skylight": {
+    "name": "U 0.69 SHGC 0.19 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 0.69 SHGC 0.19 Simple Glazing"
+    ]
+  },
+  "U 0.69 SHGC 0.36 Simple Glazing Skylight": {
+    "name": "U 0.69 SHGC 0.36 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 0.69 SHGC 0.36 Simple Glazing"
+    ]
+  },
+  "U 0.69 SHGC 0.39 Simple Glazing Skylight": {
+    "name": "U 0.69 SHGC 0.39 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 0.69 SHGC 0.39 Simple Glazing"
+    ]
+  },
+  "U 0.69 SHGC 0.49 Simple Glazing Skylight": {
+    "name": "U 0.69 SHGC 0.49 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 0.69 SHGC 0.49 Simple Glazing"
+    ]
+  },
+  "U 0.69 SHGC 0.64 Simple Glazing Skylight": {
+    "name": "U 0.69 SHGC 0.64 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 0.69 SHGC 0.64 Simple Glazing"
+    ]
+  },
+  "U 0.69 SHGC 0.68 Simple Glazing Skylight": {
+    "name": "U 0.69 SHGC 0.68 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 0.69 SHGC 0.68 Simple Glazing"
+    ]
+  },
+  "U 0.71 SHGC 0.25 Dbl Ref-C-H Clr 6mm/6mm Air": {
+    "name": "U 0.71 SHGC 0.25 Dbl Ref-C-H Clr 6mm/6mm Air",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF C CLEAR HI 6MM",
+      "AIR 6MM",
+      "CLEAR 6MM"
+    ]
+  },
+  "U 0.72 SHGC 0.25 Sgl Ref-B-M Tint 6mm": {
+    "name": "U 0.72 SHGC 0.25 Sgl Ref-B-M Tint 6mm",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF B TINT MID 6MM"
+    ]
+  },
+  "U 0.72 SHGC 0.25 Simple Glazing Window": {
+    "name": "U 0.72 SHGC 0.25 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.72 SHGC 0.25 Simple Glazing"
+    ]
+  },
+  "U 0.72 SHGC 0.36 Simple Glazing Window": {
+    "name": "U 0.72 SHGC 0.36 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.72 SHGC 0.36 Simple Glazing"
+    ]
+  },
+  "U 0.72 SHGC 0.39 Simple Glazing Window": {
+    "name": "U 0.72 SHGC 0.39 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 0.72 SHGC 0.39 Simple Glazing"
+    ]
+  },
+  "U 0.74 SHGC 0.55 Simple Glazing Skylight": {
+    "name": "U 0.74 SHGC 0.55 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 0.74 SHGC 0.55 Simple Glazing"
+    ]
+  },
+  "U 0.74 SHGC 0.65 Simple Glazing Skylight": {
+    "name": "U 0.74 SHGC 0.65 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 0.74 SHGC 0.65 Simple Glazing"
+    ]
+  },
+  "U 0.75 SHGC 0.35 Simple Glazing Skylight": {
+    "name": "U 0.75 SHGC 0.35 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 0.75 SHGC 0.35 Simple Glazing"
+    ]
+  },
+  "U 0.75 SHGC 0.72 Sgl LoE (e2-.2) Clr 6mm": {
+    "name": "U 0.75 SHGC 0.72 Sgl LoE (e2-.2) Clr 6mm",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "PYR B CLEAR 6MM"
+    ]
+  },
+  "U 0.81 SHGC 0.65 Simple Glazing Skylight": {
+    "name": "U 0.81 SHGC 0.65 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 0.81 SHGC 0.65 Simple Glazing"
+    ]
+  },
+  "U 0.85 SHGC 0.65 Simple Glazing Skylight": {
+    "name": "U 0.85 SHGC 0.65 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 0.85 SHGC 0.65 Simple Glazing"
+    ]
+  },
+  "U 0.87 SHGC 0.58 Simple Glazing Skylight": {
+    "name": "U 0.87 SHGC 0.58 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 0.87 SHGC 0.58 Simple Glazing"
+    ]
+  },
+  "U 0.87 SHGC 0.71 Simple Glazing Skylight": {
+    "name": "U 0.87 SHGC 0.71 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 0.87 SHGC 0.71 Simple Glazing"
+    ]
+  },
+  "U 0.87 SHGC 0.77 Simple Glazing Skylight": {
+    "name": "U 0.87 SHGC 0.77 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 0.87 SHGC 0.77 Simple Glazing"
+    ]
+  },
+  "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm": {
+    "name": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF A CLEAR LO 6MM"
+    ]
+  },
+  "U 0.88 SHGC 0.27 Sgl Elec Ref Colored 6mm": {
+    "name": "U 0.88 SHGC 0.27 Sgl Elec Ref Colored 6mm",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "ECREF-1 COLORED 6MM"
+    ]
+  },
+  "U 0.98 SHGC 0.19 Simple Glazing Skylight": {
+    "name": "U 0.98 SHGC 0.19 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 0.98 SHGC 0.19 Simple Glazing"
+    ]
+  },
+  "U 0.98 SHGC 0.36 Simple Glazing Skylight": {
+    "name": "U 0.98 SHGC 0.36 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 0.98 SHGC 0.36 Simple Glazing"
+    ]
+  },
+  "U 0.98 SHGC 0.45 Sgl Ref-B-H Clr 6mm": {
+    "name": "U 0.98 SHGC 0.45 Sgl Ref-B-H Clr 6mm",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF B CLEAR HI 6MM"
+    ]
+  },
+  "U 0.98 SHGC 0.68 Sgl Ref-B-H Clr 6mm": {
+    "name": "U 0.98 SHGC 0.68 Sgl Ref-B-H Clr 6mm",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF B CLEAR HI 6MM"
+    ]
+  },
+  "U 1.10 SHGC 0.62 Simple Glazing Skylight": {
+    "name": "U 1.10 SHGC 0.62 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.10 SHGC 0.62 Simple Glazing"
+    ]
+  },
+  "U 1.10 SHGC 0.77 Simple Glazing Skylight": {
+    "name": "U 1.10 SHGC 0.77 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.10 SHGC 0.77 Simple Glazing"
+    ]
+  },
+  "U 1.15 SHGC 0.77 Simple Glazing Skylight": {
+    "name": "U 1.15 SHGC 0.77 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.15 SHGC 0.77 Simple Glazing"
+    ]
+  },
+  "U 1.17 SHGC 0.19 Simple Glazing Skylight": {
+    "name": "U 1.17 SHGC 0.19 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.17 SHGC 0.19 Simple Glazing"
+    ]
+  },
+  "U 1.17 SHGC 0.36 Simple Glazing Skylight": {
+    "name": "U 1.17 SHGC 0.36 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.17 SHGC 0.36 Simple Glazing"
+    ]
+  },
+  "U 1.17 SHGC 0.39 Sgl Ref-B-H Clr 6mm": {
+    "name": "U 1.17 SHGC 0.39 Sgl Ref-B-H Clr 6mm",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF B CLEAR HI 6MM"
+    ]
+  },
+  "U 1.17 SHGC 0.39 Simple Glazing Skylight": {
+    "name": "U 1.17 SHGC 0.39 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.17 SHGC 0.39 Simple Glazing"
+    ]
+  },
+  "U 1.17 SHGC 0.49 Sgl Ref-D Clr 6mm": {
+    "name": "U 1.17 SHGC 0.49 Sgl Ref-D Clr 6mm",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF D CLEAR 6MM"
+    ]
+  },
+  "U 1.17 SHGC 0.49 Simple Glazing Skylight": {
+    "name": "U 1.17 SHGC 0.49 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.17 SHGC 0.49 Simple Glazing"
+    ]
+  },
+  "U 1.17 SHGC 0.64 Simple Glazing Skylight": {
+    "name": "U 1.17 SHGC 0.64 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.17 SHGC 0.64 Simple Glazing"
+    ]
+  },
+  "U 1.17 SHGC 0.68 Sgl Green 3mm": {
+    "name": "U 1.17 SHGC 0.68 Sgl Green 3mm",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "GREEN 3MM"
+    ]
+  },
+  "U 1.17 SHGC 0.68 Simple Glazing Skylight": {
+    "name": "U 1.17 SHGC 0.68 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.17 SHGC 0.68 Simple Glazing"
+    ]
+  },
+  "U 1.22 SHGC 0.25 Sgl Elec Ref Colored 6mm": {
+    "name": "U 1.22 SHGC 0.25 Sgl Elec Ref Colored 6mm",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "ECREF-1 COLORED 6MM"
+    ]
+  },
+  "U 1.22 SHGC 0.25 Simple Glazing Window": {
+    "name": "U 1.22 SHGC 0.25 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 1.22 SHGC 0.25 Simple Glazing"
+    ]
+  },
+  "U 1.22 SHGC 0.34 Sgl Ref-C-H Clr 6mm": {
+    "name": "U 1.22 SHGC 0.34 Sgl Ref-C-H Clr 6mm",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF C CLEAR HI 6MM"
+    ]
+  },
+  "U 1.22 SHGC 0.39 Sgl Ref-B-H Clr 6mm": {
+    "name": "U 1.22 SHGC 0.39 Sgl Ref-B-H Clr 6mm",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF B CLEAR HI 6MM"
+    ]
+  },
+  "U 1.22 SHGC 0.54 Simple Glazing Window": {
+    "name": "U 1.22 SHGC 0.54 Simple Glazing Window",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U 1.22 SHGC 0.54 Simple Glazing"
+    ]
+  },
+  "U 1.22 SHGC 0.61 Sgl Green 6mm": {
+    "name": "U 1.22 SHGC 0.61 Sgl Green 6mm",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "GREEN 6MM"
+    ]
+  },
+  "U 1.30 SHGC 0.27 Simple Glazing Skylight": {
+    "name": "U 1.30 SHGC 0.27 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.30 SHGC 0.27 Simple Glazing"
+    ]
+  },
+  "U 1.30 SHGC 0.34 Simple Glazing Skylight": {
+    "name": "U 1.30 SHGC 0.34 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.30 SHGC 0.34 Simple Glazing"
+    ]
+  },
+  "U 1.30 SHGC 0.62 Simple Glazing Skylight": {
+    "name": "U 1.30 SHGC 0.62 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.30 SHGC 0.62 Simple Glazing"
+    ]
+  },
+  "U 1.30 SHGC 0.65 Simple Glazing Skylight": {
+    "name": "U 1.30 SHGC 0.65 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.30 SHGC 0.65 Simple Glazing"
+    ]
+  },
+  "U 1.36 SHGC 0.19 Simple Glazing Skylight": {
+    "name": "U 1.36 SHGC 0.19 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.36 SHGC 0.19 Simple Glazing"
+    ]
+  },
+  "U 1.36 SHGC 0.36 Simple Glazing Skylight": {
+    "name": "U 1.36 SHGC 0.36 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.36 SHGC 0.36 Simple Glazing"
+    ]
+  },
+  "U 1.36 SHGC 0.39 Simple Glazing Skylight": {
+    "name": "U 1.36 SHGC 0.39 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.36 SHGC 0.39 Simple Glazing"
+    ]
+  },
+  "U 1.36 SHGC 0.61 Simple Glazing Skylight": {
+    "name": "U 1.36 SHGC 0.61 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.36 SHGC 0.61 Simple Glazing"
+    ]
+  },
+  "U 1.70 SHGC 0.36 Simple Glazing Skylight": {
+    "name": "U 1.70 SHGC 0.36 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.70 SHGC 0.36 Simple Glazing"
+    ]
+  },
+  "U 1.80 SHGC 0.36 Simple Glazing Skylight": {
+    "name": "U 1.80 SHGC 0.36 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.80 SHGC 0.36 Simple Glazing"
+    ]
+  },
+  "U 1.90 SHGC 0.27 Simple Glazing Skylight": {
+    "name": "U 1.90 SHGC 0.27 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.90 SHGC 0.27 Simple Glazing"
+    ]
+  },
+  "U 1.90 SHGC 0.34 Simple Glazing Skylight": {
+    "name": "U 1.90 SHGC 0.34 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.90 SHGC 0.34 Simple Glazing"
+    ]
+  },
+  "U 1.90 SHGC 0.39 Simple Glazing Skylight": {
+    "name": "U 1.90 SHGC 0.39 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.90 SHGC 0.39 Simple Glazing"
+    ]
+  },
+  "U 1.90 SHGC 0.65 Simple Glazing Skylight": {
+    "name": "U 1.90 SHGC 0.65 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.90 SHGC 0.65 Simple Glazing"
+    ]
+  },
+  "U 1.98 SHGC 0.16 Simple Glazing Skylight": {
+    "name": "U 1.98 SHGC 0.16 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.98 SHGC 0.16 Simple Glazing"
+    ]
+  },
+  "U 1.98 SHGC 0.19 Simple Glazing Skylight": {
+    "name": "U 1.98 SHGC 0.19 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.98 SHGC 0.19 Simple Glazing"
+    ]
+  },
+  "U 1.98 SHGC 0.36 Sgl Ref-B-H Clr 6mm": {
+    "name": "U 1.98 SHGC 0.36 Sgl Ref-B-H Clr 6mm",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "REF B CLEAR HI 6MM"
+    ]
+  },
+  "U 1.98 SHGC 0.36 Simple Glazing Skylight": {
+    "name": "U 1.98 SHGC 0.36 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.98 SHGC 0.36 Simple Glazing"
+    ]
+  },
+  "U 1.98 SHGC 0.39 Simple Glazing Skylight": {
+    "name": "U 1.98 SHGC 0.39 Simple Glazing Skylight",
+    "intended_surface_type": null,
+    "materials": [
+      "U 1.98 SHGC 0.39 Simple Glazing"
+    ]
+  },
+  "U 1.98 SHGC 0.61 Sgl Green 6mm": {
+    "name": "U 1.98 SHGC 0.61 Sgl Green 6mm",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "GREEN 6MM"
+    ]
+  },
+  "U 1.98 SHGC 0.61 Simple Glazing Skylight": {
+    "name": "U 1.98 SHGC 0.61 Simple Glazing Skylight",
+    "intended_surface_type": "Skylight",
+    "materials": [
+      "U 1.98 SHGC 0.61 Simple Glazing"
+    ]
+  },
+  "U0.47_SHGC0.46_SimpleGlazing_Window_07": {
+    "name": "U0.47_SHGC0.46_SimpleGlazing_Window_07",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U0.47_SHGC0.46_SimpleGlazing_Window_07"
+    ]
+  },
+  "U0.47_SHGC0.47_SimpleGlazing_Window_06": {
+    "name": "U0.47_SHGC0.47_SimpleGlazing_Window_06",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U0.47_SHGC0.47_SimpleGlazing_Window_06"
+    ]
+  },
+  "U0.47_SHGC0.47_SimpleGlazing_Window_11": {
+    "name": "U0.47_SHGC0.47_SimpleGlazing_Window_11",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U0.47_SHGC0.47_SimpleGlazing_Window_11"
+    ]
+  },
+  "U0.47_SHGC0.5_SimpleGlazing_Window_03": {
+    "name": "U0.47_SHGC0.5_SimpleGlazing_Window_03",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U0.47_SHGC0.5_SimpleGlazing_Window_03"
+    ]
+  },
+  "U0.47_SHGC_0.49_SimpleGlazing_Window_05": {
+    "name": "U0.47_SHGC_0.49_SimpleGlazing_Window_05",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U0.47_SHGC_0.49_SimpleGlazing_Window_05"
+    ]
+  },
+  "U0.77_SHGC0.5_SimpleGlazing_Window_09": {
+    "name": "U0.77_SHGC0.5_SimpleGlazing_Window_09",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U0.77_SHGC0.5_SimpleGlazing_Window_09"
+    ]
+  },
+  "U0.77_SHGC0.61_SimpleGlazing_Window_08": {
+    "name": "U0.77_SHGC0.61_SimpleGlazing_Window_08",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U0.77_SHGC0.61_SimpleGlazing_Window_08"
+    ]
+  },
+  "U0.77_SHGC0.62_SimpleGlazing_Window_04": {
+    "name": "U0.77_SHGC0.62_SimpleGlazing_Window_04",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U0.77_SHGC0.62_SimpleGlazing_Window_04"
+    ]
+  },
+  "U0.77_SHGC_0.77_SimpleGlazing_Window_02": {
+    "name": "U0.77_SHGC_0.77_SimpleGlazing_Window_02",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U0.77_SHGC_0.77_SimpleGlazing_Window_02"
+    ]
+  },
+  "U1.23_SHGC0.5_SimpleGlazing_Window_12": {
+    "name": "U1.23_SHGC0.5_SimpleGlazing_Window_12",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U1.23_SHGC0.5_SimpleGlazing_Window_12"
+    ]
+  },
+  "U1.23_SHGC0.82_SimpleGlazing_Window_01": {
+    "name": "U1.23_SHGC0.82_SimpleGlazing_Window_01",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U1.23_SHGC0.82_SimpleGlazing_Window_01"
+    ]
+  },
+  "U1.23_SHGC0.82_SimpleGlazing_Window_10": {
+    "name": "U1.23_SHGC0.82_SimpleGlazing_Window_10",
+    "intended_surface_type": "ExteriorWindow",
+    "materials": [
+      "U1.23_SHGC0.82_SimpleGlazing_Window_10"
+    ]
+  },
+  "Window_U_0.50_SHGC_0.40_Skylight_Frame_Width_0.000_in": {
+    "name": "Window_U_0.50_SHGC_0.40_Skylight_Frame_Width_0.000_in",
+    "intended_surface_type": "Skylight",
+    "materials": [
+      "Glass_2052_LayerAvg",
+      "Gap_1_W_0_0038",
+      "Glass_2027F_LayerAvg"
+    ]
+  },
+  "Window_U_0.50_SHGC_0.40_Skylight_Frame_Width_0.334_in": {
+    "name": "Window_U_0.50_SHGC_0.40_Skylight_Frame_Width_0.334_in",
+    "intended_surface_type": "Skylight",
+    "materials": [
+      "Glass_2052_LayerAvg",
+      "Gap_1_W_0_0038",
+      "Glass_2027F_LayerAvg"
+    ]
+  },
+  "Window_U_0.50_SHGC_0.40_Skylight_Frame_Width_0.430_in": {
+    "name": "Window_U_0.50_SHGC_0.40_Skylight_Frame_Width_0.430_in",
+    "intended_surface_type": "Skylight",
+    "materials": [
+      "Glass_2052_LayerAvg",
+      "Gap_1_W_0_0038",
+      "Glass_2027F_LayerAvg"
+    ]
+  },
+  "Window_U_0.55_SHGC_0.35_Skylight_Frame_Width_0.709_in": {
+    "name": "Window_U_0.55_SHGC_0.35_Skylight_Frame_Width_0.709_in",
+    "intended_surface_type": "Skylight",
+    "materials": [
+      "Glass_2052_LayerAvg",
+      "Gap_1_W_0_0038",
+      "Glass_2027F_LayerAvg"
+    ]
+  },
+  "Window_U_0.65_SHGC_0.35_Skylight_Frame_Width_2.339_in": {
+    "name": "Window_U_0.65_SHGC_0.35_Skylight_Frame_Width_2.339_in",
+    "intended_surface_type": "Skylight",
+    "materials": [
+      "Glass_2052_LayerAvg",
+      "Gap_1_W_0_0024",
+      "Glass_2027F_LayerAvg"
+    ]
+  },
+  "Window_U_0.75_SHGC_0.35_Skylight_Frame_Width_2.339_in": {
+    "name": "Window_U_0.75_SHGC_0.35_Skylight_Frame_Width_2.339_in",
+    "intended_surface_type": "Skylight",
+    "materials": [
+      "Glass_2052_LayerAvg",
+      "Gap_1_W_0_0018",
+      "Glass_2027F_LayerAvg"
+    ]
+  }
+}
