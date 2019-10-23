@@ -1,4 +1,4 @@
-Welcome to honeybee-standards's documentation!
+Welcome to honeybee-energy-standards's documentation!
 ===================================
 
 .. toctree::
