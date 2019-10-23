@@ -9,15 +9,15 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 setuptools.setup(
-    name="honeybee-standards",
+    name="honeybee-energy-standards",
     use_scm_version = True,
     setup_requires=['setuptools_scm'],
     author="Ladybug Tools",
     author_email="info@ladybug.tools",
-    description="Honeybee-energy extension for standards, codes, and templates",
+    description="Honeybee-energy extension for standards, codes, and templates.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ladybug-tools/honeybee-standards",
+    url="https://github.com/ladybug-tools/honeybee-energy-standards",
     packages=setuptools.find_packages(exclude=["tests"]),
     install_requires=requirements,
     classifiers=[
