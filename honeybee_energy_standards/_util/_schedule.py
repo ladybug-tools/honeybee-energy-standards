@@ -10,12 +10,17 @@ def clean_schedules(source_filename, dest_directory):
     """Process the OpenStudio Standards Schedule dictionary and write out a clean version.
 
     Specifically, this method performs 3 cleaning operations:
-    * Output resulting dictionary in a format with the name of the ScheduleRuleset
-        as the key and a list of the relevant ScheduleDay dictionaries as values.
-    * Remove meaningless Hour:Minute:Second from the dates over which to apply
-        individual schedule rules.
-    * Un-indent lists of schedule day values, which results in better readability and
-        a significantly smaller file size.
+        * Output resulting dictionary in a format with the name of the ScheduleRuleset
+            as the key and a list of the relevant ScheduleDay dictionaries as values.
+        * Remove meaningless Hour:Minute:Second from the dates over which to apply
+            individual schedule rules and remove the year as well.
+        * Fix schedule values lists that do not have the correct number of values (this
+            should be either 1 or 24 but some appear to have 2).
+        * Remove all 'DummySmrDsn' and 'DummrySmrDsn' rules (I think the second one might
+            be a typo but there's one in the gem now).
+        * Fix the 'WtrDsn' typo (it should be 'WntrDsn' like all of the other schedules).
+        * Un-indent lists of schedule day values, which results in better readability and
+            a significantly smaller file size.
 
     Args:
         source_filename: The full path to the schedule JSON in the OpenStudio
@@ -31,6 +36,9 @@ def clean_schedules(source_filename, dest_directory):
     Returns:
         dest_file_path: The file path to the clean JSON.
     """
+    # list of all the day types to remove
+    _remove_day_types = ('DummySmrDsn', 'DummrySmrDsn')
+
     # initialize the clean dictionary
     sch_dict = {}
 
@@ -51,6 +59,27 @@ def clean_schedules(source_filename, dest_directory):
         for sched_rule in full_sched:
             sched_rule['start_date'] = clean_dt(sched_rule['start_date'])
             sched_rule['end_date'] = clean_dt(sched_rule['end_date'])
+
+    # clean the datetime strings to only have the month and day
+    for full_sched in sch_dict.values():
+        for sched_rule in full_sched:
+            val_len = len(sched_rule['values'])
+            if val_len == 1 or val_len == 24:
+                pass
+            else:
+                print('Schedule "{}" has an incorrect number of values'.format(
+                    sched_rule['name']))
+                sched_rule['values'] = [sched_rule['values'][0]]
+
+    # Remove the day types that are not supported and fix the 'WtrDsn' typo
+    for full_sched in sch_dict.values():
+        del_indices = []
+        for i, sched_rule in enumerate(full_sched):
+            if sched_rule['day_types'] in _remove_day_types:
+                del_indices.append(i)
+            sched_rule['day_types'] = sched_rule['day_types'].replace('WtrDsn', 'WntrDsn')
+        for i in del_indices:
+            del full_sched[i]
 
     # get a string representation and clean it further
     init_str = json.dumps(sch_dict, indent=2)

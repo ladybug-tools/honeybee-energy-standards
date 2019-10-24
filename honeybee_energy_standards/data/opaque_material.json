@@ -334,6 +334,18 @@
     "solar_absorptance": 0.7,
     "visible_absorptance": 0.8
   },
+  "F04 Wall air space resistance": {
+    "name": "F04 Wall air space resistance",
+    "material_type": "AirGap",
+    "conductivity": 46.2231453234399,
+    "resistance": 0.0216341833296424
+  },
+  "F05 Ceiling air space resistance": {
+    "name": "F05 Ceiling air space resistance",
+    "material_type": "AirGap",
+    "conductivity": 38.5192877695332,
+    "resistance": 0.0259610199955709
+  },
   "F08 Metal surface": {
     "name": "F08 Metal surface",
     "material_type": "StandardOpaqueMaterial",
