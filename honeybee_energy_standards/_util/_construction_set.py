@@ -118,6 +118,9 @@ def clean_construction_sets(source_filename, dest_directory, vintage,
 
             # get the underground floor construction
             floor_constr = extract_construction(data_store, c_zone, 'GroundContactFloor', 'Unheated')
+            if floor_constr['construction'] == 'Smallhotel 2010 Slab Floor':
+                floor_constr = extract_construction(data_store, c_zone, 'GroundContactFloor',
+                                                    'Heated', 'Semiheated')
             floor_constr = adjust_typical_insulation(floor_constr, clean_constr_dict, clean_mat_dict)
             base_dict['floor_set']['ground_construction'] = floor_constr
 

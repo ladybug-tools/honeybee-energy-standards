@@ -199,7 +199,7 @@
     },
     "floor_set": {
       "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R20",
-      "ground_construction": "Smallhotel 2010 Slab Floor"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "exterior_construction": "Typical IEAD Roof - Highly Reflective-R21"
@@ -223,7 +223,7 @@
     },
     "floor_set": {
       "exterior_construction": "Typical Insulated Wood Framed Exterior Floor-R20",
-      "ground_construction": "Smallhotel 2010 Slab Floor"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "exterior_construction": "Typical Wood Joist Attic Floor-R38"
@@ -247,7 +247,7 @@
     },
     "floor_set": {
       "exterior_construction": "Typical Insulated Exterior Mass Floor-R10",
-      "ground_construction": "Smallhotel 2010 Slab Floor"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "exterior_construction": "Typical IEAD Roof - Highly Reflective-R21"
@@ -271,7 +271,7 @@
     },
     "floor_set": {
       "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R20",
-      "ground_construction": "Smallhotel 2010 Slab Floor"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "exterior_construction": "Typical Insulated Metal Building Roof-R19"
