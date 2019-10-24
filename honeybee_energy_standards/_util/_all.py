@@ -2,11 +2,11 @@
 """Clean and re-export all ashrae 90.1 data from the standards gem."""
 import os
 
-from honeybee_standards._util._program_type import clean_space_types
-from honeybee_standards._util._schedule import clean_schedules
-from honeybee_standards._util._construction_set import clean_construction_sets
-from honeybee_standards._util._construction import clean_constructions
-from honeybee_standards._util._material import clean_materials
+from honeybee_energy_standards._util._program_type import clean_space_types
+from honeybee_energy_standards._util._schedule import clean_schedules
+from honeybee_energy_standards._util._construction_set import clean_construction_sets
+from honeybee_energy_standards._util._construction import clean_constructions
+from honeybee_energy_standards._util._material import clean_materials
 
 
 def clean_all(ashrae_directory):
@@ -18,7 +18,9 @@ def clean_all(ashrae_directory):
                 C:/Users/[USERNAME]/Documents/GitHub/openstudio-standards/lib/
                 openstudio-standards/standards/ashrae_90_1/
     """
-    dest_dir = os.path.join(os.path.dirname(__file__), '../data')
+    current_dir = os.path.dirname(__file__)
+    master_dir, util_mod = os.path.split(current_dir)
+    dest_dir = os.path.join(master_dir, 'data')
 
     # clean the Schedules
     source_filename = os.path.join(ashrae_directory, 'data', 'ashrae_90_1.schedules.json')

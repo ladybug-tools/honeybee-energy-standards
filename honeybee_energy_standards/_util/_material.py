@@ -36,8 +36,8 @@ def clean_materials(source_filename, dest_directory):
         window_dest_file_path: The file path to the clean JSON with window materials.
     """
     # types of materials (to help organize opaque materials from window ones)
-    opaque_types = ('StandardOpaqueMaterial', 'MasslessOpaqueMaterial')
-    window_types = ('SimpleGlazing', 'Gas', 'StandardGlazing', 'AirGap')
+    opaque_types = ('StandardOpaqueMaterial', 'MasslessOpaqueMaterial', 'AirGap')
+    window_types = ('SimpleGlazing', 'Gas', 'StandardGlazing')
 
     # initialize the clean dictionaries
     opaque_mat_dict = {}

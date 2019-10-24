@@ -2,7 +2,7 @@
   "1980_2004::ClimateZone1::SteelFramed": {
     "name": "1980_2004::ClimateZone1::SteelFramed",
     "wall_set": {
-      "exterior_construction": "Typical Insulated Steel Framed Exterior Wall-R1",
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Wall",
       "ground_construction": "Typical Insulated Basement Mass Wall"
     },
     "floor_set": {
@@ -26,7 +26,7 @@
   "1980_2004::ClimateZone1::WoodFramed": {
     "name": "1980_2004::ClimateZone1::WoodFramed",
     "wall_set": {
-      "exterior_construction": "Typical Insulated Wood Framed Exterior Wall-R1",
+      "exterior_construction": "Typical Insulated Wood Framed Exterior Wall",
       "ground_construction": "Typical Insulated Basement Mass Wall"
     },
     "floor_set": {
@@ -50,7 +50,7 @@
   "1980_2004::ClimateZone1::Mass": {
     "name": "1980_2004::ClimateZone1::Mass",
     "wall_set": {
-      "exterior_construction": "Typical Insulated Exterior Mass Wall-R1",
+      "exterior_construction": "Typical Insulated Exterior Mass Wall",
       "ground_construction": "Typical Insulated Basement Mass Wall"
     },
     "floor_set": {

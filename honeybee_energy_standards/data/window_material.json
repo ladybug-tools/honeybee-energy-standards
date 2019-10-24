@@ -270,18 +270,6 @@
     "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
     "solar_diffusing": 0
   },
-  "F04 Wall air space resistance": {
-    "name": "F04 Wall air space resistance",
-    "material_type": "AirGap",
-    "conductivity": 46.2231453234399,
-    "resistance": 0.0216341833296424
-  },
-  "F05 Ceiling air space resistance": {
-    "name": "F05 Ceiling air space resistance",
-    "material_type": "AirGap",
-    "conductivity": 38.5192877695332,
-    "resistance": 0.0259610199955709
-  },
   "Fixed Window 2.00/0.40/0.31": {
     "name": "Fixed Window 2.00/0.40/0.31",
     "material_type": "SimpleGlazing",

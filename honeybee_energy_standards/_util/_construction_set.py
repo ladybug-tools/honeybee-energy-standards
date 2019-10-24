@@ -244,6 +244,8 @@ def adjust_typical_insulation(base_constr_dict, constuction_dict, material_dict)
 
     # calculate the R-value needed by the insulation
     target_r = int(math.ceil(compliant_r_val - base_r))
+    if target_r == 0:
+        return base_constr_dict['construction']
     new_constr_name = '{}-R{}'.format(orig_constr_name, math.ceil(compliant_r_val))
 
     # add the new construction to the global constuction_dict if necessary
