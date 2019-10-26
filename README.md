@@ -7,6 +7,15 @@
 
 Honeybee-energy extension for standards, codes, and templates.
 
+All of the data that this module adds to the [honeybee-energy](https://github.com/ladybug-tools/honeybee-energy).lib comes from the
+[OpenStudio Standards Gem](https://github.com/NREL/openstudio-standards) and the master
+[Google Sheets files](https://drive.google.com/drive/folders/1x7yEU4jnKw-gskLBih8IopStwl0KAMEi)
+that possess all of the most recent data. The original sources of this data include the following:
+
+* The US Department of Energy [Commercial Reference Buildings](https://www.energy.gov/eere/buildings/commercial-reference-buildings).
+* The [ASHRAE Standard 90.1](https://www.ashrae.org/technical-resources/bookstore/standard-90-1) including all versions from 2004 to the present.
+* The [Commercial Buildings Energy Consumption Survey (CBECS)](https://www.eia.gov/consumption/commercial/), specifically for any templates before ASHRAE Standard 90.1 2004.
+
 ## Installation
 ```console
 pip install honeybee-energy-standards
