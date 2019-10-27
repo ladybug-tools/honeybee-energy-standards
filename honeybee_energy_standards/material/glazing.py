@@ -1,7 +1,6 @@
 """Classmethods for honeybee-energy glazing materials."""
 
 
-@classmethod
 def from_standards_dict(cls, data):
     """Create EnergyWindowMaterialGlazing from OpenStudio standards gem dictionary.
 
@@ -9,21 +8,21 @@ def from_standards_dict(cls, data):
         data: An OpenStudio standards dictionary of a glazing material in the
             format below.
 
-        .. code-block:: python
+    .. code-block:: python
 
-            {
-            "name": 'Blue 6mm',
-            "material_type": "StandardGlazing",
-            "thickness": 0.2362204,
-            "solar_transmittance": 0.45,
-            "solar_reflectance": 0.36,
-            "visible_transmittance": 0.714,
-            "visible_reflectance": 0.207,
-            "infrared_transmittance": 0,
-            "emissivity": 0.84,
-            "emissivity_back": 0.0466,
-            "conductivity": 6.24012
-            }
+        {
+        "name": 'Blue 6mm',
+        "material_type": "StandardGlazing",
+        "thickness": 0.2362204,
+        "solar_transmittance": 0.45,
+        "solar_reflectance": 0.36,
+        "visible_transmittance": 0.714,
+        "visible_reflectance": 0.207,
+        "infrared_transmittance": 0,
+        "emissivity": 0.84,
+        "emissivity_back": 0.0466,
+        "conductivity": 6.24012
+        }
     """
     assert data['material_type'] == 'StandardGlazing', \
         'Expected StandardGlazing. Got {}.'.format(data['material_type'])
@@ -51,17 +50,22 @@ def from_standards_dict(cls, data):
     return new_mat
 
 
-@classmethod
 def simple_from_standards_dict(cls, data):
     """Create EnergyWindowMaterialSimpleGlazSys from OpenStudio standards dictionary.
 
     Args:
-        data: {
-            "name": 'Fixed Window',
-            "material_type": "SimpleGlazing",
-            "u_factor": 0.45,
-            "solar_heat_gain_coefficient": 0.45,
-            "visible_transmittance": 0.35}
+        data: An OpenStudio standards dictionary of a simple glazing material in the
+            format below.
+            
+    .. code-block:: python
+    
+        {
+        "name": 'Fixed Window',
+        "material_type": "SimpleGlazing",
+        "u_factor": 0.45,
+        "solar_heat_gain_coefficient": 0.45,
+        "visible_transmittance": 0.35
+        }
     """
     assert data['material_type'] == 'SimpleGlazing', \
         'Expected SimpleGlazing. Got {}.'.format(data['material_type'])

@@ -11,7 +11,6 @@ from honeybee_energy.load.ventilation import Ventilation
 from honeybee_energy.load.setpoint import Setpoint
 
 
-@classmethod
 def from_standards_dict(cls, data):
     """Create a ProgramType from an OpenStudio standards gem dictionary.
 
@@ -19,45 +18,45 @@ def from_standards_dict(cls, data):
         data: An OpenStudio standards dictionary of a space type in the
             format below.
 
-        .. code-block:: python
+    .. code-block:: python
 
-            {
-            "template": "90.1-2013",
-            "building_type": "Office",
-            "space_type": "MediumOffice - OpenOffice",
-            "lighting_standard": "ASHRAE 90.1-2013",
-            "lighting_per_area": 0.98,
-            "lighting_per_person": None,
-            "additional_lighting_per_area": None,
-            "lighting_fraction_to_return_air": 0.0,
-            "lighting_fraction_radiant": 0.7,
-            "lighting_fraction_visible": 0.2,
-            "lighting_schedule": "OfficeMedium BLDG_LIGHT_SCH_2013",
-            "ventilation_standard": "ASHRAE 62.1-2007",
-            "ventilation_primary_space_type": "Office Buildings",
-            "ventilation_secondary_space_type": "Office space",
-            "ventilation_per_area": 0.06,
-            "ventilation_per_person": 5.0,
-            "ventilation_air_changes": None,
-            "minimum_total_air_changes": None,
-            "occupancy_per_area": 5.25,
-            "occupancy_schedule": "OfficeMedium BLDG_OCC_SCH",
-            "occupancy_activity_schedule": "OfficeMedium ACTIVITY_SCH",
-            "infiltration_per_exterior_area": 0.0446,
-            "infiltration_schedule": "OfficeMedium INFIL_SCH_PNNL",
-            "gas_equipment_per_area": None,
-            "gas_equipment_fraction_latent": None,
-            "gas_equipment_fraction_radiant": None,
-            "gas_equipment_fraction_lost": None,
-            "gas_equipment_schedule": None,
-            "electric_equipment_per_area": 0.96,
-            "electric_equipment_fraction_latent": 0.0,
-            "electric_equipment_fraction_radiant": 0.5,
-            "electric_equipment_fraction_lost": 0.0,
-            "electric_equipment_schedule": "OfficeMedium BLDG_EQUIP_SCH_2013",
-            "heating_setpoint_schedule": "OfficeMedium HTGSETP_SCH_YES_OPTIMUM",
-            "cooling_setpoint_schedule": "OfficeMedium CLGSETP_SCH_YES_OPTIMUM"
-            }
+        {
+        "template": "90.1-2013",
+        "building_type": "Office",
+        "space_type": "MediumOffice - OpenOffice",
+        "lighting_standard": "ASHRAE 90.1-2013",
+        "lighting_per_area": 0.98,
+        "lighting_per_person": None,
+        "additional_lighting_per_area": None,
+        "lighting_fraction_to_return_air": 0.0,
+        "lighting_fraction_radiant": 0.7,
+        "lighting_fraction_visible": 0.2,
+        "lighting_schedule": "OfficeMedium BLDG_LIGHT_SCH_2013",
+        "ventilation_standard": "ASHRAE 62.1-2007",
+        "ventilation_primary_space_type": "Office Buildings",
+        "ventilation_secondary_space_type": "Office space",
+        "ventilation_per_area": 0.06,
+        "ventilation_per_person": 5.0,
+        "ventilation_air_changes": None,
+        "minimum_total_air_changes": None,
+        "occupancy_per_area": 5.25,
+        "occupancy_schedule": "OfficeMedium BLDG_OCC_SCH",
+        "occupancy_activity_schedule": "OfficeMedium ACTIVITY_SCH",
+        "infiltration_per_exterior_area": 0.0446,
+        "infiltration_schedule": "OfficeMedium INFIL_SCH_PNNL",
+        "gas_equipment_per_area": None,
+        "gas_equipment_fraction_latent": None,
+        "gas_equipment_fraction_radiant": None,
+        "gas_equipment_fraction_lost": None,
+        "gas_equipment_schedule": None,
+        "electric_equipment_per_area": 0.96,
+        "electric_equipment_fraction_latent": 0.0,
+        "electric_equipment_fraction_radiant": 0.5,
+        "electric_equipment_fraction_lost": 0.0,
+        "electric_equipment_schedule": "OfficeMedium BLDG_EQUIP_SCH_2013",
+        "heating_setpoint_schedule": "OfficeMedium HTGSETP_SCH_YES_OPTIMUM",
+        "cooling_setpoint_schedule": "OfficeMedium CLGSETP_SCH_YES_OPTIMUM"
+        }
     """
     pr_type_name = data['space_type']
     people = None
