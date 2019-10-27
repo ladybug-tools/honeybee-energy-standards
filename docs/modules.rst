@@ -1,5 +1,5 @@
-honeybee-energy-standards
-=================
+honeybee_energy_standards
+=========================
 
 .. toctree::
    :maxdepth: 4

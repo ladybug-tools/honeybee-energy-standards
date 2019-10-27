@@ -2,7 +2,6 @@
 """Classmethods for honeybee-energy ScheduleDay."""
 
 
-@classmethod
 def from_standards_dict(cls, data):
     """Create a ScheduleDay from an OpenStudio standards gem dictionary.
 
@@ -23,7 +22,7 @@ def from_standards_dict(cls, data):
         "values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.2, 0.95, 0.95, 0.95,
                    0.95, 0.5, 0.95, 0.95, 0.95, 0.95, 0.7, 0.4, 0.4, 0.1,
                    0.1, 0.05, 0.05]
-            }
+        }
     """
     if len(data['values']) == 24:
         return cls.from_values_at_timestep(data['name'], data['values'])

@@ -1,7 +1,6 @@
 """Classmethods for honeybee-energy gas materials."""
 
 
-@classmethod
 def from_standards_dict(cls, data):
     """Create EnergyWindowMaterialGas from OpenStudio standards dictionary.
 
@@ -9,14 +8,14 @@ def from_standards_dict(cls, data):
         data: An OpenStudio standards dictionary of a gas material in the
             format below.
 
-        .. code-block:: python
+    .. code-block:: python
 
-            {
-            "name": 'Gap_1_W_0_0018',
-            "material_type": "Gas",
-            "thickness": 0.070866,
-            "gas_type": "Air"
-            }
+        {
+        "name": 'Gap_1_W_0_0018',
+        "material_type": "Gas",
+        "thickness": 0.070866,
+        "gas_type": "Air"
+        }
     """
     assert data['material_type'] == 'Gas', \
         'Expected Gas. Got {}.'.format(data['material_type'])

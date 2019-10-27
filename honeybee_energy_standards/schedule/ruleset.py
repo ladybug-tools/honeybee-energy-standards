@@ -7,7 +7,6 @@ import honeybee_energy.lib.scheduletypelimits as _type_lib
 from ladybug.dt import Date
 
 
-@classmethod
 def from_standards_dict(cls, data):
     """Create a ScheduleRuleset from an OpenStudio standards gem dictionary.
 

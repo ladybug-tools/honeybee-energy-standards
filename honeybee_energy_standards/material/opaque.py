@@ -1,7 +1,6 @@
 """Classmethods for honeybee-energy opaque materials."""
 
 
-@classmethod
 def from_standards_dict(cls, data):
     """Create a EnergyMaterial from an OpenStudio standards gem dictionary.
 
@@ -9,20 +8,20 @@ def from_standards_dict(cls, data):
         data: An OpenStudio standards dictionary of a opaque material in the
             format below.
 
-        .. code-block:: python
+    .. code-block:: python
 
-            {
-            "name": "G01 13mm gypsum board",
-            "material_type": "StandardOpaqueMaterial",
-            "roughness": "Smooth",
-            "thickness": 0.5,
-            "conductivity": 1.10957,
-            "density": 49.9424,
-            "specific_heat": 0.260516252,
-            "thermal_absorptance": 0.9,
-            "solar_absorptance": 0.7,
-            "visible_absorptance": 0.5
-            }
+        {
+        "name": "G01 13mm gypsum board",
+        "material_type": "StandardOpaqueMaterial",
+        "roughness": "Smooth",
+        "thickness": 0.5,
+        "conductivity": 1.10957,
+        "density": 49.9424,
+        "specific_heat": 0.260516252,
+        "thermal_absorptance": 0.9,
+        "solar_absorptance": 0.7,
+        "visible_absorptance": 0.5
+        }
     """
     assert data['material_type'] == 'StandardOpaqueMaterial', \
         'Expected StandardOpaqueMaterial. Got {}.'.format(data['material_type'])
@@ -44,19 +43,24 @@ def from_standards_dict(cls, data):
                data['visible_absorptance'])
 
 
-@classmethod
 def no_mass_from_standards_dict(cls, data):
     """Create a EnergyMaterialNoMass from an OpenStudio standards gem dictionary.
 
     Args:
-        data: {
-            "name": "CP02 CARPET PAD",
-            "material_type": "MasslessOpaqueMaterial",
-            "roughness": "Smooth",
-            "resistance": 0.160253201,
-            "thermal_absorptance": 0.9,
-            "solar_absorptance": 0.8,
-            "visible_absorptance": 0.8}
+        data: An OpenStudio standards dictionary of a no mass opaque material in the
+            format below.
+
+    .. code-block:: python
+
+        {
+        "name": "CP02 CARPET PAD",
+        "material_type": "MasslessOpaqueMaterial",
+        "roughness": "Smooth",
+        "resistance": 0.160253201,
+        "thermal_absorptance": 0.9,
+        "solar_absorptance": 0.8,
+        "visible_absorptance": 0.8
+        }
     """
     assert data['material_type'] in ('MasslessOpaqueMaterial', 'AirGap'), \
         'Expected MasslessOpaqueMaterial. Got {}.'.format(data['material_type'])

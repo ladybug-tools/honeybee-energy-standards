@@ -38,17 +38,28 @@ import honeybee_energy_standards.lib.programtypes as program_type_lib
 
 
 # add classmethods to create honeybee-energy objects from standards gem dictionaries
-EnergyMaterial.from_standards_dict = material_opaque.from_standards_dict
-EnergyMaterialNoMass.from_standards_dict = material_opaque.no_mass_from_standards_dict
-EnergyWindowMaterialGlazing.from_standards_dict = material_glazing.from_standards_dict
-EnergyWindowMaterialSimpleGlazSys.from_standards_dict = material_glazing.simple_from_standards_dict
-EnergyWindowMaterialGas.from_standards_dict = material_gas.from_standards_dict
-OpaqueConstruction.from_standards_dict = construction_opaque.from_standards_dict
-WindowConstruction.from_standards_dict = window_opaque.from_standards_dict
-ConstructionSet.from_standards_dict = constructionset.from_standards_dict
-ScheduleDay.from_standards_dict = schedule_day.from_standards_dict
-ScheduleRuleset.from_standards_dict = schedule_ruleset.from_standards_dict
-ProgramType.from_standards_dict = programtype.from_standards_dict
+EnergyMaterial.from_standards_dict = \
+    classmethod(material_opaque.from_standards_dict)
+EnergyMaterialNoMass.from_standards_dict = \
+    classmethod(material_opaque.no_mass_from_standards_dict)
+EnergyWindowMaterialGlazing.from_standards_dict = \
+    classmethod(material_glazing.from_standards_dict)
+EnergyWindowMaterialSimpleGlazSys.from_standards_dict = \
+    classmethod(material_glazing.simple_from_standards_dict)
+EnergyWindowMaterialGas.from_standards_dict = \
+    classmethod(material_gas.from_standards_dict)
+OpaqueConstruction.from_standards_dict = \
+    classmethod(construction_opaque.from_standards_dict)
+WindowConstruction.from_standards_dict = \
+    classmethod(window_opaque.from_standards_dict)
+ConstructionSet.from_standards_dict = \
+    classmethod(constructionset.from_standards_dict)
+ScheduleDay.from_standards_dict = \
+    classmethod(schedule_day.from_standards_dict)
+ScheduleRuleset.from_standards_dict = \
+    classmethod(schedule_ruleset.from_standards_dict)
+ProgramType.from_standards_dict = \
+    classmethod(programtype.from_standards_dict)
 
 
 # extend the 'object_by_name' methods within the honeybee_energy.lib
