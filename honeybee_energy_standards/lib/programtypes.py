@@ -17,6 +17,13 @@ for vintage in _vintages:
     with open(_prog_vintage_dir, 'r') as f:
         _program_type_standards_dict.update(json.load(f))
 
+# import the registry such that people can easily look up ProgramTypes
+STANDARDS_REGISTRY = {}
+for vintage in _vintages:
+    _prog_vintage_dir = os.path.join(_prog_dir, '{}_registry.json'.format(vintage))
+    with open(_prog_vintage_dir, 'r') as f:
+        STANDARDS_REGISTRY[vintage] = json.load(f)
+
 
 def program_type_by_name(program_type_name):
     """Get a program_type from the library given its name.
