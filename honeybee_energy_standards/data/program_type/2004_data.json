@@ -6152,9 +6152,9 @@
     "cooling_setpoint_schedule": "HotelSmall CommonArea_ClgSP_Sch",
     "service_water_heating_peak_flow_per_area": ""
   },
-  "2004::SmallHotel::GuestRoom123Occ": {
+  "2004::SmallHotel::GuestRoomOcc": {
     "building_type": "SmallHotel",
-    "space_type": "2004::SmallHotel::GuestRoom123Occ",
+    "space_type": "2004::SmallHotel::GuestRoomOcc",
     "template": "90.1-2004",
     "lighting_standard": "ASHRAE 90.1-2004",
     "lighting_primary_space_type": "Hotel/Motel",
@@ -6193,9 +6193,9 @@
     "service_water_heating_fraction_latent": 0.05,
     "service_water_heating_schedule": "HotelSmall GuestRoom_SHW_Sch"
   },
-  "2004::SmallHotel::GuestRoom123Vac": {
+  "2004::SmallHotel::GuestRoomVac": {
     "building_type": "SmallHotel",
-    "space_type": "2004::SmallHotel::GuestRoom123Vac",
+    "space_type": "2004::SmallHotel::GuestRoomVac",
     "template": "90.1-2004",
     "lighting_standard": "ASHRAE 90.1-2004",
     "lighting_primary_space_type": "Hotel/Motel",

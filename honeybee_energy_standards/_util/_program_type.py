@@ -85,6 +85,8 @@ def clean_space_types(source_filename, dest_directory, vintage):
                 'Strip mall - type 1': 'Type 1',
                 'Strip mall - type 2': 'Type 2',
                 'Strip mall - type 3': 'Type 3',
+                'GuestRoom123Occ': 'GuestRoomOcc',
+                'GuestRoom123Vac': 'GuestRoomVac',
                 'HospitalOfficeFlr1': 'HospitalOffice'}
 
     # initialize the clean dictionaries
