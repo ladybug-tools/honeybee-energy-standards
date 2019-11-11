@@ -42,5 +42,6 @@ def program_type_by_name(program_type_name):
 
     # create the Python object from the standards gem dictionary
     _prog_obj = ProgramType.from_standards_dict(_prog_dict)
+    _prog_obj.lock()
     _json_program_types[program_type_name] = _prog_obj  # load faster next time
     return _prog_obj

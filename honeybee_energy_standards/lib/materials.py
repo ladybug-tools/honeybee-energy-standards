@@ -45,6 +45,7 @@ def opaque_material_by_name(material_name):
     else:
         raise ValueError('Standards gem material type "{}" is not recognized.'.format(
             _mat_dict['material_type']))
+    _mat_obj.lock()
     _idf_opaque_materials[material_name] = _mat_obj  # next time, it will be loaded faster
     return _mat_obj
 
@@ -75,5 +76,6 @@ def window_material_by_name(material_name):
     else:
         raise ValueError('Standards gem material type "{}" is not recognized.'.format(
             _mat_dict['material_type']))
+    _mat_obj.lock()
     _idf_window_materials[material_name] = _mat_obj  # next time, it will be loaded faster
     return _mat_obj

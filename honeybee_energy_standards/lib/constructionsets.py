@@ -35,5 +35,6 @@ def construction_set_by_name(construction_set_name):
 
     # create the Python object from the standards gem dictionary
     _c_set_obj = ConstructionSet.from_standards_dict(_c_set_dict)
+    _c_set_obj.lock()
     _json_construction_sets[construction_set_name] = _c_set_obj  # load faster next time
     return _c_set_obj

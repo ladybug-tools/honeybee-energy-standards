@@ -37,6 +37,7 @@ def opaque_construction_by_name(construction_name):
 
     # create the Python object from the standards gem dictionary
     _constr_obj = OpaqueConstruction.from_standards_dict(_constr_dict)
+    _constr_obj.lock()
     _idf_opaque_constructions[construction_name] = _constr_obj  # load faster next time
     return _constr_obj
 
@@ -59,5 +60,6 @@ def window_construction_by_name(construction_name):
 
     # create the Python object from the standards gem dictionary
     _constr_obj = WindowConstruction.from_standards_dict(_constr_dict)
+    _constr_obj.lock()
     _idf_window_constructions[construction_name] = _constr_obj  # load faster next time
     return _constr_obj
