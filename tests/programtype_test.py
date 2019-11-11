@@ -1,9 +1,18 @@
 # coding=utf-8
+from honeybee.room import Room
+from honeybee.model import Model
+from  honeybee.boundarycondition import boundary_conditions
+
 from honeybee_energy.programtype import ProgramType
 import honeybee_energy.lib.programtypes as prog_type_lib
+from honeybee_energy.idealair import IdealAirSystem
+from honeybee_energy.load.setpoint import Setpoint
 
 from honeybee_energy_standards.lib.programtypes import STANDARDS_REGISTRY
 
+from ladybug_geometry.geometry3d.pointvector import Vector3D
+
+import json
 import pytest
 
 
@@ -103,3 +112,53 @@ def test_program_type_registry():
                 prog_type_name = '{}::{}::{}'.format(vintage, bldg_type, room_type)
                 prog_from_lib = prog_type_lib.program_type_by_name(prog_type_name)
                 assert isinstance(prog_from_lib, ProgramType)
+
+
+def test_model_to_dict_with_program_type():
+    """Test Model.to_dict() with standards-assigned ProgramTypes."""
+    pat_room_program = prog_type_lib.program_type_by_name('2013::Hospital::ICU_PatRm')
+    room = Room.from_box('Hospital Patient Room', 5, 10, 3)
+    room.properties.energy.program_type = pat_room_program
+
+    ideal_air = IdealAirSystem()
+    ideal_air.economizer_type = 'DifferentialEnthalpy'
+    ideal_air.sensible_heat_recovery = 0.81
+    ideal_air.latent_heat_recovery = 0.68
+    room.properties.energy.hvac = ideal_air
+
+    pat_rm_setpoint = room.properties.energy.setpoint.duplicate()
+    pat_rm_setpoint.name = 'Humidity Controlled PatRm Setpt'
+    pat_rm_setpoint.heating_setpoint = 21
+    pat_rm_setpoint.cooling_setpoint = 24
+    pat_rm_setpoint.humidifying_setpoint = 30
+    pat_rm_setpoint.dehumidifying_setpoint = 55
+    room.properties.energy.setpoint = pat_rm_setpoint
+
+    south_face = room[3]
+    south_face.apertures_by_ratio(0.4, 0.01)
+    south_face.apertures[0].overhang(0.5, indoor=False)
+    south_face.move_shades(Vector3D(0, 0, -0.5))
+
+    room[0].boundary_condition = boundary_conditions.adiabatic
+    room[1].boundary_condition = boundary_conditions.adiabatic
+    room[2].boundary_condition = boundary_conditions.adiabatic
+    room[4].boundary_condition = boundary_conditions.adiabatic
+    room[5].boundary_condition = boundary_conditions.adiabatic
+
+    model = Model('Patient Room Test Box', [room])
+    model_dict = model.to_dict()
+
+    assert model_dict['properties']['energy']['program_types'][0]['name'] == \
+        '2013::Hospital::ICU_PatRm'
+    assert model_dict['rooms'][0]['properties']['energy']['program_type'] == \
+        '2013::Hospital::ICU_PatRm'
+    assert 'setpoint' in model_dict['rooms'][0]['properties']['energy']
+    assert model_dict['rooms'][0]['properties']['energy']['setpoint']['name'] == \
+        'Humidity Controlled PatRm Setpt'
+
+    """
+    f_dir = 'C:/Users/chris/Documents/GitHub/energy-model-schema/app/models/samples/json'
+    dest_file = f_dir + '/model_with_humidty_setpoints.json'
+    with open(dest_file, 'w') as fp:
+        json.dump(model_dict, fp, indent=4)
+    """

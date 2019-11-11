@@ -33,5 +33,6 @@ def schedule_by_name(schedule_name):
 
     # create the Python object from the standards gem dictionary
     _sched_obj = ScheduleRuleset.from_standards_dict(_sched_dict)
+    _sched_obj.lock()
     _idf_schedules[schedule_name] = _sched_obj  # load faster next time
     return _sched_obj
