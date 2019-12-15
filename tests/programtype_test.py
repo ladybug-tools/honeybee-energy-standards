@@ -158,7 +158,7 @@ def test_model_to_dict_with_program_type():
 
     """
     f_dir = 'C:/Users/chris/Documents/GitHub/energy-model-schema/app/models/samples/json'
-    dest_file = f_dir + '/model_with_humidty_setpoints.json'
+    dest_file = f_dir + '/model_with_humidity_setpoints.json'
     with open(dest_file, 'w') as fp:
         json.dump(model_dict, fp, indent=4)
     """

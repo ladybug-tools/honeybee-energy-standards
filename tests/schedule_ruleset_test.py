@@ -26,7 +26,7 @@ def test_schedule_from_standards_dict():
 
     """
     f_dir = 'C:/Users/chris/Documents/GitHub/energy-model-schema/app/models/samples/json'
-    dest_file = f_dir + '/schedule_office_occupancy.json'
+    dest_file = f_dir + '/schedule_ruleset_office_occupancy.json'
     with open(dest_file, 'w') as fp:
         json.dump(office_sch.to_dict(True), fp, indent=4)
     """
