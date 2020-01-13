@@ -5,7 +5,6 @@ from  honeybee.boundarycondition import boundary_conditions
 
 from honeybee_energy.programtype import ProgramType
 import honeybee_energy.lib.programtypes as prog_type_lib
-from honeybee_energy.idealair import IdealAirSystem
 from honeybee_energy.load.setpoint import Setpoint
 
 from honeybee_energy_standards.lib.programtypes import STANDARDS_REGISTRY
@@ -120,7 +119,8 @@ def test_model_to_dict_with_program_type():
     room = Room.from_box('Hospital Patient Room', 5, 10, 3)
     room.properties.energy.program_type = pat_room_program
 
-    ideal_air = IdealAirSystem()
+    room.properties.energy.add_default_ideal_air()
+    ideal_air = room.properties.energy.hvac.duplicate()
     ideal_air.economizer_type = 'DifferentialEnthalpy'
     ideal_air.sensible_heat_recovery = 0.81
     ideal_air.latent_heat_recovery = 0.68
@@ -155,10 +155,11 @@ def test_model_to_dict_with_program_type():
     assert 'setpoint' in model_dict['rooms'][0]['properties']['energy']
     assert model_dict['rooms'][0]['properties']['energy']['setpoint']['name'] == \
         'Humidity Controlled PatRm Setpt'
+    assert 'hvac' in model_dict['rooms'][0]['properties']['energy']
 
     """
-    f_dir = 'C:/Users/chris/Documents/GitHub/energy-model-schema/app/models/samples/json'
-    dest_file = f_dir + '/model_with_humidity_setpoints.json'
+    f_dir = 'C:/Users/chris/Documents/GitHub/honeybee-schema/honeybee_schema/samples'
+    dest_file = f_dir + '/model_complete_with_humidity_setpoints.json'
     with open(dest_file, 'w') as fp:
         json.dump(model_dict, fp, indent=4)
     """
