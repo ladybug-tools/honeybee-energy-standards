@@ -11,7 +11,6 @@ from honeybee_energy_standards.lib.programtypes import STANDARDS_REGISTRY
 
 from ladybug_geometry.geometry3d.pointvector import Vector3D
 
-import json
 import pytest
 
 
@@ -156,10 +155,3 @@ def test_model_to_dict_with_program_type():
     assert model_dict['rooms'][0]['properties']['energy']['setpoint']['name'] == \
         'Humidity Controlled PatRm Setpt'
     assert 'hvac' in model_dict['rooms'][0]['properties']['energy']
-
-    """
-    f_dir = 'C:/Users/chris/Documents/GitHub/honeybee-schema/honeybee_schema/samples'
-    dest_file = f_dir + '/model_complete_with_humidity_setpoints.json'
-    with open(dest_file, 'w') as fp:
-        json.dump(model_dict, fp, indent=4)
-    """
