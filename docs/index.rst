@@ -1,5 +1,5 @@
 Welcome to honeybee-energy-standards's documentation!
-===================================
+=====================================================
 
 .. toctree::
    :maxdepth: 2
