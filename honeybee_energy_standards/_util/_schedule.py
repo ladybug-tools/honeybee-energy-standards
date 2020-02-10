@@ -10,23 +10,24 @@ def clean_schedules(source_filename, dest_directory):
     """Process the OpenStudio Standards Schedule dictionary and write out a clean version.
 
     Specifically, this method performs 3 cleaning operations:
-        * Output resulting dictionary in a format with the name of the ScheduleRuleset
-            as the key and a list of the relevant ScheduleDay dictionaries as values.
-        * Remove meaningless Hour:Minute:Second from the dates over which to apply
-            individual schedule rules and remove the year as well.
-        * Fix schedule values lists that do not have the correct number of values (this
-            should be either 1 or 24 but some appear to have 2).
-        * Remove all 'DummySmrDsn' and 'DummrySmrDsn' rules (I think the second one might
-            be a typo but there's one in the gem now).
-        * Fix the 'WtrDsn' typo (it should be 'WntrDsn' like all of the other schedules).
-        * Un-indent lists of schedule day values, which results in better readability and
-            a significantly smaller file size.
+
+    * Output resulting dictionary in a format with the name of the ScheduleRuleset
+        as the key and a list of the relevant ScheduleDay dictionaries as values.
+    * Remove meaningless Hour:Minute:Second from the dates over which to apply
+        individual schedule rules and remove the year as well.
+    * Fix schedule values lists that do not have the correct number of values (this
+        should be either 1 or 24 but some appear to have 2).
+    * Remove all 'DummySmrDsn' and 'DummrySmrDsn' rules (I think the second one might
+        be a typo but there's one in the gem now).
+    * Fix the 'WtrDsn' typo (it should be 'WntrDsn' like all of the other schedules).
+    * Un-indent lists of schedule day values, which results in better readability and
+        a significantly smaller file size.
 
     Args:
         source_filename: The full path to the schedule JSON in the OpenStudio
             standards gem. If the standards gem repo has been downloaded to one's
             machine this file is likely in a location like the following:
-                C:/Users/[USERNAME]/Documents/GitHub/openstudio-standards/lib/
+                C:/Users/[USERNAME]/Documents/GitHub/openstudio-standards/lib/\
                 openstudio-standards/standards/ashrae_90_1/data/ashrae_90_1.schedules.json
         dest_directory: The destination directory into which clean JSONs will be written.
             If you are trying to update the files within the honeybee_standards repo,
@@ -34,7 +35,7 @@ def clean_schedules(source_filename, dest_directory):
                 C:/Users/[USERNAME]/Documents/GitHub/honeybee-standards/honeybee_standards/data/
 
     Returns:
-        dest_file_path: The file path to the clean JSON.
+        dest_file_path -- The file path to the clean JSON.
     """
     # list of all the day types to remove
     _remove_day_types = ('DummySmrDsn', 'DummrySmrDsn')

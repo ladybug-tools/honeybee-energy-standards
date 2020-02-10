@@ -8,34 +8,38 @@ def clean_space_types(source_filename, dest_directory, vintage):
     """Process an OpenStudio Standards Space Type dictionary and write out a clean version.
 
     Specifically, this method performs 3 cleaning operations:
-        * Discount odd space types that are not generally applicable but are intsead
-            specific to a particular DoE reference building. (eg. 'Apartment_topfloor_NS')
-        * Rename space types that use naming conventions that are not consistent with the
-            other space types (eg. 'Courthouse - Conference' instead of 'Conference')
-        * Reorganizing the 'Office' building type to be 3 separate types:
-            'LargeOffice', 'MediumOffice', 'SmallOffice'.
+
+    * Discount odd space types that are not generally applicable but are intsead
+        specific to a particular DoE reference building. (eg. 'Apartment_topfloor_NS')
+    * Rename space types that use naming conventions that are not consistent with the
+        other space types (eg. 'Courthouse - Conference' instead of 'Conference')
+    * Reorganizing the 'Office' building type to be 3 separate types:
+        'LargeOffice', 'MediumOffice', 'SmallOffice'.
 
     Args:
         source_filename: The full path to the space type JSON in the OpenStudio
             standards gem. If the standards gem repo has been downloaded to
             one's machine this file is likely in a location like the following:
-                C:/Users/[USERNAME]/Documents/GitHub/openstudio-standards/lib/
-                openstudio-standards/standards/ashrae_90_1/ashrae_90_1_2013/data/
+                C:/Users/[USERNAME]/Documents/GitHub/openstudio-standards/lib/\
+                openstudio-standards/standards/ashrae_90_1/ashrae_90_1_2013/data/\
                 ashrae_90_1_2013.spc_typ.json
         dest_directory: The destination directory into which clean JSONs will be written.
             If you are trying to update the files within the honeybee_standards repo,
             you likely want to write to the following location:
-                C:/Users/[USERNAME]/Documents/GitHub/honeybee-standards/honeybee_standards/
+                C:/Users/[USERNAME]/Documents/GitHub/honeybee-standards/honeybee_standards/\
                 data/program_type/
         vintage: Text for the vintage of the data to which the space types correspond to.
             Typically, this should be a shortened version of the full name of a standard.
             (eg. '2013' for 'Ashrae 90.1 2013')
 
     Returns:
-        program_type_registry: Path to a JSON file containing the final included
+        A tuple with two elements
+
+        -   program_type_registry: Path to a JSON file containing the final included
             ProgramType names organized by building type. This is meant to be a
             human-readable file that documents all ProgramTypes that are available.
-        program_type: Path to a JSON file containing the cleaned JSON with all relevant
+
+        -   program_type: Path to a JSON file containing the cleaned JSON with all relevant
             data. Each ProgramType has the clean, unique ProgramType name as a key and
             the value is the dictionary representation of all the ProgramType data.
     """
@@ -157,6 +161,7 @@ def clean_individual_type(vintage, building_type, space_type, data):
     """Clean the dictionary of an individual space type.
 
     Specifically, this method performs 2 cleaning operations:
+
     * Replacing the name of the dictionary with a unique name.
     * Removing all None values from the dictionary.
 
@@ -167,8 +172,11 @@ def clean_individual_type(vintage, building_type, space_type, data):
         data: JSON data for the space type.
 
     Return:
-        unique_name: The new unique name for the ProgramType.
-        clean_data: A clean dictionary.
+        A tuple with two elements
+
+        -   unique_name: The new unique name for the ProgramType.
+
+        -   clean_data: A clean dictionary.
     """
     unique_name = '{}::{}::{}'.format(vintage, building_type, space_type)
     clean_data = {'building_type': building_type,

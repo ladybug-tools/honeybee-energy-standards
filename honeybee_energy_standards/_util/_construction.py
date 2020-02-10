@@ -8,31 +8,35 @@ def clean_constructions(source_filename, dest_directory):
     """Process the OpenStudio Standards Construction dictionary and write a clean version.
 
     Specifically, this method performs the following cleaning operations:
-        * Output resulting dictionary in a format with the name of the Construction
-            as the key and the dictionary of the construction properties as the values.
-        * Remove keys from the construction that are not used by honeybee including:
-            'insulation_layer', 'standards_construction_type', 'skylight_framing'.
-        * Discount odd constructions that are not generally applicable but are intsead
-            specific to a DoE reference building. (eg. 'LargeHotel Interior Ceiling')
-        * Remove the few constructions that do not have supporting materials in the
-            nearby material.json. Note that this removal will not be performed if there
-            is no neightboring material.json next to where the constructions.json will
-            be output.
+
+    * Output resulting dictionary in a format with the name of the Construction
+        as the key and the dictionary of the construction properties as the values.
+    * Remove keys from the construction that are not used by honeybee including:
+        'insulation_layer', 'standards_construction_type', 'skylight_framing'.
+    * Discount odd constructions that are not generally applicable but are intsead
+        specific to a DoE reference building. (eg. 'LargeHotel Interior Ceiling')
+    * Remove the few constructions that do not have supporting materials in the
+        nearby material.json. Note that this removal will not be performed if there
+        is no neightboring material.json next to where the constructions.json will
+        be output.
 
     Args:
         source_filename: The full path to the construction JSON in the OpenStudio
             standards gem. If the standards gem repo has been downloaded to one's
             machine this file is likely in a location like the following:
-                C:/Users/[USERNAME]/Documents/GitHub/openstudio-standards/lib/
-                openstudio-standards/standards/ashrae_90_1/data/ashrae_90_1.constructions.json
+                C:/Users/[USERNAME]/Documents/GitHub/openstudio-standards/lib/\
+openstudio-standards/standards/ashrae_90_1/data/ashrae_90_1.constructions.json
         dest_directory: The destination directory into which clean JSONs will be written.
             If you are trying to update the files within the honeybee_standards repo,
             you likely want to write to the following location:
                 C:/Users/[USERNAME]/Documents/GitHub/honeybee-standards/honeybee_standards/data/
 
     Returns:
-        opaque_dest_file_path: The file path to the clean JSON with opaque materials.
-        window_dest_file_path: The file path to the clean JSON with window materials.
+        A tuple with two elements
+
+        -   opaque_dest_file_path -- The file path to the clean JSON with opaque materials.
+
+        -   window_dest_file_path: The file path to the clean JSON with window materials.
     """
     # list all edits to be made from the original file
     _remove_keys = ('insulation_layer', 'standards_construction_type', 'skylight_framing')
