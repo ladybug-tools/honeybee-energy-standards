@@ -12,11 +12,15 @@ def clean_construction_sets(source_filename, dest_directory, vintage,
     """Clean the OpenStudio Standards Construction Properties dictionary.
 
     Specifically, this method performs the following major cleaning operations:
+
     * Classify the individual construction properties into complete ConstructionSets
         oranized by Climate Zone and Construction Type. These include:
-            * climate zones: (1, 2, 3, 4, 5, 6, 7, 8)
-            * construction types: ('SteelFramed', 'WoodFramed', 'Mass', 'MetalBuilding')
+
+        * climate zones: (1, 2, 3, 4, 5, 6, 7, 8)
+        * construction types: ('SteelFramed', 'WoodFramed', 'Mass', 'MetalBuilding'
+
         This entails the following default assumptions:
+
             * When multiple constructions exist for a given construction type, this
                 method will default to the NonResidential building type and ignore
                 the Residential and Semiheated building types.
@@ -33,6 +37,7 @@ def clean_construction_sets(source_filename, dest_directory, vintage,
                 or 'Without Curb'.
             * When multiple variations of a given climate zone number exist for a given
                 zone (ie. 3A, 3B, 3C) prefernce will be given to A.
+
     * Output resulting dictionary in a format with the name of the ConstructionSet
         as the key and the dictionary of the constructions as the values.
 
@@ -40,13 +45,13 @@ def clean_construction_sets(source_filename, dest_directory, vintage,
         source_filename: The full path to the construction properties JSON in the
             OpenStudio standards gem. If the standards gem repo has been downloaded
             to one's machine this file is likely in a location like the following:
-                C:/Users/[USERNAME]/Documents/GitHub/openstudio-standards/lib/
-                openstudio-standards/standards/ashrae_90_1/ashrae_90_1_2013/data/
-                ashrae_90_1_2013.construction_properties.json
+                C:/Users/[USERNAME]/Documents/GitHub/openstudio-standards/lib/\
+openstudio-standards/standards/ashrae_90_1/ashrae_90_1_2013/data/\
+ashrae_90_1_2013.construction_properties.json
         dest_directory: The destination directory into which clean JSONs will be written.
             If you are trying to update the files within the honeybee_standards repo,
             you likely want to write to the following location:
-                C:/Users/[USERNAME]/Documents/GitHub/honeybee-standards/honeybee_standards/
+                C:/Users/[USERNAME]/Documents/GitHub/honeybee-standards/honeybee_standards/\
                 data/construction_set
         vintage: Text for the vintage of the data to which the space types correspond to.
             Typically, this should be a shortened version of the full name of a standard.
@@ -58,7 +63,7 @@ def clean_construction_sets(source_filename, dest_directory, vintage,
             will be used to determin target resistances
 
     Returns:
-        dest_file_path: The file path to the clean JSON.
+        dest_file_path -- The file path to the clean JSON.
     """
     # initialize the clean dictionary
     constr_set_dict = {}

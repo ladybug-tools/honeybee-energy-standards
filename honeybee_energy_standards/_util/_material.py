@@ -8,6 +8,7 @@ def clean_materials(source_filename, dest_directory):
     """Process the OpenStudio Standards Material dictionary and write out a clean version.
 
     Specifically, this method performs the following cleaning operations:
+
         * Output resulting dictionary in a format with the name of the Material
             as the key and the dictionary of the material properties as the values.
         * Remove all material properties with None values. This reduces the file size
@@ -24,16 +25,19 @@ def clean_materials(source_filename, dest_directory):
         source_filename: The full path to the material JSON in the OpenStudio
             standards gem. If the standards gem repo has been downloaded to one's
             machine this file is likely in a location like the following:
-                C:/Users/[USERNAME]/Documents/GitHub/openstudio-standards/lib/
-                openstudio-standards/standards/ashrae_90_1/data/ashrae_90_1.materials.json
+                C:/Users/[USERNAME]/Documents/GitHub/openstudio-standards/lib/\
+openstudio-standards/standards/ashrae_90_1/data/ashrae_90_1.materials.json
         dest_directory: The destination directory into which clean JSONs will be written.
             If you are trying to update the files within the honeybee_standards repo,
             you likely want to write to the following location:
                 C:/Users/[USERNAME]/Documents/GitHub/honeybee-standards/honeybee_standards/data/
 
     Returns:
-        opaque_dest_file_path: The file path to the clean JSON with opaque materials.
-        window_dest_file_path: The file path to the clean JSON with window materials.
+        A tuple with two elements
+
+        -   opaque_dest_file_path: The file path to the clean JSON with opaque materials.
+
+        -   window_dest_file_path: The file path to the clean JSON with window materials.
     """
     # types of materials (to help organize opaque materials from window ones)
     opaque_types = ('StandardOpaqueMaterial', 'MasslessOpaqueMaterial', 'AirGap')
