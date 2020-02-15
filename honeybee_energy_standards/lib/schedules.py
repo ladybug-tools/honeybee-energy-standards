@@ -2,7 +2,7 @@
 """Extend the honeybee_energy schedule library."""
 from honeybee_energy.schedule.ruleset import ScheduleRuleset
 
-from honeybee_energy.lib.schedules import _idf_schedules
+from honeybee_energy.lib.schedules import _schedules
 
 import os
 import json
@@ -26,7 +26,7 @@ def schedule_by_name(schedule_name):
         schedule_name: A text string for the name of the schedule.
     """
     try:
-        return _idf_schedules[schedule_name]
+        return _schedules[schedule_name]
     except KeyError:
         try:
             _sched_dict = _schedule_standards_dict[schedule_name]
@@ -37,5 +37,5 @@ def schedule_by_name(schedule_name):
     # create the Python object from the standards gem dictionary
     _sched_obj = ScheduleRuleset.from_standards_dict(_sched_dict)
     _sched_obj.lock()
-    _idf_schedules[schedule_name] = _sched_obj  # load faster next time
+    _schedules[schedule_name] = _sched_obj  # load faster next time
     return _sched_obj

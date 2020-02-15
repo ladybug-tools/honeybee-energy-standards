@@ -1,6 +1,6 @@
 """Extend the honeybee_energy constructionsets library."""
 from honeybee_energy.constructionset import ConstructionSet
-from honeybee_energy.lib.constructionsets import _json_construction_sets
+from honeybee_energy.lib.constructionsets import _construction_sets
 
 import os
 import json
@@ -28,7 +28,7 @@ def construction_set_by_name(construction_set_name):
         construction_set_name: A text string for the name of the ConstructionSet.
     """
     try:  # see if the program type has already been loaded to a Python object
-        return _json_construction_sets[construction_set_name]
+        return _construction_sets[construction_set_name]
     except KeyError:  # construction set likely needs to be loaded from standards data
         try:
             _c_set_dict = _construction_set_standards_dict[construction_set_name]
@@ -39,5 +39,5 @@ def construction_set_by_name(construction_set_name):
     # create the Python object from the standards gem dictionary
     _c_set_obj = ConstructionSet.from_standards_dict(_c_set_dict)
     _c_set_obj.lock()
-    _json_construction_sets[construction_set_name] = _c_set_obj  # load faster next time
+    _construction_sets[construction_set_name] = _c_set_obj  # load faster next time
     return _c_set_obj

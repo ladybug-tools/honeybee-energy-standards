@@ -1,6 +1,6 @@
 """Extend the honeybee_energy programtypes library."""
 from honeybee_energy.programtype import ProgramType
-from honeybee_energy.lib.programtypes import _json_program_types
+from honeybee_energy.lib.programtypes import _program_types
 
 import os
 import json
@@ -38,7 +38,7 @@ def program_type_by_name(program_type_name):
         program_type_name: A text string for the name of the ProgramType.
     """
     try:  # see if the program type has already been loaded to a Python object
-        return _json_program_types[program_type_name]
+        return _program_types[program_type_name]
     except KeyError:  # program type likely needs to be loaded from standards data
         try:
             _prog_dict = _program_type_standards_dict[program_type_name]
@@ -49,5 +49,5 @@ def program_type_by_name(program_type_name):
     # create the Python object from the standards gem dictionary
     _prog_obj = ProgramType.from_standards_dict(_prog_dict)
     _prog_obj.lock()
-    _json_program_types[program_type_name] = _prog_obj  # load faster next time
+    _program_types[program_type_name] = _prog_obj  # load faster next time
     return _prog_obj

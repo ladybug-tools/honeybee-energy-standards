@@ -3,7 +3,7 @@ from honeybee_energy.material.opaque import EnergyMaterial, EnergyMaterialNoMass
 from honeybee_energy.material.glazing import EnergyWindowMaterialGlazing, \
     EnergyWindowMaterialSimpleGlazSys
 from honeybee_energy.material.gas import EnergyWindowMaterialGas
-from honeybee_energy.lib.materials import _idf_opaque_materials, _idf_window_materials
+from honeybee_energy.lib.materials import _opaque_materials, _window_materials
 
 import os
 import json
@@ -34,7 +34,7 @@ def opaque_material_by_name(material_name):
         material_name: A text string for the name of the material.
     """
     try:  # see if the material has already been loaded to a Python object
-        return _idf_opaque_materials[material_name]
+        return _opaque_materials[material_name]
     except KeyError:  # material likely needs to be loaded from standards data
         try:
             _mat_dict = _opaque_standards_dict[material_name]
@@ -52,7 +52,7 @@ def opaque_material_by_name(material_name):
         raise ValueError('Standards gem material type "{}" is not recognized.'.format(
             _mat_dict['material_type']))
     _mat_obj.lock()
-    _idf_opaque_materials[material_name] = _mat_obj  # next time, it will be loaded faster
+    _opaque_materials[material_name] = _mat_obj  # next time, it will be loaded faster
     return _mat_obj
 
 
@@ -63,7 +63,7 @@ def window_material_by_name(material_name):
         material_name: A text string for the name of the material.
     """
     try:  # see if the material has already been loaded to a Python object
-        return _idf_window_materials[material_name]
+        return _window_materials[material_name]
     except KeyError:  # material likely needs to be loaded from standards data
         try:
             _mat_dict = _window_standards_dict[material_name]
@@ -83,5 +83,5 @@ def window_material_by_name(material_name):
         raise ValueError('Standards gem material type "{}" is not recognized.'.format(
             _mat_dict['material_type']))
     _mat_obj.lock()
-    _idf_window_materials[material_name] = _mat_obj  # next time, it will be loaded faster
+    _window_materials[material_name] = _mat_obj  # next time, it will be loaded faster
     return _mat_obj
