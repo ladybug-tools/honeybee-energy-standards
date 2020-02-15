@@ -8,15 +8,21 @@ import json
 
 
 # load the standards gem data of construction to Python dictionaries.
-_data_dir = os.path.join(os.path.dirname(__file__), '../data')
+_data_dir = os.path.join(os.path.dirname(__file__), '../standards_data')
 
-_opaque_dir = os.path.join(_data_dir, 'opaque_construction.json')
-with open(_opaque_dir, 'r') as f:
-    _opaque_constr_standards_dict = json.load(f)
+try:
+    _opaque_dir = os.path.join(_data_dir, 'opaque_construction.json')
+    with open(_opaque_dir, 'r') as f:
+        _opaque_constr_standards_dict = json.load(f)
+except FileNotFoundError:
+    _opaque_constr_standards_dict = {}
 
-_window_dir = os.path.join(_data_dir, 'window_construction.json')
-with open(_window_dir, 'r') as f:
-    _window_constr_standards_dict = json.load(f)
+try:
+    _window_dir = os.path.join(_data_dir, 'window_construction.json')
+    with open(_window_dir, 'r') as f:
+        _window_constr_standards_dict = json.load(f)
+except FileNotFoundError:
+    _window_constr_standards_dict = {}
 
 
 def opaque_construction_by_name(construction_name):

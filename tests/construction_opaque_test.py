@@ -1,5 +1,6 @@
 # coding=utf-8
 from honeybee_energy.construction.opaque import OpaqueConstruction
+from honeybee_energy.construction.air import AirBoundaryConstruction
 import honeybee_energy.lib.constructions as constr_lib
 
 import pytest
@@ -39,4 +40,4 @@ def test_opaque_material_by_name():
     """Test that all of the constructions in the library can be loaded by name."""
     for constr in constr_lib.OPAQUE_CONSTRUCTIONS:
         constr_from_lib = constr_lib.opaque_construction_by_name(constr)
-        assert isinstance(constr_from_lib, OpaqueConstruction)
+        assert isinstance(constr_from_lib, (OpaqueConstruction, AirBoundaryConstruction))

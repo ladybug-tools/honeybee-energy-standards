@@ -1,1 +1,0 @@
-"""ConstructionSet data."""

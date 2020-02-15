@@ -9,11 +9,14 @@ import json
 
 
 # load the standards gem data of schedules to Python dictionaries.
-_data_dir = os.path.join(os.path.dirname(__file__), '../data')
+_data_dir = os.path.join(os.path.dirname(__file__), '../standards_data')
 
-_schedule_dir = os.path.join(_data_dir, 'schedule.json')
-with open(_schedule_dir, 'r') as f:
-    _schedule_standards_dict = json.load(f)
+try:
+    _schedule_dir = os.path.join(_data_dir, 'schedule.json')
+    with open(_schedule_dir, 'r') as f:
+        _schedule_standards_dict = json.load(f)
+except FileNotFoundError:
+    _schedule_standards_dict = {}
 
 
 def schedule_by_name(schedule_name):
