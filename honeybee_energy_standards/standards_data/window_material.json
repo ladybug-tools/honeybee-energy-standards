@@ -1,0 +1,2024 @@
+{
+  "AIR 13MM": {
+    "name": "AIR 13MM",
+    "material_type": "Gas",
+    "thickness": 0.5,
+    "gas_type": "Air"
+  },
+  "AIR 3MM": {
+    "name": "AIR 3MM",
+    "material_type": "Gas",
+    "thickness": 0.125984251968503,
+    "gas_type": "Air"
+  },
+  "AIR 6MM": {
+    "name": "AIR 6MM",
+    "material_type": "Gas",
+    "thickness": 0.248031496062992,
+    "gas_type": "Air"
+  },
+  "ARGON 13MM": {
+    "name": "ARGON 13MM",
+    "material_type": "Gas",
+    "thickness": 0.5,
+    "gas_type": "Argon"
+  },
+  "BLUE 6MM": {
+    "name": "BLUE 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.48,
+    "front_side_solar_reflectance_at_normal_incidence": 0.05,
+    "back_side_solar_reflectance_at_normal_incidence": 0.05,
+    "visible_transmittance_at_normal_incidence": 0.57,
+    "front_side_visible_reflectance_at_normal_incidence": 0.06,
+    "back_side_visible_reflectance_at_normal_incidence": 0.06,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.84,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "BRONZE 6MM": {
+    "name": "BRONZE 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.482,
+    "front_side_solar_reflectance_at_normal_incidence": 0.054,
+    "back_side_solar_reflectance_at_normal_incidence": 0.054,
+    "visible_transmittance_at_normal_incidence": 0.534,
+    "front_side_visible_reflectance_at_normal_incidence": 0.057,
+    "back_side_visible_reflectance_at_normal_incidence": 0.057,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.84,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "CLEAR 2.5MM": {
+    "name": "CLEAR 2.5MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.0984251968503937,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.8,
+    "front_side_solar_reflectance_at_normal_incidence": 0.075,
+    "back_side_solar_reflectance_at_normal_incidence": 0.075,
+    "visible_transmittance_at_normal_incidence": 0.901,
+    "front_side_visible_reflectance_at_normal_incidence": 0.081,
+    "back_side_visible_reflectance_at_normal_incidence": 0.081,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.84,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "CLEAR 3MM": {
+    "name": "CLEAR 3MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.118110236220472,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.837,
+    "front_side_solar_reflectance_at_normal_incidence": 0.075,
+    "back_side_solar_reflectance_at_normal_incidence": 0.075,
+    "visible_transmittance_at_normal_incidence": 0.898,
+    "front_side_visible_reflectance_at_normal_incidence": 0.081,
+    "back_side_visible_reflectance_at_normal_incidence": 0.081,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.84,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "CLEAR 6MM": {
+    "name": "CLEAR 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.775,
+    "front_side_solar_reflectance_at_normal_incidence": 0.071,
+    "back_side_solar_reflectance_at_normal_incidence": 0.071,
+    "visible_transmittance_at_normal_incidence": 0.881,
+    "front_side_visible_reflectance_at_normal_incidence": 0.08,
+    "back_side_visible_reflectance_at_normal_incidence": 0.08,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.84,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "COATED POLY-55": {
+    "name": "COATED POLY-55",
+    "material_type": "StandardGlazing",
+    "thickness": 0.0200787401574803,
+    "conductivity": 0.970686051792237,
+    "resistance": 1.03019920617344,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.32,
+    "front_side_solar_reflectance_at_normal_incidence": 0.582,
+    "back_side_solar_reflectance_at_normal_incidence": 0.593,
+    "visible_transmittance_at_normal_incidence": 0.551,
+    "front_side_visible_reflectance_at_normal_incidence": 0.336,
+    "back_side_visible_reflectance_at_normal_incidence": 0.375,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.046,
+    "back_side_infrared_hemispherical_emissivity": 0.72,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "COATED POLY-77": {
+    "name": "COATED POLY-77",
+    "material_type": "StandardGlazing",
+    "thickness": 0.0200787401574803,
+    "conductivity": 0.970686051792237,
+    "resistance": 1.03019920617344,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.504,
+    "front_side_solar_reflectance_at_normal_incidence": 0.402,
+    "back_side_solar_reflectance_at_normal_incidence": 0.398,
+    "visible_transmittance_at_normal_incidence": 0.766,
+    "front_side_visible_reflectance_at_normal_incidence": 0.147,
+    "back_side_visible_reflectance_at_normal_incidence": 0.167,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.075,
+    "back_side_infrared_hemispherical_emissivity": 0.72,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "Clear 3mm": {
+    "name": "Clear 3mm",
+    "material_type": "StandardGlazing",
+    "thickness": 0.118110236220472,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849203,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.837,
+    "front_side_solar_reflectance_at_normal_incidence": 0.075,
+    "back_side_solar_reflectance_at_normal_incidence": 0.075,
+    "visible_transmittance_at_normal_incidence": 0.898,
+    "front_side_visible_reflectance_at_normal_incidence": 0.081,
+    "back_side_visible_reflectance_at_normal_incidence": 0.081,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.84,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "ECABS-2 BLEACHED 6MM": {
+    "name": "ECABS-2 BLEACHED 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.814,
+    "front_side_solar_reflectance_at_normal_incidence": 0.086,
+    "back_side_solar_reflectance_at_normal_incidence": 0.086,
+    "visible_transmittance_at_normal_incidence": 0.847,
+    "front_side_visible_reflectance_at_normal_incidence": 0.099,
+    "back_side_visible_reflectance_at_normal_incidence": 0.099,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.1,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "ECABS-2 COLORED 6MM": {
+    "name": "ECABS-2 COLORED 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.111,
+    "front_side_solar_reflectance_at_normal_incidence": 0.179,
+    "back_side_solar_reflectance_at_normal_incidence": 0.179,
+    "visible_transmittance_at_normal_incidence": 0.128,
+    "front_side_visible_reflectance_at_normal_incidence": 0.081,
+    "back_side_visible_reflectance_at_normal_incidence": 0.081,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.1,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "ECREF-1 COLORED 6MM": {
+    "name": "ECREF-1 COLORED 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.099,
+    "front_side_solar_reflectance_at_normal_incidence": 0.219,
+    "back_side_solar_reflectance_at_normal_incidence": 0.219,
+    "visible_transmittance_at_normal_incidence": 0.155,
+    "front_side_visible_reflectance_at_normal_incidence": 0.073,
+    "back_side_visible_reflectance_at_normal_incidence": 0.073,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.84,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "ECREF-2 BLEACHED 6MM": {
+    "name": "ECREF-2 BLEACHED 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.694,
+    "front_side_solar_reflectance_at_normal_incidence": 0.168,
+    "back_side_solar_reflectance_at_normal_incidence": 0.168,
+    "visible_transmittance_at_normal_incidence": 0.818,
+    "front_side_visible_reflectance_at_normal_incidence": 0.11,
+    "back_side_visible_reflectance_at_normal_incidence": 0.11,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.1,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "ECREF-2 COLORED 6MM": {
+    "name": "ECREF-2 COLORED 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.099,
+    "front_side_solar_reflectance_at_normal_incidence": 0.219,
+    "back_side_solar_reflectance_at_normal_incidence": 0.219,
+    "visible_transmittance_at_normal_incidence": 0.155,
+    "front_side_visible_reflectance_at_normal_incidence": 0.073,
+    "back_side_visible_reflectance_at_normal_incidence": 0.073,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.1,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "Fixed Window 2.00/0.40/0.31": {
+    "name": "Fixed Window 2.00/0.40/0.31",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.35,
+    "solar_heat_gain_coefficient": 0.4,
+    "visible_transmittance": 0.31
+  },
+  "Fixed Window 2.00/0.45/0.35": {
+    "name": "Fixed Window 2.00/0.45/0.35",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.35,
+    "solar_heat_gain_coefficient": 0.45,
+    "visible_transmittance": 0.35
+  },
+  "Fixed Window 2.30/0.40/0.31": {
+    "name": "Fixed Window 2.30/0.40/0.31",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.4,
+    "solar_heat_gain_coefficient": 0.4,
+    "visible_transmittance": 0.31
+  },
+  "Fixed Window 2.56/0.45/0.35": {
+    "name": "Fixed Window 2.56/0.45/0.35",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.45,
+    "solar_heat_gain_coefficient": 0.45,
+    "visible_transmittance": 0.35
+  },
+  "Fixed Window 2.62/0.30/0.21": {
+    "name": "Fixed Window 2.62/0.30/0.21",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.459978666556141,
+    "solar_heat_gain_coefficient": 0.3,
+    "visible_transmittance": 0.21
+  },
+  "Fixed Window 2.67/0.30/0.21": {
+    "name": "Fixed Window 2.67/0.30/0.21",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.469978202785622,
+    "solar_heat_gain_coefficient": 0.49,
+    "visible_transmittance": 0.38
+  },
+  "Fixed Window 2.96/0.39/0.31": {
+    "name": "Fixed Window 2.96/0.39/0.31",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.519975883933029,
+    "solar_heat_gain_coefficient": 0.39,
+    "visible_transmittance": 0.31
+  },
+  "Fixed Window 2.96/0.49/0.41": {
+    "name": "Fixed Window 2.96/0.49/0.41",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.519975883933029,
+    "solar_heat_gain_coefficient": 0.49,
+    "visible_transmittance": 0.41
+  },
+  "Fixed Window 2.96/0.62/0.54": {
+    "name": "Fixed Window 2.96/0.62/0.54",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.519975883933029,
+    "solar_heat_gain_coefficient": 0.62,
+    "visible_transmittance": 0.54
+  },
+  "Fixed Window 3.12/0.40/0.31": {
+    "name": "Fixed Window 3.12/0.40/0.31",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.55,
+    "solar_heat_gain_coefficient": 0.4,
+    "visible_transmittance": 0.31
+  },
+  "Fixed Window 3.24/0.25/0.16": {
+    "name": "Fixed Window 3.24/0.25/0.16",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.569973565080436,
+    "solar_heat_gain_coefficient": 0.25,
+    "visible_transmittance": 0.16
+  },
+  "Fixed Window 3.24/0.39/0.31": {
+    "name": "Fixed Window 3.24/0.39/0.31",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.569973565080436,
+    "solar_heat_gain_coefficient": 0.39,
+    "visible_transmittance": 0.31
+  },
+  "Fixed Window 3.24/0.49/0.41": {
+    "name": "Fixed Window 3.24/0.49/0.41",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.569973565080436,
+    "solar_heat_gain_coefficient": 0.49,
+    "visible_transmittance": 0.41
+  },
+  "Fixed Window 3.35/0.36/0.27": {
+    "name": "Fixed Window 3.35/0.36/0.27",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.589972637539398,
+    "solar_heat_gain_coefficient": 0.36,
+    "visible_transmittance": 0.27
+  },
+  "Fixed Window 3.35/0.39/0.31": {
+    "name": "Fixed Window 3.35/0.39/0.31",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.589972637539398,
+    "solar_heat_gain_coefficient": 0.39,
+    "visible_transmittance": 0.31
+  },
+  "Fixed Window 3.53/0.41/0.32": {
+    "name": "Fixed Window 3.53/0.41/0.32",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.619971246227842,
+    "solar_heat_gain_coefficient": 0.41,
+    "visible_transmittance": 0.32
+  },
+  "Fixed Window 3.69/0.25/0.16": {
+    "name": "Fixed Window 3.69/0.25/0.16",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.65,
+    "solar_heat_gain_coefficient": 0.25,
+    "visible_transmittance": 0.16
+  },
+  "Fixed Window 3.69/0.70/0.60": {
+    "name": "Fixed Window 3.69/0.70/0.60",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.65,
+    "solar_heat_gain_coefficient": 0.7,
+    "visible_transmittance": 0.6
+  },
+  "Fixed Window 3.81/0.39/0.27": {
+    "name": "Fixed Window 3.81/0.39/0.27",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.519975883933029,
+    "solar_heat_gain_coefficient": 0.39,
+    "visible_transmittance": 0.27
+  },
+  "Fixed Window 3.81/0.49/0.38": {
+    "name": "Fixed Window 3.81/0.49/0.38",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.519975883933029,
+    "solar_heat_gain_coefficient": 0.49,
+    "visible_transmittance": 0.38
+  },
+  "Fixed Window 4.09/0.26/0.13": {
+    "name": "Fixed Window 4.09/0.26/0.13",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.719966608522656,
+    "solar_heat_gain_coefficient": 0.25,
+    "visible_transmittance": 0.13
+  },
+  "Fixed Window 4.09/0.36/0.23": {
+    "name": "Fixed Window 4.09/0.36/0.23",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.719966608522656,
+    "solar_heat_gain_coefficient": 0.36,
+    "visible_transmittance": 0.23
+  },
+  "Fixed Window 4.09/0.39/0.25": {
+    "name": "Fixed Window 4.09/0.39/0.25",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.719966608522656,
+    "solar_heat_gain_coefficient": 0.39,
+    "visible_transmittance": 0.25
+  },
+  "Fixed Window 4.26/0.25/0.16": {
+    "name": "Fixed Window 4.26/0.25/0.16",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.75,
+    "solar_heat_gain_coefficient": 0.25,
+    "visible_transmittance": 0.16
+  },
+  "Fixed Window 5.84/0.25/0.11": {
+    "name": "Fixed Window 5.84/0.25/0.11",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.02848347270467,
+    "solar_heat_gain_coefficient": 0.25,
+    "visible_transmittance": 0.11
+  },
+  "Fixed Window 5.84/0.39/0.22": {
+    "name": "Fixed Window 5.84/0.39/0.22",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.02848347270467,
+    "solar_heat_gain_coefficient": 0.39,
+    "visible_transmittance": 0.22
+  },
+  "Fixed Window 5.84/0.44/0.27": {
+    "name": "Fixed Window 5.84/0.44/0.27",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.02848347270467,
+    "solar_heat_gain_coefficient": 0.44,
+    "visible_transmittance": 0.27
+  },
+  "Fixed Window 5.84/0.54/0.38": {
+    "name": "Fixed Window 5.84/0.54/0.38",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.02848347270467,
+    "solar_heat_gain_coefficient": 0.54,
+    "visible_transmittance": 0.38
+  },
+  "Fixed Window 5.84/0.61/0.47": {
+    "name": "Fixed Window 5.84/0.61/0.47",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.02848347270467,
+    "solar_heat_gain_coefficient": 0.61,
+    "visible_transmittance": 0.47
+  },
+  "Fixed Window 5.84/0.70/0.60": {
+    "name": "Fixed Window 5.84/0.70/0.60",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.02848347270467,
+    "solar_heat_gain_coefficient": 0.7,
+    "visible_transmittance": 0.6
+  },
+  "GREEN 3MM": {
+    "name": "GREEN 3MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.118110236220472,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.635,
+    "front_side_solar_reflectance_at_normal_incidence": 0.063,
+    "back_side_solar_reflectance_at_normal_incidence": 0.063,
+    "visible_transmittance_at_normal_incidence": 0.822,
+    "front_side_visible_reflectance_at_normal_incidence": 0.075,
+    "back_side_visible_reflectance_at_normal_incidence": 0.075,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.84,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "GREEN 6MM": {
+    "name": "GREEN 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.487,
+    "front_side_solar_reflectance_at_normal_incidence": 0.056,
+    "back_side_solar_reflectance_at_normal_incidence": 0.056,
+    "visible_transmittance_at_normal_incidence": 0.749,
+    "front_side_visible_reflectance_at_normal_incidence": 0.07,
+    "back_side_visible_reflectance_at_normal_incidence": 0.07,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.84,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "GREY 6MM": {
+    "name": "GREY 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.455,
+    "front_side_solar_reflectance_at_normal_incidence": 0.053,
+    "back_side_solar_reflectance_at_normal_incidence": 0.053,
+    "visible_transmittance_at_normal_incidence": 0.431,
+    "front_side_visible_reflectance_at_normal_incidence": 0.052,
+    "back_side_visible_reflectance_at_normal_incidence": 0.052,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.84,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "Gap_1_W_0_0018": {
+    "name": "Gap_1_W_0_0018",
+    "material_type": "Gas",
+    "thickness": 0.0708661417322834,
+    "gas_type": "Air"
+  },
+  "Gap_1_W_0_0024": {
+    "name": "Gap_1_W_0_0024",
+    "material_type": "Gas",
+    "thickness": 0.0944881889763779,
+    "gas_type": "Air"
+  },
+  "Gap_1_W_0_0025": {
+    "name": "Gap_1_W_0_0025",
+    "material_type": "Gas",
+    "thickness": 0.0984251968503937,
+    "gas_type": "Air"
+  },
+  "Gap_1_W_0_0032": {
+    "name": "Gap_1_W_0_0032",
+    "material_type": "Gas",
+    "thickness": 0.125984251968503,
+    "gas_type": "Air"
+  },
+  "Gap_1_W_0_0038": {
+    "name": "Gap_1_W_0_0038",
+    "material_type": "Gas",
+    "thickness": 0.149606299212598,
+    "gas_type": "Air"
+  },
+  "Gap_1_W_0_0042": {
+    "name": "Gap_1_W_0_0042",
+    "material_type": "Gas",
+    "thickness": 0.165354330708661,
+    "gas_type": "Air"
+  },
+  "Gap_1_W_0_0043": {
+    "name": "Gap_1_W_0_0043",
+    "material_type": "Gas",
+    "thickness": 0.169291338582677,
+    "gas_type": "Air"
+  },
+  "Glass_2010F_LayerAvg": {
+    "name": "Glass_2010F_LayerAvg",
+    "material_type": "StandardGlazing",
+    "thickness": 0.087007874015748,
+    "conductivity": 6.93347179851597,
+    "resistance": 0.144227888864282,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.434294,
+    "front_side_solar_reflectance_at_normal_incidence": 0.4183747,
+    "back_side_solar_reflectance_at_normal_incidence": 0.3410654,
+    "visible_transmittance_at_normal_incidence": 0.797579,
+    "front_side_visible_reflectance_at_normal_incidence": 0.043577,
+    "back_side_visible_reflectance_at_normal_incidence": 0.056031,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.042274,
+    "back_side_infrared_hemispherical_emissivity": 0.84,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "Glass_2022F_LayerAvg": {
+    "name": "Glass_2022F_LayerAvg",
+    "material_type": "StandardGlazing",
+    "thickness": 0.153543307086614,
+    "conductivity": 6.93347179851597,
+    "resistance": 0.144227888864282,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.355897,
+    "front_side_solar_reflectance_at_normal_incidence": 0.3940945,
+    "back_side_solar_reflectance_at_normal_incidence": 0.2656452,
+    "visible_transmittance_at_normal_incidence": 0.677694,
+    "front_side_visible_reflectance_at_normal_incidence": 0.042734,
+    "back_side_visible_reflectance_at_normal_incidence": 0.05547,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.046,
+    "back_side_infrared_hemispherical_emissivity": 0.84,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "Glass_2027F_LayerAvg": {
+    "name": "Glass_2027F_LayerAvg",
+    "material_type": "StandardGlazing",
+    "thickness": 0.157480314960629,
+    "conductivity": 6.93347179851597,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.369744,
+    "front_side_solar_reflectance_at_normal_incidence": 0.4700695,
+    "back_side_solar_reflectance_at_normal_incidence": 0.340935,
+    "visible_transmittance_at_normal_incidence": 0.765222,
+    "front_side_visible_reflectance_at_normal_incidence": 0.0546,
+    "back_side_visible_reflectance_at_normal_incidence": 0.073741,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.03675,
+    "back_side_infrared_hemispherical_emissivity": 0.84,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "Glass_2052_LayerAvg": {
+    "name": "Glass_2052_LayerAvg",
+    "material_type": "StandardGlazing",
+    "thickness": 0.329527559055118,
+    "conductivity": 6.93347179851597,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.507767,
+    "front_side_solar_reflectance_at_normal_incidence": 0.05422805,
+    "back_side_solar_reflectance_at_normal_incidence": 0.05449309,
+    "visible_transmittance_at_normal_incidence": 0.586833,
+    "front_side_visible_reflectance_at_normal_incidence": 0.05805,
+    "back_side_visible_reflectance_at_normal_incidence": 0.058397,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.84,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "Glass_2175_LayerAvg": {
+    "name": "Glass_2175_LayerAvg",
+    "material_type": "StandardGlazing",
+    "thickness": 0.338582677165354,
+    "conductivity": 6.93347179851597,
+    "resistance": 0.144227888864282,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.167758,
+    "front_side_solar_reflectance_at_normal_incidence": 0.2176064,
+    "back_side_solar_reflectance_at_normal_incidence": 0.4379779,
+    "visible_transmittance_at_normal_incidence": 0.416044,
+    "front_side_visible_reflectance_at_normal_incidence": 0.078729,
+    "back_side_visible_reflectance_at_normal_incidence": 0.10654,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.84,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "LoE CLEAR 6MM": {
+    "name": "LoE CLEAR 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.6,
+    "front_side_solar_reflectance_at_normal_incidence": 0.17,
+    "back_side_solar_reflectance_at_normal_incidence": 0.22,
+    "visible_transmittance_at_normal_incidence": 0.84,
+    "front_side_visible_reflectance_at_normal_incidence": 0.055,
+    "back_side_visible_reflectance_at_normal_incidence": 0.078,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.1,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "LoE SPEC SEL CLEAR 3MM": {
+    "name": "LoE SPEC SEL CLEAR 3MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.118110236220472,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.45,
+    "front_side_solar_reflectance_at_normal_incidence": 0.34,
+    "back_side_solar_reflectance_at_normal_incidence": 0.37,
+    "visible_transmittance_at_normal_incidence": 0.78,
+    "front_side_visible_reflectance_at_normal_incidence": 0.07,
+    "back_side_visible_reflectance_at_normal_incidence": 0.06,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.03,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "LoE SPEC SEL CLEAR 6MM Rev": {
+    "name": "LoE SPEC SEL CLEAR 6MM Rev",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.43,
+    "front_side_solar_reflectance_at_normal_incidence": 0.42,
+    "back_side_solar_reflectance_at_normal_incidence": 0.3,
+    "visible_transmittance_at_normal_incidence": 0.77,
+    "front_side_visible_reflectance_at_normal_incidence": 0.06,
+    "back_side_visible_reflectance_at_normal_incidence": 0.07,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.03,
+    "back_side_infrared_hemispherical_emissivity": 0.84,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "LoE SPEC SEL TINT 6MM": {
+    "name": "LoE SPEC SEL TINT 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.26,
+    "front_side_solar_reflectance_at_normal_incidence": 0.14,
+    "back_side_solar_reflectance_at_normal_incidence": 0.41,
+    "visible_transmittance_at_normal_incidence": 0.46,
+    "front_side_visible_reflectance_at_normal_incidence": 0.06,
+    "back_side_visible_reflectance_at_normal_incidence": 0.04,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.03,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "LoE TINT 6MM": {
+    "name": "LoE TINT 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.36,
+    "front_side_solar_reflectance_at_normal_incidence": 0.093,
+    "back_side_solar_reflectance_at_normal_incidence": 0.2,
+    "visible_transmittance_at_normal_incidence": 0.5,
+    "front_side_visible_reflectance_at_normal_incidence": 0.035,
+    "back_side_visible_reflectance_at_normal_incidence": 0.054,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.1,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "PYR B CLEAR 3MM": {
+    "name": "PYR B CLEAR 3MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.118110236220472,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.74,
+    "front_side_solar_reflectance_at_normal_incidence": 0.09,
+    "back_side_solar_reflectance_at_normal_incidence": 0.1,
+    "visible_transmittance_at_normal_incidence": 0.82,
+    "front_side_visible_reflectance_at_normal_incidence": 0.11,
+    "back_side_visible_reflectance_at_normal_incidence": 0.12,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.2,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "PYR B CLEAR 6MM": {
+    "name": "PYR B CLEAR 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.68,
+    "front_side_solar_reflectance_at_normal_incidence": 0.09,
+    "back_side_solar_reflectance_at_normal_incidence": 0.1,
+    "visible_transmittance_at_normal_incidence": 0.81,
+    "front_side_visible_reflectance_at_normal_incidence": 0.11,
+    "back_side_visible_reflectance_at_normal_incidence": 0.12,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.2,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "REF A CLEAR LO 6MM": {
+    "name": "REF A CLEAR LO 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.066,
+    "front_side_solar_reflectance_at_normal_incidence": 0.341,
+    "back_side_solar_reflectance_at_normal_incidence": 0.493,
+    "visible_transmittance_at_normal_incidence": 0.08,
+    "front_side_visible_reflectance_at_normal_incidence": 0.41,
+    "back_side_visible_reflectance_at_normal_incidence": 0.37,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.4,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "REF A CLEAR MID 6MM": {
+    "name": "REF A CLEAR MID 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.11,
+    "front_side_solar_reflectance_at_normal_incidence": 0.27,
+    "back_side_solar_reflectance_at_normal_incidence": 0.43,
+    "visible_transmittance_at_normal_incidence": 0.14,
+    "front_side_visible_reflectance_at_normal_incidence": 0.31,
+    "back_side_visible_reflectance_at_normal_incidence": 0.35,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.47,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "REF A TINT MID 6MM": {
+    "name": "REF A TINT MID 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.06,
+    "front_side_solar_reflectance_at_normal_incidence": 0.13,
+    "back_side_solar_reflectance_at_normal_incidence": 0.42,
+    "visible_transmittance_at_normal_incidence": 0.09,
+    "front_side_visible_reflectance_at_normal_incidence": 0.14,
+    "back_side_visible_reflectance_at_normal_incidence": 0.35,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.47,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "REF B CLEAR HI 6MM": {
+    "name": "REF B CLEAR HI 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.24,
+    "front_side_solar_reflectance_at_normal_incidence": 0.16,
+    "back_side_solar_reflectance_at_normal_incidence": 0.32,
+    "visible_transmittance_at_normal_incidence": 0.3,
+    "front_side_visible_reflectance_at_normal_incidence": 0.16,
+    "back_side_visible_reflectance_at_normal_incidence": 0.29,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.6,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "REF B CLEAR LO 6MM": {
+    "name": "REF B CLEAR LO 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.15,
+    "front_side_solar_reflectance_at_normal_incidence": 0.22,
+    "back_side_solar_reflectance_at_normal_incidence": 0.38,
+    "visible_transmittance_at_normal_incidence": 0.2,
+    "front_side_visible_reflectance_at_normal_incidence": 0.23,
+    "back_side_visible_reflectance_at_normal_incidence": 0.33,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.58,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "REF B TINT HI 6MM": {
+    "name": "REF B TINT HI 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.15,
+    "front_side_solar_reflectance_at_normal_incidence": 0.09,
+    "back_side_solar_reflectance_at_normal_incidence": 0.33,
+    "visible_transmittance_at_normal_incidence": 0.18,
+    "front_side_visible_reflectance_at_normal_incidence": 0.08,
+    "back_side_visible_reflectance_at_normal_incidence": 0.28,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.6,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "REF B TINT MID 6MM": {
+    "name": "REF B TINT MID 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.1,
+    "front_side_solar_reflectance_at_normal_incidence": 0.11,
+    "back_side_solar_reflectance_at_normal_incidence": 0.41,
+    "visible_transmittance_at_normal_incidence": 0.13,
+    "front_side_visible_reflectance_at_normal_incidence": 0.1,
+    "back_side_visible_reflectance_at_normal_incidence": 0.32,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.45,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "REF C CLEAR HI 6MM": {
+    "name": "REF C CLEAR HI 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.2,
+    "front_side_solar_reflectance_at_normal_incidence": 0.16,
+    "back_side_solar_reflectance_at_normal_incidence": 0.39,
+    "visible_transmittance_at_normal_incidence": 0.22,
+    "front_side_visible_reflectance_at_normal_incidence": 0.17,
+    "back_side_visible_reflectance_at_normal_incidence": 0.35,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.55,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "REF C CLEAR MID 6MM": {
+    "name": "REF C CLEAR MID 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.17,
+    "front_side_solar_reflectance_at_normal_incidence": 0.2,
+    "back_side_solar_reflectance_at_normal_incidence": 0.42,
+    "visible_transmittance_at_normal_incidence": 0.19,
+    "front_side_visible_reflectance_at_normal_incidence": 0.21,
+    "back_side_visible_reflectance_at_normal_incidence": 0.38,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.51,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "REF D CLEAR 6MM": {
+    "name": "REF D CLEAR 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.429,
+    "front_side_solar_reflectance_at_normal_incidence": 0.308,
+    "back_side_solar_reflectance_at_normal_incidence": 0.379,
+    "visible_transmittance_at_normal_incidence": 0.334,
+    "front_side_visible_reflectance_at_normal_incidence": 0.453,
+    "back_side_visible_reflectance_at_normal_incidence": 0.505,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.82,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "REF D TINT 6MM": {
+    "name": "REF D TINT 6MM",
+    "material_type": "StandardGlazing",
+    "thickness": 0.236220472440944,
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.3,
+    "front_side_solar_reflectance_at_normal_incidence": 0.14,
+    "back_side_solar_reflectance_at_normal_incidence": 0.36,
+    "visible_transmittance_at_normal_incidence": 0.25,
+    "front_side_visible_reflectance_at_normal_incidence": 0.18,
+    "back_side_visible_reflectance_at_normal_incidence": 0.45,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.84,
+    "back_side_infrared_hemispherical_emissivity": 0.82,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "Simple Glazing": {
+    "name": "Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.23,
+    "solar_heat_gain_coefficient": 0.61,
+    "visible_transmittance": 0.25
+  },
+  "Theoretical Glass 297": {
+    "name": "Theoretical Glass 297",
+    "material_type": "StandardGlazing",
+    "thickness": 0.118110236220472,
+    "conductivity": 0.0718037272926113,
+    "resistance": 13.9268536287098,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.375039,
+    "front_side_solar_reflectance_at_normal_incidence": 0.574961,
+    "back_side_solar_reflectance_at_normal_incidence": 0.574961,
+    "visible_transmittance_at_normal_incidence": 0.529698,
+    "front_side_visible_reflectance_at_normal_incidence": 0.420302,
+    "back_side_visible_reflectance_at_normal_incidence": 0.420302,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.9,
+    "back_side_infrared_hemispherical_emissivity": 0.9,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "Theoretical Glass 347": {
+    "name": "Theoretical Glass 347",
+    "material_type": "StandardGlazing",
+    "thickness": 0.118110236220472,
+    "conductivity": 0.0718169008890285,
+    "resistance": 13.9242989828424,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.315861,
+    "front_side_solar_reflectance_at_normal_incidence": 0.634139,
+    "back_side_solar_reflectance_at_normal_incidence": 0.634139,
+    "visible_transmittance_at_normal_incidence": 0.479911,
+    "front_side_visible_reflectance_at_normal_incidence": 0.470089,
+    "back_side_visible_reflectance_at_normal_incidence": 0.470089,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.9,
+    "back_side_infrared_hemispherical_emissivity": 0.9,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "Theoretical Glass [167]": {
+    "name": "Theoretical Glass [167]",
+    "material_type": "StandardGlazing",
+    "thickness": 0.118110236220472,
+    "conductivity": 14.6109051210127,
+    "resistance": 0.0684420295469475,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.2374,
+    "front_side_solar_reflectance_at_normal_incidence": 0.7126,
+    "back_side_solar_reflectance_at_normal_incidence": 0.7126,
+    "visible_transmittance_at_normal_incidence": 0.2512,
+    "front_side_visible_reflectance_at_normal_incidence": 0.6988,
+    "back_side_visible_reflectance_at_normal_incidence": 0.6988,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.985,
+    "back_side_infrared_hemispherical_emissivity": 0.985,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "Theoretical Glass [197]": {
+    "name": "Theoretical Glass [197]",
+    "material_type": "StandardGlazing",
+    "thickness": 0.118110236220472,
+    "conductivity": 0.287739079638413,
+    "resistance": 3.47537081600681,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.2349,
+    "front_side_solar_reflectance_at_normal_incidence": 0.7151,
+    "back_side_solar_reflectance_at_normal_incidence": 0.7151,
+    "visible_transmittance_at_normal_incidence": 0.2512,
+    "front_side_visible_reflectance_at_normal_incidence": 0.6988,
+    "back_side_visible_reflectance_at_normal_incidence": 0.6988,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.9,
+    "back_side_infrared_hemispherical_emissivity": 0.9,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "Theoretical Glass [202]": {
+    "name": "Theoretical Glass [202]",
+    "material_type": "StandardGlazing",
+    "thickness": 0.118110236220472,
+    "conductivity": 0.133122658531507,
+    "resistance": 7.51186921168138,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.2325,
+    "front_side_solar_reflectance_at_normal_incidence": 0.7175,
+    "back_side_solar_reflectance_at_normal_incidence": 0.7175,
+    "visible_transmittance_at_normal_incidence": 0.3192,
+    "front_side_visible_reflectance_at_normal_incidence": 0.6308,
+    "back_side_visible_reflectance_at_normal_incidence": 0.6308,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.9,
+    "back_side_infrared_hemispherical_emissivity": 0.9,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "Theoretical Glass [207]": {
+    "name": "Theoretical Glass [207]",
+    "material_type": "StandardGlazing",
+    "thickness": 0.118110236220472,
+    "conductivity": 0.0922151749202625,
+    "resistance": 10.8442021702468,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.3311,
+    "front_side_solar_reflectance_at_normal_incidence": 0.6189,
+    "back_side_solar_reflectance_at_normal_incidence": 0.6189,
+    "visible_transmittance_at_normal_incidence": 0.44,
+    "front_side_visible_reflectance_at_normal_incidence": 0.51,
+    "back_side_visible_reflectance_at_normal_incidence": 0.51,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.9,
+    "back_side_infrared_hemispherical_emissivity": 0.9,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "Theoretical Glass [216]": {
+    "name": "Theoretical Glass [216]",
+    "material_type": "StandardGlazing",
+    "thickness": 0.118110236220472,
+    "conductivity": 0.0922151749202625,
+    "resistance": 10.8442021702468,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.3801,
+    "front_side_solar_reflectance_at_normal_incidence": 0.5699,
+    "back_side_solar_reflectance_at_normal_incidence": 0.5699,
+    "visible_transmittance_at_normal_incidence": 0.5079,
+    "front_side_visible_reflectance_at_normal_incidence": 0.4421,
+    "back_side_visible_reflectance_at_normal_incidence": 0.4421,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.9,
+    "back_side_infrared_hemispherical_emissivity": 0.9,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "Theoretical Glass [221]": {
+    "name": "Theoretical Glass [221]",
+    "material_type": "StandardGlazing",
+    "thickness": 0.118110236220472,
+    "conductivity": 0.0617078990067922,
+    "resistance": 16.2053807712677,
+    "optical_data_type": "SpectralAverage",
+    "solar_transmittance_at_normal_incidence": 0.4296,
+    "front_side_solar_reflectance_at_normal_incidence": 0.5204,
+    "back_side_solar_reflectance_at_normal_incidence": 0.5204,
+    "visible_transmittance_at_normal_incidence": 0.4503,
+    "front_side_visible_reflectance_at_normal_incidence": 0.4997,
+    "back_side_visible_reflectance_at_normal_incidence": 0.4997,
+    "infrared_transmittance_at_normal_incidence": 0.0,
+    "front_side_infrared_hemispherical_emissivity": 0.9,
+    "back_side_infrared_hemispherical_emissivity": 0.9,
+    "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+    "solar_diffusing": 0
+  },
+  "U 0.11 SHGC 0.34 Simple Glazing": {
+    "name": "U 0.11 SHGC 0.34 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.11,
+    "solar_heat_gain_coefficient": 0.34,
+    "visible_transmittance": 0.37400000000000005
+  },
+  "U 0.11 SHGC 0.38 Simple Glazing": {
+    "name": "U 0.11 SHGC 0.38 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.11,
+    "solar_heat_gain_coefficient": 0.38,
+    "visible_transmittance": 0.41800000000000004
+  },
+  "U 0.12 SHGC 0.34 Simple Glazing": {
+    "name": "U 0.12 SHGC 0.34 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.12,
+    "solar_heat_gain_coefficient": 0.34,
+    "visible_transmittance": 0.37400000000000005
+  },
+  "U 0.12 SHGC 0.38 Simple Glazing": {
+    "name": "U 0.12 SHGC 0.38 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.12,
+    "solar_heat_gain_coefficient": 0.38,
+    "visible_transmittance": 0.41800000000000004
+  },
+  "U 0.13 SHGC 0.32 Simple Glazing": {
+    "name": "U 0.13 SHGC 0.32 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.13,
+    "solar_heat_gain_coefficient": 0.32,
+    "visible_transmittance": 0.35200000000000004
+  },
+  "U 0.13 SHGC 0.38 Simple Glazing": {
+    "name": "U 0.13 SHGC 0.38 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.13,
+    "solar_heat_gain_coefficient": 0.38,
+    "visible_transmittance": 0.41800000000000004
+  },
+  "U 0.14 SHGC 0.31 Simple Glazing": {
+    "name": "U 0.14 SHGC 0.31 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.14,
+    "solar_heat_gain_coefficient": 0.31,
+    "visible_transmittance": 0.341
+  },
+  "U 0.14 SHGC 0.34 Simple Glazing": {
+    "name": "U 0.14 SHGC 0.34 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.14,
+    "solar_heat_gain_coefficient": 0.34,
+    "visible_transmittance": 0.37400000000000005
+  },
+  "U 0.14 SHGC 0.36 Simple Glazing": {
+    "name": "U 0.14 SHGC 0.36 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.14,
+    "solar_heat_gain_coefficient": 0.36,
+    "visible_transmittance": 0.396
+  },
+  "U 0.14 SHGC 0.38 Simple Glazing": {
+    "name": "U 0.14 SHGC 0.38 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.14,
+    "solar_heat_gain_coefficient": 0.38,
+    "visible_transmittance": 0.41800000000000004
+  },
+  "U 0.15 SHGC 0.31 Simple Glazing": {
+    "name": "U 0.15 SHGC 0.31 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.15,
+    "solar_heat_gain_coefficient": 0.31,
+    "visible_transmittance": 0.341
+  },
+  "U 0.15 SHGC 0.34 Simple Glazing": {
+    "name": "U 0.15 SHGC 0.34 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.15,
+    "solar_heat_gain_coefficient": 0.34,
+    "visible_transmittance": 0.37400000000000005
+  },
+  "U 0.17 SHGC 0.31 Simple Glazing": {
+    "name": "U 0.17 SHGC 0.31 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.17,
+    "solar_heat_gain_coefficient": 0.31,
+    "visible_transmittance": 0.341
+  },
+  "U 0.17 SHGC 0.32 Simple Glazing": {
+    "name": "U 0.17 SHGC 0.32 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.17,
+    "solar_heat_gain_coefficient": 0.32,
+    "visible_transmittance": 0.35200000000000004
+  },
+  "U 0.17 SHGC 0.36 Simple Glazing": {
+    "name": "U 0.17 SHGC 0.36 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.17,
+    "solar_heat_gain_coefficient": 0.36,
+    "visible_transmittance": 0.396
+  },
+  "U 0.18 SHGC 0.22 Simple Glazing": {
+    "name": "U 0.18 SHGC 0.22 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.18,
+    "solar_heat_gain_coefficient": 0.22,
+    "visible_transmittance": 0.24200000000000002
+  },
+  "U 0.18 SHGC 0.24 Simple Glazing": {
+    "name": "U 0.18 SHGC 0.24 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.18,
+    "solar_heat_gain_coefficient": 0.24,
+    "visible_transmittance": 0.264
+  },
+  "U 0.20 SHGC 0.19 Simple Glazing": {
+    "name": "U 0.20 SHGC 0.19 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.2,
+    "solar_heat_gain_coefficient": 0.19,
+    "visible_transmittance": 0.20900000000000002
+  },
+  "U 0.20 SHGC 0.20 Simple Glazing": {
+    "name": "U 0.20 SHGC 0.20 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.2,
+    "solar_heat_gain_coefficient": 0.2,
+    "visible_transmittance": 0.22000000000000003
+  },
+  "U 0.20 SHGC 0.21 Simple Glazing": {
+    "name": "U 0.20 SHGC 0.21 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.2,
+    "solar_heat_gain_coefficient": 0.21,
+    "visible_transmittance": 0.231
+  },
+  "U 0.20 SHGC 0.22 Simple Glazing": {
+    "name": "U 0.20 SHGC 0.22 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.2,
+    "solar_heat_gain_coefficient": 0.22,
+    "visible_transmittance": 0.24200000000000002
+  },
+  "U 0.23 SHGC 0.31 Simple Glazing": {
+    "name": "U 0.23 SHGC 0.31 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.23,
+    "solar_heat_gain_coefficient": 0.31,
+    "visible_transmittance": 0.341
+  },
+  "U 0.23 SHGC 0.34 Simple Glazing": {
+    "name": "U 0.23 SHGC 0.34 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.23,
+    "solar_heat_gain_coefficient": 0.34,
+    "visible_transmittance": 0.37400000000000005
+  },
+  "U 0.25 SHGC 0.22 Simple Glazing": {
+    "name": "U 0.25 SHGC 0.22 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.25,
+    "solar_heat_gain_coefficient": 0.22,
+    "visible_transmittance": 0.24200000000000002
+  },
+  "U 0.25 SHGC 0.24 Simple Glazing": {
+    "name": "U 0.25 SHGC 0.24 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.25,
+    "solar_heat_gain_coefficient": 0.24,
+    "visible_transmittance": 0.264
+  },
+  "U 0.26 SHGC 0.40 Simple Glazing": {
+    "name": "U 0.26 SHGC 0.40 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.26,
+    "solar_heat_gain_coefficient": 0.4,
+    "visible_transmittance": 0.44000000000000006
+  },
+  "U 0.29 SHGC 0.40 Simple Glazing": {
+    "name": "U 0.29 SHGC 0.40 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.29,
+    "solar_heat_gain_coefficient": 0.4,
+    "visible_transmittance": 0.44000000000000006
+  },
+  "U 0.32 SHGC 0.36 Simple Glazing": {
+    "name": "U 0.32 SHGC 0.36 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.32,
+    "solar_heat_gain_coefficient": 0.36,
+    "visible_transmittance": 0.396
+  },
+  "U 0.34 SHGC 0.38 Simple Glazing": {
+    "name": "U 0.34 SHGC 0.38 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.34,
+    "solar_heat_gain_coefficient": 0.38,
+    "visible_transmittance": 0.41800000000000004
+  },
+  "U 0.35 SHGC 0.22 Simple Glazing": {
+    "name": "U 0.35 SHGC 0.22 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.35,
+    "solar_heat_gain_coefficient": 0.22,
+    "visible_transmittance": 0.24200000000000002
+  },
+  "U 0.35 SHGC 0.24 Simple Glazing": {
+    "name": "U 0.35 SHGC 0.24 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.35,
+    "solar_heat_gain_coefficient": 0.24,
+    "visible_transmittance": 0.264
+  },
+  "U 0.36 SHGC 0.36 Simple Glazing": {
+    "name": "U 0.36 SHGC 0.36 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.36,
+    "solar_heat_gain_coefficient": 0.36,
+    "visible_transmittance": 0.396
+  },
+  "U 0.36 SHGC 0.38 Simple Glazing": {
+    "name": "U 0.36 SHGC 0.38 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.36,
+    "solar_heat_gain_coefficient": 0.38,
+    "visible_transmittance": 0.41800000000000004
+  },
+  "U 0.42 SHGC 0.25 Simple Glazing": {
+    "name": "U 0.42 SHGC 0.25 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.42,
+    "solar_heat_gain_coefficient": 0.25,
+    "visible_transmittance": 0.275
+  },
+  "U 0.42 SHGC 0.34 Simple Glazing": {
+    "name": "U 0.42 SHGC 0.34 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.42,
+    "solar_heat_gain_coefficient": 0.34,
+    "visible_transmittance": 0.37400000000000005
+  },
+  "U 0.45 SHGC 0.25 Simple Glazing": {
+    "name": "U 0.45 SHGC 0.25 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.45,
+    "solar_heat_gain_coefficient": 0.25,
+    "visible_transmittance": 0.275
+  },
+  "U 0.45 SHGC 0.33 Simple Glazing": {
+    "name": "U 0.45 SHGC 0.33 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.45,
+    "solar_heat_gain_coefficient": 0.33,
+    "visible_transmittance": 0.36300000000000004
+  },
+  "U 0.47 SHGC 0.33 Simple Glazing": {
+    "name": "U 0.47 SHGC 0.33 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.47,
+    "solar_heat_gain_coefficient": 0.33,
+    "visible_transmittance": 0.36300000000000004
+  },
+  "U 0.48 SHGC 0.19 Simple Glazing": {
+    "name": "U 0.48 SHGC 0.19 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.48,
+    "solar_heat_gain_coefficient": 0.19,
+    "visible_transmittance": 0.20900000000000002
+  },
+  "U 0.48 SHGC 0.20 Simple Glazing": {
+    "name": "U 0.48 SHGC 0.20 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.48,
+    "solar_heat_gain_coefficient": 0.2,
+    "visible_transmittance": 0.22000000000000003
+  },
+  "U 0.48 SHGC 0.21 Simple Glazing": {
+    "name": "U 0.48 SHGC 0.21 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.48,
+    "solar_heat_gain_coefficient": 0.21,
+    "visible_transmittance": 0.231
+  },
+  "U 0.48 SHGC 0.22 Simple Glazing": {
+    "name": "U 0.48 SHGC 0.22 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.48,
+    "solar_heat_gain_coefficient": 0.22,
+    "visible_transmittance": 0.24200000000000002
+  },
+  "U 0.50 SHGC 0.22 Simple Glazing": {
+    "name": "U 0.50 SHGC 0.22 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.5,
+    "solar_heat_gain_coefficient": 0.22,
+    "visible_transmittance": 0.24200000000000002
+  },
+  "U 0.50 SHGC 0.23 Simple Glazing": {
+    "name": "U 0.50 SHGC 0.23 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.5,
+    "solar_heat_gain_coefficient": 0.23,
+    "visible_transmittance": 0.25300000000000006
+  },
+  "U 0.52 SHGC 0.39 Simple Glazing": {
+    "name": "U 0.52 SHGC 0.39 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.52,
+    "solar_heat_gain_coefficient": 0.39,
+    "visible_transmittance": 0.31
+  },
+  "U 0.52 SHGC 0.49 Simple Glazing": {
+    "name": "U 0.52 SHGC 0.49 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.52,
+    "solar_heat_gain_coefficient": 0.49,
+    "visible_transmittance": 0.41
+  },
+  "U 0.52 SHGC 0.615 Simple Glazing": {
+    "name": "U 0.52 SHGC 0.615 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.52,
+    "solar_heat_gain_coefficient": 0.615,
+    "visible_transmittance": 0.41
+  },
+  "U 0.54 SHGC 0.23 Simple Glazing": {
+    "name": "U 0.54 SHGC 0.23 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.54,
+    "solar_heat_gain_coefficient": 0.23,
+    "visible_transmittance": 0.25300000000000006
+  },
+  "U 0.58 SHGC 0.19 Simple Glazing": {
+    "name": "U 0.58 SHGC 0.19 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.58,
+    "solar_heat_gain_coefficient": 0.19,
+    "visible_transmittance": 0.15
+  },
+  "U 0.58 SHGC 0.36 Simple Glazing": {
+    "name": "U 0.58 SHGC 0.36 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.58,
+    "solar_heat_gain_coefficient": 0.36,
+    "visible_transmittance": 0.25
+  },
+  "U 0.59 SHGC 0.36 Simple Glazing": {
+    "name": "U 0.59 SHGC 0.36 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.59,
+    "solar_heat_gain_coefficient": 0.36,
+    "visible_transmittance": 0.27
+  },
+  "U 0.59 SHGC 0.39 Simple Glazing": {
+    "name": "U 0.59 SHGC 0.39 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.59,
+    "solar_heat_gain_coefficient": 0.39,
+    "visible_transmittance": 0.31
+  },
+  "U 0.60 SHGC 0.23 Simple Glazing": {
+    "name": "U 0.60 SHGC 0.23 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.6,
+    "solar_heat_gain_coefficient": 0.23,
+    "visible_transmittance": 0.25300000000000006
+  },
+  "U 0.61 SHGC 0.77 Simple Glazing": {
+    "name": "U 0.61 SHGC 0.77 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.61,
+    "solar_heat_gain_coefficient": 0.77,
+    "visible_transmittance": 0.6
+  },
+  "U 0.62 SHGC 0.20 Simple Glazing": {
+    "name": "U 0.62 SHGC 0.20 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.62,
+    "solar_heat_gain_coefficient": 0.2,
+    "visible_transmittance": 0.22
+  },
+  "U 0.62 SHGC 0.21 Simple Glazing": {
+    "name": "U 0.62 SHGC 0.21 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.62,
+    "solar_heat_gain_coefficient": 0.21,
+    "visible_transmittance": 0.231
+  },
+  "U 0.62 SHGC 0.41 Simple Glazing": {
+    "name": "U 0.62 SHGC 0.41 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "roughness": 1.22,
+    "thickness": 0.54,
+    "conductivity": 0.38,
+    "u_factor": 0.62,
+    "solar_heat_gain_coefficient": 0.41,
+    "visible_transmittance": 0.32
+  },
+  "U 0.65 SHGC 0.35 Simple Glazing": {
+    "name": "U 0.65 SHGC 0.35 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.65,
+    "solar_heat_gain_coefficient": 0.35,
+    "visible_transmittance": 0.25
+  },
+  "U 0.69 SHGC 0.19 Simple Glazing": {
+    "name": "U 0.69 SHGC 0.19 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.69,
+    "solar_heat_gain_coefficient": 0.19,
+    "visible_transmittance": 0.15
+  },
+  "U 0.69 SHGC 0.36 Simple Glazing": {
+    "name": "U 0.69 SHGC 0.36 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.69,
+    "solar_heat_gain_coefficient": 0.36,
+    "visible_transmittance": 0.23
+  },
+  "U 0.69 SHGC 0.39 Simple Glazing": {
+    "name": "U 0.69 SHGC 0.39 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.69,
+    "solar_heat_gain_coefficient": 0.39,
+    "visible_transmittance": 0.23
+  },
+  "U 0.69 SHGC 0.49 Simple Glazing": {
+    "name": "U 0.69 SHGC 0.49 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.69,
+    "solar_heat_gain_coefficient": 0.49,
+    "visible_transmittance": 0.38
+  },
+  "U 0.69 SHGC 0.64 Simple Glazing": {
+    "name": "U 0.69 SHGC 0.64 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.69,
+    "solar_heat_gain_coefficient": 0.64,
+    "visible_transmittance": 0.55
+  },
+  "U 0.69 SHGC 0.68 Simple Glazing": {
+    "name": "U 0.69 SHGC 0.68 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.69,
+    "solar_heat_gain_coefficient": 0.68,
+    "visible_transmittance": 0.55
+  },
+  "U 0.72 SHGC 0.25 Simple Glazing": {
+    "name": "U 0.72 SHGC 0.25 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.72,
+    "solar_heat_gain_coefficient": 0.25,
+    "visible_transmittance": 0.13
+  },
+  "U 0.72 SHGC 0.36 Simple Glazing": {
+    "name": "U 0.72 SHGC 0.36 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.72,
+    "solar_heat_gain_coefficient": 0.36,
+    "visible_transmittance": 0.23
+  },
+  "U 0.72 SHGC 0.39 Simple Glazing": {
+    "name": "U 0.72 SHGC 0.39 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.72,
+    "solar_heat_gain_coefficient": 0.39,
+    "visible_transmittance": 0.23
+  },
+  "U 0.74 SHGC 0.55 Simple Glazing": {
+    "name": "U 0.74 SHGC 0.55 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.74,
+    "solar_heat_gain_coefficient": 0.55,
+    "visible_transmittance": 0.4
+  },
+  "U 0.74 SHGC 0.65 Simple Glazing": {
+    "name": "U 0.74 SHGC 0.65 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.74,
+    "solar_heat_gain_coefficient": 0.65,
+    "visible_transmittance": 0.55
+  },
+  "U 0.75 SHGC 0.35 Simple Glazing": {
+    "name": "U 0.75 SHGC 0.35 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.75,
+    "solar_heat_gain_coefficient": 0.35,
+    "visible_transmittance": 0.23
+  },
+  "U 0.81 SHGC 0.65 Simple Glazing": {
+    "name": "U 0.81 SHGC 0.65 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.81,
+    "solar_heat_gain_coefficient": 0.65,
+    "visible_transmittance": 0.55
+  },
+  "U 0.85 SHGC 0.65 Simple Glazing": {
+    "name": "U 0.85 SHGC 0.65 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.85,
+    "solar_heat_gain_coefficient": 0.65,
+    "visible_transmittance": 0.55
+  },
+  "U 0.87 SHGC 0.58 Simple Glazing": {
+    "name": "U 0.87 SHGC 0.58 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.87,
+    "solar_heat_gain_coefficient": 0.58,
+    "visible_transmittance": 0.55
+  },
+  "U 0.87 SHGC 0.71 Simple Glazing": {
+    "name": "U 0.87 SHGC 0.71 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.87,
+    "solar_heat_gain_coefficient": 0.71,
+    "visible_transmittance": 0.6
+  },
+  "U 0.87 SHGC 0.77 Simple Glazing": {
+    "name": "U 0.87 SHGC 0.77 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.87,
+    "solar_heat_gain_coefficient": 0.77,
+    "visible_transmittance": 0.6
+  },
+  "U 0.98 SHGC 0.19 Simple Glazing": {
+    "name": "U 0.98 SHGC 0.19 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.98,
+    "solar_heat_gain_coefficient": 0.19,
+    "visible_transmittance": 0.15
+  },
+  "U 0.98 SHGC 0.36 Simple Glazing": {
+    "name": "U 0.98 SHGC 0.36 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 0.98,
+    "solar_heat_gain_coefficient": 0.36,
+    "visible_transmittance": 0.25
+  },
+  "U 1.10 SHGC 0.62 Simple Glazing": {
+    "name": "U 1.10 SHGC 0.62 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.1,
+    "solar_heat_gain_coefficient": 0.62,
+    "visible_transmittance": 0.55
+  },
+  "U 1.10 SHGC 0.77 Simple Glazing": {
+    "name": "U 1.10 SHGC 0.77 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.1,
+    "solar_heat_gain_coefficient": 0.77,
+    "visible_transmittance": 0.6
+  },
+  "U 1.15 SHGC 0.77 Simple Glazing": {
+    "name": "U 1.15 SHGC 0.77 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.15,
+    "solar_heat_gain_coefficient": 0.77,
+    "visible_transmittance": 0.6
+  },
+  "U 1.17 SHGC 0.19 Simple Glazing": {
+    "name": "U 1.17 SHGC 0.19 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.17,
+    "solar_heat_gain_coefficient": 0.19,
+    "visible_transmittance": 0.15
+  },
+  "U 1.17 SHGC 0.36 Simple Glazing": {
+    "name": "U 1.17 SHGC 0.36 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.17,
+    "solar_heat_gain_coefficient": 0.36,
+    "visible_transmittance": 0.23
+  },
+  "U 1.17 SHGC 0.39 Simple Glazing": {
+    "name": "U 1.17 SHGC 0.39 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.17,
+    "solar_heat_gain_coefficient": 0.39,
+    "visible_transmittance": 0.23
+  },
+  "U 1.17 SHGC 0.49 Simple Glazing": {
+    "name": "U 1.17 SHGC 0.49 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.17,
+    "solar_heat_gain_coefficient": 0.49,
+    "visible_transmittance": 0.38
+  },
+  "U 1.17 SHGC 0.64 Simple Glazing": {
+    "name": "U 1.17 SHGC 0.64 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.17,
+    "solar_heat_gain_coefficient": 0.64,
+    "visible_transmittance": 0.55
+  },
+  "U 1.17 SHGC 0.68 Simple Glazing": {
+    "name": "U 1.17 SHGC 0.68 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.17,
+    "solar_heat_gain_coefficient": 0.68,
+    "visible_transmittance": 0.55
+  },
+  "U 1.22 SHGC 0.25 Simple Glazing": {
+    "name": "U 1.22 SHGC 0.25 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.22,
+    "solar_heat_gain_coefficient": 0.25,
+    "visible_transmittance": 0.11
+  },
+  "U 1.22 SHGC 0.54 Simple Glazing": {
+    "name": "U 1.22 SHGC 0.54 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.22,
+    "solar_heat_gain_coefficient": 0.54,
+    "visible_transmittance": 0.38
+  },
+  "U 1.30 SHGC 0.27 Simple Glazing": {
+    "name": "U 1.30 SHGC 0.27 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.3,
+    "solar_heat_gain_coefficient": 0.27,
+    "visible_transmittance": 0.25
+  },
+  "U 1.30 SHGC 0.34 Simple Glazing": {
+    "name": "U 1.30 SHGC 0.34 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.3,
+    "solar_heat_gain_coefficient": 0.34,
+    "visible_transmittance": 0.25
+  },
+  "U 1.30 SHGC 0.62 Simple Glazing": {
+    "name": "U 1.30 SHGC 0.62 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.3,
+    "solar_heat_gain_coefficient": 0.62,
+    "visible_transmittance": 0.55
+  },
+  "U 1.30 SHGC 0.65 Simple Glazing": {
+    "name": "U 1.30 SHGC 0.65 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.3,
+    "solar_heat_gain_coefficient": 0.65,
+    "visible_transmittance": 0.55
+  },
+  "U 1.36 SHGC 0.19 Simple Glazing": {
+    "name": "U 1.36 SHGC 0.19 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.36,
+    "solar_heat_gain_coefficient": 0.19,
+    "visible_transmittance": 0.15
+  },
+  "U 1.36 SHGC 0.36 Simple Glazing": {
+    "name": "U 1.36 SHGC 0.36 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.36,
+    "solar_heat_gain_coefficient": 0.36,
+    "visible_transmittance": 0.23
+  },
+  "U 1.36 SHGC 0.39 Simple Glazing": {
+    "name": "U 1.36 SHGC 0.39 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.36,
+    "solar_heat_gain_coefficient": 0.39,
+    "visible_transmittance": 0.23
+  },
+  "U 1.36 SHGC 0.61 Simple Glazing": {
+    "name": "U 1.36 SHGC 0.61 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.36,
+    "solar_heat_gain_coefficient": 0.61,
+    "visible_transmittance": 0.23
+  },
+  "U 1.70 SHGC 0.36 Simple Glazing": {
+    "name": "U 1.70 SHGC 0.36 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.7,
+    "solar_heat_gain_coefficient": 0.36,
+    "visible_transmittance": 0.23
+  },
+  "U 1.80 SHGC 0.36 Simple Glazing": {
+    "name": "U 1.80 SHGC 0.36 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.8,
+    "solar_heat_gain_coefficient": 0.36,
+    "visible_transmittance": 0.23
+  },
+  "U 1.90 SHGC 0.27 Simple Glazing": {
+    "name": "U 1.90 SHGC 0.27 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.9,
+    "solar_heat_gain_coefficient": 0.27,
+    "visible_transmittance": 0.25
+  },
+  "U 1.90 SHGC 0.34 Simple Glazing": {
+    "name": "U 1.90 SHGC 0.34 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.9,
+    "solar_heat_gain_coefficient": 0.34,
+    "visible_transmittance": 0.25
+  },
+  "U 1.90 SHGC 0.39 Simple Glazing": {
+    "name": "U 1.90 SHGC 0.39 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.9,
+    "solar_heat_gain_coefficient": 0.39,
+    "visible_transmittance": 0.25
+  },
+  "U 1.90 SHGC 0.65 Simple Glazing": {
+    "name": "U 1.90 SHGC 0.65 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.9,
+    "solar_heat_gain_coefficient": 0.65,
+    "visible_transmittance": 0.25
+  },
+  "U 1.98 SHGC 0.16 Simple Glazing": {
+    "name": "U 1.98 SHGC 0.16 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.98,
+    "solar_heat_gain_coefficient": 0.16,
+    "visible_transmittance": 0.15
+  },
+  "U 1.98 SHGC 0.19 Simple Glazing": {
+    "name": "U 1.98 SHGC 0.19 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.98,
+    "solar_heat_gain_coefficient": 0.19,
+    "visible_transmittance": 0.15
+  },
+  "U 1.98 SHGC 0.36 Simple Glazing": {
+    "name": "U 1.98 SHGC 0.36 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.98,
+    "solar_heat_gain_coefficient": 0.36,
+    "visible_transmittance": 0.25
+  },
+  "U 1.98 SHGC 0.39 Simple Glazing": {
+    "name": "U 1.98 SHGC 0.39 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.98,
+    "solar_heat_gain_coefficient": 0.39,
+    "visible_transmittance": 0.25
+  },
+  "U 1.98 SHGC 0.61 Simple Glazing": {
+    "name": "U 1.98 SHGC 0.61 Simple Glazing",
+    "material_type": "SimpleGlazing",
+    "u_factor": 1.98,
+    "solar_heat_gain_coefficient": 0.61,
+    "visible_transmittance": 0.25
+  },
+  "U0.47_SHGC0.46_SimpleGlazing_Window_07": {
+    "name": "U0.47_SHGC0.46_SimpleGlazing_Window_07",
+    "material_type": "SimpleGlazing",
+    "gas_type": "Air",
+    "u_factor": 0.47,
+    "solar_heat_gain_coefficient": 0.46,
+    "visible_transmittance": 0.81
+  },
+  "U0.47_SHGC0.47_SimpleGlazing_Window_06": {
+    "name": "U0.47_SHGC0.47_SimpleGlazing_Window_06",
+    "material_type": "SimpleGlazing",
+    "gas_type": "Air",
+    "u_factor": 0.47,
+    "solar_heat_gain_coefficient": 0.47,
+    "visible_transmittance": 0.81
+  },
+  "U0.47_SHGC0.47_SimpleGlazing_Window_11": {
+    "name": "U0.47_SHGC0.47_SimpleGlazing_Window_11",
+    "material_type": "SimpleGlazing",
+    "gas_type": "Air",
+    "u_factor": 0.47,
+    "solar_heat_gain_coefficient": 0.47,
+    "visible_transmittance": 0.81
+  },
+  "U0.47_SHGC0.5_SimpleGlazing_Window_03": {
+    "name": "U0.47_SHGC0.5_SimpleGlazing_Window_03",
+    "material_type": "SimpleGlazing",
+    "gas_type": "Air",
+    "u_factor": 0.47,
+    "solar_heat_gain_coefficient": 0.5,
+    "visible_transmittance": 0.81
+  },
+  "U0.47_SHGC_0.49_SimpleGlazing_Window_05": {
+    "name": "U0.47_SHGC_0.49_SimpleGlazing_Window_05",
+    "material_type": "SimpleGlazing",
+    "gas_type": "Air",
+    "u_factor": 0.47,
+    "solar_heat_gain_coefficient": 0.49,
+    "visible_transmittance": 0.81
+  },
+  "U0.77_SHGC0.5_SimpleGlazing_Window_09": {
+    "name": "U0.77_SHGC0.5_SimpleGlazing_Window_09",
+    "material_type": "SimpleGlazing",
+    "gas_type": "Air",
+    "u_factor": 0.77,
+    "solar_heat_gain_coefficient": 0.5,
+    "visible_transmittance": 0.81
+  },
+  "U0.77_SHGC0.61_SimpleGlazing_Window_08": {
+    "name": "U0.77_SHGC0.61_SimpleGlazing_Window_08",
+    "material_type": "SimpleGlazing",
+    "gas_type": "Air",
+    "u_factor": 0.77,
+    "solar_heat_gain_coefficient": 0.61,
+    "visible_transmittance": 0.81
+  },
+  "U0.77_SHGC0.62_SimpleGlazing_Window_04": {
+    "name": "U0.77_SHGC0.62_SimpleGlazing_Window_04",
+    "material_type": "SimpleGlazing",
+    "gas_type": "Air",
+    "u_factor": 0.77,
+    "solar_heat_gain_coefficient": 0.62,
+    "visible_transmittance": 0.81
+  },
+  "U0.77_SHGC_0.77_SimpleGlazing_Window_02": {
+    "name": "U0.77_SHGC_0.77_SimpleGlazing_Window_02",
+    "material_type": "SimpleGlazing",
+    "gas_type": "Air",
+    "u_factor": 0.77,
+    "solar_heat_gain_coefficient": 0.77,
+    "visible_transmittance": 0.81
+  },
+  "U1.23_SHGC0.5_SimpleGlazing_Window_12": {
+    "name": "U1.23_SHGC0.5_SimpleGlazing_Window_12",
+    "material_type": "SimpleGlazing",
+    "gas_type": "Air",
+    "u_factor": 1.23,
+    "solar_heat_gain_coefficient": 0.5,
+    "visible_transmittance": 0.81
+  },
+  "U1.23_SHGC0.82_SimpleGlazing_Window_01": {
+    "name": "U1.23_SHGC0.82_SimpleGlazing_Window_01",
+    "material_type": "SimpleGlazing",
+    "gas_type": "Air",
+    "u_factor": 1.23,
+    "solar_heat_gain_coefficient": 0.82,
+    "visible_transmittance": 0.81
+  },
+  "U1.23_SHGC0.82_SimpleGlazing_Window_10": {
+    "name": "U1.23_SHGC0.82_SimpleGlazing_Window_10",
+    "material_type": "SimpleGlazing",
+    "gas_type": "Air",
+    "u_factor": 1.23,
+    "solar_heat_gain_coefficient": 0.62,
+    "visible_transmittance": 0.81
+  }
+}

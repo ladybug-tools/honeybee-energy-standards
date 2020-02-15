@@ -7,15 +7,18 @@ import json
 
 
 # load the standards gem data of construction sets to Python dictionaries.
-_data_dir = os.path.join(os.path.dirname(__file__), '../data')
+_data_dir = os.path.join(os.path.dirname(__file__), '../standards_data')
 _c_set_dir = os.path.join(_data_dir, 'construction_set')
 
 _vintages = ('2013', '2010', '2007', '2004', '1980_2004', 'pre_1980')
 _construction_set_standards_dict = {}
 for vintage in _vintages:
     _c_set_vintage_dir = os.path.join(_c_set_dir, '{}_data.json'.format(vintage))
-    with open(_c_set_vintage_dir, 'r') as f:
-        _construction_set_standards_dict.update(json.load(f))
+    try:
+        with open(_c_set_vintage_dir, 'r') as f:
+            _construction_set_standards_dict.update(json.load(f))
+    except FileNotFoundError:
+        pass
 
 
 def construction_set_by_name(construction_set_name):

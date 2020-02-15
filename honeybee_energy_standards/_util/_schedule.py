@@ -39,6 +39,11 @@ def clean_schedules(source_filename, dest_directory):
     # list of all the day types to remove
     _remove_day_types = ('DummySmrDsn', 'DummrySmrDsn')
 
+    # list of incorrect schedules to be removed
+    _remove_sch_names = \
+        ('occupancy_clothing', 'occupancy_air_velocity', 'defr_wi_sched',
+         'door_wi_sched', 'occupancy_work_eff', 'ref_case_light', 'ref_case_restock')
+
     # initialize the clean dictionary
     sch_dict = {}
 
@@ -49,10 +54,11 @@ def clean_schedules(source_filename, dest_directory):
     # group the data by parent ScheduleRuleset
     for sch in data_store['schedules']:
         sch_name = sch['name']
-        if sch_name in sch_dict:
-            sch_dict[sch_name].append(sch)
-        else:
-            sch_dict[sch_name] = [sch]
+        if sch_name not in _remove_sch_names:
+            if sch_name in sch_dict:
+                sch_dict[sch_name].append(sch)
+            else:
+                sch_dict[sch_name] = [sch]
 
     # clean the datetime strings to only have the month and day
     for full_sched in sch_dict.values():

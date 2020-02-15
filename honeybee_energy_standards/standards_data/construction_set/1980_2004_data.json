@@ -1,0 +1,770 @@
+{
+  "1980_2004::ClimateZone1::SteelFramed": {
+    "name": "1980_2004::ClimateZone1::SteelFramed",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Wall",
+      "ground_construction": "Typical Insulated Basement Mass Wall"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R3",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical IEAD Roof-R14"
+    },
+    "aperture_set": {
+      "window_construction": "U 1.22 SHGC 0.25 Simple Glazing Window",
+      "operable_construction": "U 1.22 SHGC 0.25 Simple Glazing Window",
+      "skylight_construction": "U 1.98 SHGC 0.19 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone1::WoodFramed": {
+    "name": "1980_2004::ClimateZone1::WoodFramed",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Wood Framed Exterior Wall",
+      "ground_construction": "Typical Insulated Basement Mass Wall"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Wood Framed Exterior Floor-R4",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical Wood Joist Attic Floor-R14"
+    },
+    "aperture_set": {
+      "window_construction": "U 1.22 SHGC 0.25 Sgl Elec Ref Colored 6mm",
+      "operable_construction": "U 1.22 SHGC 0.25 Sgl Elec Ref Colored 6mm",
+      "skylight_construction": "U 1.98 SHGC 0.19 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone1::Mass": {
+    "name": "1980_2004::ClimateZone1::Mass",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Exterior Mass Wall",
+      "ground_construction": "Typical Insulated Basement Mass Wall"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Exterior Mass Floor",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical IEAD Roof-R14"
+    },
+    "aperture_set": {
+      "window_construction": "U 1.22 SHGC 0.25 Simple Glazing Window",
+      "operable_construction": "U 1.22 SHGC 0.25 Simple Glazing Window",
+      "skylight_construction": "U 1.98 SHGC 0.19 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone1::Metal Building": {
+    "name": "1980_2004::ClimateZone1::Metal Building",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Metal Building Wall-R1",
+      "ground_construction": "Typical Insulated Basement Mass Wall"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R3",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical Insulated Metal Building Roof-R10"
+    },
+    "aperture_set": {
+      "window_construction": "U 1.22 SHGC 0.25 Simple Glazing Window",
+      "operable_construction": "U 1.22 SHGC 0.25 Simple Glazing Window",
+      "skylight_construction": "U 1.98 SHGC 0.19 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone2::SteelFramed": {
+    "name": "1980_2004::ClimateZone2::SteelFramed",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Wall-R7",
+      "ground_construction": "Typical Insulated Basement Mass Wall"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R20",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical IEAD Roof-R16"
+    },
+    "aperture_set": {
+      "window_construction": "U 1.22 SHGC 0.25 Simple Glazing Window",
+      "operable_construction": "U 1.22 SHGC 0.25 Simple Glazing Window",
+      "skylight_construction": "U 1.98 SHGC 0.19 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone2::WoodFramed": {
+    "name": "1980_2004::ClimateZone2::WoodFramed",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Wood Framed Exterior Wall-R7",
+      "ground_construction": "Typical Insulated Basement Mass Wall"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Wood Framed Exterior Floor-R20",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical Wood Joist Attic Floor-R16"
+    },
+    "aperture_set": {
+      "window_construction": "U 1.22 SHGC 0.25 Sgl Elec Ref Colored 6mm",
+      "operable_construction": "U 1.22 SHGC 0.25 Sgl Elec Ref Colored 6mm",
+      "skylight_construction": "U 1.98 SHGC 0.19 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone2::Mass": {
+    "name": "1980_2004::ClimateZone2::Mass",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Exterior Mass Wall-R3",
+      "ground_construction": "Typical Insulated Basement Mass Wall"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Exterior Mass Floor",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical IEAD Roof-R16"
+    },
+    "aperture_set": {
+      "window_construction": "U 1.22 SHGC 0.25 Simple Glazing Window",
+      "operable_construction": "U 1.22 SHGC 0.25 Simple Glazing Window",
+      "skylight_construction": "U 1.98 SHGC 0.19 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone2::Metal Building": {
+    "name": "1980_2004::ClimateZone2::Metal Building",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Metal Building Wall-R7",
+      "ground_construction": "Typical Insulated Basement Mass Wall"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R20",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical Insulated Metal Building Roof-R10"
+    },
+    "aperture_set": {
+      "window_construction": "U 1.22 SHGC 0.25 Simple Glazing Window",
+      "operable_construction": "U 1.22 SHGC 0.25 Simple Glazing Window",
+      "skylight_construction": "U 1.98 SHGC 0.19 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone3::SteelFramed": {
+    "name": "1980_2004::ClimateZone3::SteelFramed",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Wall-R8",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R7"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R20",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical IEAD Roof-R14"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.72 SHGC 0.25 Simple Glazing Window",
+      "operable_construction": "U 0.72 SHGC 0.25 Simple Glazing Window",
+      "skylight_construction": "U 1.17 SHGC 0.36 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone3::WoodFramed": {
+    "name": "1980_2004::ClimateZone3::WoodFramed",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Wood Framed Exterior Wall-R8",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R7"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Wood Framed Exterior Floor-R20",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical Wood Joist Attic Floor-R14"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air",
+      "operable_construction": "U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air",
+      "skylight_construction": "U 1.17 SHGC 0.36 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone3::Mass": {
+    "name": "1980_2004::ClimateZone3::Mass",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Exterior Mass Wall-R4",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R7"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Exterior Mass Floor",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical IEAD Roof-R14"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.72 SHGC 0.25 Simple Glazing Window",
+      "operable_construction": "U 0.72 SHGC 0.25 Simple Glazing Window",
+      "skylight_construction": "U 1.17 SHGC 0.36 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone3::Metal Building": {
+    "name": "1980_2004::ClimateZone3::Metal Building",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Metal Building Wall-R8",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R7"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R20",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical Insulated Metal Building Roof-R10"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.72 SHGC 0.25 Simple Glazing Window",
+      "operable_construction": "U 0.72 SHGC 0.25 Simple Glazing Window",
+      "skylight_construction": "U 1.17 SHGC 0.36 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone4::SteelFramed": {
+    "name": "1980_2004::ClimateZone4::SteelFramed",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Wall-R12",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R10"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R20",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical IEAD Roof-R18"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.59 SHGC 0.36 Simple Glazing Window",
+      "operable_construction": "U 0.59 SHGC 0.36 Simple Glazing Window",
+      "skylight_construction": "U 0.98 SHGC 0.36 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone4::WoodFramed": {
+    "name": "1980_2004::ClimateZone4::WoodFramed",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Wood Framed Exterior Wall-R12",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R10"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Wood Framed Exterior Floor-R20",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical Wood Joist Attic Floor-R18"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air",
+      "operable_construction": "U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air",
+      "skylight_construction": "U 0.98 SHGC 0.36 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone4::Mass": {
+    "name": "1980_2004::ClimateZone4::Mass",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Exterior Mass Wall-R9",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R10"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Exterior Mass Floor",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical IEAD Roof-R18"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.59 SHGC 0.36 Simple Glazing Window",
+      "operable_construction": "U 0.59 SHGC 0.36 Simple Glazing Window",
+      "skylight_construction": "U 0.98 SHGC 0.36 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone4::Metal Building": {
+    "name": "1980_2004::ClimateZone4::Metal Building",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Metal Building Wall-R12",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R10"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R20",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical Insulated Metal Building Roof-R12"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.59 SHGC 0.36 Simple Glazing Window",
+      "operable_construction": "U 0.59 SHGC 0.36 Simple Glazing Window",
+      "skylight_construction": "U 0.98 SHGC 0.36 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone5::SteelFramed": {
+    "name": "1980_2004::ClimateZone5::SteelFramed",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Wall-R13",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R10"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R20",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical IEAD Roof-R19"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.59 SHGC 0.39 Simple Glazing Window",
+      "operable_construction": "U 0.59 SHGC 0.39 Simple Glazing Window",
+      "skylight_construction": "U 1.17 SHGC 0.49 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone5::WoodFramed": {
+    "name": "1980_2004::ClimateZone5::WoodFramed",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Wood Framed Exterior Wall-R13",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R10"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Wood Framed Exterior Floor-R31",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical Wood Joist Attic Floor-R19"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.57 SHGC 0.49 Dbl Blue 6mm/6mm Air",
+      "operable_construction": "U 0.57 SHGC 0.49 Dbl Blue 6mm/6mm Air",
+      "skylight_construction": "U 1.17 SHGC 0.49 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone5::Mass": {
+    "name": "1980_2004::ClimateZone5::Mass",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Exterior Mass Wall-R10",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R10"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Exterior Mass Floor",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical IEAD Roof-R19"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.59 SHGC 0.39 Simple Glazing Window",
+      "operable_construction": "U 0.59 SHGC 0.39 Simple Glazing Window",
+      "skylight_construction": "U 1.17 SHGC 0.49 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone5::Metal Building": {
+    "name": "1980_2004::ClimateZone5::Metal Building",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Metal Building Wall-R13",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R10"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R20",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical Insulated Metal Building Roof-R14"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.59 SHGC 0.39 Simple Glazing Window",
+      "operable_construction": "U 0.59 SHGC 0.39 Simple Glazing Window",
+      "skylight_construction": "U 1.17 SHGC 0.49 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone6::SteelFramed": {
+    "name": "1980_2004::ClimateZone6::SteelFramed",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Wall-R16",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R13"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R27",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical IEAD Roof-R23"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.52 SHGC 0.39 Simple Glazing Window",
+      "operable_construction": "U 0.52 SHGC 0.39 Simple Glazing Window",
+      "skylight_construction": "U 0.98 SHGC 0.45 Sgl Ref-B-H Clr 6mm"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone6::WoodFramed": {
+    "name": "1980_2004::ClimateZone6::WoodFramed",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Wood Framed Exterior Wall-R16",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R13"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Wood Framed Exterior Floor-R31",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical Wood Joist Attic Floor-R23"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air",
+      "operable_construction": "U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air",
+      "skylight_construction": "U 0.98 SHGC 0.45 Sgl Ref-B-H Clr 6mm"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone6::Mass": {
+    "name": "1980_2004::ClimateZone6::Mass",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Exterior Mass Wall-R15",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R13"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Exterior Mass Floor",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical IEAD Roof-R23"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.52 SHGC 0.39 Simple Glazing Window",
+      "operable_construction": "U 0.52 SHGC 0.39 Simple Glazing Window",
+      "skylight_construction": "U 0.98 SHGC 0.45 Sgl Ref-B-H Clr 6mm"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone6::Metal Building": {
+    "name": "1980_2004::ClimateZone6::Metal Building",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Metal Building Wall-R16",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R13"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R27",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical Insulated Metal Building Roof-R23"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.52 SHGC 0.39 Simple Glazing Window",
+      "operable_construction": "U 0.52 SHGC 0.39 Simple Glazing Window",
+      "skylight_construction": "U 0.98 SHGC 0.45 Sgl Ref-B-H Clr 6mm"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone7::SteelFramed": {
+    "name": "1980_2004::ClimateZone7::SteelFramed",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Wall-R18",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R13"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R27",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical IEAD Roof-R25"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.52 SHGC 0.49 Simple Glazing Window",
+      "operable_construction": "U 0.52 SHGC 0.49 Simple Glazing Window",
+      "skylight_construction": "U 1.17 SHGC 0.64 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone7::WoodFramed": {
+    "name": "1980_2004::ClimateZone7::WoodFramed",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Wood Framed Exterior Wall-R18",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R13"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Wood Framed Exterior Floor-R31",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical Wood Joist Attic Floor-R25"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.57 SHGC 0.49 Dbl Blue 6mm/6mm Air",
+      "operable_construction": "U 0.57 SHGC 0.49 Dbl Blue 6mm/6mm Air",
+      "skylight_construction": "U 1.17 SHGC 0.64 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone7::Mass": {
+    "name": "1980_2004::ClimateZone7::Mass",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Exterior Mass Wall-R17",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R13"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Exterior Mass Floor",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical IEAD Roof-R25"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.52 SHGC 0.49 Simple Glazing Window",
+      "operable_construction": "U 0.52 SHGC 0.49 Simple Glazing Window",
+      "skylight_construction": "U 1.17 SHGC 0.64 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone7::Metal Building": {
+    "name": "1980_2004::ClimateZone7::Metal Building",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Metal Building Wall-R18",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R13"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R27",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical Insulated Metal Building Roof-R25"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.52 SHGC 0.49 Simple Glazing Window",
+      "operable_construction": "U 0.52 SHGC 0.49 Simple Glazing Window",
+      "skylight_construction": "U 1.17 SHGC 0.64 Simple Glazing Skylight"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone8::SteelFramed": {
+    "name": "1980_2004::ClimateZone8::SteelFramed",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Wall-R23",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R16"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R27",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical IEAD Roof-R33"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.52 SHGC 0.615 Simple Glazing Window",
+      "operable_construction": "U 0.52 SHGC 0.615 Simple Glazing Window",
+      "skylight_construction": "U 0.98 SHGC 0.45 Sgl Ref-B-H Clr 6mm"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone8::WoodFramed": {
+    "name": "1980_2004::ClimateZone8::WoodFramed",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Wood Framed Exterior Wall-R23",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R16"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Wood Framed Exterior Floor-R31",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical Wood Joist Attic Floor-R33"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.46 SHGC 0.45 Dbl Grey 6mm/13mm Air",
+      "operable_construction": "U 0.46 SHGC 0.45 Dbl Grey 6mm/13mm Air",
+      "skylight_construction": "U 0.98 SHGC 0.45 Sgl Ref-B-H Clr 6mm"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone8::Mass": {
+    "name": "1980_2004::ClimateZone8::Mass",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Exterior Mass Wall-R22",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R16"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Exterior Mass Floor",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical IEAD Roof-R33"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.52 SHGC 0.615 Simple Glazing Window",
+      "operable_construction": "U 0.52 SHGC 0.615 Simple Glazing Window",
+      "skylight_construction": "U 0.98 SHGC 0.45 Sgl Ref-B-H Clr 6mm"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  },
+  "1980_2004::ClimateZone8::Metal Building": {
+    "name": "1980_2004::ClimateZone8::Metal Building",
+    "wall_set": {
+      "exterior_construction": "Typical Insulated Metal Building Wall-R23",
+      "ground_construction": "Typical Insulated Basement Mass Wall-R16"
+    },
+    "floor_set": {
+      "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R27",
+      "ground_construction": "ext-slab"
+    },
+    "roof_ceiling_set": {
+      "exterior_construction": "Typical Insulated Metal Building Roof-R33"
+    },
+    "aperture_set": {
+      "window_construction": "U 0.52 SHGC 0.615 Simple Glazing Window",
+      "operable_construction": "U 0.52 SHGC 0.615 Simple Glazing Window",
+      "skylight_construction": "U 0.98 SHGC 0.45 Sgl Ref-B-H Clr 6mm"
+    },
+    "door_set": {
+      "exterior_construction": "Typical Insulated Metal Door",
+      "overhead_construction": "Typical Overhead Door",
+      "exterior_glass_construction": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm"
+    }
+  }
+}

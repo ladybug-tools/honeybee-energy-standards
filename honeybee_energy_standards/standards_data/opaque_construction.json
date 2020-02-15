@@ -1,0 +1,1686 @@
+{
+  "Adiabatic ExteriorFloor": {
+    "name": "Adiabatic ExteriorFloor",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "Adiabatic Material"
+    ]
+  },
+  "Adiabatic GroundContactFloor": {
+    "name": "Adiabatic GroundContactFloor",
+    "intended_surface_type": "GroundContactFloor",
+    "materials": [
+      "Adiabatic Material"
+    ]
+  },
+  "Adiabatic Roof": {
+    "name": "Adiabatic Roof",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Adiabatic Material"
+    ]
+  },
+  "Adiabatic Wall": {
+    "name": "Adiabatic Wall",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "Adiabatic Material"
+    ]
+  },
+  "Typical Attic Floor": {
+    "name": "Typical Attic Floor",
+    "intended_surface_type": "AtticFloor",
+    "materials": [
+      "1/2IN Gypsum",
+      "Typical Insulation",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Attic Soffit": {
+    "name": "Typical Attic Soffit",
+    "intended_surface_type": "AtticWall",
+    "materials": [
+      "5/8 in. Plywood"
+    ]
+  },
+  "Typical Built Up Roof": {
+    "name": "Typical Built Up Roof",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Built-up Roofing",
+      "Typical Insulation",
+      "Metal Surface"
+    ]
+  },
+  "Typical Built Up Roof - Highly Reflective": {
+    "name": "Typical Built Up Roof - Highly Reflective",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Built-up Roofing - Highly Reflective",
+      "Typical Insulation",
+      "Metal Surface"
+    ]
+  },
+  "Typical Carpeted 4in Slab Floor": {
+    "name": "Typical Carpeted 4in Slab Floor",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "MAT-CC05 4 HW CONCRETE",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Carpeted 6in Slab Floor": {
+    "name": "Typical Carpeted 6in Slab Floor",
+    "intended_surface_type": "GroundContactFloor",
+    "materials": [
+      "6 in. Normalweight Concrete Floor",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Carpeted 8in Slab Floor": {
+    "name": "Typical Carpeted 8in Slab Floor",
+    "intended_surface_type": "GroundContactFloor",
+    "materials": [
+      "8 in. Concrete Block Basement Wall",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical IEAD Roof": {
+    "name": "Typical IEAD Roof",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Roof Membrane",
+      "Typical Insulation",
+      "Metal Roof Surface"
+    ]
+  },
+  "Typical IEAD Roof - Highly Reflective": {
+    "name": "Typical IEAD Roof - Highly Reflective",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Roof Membrane - Highly Reflective",
+      "Typical Insulation",
+      "Metal Roof Surface"
+    ]
+  },
+  "Typical Insulated 6in Slab Floor": {
+    "name": "Typical Insulated 6in Slab Floor",
+    "intended_surface_type": "GroundContactFloor",
+    "materials": [
+      "Typical Insulation",
+      "6 in. Normalweight Concrete Floor"
+    ]
+  },
+  "Typical Insulated 8in Slab Floor": {
+    "name": "Typical Insulated 8in Slab Floor",
+    "intended_surface_type": "GroundContactFloor",
+    "materials": [
+      "Typical Insulation",
+      "8 in. Normalweight Concrete Floor"
+    ]
+  },
+  "Typical Insulated Basement Mass Wall": {
+    "name": "Typical Insulated Basement Mass Wall",
+    "intended_surface_type": "GroundContactWall",
+    "materials": [
+      "Typical Insulation",
+      "8 in. Concrete Block Basement Wall"
+    ]
+  },
+  "Typical Insulated Carpeted 4in Slab Floor": {
+    "name": "Typical Insulated Carpeted 4in Slab Floor",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "Typical Insulation",
+      "MAT-CC05 4 HW CONCRETE",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Carpeted 6in Slab Floor": {
+    "name": "Typical Insulated Carpeted 6in Slab Floor",
+    "intended_surface_type": "GroundContactFloor",
+    "materials": [
+      "Typical Insulation",
+      "6 in. Normalweight Concrete Floor",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Carpeted 8in Slab Floor": {
+    "name": "Typical Insulated Carpeted 8in Slab Floor",
+    "intended_surface_type": "GroundContactFloor",
+    "materials": [
+      "Typical Insulation",
+      "8 in. Normalweight Concrete Floor",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Exterior Mass Floor": {
+    "name": "Typical Insulated Exterior Mass Floor",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "Typical Insulation",
+      "4 in. Normalweight Concrete Floor",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Exterior Mass Floor Ceiling": {
+    "name": "Typical Insulated Exterior Mass Floor Ceiling",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "Typical Carpet Pad",
+      "4 in. Normalweight Concrete Floor",
+      "Typical Insulation"
+    ]
+  },
+  "Typical Insulated Exterior Mass Wall": {
+    "name": "Typical Insulated Exterior Mass Wall",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "1IN Stucco",
+      "8IN CONCRETE HW RefBldg",
+      "Typical Insulation",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Interior Wall": {
+    "name": "Typical Insulated Interior Wall",
+    "intended_surface_type": "InteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation",
+      "Steel Frame/Cavity",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Insulated Metal Building Roof": {
+    "name": "Typical Insulated Metal Building Roof",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Metal Roof Surface",
+      "Typical Insulation"
+    ]
+  },
+  "Typical Insulated Metal Building Roof - Highly Reflective": {
+    "name": "Typical Insulated Metal Building Roof - Highly Reflective",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Metal Roof Surface - Highly Reflective",
+      "Typical Insulation"
+    ]
+  },
+  "Typical Insulated Metal Building Wall": {
+    "name": "Typical Insulated Metal Building Wall",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "Metal Siding",
+      "Typical Insulation",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Metal Door": {
+    "name": "Typical Insulated Metal Door",
+    "intended_surface_type": "ExteriorDoor",
+    "materials": [
+      "F08 Metal surface",
+      "Typical Insulation"
+    ]
+  },
+  "Typical Insulated Steel Framed Exterior Floor": {
+    "name": "Typical Insulated Steel Framed Exterior Floor",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation",
+      "5/8 in. Gypsum Board",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Steel Framed Exterior Wall": {
+    "name": "Typical Insulated Steel Framed Exterior Wall",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Insulated Wood Framed Exterior Floor": {
+    "name": "Typical Insulated Wood Framed Exterior Floor",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation",
+      "5/8 in. Gypsum Board",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Wood Framed Exterior Wall": {
+    "name": "Typical Insulated Wood Framed Exterior Wall",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Interior Ceiling": {
+    "name": "Typical Interior Ceiling",
+    "intended_surface_type": "InteriorCeiling",
+    "materials": [
+      "CP02 CARPET PAD",
+      "100mm Normalweight concrete floor"
+    ]
+  },
+  "Typical Interior Door": {
+    "name": "Typical Interior Door",
+    "intended_surface_type": "InteriorDoor",
+    "materials": [
+      "G05 25mm wood"
+    ]
+  },
+  "Typical Interior Floor": {
+    "name": "Typical Interior Floor",
+    "intended_surface_type": "InteriorFloor",
+    "materials": [
+      "100mm Normalweight concrete floor",
+      "CP02 CARPET PAD"
+    ]
+  },
+  "Typical Interior Partition": {
+    "name": "Typical Interior Partition",
+    "intended_surface_type": "InteriorPartition",
+    "materials": [
+      "G05 25mm wood"
+    ]
+  },
+  "Typical Interior Slab Floor": {
+    "name": "Typical Interior Slab Floor",
+    "intended_surface_type": "InteriorFloor",
+    "materials": [
+      "4 in. Normalweight Concrete Floor",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Interior Wall": {
+    "name": "Typical Interior Wall",
+    "intended_surface_type": "InteriorWall",
+    "materials": [
+      "G01 13mm gypsum board",
+      "G01 13mm gypsum board"
+    ]
+  },
+  "Typical Overhead Door": {
+    "name": "Typical Overhead Door",
+    "intended_surface_type": "ExteriorDoor",
+    "materials": [
+      "Typical Insulation"
+    ]
+  },
+  "Typical Uncarpeted 4in Slab Floor": {
+    "name": "Typical Uncarpeted 4in Slab Floor",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "MAT-CC05 4 HW CONCRETE"
+    ]
+  },
+  "Typical Uncarpeted 6in Slab Floor": {
+    "name": "Typical Uncarpeted 6in Slab Floor",
+    "intended_surface_type": "GroundContactFloor",
+    "materials": [
+      "6 in. Normalweight Concrete Floor"
+    ]
+  },
+  "Typical Uninsulated 6in Slab Floor": {
+    "name": "Typical Uninsulated 6in Slab Floor",
+    "intended_surface_type": "GroundContactFloor",
+    "materials": [
+      "6 in. Normalweight Concrete Floor"
+    ]
+  },
+  "Typical Uninsulated 8in Slab Floor": {
+    "name": "Typical Uninsulated 8in Slab Floor",
+    "intended_surface_type": "GroundContactFloor",
+    "materials": [
+      "8 in. Normalweight Concrete Floor"
+    ]
+  },
+  "Typical Uninsulated Basement Mass Wall": {
+    "name": "Typical Uninsulated Basement Mass Wall",
+    "intended_surface_type": "GroundContactWall",
+    "materials": [
+      "8 in. Concrete Block Basement Wall"
+    ]
+  },
+  "Typical Uninsulated Carpeted 8in Slab Floor": {
+    "name": "Typical Uninsulated Carpeted 8in Slab Floor",
+    "intended_surface_type": "GroundContactFloor",
+    "materials": [
+      "8 in. Concrete Block Basement Wall",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Uninsulated Exterior Mass Wall": {
+    "name": "Typical Uninsulated Exterior Mass Wall",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "1IN Stucco",
+      "8IN CONCRETE HW RefBldg",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Uninsulated Interior Wall": {
+    "name": "Typical Uninsulated Interior Wall",
+    "intended_surface_type": "InteriorWall",
+    "materials": [
+      "1/2 in. Gypsum Board",
+      "1/2 in. Gypsum Board"
+    ]
+  },
+  "Typical Uninsulated Metal Building Roof": {
+    "name": "Typical Uninsulated Metal Building Roof",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Metal Roofing"
+    ]
+  },
+  "Typical Uninsulated Metal Building Roof - Highly Reflective": {
+    "name": "Typical Uninsulated Metal Building Roof - Highly Reflective",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Metal Roofing - Highly Reflective"
+    ]
+  },
+  "Typical Uninsulated Metal Building Wall": {
+    "name": "Typical Uninsulated Metal Building Wall",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "Metal Siding",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Uninsulated Metal Roof Attic Roof": {
+    "name": "Typical Uninsulated Metal Roof Attic Roof",
+    "intended_surface_type": "AtticRoof",
+    "materials": [
+      "Roof Membrane",
+      "Metal Decking"
+    ]
+  },
+  "Typical Uninsulated Steel Framed Exterior Wall": {
+    "name": "Typical Uninsulated Steel Framed Exterior Wall",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "Wood Siding",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Uninsulated Swinging Door": {
+    "name": "Typical Uninsulated Swinging Door",
+    "intended_surface_type": "ExteriorDoor",
+    "materials": [
+      "Typical Insulation"
+    ]
+  },
+  "Typical Uninsulated Wood Joist Attic Roof": {
+    "name": "Typical Uninsulated Wood Joist Attic Roof",
+    "intended_surface_type": "AtticRoof",
+    "materials": [
+      "Asphalt Shingles",
+      "5/8 in. Plywood"
+    ]
+  },
+  "Typical Unisulated Carpeted 6in Slab Floor": {
+    "name": "Typical Unisulated Carpeted 6in Slab Floor",
+    "intended_surface_type": "GroundContactFloor",
+    "materials": [
+      "6 in. Normalweight Concrete Floor",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Wood Joist Attic Floor": {
+    "name": "Typical Wood Joist Attic Floor",
+    "intended_surface_type": "AtticFloor",
+    "materials": [
+      "5/8 in. Gypsum Board",
+      "Typical Insulation"
+    ]
+  },
+  "Typical Wood Joist Attic Floor Ceiling": {
+    "name": "Typical Wood Joist Attic Floor Ceiling",
+    "intended_surface_type": "AtticFloor",
+    "materials": [
+      "Typical Insulation",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "ext-slab": {
+    "name": "ext-slab",
+    "intended_surface_type": "GroundContactFloor",
+    "materials": [
+      "6 in. Normalweight Concrete Floor"
+    ]
+  },
+  "ext-slab-mass": {
+    "name": "ext-slab-mass",
+    "intended_surface_type": "GroundContactFloor",
+    "materials": [
+      "HW CONCRETE",
+      "CP02 CARPET PAD"
+    ]
+  },
+  "ext-slab-metal-building": {
+    "name": "ext-slab-metal-building",
+    "intended_surface_type": "GroundContactFloor",
+    "materials": [
+      "HW CONCRETE 8 in"
+    ]
+  },
+  "ext-slab-steel-frame": {
+    "name": "ext-slab-steel-frame",
+    "intended_surface_type": "GroundContactFloor",
+    "materials": [
+      "HW CONCRETE 8 in",
+      "CP02 CARPET PAD"
+    ]
+  },
+  "Typical Insulated Steel Framed Exterior Wall-R9": {
+    "name": "Typical Insulated Steel Framed Exterior Wall-R9",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R7",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical IEAD Roof - Highly Reflective-R21": {
+    "name": "Typical IEAD Roof - Highly Reflective-R21",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Roof Membrane - Highly Reflective",
+      "Typical Insulation-R21",
+      "Metal Roof Surface"
+    ]
+  },
+  "Typical Insulated Steel Framed Exterior Floor-R3": {
+    "name": "Typical Insulated Steel Framed Exterior Floor-R3",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R1",
+      "5/8 in. Gypsum Board",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Metal Door-R2": {
+    "name": "Typical Insulated Metal Door-R2",
+    "intended_surface_type": "ExteriorDoor",
+    "materials": [
+      "F08 Metal surface",
+      "Typical Insulation-R2"
+    ]
+  },
+  "Typical Overhead Door-R1": {
+    "name": "Typical Overhead Door-R1",
+    "intended_surface_type": "ExteriorDoor",
+    "materials": [
+      "Typical Insulation-R1"
+    ]
+  },
+  "Typical Insulated Wood Framed Exterior Wall-R12": {
+    "name": "Typical Insulated Wood Framed Exterior Wall-R12",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R10",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Wood Joist Attic Floor-R38": {
+    "name": "Typical Wood Joist Attic Floor-R38",
+    "intended_surface_type": "AtticFloor",
+    "materials": [
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R37"
+    ]
+  },
+  "Typical Insulated Wood Framed Exterior Floor-R4": {
+    "name": "Typical Insulated Wood Framed Exterior Floor-R4",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R1",
+      "5/8 in. Gypsum Board",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Exterior Mass Wall-R2": {
+    "name": "Typical Insulated Exterior Mass Wall-R2",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "1IN Stucco",
+      "8IN CONCRETE HW RefBldg",
+      "Typical Insulation-R1",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Exterior Mass Floor-R4": {
+    "name": "Typical Insulated Exterior Mass Floor-R4",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "Typical Insulation-R2",
+      "4 in. Normalweight Concrete Floor",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Metal Building Wall-R11": {
+    "name": "Typical Insulated Metal Building Wall-R11",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "Metal Siding",
+      "Typical Insulation-R11",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Metal Building Roof - Highly Reflective-R25": {
+    "name": "Typical Insulated Metal Building Roof - Highly Reflective-R25",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Metal Roof Surface - Highly Reflective",
+      "Typical Insulation-R25"
+    ]
+  },
+  "Typical Insulated Steel Framed Exterior Wall-R12": {
+    "name": "Typical Insulated Steel Framed Exterior Wall-R12",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R11",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical IEAD Roof - Highly Reflective-R26": {
+    "name": "Typical IEAD Roof - Highly Reflective-R26",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Roof Membrane - Highly Reflective",
+      "Typical Insulation-R26",
+      "Metal Roof Surface"
+    ]
+  },
+  "Typical Insulated Steel Framed Exterior Floor-R27": {
+    "name": "Typical Insulated Steel Framed Exterior Floor-R27",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R24",
+      "5/8 in. Gypsum Board",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Overhead Door-R2": {
+    "name": "Typical Overhead Door-R2",
+    "intended_surface_type": "ExteriorDoor",
+    "materials": [
+      "Typical Insulation-R2"
+    ]
+  },
+  "Typical Insulated Wood Framed Exterior Floor-R31": {
+    "name": "Typical Insulated Wood Framed Exterior Floor-R31",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R28",
+      "5/8 in. Gypsum Board",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Exterior Mass Wall-R7": {
+    "name": "Typical Insulated Exterior Mass Wall-R7",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "1IN Stucco",
+      "8IN CONCRETE HW RefBldg",
+      "Typical Insulation-R5",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Exterior Mass Floor-R10": {
+    "name": "Typical Insulated Exterior Mass Floor-R10",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "Typical Insulation-R8",
+      "4 in. Normalweight Concrete Floor",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Metal Building Roof-R25": {
+    "name": "Typical Insulated Metal Building Roof-R25",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Metal Roof Surface",
+      "Typical Insulation-R25"
+    ]
+  },
+  "Typical Insulated Steel Framed Exterior Wall-R13": {
+    "name": "Typical Insulated Steel Framed Exterior Wall-R13",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R12",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Insulated Exterior Mass Wall-R9": {
+    "name": "Typical Insulated Exterior Mass Wall-R9",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "1IN Stucco",
+      "8IN CONCRETE HW RefBldg",
+      "Typical Insulation-R7",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Exterior Mass Floor-R14": {
+    "name": "Typical Insulated Exterior Mass Floor-R14",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "Typical Insulation-R12",
+      "4 in. Normalweight Concrete Floor",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Steel Framed Exterior Wall-R16": {
+    "name": "Typical Insulated Steel Framed Exterior Wall-R16",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R15",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Insulated Basement Mass Wall-R8": {
+    "name": "Typical Insulated Basement Mass Wall-R8",
+    "intended_surface_type": "GroundContactWall",
+    "materials": [
+      "Typical Insulation-R7",
+      "8 in. Concrete Block Basement Wall"
+    ]
+  },
+  "Typical IEAD Roof-R32": {
+    "name": "Typical IEAD Roof-R32",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Roof Membrane",
+      "Typical Insulation-R31",
+      "Metal Roof Surface"
+    ]
+  },
+  "Typical Insulated Carpeted 8in Slab Floor-R5": {
+    "name": "Typical Insulated Carpeted 8in Slab Floor-R5",
+    "intended_surface_type": "GroundContactFloor",
+    "materials": [
+      "Typical Insulation-R4",
+      "8 in. Normalweight Concrete Floor",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Wood Framed Exterior Wall-R16": {
+    "name": "Typical Insulated Wood Framed Exterior Wall-R16",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R15",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Wood Joist Attic Floor-R48": {
+    "name": "Typical Wood Joist Attic Floor-R48",
+    "intended_surface_type": "AtticFloor",
+    "materials": [
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R47"
+    ]
+  },
+  "Typical Insulated Exterior Mass Wall-R10": {
+    "name": "Typical Insulated Exterior Mass Wall-R10",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "1IN Stucco",
+      "8IN CONCRETE HW RefBldg",
+      "Typical Insulation-R8",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Exterior Mass Floor-R18": {
+    "name": "Typical Insulated Exterior Mass Floor-R18",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "Typical Insulation-R16",
+      "4 in. Normalweight Concrete Floor",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Metal Building Wall-R17": {
+    "name": "Typical Insulated Metal Building Wall-R17",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "Metal Siding",
+      "Typical Insulation-R17",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Metal Building Roof-R28": {
+    "name": "Typical Insulated Metal Building Roof-R28",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Metal Roof Surface",
+      "Typical Insulation-R27"
+    ]
+  },
+  "Typical Insulated Steel Framed Exterior Wall-R19": {
+    "name": "Typical Insulated Steel Framed Exterior Wall-R19",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R17",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Insulated Wood Framed Exterior Wall-R20": {
+    "name": "Typical Insulated Wood Framed Exterior Wall-R20",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R19",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Insulated Exterior Mass Wall-R12": {
+    "name": "Typical Insulated Exterior Mass Wall-R12",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "1IN Stucco",
+      "8IN CONCRETE HW RefBldg",
+      "Typical Insulation-R10",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Metal Building Wall-R20": {
+    "name": "Typical Insulated Metal Building Wall-R20",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "Metal Siding",
+      "Typical Insulation-R20",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Steel Framed Exterior Wall-R21": {
+    "name": "Typical Insulated Steel Framed Exterior Wall-R21",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R19",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Insulated Basement Mass Wall-R10": {
+    "name": "Typical Insulated Basement Mass Wall-R10",
+    "intended_surface_type": "GroundContactWall",
+    "materials": [
+      "Typical Insulation-R9",
+      "8 in. Concrete Block Basement Wall"
+    ]
+  },
+  "Typical Insulated Steel Framed Exterior Floor-R32": {
+    "name": "Typical Insulated Steel Framed Exterior Floor-R32",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R29",
+      "5/8 in. Gypsum Board",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Wood Framed Exterior Floor-R38": {
+    "name": "Typical Insulated Wood Framed Exterior Floor-R38",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R35",
+      "5/8 in. Gypsum Board",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Exterior Mass Wall-R13": {
+    "name": "Typical Insulated Exterior Mass Wall-R13",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "1IN Stucco",
+      "8IN CONCRETE HW RefBldg",
+      "Typical Insulation-R11",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Exterior Mass Floor-R20": {
+    "name": "Typical Insulated Exterior Mass Floor-R20",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "Typical Insulation-R18",
+      "4 in. Normalweight Concrete Floor",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Metal Building Roof-R33": {
+    "name": "Typical Insulated Metal Building Roof-R33",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Metal Roof Surface",
+      "Typical Insulation-R33"
+    ]
+  },
+  "Typical Insulated Basement Mass Wall-R15": {
+    "name": "Typical Insulated Basement Mass Wall-R15",
+    "intended_surface_type": "GroundContactWall",
+    "materials": [
+      "Typical Insulation-R14",
+      "8 in. Concrete Block Basement Wall"
+    ]
+  },
+  "Typical IEAD Roof-R36": {
+    "name": "Typical IEAD Roof-R36",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Roof Membrane",
+      "Typical Insulation-R36",
+      "Metal Roof Surface"
+    ]
+  },
+  "Typical Wood Joist Attic Floor-R59": {
+    "name": "Typical Wood Joist Attic Floor-R59",
+    "intended_surface_type": "AtticFloor",
+    "materials": [
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R59"
+    ]
+  },
+  "Typical Insulated Exterior Mass Wall-R15": {
+    "name": "Typical Insulated Exterior Mass Wall-R15",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "1IN Stucco",
+      "8IN CONCRETE HW RefBldg",
+      "Typical Insulation-R13",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Exterior Mass Floor-R24": {
+    "name": "Typical Insulated Exterior Mass Floor-R24",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "Typical Insulation-R23",
+      "4 in. Normalweight Concrete Floor",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Metal Building Wall-R23": {
+    "name": "Typical Insulated Metal Building Wall-R23",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "Metal Siding",
+      "Typical Insulation-R23",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Metal Building Roof-R35": {
+    "name": "Typical Insulated Metal Building Roof-R35",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Metal Roof Surface",
+      "Typical Insulation-R35"
+    ]
+  },
+  "Typical Insulated Steel Framed Exterior Wall-R28": {
+    "name": "Typical Insulated Steel Framed Exterior Wall-R28",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R26",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Insulated Carpeted 8in Slab Floor-R10": {
+    "name": "Typical Insulated Carpeted 8in Slab Floor-R10",
+    "intended_surface_type": "GroundContactFloor",
+    "materials": [
+      "Typical Insulation-R9",
+      "8 in. Normalweight Concrete Floor",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Wood Framed Exterior Wall-R32": {
+    "name": "Typical Insulated Wood Framed Exterior Wall-R32",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R30",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Insulated Exterior Mass Wall-R21": {
+    "name": "Typical Insulated Exterior Mass Wall-R21",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "1IN Stucco",
+      "8IN CONCRETE HW RefBldg",
+      "Typical Insulation-R20",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Exterior Mass Floor-R27": {
+    "name": "Typical Insulated Exterior Mass Floor-R27",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "Typical Insulation-R25",
+      "4 in. Normalweight Concrete Floor",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Metal Building Wall-R26": {
+    "name": "Typical Insulated Metal Building Wall-R26",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "Metal Siding",
+      "Typical Insulation-R26",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Metal Building Roof-R39": {
+    "name": "Typical Insulated Metal Building Roof-R39",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Metal Roof Surface",
+      "Typical Insulation-R39"
+    ]
+  },
+  "Typical IEAD Roof - Highly Reflective-R16": {
+    "name": "Typical IEAD Roof - Highly Reflective-R16",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Roof Membrane - Highly Reflective",
+      "Typical Insulation-R16",
+      "Metal Roof Surface"
+    ]
+  },
+  "Typical Wood Joist Attic Floor-R30": {
+    "name": "Typical Wood Joist Attic Floor-R30",
+    "intended_surface_type": "AtticFloor",
+    "materials": [
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R29"
+    ]
+  },
+  "Typical Insulated Metal Building Roof - Highly Reflective-R16": {
+    "name": "Typical Insulated Metal Building Roof - Highly Reflective-R16",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Metal Roof Surface - Highly Reflective",
+      "Typical Insulation-R16"
+    ]
+  },
+  "Typical Insulated Steel Framed Exterior Floor-R20": {
+    "name": "Typical Insulated Steel Framed Exterior Floor-R20",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R17",
+      "5/8 in. Gypsum Board",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Wood Framed Exterior Floor-R20": {
+    "name": "Typical Insulated Wood Framed Exterior Floor-R20",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R17",
+      "5/8 in. Gypsum Board",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Metal Building Roof-R19": {
+    "name": "Typical Insulated Metal Building Roof-R19",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Metal Roof Surface",
+      "Typical Insulation-R19"
+    ]
+  },
+  "Typical Insulated Metal Building Wall-R12": {
+    "name": "Typical Insulated Metal Building Wall-R12",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "Metal Siding",
+      "Typical Insulation-R12",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical IEAD Roof-R21": {
+    "name": "Typical IEAD Roof-R21",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Roof Membrane",
+      "Typical Insulation-R21",
+      "Metal Roof Surface"
+    ]
+  },
+  "Typical Insulated Exterior Mass Floor-R12": {
+    "name": "Typical Insulated Exterior Mass Floor-R12",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "Typical Insulation-R10",
+      "4 in. Normalweight Concrete Floor",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Metal Building Wall-R15": {
+    "name": "Typical Insulated Metal Building Wall-R15",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "Metal Siding",
+      "Typical Insulation-R14",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Carpeted 6in Slab Floor-R5": {
+    "name": "Typical Insulated Carpeted 6in Slab Floor-R5",
+    "intended_surface_type": "GroundContactFloor",
+    "materials": [
+      "Typical Insulation-R4",
+      "6 in. Normalweight Concrete Floor",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Exterior Mass Floor-R16": {
+    "name": "Typical Insulated Exterior Mass Floor-R16",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "Typical Insulation-R14",
+      "4 in. Normalweight Concrete Floor",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical Insulated Metal Building Roof-R21": {
+    "name": "Typical Insulated Metal Building Roof-R21",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Metal Roof Surface",
+      "Typical Insulation-R21"
+    ]
+  },
+  "Typical Insulated Metal Building Wall-R18": {
+    "name": "Typical Insulated Metal Building Wall-R18",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "Metal Siding",
+      "Typical Insulation-R17",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Wood Framed Exterior Wall-R28": {
+    "name": "Typical Insulated Wood Framed Exterior Wall-R28",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R27",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Insulated Metal Building Roof-R29": {
+    "name": "Typical Insulated Metal Building Roof-R29",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Metal Roof Surface",
+      "Typical Insulation-R29"
+    ]
+  },
+  "Typical Insulated Metal Building Wall-R9": {
+    "name": "Typical Insulated Metal Building Wall-R9",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "Metal Siding",
+      "Typical Insulation-R9",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Metal Building Roof-R16": {
+    "name": "Typical Insulated Metal Building Roof-R16",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Metal Roof Surface",
+      "Typical Insulation-R16"
+    ]
+  },
+  "Typical IEAD Roof-R16": {
+    "name": "Typical IEAD Roof-R16",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Roof Membrane",
+      "Typical Insulation-R16",
+      "Metal Roof Surface"
+    ]
+  },
+  "Typical Insulated Exterior Mass Floor-R8": {
+    "name": "Typical Insulated Exterior Mass Floor-R8",
+    "intended_surface_type": "ExteriorFloor",
+    "materials": [
+      "Typical Insulation-R6",
+      "4 in. Normalweight Concrete Floor",
+      "Typical Carpet Pad"
+    ]
+  },
+  "Typical IEAD Roof-R14": {
+    "name": "Typical IEAD Roof-R14",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Roof Membrane",
+      "Typical Insulation-R14",
+      "Metal Roof Surface"
+    ]
+  },
+  "Typical Wood Joist Attic Floor-R14": {
+    "name": "Typical Wood Joist Attic Floor-R14",
+    "intended_surface_type": "AtticFloor",
+    "materials": [
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R13"
+    ]
+  },
+  "Typical Insulated Metal Building Wall-R1": {
+    "name": "Typical Insulated Metal Building Wall-R1",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "Metal Siding",
+      "Typical Insulation-R1",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Metal Building Roof-R10": {
+    "name": "Typical Insulated Metal Building Roof-R10",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Metal Roof Surface",
+      "Typical Insulation-R10"
+    ]
+  },
+  "Typical Insulated Steel Framed Exterior Wall-R7": {
+    "name": "Typical Insulated Steel Framed Exterior Wall-R7",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R6",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Insulated Wood Framed Exterior Wall-R7": {
+    "name": "Typical Insulated Wood Framed Exterior Wall-R7",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R6",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Wood Joist Attic Floor-R16": {
+    "name": "Typical Wood Joist Attic Floor-R16",
+    "intended_surface_type": "AtticFloor",
+    "materials": [
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R15"
+    ]
+  },
+  "Typical Insulated Exterior Mass Wall-R3": {
+    "name": "Typical Insulated Exterior Mass Wall-R3",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "1IN Stucco",
+      "8IN CONCRETE HW RefBldg",
+      "Typical Insulation-R2",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Metal Building Wall-R7": {
+    "name": "Typical Insulated Metal Building Wall-R7",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "Metal Siding",
+      "Typical Insulation-R7",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Steel Framed Exterior Wall-R8": {
+    "name": "Typical Insulated Steel Framed Exterior Wall-R8",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R7",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Insulated Basement Mass Wall-R7": {
+    "name": "Typical Insulated Basement Mass Wall-R7",
+    "intended_surface_type": "GroundContactWall",
+    "materials": [
+      "Typical Insulation-R6",
+      "8 in. Concrete Block Basement Wall"
+    ]
+  },
+  "Typical Insulated Wood Framed Exterior Wall-R8": {
+    "name": "Typical Insulated Wood Framed Exterior Wall-R8",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R7",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Insulated Exterior Mass Wall-R4": {
+    "name": "Typical Insulated Exterior Mass Wall-R4",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "1IN Stucco",
+      "8IN CONCRETE HW RefBldg",
+      "Typical Insulation-R2",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Metal Building Wall-R8": {
+    "name": "Typical Insulated Metal Building Wall-R8",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "Metal Siding",
+      "Typical Insulation-R8",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical IEAD Roof-R18": {
+    "name": "Typical IEAD Roof-R18",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Roof Membrane",
+      "Typical Insulation-R17",
+      "Metal Roof Surface"
+    ]
+  },
+  "Typical Wood Joist Attic Floor-R18": {
+    "name": "Typical Wood Joist Attic Floor-R18",
+    "intended_surface_type": "AtticFloor",
+    "materials": [
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R17"
+    ]
+  },
+  "Typical Insulated Metal Building Roof-R12": {
+    "name": "Typical Insulated Metal Building Roof-R12",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Metal Roof Surface",
+      "Typical Insulation-R12"
+    ]
+  },
+  "Typical IEAD Roof-R19": {
+    "name": "Typical IEAD Roof-R19",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Roof Membrane",
+      "Typical Insulation-R19",
+      "Metal Roof Surface"
+    ]
+  },
+  "Typical Insulated Wood Framed Exterior Wall-R13": {
+    "name": "Typical Insulated Wood Framed Exterior Wall-R13",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R11",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Wood Joist Attic Floor-R19": {
+    "name": "Typical Wood Joist Attic Floor-R19",
+    "intended_surface_type": "AtticFloor",
+    "materials": [
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R19"
+    ]
+  },
+  "Typical Insulated Metal Building Wall-R13": {
+    "name": "Typical Insulated Metal Building Wall-R13",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "Metal Siding",
+      "Typical Insulation-R12",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Metal Building Roof-R14": {
+    "name": "Typical Insulated Metal Building Roof-R14",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Metal Roof Surface",
+      "Typical Insulation-R14"
+    ]
+  },
+  "Typical Insulated Basement Mass Wall-R13": {
+    "name": "Typical Insulated Basement Mass Wall-R13",
+    "intended_surface_type": "GroundContactWall",
+    "materials": [
+      "Typical Insulation-R12",
+      "8 in. Concrete Block Basement Wall"
+    ]
+  },
+  "Typical IEAD Roof-R23": {
+    "name": "Typical IEAD Roof-R23",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Roof Membrane",
+      "Typical Insulation-R22",
+      "Metal Roof Surface"
+    ]
+  },
+  "Typical Wood Joist Attic Floor-R23": {
+    "name": "Typical Wood Joist Attic Floor-R23",
+    "intended_surface_type": "AtticFloor",
+    "materials": [
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R22"
+    ]
+  },
+  "Typical Insulated Metal Building Wall-R16": {
+    "name": "Typical Insulated Metal Building Wall-R16",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "Metal Siding",
+      "Typical Insulation-R15",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Metal Building Roof-R23": {
+    "name": "Typical Insulated Metal Building Roof-R23",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Metal Roof Surface",
+      "Typical Insulation-R23"
+    ]
+  },
+  "Typical Insulated Steel Framed Exterior Wall-R18": {
+    "name": "Typical Insulated Steel Framed Exterior Wall-R18",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R16",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical IEAD Roof-R25": {
+    "name": "Typical IEAD Roof-R25",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Roof Membrane",
+      "Typical Insulation-R25",
+      "Metal Roof Surface"
+    ]
+  },
+  "Typical Insulated Wood Framed Exterior Wall-R18": {
+    "name": "Typical Insulated Wood Framed Exterior Wall-R18",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R16",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Wood Joist Attic Floor-R25": {
+    "name": "Typical Wood Joist Attic Floor-R25",
+    "intended_surface_type": "AtticFloor",
+    "materials": [
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R25"
+    ]
+  },
+  "Typical Insulated Exterior Mass Wall-R17": {
+    "name": "Typical Insulated Exterior Mass Wall-R17",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "1IN Stucco",
+      "8IN CONCRETE HW RefBldg",
+      "Typical Insulation-R15",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Steel Framed Exterior Wall-R23": {
+    "name": "Typical Insulated Steel Framed Exterior Wall-R23",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R21",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Insulated Basement Mass Wall-R16": {
+    "name": "Typical Insulated Basement Mass Wall-R16",
+    "intended_surface_type": "GroundContactWall",
+    "materials": [
+      "Typical Insulation-R15",
+      "8 in. Concrete Block Basement Wall"
+    ]
+  },
+  "Typical IEAD Roof-R33": {
+    "name": "Typical IEAD Roof-R33",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Roof Membrane",
+      "Typical Insulation-R32",
+      "Metal Roof Surface"
+    ]
+  },
+  "Typical Insulated Wood Framed Exterior Wall-R23": {
+    "name": "Typical Insulated Wood Framed Exterior Wall-R23",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R21",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Wood Joist Attic Floor-R33": {
+    "name": "Typical Wood Joist Attic Floor-R33",
+    "intended_surface_type": "AtticFloor",
+    "materials": [
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R32"
+    ]
+  },
+  "Typical Insulated Exterior Mass Wall-R22": {
+    "name": "Typical Insulated Exterior Mass Wall-R22",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "1IN Stucco",
+      "8IN CONCRETE HW RefBldg",
+      "Typical Insulation-R20",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Steel Framed Exterior Wall-R5": {
+    "name": "Typical Insulated Steel Framed Exterior Wall-R5",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R3",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical IEAD Roof-R10": {
+    "name": "Typical IEAD Roof-R10",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Roof Membrane",
+      "Typical Insulation-R10",
+      "Metal Roof Surface"
+    ]
+  },
+  "Typical Insulated Wood Framed Exterior Wall-R5": {
+    "name": "Typical Insulated Wood Framed Exterior Wall-R5",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R3",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Wood Joist Attic Floor-R10": {
+    "name": "Typical Wood Joist Attic Floor-R10",
+    "intended_surface_type": "AtticFloor",
+    "materials": [
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R10"
+    ]
+  },
+  "Typical Insulated Exterior Mass Wall-R5": {
+    "name": "Typical Insulated Exterior Mass Wall-R5",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "1IN Stucco",
+      "8IN CONCRETE HW RefBldg",
+      "Typical Insulation-R3",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Metal Building Wall-R5": {
+    "name": "Typical Insulated Metal Building Wall-R5",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "Metal Siding",
+      "Typical Insulation-R4",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Steel Framed Exterior Wall-R6": {
+    "name": "Typical Insulated Steel Framed Exterior Wall-R6",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R5",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical IEAD Roof-R12": {
+    "name": "Typical IEAD Roof-R12",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Roof Membrane",
+      "Typical Insulation-R12",
+      "Metal Roof Surface"
+    ]
+  },
+  "Typical Insulated Wood Framed Exterior Wall-R6": {
+    "name": "Typical Insulated Wood Framed Exterior Wall-R6",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "25mm Stucco",
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R5",
+      "5/8 in. Gypsum Board"
+    ]
+  },
+  "Typical Wood Joist Attic Floor-R12": {
+    "name": "Typical Wood Joist Attic Floor-R12",
+    "intended_surface_type": "AtticFloor",
+    "materials": [
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R11"
+    ]
+  },
+  "Typical Insulated Exterior Mass Wall-R6": {
+    "name": "Typical Insulated Exterior Mass Wall-R6",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "1IN Stucco",
+      "8IN CONCRETE HW RefBldg",
+      "Typical Insulation-R4",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical Insulated Metal Building Wall-R6": {
+    "name": "Typical Insulated Metal Building Wall-R6",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "Metal Siding",
+      "Typical Insulation-R6",
+      "1/2IN Gypsum"
+    ]
+  },
+  "Typical IEAD Roof-R17": {
+    "name": "Typical IEAD Roof-R17",
+    "intended_surface_type": "ExteriorRoof",
+    "materials": [
+      "Roof Membrane",
+      "Typical Insulation-R17",
+      "Metal Roof Surface"
+    ]
+  },
+  "Typical Wood Joist Attic Floor-R17": {
+    "name": "Typical Wood Joist Attic Floor-R17",
+    "intended_surface_type": "AtticFloor",
+    "materials": [
+      "5/8 in. Gypsum Board",
+      "Typical Insulation-R16"
+    ]
+  },
+  "Typical Insulated Exterior Mass Wall-R8": {
+    "name": "Typical Insulated Exterior Mass Wall-R8",
+    "intended_surface_type": "ExteriorWall",
+    "materials": [
+      "1IN Stucco",
+      "8IN CONCRETE HW RefBldg",
+      "Typical Insulation-R6",
+      "1/2IN Gypsum"
+    ]
+  }
+}

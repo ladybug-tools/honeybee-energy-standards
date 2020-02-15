@@ -1,0 +1,1917 @@
+{
+  "AIR 13MM": {
+    "type": "EnergyWindowMaterialGas",
+    "name": "AIR 13MM",
+    "thickness": 0.0127,
+    "gas_type": "Air"
+  },
+  "AIR 3MM": {
+    "type": "EnergyWindowMaterialGas",
+    "name": "AIR 3MM",
+    "thickness": 0.003199999999999976,
+    "gas_type": "Air"
+  },
+  "AIR 6MM": {
+    "type": "EnergyWindowMaterialGas",
+    "name": "AIR 6MM",
+    "thickness": 0.006299999999999997,
+    "gas_type": "Air"
+  },
+  "ARGON 13MM": {
+    "type": "EnergyWindowMaterialGas",
+    "name": "ARGON 13MM",
+    "thickness": 0.0127,
+    "gas_type": "Argon"
+  },
+  "BLUE 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "BLUE 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.48,
+    "solar_reflectance": 0.05,
+    "solar_reflectance_back": 0.05,
+    "visible_transmittance": 0.57,
+    "visible_reflectance": 0.06,
+    "visible_reflectance_back": 0.06,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.84,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "BRONZE 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "BRONZE 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.482,
+    "solar_reflectance": 0.054,
+    "solar_reflectance_back": 0.054,
+    "visible_transmittance": 0.534,
+    "visible_reflectance": 0.057,
+    "visible_reflectance_back": 0.057,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.84,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "CLEAR 2.5MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "CLEAR 2.5MM",
+    "thickness": 0.0025,
+    "solar_transmittance": 0.8,
+    "solar_reflectance": 0.075,
+    "solar_reflectance_back": 0.075,
+    "visible_transmittance": 0.901,
+    "visible_reflectance": 0.081,
+    "visible_reflectance_back": 0.081,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.84,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "CLEAR 3MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "CLEAR 3MM",
+    "thickness": 0.0029999999999999884,
+    "solar_transmittance": 0.837,
+    "solar_reflectance": 0.075,
+    "solar_reflectance_back": 0.075,
+    "visible_transmittance": 0.898,
+    "visible_reflectance": 0.081,
+    "visible_reflectance_back": 0.081,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.84,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "CLEAR 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "CLEAR 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.775,
+    "solar_reflectance": 0.071,
+    "solar_reflectance_back": 0.071,
+    "visible_transmittance": 0.881,
+    "visible_reflectance": 0.08,
+    "visible_reflectance_back": 0.08,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.84,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "COATED POLY-55": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "COATED POLY-55",
+    "thickness": 0.0005099999999999996,
+    "solar_transmittance": 0.32,
+    "solar_reflectance": 0.582,
+    "solar_reflectance_back": 0.593,
+    "visible_transmittance": 0.551,
+    "visible_reflectance": 0.336,
+    "visible_reflectance_back": 0.375,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.046,
+    "emissivity_back": 0.72,
+    "conductivity": 0.13990637420729865,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "COATED POLY-77": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "COATED POLY-77",
+    "thickness": 0.0005099999999999996,
+    "solar_transmittance": 0.504,
+    "solar_reflectance": 0.402,
+    "solar_reflectance_back": 0.398,
+    "visible_transmittance": 0.766,
+    "visible_reflectance": 0.147,
+    "visible_reflectance_back": 0.167,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.075,
+    "emissivity_back": 0.72,
+    "conductivity": 0.13990637420729865,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "Clear 3mm": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "Clear 3mm",
+    "thickness": 0.0029999999999999884,
+    "solar_transmittance": 0.837,
+    "solar_reflectance": 0.075,
+    "solar_reflectance_back": 0.075,
+    "visible_transmittance": 0.898,
+    "visible_reflectance": 0.081,
+    "visible_reflectance_back": 0.081,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.84,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "ECABS-2 BLEACHED 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "ECABS-2 BLEACHED 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.814,
+    "solar_reflectance": 0.086,
+    "solar_reflectance_back": 0.086,
+    "visible_transmittance": 0.847,
+    "visible_reflectance": 0.099,
+    "visible_reflectance_back": 0.099,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.1,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "ECABS-2 COLORED 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "ECABS-2 COLORED 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.111,
+    "solar_reflectance": 0.179,
+    "solar_reflectance_back": 0.179,
+    "visible_transmittance": 0.128,
+    "visible_reflectance": 0.081,
+    "visible_reflectance_back": 0.081,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.1,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "ECREF-1 COLORED 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "ECREF-1 COLORED 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.099,
+    "solar_reflectance": 0.219,
+    "solar_reflectance_back": 0.219,
+    "visible_transmittance": 0.155,
+    "visible_reflectance": 0.073,
+    "visible_reflectance_back": 0.073,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.84,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "ECREF-2 BLEACHED 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "ECREF-2 BLEACHED 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.694,
+    "solar_reflectance": 0.168,
+    "solar_reflectance_back": 0.168,
+    "visible_transmittance": 0.818,
+    "visible_reflectance": 0.11,
+    "visible_reflectance_back": 0.11,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.1,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "ECREF-2 COLORED 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "ECREF-2 COLORED 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.099,
+    "solar_reflectance": 0.219,
+    "solar_reflectance_back": 0.219,
+    "visible_transmittance": 0.155,
+    "visible_reflectance": 0.073,
+    "visible_reflectance_back": 0.073,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.1,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "Fixed Window 2.00/0.40/0.31": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 2.00/0.40/0.31",
+    "u_factor": 1.9872999999999998,
+    "shgc": 0.4,
+    "vt": 0.31
+  },
+  "Fixed Window 2.00/0.45/0.35": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 2.00/0.45/0.35",
+    "u_factor": 1.9872999999999998,
+    "shgc": 0.45,
+    "vt": 0.35
+  },
+  "Fixed Window 2.30/0.40/0.31": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 2.30/0.40/0.31",
+    "u_factor": 2.2712,
+    "shgc": 0.4,
+    "vt": 0.31
+  },
+  "Fixed Window 2.56/0.45/0.35": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 2.56/0.45/0.35",
+    "u_factor": 2.5551,
+    "shgc": 0.45,
+    "vt": 0.35
+  },
+  "Fixed Window 2.62/0.30/0.21": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 2.62/0.30/0.21",
+    "u_factor": 2.6117588687057687,
+    "shgc": 0.3,
+    "vt": 0.21
+  },
+  "Fixed Window 2.67/0.30/0.21": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 2.67/0.30/0.21",
+    "u_factor": 2.6685362354167617,
+    "shgc": 0.49,
+    "vt": 0.38
+  },
+  "Fixed Window 2.96/0.39/0.31": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 2.96/0.39/0.31",
+    "u_factor": 2.9524230689717386,
+    "shgc": 0.39,
+    "vt": 0.31
+  },
+  "Fixed Window 2.96/0.49/0.41": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 2.96/0.49/0.41",
+    "u_factor": 2.9524230689717386,
+    "shgc": 0.49,
+    "vt": 0.41
+  },
+  "Fixed Window 2.96/0.62/0.54": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 2.96/0.62/0.54",
+    "u_factor": 2.9524230689717386,
+    "shgc": 0.62,
+    "vt": 0.54
+  },
+  "Fixed Window 3.12/0.40/0.31": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 3.12/0.40/0.31",
+    "u_factor": 3.1229,
+    "shgc": 0.4,
+    "vt": 0.31
+  },
+  "Fixed Window 3.24/0.25/0.16": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 3.24/0.25/0.16",
+    "u_factor": 3.2363099025267155,
+    "shgc": 0.25,
+    "vt": 0.16
+  },
+  "Fixed Window 3.24/0.39/0.31": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 3.24/0.39/0.31",
+    "u_factor": 3.2363099025267155,
+    "shgc": 0.39,
+    "vt": 0.31
+  },
+  "Fixed Window 3.24/0.49/0.41": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 3.24/0.49/0.41",
+    "u_factor": 3.2363099025267155,
+    "shgc": 0.49,
+    "vt": 0.41
+  },
+  "Fixed Window 3.35/0.36/0.27": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 3.35/0.36/0.27",
+    "u_factor": 3.349864635948702,
+    "shgc": 0.36,
+    "vt": 0.27
+  },
+  "Fixed Window 3.35/0.39/0.31": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 3.35/0.39/0.31",
+    "u_factor": 3.349864635948702,
+    "shgc": 0.39,
+    "vt": 0.31
+  },
+  "Fixed Window 3.53/0.41/0.32": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 3.53/0.41/0.32",
+    "u_factor": 3.520196736081687,
+    "shgc": 0.41,
+    "vt": 0.32
+  },
+  "Fixed Window 3.69/0.25/0.16": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 3.69/0.25/0.16",
+    "u_factor": 3.6907,
+    "shgc": 0.25,
+    "vt": 0.16
+  },
+  "Fixed Window 3.69/0.70/0.60": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 3.69/0.70/0.60",
+    "u_factor": 3.6907,
+    "shgc": 0.7,
+    "vt": 0.6
+  },
+  "Fixed Window 3.81/0.39/0.27": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 3.81/0.39/0.27",
+    "u_factor": 2.9524230689717386,
+    "shgc": 0.39,
+    "vt": 0.27
+  },
+  "Fixed Window 3.81/0.49/0.38": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 3.81/0.49/0.38",
+    "u_factor": 2.9524230689717386,
+    "shgc": 0.49,
+    "vt": 0.38
+  },
+  "Fixed Window 4.09/0.26/0.13": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 4.09/0.26/0.13",
+    "u_factor": 4.087970403191641,
+    "shgc": 0.25,
+    "vt": 0.13
+  },
+  "Fixed Window 4.09/0.36/0.23": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 4.09/0.36/0.23",
+    "u_factor": 4.087970403191641,
+    "shgc": 0.36,
+    "vt": 0.23
+  },
+  "Fixed Window 4.09/0.39/0.25": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 4.09/0.39/0.25",
+    "u_factor": 4.087970403191641,
+    "shgc": 0.39,
+    "vt": 0.25
+  },
+  "Fixed Window 4.26/0.25/0.16": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 4.26/0.25/0.16",
+    "u_factor": 4.2585,
+    "shgc": 0.25,
+    "vt": 0.16
+  },
+  "Fixed Window 5.84/0.25/0.11": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 5.84/0.25/0.11",
+    "u_factor": 5.839729158017117,
+    "shgc": 0.25,
+    "vt": 0.11
+  },
+  "Fixed Window 5.84/0.39/0.22": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 5.84/0.39/0.22",
+    "u_factor": 5.839729158017117,
+    "shgc": 0.39,
+    "vt": 0.22
+  },
+  "Fixed Window 5.84/0.44/0.27": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 5.84/0.44/0.27",
+    "u_factor": 5.839729158017117,
+    "shgc": 0.44,
+    "vt": 0.27
+  },
+  "Fixed Window 5.84/0.54/0.38": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 5.84/0.54/0.38",
+    "u_factor": 5.839729158017117,
+    "shgc": 0.54,
+    "vt": 0.38
+  },
+  "Fixed Window 5.84/0.61/0.47": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 5.84/0.61/0.47",
+    "u_factor": 5.839729158017117,
+    "shgc": 0.61,
+    "vt": 0.47
+  },
+  "Fixed Window 5.84/0.70/0.60": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Fixed Window 5.84/0.70/0.60",
+    "u_factor": 5.839729158017117,
+    "shgc": 0.7,
+    "vt": 0.6
+  },
+  "GREEN 3MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "GREEN 3MM",
+    "thickness": 0.0029999999999999884,
+    "solar_transmittance": 0.635,
+    "solar_reflectance": 0.063,
+    "solar_reflectance_back": 0.063,
+    "visible_transmittance": 0.822,
+    "visible_reflectance": 0.075,
+    "visible_reflectance_back": 0.075,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.84,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "GREEN 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "GREEN 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.487,
+    "solar_reflectance": 0.056,
+    "solar_reflectance_back": 0.056,
+    "visible_transmittance": 0.749,
+    "visible_reflectance": 0.07,
+    "visible_reflectance_back": 0.07,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.84,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "GREY 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "GREY 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.455,
+    "solar_reflectance": 0.053,
+    "solar_reflectance_back": 0.053,
+    "visible_transmittance": 0.431,
+    "visible_reflectance": 0.052,
+    "visible_reflectance_back": 0.052,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.84,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "Gap_1_W_0_0018": {
+    "type": "EnergyWindowMaterialGas",
+    "name": "Gap_1_W_0_0018",
+    "thickness": 0.0017999999999999982,
+    "gas_type": "Air"
+  },
+  "Gap_1_W_0_0024": {
+    "type": "EnergyWindowMaterialGas",
+    "name": "Gap_1_W_0_0024",
+    "thickness": 0.0023999999999999985,
+    "gas_type": "Air"
+  },
+  "Gap_1_W_0_0025": {
+    "type": "EnergyWindowMaterialGas",
+    "name": "Gap_1_W_0_0025",
+    "thickness": 0.0025,
+    "gas_type": "Air"
+  },
+  "Gap_1_W_0_0032": {
+    "type": "EnergyWindowMaterialGas",
+    "name": "Gap_1_W_0_0032",
+    "thickness": 0.003199999999999976,
+    "gas_type": "Air"
+  },
+  "Gap_1_W_0_0038": {
+    "type": "EnergyWindowMaterialGas",
+    "name": "Gap_1_W_0_0038",
+    "thickness": 0.0037999999999999887,
+    "gas_type": "Air"
+  },
+  "Gap_1_W_0_0042": {
+    "type": "EnergyWindowMaterialGas",
+    "name": "Gap_1_W_0_0042",
+    "thickness": 0.004199999999999989,
+    "gas_type": "Air"
+  },
+  "Gap_1_W_0_0043": {
+    "type": "EnergyWindowMaterialGas",
+    "name": "Gap_1_W_0_0043",
+    "thickness": 0.004299999999999996,
+    "gas_type": "Air"
+  },
+  "Glass_2010F_LayerAvg": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "Glass_2010F_LayerAvg",
+    "thickness": 0.0022099999999999993,
+    "solar_transmittance": 0.434294,
+    "solar_reflectance": 0.4183747,
+    "solar_reflectance_back": 0.3410654,
+    "visible_transmittance": 0.797579,
+    "visible_reflectance": 0.043577,
+    "visible_reflectance_back": 0.056031,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.042274,
+    "emissivity_back": 0.84,
+    "conductivity": 0.9993312443378461,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "Glass_2022F_LayerAvg": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "Glass_2022F_LayerAvg",
+    "thickness": 0.003899999999999996,
+    "solar_transmittance": 0.355897,
+    "solar_reflectance": 0.3940945,
+    "solar_reflectance_back": 0.2656452,
+    "visible_transmittance": 0.677694,
+    "visible_reflectance": 0.042734,
+    "visible_reflectance_back": 0.05547,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.046,
+    "emissivity_back": 0.84,
+    "conductivity": 0.9993312443378461,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "Glass_2027F_LayerAvg": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "Glass_2027F_LayerAvg",
+    "thickness": 0.003999999999999977,
+    "solar_transmittance": 0.369744,
+    "solar_reflectance": 0.4700695,
+    "solar_reflectance_back": 0.340935,
+    "visible_transmittance": 0.765222,
+    "visible_reflectance": 0.0546,
+    "visible_reflectance_back": 0.073741,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.03675,
+    "emissivity_back": 0.84,
+    "conductivity": 0.9993312443378461,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "Glass_2052_LayerAvg": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "Glass_2052_LayerAvg",
+    "thickness": 0.008369999999999997,
+    "solar_transmittance": 0.507767,
+    "solar_reflectance": 0.05422805,
+    "solar_reflectance_back": 0.05449309,
+    "visible_transmittance": 0.586833,
+    "visible_reflectance": 0.05805,
+    "visible_reflectance_back": 0.058397,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.84,
+    "conductivity": 0.9993312443378461,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "Glass_2175_LayerAvg": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "Glass_2175_LayerAvg",
+    "thickness": 0.008599999999999991,
+    "solar_transmittance": 0.167758,
+    "solar_reflectance": 0.2176064,
+    "solar_reflectance_back": 0.4379779,
+    "visible_transmittance": 0.416044,
+    "visible_reflectance": 0.078729,
+    "visible_reflectance_back": 0.10654,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.84,
+    "conductivity": 0.9993312443378461,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "LoE CLEAR 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "LoE CLEAR 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.6,
+    "solar_reflectance": 0.17,
+    "solar_reflectance_back": 0.22,
+    "visible_transmittance": 0.84,
+    "visible_reflectance": 0.055,
+    "visible_reflectance_back": 0.078,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.1,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "LoE SPEC SEL CLEAR 3MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "LoE SPEC SEL CLEAR 3MM",
+    "thickness": 0.0029999999999999884,
+    "solar_transmittance": 0.45,
+    "solar_reflectance": 0.34,
+    "solar_reflectance_back": 0.37,
+    "visible_transmittance": 0.78,
+    "visible_reflectance": 0.07,
+    "visible_reflectance_back": 0.06,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.03,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "LoE SPEC SEL CLEAR 6MM Rev": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "LoE SPEC SEL CLEAR 6MM Rev",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.43,
+    "solar_reflectance": 0.42,
+    "solar_reflectance_back": 0.3,
+    "visible_transmittance": 0.77,
+    "visible_reflectance": 0.06,
+    "visible_reflectance_back": 0.07,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.03,
+    "emissivity_back": 0.84,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "LoE SPEC SEL TINT 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "LoE SPEC SEL TINT 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.26,
+    "solar_reflectance": 0.14,
+    "solar_reflectance_back": 0.41,
+    "visible_transmittance": 0.46,
+    "visible_reflectance": 0.06,
+    "visible_reflectance_back": 0.04,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.03,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "LoE TINT 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "LoE TINT 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.36,
+    "solar_reflectance": 0.093,
+    "solar_reflectance_back": 0.2,
+    "visible_transmittance": 0.5,
+    "visible_reflectance": 0.035,
+    "visible_reflectance_back": 0.054,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.1,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "PYR B CLEAR 3MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "PYR B CLEAR 3MM",
+    "thickness": 0.0029999999999999884,
+    "solar_transmittance": 0.74,
+    "solar_reflectance": 0.09,
+    "solar_reflectance_back": 0.1,
+    "visible_transmittance": 0.82,
+    "visible_reflectance": 0.11,
+    "visible_reflectance_back": 0.12,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.2,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "PYR B CLEAR 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "PYR B CLEAR 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.68,
+    "solar_reflectance": 0.09,
+    "solar_reflectance_back": 0.1,
+    "visible_transmittance": 0.81,
+    "visible_reflectance": 0.11,
+    "visible_reflectance_back": 0.12,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.2,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "REF A CLEAR LO 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "REF A CLEAR LO 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.066,
+    "solar_reflectance": 0.341,
+    "solar_reflectance_back": 0.493,
+    "visible_transmittance": 0.08,
+    "visible_reflectance": 0.41,
+    "visible_reflectance_back": 0.37,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.4,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "REF A CLEAR MID 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "REF A CLEAR MID 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.11,
+    "solar_reflectance": 0.27,
+    "solar_reflectance_back": 0.43,
+    "visible_transmittance": 0.14,
+    "visible_reflectance": 0.31,
+    "visible_reflectance_back": 0.35,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.47,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "REF A TINT MID 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "REF A TINT MID 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.06,
+    "solar_reflectance": 0.13,
+    "solar_reflectance_back": 0.42,
+    "visible_transmittance": 0.09,
+    "visible_reflectance": 0.14,
+    "visible_reflectance_back": 0.35,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.47,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "REF B CLEAR HI 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "REF B CLEAR HI 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.24,
+    "solar_reflectance": 0.16,
+    "solar_reflectance_back": 0.32,
+    "visible_transmittance": 0.3,
+    "visible_reflectance": 0.16,
+    "visible_reflectance_back": 0.29,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.6,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "REF B CLEAR LO 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "REF B CLEAR LO 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.15,
+    "solar_reflectance": 0.22,
+    "solar_reflectance_back": 0.38,
+    "visible_transmittance": 0.2,
+    "visible_reflectance": 0.23,
+    "visible_reflectance_back": 0.33,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.58,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "REF B TINT HI 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "REF B TINT HI 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.15,
+    "solar_reflectance": 0.09,
+    "solar_reflectance_back": 0.33,
+    "visible_transmittance": 0.18,
+    "visible_reflectance": 0.08,
+    "visible_reflectance_back": 0.28,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.6,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "REF B TINT MID 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "REF B TINT MID 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.1,
+    "solar_reflectance": 0.11,
+    "solar_reflectance_back": 0.41,
+    "visible_transmittance": 0.13,
+    "visible_reflectance": 0.1,
+    "visible_reflectance_back": 0.32,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.45,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "REF C CLEAR HI 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "REF C CLEAR HI 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.2,
+    "solar_reflectance": 0.16,
+    "solar_reflectance_back": 0.39,
+    "visible_transmittance": 0.22,
+    "visible_reflectance": 0.17,
+    "visible_reflectance_back": 0.35,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.55,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "REF C CLEAR MID 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "REF C CLEAR MID 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.17,
+    "solar_reflectance": 0.2,
+    "solar_reflectance_back": 0.42,
+    "visible_transmittance": 0.19,
+    "visible_reflectance": 0.21,
+    "visible_reflectance_back": 0.38,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.51,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "REF D CLEAR 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "REF D CLEAR 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.429,
+    "solar_reflectance": 0.308,
+    "solar_reflectance_back": 0.379,
+    "visible_transmittance": 0.334,
+    "visible_reflectance": 0.453,
+    "visible_reflectance_back": 0.505,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.82,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "REF D TINT 6MM": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "REF D TINT 6MM",
+    "thickness": 0.005999999999999977,
+    "solar_transmittance": 0.3,
+    "solar_reflectance": 0.14,
+    "solar_reflectance_back": 0.36,
+    "visible_transmittance": 0.25,
+    "visible_reflectance": 0.18,
+    "visible_reflectance_back": 0.45,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.84,
+    "emissivity_back": 0.82,
+    "conductivity": 0.8993981199040626,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "Simple Glazing",
+    "u_factor": 6.98394,
+    "shgc": 0.61,
+    "vt": 0.25
+  },
+  "Theoretical Glass 297": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "Theoretical Glass 297",
+    "thickness": 0.0029999999999999884,
+    "solar_transmittance": 0.375039,
+    "solar_reflectance": 0.574961,
+    "solar_reflectance_back": 0.574961,
+    "visible_transmittance": 0.529698,
+    "visible_reflectance": 0.420302,
+    "visible_reflectance_back": 0.420302,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.9,
+    "emissivity_back": 0.9,
+    "conductivity": 0.010349174299487177,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "Theoretical Glass 347": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "Theoretical Glass 347",
+    "thickness": 0.0029999999999999884,
+    "solar_transmittance": 0.315861,
+    "solar_reflectance": 0.634139,
+    "solar_reflectance_back": 0.634139,
+    "visible_transmittance": 0.479911,
+    "visible_reflectance": 0.470089,
+    "visible_reflectance_back": 0.470089,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.9,
+    "emissivity_back": 0.9,
+    "conductivity": 0.010351073028851424,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "Theoretical Glass [167]": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "Theoretical Glass [167]",
+    "thickness": 0.0029999999999999884,
+    "solar_transmittance": 0.2374,
+    "solar_reflectance": 0.7126,
+    "solar_reflectance_back": 0.7126,
+    "visible_transmittance": 0.2512,
+    "visible_reflectance": 0.6988,
+    "visible_reflectance_back": 0.6988,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.985,
+    "emissivity_back": 0.985,
+    "conductivity": 2.1058907311931425,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "Theoretical Glass [197]": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "Theoretical Glass [197]",
+    "thickness": 0.0029999999999999884,
+    "solar_transmittance": 0.2349,
+    "solar_reflectance": 0.7151,
+    "solar_reflectance_back": 0.7151,
+    "visible_transmittance": 0.2512,
+    "visible_reflectance": 0.6988,
+    "visible_reflectance_back": 0.6988,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.9,
+    "emissivity_back": 0.9,
+    "conductivity": 0.04147224664002065,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "Theoretical Glass [202]": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "Theoretical Glass [202]",
+    "thickness": 0.0029999999999999884,
+    "solar_transmittance": 0.2325,
+    "solar_reflectance": 0.7175,
+    "solar_reflectance_back": 0.7175,
+    "visible_transmittance": 0.3192,
+    "visible_reflectance": 0.6308,
+    "visible_reflectance_back": 0.6308,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.9,
+    "emissivity_back": 0.9,
+    "conductivity": 0.019187159891286703,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "Theoretical Glass [207]": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "Theoretical Glass [207]",
+    "thickness": 0.0029999999999999884,
+    "solar_transmittance": 0.3311,
+    "solar_reflectance": 0.6189,
+    "solar_reflectance_back": 0.6189,
+    "visible_transmittance": 0.44,
+    "visible_reflectance": 0.51,
+    "visible_reflectance_back": 0.51,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.9,
+    "emissivity_back": 0.9,
+    "conductivity": 0.01329110554969337,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "Theoretical Glass [216]": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "Theoretical Glass [216]",
+    "thickness": 0.0029999999999999884,
+    "solar_transmittance": 0.3801,
+    "solar_reflectance": 0.5699,
+    "solar_reflectance_back": 0.5699,
+    "visible_transmittance": 0.5079,
+    "visible_reflectance": 0.4421,
+    "visible_reflectance_back": 0.4421,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.9,
+    "emissivity_back": 0.9,
+    "conductivity": 0.01329110554969337,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "Theoretical Glass [221]": {
+    "type": "EnergyWindowMaterialGlazing",
+    "name": "Theoretical Glass [221]",
+    "thickness": 0.0029999999999999884,
+    "solar_transmittance": 0.4296,
+    "solar_reflectance": 0.5204,
+    "solar_reflectance_back": 0.5204,
+    "visible_transmittance": 0.4503,
+    "visible_reflectance": 0.4997,
+    "visible_reflectance_back": 0.4997,
+    "infrared_transmittance": 0.0,
+    "emissivity": 0.9,
+    "emissivity_back": 0.9,
+    "conductivity": 0.008894048074606841,
+    "dirt_correction": 1.0,
+    "solar_diffusing": false
+  },
+  "U 0.11 SHGC 0.34 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.11 SHGC 0.34 Simple Glazing",
+    "u_factor": 0.62458,
+    "shgc": 0.34,
+    "vt": 0.37400000000000005
+  },
+  "U 0.11 SHGC 0.38 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.11 SHGC 0.38 Simple Glazing",
+    "u_factor": 0.62458,
+    "shgc": 0.38,
+    "vt": 0.41800000000000004
+  },
+  "U 0.12 SHGC 0.34 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.12 SHGC 0.34 Simple Glazing",
+    "u_factor": 0.68136,
+    "shgc": 0.34,
+    "vt": 0.37400000000000005
+  },
+  "U 0.12 SHGC 0.38 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.12 SHGC 0.38 Simple Glazing",
+    "u_factor": 0.68136,
+    "shgc": 0.38,
+    "vt": 0.41800000000000004
+  },
+  "U 0.13 SHGC 0.32 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.13 SHGC 0.32 Simple Glazing",
+    "u_factor": 0.73814,
+    "shgc": 0.32,
+    "vt": 0.35200000000000004
+  },
+  "U 0.13 SHGC 0.38 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.13 SHGC 0.38 Simple Glazing",
+    "u_factor": 0.73814,
+    "shgc": 0.38,
+    "vt": 0.41800000000000004
+  },
+  "U 0.14 SHGC 0.31 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.14 SHGC 0.31 Simple Glazing",
+    "u_factor": 0.7949200000000001,
+    "shgc": 0.31,
+    "vt": 0.341
+  },
+  "U 0.14 SHGC 0.34 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.14 SHGC 0.34 Simple Glazing",
+    "u_factor": 0.7949200000000001,
+    "shgc": 0.34,
+    "vt": 0.37400000000000005
+  },
+  "U 0.14 SHGC 0.36 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.14 SHGC 0.36 Simple Glazing",
+    "u_factor": 0.7949200000000001,
+    "shgc": 0.36,
+    "vt": 0.396
+  },
+  "U 0.14 SHGC 0.38 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.14 SHGC 0.38 Simple Glazing",
+    "u_factor": 0.7949200000000001,
+    "shgc": 0.38,
+    "vt": 0.41800000000000004
+  },
+  "U 0.15 SHGC 0.31 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.15 SHGC 0.31 Simple Glazing",
+    "u_factor": 0.8517,
+    "shgc": 0.31,
+    "vt": 0.341
+  },
+  "U 0.15 SHGC 0.34 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.15 SHGC 0.34 Simple Glazing",
+    "u_factor": 0.8517,
+    "shgc": 0.34,
+    "vt": 0.37400000000000005
+  },
+  "U 0.17 SHGC 0.31 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.17 SHGC 0.31 Simple Glazing",
+    "u_factor": 0.96526,
+    "shgc": 0.31,
+    "vt": 0.341
+  },
+  "U 0.17 SHGC 0.32 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.17 SHGC 0.32 Simple Glazing",
+    "u_factor": 0.96526,
+    "shgc": 0.32,
+    "vt": 0.35200000000000004
+  },
+  "U 0.17 SHGC 0.36 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.17 SHGC 0.36 Simple Glazing",
+    "u_factor": 0.96526,
+    "shgc": 0.36,
+    "vt": 0.396
+  },
+  "U 0.18 SHGC 0.22 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.18 SHGC 0.22 Simple Glazing",
+    "u_factor": 1.02204,
+    "shgc": 0.22,
+    "vt": 0.24200000000000002
+  },
+  "U 0.18 SHGC 0.24 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.18 SHGC 0.24 Simple Glazing",
+    "u_factor": 1.02204,
+    "shgc": 0.24,
+    "vt": 0.264
+  },
+  "U 0.20 SHGC 0.19 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.20 SHGC 0.19 Simple Glazing",
+    "u_factor": 1.1356,
+    "shgc": 0.19,
+    "vt": 0.20900000000000002
+  },
+  "U 0.20 SHGC 0.20 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.20 SHGC 0.20 Simple Glazing",
+    "u_factor": 1.1356,
+    "shgc": 0.2,
+    "vt": 0.22000000000000003
+  },
+  "U 0.20 SHGC 0.21 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.20 SHGC 0.21 Simple Glazing",
+    "u_factor": 1.1356,
+    "shgc": 0.21,
+    "vt": 0.231
+  },
+  "U 0.20 SHGC 0.22 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.20 SHGC 0.22 Simple Glazing",
+    "u_factor": 1.1356,
+    "shgc": 0.22,
+    "vt": 0.24200000000000002
+  },
+  "U 0.23 SHGC 0.31 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.23 SHGC 0.31 Simple Glazing",
+    "u_factor": 1.30594,
+    "shgc": 0.31,
+    "vt": 0.341
+  },
+  "U 0.23 SHGC 0.34 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.23 SHGC 0.34 Simple Glazing",
+    "u_factor": 1.30594,
+    "shgc": 0.34,
+    "vt": 0.37400000000000005
+  },
+  "U 0.25 SHGC 0.22 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.25 SHGC 0.22 Simple Glazing",
+    "u_factor": 1.4195,
+    "shgc": 0.22,
+    "vt": 0.24200000000000002
+  },
+  "U 0.25 SHGC 0.24 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.25 SHGC 0.24 Simple Glazing",
+    "u_factor": 1.4195,
+    "shgc": 0.24,
+    "vt": 0.264
+  },
+  "U 0.26 SHGC 0.40 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.26 SHGC 0.40 Simple Glazing",
+    "u_factor": 1.47628,
+    "shgc": 0.4,
+    "vt": 0.44000000000000006
+  },
+  "U 0.29 SHGC 0.40 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.29 SHGC 0.40 Simple Glazing",
+    "u_factor": 1.64662,
+    "shgc": 0.4,
+    "vt": 0.44000000000000006
+  },
+  "U 0.32 SHGC 0.36 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.32 SHGC 0.36 Simple Glazing",
+    "u_factor": 1.81696,
+    "shgc": 0.36,
+    "vt": 0.396
+  },
+  "U 0.34 SHGC 0.38 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.34 SHGC 0.38 Simple Glazing",
+    "u_factor": 1.93052,
+    "shgc": 0.38,
+    "vt": 0.41800000000000004
+  },
+  "U 0.35 SHGC 0.22 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.35 SHGC 0.22 Simple Glazing",
+    "u_factor": 1.9872999999999998,
+    "shgc": 0.22,
+    "vt": 0.24200000000000002
+  },
+  "U 0.35 SHGC 0.24 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.35 SHGC 0.24 Simple Glazing",
+    "u_factor": 1.9872999999999998,
+    "shgc": 0.24,
+    "vt": 0.264
+  },
+  "U 0.36 SHGC 0.36 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.36 SHGC 0.36 Simple Glazing",
+    "u_factor": 2.04408,
+    "shgc": 0.36,
+    "vt": 0.396
+  },
+  "U 0.36 SHGC 0.38 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.36 SHGC 0.38 Simple Glazing",
+    "u_factor": 2.04408,
+    "shgc": 0.38,
+    "vt": 0.41800000000000004
+  },
+  "U 0.42 SHGC 0.25 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.42 SHGC 0.25 Simple Glazing",
+    "u_factor": 2.38476,
+    "shgc": 0.25,
+    "vt": 0.275
+  },
+  "U 0.42 SHGC 0.34 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.42 SHGC 0.34 Simple Glazing",
+    "u_factor": 2.38476,
+    "shgc": 0.34,
+    "vt": 0.37400000000000005
+  },
+  "U 0.45 SHGC 0.25 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.45 SHGC 0.25 Simple Glazing",
+    "u_factor": 2.5551,
+    "shgc": 0.25,
+    "vt": 0.275
+  },
+  "U 0.45 SHGC 0.33 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.45 SHGC 0.33 Simple Glazing",
+    "u_factor": 2.5551,
+    "shgc": 0.33,
+    "vt": 0.36300000000000004
+  },
+  "U 0.47 SHGC 0.33 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.47 SHGC 0.33 Simple Glazing",
+    "u_factor": 2.66866,
+    "shgc": 0.33,
+    "vt": 0.36300000000000004
+  },
+  "U 0.48 SHGC 0.19 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.48 SHGC 0.19 Simple Glazing",
+    "u_factor": 2.72544,
+    "shgc": 0.19,
+    "vt": 0.20900000000000002
+  },
+  "U 0.48 SHGC 0.20 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.48 SHGC 0.20 Simple Glazing",
+    "u_factor": 2.72544,
+    "shgc": 0.2,
+    "vt": 0.22000000000000003
+  },
+  "U 0.48 SHGC 0.21 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.48 SHGC 0.21 Simple Glazing",
+    "u_factor": 2.72544,
+    "shgc": 0.21,
+    "vt": 0.231
+  },
+  "U 0.48 SHGC 0.22 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.48 SHGC 0.22 Simple Glazing",
+    "u_factor": 2.72544,
+    "shgc": 0.22,
+    "vt": 0.24200000000000002
+  },
+  "U 0.50 SHGC 0.22 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.50 SHGC 0.22 Simple Glazing",
+    "u_factor": 2.839,
+    "shgc": 0.22,
+    "vt": 0.24200000000000002
+  },
+  "U 0.50 SHGC 0.23 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.50 SHGC 0.23 Simple Glazing",
+    "u_factor": 2.839,
+    "shgc": 0.23,
+    "vt": 0.25300000000000006
+  },
+  "U 0.52 SHGC 0.39 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.52 SHGC 0.39 Simple Glazing",
+    "u_factor": 2.95256,
+    "shgc": 0.39,
+    "vt": 0.31
+  },
+  "U 0.52 SHGC 0.49 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.52 SHGC 0.49 Simple Glazing",
+    "u_factor": 2.95256,
+    "shgc": 0.49,
+    "vt": 0.41
+  },
+  "U 0.52 SHGC 0.615 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.52 SHGC 0.615 Simple Glazing",
+    "u_factor": 2.95256,
+    "shgc": 0.615,
+    "vt": 0.41
+  },
+  "U 0.54 SHGC 0.23 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.54 SHGC 0.23 Simple Glazing",
+    "u_factor": 3.06612,
+    "shgc": 0.23,
+    "vt": 0.25300000000000006
+  },
+  "U 0.58 SHGC 0.19 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.58 SHGC 0.19 Simple Glazing",
+    "u_factor": 3.29324,
+    "shgc": 0.19,
+    "vt": 0.15
+  },
+  "U 0.58 SHGC 0.36 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.58 SHGC 0.36 Simple Glazing",
+    "u_factor": 3.29324,
+    "shgc": 0.36,
+    "vt": 0.25
+  },
+  "U 0.59 SHGC 0.36 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.59 SHGC 0.36 Simple Glazing",
+    "u_factor": 3.3500199999999998,
+    "shgc": 0.36,
+    "vt": 0.27
+  },
+  "U 0.59 SHGC 0.39 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.59 SHGC 0.39 Simple Glazing",
+    "u_factor": 3.3500199999999998,
+    "shgc": 0.39,
+    "vt": 0.31
+  },
+  "U 0.60 SHGC 0.23 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.60 SHGC 0.23 Simple Glazing",
+    "u_factor": 3.4068,
+    "shgc": 0.23,
+    "vt": 0.25300000000000006
+  },
+  "U 0.61 SHGC 0.77 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.61 SHGC 0.77 Simple Glazing",
+    "u_factor": 3.46358,
+    "shgc": 0.77,
+    "vt": 0.6
+  },
+  "U 0.62 SHGC 0.20 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.62 SHGC 0.20 Simple Glazing",
+    "u_factor": 3.52036,
+    "shgc": 0.2,
+    "vt": 0.22
+  },
+  "U 0.62 SHGC 0.21 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.62 SHGC 0.21 Simple Glazing",
+    "u_factor": 3.52036,
+    "shgc": 0.21,
+    "vt": 0.231
+  },
+  "U 0.62 SHGC 0.41 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.62 SHGC 0.41 Simple Glazing",
+    "u_factor": 3.52036,
+    "shgc": 0.41,
+    "vt": 0.32
+  },
+  "U 0.65 SHGC 0.35 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.65 SHGC 0.35 Simple Glazing",
+    "u_factor": 3.6907,
+    "shgc": 0.35,
+    "vt": 0.25
+  },
+  "U 0.69 SHGC 0.19 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.69 SHGC 0.19 Simple Glazing",
+    "u_factor": 3.91782,
+    "shgc": 0.19,
+    "vt": 0.15
+  },
+  "U 0.69 SHGC 0.36 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.69 SHGC 0.36 Simple Glazing",
+    "u_factor": 3.91782,
+    "shgc": 0.36,
+    "vt": 0.23
+  },
+  "U 0.69 SHGC 0.39 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.69 SHGC 0.39 Simple Glazing",
+    "u_factor": 3.91782,
+    "shgc": 0.39,
+    "vt": 0.23
+  },
+  "U 0.69 SHGC 0.49 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.69 SHGC 0.49 Simple Glazing",
+    "u_factor": 3.91782,
+    "shgc": 0.49,
+    "vt": 0.38
+  },
+  "U 0.69 SHGC 0.64 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.69 SHGC 0.64 Simple Glazing",
+    "u_factor": 3.91782,
+    "shgc": 0.64,
+    "vt": 0.55
+  },
+  "U 0.69 SHGC 0.68 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.69 SHGC 0.68 Simple Glazing",
+    "u_factor": 3.91782,
+    "shgc": 0.68,
+    "vt": 0.55
+  },
+  "U 0.72 SHGC 0.25 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.72 SHGC 0.25 Simple Glazing",
+    "u_factor": 4.08816,
+    "shgc": 0.25,
+    "vt": 0.13
+  },
+  "U 0.72 SHGC 0.36 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.72 SHGC 0.36 Simple Glazing",
+    "u_factor": 4.08816,
+    "shgc": 0.36,
+    "vt": 0.23
+  },
+  "U 0.72 SHGC 0.39 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.72 SHGC 0.39 Simple Glazing",
+    "u_factor": 4.08816,
+    "shgc": 0.39,
+    "vt": 0.23
+  },
+  "U 0.74 SHGC 0.55 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.74 SHGC 0.55 Simple Glazing",
+    "u_factor": 4.20172,
+    "shgc": 0.55,
+    "vt": 0.4
+  },
+  "U 0.74 SHGC 0.65 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.74 SHGC 0.65 Simple Glazing",
+    "u_factor": 4.20172,
+    "shgc": 0.65,
+    "vt": 0.55
+  },
+  "U 0.75 SHGC 0.35 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.75 SHGC 0.35 Simple Glazing",
+    "u_factor": 4.2585,
+    "shgc": 0.35,
+    "vt": 0.23
+  },
+  "U 0.81 SHGC 0.65 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.81 SHGC 0.65 Simple Glazing",
+    "u_factor": 4.5991800000000005,
+    "shgc": 0.65,
+    "vt": 0.55
+  },
+  "U 0.85 SHGC 0.65 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.85 SHGC 0.65 Simple Glazing",
+    "u_factor": 4.8263,
+    "shgc": 0.65,
+    "vt": 0.55
+  },
+  "U 0.87 SHGC 0.58 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.87 SHGC 0.58 Simple Glazing",
+    "u_factor": 4.93986,
+    "shgc": 0.58,
+    "vt": 0.55
+  },
+  "U 0.87 SHGC 0.71 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.87 SHGC 0.71 Simple Glazing",
+    "u_factor": 4.93986,
+    "shgc": 0.71,
+    "vt": 0.6
+  },
+  "U 0.87 SHGC 0.77 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.87 SHGC 0.77 Simple Glazing",
+    "u_factor": 4.93986,
+    "shgc": 0.77,
+    "vt": 0.6
+  },
+  "U 0.98 SHGC 0.19 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.98 SHGC 0.19 Simple Glazing",
+    "u_factor": 5.56444,
+    "shgc": 0.19,
+    "vt": 0.15
+  },
+  "U 0.98 SHGC 0.36 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 0.98 SHGC 0.36 Simple Glazing",
+    "u_factor": 5.56444,
+    "shgc": 0.36,
+    "vt": 0.25
+  },
+  "U 1.10 SHGC 0.62 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.10 SHGC 0.62 Simple Glazing",
+    "u_factor": 6.2458,
+    "shgc": 0.62,
+    "vt": 0.55
+  },
+  "U 1.10 SHGC 0.77 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.10 SHGC 0.77 Simple Glazing",
+    "u_factor": 6.2458,
+    "shgc": 0.77,
+    "vt": 0.6
+  },
+  "U 1.15 SHGC 0.77 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.15 SHGC 0.77 Simple Glazing",
+    "u_factor": 6.529699999999999,
+    "shgc": 0.77,
+    "vt": 0.6
+  },
+  "U 1.17 SHGC 0.19 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.17 SHGC 0.19 Simple Glazing",
+    "u_factor": 6.64326,
+    "shgc": 0.19,
+    "vt": 0.15
+  },
+  "U 1.17 SHGC 0.36 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.17 SHGC 0.36 Simple Glazing",
+    "u_factor": 6.64326,
+    "shgc": 0.36,
+    "vt": 0.23
+  },
+  "U 1.17 SHGC 0.39 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.17 SHGC 0.39 Simple Glazing",
+    "u_factor": 6.64326,
+    "shgc": 0.39,
+    "vt": 0.23
+  },
+  "U 1.17 SHGC 0.49 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.17 SHGC 0.49 Simple Glazing",
+    "u_factor": 6.64326,
+    "shgc": 0.49,
+    "vt": 0.38
+  },
+  "U 1.17 SHGC 0.64 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.17 SHGC 0.64 Simple Glazing",
+    "u_factor": 6.64326,
+    "shgc": 0.64,
+    "vt": 0.55
+  },
+  "U 1.17 SHGC 0.68 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.17 SHGC 0.68 Simple Glazing",
+    "u_factor": 6.64326,
+    "shgc": 0.68,
+    "vt": 0.55
+  },
+  "U 1.22 SHGC 0.25 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.22 SHGC 0.25 Simple Glazing",
+    "u_factor": 6.92716,
+    "shgc": 0.25,
+    "vt": 0.11
+  },
+  "U 1.22 SHGC 0.54 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.22 SHGC 0.54 Simple Glazing",
+    "u_factor": 6.92716,
+    "shgc": 0.54,
+    "vt": 0.38
+  },
+  "U 1.30 SHGC 0.27 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.30 SHGC 0.27 Simple Glazing",
+    "u_factor": 7.3814,
+    "shgc": 0.27,
+    "vt": 0.25
+  },
+  "U 1.30 SHGC 0.34 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.30 SHGC 0.34 Simple Glazing",
+    "u_factor": 7.3814,
+    "shgc": 0.34,
+    "vt": 0.25
+  },
+  "U 1.30 SHGC 0.62 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.30 SHGC 0.62 Simple Glazing",
+    "u_factor": 7.3814,
+    "shgc": 0.62,
+    "vt": 0.55
+  },
+  "U 1.30 SHGC 0.65 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.30 SHGC 0.65 Simple Glazing",
+    "u_factor": 7.3814,
+    "shgc": 0.65,
+    "vt": 0.55
+  },
+  "U 1.36 SHGC 0.19 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.36 SHGC 0.19 Simple Glazing",
+    "u_factor": 7.72208,
+    "shgc": 0.19,
+    "vt": 0.15
+  },
+  "U 1.36 SHGC 0.36 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.36 SHGC 0.36 Simple Glazing",
+    "u_factor": 7.72208,
+    "shgc": 0.36,
+    "vt": 0.23
+  },
+  "U 1.36 SHGC 0.39 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.36 SHGC 0.39 Simple Glazing",
+    "u_factor": 7.72208,
+    "shgc": 0.39,
+    "vt": 0.23
+  },
+  "U 1.36 SHGC 0.61 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.36 SHGC 0.61 Simple Glazing",
+    "u_factor": 7.72208,
+    "shgc": 0.61,
+    "vt": 0.23
+  },
+  "U 1.70 SHGC 0.36 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.70 SHGC 0.36 Simple Glazing",
+    "u_factor": 9.6526,
+    "shgc": 0.36,
+    "vt": 0.23
+  },
+  "U 1.80 SHGC 0.36 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.80 SHGC 0.36 Simple Glazing",
+    "u_factor": 10.2204,
+    "shgc": 0.36,
+    "vt": 0.23
+  },
+  "U 1.90 SHGC 0.27 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.90 SHGC 0.27 Simple Glazing",
+    "u_factor": 10.7882,
+    "shgc": 0.27,
+    "vt": 0.25
+  },
+  "U 1.90 SHGC 0.34 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.90 SHGC 0.34 Simple Glazing",
+    "u_factor": 10.7882,
+    "shgc": 0.34,
+    "vt": 0.25
+  },
+  "U 1.90 SHGC 0.39 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.90 SHGC 0.39 Simple Glazing",
+    "u_factor": 10.7882,
+    "shgc": 0.39,
+    "vt": 0.25
+  },
+  "U 1.90 SHGC 0.65 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.90 SHGC 0.65 Simple Glazing",
+    "u_factor": 10.7882,
+    "shgc": 0.65,
+    "vt": 0.25
+  },
+  "U 1.98 SHGC 0.16 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.98 SHGC 0.16 Simple Glazing",
+    "u_factor": 11.24244,
+    "shgc": 0.16,
+    "vt": 0.15
+  },
+  "U 1.98 SHGC 0.19 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.98 SHGC 0.19 Simple Glazing",
+    "u_factor": 11.24244,
+    "shgc": 0.19,
+    "vt": 0.15
+  },
+  "U 1.98 SHGC 0.36 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.98 SHGC 0.36 Simple Glazing",
+    "u_factor": 11.24244,
+    "shgc": 0.36,
+    "vt": 0.25
+  },
+  "U 1.98 SHGC 0.39 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.98 SHGC 0.39 Simple Glazing",
+    "u_factor": 11.24244,
+    "shgc": 0.39,
+    "vt": 0.25
+  },
+  "U 1.98 SHGC 0.61 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U 1.98 SHGC 0.61 Simple Glazing",
+    "u_factor": 11.24244,
+    "shgc": 0.61,
+    "vt": 0.25
+  },
+  "U0.47_SHGC0.46_SimpleGlazing_Window_07": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U0.47_SHGC0.46_SimpleGlazing_Window_07",
+    "u_factor": 2.66866,
+    "shgc": 0.46,
+    "vt": 0.81
+  },
+  "U0.47_SHGC0.47_SimpleGlazing_Window_06": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U0.47_SHGC0.47_SimpleGlazing_Window_06",
+    "u_factor": 2.66866,
+    "shgc": 0.47,
+    "vt": 0.81
+  },
+  "U0.47_SHGC0.47_SimpleGlazing_Window_11": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U0.47_SHGC0.47_SimpleGlazing_Window_11",
+    "u_factor": 2.66866,
+    "shgc": 0.47,
+    "vt": 0.81
+  },
+  "U0.47_SHGC0.5_SimpleGlazing_Window_03": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U0.47_SHGC0.5_SimpleGlazing_Window_03",
+    "u_factor": 2.66866,
+    "shgc": 0.5,
+    "vt": 0.81
+  },
+  "U0.47_SHGC_0.49_SimpleGlazing_Window_05": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U0.47_SHGC_0.49_SimpleGlazing_Window_05",
+    "u_factor": 2.66866,
+    "shgc": 0.49,
+    "vt": 0.81
+  },
+  "U0.77_SHGC0.5_SimpleGlazing_Window_09": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U0.77_SHGC0.5_SimpleGlazing_Window_09",
+    "u_factor": 4.37206,
+    "shgc": 0.5,
+    "vt": 0.81
+  },
+  "U0.77_SHGC0.61_SimpleGlazing_Window_08": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U0.77_SHGC0.61_SimpleGlazing_Window_08",
+    "u_factor": 4.37206,
+    "shgc": 0.61,
+    "vt": 0.81
+  },
+  "U0.77_SHGC0.62_SimpleGlazing_Window_04": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U0.77_SHGC0.62_SimpleGlazing_Window_04",
+    "u_factor": 4.37206,
+    "shgc": 0.62,
+    "vt": 0.81
+  },
+  "U0.77_SHGC_0.77_SimpleGlazing_Window_02": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U0.77_SHGC_0.77_SimpleGlazing_Window_02",
+    "u_factor": 4.37206,
+    "shgc": 0.77,
+    "vt": 0.81
+  },
+  "U1.23_SHGC0.5_SimpleGlazing_Window_12": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U1.23_SHGC0.5_SimpleGlazing_Window_12",
+    "u_factor": 6.98394,
+    "shgc": 0.5,
+    "vt": 0.81
+  },
+  "U1.23_SHGC0.82_SimpleGlazing_Window_01": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U1.23_SHGC0.82_SimpleGlazing_Window_01",
+    "u_factor": 6.98394,
+    "shgc": 0.82,
+    "vt": 0.81
+  },
+  "U1.23_SHGC0.82_SimpleGlazing_Window_10": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "name": "U1.23_SHGC0.82_SimpleGlazing_Window_10",
+    "u_factor": 6.98394,
+    "shgc": 0.62,
+    "vt": 0.81
+  }
+}

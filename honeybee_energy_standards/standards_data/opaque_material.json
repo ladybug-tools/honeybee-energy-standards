@@ -1,0 +1,1658 @@
+{
+  "1/2 in. Gypsum Board": {
+    "name": "1/2 in. Gypsum Board",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 0.5,
+    "conductivity": 1.10935548776255,
+    "resistance": 0.4507121527,
+    "density": 49.9423684609156,
+    "specific_heat": 0.26034202732397,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.5
+  },
+  "1/2IN Gypsum": {
+    "name": "1/2IN Gypsum",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 0.5,
+    "conductivity": 1.10935548776256,
+    "resistance": 0.4507121527,
+    "density": 48.9997062562159,
+    "specific_heat": 0.198242094200822,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.4,
+    "visible_absorptance": 0.4
+  },
+  "100mm Normalweight concrete floor": {
+    "name": "100mm Normalweight concrete floor",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 4.0,
+    "conductivity": 16.0194175,
+    "resistance": 0.2496969693,
+    "density": 144.957816,
+    "specific_heat": 0.198852772
+  },
+  "12 in. Normalweight Concrete Floor": {
+    "name": "12 in. Normalweight Concrete Floor",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 12.0,
+    "conductivity": 16.0163198545719,
+    "resistance": 0.7492357863,
+    "density": 144.957724457807,
+    "specific_heat": 0.198719785994076,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "1IN Stucco": {
+    "name": "1IN Stucco",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 0.996062992125984,
+    "conductivity": 4.79657579021335,
+    "resistance": 0.2076612641,
+    "density": 115.991150750477,
+    "specific_heat": 0.199914015477214,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.92
+  },
+  "25mm Stucco": {
+    "name": "25mm Stucco",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 1.0,
+    "conductivity": 4.9920996949315,
+    "resistance": 0.2003165123,
+    "density": 115.866294829324,
+    "specific_heat": 0.200630553167096,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "4 in. Normalweight Concrete Floor": {
+    "name": "4 in. Normalweight Concrete Floor",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 4.0,
+    "conductivity": 16.0163198545719,
+    "resistance": 0.2497452621,
+    "density": 144.957724457807,
+    "specific_heat": 0.198719785994076,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "4 in. Normalweight Concrete Wall": {
+    "name": "4 in. Normalweight Concrete Wall",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 4.0,
+    "conductivity": 16.0163198545719,
+    "resistance": 0.2497452621,
+    "density": 144.957724457807,
+    "specific_heat": 0.198719785994076,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "5/8 in. Gypsum Board": {
+    "name": "5/8 in. Gypsum Board",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "thickness": 0.625984251968504,
+    "conductivity": 1.10935548776255,
+    "resistance": 0.5642774195,
+    "density": 49.9423684609156,
+    "specific_heat": 0.26034202732397,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "5/8 in. Plywood": {
+    "name": "5/8 in. Plywood",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 0.625984251968504,
+    "conductivity": 0.832016615821917,
+    "resistance": 0.7523698927,
+    "density": 33.9608105534226,
+    "specific_heat": 0.28900353491927,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "6 in. Heavyweight Concrete Roof": {
+    "name": "6 in. Heavyweight Concrete Roof",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 6.0,
+    "conductivity": 16.0163198545719,
+    "resistance": 0.3746178932,
+    "density": 144.957724457807,
+    "specific_heat": 0.198719785994076,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "6 in. Normalweight Concrete Floor": {
+    "name": "6 in. Normalweight Concrete Floor",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 6.0,
+    "conductivity": 16.0163198545719,
+    "resistance": 0.3746178932,
+    "density": 144.957724457807,
+    "specific_heat": 0.198719785994076,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "8 in. Concrete Block Basement Wall": {
+    "name": "8 in. Concrete Block Basement Wall",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 8.0,
+    "conductivity": 9.19378360483219,
+    "resistance": 0.8701531757,
+    "density": 114.992303381258,
+    "specific_heat": 0.217827457724276,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "8 in. Concrete Block Wall": {
+    "name": "8 in. Concrete Block Wall",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 8.0,
+    "conductivity": 4.9920996949315,
+    "resistance": 1.602532098,
+    "density": 49.9423684609156,
+    "specific_heat": 0.198719785994076,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "8 in. Normalweight Concrete Floor": {
+    "name": "8 in. Normalweight Concrete Floor",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 8.0,
+    "conductivity": 16.0163198545719,
+    "resistance": 0.4994905242,
+    "density": 144.957724457807,
+    "specific_heat": 0.198719785994076,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "8 in. Normalweight Concrete Wall": {
+    "name": "8 in. Normalweight Concrete Wall",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 8.0,
+    "conductivity": 16.0163198545719,
+    "resistance": 0.4994905242,
+    "density": 144.957724457807,
+    "specific_heat": 0.198719785994076,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "8IN CONCRETE HW RefBldg": {
+    "name": "8IN CONCRETE HW RefBldg",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Rough",
+    "thickness": 8.0,
+    "conductivity": 9.08978152785445,
+    "resistance": 0.8801091616,
+    "density": 139.838631690564,
+    "specific_heat": 0.199866246297889,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "8IN Concrete HW": {
+    "name": "8IN Concrete HW",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 8.00393700787402,
+    "conductivity": 11.9921328227132,
+    "resistance": 0.667432318,
+    "density": 140.025915572292,
+    "specific_heat": 0.199914015477214,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.65,
+    "visible_absorptance": 0.65
+  },
+  "Acoustic Ceiling": {
+    "name": "Acoustic Ceiling",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "thickness": 0.5,
+    "conductivity": 0.39520789251541,
+    "resistance": 1.26515692,
+    "density": 17.9792526459296,
+    "specific_heat": 0.319814655584217,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.2
+  },
+  "Adiabatic Material": {
+    "name": "Adiabatic Material",
+    "material_type": "MasslessOpaqueMaterial",
+    "resistance": 9999.0
+  },
+  "Asphalt Shingles": {
+    "name": "Asphalt Shingles",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "VeryRough",
+    "thickness": 0.125984251968503,
+    "conductivity": 0.277338871940639,
+    "resistance": 0.4542610673,
+    "density": 69.9193158452819,
+    "specific_heat": 0.300945829750644,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "AtticFloor Insulation": {
+    "name": "AtticFloor Insulation",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 9.36614173228346,
+    "conductivity": 0.339740118127283,
+    "resistance": 27.56854794,
+    "density": 16.5434095526783,
+    "specific_heat": 0.199866246297889,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Built-up Roofing": {
+    "name": "Built-up Roofing",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Rough",
+    "thickness": 0.374015748031496,
+    "conductivity": 1.10935548776255,
+    "resistance": 0.3371468859,
+    "density": 69.9193158452819,
+    "specific_heat": 0.348715009076144,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Built-up Roofing - Highly Reflective": {
+    "name": "Built-up Roofing - Highly Reflective",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Rough",
+    "thickness": 0.374015748031496,
+    "conductivity": 1.10935548776255,
+    "resistance": 0.3371468859,
+    "density": 69.9193158452819,
+    "specific_heat": 0.348715009076144,
+    "thermal_absorptance": 0.75,
+    "solar_absorptance": 0.45,
+    "visible_absorptance": 0.7
+  },
+  "Bulk Storage Products Material": {
+    "name": "Bulk Storage Products Material",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Rough",
+    "thickness": 96.0001946048866,
+    "conductivity": 9.99806664239079,
+    "resistance": 9.601875846,
+    "density": 12.4999918429518,
+    "specific_heat": 0.199866247810275,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "CP02 CARPET PAD": {
+    "name": "CP02 CARPET PAD",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "VeryRough",
+    "resistance": 1.22923037424,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "Carpet - 3/4 in. CBES": {
+    "name": "Carpet - 3/4 in. CBES",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 0.75,
+    "conductivity": 0.34691,
+    "density": 18.0,
+    "specific_heat": 0.33,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "F04 Wall air space resistance": {
+    "name": "F04 Wall air space resistance",
+    "material_type": "AirGap",
+    "conductivity": 46.2231453234399,
+    "resistance": 0.0216341833296424
+  },
+  "F05 Ceiling air space resistance": {
+    "name": "F05 Ceiling air space resistance",
+    "material_type": "AirGap",
+    "conductivity": 38.5192877695332,
+    "resistance": 0.0259610199955709
+  },
+  "F08 Metal surface": {
+    "name": "F08 Metal surface",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 0.031496062992126,
+    "conductivity": 313.947603036804,
+    "resistance": 0.0001003226739,
+    "density": 488.436363547755,
+    "specific_heat": 0.119422948313748,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "F16 Acoustic tile": {
+    "name": "F16 Acoustic tile",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "thickness": 0.751968503937008,
+    "conductivity": 0.416008307910959,
+    "resistance": 1.807580497,
+    "density": 22.9734894920212,
+    "specific_heat": 0.140919079010223,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.3,
+    "visible_absorptance": 0.3
+  },
+  "G01 13mm gypsum board": {
+    "name": "G01 13mm gypsum board",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 0.5,
+    "conductivity": 1.10957004,
+    "resistance": 0.4506250007,
+    "density": 49.9424,
+    "specific_heat": 0.260516252,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.5
+  },
+  "G01a 19mm gypsum board": {
+    "name": "G01a 19mm gypsum board",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "thickness": 0.748031496062992,
+    "conductivity": 1.10935548776256,
+    "resistance": 0.6742937718,
+    "density": 49.9423684609157,
+    "specific_heat": 0.260342027323971,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.4,
+    "visible_absorptance": 0.4
+  },
+  "G05 25mm wood": {
+    "name": "G05 25mm wood",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "thickness": 1.0,
+    "conductivity": 1.0400207697774,
+    "resistance": 0.9615192591,
+    "density": 37.9562000302959,
+    "specific_heat": 0.389318811502818,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.5,
+    "visible_absorptance": 0.5
+  },
+  "Ground_Floor_R11_T2013": {
+    "name": "Ground_Floor_R11_T2013",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 1.74123,
+    "conductivity": 0.15963,
+    "resistance": 10.91,
+    "density": 1.0,
+    "specific_heat": 0.27,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "Ground_Floor_R17_T2013": {
+    "name": "Ground_Floor_R17_T2013",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 2.71324,
+    "conductivity": 0.15963,
+    "resistance": 17.66,
+    "density": 1.0,
+    "specific_heat": 0.27,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "Ground_Floor_R22_T2013": {
+    "name": "Ground_Floor_R22_T2013",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 3.51125,
+    "conductivity": 0.15963,
+    "resistance": 22.47,
+    "density": 1.0,
+    "specific_heat": 0.27,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "Gypsum Board - 1/2 in. CBES": {
+    "name": "Gypsum Board - 1/2 in. CBES",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 0.5,
+    "conductivity": 1.1101,
+    "density": 40.0,
+    "specific_heat": 0.27,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "Gypsum Or Plaster Board - 3/8 in.": {
+    "name": "Gypsum Or Plaster Board - 3/8 in.",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "thickness": 0.374015748031496,
+    "conductivity": 4.02141364313926,
+    "resistance": 0.09300603748,
+    "density": 49.9423684609156,
+    "specific_heat": 0.26034202732397,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "HW CONCRETE": {
+    "name": "HW CONCRETE",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Rough",
+    "thickness": 4.0,
+    "conductivity": 9.09153953,
+    "resistance": 0.4399694889,
+    "density": 139.83872,
+    "specific_heat": 0.2,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "HW CONCRETE 8 in": {
+    "name": "HW CONCRETE 8 in",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Rough",
+    "thickness": 8.0,
+    "conductivity": 9.09153953,
+    "resistance": 0.8799389777,
+    "density": 139.83872,
+    "specific_heat": 0.2,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "I01 25mm insulation board": {
+    "name": "I01 25mm insulation board",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 1.0,
+    "conductivity": 0.208004153955479,
+    "resistance": 4.807596295,
+    "density": 2.68440230477422,
+    "specific_heat": 0.28900353491927,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.6,
+    "visible_absorptance": 0.6
+  },
+  "I02 50mm insulation board": {
+    "name": "I02 50mm insulation board",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 2.0,
+    "conductivity": 0.208004153955479,
+    "resistance": 9.615192591,
+    "density": 2.68440230477422,
+    "specific_heat": 0.28900353491927,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.6,
+    "visible_absorptance": 0.6
+  },
+  "IEAD NonRes Roof Insulation-1.76": {
+    "name": "IEAD NonRes Roof Insulation-1.76",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 2.912618227554,
+    "conductivity": 0.339740118127283,
+    "resistance": 8.573077103,
+    "density": 16.5434095526783,
+    "specific_heat": 0.199866246297889,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "IEAD Roof Insulation R-3.47 IP": {
+    "name": "IEAD Roof Insulation R-3.47 IP",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 1.1788369979776623,
+    "conductivity": 0.339740118127283,
+    "resistance": 3.469819827,
+    "density": 16.5434095526783,
+    "specific_heat": 0.199866246297889,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Insulation 1m": {
+    "name": "Insulation 1m",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 39.37,
+    "conductivity": 0.13876,
+    "density": 1.0,
+    "specific_heat": 0.27,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "Interior Wall Addi Insul": {
+    "name": "Interior Wall Addi Insul",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 1.00000202713423e-06,
+    "conductivity": 0.299941999271723,
+    "resistance": 3.333984669e-06,
+    "density": 1.3999990864106,
+    "specific_heat": 0.199866247810275,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "M01 100mm brick": {
+    "name": "M01 100mm brick",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 4.0,
+    "conductivity": 6.17078990067922,
+    "resistance": 0.6482152309,
+    "density": 119.861684306198,
+    "specific_heat": 0.188688258335722,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "M11 100mm lightweight concrete": {
+    "name": "M11 100mm lightweight concrete",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 4.0,
+    "conductivity": 3.67474005321347,
+    "resistance": 1.088512369,
+    "density": 79.9077895374651,
+    "specific_heat": 0.200630553167097,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.5,
+    "visible_absorptance": 0.5
+  },
+  "M15 200mm heavyweight concrete": {
+    "name": "M15 200mm heavyweight concrete",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 8.0,
+    "conductivity": 13.5202700071062,
+    "resistance": 0.5917041594,
+    "density": 139.838631690564,
+    "specific_heat": 0.214961306964746,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.5,
+    "visible_absorptance": 0.5
+  },
+  "MAT-CC05 4 HW CONCRETE": {
+    "name": "MAT-CC05 4 HW CONCRETE",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Rough",
+    "thickness": 4.0,
+    "conductivity": 9.08978152785445,
+    "resistance": 0.4400545808,
+    "density": 139.838631690564,
+    "specific_heat": 0.199866246297889,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.85,
+    "visible_absorptance": 0.85
+  },
+  "MAT-CC05 8 HW CONCRETE": {
+    "name": "MAT-CC05 8 HW CONCRETE",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Rough",
+    "thickness": 8.0,
+    "conductivity": 9.08978152785445,
+    "resistance": 0.8801091616,
+    "density": 139.838631690564,
+    "specific_heat": 0.199866246297889,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.85,
+    "visible_absorptance": 0.85
+  },
+  "MAT-SHEATH": {
+    "name": "MAT-SHEATH",
+    "material_type": "MasslessOpaqueMaterial",
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849203,
+    "density": 0.0436995724033012,
+    "specific_heat": 0.000167192127639247,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Mass NonRes Wall Insulation-0.43": {
+    "name": "Mass NonRes Wall Insulation-0.43",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 0.0171961191585844,
+    "conductivity": 0.339740118127283,
+    "resistance": 0.05061550945,
+    "density": 16.5434095526783,
+    "specific_heat": 0.199866246297889,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Mass Wall Insulation R-4.23 IP": {
+    "name": "Mass Wall Insulation R-4.23 IP",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 1.438471204,
+    "conductivity": 0.339740118127283,
+    "resistance": 4.234033978,
+    "density": 16.5434095526783,
+    "specific_heat": 0.199866246297889,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Metal Building Semi-Cond Wall Insulation-0.54": {
+    "name": "Metal Building Semi-Cond Wall Insulation-0.54",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 0.604172732476984,
+    "conductivity": 0.339740118127283,
+    "resistance": 1.778337913,
+    "density": 16.5434095526783,
+    "specific_heat": 0.199866246297889,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Metal Building Wall Insulation R-4.14 IP": {
+    "name": "Metal Building Wall Insulation R-4.14 IP",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 1.404445223,
+    "conductivity": 0.339740118127283,
+    "resistance": 4.133881011,
+    "density": 16.5434095526783,
+    "specific_heat": 0.199866246297889,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Metal Decking": {
+    "name": "Metal Decking",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "thickness": 0.0590551181102362,
+    "conductivity": 312.04783176401,
+    "resistance": 0.0001892502113,
+    "density": 479.446737224791,
+    "specific_heat": 0.0999331231489443,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.6,
+    "visible_absorptance": 0.6
+  },
+  "Metal Roof Insulation R-5.21 IP": {
+    "name": "Metal Roof Insulation R-5.21 IP",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 1.769246081,
+    "conductivity": 0.339740118127283,
+    "resistance": 5.207645452,
+    "density": 16.5434095526783,
+    "specific_heat": 0.199866246297889,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Metal Roof Surface": {
+    "name": "Metal Roof Surface",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 0.0314960629921259,
+    "conductivity": 313.947603036803,
+    "resistance": 0.0001003226739,
+    "density": 488.436363547755,
+    "specific_heat": 0.119422948313747,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Metal Roof Surface - Highly Reflective": {
+    "name": "Metal Roof Surface - Highly Reflective",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 0.0314960629921259,
+    "conductivity": 313.947603036803,
+    "resistance": 0.0001003226739,
+    "density": 488.436363547755,
+    "specific_heat": 0.119422948313747,
+    "thermal_absorptance": 0.75,
+    "solar_absorptance": 0.45,
+    "visible_absorptance": 0.7
+  },
+  "Metal Roofing": {
+    "name": "Metal Roofing",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "thickness": 0.0590551181102362,
+    "conductivity": 312.04783176401,
+    "resistance": 0.0001892502113,
+    "density": 479.446737224791,
+    "specific_heat": 0.0999331231489443,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.6,
+    "visible_absorptance": 0.6
+  },
+  "Metal Roofing - Highly Reflective": {
+    "name": "Metal Roofing - Highly Reflective",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "thickness": 0.0590551181102362,
+    "conductivity": 312.04783176401,
+    "resistance": 0.0001892502113,
+    "density": 479.446737224791,
+    "specific_heat": 0.0999331231489443,
+    "thermal_absorptance": 0.75,
+    "solar_absorptance": 0.45,
+    "visible_absorptance": 0.6
+  },
+  "Metal Semi-Cond Roof Insulation-1.05": {
+    "name": "Metal Semi-Cond Roof Insulation-1.05",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 1.66406811774139,
+    "conductivity": 0.339740118127283,
+    "resistance": 4.898061868,
+    "density": 16.5434095526783,
+    "specific_heat": 0.199866246297889,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Metal Siding": {
+    "name": "Metal Siding",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 0.0590551181102362,
+    "conductivity": 311.728892061278,
+    "resistance": 0.0001894438392,
+    "density": 479.999848955495,
+    "specific_heat": 0.0979268176172734,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Metal Standing Seam - 1/16 in. CBES": {
+    "name": "Metal Standing Seam - 1/16 in. CBES",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 0.06,
+    "conductivity": 4.0241,
+    "density": 488.22,
+    "specific_heat": 0.12,
+    "thermal_absorptance": 0.85,
+    "solar_absorptance": 0.37,
+    "visible_absorptance": 0.85
+  },
+  "Metal Surface": {
+    "name": "Metal Surface",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 0.0314960629921259,
+    "conductivity": 313.947603036803,
+    "resistance": 0.0001003226739,
+    "density": 488.436363547755,
+    "specific_heat": 0.119422948313747,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "NACM_Carpet 3/4in": {
+    "name": "NACM_Carpet 3/4in",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 0.75,
+    "conductivity": 0.34691,
+    "density": 18.0,
+    "specific_heat": 0.33,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.9
+  },
+  "NACM_Concrete 4in_140lb/ft3": {
+    "name": "NACM_Concrete 4in_140lb/ft3",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 4.0,
+    "conductivity": 13.52932,
+    "density": 139.78,
+    "specific_heat": 0.22,
+    "thermal_absorptance": 0.75,
+    "solar_absorptance": 0.92,
+    "visible_absorptance": 0.75
+  },
+  "NACM_Gypsum Board 5/8in": {
+    "name": "NACM_Gypsum Board 5/8in",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 0.63,
+    "conductivity": 1.1101,
+    "density": 40.0,
+    "specific_heat": 0.27,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.5
+  },
+  "Nonres_Floor_Insulation": {
+    "name": "Nonres_Floor_Insulation",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 16.3699766,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Plywood - 5/8 in. CBES": {
+    "name": "Plywood - 5/8 in. CBES",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 0.63,
+    "conductivity": 0.83257,
+    "density": 30.0,
+    "specific_heat": 0.45,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "R1_R14.20": {
+    "name": "R1_R14.20",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 2.26635,
+    "conductivity": 0.15963,
+    "resistance": 14.2,
+    "density": 1.0,
+    "specific_heat": 0.27,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "R2_R12.90": {
+    "name": "R2_R12.90",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 2.05887,
+    "conductivity": 0.15963,
+    "resistance": 12.9,
+    "density": 1.0,
+    "specific_heat": 0.27,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "R3_R17.74": {
+    "name": "R3_R17.74",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 2.83134,
+    "conductivity": 0.15963,
+    "resistance": 17.74,
+    "density": 1.0,
+    "specific_heat": 0.27,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "R4_R20.28": {
+    "name": "R4_R20.28",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 3.23667,
+    "conductivity": 0.15963,
+    "resistance": 20.28,
+    "density": 1.0,
+    "specific_heat": 0.27,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "R_R30": {
+    "name": "R_R30",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 4.78807,
+    "conductivity": 0.15963,
+    "resistance": 30.0,
+    "density": 1.0,
+    "specific_heat": 0.27,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "R_R38": {
+    "name": "R_R38",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 6.06489,
+    "conductivity": 0.15963,
+    "resistance": 38.0,
+    "density": 1.0,
+    "specific_heat": 0.27,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "R_T24_2013_24.86": {
+    "name": "R_T24_2013_24.86",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 3.96771,
+    "conductivity": 0.15963,
+    "resistance": 24.86,
+    "density": 1.0,
+    "specific_heat": 0.27,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "Roof Insulation [18]": {
+    "name": "Roof Insulation [18]",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 6.66535433070866,
+    "conductivity": 0.339740118127283,
+    "resistance": 19.61897926,
+    "density": 16.5434095526783,
+    "specific_heat": 0.199866246297889,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Roof Membrane": {
+    "name": "Roof Membrane",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "VeryRough",
+    "thickness": 0.374015748031496,
+    "conductivity": 1.10935548776256,
+    "resistance": 0.3371468859,
+    "density": 69.9998479144252,
+    "specific_heat": 0.348715009076144,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Roof Membrane - Highly Reflective": {
+    "name": "Roof Membrane - Highly Reflective",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "VeryRough",
+    "thickness": 0.374015748031496,
+    "conductivity": 1.10935548776256,
+    "resistance": 0.3371468859,
+    "density": 69.9998479144252,
+    "specific_heat": 0.348715009076144,
+    "thermal_absorptance": 0.75,
+    "solar_absorptance": 0.45,
+    "visible_absorptance": 0.7
+  },
+  "Std Wood 6 in.": {
+    "name": "Std Wood 6 in.",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "thickness": 5.90551181102362,
+    "conductivity": 0.832016615821917,
+    "resistance": 7.097829176,
+    "density": 33.711098711118,
+    "specific_heat": 0.28900353491927,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Std Wood 6inch Furnishings": {
+    "name": "Std Wood 6inch Furnishings",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "thickness": 5.91,
+    "conductivity": 0.83257,
+    "density": 33.71,
+    "specific_heat": 0.29,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Steel Frame NonRes Wall Insulation-0.73": {
+    "name": "Steel Frame NonRes Wall Insulation-0.73",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 0.798356180129949,
+    "conductivity": 0.339740118127283,
+    "resistance": 2.34990258,
+    "density": 16.5434095526783,
+    "specific_heat": 0.199866246297889,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Steel Frame Wall Insulation R-1.02 IP": {
+    "name": "Steel Frame Wall Insulation R-1.02 IP",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 0.347890885,
+    "conductivity": 0.339740118127283,
+    "resistance": 1.023991182,
+    "density": 16.5434095526783,
+    "specific_heat": 0.199866246297889,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Steel Frame/Cavity": {
+    "name": "Steel Frame/Cavity",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 3.50000709496982,
+    "conductivity": 0.583217221450581,
+    "resistance": 6.001206697,
+    "density": 40.0399738713433,
+    "specific_heat": 0.119919748686165,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Stucco - 7/8 in. CBES": {
+    "name": "Stucco - 7/8 in. CBES",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 0.88,
+    "conductivity": 4.85668,
+    "density": 115.81,
+    "specific_heat": 0.2,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "Typical Air Wall": {
+    "name": "Typical Air Wall",
+    "material_type": "MasslessOpaqueMaterial",
+    "conductivity": 6.24012461866438,
+    "resistance": 0.160253209849202,
+    "density": 0.0436995724033012,
+    "specific_heat": 0.000167192127639247,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Typical Carpet Pad": {
+    "name": "Typical Carpet Pad",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "VeryRough",
+    "resistance": 1.22923037424,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "Typical Insulation": {
+    "name": "Typical Insulation",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 0.160253209849202,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "W1_R8.60": {
+    "name": "W1_R8.60",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 1.37252,
+    "conductivity": 0.15963,
+    "resistance": 8.6,
+    "density": 1.0,
+    "specific_heat": 0.27,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "W2_R11.13": {
+    "name": "W2_R11.13",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 1.77634,
+    "conductivity": 0.15963,
+    "resistance": 11.13,
+    "density": 1.0,
+    "specific_heat": 0.27,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "W3_R11.36": {
+    "name": "W3_R11.36",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 1.81305,
+    "conductivity": 0.15963,
+    "resistance": 11.36,
+    "density": 1.0,
+    "specific_heat": 0.27,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "W4_R12.62": {
+    "name": "W4_R12.62",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 2.01414,
+    "conductivity": 0.15963,
+    "resistance": 12.62,
+    "density": 1.0,
+    "specific_heat": 0.27,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "W_T24_2013_R13.99": {
+    "name": "W_T24_2013_R13.99",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 2.23284,
+    "conductivity": 0.15963,
+    "resistance": 13.99,
+    "density": 1.0,
+    "specific_heat": 0.27,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "W_m1_R15": {
+    "name": "W_m1_R15",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 2.39403,
+    "conductivity": 0.15963,
+    "resistance": 15.0,
+    "density": 1.0,
+    "specific_heat": 0.27,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "W_m2_R19": {
+    "name": "W_m2_R19",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 3.03244,
+    "conductivity": 0.15963,
+    "resistance": 19.0,
+    "density": 1.0,
+    "specific_heat": 0.27,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "W_m3_R21": {
+    "name": "W_m3_R21",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 3.35165,
+    "conductivity": 0.15963,
+    "resistance": 21.0,
+    "density": 1.0,
+    "specific_heat": 0.27,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "Wall Insulation [31]": {
+    "name": "Wall Insulation [31]",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 1.32677165354331,
+    "conductivity": 0.29952598169589,
+    "resistance": 4.429571171,
+    "density": 5.68094441242916,
+    "specific_heat": 0.199914015477214,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.5,
+    "visible_absorptance": 0.5
+  },
+  "Wood Frame NonRes Wall Insulation-0.73": {
+    "name": "Wood Frame NonRes Wall Insulation-0.73",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 0.798356180129949,
+    "conductivity": 0.339740118127283,
+    "resistance": 2.34990258,
+    "density": 16.5434095526783,
+    "specific_heat": 0.199866246297889,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Wood Frame Wall Insulation R-1.61 IP": {
+    "name": "Wood Frame Wall Insulation R-1.61 IP",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumRough",
+    "thickness": 0.54621365,
+    "conductivity": 0.339740118127283,
+    "resistance": 1.607739625,
+    "density": 16.5434095526783,
+    "specific_heat": 0.199866246297889,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.7
+  },
+  "Wood Siding": {
+    "name": "Wood Siding",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "thickness": 0.393700787401575,
+    "conductivity": 0.762681897836758,
+    "resistance": 0.5162057583,
+    "density": 33.9995158889799,
+    "specific_heat": 0.28900353491927,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.78,
+    "visible_absorptance": 0.78
+  },
+  "ceiling_2_Insulation": {
+    "name": "ceiling_2_Insulation",
+    "material_type": "StandardOpaqueMaterial",
+    "roughness": "Smooth",
+    "thickness": 3.96766,
+    "conductivity": 0.15963,
+    "density": 1.0,
+    "specific_heat": 0.27,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.8
+  },
+  "Typical Insulation-R1": {
+    "name": "Typical Insulation-R1",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 1
+  },
+  "Typical Insulation-R2": {
+    "name": "Typical Insulation-R2",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 2
+  },
+  "Typical Insulation-R3": {
+    "name": "Typical Insulation-R3",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 3
+  },
+  "Typical Insulation-R4": {
+    "name": "Typical Insulation-R4",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 4
+  },
+  "Typical Insulation-R5": {
+    "name": "Typical Insulation-R5",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 5
+  },
+  "Typical Insulation-R6": {
+    "name": "Typical Insulation-R6",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 6
+  },
+  "Typical Insulation-R7": {
+    "name": "Typical Insulation-R7",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 7
+  },
+  "Typical Insulation-R8": {
+    "name": "Typical Insulation-R8",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 8
+  },
+  "Typical Insulation-R9": {
+    "name": "Typical Insulation-R9",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 9
+  },
+  "Typical Insulation-R10": {
+    "name": "Typical Insulation-R10",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 10
+  },
+  "Typical Insulation-R11": {
+    "name": "Typical Insulation-R11",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 11
+  },
+  "Typical Insulation-R12": {
+    "name": "Typical Insulation-R12",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 12
+  },
+  "Typical Insulation-R13": {
+    "name": "Typical Insulation-R13",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 13
+  },
+  "Typical Insulation-R14": {
+    "name": "Typical Insulation-R14",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 14
+  },
+  "Typical Insulation-R15": {
+    "name": "Typical Insulation-R15",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 15
+  },
+  "Typical Insulation-R16": {
+    "name": "Typical Insulation-R16",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 16
+  },
+  "Typical Insulation-R17": {
+    "name": "Typical Insulation-R17",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 17
+  },
+  "Typical Insulation-R18": {
+    "name": "Typical Insulation-R18",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 18
+  },
+  "Typical Insulation-R19": {
+    "name": "Typical Insulation-R19",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 19
+  },
+  "Typical Insulation-R20": {
+    "name": "Typical Insulation-R20",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 20
+  },
+  "Typical Insulation-R21": {
+    "name": "Typical Insulation-R21",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 21
+  },
+  "Typical Insulation-R22": {
+    "name": "Typical Insulation-R22",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 22
+  },
+  "Typical Insulation-R23": {
+    "name": "Typical Insulation-R23",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 23
+  },
+  "Typical Insulation-R24": {
+    "name": "Typical Insulation-R24",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 24
+  },
+  "Typical Insulation-R25": {
+    "name": "Typical Insulation-R25",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 25
+  },
+  "Typical Insulation-R26": {
+    "name": "Typical Insulation-R26",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 26
+  },
+  "Typical Insulation-R27": {
+    "name": "Typical Insulation-R27",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 27
+  },
+  "Typical Insulation-R28": {
+    "name": "Typical Insulation-R28",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 28
+  },
+  "Typical Insulation-R29": {
+    "name": "Typical Insulation-R29",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 29
+  },
+  "Typical Insulation-R30": {
+    "name": "Typical Insulation-R30",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 30
+  },
+  "Typical Insulation-R31": {
+    "name": "Typical Insulation-R31",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 31
+  },
+  "Typical Insulation-R32": {
+    "name": "Typical Insulation-R32",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 32
+  },
+  "Typical Insulation-R33": {
+    "name": "Typical Insulation-R33",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 33
+  },
+  "Typical Insulation-R34": {
+    "name": "Typical Insulation-R34",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 34
+  },
+  "Typical Insulation-R35": {
+    "name": "Typical Insulation-R35",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 35
+  },
+  "Typical Insulation-R36": {
+    "name": "Typical Insulation-R36",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 36
+  },
+  "Typical Insulation-R37": {
+    "name": "Typical Insulation-R37",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 37
+  },
+  "Typical Insulation-R38": {
+    "name": "Typical Insulation-R38",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 38
+  },
+  "Typical Insulation-R39": {
+    "name": "Typical Insulation-R39",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 39
+  },
+  "Typical Insulation-R40": {
+    "name": "Typical Insulation-R40",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 40
+  },
+  "Typical Insulation-R41": {
+    "name": "Typical Insulation-R41",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 41
+  },
+  "Typical Insulation-R42": {
+    "name": "Typical Insulation-R42",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 42
+  },
+  "Typical Insulation-R43": {
+    "name": "Typical Insulation-R43",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 43
+  },
+  "Typical Insulation-R44": {
+    "name": "Typical Insulation-R44",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 44
+  },
+  "Typical Insulation-R45": {
+    "name": "Typical Insulation-R45",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 45
+  },
+  "Typical Insulation-R46": {
+    "name": "Typical Insulation-R46",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 46
+  },
+  "Typical Insulation-R47": {
+    "name": "Typical Insulation-R47",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 47
+  },
+  "Typical Insulation-R48": {
+    "name": "Typical Insulation-R48",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 48
+  },
+  "Typical Insulation-R49": {
+    "name": "Typical Insulation-R49",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 49
+  },
+  "Typical Insulation-R50": {
+    "name": "Typical Insulation-R50",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 50
+  },
+  "Typical Insulation-R51": {
+    "name": "Typical Insulation-R51",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 51
+  },
+  "Typical Insulation-R52": {
+    "name": "Typical Insulation-R52",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 52
+  },
+  "Typical Insulation-R53": {
+    "name": "Typical Insulation-R53",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 53
+  },
+  "Typical Insulation-R54": {
+    "name": "Typical Insulation-R54",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 54
+  },
+  "Typical Insulation-R55": {
+    "name": "Typical Insulation-R55",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 55
+  },
+  "Typical Insulation-R56": {
+    "name": "Typical Insulation-R56",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 56
+  },
+  "Typical Insulation-R57": {
+    "name": "Typical Insulation-R57",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 57
+  },
+  "Typical Insulation-R58": {
+    "name": "Typical Insulation-R58",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 58
+  },
+  "Typical Insulation-R59": {
+    "name": "Typical Insulation-R59",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 59
+  },
+  "Typical Insulation-R60": {
+    "name": "Typical Insulation-R60",
+    "material_type": "MasslessOpaqueMaterial",
+    "roughness": "MediumSmooth",
+    "resistance": 60
+  }
+}
