@@ -1,7 +1,7 @@
 """Extend the honeybee_energy construction library."""
 from honeybee_energy.construction.opaque import OpaqueConstruction
 from honeybee_energy.construction.window import WindowConstruction
-from honeybee_energy.lib.constructions import _idf_opaque_constructions, _idf_window_constructions
+from honeybee_energy.lib.constructions import _opaque_constructions, _window_constructions
 
 import os
 import json
@@ -32,7 +32,7 @@ def opaque_construction_by_name(construction_name):
         construction_name: A text string for the name of the construction.
     """
     try:  # see if the construction has already been loaded to a Python object
-        return _idf_opaque_constructions[construction_name]
+        return _opaque_constructions[construction_name]
     except KeyError:  # construction likely needs to be loaded from standards data
         try:
             _constr_dict = _opaque_constr_standards_dict[construction_name]
@@ -44,7 +44,7 @@ def opaque_construction_by_name(construction_name):
     # create the Python object from the standards gem dictionary
     _constr_obj = OpaqueConstruction.from_standards_dict(_constr_dict)
     _constr_obj.lock()
-    _idf_opaque_constructions[construction_name] = _constr_obj  # load faster next time
+    _opaque_constructions[construction_name] = _constr_obj  # load faster next time
     return _constr_obj
 
 
@@ -55,7 +55,7 @@ def window_construction_by_name(construction_name):
         construction_name: A text string for the name of the construction.
     """
     try:  # see if the construction has already been loaded to a Python object
-        return _idf_window_constructions[construction_name]
+        return _window_constructions[construction_name]
     except KeyError:  # construction likely needs to be loaded from standards data
         try:
             _constr_dict = _window_constr_standards_dict[construction_name]
@@ -67,5 +67,5 @@ def window_construction_by_name(construction_name):
     # create the Python object from the standards gem dictionary
     _constr_obj = WindowConstruction.from_standards_dict(_constr_dict)
     _constr_obj.lock()
-    _idf_window_constructions[construction_name] = _constr_obj  # load faster next time
+    _window_constructions[construction_name] = _constr_obj  # load faster next time
     return _constr_obj
