@@ -21,6 +21,7 @@ def from_standards_dict(cls, data):
 
     # empty variables to be replaced
     default_day = None
+    holiday = None
     summer_day = None
     winter_day = None
     schedule_rules = []
@@ -33,6 +34,10 @@ def from_standards_dict(cls, data):
             default_day = schedule_day.duplicate()
             default_day.name = '{}_Default'.format(schedule_day.name)
             day_types.remove('Default')
+        if 'Hol' in day_sch_dict['day_types']:
+            holiday = schedule_day.duplicate()
+            holiday.name = '{}_Hol'.format(schedule_day.name)
+            day_types.remove('Hol')
         if 'SmrDsn' in day_sch_dict['day_types']:
             summer_day = schedule_day.duplicate()
             summer_day.name = '{}_SmrDsn'.format(schedule_day.name)
@@ -67,7 +72,7 @@ def from_standards_dict(cls, data):
 
     # return the schedule
     return cls(data[0]['name'], default_day, schedule_rules, schedule_type,
-               summer_day, winter_day)
+               holiday, summer_day, winter_day)
 
 
 def _process_date_string(date_string):

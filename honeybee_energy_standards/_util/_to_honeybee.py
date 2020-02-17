@@ -77,8 +77,22 @@ def convert_to_hb_json(source_dir=None, dest_dir=None):
                 c_dict = json.load(json_file)
             hb_dict = {}
             for c_name in c_dict:
-                hb_dict[c_name] = \
+                base_dict = \
                     constrset_lib.construction_set_by_name(c_name).to_dict(abridged=True)
+                del_keys = []
+                for key in base_dict:
+                    if base_dict[key] is None:
+                        del_keys.append(key)
+                    elif isinstance(base_dict[key], dict):
+                        sub_del_keys = []
+                        for s_key in base_dict[key]:
+                            if base_dict[key][s_key] is None:
+                                sub_del_keys.append(s_key)
+                        for s_key in sub_del_keys:
+                            del base_dict[key][s_key]
+                for key in del_keys:
+                    del base_dict[key]
+                hb_dict[c_name] = base_dict
             with open(dest_file, 'w') as fp:
                 json.dump(hb_dict, fp, indent=2)
     
@@ -94,7 +108,8 @@ def convert_to_hb_json(source_dir=None, dest_dir=None):
     new_str = re.sub(r'\s*(\d*\.\d*),\s*', r'\1, ', init_str)
     right_bracket_str = re.sub(r'\s*(])', r'\1', new_str)
     left_bracket_str = re.sub(r'(\[)\s*', r'\1', right_bracket_str)
-    final_str = re.sub(r'\[(.\d*),\s*(.\d*)\]', r'[\1, \2]', left_bracket_str)
+    newer_str = re.sub(r'\[(.\d*),\s*(.\d*)\],\s*', r'[\1, \2], ', left_bracket_str)
+    final_str = re.sub(r'\[(.\d*),\s*(.\d*)\]', r'[\1, \2]', newer_str)
     # write the data into a file
     sch_path = os.path.join(sched_dir, 'schedule.json')
     with open(sch_path, 'w') as fp:
@@ -122,3 +137,5 @@ def convert_to_hb_json(source_dir=None, dest_dir=None):
         if os.path.isfile(f_path) and f_path.endswith('registry.json'):
             dest_file = os.path.join(ptype_dir, f)
             shutil.copy(f_path, dest_file)
+    
+    print('Successfully translated OpenStudio JSONs to Honeybee.')
