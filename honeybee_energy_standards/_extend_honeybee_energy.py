@@ -1,5 +1,8 @@
 # coding=utf-8
-"""Extend honeybee-energy objects and lib with the classmethods and data of this library."""
+"""Extend honeybee-energy objects with the classmethods of this library."""
+import os
+import json
+
 # import all of the objects that are being extended from honyebee-energy
 from honeybee_energy.material.opaque import EnergyMaterial, EnergyMaterialNoMass
 from honeybee_energy.material.glazing import EnergyWindowMaterialGlazing, \
@@ -12,29 +15,19 @@ from honeybee_energy.schedule.day import ScheduleDay
 from honeybee_energy.schedule.ruleset import ScheduleRuleset
 from honeybee_energy.programtype import ProgramType
 
-from honeybee_energy.lib import materials
-from honeybee_energy.lib import constructions
-from honeybee_energy.lib import constructionsets
-from honeybee_energy.lib import schedules
-from honeybee_energy.lib import programtypes
+import honeybee_energy.lib.programtypes as hb_programtypes
 
 
 # import all of the extension methods from this library
-import honeybee_energy_standards.material.opaque as material_opaque
-import honeybee_energy_standards.material.glazing as material_glazing
-import honeybee_energy_standards.material.gas as material_gas
-import honeybee_energy_standards.construction.opaque as construction_opaque
-import honeybee_energy_standards.construction.window as window_opaque
-import honeybee_energy_standards.constructionset as constructionset
-import honeybee_energy_standards.schedule.day as schedule_day
-import honeybee_energy_standards.schedule.ruleset as schedule_ruleset
-import honeybee_energy_standards.programtype as programtype
-
-import honeybee_energy_standards.lib.materials as material_lib
-import honeybee_energy_standards.lib.constructions as construction_lib
-import honeybee_energy_standards.lib.constructionsets as construction_set_lib
-import honeybee_energy_standards.lib.schedules as schedule_lib
-import honeybee_energy_standards.lib.programtypes as program_type_lib
+import honeybee_energy_standards.extension.material.opaque as material_opaque
+import honeybee_energy_standards.extension.material.glazing as material_glazing
+import honeybee_energy_standards.extension.material.gas as material_gas
+import honeybee_energy_standards.extension.construction.opaque as construction_opaque
+import honeybee_energy_standards.extension.construction.window as window_opaque
+import honeybee_energy_standards.extension.constructionset as constructionset
+import honeybee_energy_standards.extension.schedule.day as schedule_day
+import honeybee_energy_standards.extension.schedule.ruleset as schedule_ruleset
+import honeybee_energy_standards.extension.programtype as programtype
 
 
 # add classmethods to create honeybee-energy objects from standards gem dictionaries
@@ -62,28 +55,15 @@ ProgramType.from_standards_dict = \
     classmethod(programtype.from_standards_dict)
 
 
-# extend the 'object_by_name' methods within the honeybee_energy.lib
-materials.opaque_material_by_name = material_lib.opaque_material_by_name
-materials.window_material_by_name = material_lib.window_material_by_name
-constructions.opaque_construction_by_name = construction_lib.opaque_construction_by_name
-constructions.window_construction_by_name = construction_lib.window_construction_by_name
-constructionsets.construction_set_by_name = construction_set_lib.construction_set_by_name
-schedules.schedule_by_name = schedule_lib.schedule_by_name
-programtypes.program_type_by_name = program_type_lib.program_type_by_name
-
-
-# overwrite the list of all available objects within honeybee_energy.lib
-materials.OPAQUE_MATERIALS = materials.OPAQUE_MATERIALS + \
-    tuple(material_lib._opaque_standards_dict.keys())
-materials.WINDOW_MATERIALS = materials.WINDOW_MATERIALS + \
-    tuple(material_lib._window_standards_dict.keys())
-constructions.OPAQUE_CONSTRUCTIONS = constructions.OPAQUE_CONSTRUCTIONS + \
-    tuple(construction_lib._opaque_constr_standards_dict.keys())
-constructions.WINDOW_CONSTRUCTIONS = constructions.WINDOW_CONSTRUCTIONS + \
-    tuple(construction_lib._window_constr_standards_dict.keys())
-constructionsets.CONSTRUCTION_SETS = constructionsets.CONSTRUCTION_SETS + \
-    tuple(construction_set_lib._construction_set_standards_dict.keys())
-schedules.SCHEDULES = schedules.SCHEDULES + \
-    tuple(schedule_lib._schedule_standards_dict.keys())
-programtypes.PROGRAM_TYPES = programtypes.PROGRAM_TYPES + \
-    tuple(program_type_lib._program_type_standards_dict.keys())
+# add a variable to the program type library to help easily look up ProgramTypes
+STANDARDS_REGISTRY = {}
+_vintages = ('2013', '2010', '2007', '2004', '1980_2004', 'pre_1980')
+_prog_dir = os.path.join(os.path.dirname(__file__), 'data', 'programtypes_registry')
+for vintage in _vintages:
+    _prog_vintage_dir = os.path.join(_prog_dir, '{}_registry.json'.format(vintage))
+    try:
+        with open(_prog_vintage_dir, 'r') as f:
+            STANDARDS_REGISTRY[vintage] = json.load(f)
+    except FileNotFoundError:
+        pass
+setattr(hb_programtypes, 'STANDARDS_REGISTRY', STANDARDS_REGISTRY)

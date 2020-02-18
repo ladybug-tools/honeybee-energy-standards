@@ -44,7 +44,7 @@ def convert_to_hb_json(source_dir=None, dest_dir=None):
     # set default directories
     if source_dir is None:
         master_dir = local_data_dir()
-        source_dir = os.path.join(master_dir, 'standards_data')
+        source_dir = os.path.join(master_dir, '_standards_data')
     if dest_dir is None:
         master_dir = local_data_dir()
         dest_dir = os.path.join(master_dir, 'data')
@@ -139,3 +139,45 @@ def convert_to_hb_json(source_dir=None, dest_dir=None):
             shutil.copy(f_path, dest_file)
     
     print('Successfully translated OpenStudio JSONs to Honeybee.')
+
+
+def remove_hb_jsons(dest_dir=None):
+    """Remove all Honeybee JSON data from this package.
+
+    Args:
+        dest_dir: Optional path to a destination directory. Default will be the
+            data folder in this package.
+    """
+    if dest_dir is None:
+        master_dir = local_data_dir()
+        dest_dir = os.path.join(master_dir, 'data')
+
+    con_dir = os.path.join(dest_dir, 'constructions')
+    for file_name in os.listdir(con_dir):
+        json_file = os.path.join(con_dir, file_name)
+        if file_name.endswith('.json') and os.path.isfile(json_file):
+            os.remove(json_file)
+
+    con_set_dir = os.path.join(dest_dir, 'constructionsets')
+    for file_name in os.listdir(con_set_dir):
+        json_file = os.path.join(con_set_dir, file_name)
+        if file_name.endswith('.json') and os.path.isfile(json_file):
+            os.remove(json_file)
+
+    sch_dir = os.path.join(dest_dir, 'schedules')
+    for file_name in os.listdir(sch_dir):
+        json_file = os.path.join(sch_dir, file_name)
+        if file_name.endswith('.json') and os.path.isfile(json_file):
+            os.remove(json_file)
+
+    ptype_dir = os.path.join(dest_dir, 'programtypes')
+    for file_name in os.listdir(ptype_dir):
+        json_file = os.path.join(ptype_dir, file_name)
+        if file_name.endswith('.json') and os.path.isfile(json_file):
+            os.remove(json_file)
+
+    ptype_reg_dir = os.path.join(dest_dir, 'programtypes_registry')
+    for file_name in os.listdir(ptype_reg_dir):
+        json_file = os.path.join(ptype_reg_dir, file_name)
+        if file_name.endswith('.json') and os.path.isfile(json_file):
+            os.remove(json_file)
