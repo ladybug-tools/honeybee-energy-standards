@@ -18,12 +18,12 @@ def clean_all(ashrae_directory, dest_dir=None):
                 C:/Users/[USERNAME]/Documents/GitHub/openstudio-standards/lib/
                 openstudio-standards/standards/ashrae_90_1/
         dest_dir: Optional path to a destination directory. Default will be the
-            standards_data folder in this package.
+            _standards_data folder in this package.
     """
     if dest_dir is None:
         current_dir = os.path.dirname(__file__)
         master_dir, util_mod = os.path.split(current_dir)
-        dest_dir = os.path.join(master_dir, 'standards_data')
+        dest_dir = os.path.join(master_dir, '_standards_data')
 
     # clean the Schedules
     source_filename = os.path.join(ashrae_directory, 'data', 'ashrae_90_1.schedules.json')
@@ -97,3 +97,33 @@ def clean_all(ashrae_directory, dest_dir=None):
                             global_constrs[0], global_mats[0])
     clean_construction_sets(source_filename_pre_1980, dest_dir_c_set, 'pre_1980',
                             global_constrs[0], global_mats[0])
+
+
+def remove_all(dest_dir=None):
+    """Remove all raw OpenStudio standards JSON data from this package.
+
+    Args:
+        dest_dir: Optional path to a destination directory. Default will be the
+            _standards_data folder in this package.
+    """
+    if dest_dir is None:
+        current_dir = os.path.dirname(__file__)
+        master_dir, util_mod = os.path.split(current_dir)
+        dest_dir = os.path.join(master_dir, '_standards_data')
+
+    con_set_dir = os.path.join(dest_dir, 'construction_set')
+    for file_name in os.listdir(con_set_dir):
+        json_file = os.path.join(con_set_dir, file_name)
+        if file_name.endswith('.json') and os.path.isfile(json_file):
+            os.remove(json_file)
+
+    p_type_dir = os.path.join(dest_dir, 'program_type')
+    for file_name in os.listdir(p_type_dir):
+        json_file = os.path.join(p_type_dir, file_name)
+        if file_name.endswith('.json') and os.path.isfile(json_file):
+            os.remove(json_file)
+
+    for file_name in os.listdir(dest_dir):
+        json_file = os.path.join(dest_dir, file_name)
+        if file_name.endswith('.json') and os.path.isfile(json_file):
+            os.remove(json_file)

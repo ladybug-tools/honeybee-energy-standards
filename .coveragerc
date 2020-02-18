@@ -1,2 +1,6 @@
 [run]
-omit = honeybee_energy_standards/_util/*
+omit = 
+    tests/* 
+    honeybee_energy_standards/_util/* 
+    honeybee_energy_standards/_lib/* 
+    honeybee_energy_standards/_change_to_standards_data.py

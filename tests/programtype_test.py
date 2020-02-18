@@ -7,8 +7,6 @@ from honeybee_energy.programtype import ProgramType
 import honeybee_energy.lib.programtypes as prog_type_lib
 from honeybee_energy.load.setpoint import Setpoint
 
-from honeybee_energy_standards.lib.programtypes import STANDARDS_REGISTRY
-
 from ladybug_geometry.geometry3d.pointvector import Vector3D
 
 import pytest
@@ -100,16 +98,6 @@ def test_program_type_by_name():
     for prog in prog_type_lib.PROGRAM_TYPES:
         prog_from_lib = prog_type_lib.program_type_by_name(prog)
         assert isinstance(prog_from_lib, ProgramType)
-
-
-def test_program_type_registry():
-    """Test the program type registry."""
-    for vintage in STANDARDS_REGISTRY.keys():
-        for bldg_type in STANDARDS_REGISTRY[vintage].keys():
-            for room_type in STANDARDS_REGISTRY[vintage][bldg_type]:
-                prog_type_name = '{}::{}::{}'.format(vintage, bldg_type, room_type)
-                prog_from_lib = prog_type_lib.program_type_by_name(prog_type_name)
-                assert isinstance(prog_from_lib, ProgramType)
 
 
 def test_model_to_dict_with_program_type():

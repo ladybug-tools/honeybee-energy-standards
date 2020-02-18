@@ -1,2 +1,2 @@
 recursive-include honeybee_energy_standards/data *.json
-recursive-include honeybee_energy_standards/standards_data *.json
+recursive-include honeybee_energy_standards/_standards_data *.json
