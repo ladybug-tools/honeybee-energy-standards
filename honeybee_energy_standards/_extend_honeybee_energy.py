@@ -53,17 +53,3 @@ ScheduleRuleset.from_standards_dict = \
     classmethod(schedule_ruleset.from_standards_dict)
 ProgramType.from_standards_dict = \
     classmethod(programtype.from_standards_dict)
-
-
-# add a variable to the program type library to help easily look up ProgramTypes
-STANDARDS_REGISTRY = {}
-_vintages = ('2013', '2010', '2007', '2004', '1980_2004', 'pre_1980')
-_prog_dir = os.path.join(os.path.dirname(__file__), 'data', 'programtypes_registry')
-for vintage in _vintages:
-    _prog_vintage_dir = os.path.join(_prog_dir, '{}_registry.json'.format(vintage))
-    try:
-        with open(_prog_vintage_dir, 'r') as f:
-            STANDARDS_REGISTRY[vintage] = json.load(f)
-    except FileNotFoundError:
-        pass
-setattr(hb_programtypes, 'STANDARDS_REGISTRY', STANDARDS_REGISTRY)
