@@ -28,11 +28,11 @@ def test_schedule_day_from_standards_dict():
     schedule_1 = ScheduleDay.from_standards_dict(test_dict_1)
     schedule_2 = ScheduleDay.from_standards_dict(test_dict_2)
 
-    assert schedule_1.name == "Large Office Bldg Light"
+    assert schedule_1.identifier == "Large Office Bldg Light"
     assert schedule_1.is_constant
     assert schedule_1[0] == 0
 
-    assert schedule_2.name == "Large Office Bldg Occ"
+    assert schedule_2.identifier == "Large Office Bldg Occ"
     assert not schedule_2.is_constant
     assert len(schedule_2) == 10
     assert schedule_2.values == (0, 0.1, 0.2, 0.95, 0.5, 0.95, 0.7, 0.4, 0.1, 0.05)

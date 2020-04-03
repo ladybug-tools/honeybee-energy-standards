@@ -19,23 +19,23 @@ except FileNotFoundError:
     _schedule_standards_dict = {}
 
 
-def schedule_by_name(schedule_name):
-    """Get a schedule from the library given its name.
+def schedule_by_identifier(schedule_identifier):
+    """Get a schedule from the library given its identifier.
 
     Args:
-        schedule_name: A text string for the name of the schedule.
+        schedule_identifier: A text string for the identifier of the schedule.
     """
     try:
-        return _schedules[schedule_name]
+        return _schedules[schedule_identifier]
     except KeyError:
         try:
-            _sched_dict = _schedule_standards_dict[schedule_name]
+            _sched_dict = _schedule_standards_dict[schedule_identifier]
         except KeyError:
             raise ValueError('"{}" was not found in the schedule library.'.format(
-                schedule_name))
+                schedule_identifier))
 
     # create the Python object from the standards gem dictionary
     _sched_obj = ScheduleRuleset.from_standards_dict(_sched_dict)
     _sched_obj.lock()
-    _schedules[schedule_name] = _sched_obj  # load faster next time
+    _schedules[schedule_identifier] = _sched_obj  # load faster next time
     return _sched_obj

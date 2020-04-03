@@ -58,7 +58,7 @@ def from_standards_dict(cls, data):
         "cooling_setpoint_schedule": "OfficeMedium CLGSETP_SCH_YES_OPTIMUM"
         }
     """
-    pr_type_name = data['space_type']
+    pr_type_identifier = data['space_type']
     people = None
     lighting = None
     electric_equipment = None
@@ -69,52 +69,52 @@ def from_standards_dict(cls, data):
 
     if 'occupancy_schedule' in data and data['occupancy_schedule'] is not None and \
             data['occupancy_per_area'] != 0:
-        occ_sched = sch_lib.schedule_by_name(data['occupancy_schedule'])
-        act_sched = sch_lib.schedule_by_name(data['occupancy_activity_schedule'])
+        occ_sched = sch_lib.schedule_by_identifier(data['occupancy_schedule'])
+        act_sched = sch_lib.schedule_by_identifier(data['occupancy_activity_schedule'])
         occ_density = data['occupancy_per_area'] / 92.903
-        people = People('{}_People'.format(pr_type_name), occ_density,
+        people = People('{}_People'.format(pr_type_identifier), occ_density,
                         occ_sched, act_sched)
 
     if 'lighting_schedule' in data and data['lighting_schedule'] is not None:
-        light_sched = sch_lib.schedule_by_name(data['lighting_schedule'])
+        light_sched = sch_lib.schedule_by_identifier(data['lighting_schedule'])
         try:
             lpd = data['lighting_per_area'] * 10.7639
         except (TypeError, KeyError):
             lpd = 0  # there's a schedule but no actual load object
         lighting = Lighting(
-            '{}_Lighting'.format(pr_type_name), lpd, light_sched,
+            '{}_Lighting'.format(pr_type_identifier), lpd, light_sched,
             data['lighting_fraction_to_return_air'],
             data['lighting_fraction_radiant'], data['lighting_fraction_visible'])
 
     if 'electric_equipment_schedule' in data and \
             data['electric_equipment_schedule'] is not None:
-        eequip_sched = sch_lib.schedule_by_name(data['electric_equipment_schedule'])
+        eequip_sched = sch_lib.schedule_by_identifier(data['electric_equipment_schedule'])
         try:
             eepd = data['electric_equipment_per_area'] * 10.7639
         except KeyError:
             eepd = 0  # there's a schedule but no actual load object
         electric_equipment = ElectricEquipment(
-            '{}_Electric'.format(pr_type_name), eepd, eequip_sched,
+            '{}_Electric'.format(pr_type_identifier), eepd, eequip_sched,
             data['electric_equipment_fraction_radiant'],
             data['electric_equipment_fraction_latent'],
             data['electric_equipment_fraction_lost'])
 
     if 'gas_equipment_schedule' in data and \
             data['gas_equipment_schedule'] is not None:
-        gequip_sched = sch_lib.schedule_by_name(data['gas_equipment_schedule'])
+        gequip_sched = sch_lib.schedule_by_identifier(data['gas_equipment_schedule'])
         try:
             gepd = data['gas_equipment_per_area'] * 3.15459
         except KeyError:
             gepd = 0  # there's a schedule but no actual load object
         gas_equipment = GasEquipment(
-            '{}_Gas'.format(pr_type_name), gepd, gequip_sched,
+            '{}_Gas'.format(pr_type_identifier), gepd, gequip_sched,
             data['gas_equipment_fraction_radiant'],
             data['gas_equipment_fraction_latent'],
             data['gas_equipment_fraction_lost'])
 
     if 'infiltration_schedule' in data and \
             data['infiltration_schedule'] is not None:
-        inf_sched = sch_lib.schedule_by_name(data['infiltration_schedule'])
+        inf_sched = sch_lib.schedule_by_identifier(data['infiltration_schedule'])
         try:
             inf = data['infiltration_per_exterior_area'] * 0.00508
         except KeyError:  # might be using infiltration_per_exterior_wall_area
@@ -123,7 +123,7 @@ def from_standards_dict(cls, data):
             except KeyError:
                 inf = 0  # there's a schedule but no actual load object
         infiltration = Infiltration(
-            '{}_Infiltration'.format(pr_type_name), inf, inf_sched)
+            '{}_Infiltration'.format(pr_type_identifier), inf, inf_sched)
 
     if 'ventilation_standard' in data and \
             data['ventilation_standard'] is not None:
@@ -137,14 +137,14 @@ def from_standards_dict(cls, data):
             'ventilation_air_changes' in data and \
             data['ventilation_air_changes'] is not None else 0
         ventilation = Ventilation(
-            '{}_Ventilation'.format(pr_type_name), person, area, 0, ach)
+            '{}_Ventilation'.format(pr_type_identifier), person, area, 0, ach)
 
     if 'heating_setpoint_schedule' in data and \
             data['heating_setpoint_schedule'] is not None:
-        heat_sched = sch_lib.schedule_by_name(data['heating_setpoint_schedule'])
-        cool_sched = sch_lib.schedule_by_name(data['cooling_setpoint_schedule'])
+        heat_sched = sch_lib.schedule_by_identifier(data['heating_setpoint_schedule'])
+        cool_sched = sch_lib.schedule_by_identifier(data['cooling_setpoint_schedule'])
         setpoint = Setpoint(
-            '{}_Setpoint'.format(pr_type_name), heat_sched, cool_sched)
+            '{}_Setpoint'.format(pr_type_identifier), heat_sched, cool_sched)
 
     return cls(data['space_type'], people, lighting, electric_equipment,
                gas_equipment, infiltration, ventilation, setpoint)

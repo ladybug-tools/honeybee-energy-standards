@@ -21,23 +21,23 @@ for vintage in _vintages:
         pass
 
 
-def program_type_by_name(program_type_name):
-    """Get a program_type from the library given its name.
+def program_type_by_identifier(program_type_identifier):
+    """Get a program_type from the library given its identifier.
 
     Args:
-        program_type_name: A text string for the name of the ProgramType.
+        program_type_identifier: A text string for the identifier of the ProgramType.
     """
     try:  # see if the program type has already been loaded to a Python object
-        return _program_types[program_type_name]
+        return _program_types[program_type_identifier]
     except KeyError:  # program type likely needs to be loaded from standards data
         try:
-            _prog_dict = _program_type_standards_dict[program_type_name]
+            _prog_dict = _program_type_standards_dict[program_type_identifier]
         except KeyError:  # program type is nowhere to be found; raise an error
             raise ValueError('"{}" was not found in the program type library.'.format(
-                program_type_name))
+                program_type_identifier))
 
     # create the Python object from the standards gem dictionary
     _prog_obj = ProgramType.from_standards_dict(_prog_dict)
     _prog_obj.lock()
-    _program_types[program_type_name] = _prog_obj  # load faster next time
+    _program_types[program_type_identifier] = _prog_obj  # load faster next time
     return _prog_obj

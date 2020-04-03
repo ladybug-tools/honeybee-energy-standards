@@ -14,14 +14,21 @@ from honeybee_energy.lib import schedules
 from honeybee_energy.lib import programtypes
 
 
-# extend the 'object_by_name' methods within the honeybee_energy.lib
-materials.opaque_material_by_name = material_lib.opaque_material_by_name
-materials.window_material_by_name = material_lib.window_material_by_name
-constructions.opaque_construction_by_name = construction_lib.opaque_construction_by_name
-constructions.window_construction_by_name = construction_lib.window_construction_by_name
-constructionsets.construction_set_by_name = construction_set_lib.construction_set_by_name
-schedules.schedule_by_name = schedule_lib.schedule_by_name
-programtypes.program_type_by_name = program_type_lib.program_type_by_name
+# extend the 'object_by_identifier' methods within the honeybee_energy.lib
+materials.opaque_material_by_identifier = \
+    material_lib.opaque_material_by_identifier
+materials.window_material_by_identifier = \
+    material_lib.window_material_by_identifier
+constructions.opaque_construction_by_identifier = \
+    construction_lib.opaque_construction_by_identifier
+constructions.window_construction_by_identifier = \
+    construction_lib.window_construction_by_identifier
+constructionsets.construction_set_by_identifier = \
+    construction_set_lib.construction_set_by_identifier
+schedules.schedule_by_identifier = \
+    schedule_lib.schedule_by_identifier
+programtypes.program_type_by_identifier = \
+    program_type_lib.program_type_by_identifier
 
 
 # overwrite the list of all available objects within honeybee_energy.lib

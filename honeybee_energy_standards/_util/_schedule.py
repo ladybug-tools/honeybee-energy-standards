@@ -41,7 +41,7 @@ def clean_schedules(source_filename, dest_directory):
     _remove_day_types = ('DummySmrDsn', 'DummrySmrDsn')
 
     # list of incorrect schedules to be removed
-    _remove_sch_names = \
+    _remove_sch_ids = \
         ('occupancy_clothing', 'occupancy_air_velocity', 'defr_wi_sched',
          'door_wi_sched', 'occupancy_work_eff', 'ref_case_light', 'ref_case_restock')
 
@@ -54,12 +54,12 @@ def clean_schedules(source_filename, dest_directory):
 
     # group the data by parent ScheduleRuleset
     for sch in data_store['schedules']:
-        sch_name = sch['name']
-        if sch_name not in _remove_sch_names:
-            if sch_name in sch_dict:
-                sch_dict[sch_name].append(sch)
+        sch_id = sch['name']
+        if sch_id not in _remove_sch_ids:
+            if sch_id in sch_dict:
+                sch_dict[sch_id].append(sch)
             else:
-                sch_dict[sch_name] = [sch]
+                sch_dict[sch_id] = [sch]
 
     # clean the datetime strings to only have the month and day
     for full_sched in sch_dict.values():
@@ -142,8 +142,8 @@ def remove_unused_schedules(clean_schedule_json=None, clean_program_type_jsons=N
 
     # loop through gathered schedules and make sure they get into the new schedule json
     new_sch_dict = {}
-    for sch_name in all_schedules:
-        new_sch_dict[sch_name] = sched_data_store[sch_name]
+    for sch_id in all_schedules:
+        new_sch_dict[sch_id] = sched_data_store[sch_id]
 
     # get a string representation and clean it further
     init_str = json.dumps(new_sch_dict, indent=2)

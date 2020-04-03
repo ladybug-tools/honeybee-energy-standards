@@ -22,11 +22,11 @@ def honeybee_construction_json(source_directory, constr_folder, lib_function, fi
     hb_dict = {}
     with open(opa_mat_json, 'r') as json_file:
         mat_dict = json.load(json_file)
-    for mat_name in mat_dict:
+    for mat_id in mat_dict:
         try:
-            hb_dict[mat_name] = lib_function(mat_name).to_dict(abridged=True)
+            hb_dict[mat_id] = lib_function(mat_id).to_dict(abridged=True)
         except Exception:
-            hb_dict[mat_name] = lib_function(mat_name).to_dict()
+            hb_dict[mat_id] = lib_function(mat_id).to_dict()
     mat_path = os.path.join(constr_folder, file_name)
     with open(mat_path, 'w') as fp:
         json.dump(hb_dict, fp, indent=2)
@@ -56,15 +56,15 @@ def convert_to_hb_json(source_dir=None, dest_dir=None):
     ptype_dir = os.path.join(dest_dir, 'programtypes')
     
     # translate the materials and constructions to honeybee_json
-    honeybee_construction_json(source_dir, constr_dir, mat_lib.opaque_material_by_name,
+    honeybee_construction_json(source_dir, constr_dir, mat_lib.opaque_material_by_identifier,
                                'opaque_material.json')
-    honeybee_construction_json(source_dir, constr_dir, mat_lib.window_material_by_name,
+    honeybee_construction_json(source_dir, constr_dir, mat_lib.window_material_by_identifier,
                                'window_material.json')
     honeybee_construction_json(
-        source_dir, constr_dir, constr_lib.opaque_construction_by_name,
+        source_dir, constr_dir, constr_lib.opaque_construction_by_identifier,
         'opaque_construction.json')
     honeybee_construction_json(
-        source_dir, constr_dir, constr_lib.window_construction_by_name,
+        source_dir, constr_dir, constr_lib.window_construction_by_identifier,
         'window_construction.json')
 
     # translate the construction sets to honeybee_json
@@ -76,9 +76,9 @@ def convert_to_hb_json(source_dir=None, dest_dir=None):
             with open(f_path, 'r') as json_file:
                 c_dict = json.load(json_file)
             hb_dict = {}
-            for c_name in c_dict:
+            for c_id in c_dict:
                 base_dict = \
-                    constrset_lib.construction_set_by_name(c_name).to_dict(abridged=True)
+                    constrset_lib.construction_set_by_identifier(c_id).to_dict(abridged=True)
                 del_keys = []
                 for key in base_dict:
                     if base_dict[key] is None:
@@ -92,7 +92,7 @@ def convert_to_hb_json(source_dir=None, dest_dir=None):
                             del base_dict[key][s_key]
                 for key in del_keys:
                     del base_dict[key]
-                hb_dict[c_name] = base_dict
+                hb_dict[c_id] = base_dict
             with open(dest_file, 'w') as fp:
                 json.dump(hb_dict, fp, indent=2)
     
@@ -101,8 +101,8 @@ def convert_to_hb_json(source_dir=None, dest_dir=None):
     hb_sch_dict = {}
     with open(sched_json, 'r') as json_file:
         sch_dict = json.load(json_file)
-    for sch_name in sch_dict:
-        hb_sch_dict[sch_name] = sch_lib.schedule_by_name(sch_name).to_dict(abridged=True)
+    for sch_id in sch_dict:
+        hb_sch_dict[sch_id] = sch_lib.schedule_by_identifier(sch_id).to_dict(abridged=True)
     # get a string representation and clean it further
     init_str = json.dumps(hb_sch_dict, indent=2)
     new_str = re.sub(r'\s*(\d*\.\d*),\s*', r'\1, ', init_str)
@@ -124,9 +124,9 @@ def convert_to_hb_json(source_dir=None, dest_dir=None):
             with open(f_path, 'r') as json_file:
                 p_dict = json.load(json_file)
             hb_dict = {}
-            for p_name in p_dict:
-                hb_dict[p_name] = \
-                    program_lib.program_type_by_name(p_name).to_dict(abridged=True)
+            for p_id in p_dict:
+                hb_dict[p_id] = \
+                    program_lib.program_type_by_identifier(p_id).to_dict(abridged=True)
             dest_file = os.path.join(ptype_dir, f)
             with open(dest_file, 'w') as fp:
                 json.dump(hb_dict, fp, indent=2)

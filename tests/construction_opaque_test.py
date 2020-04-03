@@ -18,7 +18,7 @@ def test_opaque_to_from_standards_dict():
             "1/2IN Gypsum"]}
     wall_constr = OpaqueConstruction.from_standards_dict(standards_dict)
 
-    assert wall_constr.name == 'Typical Insulated Exterior Mass Wall'
+    assert wall_constr.identifier == 'Typical Insulated Exterior Mass Wall'
     assert wall_constr.r_value == pytest.approx(0.29934598728, rel=1e-3)
     assert wall_constr.u_value == pytest.approx(3.3406160178, rel=1e-3)
     assert wall_constr.u_factor == pytest.approx(2.159364735, rel=1e-3)
@@ -29,15 +29,17 @@ def test_construction_lib():
     """Test that the honeybee-energy lib has been extended with new construction data."""
     assert len(constr_lib.OPAQUE_CONSTRUCTIONS) > 12  # should now have many more constructions
 
-    constr_from_lib = constr_lib.opaque_construction_by_name(constr_lib.OPAQUE_CONSTRUCTIONS[0])
+    constr_from_lib = constr_lib.opaque_construction_by_identifier(
+        constr_lib.OPAQUE_CONSTRUCTIONS[0])
     assert isinstance(constr_from_lib, OpaqueConstruction)
 
-    constr_from_lib = constr_lib.opaque_construction_by_name(constr_lib.OPAQUE_CONSTRUCTIONS[12])
+    constr_from_lib = constr_lib.opaque_construction_by_identifier(
+        constr_lib.OPAQUE_CONSTRUCTIONS[12])
     assert isinstance(constr_from_lib, OpaqueConstruction)
 
 
-def test_opaque_material_by_name():
-    """Test that all of the constructions in the library can be loaded by name."""
+def test_opaque_material_by_identifier():
+    """Test that all of the constructions in the library can be loaded by identifier."""
     for constr in constr_lib.OPAQUE_CONSTRUCTIONS:
-        constr_from_lib = constr_lib.opaque_construction_by_name(constr)
+        constr_from_lib = constr_lib.opaque_construction_by_identifier(constr)
         assert isinstance(constr_from_lib, (OpaqueConstruction, AirBoundaryConstruction))

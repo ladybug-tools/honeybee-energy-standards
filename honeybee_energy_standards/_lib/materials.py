@@ -27,21 +27,21 @@ except FileNotFoundError:
     _window_standards_dict = {}
 
 
-def opaque_material_by_name(material_name):
-    """Get an opaque material from the library given the material name.
+def opaque_material_by_identifier(material_identifier):
+    """Get an opaque material from the library given the material identifier.
 
     Args:
-        material_name: A text string for the name of the material.
+        material_identifier: A text string for the identifier of the material.
     """
     try:  # see if the material has already been loaded to a Python object
-        return _opaque_materials[material_name]
+        return _opaque_materials[material_identifier]
     except KeyError:  # material likely needs to be loaded from standards data
         try:
-            _mat_dict = _opaque_standards_dict[material_name]
+            _mat_dict = _opaque_standards_dict[material_identifier]
         except KeyError:  # material is nowhere to be found; raise an error
             raise ValueError(
                 '"{}" was not found in the opaque energy material library.'.format(
-                    material_name))
+                    material_identifier))
 
     # create the Python object from the standards gem dictionary
     if _mat_dict['material_type'] == 'StandardOpaqueMaterial':
@@ -52,25 +52,25 @@ def opaque_material_by_name(material_name):
         raise ValueError('Standards gem material type "{}" is not recognized.'.format(
             _mat_dict['material_type']))
     _mat_obj.lock()
-    _opaque_materials[material_name] = _mat_obj  # next time, it will be loaded faster
+    _opaque_materials[material_identifier] = _mat_obj  # next time, it will be loaded faster
     return _mat_obj
 
 
-def window_material_by_name(material_name):
-    """Get an window material from the library given the material name.
+def window_material_by_identifier(material_identifier):
+    """Get an window material from the library given the material identifier.
 
     Args:
-        material_name: A text string for the name of the material.
+        material_identifier: A text string for the identifier of the material.
     """
     try:  # see if the material has already been loaded to a Python object
-        return _window_materials[material_name]
+        return _window_materials[material_identifier]
     except KeyError:  # material likely needs to be loaded from standards data
         try:
-            _mat_dict = _window_standards_dict[material_name]
+            _mat_dict = _window_standards_dict[material_identifier]
         except KeyError:  # material is nowhere to be found; raise an error
             raise ValueError(
                 '"{}" was not found in the window energy material library.'.format(
-                    material_name))
+                    material_identifier))
 
     # create the Python object from the standards gem dictionary
     if _mat_dict['material_type'] == 'StandardGlazing':
@@ -83,5 +83,5 @@ def window_material_by_name(material_name):
         raise ValueError('Standards gem material type "{}" is not recognized.'.format(
             _mat_dict['material_type']))
     _mat_obj.lock()
-    _window_materials[material_name] = _mat_obj  # next time, it will be loaded faster
+    _window_materials[material_identifier] = _mat_obj  # next time, it will be loaded faster
     return _mat_obj

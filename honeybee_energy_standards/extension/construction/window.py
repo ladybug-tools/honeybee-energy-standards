@@ -17,5 +17,6 @@ def from_standards_dict(cls, data):
         "materials": ["Theoretical Glass [207]"]
         }
     """
-    materials = tuple(mat_lib.window_material_by_name(mat) for mat in data['materials'])
+    materials = tuple(mat_lib.window_material_by_identifier(mat)
+                      for mat in data['materials'])
     return cls(data['name'], materials)

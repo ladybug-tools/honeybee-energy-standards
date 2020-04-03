@@ -42,28 +42,28 @@ def from_standards_dict(cls, data):
 
     # assign all of the opaque constructions
     construction_set.wall_set.exterior_construction = \
-        con_lib.opaque_construction_by_name(data['wall_set']['exterior_construction'])
+        con_lib.opaque_construction_by_identifier(data['wall_set']['exterior_construction'])
     construction_set.wall_set.ground_construction = \
-        con_lib.opaque_construction_by_name(data['wall_set']['ground_construction'])
+        con_lib.opaque_construction_by_identifier(data['wall_set']['ground_construction'])
     construction_set.floor_set.exterior_construction = \
-        con_lib.opaque_construction_by_name(data['floor_set']['exterior_construction'])
+        con_lib.opaque_construction_by_identifier(data['floor_set']['exterior_construction'])
     construction_set.floor_set.ground_construction = \
-        con_lib.opaque_construction_by_name(data['floor_set']['ground_construction'])
+        con_lib.opaque_construction_by_identifier(data['floor_set']['ground_construction'])
     construction_set.roof_ceiling_set.exterior_construction = \
-        con_lib.opaque_construction_by_name(data['roof_ceiling_set']['exterior_construction'])
+        con_lib.opaque_construction_by_identifier(data['roof_ceiling_set']['exterior_construction'])
     construction_set.door_set.exterior_construction = \
-        con_lib.opaque_construction_by_name(data['door_set']['exterior_construction'])
+        con_lib.opaque_construction_by_identifier(data['door_set']['exterior_construction'])
     construction_set.door_set.overhead_construction = \
-        con_lib.opaque_construction_by_name(data['door_set']['overhead_construction'])
+        con_lib.opaque_construction_by_identifier(data['door_set']['overhead_construction'])
 
     # assign all of the window constructions
     construction_set.aperture_set.window_construction = \
-        con_lib.window_construction_by_name(data['aperture_set']['window_construction'])
+        con_lib.window_construction_by_identifier(data['aperture_set']['window_construction'])
     construction_set.aperture_set.operable_construction = \
-        con_lib.window_construction_by_name(data['aperture_set']['operable_construction'])
+        con_lib.window_construction_by_identifier(data['aperture_set']['operable_construction'])
     construction_set.aperture_set.skylight_construction = \
-        con_lib.window_construction_by_name(data['aperture_set']['skylight_construction'])
+        con_lib.window_construction_by_identifier(data['aperture_set']['skylight_construction'])
     construction_set.door_set.exterior_glass_construction = \
-        con_lib.window_construction_by_name(data['door_set']['exterior_glass_construction'])
+        con_lib.window_construction_by_identifier(data['door_set']['exterior_glass_construction'])
 
     return construction_set

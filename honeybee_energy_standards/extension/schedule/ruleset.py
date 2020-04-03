@@ -32,22 +32,23 @@ def from_standards_dict(cls, data):
         day_types = day_sch_dict['day_types'].split('|')
         if 'Default' in day_types:
             default_day = schedule_day.duplicate()
-            default_day.name = '{}_Default'.format(schedule_day.name)
+            default_day.identifier = '{}_Default'.format(schedule_day.identifier)
             day_types.remove('Default')
         if 'Hol' in day_sch_dict['day_types']:
             holiday = schedule_day.duplicate()
-            holiday.name = '{}_Hol'.format(schedule_day.name)
+            holiday.identifier = '{}_Hol'.format(schedule_day.identifier)
             day_types.remove('Hol')
         if 'SmrDsn' in day_sch_dict['day_types']:
             summer_day = schedule_day.duplicate()
-            summer_day.name = '{}_SmrDsn'.format(schedule_day.name)
+            summer_day.identifier = '{}_SmrDsn'.format(schedule_day.identifier)
             day_types.remove('SmrDsn')
         if 'WntrDsn' in day_sch_dict['day_types']:
             winter_day = schedule_day.duplicate()
-            winter_day.name = '{}_WntrDsn'.format(schedule_day.name)
+            winter_day.identifier = '{}_WntrDsn'.format(schedule_day.identifier)
             day_types.remove('WntrDsn')
         if len(day_types) != 0:  # there are rules for when to apply the schedule
-            schedule_day.name = '{}_{}'.format(schedule_day.name, '|'.join(day_types))
+            schedule_day.identifier = \
+                '{}_{}'.format(schedule_day.identifier, '|'.join(day_types))
             rule = ScheduleRule(schedule_day)
             for apply_day in day_types:
                 apply_dows = _standards_gem_day_types[apply_day]

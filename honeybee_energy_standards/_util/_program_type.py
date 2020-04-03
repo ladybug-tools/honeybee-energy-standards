@@ -111,11 +111,11 @@ def clean_space_types(source_filename, dest_directory, vintage):
             # get rid of odd space types that are not generally applicable
             pass
         elif prog['space_type'] in _replace:
-            # rename space types that use inconsistent naming conventions
+            # re-id space types that use inconsistent naming conventions
             registry_dict[bldg_type].append(_replace[prog['space_type']])
-            new_name, clean_data = clean_individual_type(
+            new_id, clean_data = clean_individual_type(
                 vintage, bldg_type, _replace[prog['space_type']], prog)
-            program_type_dict[new_name] = clean_data
+            program_type_dict[new_id] = clean_data
         elif bldg_type == 'Office':
             # reorganize office space types by large, medium and small offices.
             if prog['space_type'].startswith('WholeBuilding'):
@@ -123,26 +123,26 @@ def clean_space_types(source_filename, dest_directory, vintage):
             elif prog['space_type'].startswith('SmallOffice'):
                 prog_type = prog['space_type'].split(' - ')[-1]
                 registry_dict['SmallOffice'].append(prog_type)
-                new_name, clean_data = clean_individual_type(
+                new_id, clean_data = clean_individual_type(
                     vintage, 'SmallOffice', prog_type, prog)
-                program_type_dict[new_name] = clean_data
+                program_type_dict[new_id] = clean_data
             elif prog['space_type'].startswith('MediumOffice'):
                 prog_type = prog['space_type'].split(' - ')[-1]
                 registry_dict['MediumOffice'].append(prog_type)
-                new_name, clean_data = clean_individual_type(
+                new_id, clean_data = clean_individual_type(
                     vintage, 'MediumOffice', prog_type, prog)
-                program_type_dict[new_name] = clean_data
+                program_type_dict[new_id] = clean_data
             else:
                 registry_dict['LargeOffice'].append(prog['space_type'])
-                new_name, clean_data = clean_individual_type(
+                new_id, clean_data = clean_individual_type(
                     vintage, 'LargeOffice', prog['space_type'], prog)
-                program_type_dict[new_name] = clean_data
+                program_type_dict[new_id] = clean_data
         else:
-            # no need to change anything about the name
+            # no need to change anything about the id
             registry_dict[bldg_type].append(prog['space_type'])
-            new_name, clean_data = clean_individual_type(
+            new_id, clean_data = clean_individual_type(
                 vintage, bldg_type, prog['space_type'], prog)
-            program_type_dict[new_name] = clean_data
+            program_type_dict[new_id] = clean_data
 
     # write the registry data
     program_type_registry = os.path.join(dest_directory, '{}_registry.json'.format(vintage))

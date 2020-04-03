@@ -25,47 +25,47 @@ except FileNotFoundError:
     _window_constr_standards_dict = {}
 
 
-def opaque_construction_by_name(construction_name):
-    """Get an opaque construction from the library given the construction name.
+def opaque_construction_by_identifier(construction_identifier):
+    """Get an opaque construction from the library given the construction identifier.
 
     Args:
-        construction_name: A text string for the name of the construction.
+        construction_identifier: A text string for the identifier of the construction.
     """
     try:  # see if the construction has already been loaded to a Python object
-        return _opaque_constructions[construction_name]
+        return _opaque_constructions[construction_identifier]
     except KeyError:  # construction likely needs to be loaded from standards data
         try:
-            _constr_dict = _opaque_constr_standards_dict[construction_name]
+            _constr_dict = _opaque_constr_standards_dict[construction_identifier]
         except KeyError:  # construction is nowhere to be found; raise an error
             raise ValueError(
                 '"{}" was not found in the opaque energy construction library.'.format(
-                    construction_name))
+                    construction_identifier))
 
     # create the Python object from the standards gem dictionary
     _constr_obj = OpaqueConstruction.from_standards_dict(_constr_dict)
     _constr_obj.lock()
-    _opaque_constructions[construction_name] = _constr_obj  # load faster next time
+    _opaque_constructions[construction_identifier] = _constr_obj  # load faster next time
     return _constr_obj
 
 
-def window_construction_by_name(construction_name):
-    """Get an window construction from the library given the construction name.
+def window_construction_by_identifier(construction_identifier):
+    """Get an window construction from the library given the construction identifier.
 
     Args:
-        construction_name: A text string for the name of the construction.
+        construction_identifier: A text string for the identifier of the construction.
     """
     try:  # see if the construction has already been loaded to a Python object
-        return _window_constructions[construction_name]
+        return _window_constructions[construction_identifier]
     except KeyError:  # construction likely needs to be loaded from standards data
         try:
-            _constr_dict = _window_constr_standards_dict[construction_name]
+            _constr_dict = _window_constr_standards_dict[construction_identifier]
         except KeyError:  # construction is nowhere to be found; raise an error
             raise ValueError(
                 '"{}" was not found in the window energy construction library.'.format(
-                    construction_name))
+                    construction_identifier))
 
     # create the Python object from the standards gem dictionary
     _constr_obj = WindowConstruction.from_standards_dict(_constr_dict)
     _constr_obj.lock()
-    _window_constructions[construction_name] = _constr_obj  # load faster next time
+    _window_constructions[construction_identifier] = _constr_obj  # load faster next time
     return _constr_obj

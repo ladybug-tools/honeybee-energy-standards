@@ -23,5 +23,6 @@ def from_standards_dict(cls, data):
             "1/2IN Gypsum"]
         }
     """
-    materials = tuple(mat_lib.opaque_material_by_name(mat) for mat in data['materials'])
+    materials = tuple(mat_lib.opaque_material_by_identifier(mat)
+                      for mat in data['materials'])
     return cls(data['name'], materials)

@@ -1,7 +1,7 @@
 {
   "2013::ClimateZone1::SteelFramed": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone1::SteelFramed",
+    "identifier": "2013::ClimateZone1::SteelFramed",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Wall-R9",
@@ -31,7 +31,7 @@
   },
   "2013::ClimateZone1::WoodFramed": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone1::WoodFramed",
+    "identifier": "2013::ClimateZone1::WoodFramed",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Wood Framed Exterior Wall-R12",
@@ -61,7 +61,7 @@
   },
   "2013::ClimateZone1::Mass": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone1::Mass",
+    "identifier": "2013::ClimateZone1::Mass",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Exterior Mass Wall-R2",
@@ -91,7 +91,7 @@
   },
   "2013::ClimateZone1::Metal Building": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone1::Metal Building",
+    "identifier": "2013::ClimateZone1::Metal Building",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Metal Building Wall-R11",
@@ -121,7 +121,7 @@
   },
   "2013::ClimateZone2::SteelFramed": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone2::SteelFramed",
+    "identifier": "2013::ClimateZone2::SteelFramed",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Wall-R12",
@@ -151,7 +151,7 @@
   },
   "2013::ClimateZone2::WoodFramed": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone2::WoodFramed",
+    "identifier": "2013::ClimateZone2::WoodFramed",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Wood Framed Exterior Wall-R12",
@@ -181,7 +181,7 @@
   },
   "2013::ClimateZone2::Mass": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone2::Mass",
+    "identifier": "2013::ClimateZone2::Mass",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Exterior Mass Wall-R7",
@@ -211,7 +211,7 @@
   },
   "2013::ClimateZone2::Metal Building": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone2::Metal Building",
+    "identifier": "2013::ClimateZone2::Metal Building",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Metal Building Wall-R11",
@@ -241,7 +241,7 @@
   },
   "2013::ClimateZone3::SteelFramed": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone3::SteelFramed",
+    "identifier": "2013::ClimateZone3::SteelFramed",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Wall-R13",
@@ -271,7 +271,7 @@
   },
   "2013::ClimateZone3::WoodFramed": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone3::WoodFramed",
+    "identifier": "2013::ClimateZone3::WoodFramed",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Wood Framed Exterior Wall-R12",
@@ -301,7 +301,7 @@
   },
   "2013::ClimateZone3::Mass": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone3::Mass",
+    "identifier": "2013::ClimateZone3::Mass",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Exterior Mass Wall-R9",
@@ -331,7 +331,7 @@
   },
   "2013::ClimateZone3::Metal Building": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone3::Metal Building",
+    "identifier": "2013::ClimateZone3::Metal Building",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Metal Building Wall-R11",
@@ -361,7 +361,7 @@
   },
   "2013::ClimateZone4::SteelFramed": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone4::SteelFramed",
+    "identifier": "2013::ClimateZone4::SteelFramed",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Wall-R16",
@@ -391,7 +391,7 @@
   },
   "2013::ClimateZone4::WoodFramed": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone4::WoodFramed",
+    "identifier": "2013::ClimateZone4::WoodFramed",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Wood Framed Exterior Wall-R16",
@@ -421,7 +421,7 @@
   },
   "2013::ClimateZone4::Mass": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone4::Mass",
+    "identifier": "2013::ClimateZone4::Mass",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Exterior Mass Wall-R10",
@@ -451,7 +451,7 @@
   },
   "2013::ClimateZone4::Metal Building": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone4::Metal Building",
+    "identifier": "2013::ClimateZone4::Metal Building",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Metal Building Wall-R17",
@@ -481,7 +481,7 @@
   },
   "2013::ClimateZone5::SteelFramed": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone5::SteelFramed",
+    "identifier": "2013::ClimateZone5::SteelFramed",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Wall-R19",
@@ -511,7 +511,7 @@
   },
   "2013::ClimateZone5::WoodFramed": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone5::WoodFramed",
+    "identifier": "2013::ClimateZone5::WoodFramed",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Wood Framed Exterior Wall-R20",
@@ -541,7 +541,7 @@
   },
   "2013::ClimateZone5::Mass": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone5::Mass",
+    "identifier": "2013::ClimateZone5::Mass",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Exterior Mass Wall-R12",
@@ -571,7 +571,7 @@
   },
   "2013::ClimateZone5::Metal Building": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone5::Metal Building",
+    "identifier": "2013::ClimateZone5::Metal Building",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Metal Building Wall-R20",
@@ -601,7 +601,7 @@
   },
   "2013::ClimateZone6::SteelFramed": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone6::SteelFramed",
+    "identifier": "2013::ClimateZone6::SteelFramed",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Wall-R21",
@@ -631,7 +631,7 @@
   },
   "2013::ClimateZone6::WoodFramed": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone6::WoodFramed",
+    "identifier": "2013::ClimateZone6::WoodFramed",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Wood Framed Exterior Wall-R20",
@@ -661,7 +661,7 @@
   },
   "2013::ClimateZone6::Mass": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone6::Mass",
+    "identifier": "2013::ClimateZone6::Mass",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Exterior Mass Wall-R13",
@@ -691,7 +691,7 @@
   },
   "2013::ClimateZone6::Metal Building": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone6::Metal Building",
+    "identifier": "2013::ClimateZone6::Metal Building",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Metal Building Wall-R20",
@@ -721,7 +721,7 @@
   },
   "2013::ClimateZone7::SteelFramed": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone7::SteelFramed",
+    "identifier": "2013::ClimateZone7::SteelFramed",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Wall-R21",
@@ -751,7 +751,7 @@
   },
   "2013::ClimateZone7::WoodFramed": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone7::WoodFramed",
+    "identifier": "2013::ClimateZone7::WoodFramed",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Wood Framed Exterior Wall-R20",
@@ -781,7 +781,7 @@
   },
   "2013::ClimateZone7::Mass": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone7::Mass",
+    "identifier": "2013::ClimateZone7::Mass",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Exterior Mass Wall-R15",
@@ -811,7 +811,7 @@
   },
   "2013::ClimateZone7::Metal Building": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone7::Metal Building",
+    "identifier": "2013::ClimateZone7::Metal Building",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Metal Building Wall-R23",
@@ -841,7 +841,7 @@
   },
   "2013::ClimateZone8::SteelFramed": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone8::SteelFramed",
+    "identifier": "2013::ClimateZone8::SteelFramed",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Wall-R28",
@@ -871,7 +871,7 @@
   },
   "2013::ClimateZone8::WoodFramed": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone8::WoodFramed",
+    "identifier": "2013::ClimateZone8::WoodFramed",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Wood Framed Exterior Wall-R32",
@@ -901,7 +901,7 @@
   },
   "2013::ClimateZone8::Mass": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone8::Mass",
+    "identifier": "2013::ClimateZone8::Mass",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Exterior Mass Wall-R21",
@@ -931,7 +931,7 @@
   },
   "2013::ClimateZone8::Metal Building": {
     "type": "ConstructionSetAbridged",
-    "name": "2013::ClimateZone8::Metal Building",
+    "identifier": "2013::ClimateZone8::Metal Building",
     "wall_set": {
       "type": "WallSetAbridged",
       "exterior_construction": "Typical Insulated Metal Building Wall-R26",
