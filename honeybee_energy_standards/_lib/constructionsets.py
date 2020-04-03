@@ -21,23 +21,24 @@ for vintage in _vintages:
         pass
 
 
-def construction_set_by_name(construction_set_name):
-    """Get a construction_set from the library given its name.
+def construction_set_by_identifier(construction_set_identifier):
+    """Get a construction_set from the library given its identifier.
 
     Args:
-        construction_set_name: A text string for the name of the ConstructionSet.
+        construction_set_identifier: A text string for the identifier of
+            the ConstructionSet.
     """
     try:  # see if the program type has already been loaded to a Python object
-        return _construction_sets[construction_set_name]
+        return _construction_sets[construction_set_identifier]
     except KeyError:  # construction set likely needs to be loaded from standards data
         try:
-            _c_set_dict = _construction_set_standards_dict[construction_set_name]
+            _c_set_dict = _construction_set_standards_dict[construction_set_identifier]
         except KeyError:  # program type is nowhere to be found; raise an error
             raise ValueError('"{}" was not found in the construction set library.'.format(
-                construction_set_name))
+                construction_set_identifier))
 
     # create the Python object from the standards gem dictionary
     _c_set_obj = ConstructionSet.from_standards_dict(_c_set_dict)
     _c_set_obj.lock()
-    _construction_sets[construction_set_name] = _c_set_obj  # load faster next time
+    _construction_sets[construction_set_identifier] = _c_set_obj  # load faster next time
     return _c_set_obj

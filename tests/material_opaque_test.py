@@ -21,7 +21,7 @@ def test_material_to_from_standards_dict():
         "visible_absorptance": None}
     mat_1 = EnergyMaterial.from_standards_dict(standards_dict)
 
-    assert mat_1.name == 'Extruded Polystyrene - XPS - 6 in. R30.00'
+    assert mat_1.identifier == 'Extruded Polystyrene - XPS - 6 in. R30.00'
     assert mat_1.thickness == pytest.approx(0.1524, rel=1e-3)
     assert mat_1.conductivity == pytest.approx(0.028826, rel=1e-3)
     assert mat_1.density == pytest.approx(20.82, rel=1e-3)
@@ -46,7 +46,7 @@ def test_material_nomass_to_from_standards_dict():
         "visible_absorptance": 0.7}
     mat_1 = EnergyMaterialNoMass.from_standards_dict(standards_dict)
 
-    assert mat_1.name == 'MAT-SHEATH'
+    assert mat_1.identifier == 'MAT-SHEATH'
     assert mat_1.roughness == 'MediumRough'
     assert mat_1.r_value == pytest.approx(0.1602532098 / 5.678, rel=1e-2)
     assert mat_1.thermal_absorptance == 0.9
@@ -60,17 +60,17 @@ def test_material_lib():
 
     assert len(mat_lib.OPAQUE_MATERIALS) > 13  # should now have many more materials
 
-    mat_from_lib = mat_lib.opaque_material_by_name(mat_lib.OPAQUE_MATERIALS[0])
+    mat_from_lib = mat_lib.opaque_material_by_identifier(mat_lib.OPAQUE_MATERIALS[0])
     assert isinstance(mat_from_lib, possible_types)
 
-    mat_from_lib = mat_lib.opaque_material_by_name(mat_lib.OPAQUE_MATERIALS[13])
+    mat_from_lib = mat_lib.opaque_material_by_identifier(mat_lib.OPAQUE_MATERIALS[13])
     assert isinstance(mat_from_lib, possible_types)
 
 
-def test_opaque_material_by_name():
-    """Test that all of the materials in the library can be loaded by name."""
+def test_opaque_material_by_identifier():
+    """Test that all of the materials in the library can be loaded by identifier."""
     possible_types = (EnergyMaterial, EnergyMaterialNoMass)
 
     for mat in mat_lib.OPAQUE_MATERIALS:
-        mat_from_lib = mat_lib.opaque_material_by_name(mat)
+        mat_from_lib = mat_lib.opaque_material_by_identifier(mat)
         assert isinstance(mat_from_lib, possible_types)

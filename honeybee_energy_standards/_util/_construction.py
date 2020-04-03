@@ -128,10 +128,10 @@ def remove_constructions_without_materials(mat_fp, constr_dict):
         clean_mat_dict = json.load(f)
     mats = clean_mat_dict.keys()
     constrs_to_remove = []
-    for c_name, constr in constr_dict.items():
+    for c_id, constr in constr_dict.items():
         for mat in constr['materials']:
             if mat not in mats:
-                constrs_to_remove.append(c_name)
+                constrs_to_remove.append(c_id)
                 break
-    for c_name in constrs_to_remove:
-        del constr_dict[c_name]
+    for c_id in constrs_to_remove:
+        del constr_dict[c_id]

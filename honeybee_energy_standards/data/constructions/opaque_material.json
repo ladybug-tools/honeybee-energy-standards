@@ -1,7 +1,7 @@
 {
   "1/2 in. Gypsum Board": {
     "type": "EnergyMaterial",
-    "name": "1/2 in. Gypsum Board",
+    "identifier": "1/2 in. Gypsum Board",
     "roughness": "Smooth",
     "thickness": 0.0127,
     "conductivity": 0.15989299909405463,
@@ -13,7 +13,7 @@
   },
   "1/2IN Gypsum": {
     "type": "EnergyMaterial",
-    "name": "1/2IN Gypsum",
+    "identifier": "1/2IN Gypsum",
     "roughness": "Smooth",
     "thickness": 0.0127,
     "conductivity": 0.15989299909405608,
@@ -25,7 +25,7 @@
   },
   "100mm Normalweight concrete floor": {
     "type": "EnergyMaterial",
-    "name": "100mm Normalweight concrete floor",
+    "identifier": "100mm Normalweight concrete floor",
     "roughness": "MediumRough",
     "thickness": 0.1016,
     "conductivity": 2.3089016425031033,
@@ -37,7 +37,7 @@
   },
   "12 in. Normalweight Concrete Floor": {
     "type": "EnergyMaterial",
-    "name": "12 in. Normalweight Concrete Floor",
+    "identifier": "12 in. Normalweight Concrete Floor",
     "roughness": "MediumRough",
     "thickness": 0.30479999999999996,
     "conductivity": 2.308455174420426,
@@ -49,7 +49,7 @@
   },
   "1IN Stucco": {
     "type": "EnergyMaterial",
-    "name": "1IN Stucco",
+    "identifier": "1IN Stucco",
     "roughness": "Smooth",
     "thickness": 0.025299999999999993,
     "conductivity": 0.6913373548329222,
@@ -61,7 +61,7 @@
   },
   "25mm Stucco": {
     "type": "EnergyMaterial",
-    "name": "25mm Stucco",
+    "identifier": "25mm Stucco",
     "roughness": "Smooth",
     "thickness": 0.0254,
     "conductivity": 0.7195184959232496,
@@ -73,7 +73,7 @@
   },
   "4 in. Normalweight Concrete Floor": {
     "type": "EnergyMaterial",
-    "name": "4 in. Normalweight Concrete Floor",
+    "identifier": "4 in. Normalweight Concrete Floor",
     "roughness": "MediumRough",
     "thickness": 0.1016,
     "conductivity": 2.308455174420426,
@@ -85,7 +85,7 @@
   },
   "4 in. Normalweight Concrete Wall": {
     "type": "EnergyMaterial",
-    "name": "4 in. Normalweight Concrete Wall",
+    "identifier": "4 in. Normalweight Concrete Wall",
     "roughness": "MediumRough",
     "thickness": 0.1016,
     "conductivity": 2.308455174420426,
@@ -97,7 +97,7 @@
   },
   "5/8 in. Gypsum Board": {
     "type": "EnergyMaterial",
-    "name": "5/8 in. Gypsum Board",
+    "identifier": "5/8 in. Gypsum Board",
     "roughness": "MediumSmooth",
     "thickness": 0.0159,
     "conductivity": 0.15989299909405463,
@@ -109,7 +109,7 @@
   },
   "5/8 in. Plywood": {
     "type": "EnergyMaterial",
-    "name": "5/8 in. Plywood",
+    "identifier": "5/8 in. Plywood",
     "roughness": "Smooth",
     "thickness": 0.0159,
     "conductivity": 0.11991974932054163,
@@ -121,7 +121,7 @@
   },
   "6 in. Heavyweight Concrete Roof": {
     "type": "EnergyMaterial",
-    "name": "6 in. Heavyweight Concrete Roof",
+    "identifier": "6 in. Heavyweight Concrete Roof",
     "roughness": "MediumRough",
     "thickness": 0.15239999999999998,
     "conductivity": 2.308455174420426,
@@ -133,7 +133,7 @@
   },
   "6 in. Normalweight Concrete Floor": {
     "type": "EnergyMaterial",
-    "name": "6 in. Normalweight Concrete Floor",
+    "identifier": "6 in. Normalweight Concrete Floor",
     "roughness": "MediumRough",
     "thickness": 0.15239999999999998,
     "conductivity": 2.308455174420426,
@@ -145,7 +145,7 @@
   },
   "8 in. Concrete Block Basement Wall": {
     "type": "EnergyMaterial",
-    "name": "8 in. Concrete Block Basement Wall",
+    "identifier": "8 in. Concrete Block Basement Wall",
     "roughness": "MediumRough",
     "thickness": 0.2032,
     "conductivity": 1.325113229991986,
@@ -157,7 +157,7 @@
   },
   "8 in. Concrete Block Wall": {
     "type": "EnergyMaterial",
-    "name": "8 in. Concrete Block Wall",
+    "identifier": "8 in. Concrete Block Wall",
     "roughness": "MediumRough",
     "thickness": 0.2032,
     "conductivity": 0.7195184959232496,
@@ -169,7 +169,7 @@
   },
   "8 in. Normalweight Concrete Floor": {
     "type": "EnergyMaterial",
-    "name": "8 in. Normalweight Concrete Floor",
+    "identifier": "8 in. Normalweight Concrete Floor",
     "roughness": "MediumRough",
     "thickness": 0.2032,
     "conductivity": 2.308455174420426,
@@ -181,7 +181,7 @@
   },
   "8 in. Normalweight Concrete Wall": {
     "type": "EnergyMaterial",
-    "name": "8 in. Normalweight Concrete Wall",
+    "identifier": "8 in. Normalweight Concrete Wall",
     "roughness": "MediumRough",
     "thickness": 0.2032,
     "conductivity": 2.308455174420426,
@@ -193,7 +193,7 @@
   },
   "8IN CONCRETE HW RefBldg": {
     "type": "EnergyMaterial",
-    "name": "8IN CONCRETE HW RefBldg",
+    "identifier": "8IN CONCRETE HW RefBldg",
     "roughness": "Rough",
     "thickness": 0.2032,
     "conductivity": 1.3101232613269185,
@@ -205,7 +205,7 @@
   },
   "8IN Concrete HW": {
     "type": "EnergyMaterial",
-    "name": "8IN Concrete HW",
+    "identifier": "8IN Concrete HW",
     "roughness": "MediumRough",
     "thickness": 0.2033000000000001,
     "conductivity": 1.7284433202067357,
@@ -217,7 +217,7 @@
   },
   "Acoustic Ceiling": {
     "type": "EnergyMaterial",
-    "name": "Acoustic Ceiling",
+    "identifier": "Acoustic Ceiling",
     "roughness": "MediumSmooth",
     "thickness": 0.0127,
     "conductivity": 0.056961880927257194,
@@ -229,7 +229,7 @@
   },
   "Adiabatic Material": {
     "type": "EnergyMaterialNoMass",
-    "name": "Adiabatic Material",
+    "identifier": "Adiabatic Material",
     "r_value": 1760.9257279150386,
     "roughness": "MediumRough",
     "thermal_absorptance": 0.9,
@@ -238,7 +238,7 @@
   },
   "Asphalt Shingles": {
     "type": "EnergyMaterial",
-    "name": "Asphalt Shingles",
+    "identifier": "Asphalt Shingles",
     "roughness": "VeryRough",
     "thickness": 0.003199999999999976,
     "conductivity": 0.03997324977351388,
@@ -250,7 +250,7 @@
   },
   "AtticFloor Insulation": {
     "type": "EnergyMaterial",
-    "name": "AtticFloor Insulation",
+    "identifier": "AtticFloor Insulation",
     "roughness": "MediumRough",
     "thickness": 0.23789999999999986,
     "conductivity": 0.04896723097255453,
@@ -262,7 +262,7 @@
   },
   "Built-up Roofing": {
     "type": "EnergyMaterial",
-    "name": "Built-up Roofing",
+    "identifier": "Built-up Roofing",
     "roughness": "Rough",
     "thickness": 0.009499999999999998,
     "conductivity": 0.15989299909405463,
@@ -274,7 +274,7 @@
   },
   "Built-up Roofing - Highly Reflective": {
     "type": "EnergyMaterial",
-    "name": "Built-up Roofing - Highly Reflective",
+    "identifier": "Built-up Roofing - Highly Reflective",
     "roughness": "Rough",
     "thickness": 0.009499999999999998,
     "conductivity": 0.15989299909405463,
@@ -286,7 +286,7 @@
   },
   "Bulk Storage Products Material": {
     "type": "EnergyMaterial",
-    "name": "Bulk Storage Products Material",
+    "identifier": "Bulk Storage Products Material",
     "roughness": "Rough",
     "thickness": 2.4384049429641195,
     "conductivity": 1.4410356988618083,
@@ -298,7 +298,7 @@
   },
   "CP02 CARPET PAD": {
     "type": "EnergyMaterialNoMass",
-    "name": "CP02 CARPET PAD",
+    "identifier": "CP02 CARPET PAD",
     "r_value": 0.2164799871520999,
     "roughness": "VeryRough",
     "thermal_absorptance": 0.9,
@@ -307,7 +307,7 @@
   },
   "Carpet - 3/4 in. CBES": {
     "type": "EnergyMaterial",
-    "name": "Carpet - 3/4 in. CBES",
+    "identifier": "Carpet - 3/4 in. CBES",
     "roughness": "Smooth",
     "thickness": 0.019049999999999997,
     "conductivity": 0.05000063634028838,
@@ -319,7 +319,7 @@
   },
   "F04 Wall air space resistance": {
     "type": "EnergyMaterialNoMass",
-    "name": "F04 Wall air space resistance",
+    "identifier": "F04 Wall air space resistance",
     "r_value": 0.0038100000027600695,
     "roughness": "MediumRough",
     "thermal_absorptance": 0.9,
@@ -328,7 +328,7 @@
   },
   "F05 Ceiling air space resistance": {
     "type": "EnergyMaterialNoMass",
-    "name": "F05 Ceiling air space resistance",
+    "identifier": "F05 Ceiling air space resistance",
     "r_value": 0.004572000003312086,
     "roughness": "MediumRough",
     "thermal_absorptance": 0.9,
@@ -337,7 +337,7 @@
   },
   "F08 Metal surface": {
     "type": "EnergyMaterial",
-    "name": "F08 Metal surface",
+    "identifier": "F08 Metal surface",
     "roughness": "Smooth",
     "thickness": 0.0008000000000000003,
     "conductivity": 45.249718743617805,
@@ -349,7 +349,7 @@
   },
   "F16 Acoustic tile": {
     "type": "EnergyMaterial",
-    "name": "F16 Acoustic tile",
+    "identifier": "F16 Acoustic tile",
     "roughness": "MediumSmooth",
     "thickness": 0.019100000000000002,
     "conductivity": 0.05995987466027089,
@@ -361,7 +361,7 @@
   },
   "G01 13mm gypsum board": {
     "type": "EnergyMaterial",
-    "name": "G01 13mm gypsum board",
+    "identifier": "G01 13mm gypsum board",
     "roughness": "Smooth",
     "thickness": 0.0127,
     "conductivity": 0.15992392281605958,
@@ -373,7 +373,7 @@
   },
   "G01a 19mm gypsum board": {
     "type": "EnergyMaterial",
-    "name": "G01a 19mm gypsum board",
+    "identifier": "G01a 19mm gypsum board",
     "roughness": "MediumSmooth",
     "thickness": 0.018999999999999996,
     "conductivity": 0.15989299909405608,
@@ -385,7 +385,7 @@
   },
   "G05 25mm wood": {
     "type": "EnergyMaterial",
-    "name": "G05 25mm wood",
+    "identifier": "G05 25mm wood",
     "roughness": "MediumSmooth",
     "thickness": 0.0254,
     "conductivity": 0.14989968665067757,
@@ -397,7 +397,7 @@
   },
   "Ground_Floor_R11_T2013": {
     "type": "EnergyMaterial",
-    "name": "Ground_Floor_R11_T2013",
+    "identifier": "Ground_Floor_R11_T2013",
     "roughness": "Smooth",
     "thickness": 0.044227242,
     "conductivity": 0.02300770107232491,
@@ -409,7 +409,7 @@
   },
   "Ground_Floor_R17_T2013": {
     "type": "EnergyMaterial",
-    "name": "Ground_Floor_R17_T2013",
+    "identifier": "Ground_Floor_R17_T2013",
     "roughness": "Smooth",
     "thickness": 0.06891629599999999,
     "conductivity": 0.02300770107232491,
@@ -421,7 +421,7 @@
   },
   "Ground_Floor_R22_T2013": {
     "type": "EnergyMaterial",
-    "name": "Ground_Floor_R22_T2013",
+    "identifier": "Ground_Floor_R22_T2013",
     "roughness": "Smooth",
     "thickness": 0.08918575,
     "conductivity": 0.02300770107232491,
@@ -433,7 +433,7 @@
   },
   "Gypsum Board - 1/2 in. CBES": {
     "type": "EnergyMaterial",
-    "name": "Gypsum Board - 1/2 in. CBES",
+    "identifier": "Gypsum Board - 1/2 in. CBES",
     "roughness": "Smooth",
     "thickness": 0.0127,
     "conductivity": 0.16000030671169507,
@@ -445,7 +445,7 @@
   },
   "Gypsum Or Plaster Board - 3/8 in.": {
     "type": "EnergyMaterial",
-    "name": "Gypsum Or Plaster Board - 3/8 in.",
+    "identifier": "Gypsum Or Plaster Board - 3/8 in.",
     "roughness": "MediumSmooth",
     "thickness": 0.009499999999999998,
     "conductivity": 0.5796121217159504,
@@ -457,7 +457,7 @@
   },
   "HW CONCRETE": {
     "type": "EnergyMaterial",
-    "name": "HW CONCRETE",
+    "identifier": "HW CONCRETE",
     "roughness": "Rough",
     "thickness": 0.1016,
     "conductivity": 1.310376644700027,
@@ -469,7 +469,7 @@
   },
   "HW CONCRETE 8 in": {
     "type": "EnergyMaterial",
-    "name": "HW CONCRETE 8 in",
+    "identifier": "HW CONCRETE 8 in",
     "roughness": "Rough",
     "thickness": 0.2032,
     "conductivity": 1.310376644700027,
@@ -481,7 +481,7 @@
   },
   "I01 25mm insulation board": {
     "type": "EnergyMaterial",
-    "name": "I01 25mm insulation board",
+    "identifier": "I01 25mm insulation board",
     "roughness": "MediumRough",
     "thickness": 0.0254,
     "conductivity": 0.029979937330135372,
@@ -493,7 +493,7 @@
   },
   "I02 50mm insulation board": {
     "type": "EnergyMaterial",
-    "name": "I02 50mm insulation board",
+    "identifier": "I02 50mm insulation board",
     "roughness": "MediumRough",
     "thickness": 0.0508,
     "conductivity": 0.029979937330135372,
@@ -505,7 +505,7 @@
   },
   "IEAD NonRes Roof Insulation-1.76": {
     "type": "EnergyMaterial",
-    "name": "IEAD NonRes Roof Insulation-1.76",
+    "identifier": "IEAD NonRes Roof Insulation-1.76",
     "roughness": "MediumRough",
     "thickness": 0.07398050297987159,
     "conductivity": 0.04896723097255453,
@@ -517,7 +517,7 @@
   },
   "IEAD Roof Insulation R-3.47 IP": {
     "type": "EnergyMaterial",
-    "name": "IEAD Roof Insulation R-3.47 IP",
+    "identifier": "IEAD Roof Insulation R-3.47 IP",
     "roughness": "MediumRough",
     "thickness": 0.029942459748632622,
     "conductivity": 0.04896723097255453,
@@ -529,7 +529,7 @@
   },
   "Insulation 1m": {
     "type": "EnergyMaterial",
-    "name": "Insulation 1m",
+    "identifier": "Insulation 1m",
     "roughness": "Smooth",
     "thickness": 0.9999979999999999,
     "conductivity": 0.01999967801037276,
@@ -541,7 +541,7 @@
   },
   "Interior Wall Addi Insul": {
     "type": "EnergyMaterial",
-    "name": "Interior Wall Addi Insul",
+    "identifier": "Interior Wall Addi Insul",
     "roughness": "MediumRough",
     "thickness": 2.540005148920944e-08,
     "conductivity": 0.04323107096585415,
@@ -553,7 +553,7 @@
   },
   "M01 100mm brick": {
     "type": "EnergyMaterial",
-    "name": "M01 100mm brick",
+    "identifier": "M01 100mm brick",
     "roughness": "MediumRough",
     "thickness": 0.1016,
     "conductivity": 0.8894048074606842,
@@ -565,7 +565,7 @@
   },
   "M11 100mm lightweight concrete": {
     "type": "EnergyMaterial",
-    "name": "M11 100mm lightweight concrete",
+    "identifier": "M11 100mm lightweight concrete",
     "roughness": "MediumRough",
     "thickness": 0.1016,
     "conductivity": 0.5296455594990593,
@@ -577,7 +577,7 @@
   },
   "M15 200mm heavyweight concrete": {
     "type": "EnergyMaterial",
-    "name": "M15 200mm heavyweight concrete",
+    "identifier": "M15 200mm heavyweight concrete",
     "roughness": "MediumRough",
     "thickness": 0.2032,
     "conductivity": 1.9486959264588086,
@@ -589,7 +589,7 @@
   },
   "MAT-CC05 4 HW CONCRETE": {
     "type": "EnergyMaterial",
-    "name": "MAT-CC05 4 HW CONCRETE",
+    "identifier": "MAT-CC05 4 HW CONCRETE",
     "roughness": "Rough",
     "thickness": 0.1016,
     "conductivity": 1.3101232613269185,
@@ -601,7 +601,7 @@
   },
   "MAT-CC05 8 HW CONCRETE": {
     "type": "EnergyMaterial",
-    "name": "MAT-CC05 8 HW CONCRETE",
+    "identifier": "MAT-CC05 8 HW CONCRETE",
     "roughness": "Rough",
     "thickness": 0.2032,
     "conductivity": 1.3101232613269185,
@@ -613,7 +613,7 @@
   },
   "MAT-SHEATH": {
     "type": "EnergyMaterialNoMass",
-    "name": "MAT-SHEATH",
+    "identifier": "MAT-SHEATH",
     "r_value": 0.028222222242667187,
     "roughness": "MediumRough",
     "thermal_absorptance": 0.9,
@@ -622,7 +622,7 @@
   },
   "Mass NonRes Wall Insulation-0.43": {
     "type": "EnergyMaterial",
-    "name": "Mass NonRes Wall Insulation-0.43",
+    "identifier": "Mass NonRes Wall Insulation-0.43",
     "roughness": "MediumRough",
     "thickness": 0.0004367814266280437,
     "conductivity": 0.04896723097255453,
@@ -634,7 +634,7 @@
   },
   "Mass Wall Insulation R-4.23 IP": {
     "type": "EnergyMaterial",
-    "name": "Mass Wall Insulation R-4.23 IP",
+    "identifier": "Mass Wall Insulation R-4.23 IP",
     "roughness": "MediumRough",
     "thickness": 0.0365371685816,
     "conductivity": 0.04896723097255453,
@@ -646,7 +646,7 @@
   },
   "Metal Building Semi-Cond Wall Insulation-0.54": {
     "type": "EnergyMaterial",
-    "name": "Metal Building Semi-Cond Wall Insulation-0.54",
+    "identifier": "Metal Building Semi-Cond Wall Insulation-0.54",
     "roughness": "MediumRough",
     "thickness": 0.015345987404915393,
     "conductivity": 0.04896723097255453,
@@ -658,7 +658,7 @@
   },
   "Metal Building Wall Insulation R-4.14 IP": {
     "type": "EnergyMaterial",
-    "name": "Metal Building Wall Insulation R-4.14 IP",
+    "identifier": "Metal Building Wall Insulation R-4.14 IP",
     "roughness": "MediumRough",
     "thickness": 0.0356729086642,
     "conductivity": 0.04896723097255453,
@@ -670,7 +670,7 @@
   },
   "Metal Decking": {
     "type": "EnergyMaterial",
-    "name": "Metal Decking",
+    "identifier": "Metal Decking",
     "roughness": "MediumSmooth",
     "thickness": 0.0014999999999999994,
     "conductivity": 44.97590198266915,
@@ -682,7 +682,7 @@
   },
   "Metal Roof Insulation R-5.21 IP": {
     "type": "EnergyMaterial",
-    "name": "Metal Roof Insulation R-5.21 IP",
+    "identifier": "Metal Roof Insulation R-5.21 IP",
     "roughness": "MediumRough",
     "thickness": 0.044938850457399995,
     "conductivity": 0.04896723097255453,
@@ -694,7 +694,7 @@
   },
   "Metal Roof Surface": {
     "type": "EnergyMaterial",
-    "name": "Metal Roof Surface",
+    "identifier": "Metal Roof Surface",
     "roughness": "Smooth",
     "thickness": 0.0007999999999999979,
     "conductivity": 45.24971874361766,
@@ -706,7 +706,7 @@
   },
   "Metal Roof Surface - Highly Reflective": {
     "type": "EnergyMaterial",
-    "name": "Metal Roof Surface - Highly Reflective",
+    "identifier": "Metal Roof Surface - Highly Reflective",
     "roughness": "Smooth",
     "thickness": 0.0007999999999999979,
     "conductivity": 45.24971874361766,
@@ -718,7 +718,7 @@
   },
   "Metal Roofing": {
     "type": "EnergyMaterial",
-    "name": "Metal Roofing",
+    "identifier": "Metal Roofing",
     "roughness": "MediumSmooth",
     "thickness": 0.0014999999999999994,
     "conductivity": 44.97590198266915,
@@ -730,7 +730,7 @@
   },
   "Metal Roofing - Highly Reflective": {
     "type": "EnergyMaterial",
-    "name": "Metal Roofing - Highly Reflective",
+    "identifier": "Metal Roofing - Highly Reflective",
     "roughness": "MediumSmooth",
     "thickness": 0.0014999999999999994,
     "conductivity": 44.97590198266915,
@@ -742,7 +742,7 @@
   },
   "Metal Semi-Cond Roof Insulation-1.05": {
     "type": "EnergyMaterial",
-    "name": "Metal Semi-Cond Roof Insulation-1.05",
+    "identifier": "Metal Semi-Cond Roof Insulation-1.05",
     "roughness": "MediumRough",
     "thickness": 0.04226733019063131,
     "conductivity": 0.04896723097255453,
@@ -754,7 +754,7 @@
   },
   "Metal Siding": {
     "type": "EnergyMaterial",
-    "name": "Metal Siding",
+    "identifier": "Metal Siding",
     "roughness": "Smooth",
     "thickness": 0.0014999999999999994,
     "conductivity": 44.92993274542956,
@@ -766,7 +766,7 @@
   },
   "Metal Standing Seam - 1/16 in. CBES": {
     "type": "EnergyMaterial",
-    "name": "Metal Standing Seam - 1/16 in. CBES",
+    "identifier": "Metal Standing Seam - 1/16 in. CBES",
     "roughness": "MediumRough",
     "thickness": 0.001524,
     "conductivity": 0.579999310186949,
@@ -778,7 +778,7 @@
   },
   "Metal Surface": {
     "type": "EnergyMaterial",
-    "name": "Metal Surface",
+    "identifier": "Metal Surface",
     "roughness": "Smooth",
     "thickness": 0.0007999999999999979,
     "conductivity": 45.24971874361766,
@@ -790,7 +790,7 @@
   },
   "NACM_Carpet 3/4in": {
     "type": "EnergyMaterial",
-    "name": "NACM_Carpet 3/4in",
+    "identifier": "NACM_Carpet 3/4in",
     "roughness": "Smooth",
     "thickness": 0.019049999999999997,
     "conductivity": 0.05000063634028838,
@@ -802,7 +802,7 @@
   },
   "NACM_Concrete 4in_140lb/ft3": {
     "type": "EnergyMaterial",
-    "name": "NACM_Concrete 4in_140lb/ft3",
+    "identifier": "NACM_Concrete 4in_140lb/ft3",
     "roughness": "MediumRough",
     "thickness": 0.1016,
     "conductivity": 1.9500003149271867,
@@ -814,7 +814,7 @@
   },
   "NACM_Gypsum Board 5/8in": {
     "type": "EnergyMaterial",
-    "name": "NACM_Gypsum Board 5/8in",
+    "identifier": "NACM_Gypsum Board 5/8in",
     "roughness": "MediumRough",
     "thickness": 0.016002,
     "conductivity": 0.16000030671169507,
@@ -826,7 +826,7 @@
   },
   "Nonres_Floor_Insulation": {
     "type": "EnergyMaterialNoMass",
-    "name": "Nonres_Floor_Insulation",
+    "identifier": "Nonres_Floor_Insulation",
     "r_value": 2.8829195879895138,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -835,7 +835,7 @@
   },
   "Plywood - 5/8 in. CBES": {
     "type": "EnergyMaterial",
-    "name": "Plywood - 5/8 in. CBES",
+    "identifier": "Plywood - 5/8 in. CBES",
     "roughness": "Smooth",
     "thickness": 0.016002,
     "conductivity": 0.11999950937659305,
@@ -847,7 +847,7 @@
   },
   "R1_R14.20": {
     "type": "EnergyMaterial",
-    "name": "R1_R14.20",
+    "identifier": "R1_R14.20",
     "roughness": "Smooth",
     "thickness": 0.05756529,
     "conductivity": 0.02300770107232491,
@@ -859,7 +859,7 @@
   },
   "R2_R12.90": {
     "type": "EnergyMaterial",
-    "name": "R2_R12.90",
+    "identifier": "R2_R12.90",
     "roughness": "Smooth",
     "thickness": 0.052295298000000004,
     "conductivity": 0.02300770107232491,
@@ -871,7 +871,7 @@
   },
   "R3_R17.74": {
     "type": "EnergyMaterial",
-    "name": "R3_R17.74",
+    "identifier": "R3_R17.74",
     "roughness": "Smooth",
     "thickness": 0.071916036,
     "conductivity": 0.02300770107232491,
@@ -883,7 +883,7 @@
   },
   "R4_R20.28": {
     "type": "EnergyMaterial",
-    "name": "R4_R20.28",
+    "identifier": "R4_R20.28",
     "roughness": "Smooth",
     "thickness": 0.082211418,
     "conductivity": 0.02300770107232491,
@@ -895,7 +895,7 @@
   },
   "R_R30": {
     "type": "EnergyMaterial",
-    "name": "R_R30",
+    "identifier": "R_R30",
     "roughness": "Smooth",
     "thickness": 0.121616978,
     "conductivity": 0.02300770107232491,
@@ -907,7 +907,7 @@
   },
   "R_R38": {
     "type": "EnergyMaterial",
-    "name": "R_R38",
+    "identifier": "R_R38",
     "roughness": "Smooth",
     "thickness": 0.154048206,
     "conductivity": 0.02300770107232491,
@@ -919,7 +919,7 @@
   },
   "R_T24_2013_24.86": {
     "type": "EnergyMaterial",
-    "name": "R_T24_2013_24.86",
+    "identifier": "R_T24_2013_24.86",
     "roughness": "Smooth",
     "thickness": 0.100779834,
     "conductivity": 0.02300770107232491,
@@ -931,7 +931,7 @@
   },
   "Roof Insulation [18]": {
     "type": "EnergyMaterial",
-    "name": "Roof Insulation [18]",
+    "identifier": "Roof Insulation [18]",
     "roughness": "MediumRough",
     "thickness": 0.16929999999999995,
     "conductivity": 0.04896723097255453,
@@ -943,7 +943,7 @@
   },
   "Roof Membrane": {
     "type": "EnergyMaterial",
-    "name": "Roof Membrane",
+    "identifier": "Roof Membrane",
     "roughness": "VeryRough",
     "thickness": 0.009499999999999998,
     "conductivity": 0.15989299909405608,
@@ -955,7 +955,7 @@
   },
   "Roof Membrane - Highly Reflective": {
     "type": "EnergyMaterial",
-    "name": "Roof Membrane - Highly Reflective",
+    "identifier": "Roof Membrane - Highly Reflective",
     "roughness": "VeryRough",
     "thickness": 0.009499999999999998,
     "conductivity": 0.15989299909405608,
@@ -967,7 +967,7 @@
   },
   "Std Wood 6 in.": {
     "type": "EnergyMaterial",
-    "name": "Std Wood 6 in.",
+    "identifier": "Std Wood 6 in.",
     "roughness": "MediumSmooth",
     "thickness": 0.14999999999999997,
     "conductivity": 0.11991974932054163,
@@ -979,7 +979,7 @@
   },
   "Std Wood 6inch Furnishings": {
     "type": "EnergyMaterial",
-    "name": "Std Wood 6inch Furnishings",
+    "identifier": "Std Wood 6inch Furnishings",
     "roughness": "MediumSmooth",
     "thickness": 0.150114,
     "conductivity": 0.11999950937659305,
@@ -991,7 +991,7 @@
   },
   "Steel Frame NonRes Wall Insulation-0.73": {
     "type": "EnergyMaterial",
-    "name": "Steel Frame NonRes Wall Insulation-0.73",
+    "identifier": "Steel Frame NonRes Wall Insulation-0.73",
     "roughness": "MediumRough",
     "thickness": 0.020278246975300705,
     "conductivity": 0.04896723097255453,
@@ -1003,7 +1003,7 @@
   },
   "Steel Frame Wall Insulation R-1.02 IP": {
     "type": "EnergyMaterial",
-    "name": "Steel Frame Wall Insulation R-1.02 IP",
+    "identifier": "Steel Frame Wall Insulation R-1.02 IP",
     "roughness": "MediumRough",
     "thickness": 0.008836428479,
     "conductivity": 0.04896723097255453,
@@ -1015,7 +1015,7 @@
   },
   "Steel Frame/Cavity": {
     "type": "EnergyMaterial",
-    "name": "Steel Frame/Cavity",
+    "identifier": "Steel Frame/Cavity",
     "roughness": "MediumRough",
     "thickness": 0.08890018021223342,
     "conductivity": 0.08405993542170573,
@@ -1027,7 +1027,7 @@
   },
   "Stucco - 7/8 in. CBES": {
     "type": "EnergyMaterial",
-    "name": "Stucco - 7/8 in. CBES",
+    "identifier": "Stucco - 7/8 in. CBES",
     "roughness": "MediumRough",
     "thickness": 0.022352,
     "conductivity": 0.7000002608778985,
@@ -1039,7 +1039,7 @@
   },
   "Typical Air Wall": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Air Wall",
+    "identifier": "Typical Air Wall",
     "r_value": 0.02822222224266701,
     "roughness": "MediumRough",
     "thermal_absorptance": 0.9,
@@ -1048,7 +1048,7 @@
   },
   "Typical Carpet Pad": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Carpet Pad",
+    "identifier": "Typical Carpet Pad",
     "r_value": 0.2164799871520999,
     "roughness": "VeryRough",
     "thermal_absorptance": 0.9,
@@ -1057,7 +1057,7 @@
   },
   "Typical Insulation": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation",
+    "identifier": "Typical Insulation",
     "r_value": 0.02822222224266701,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1066,7 +1066,7 @@
   },
   "W1_R8.60": {
     "type": "EnergyMaterial",
-    "name": "W1_R8.60",
+    "identifier": "W1_R8.60",
     "roughness": "Smooth",
     "thickness": 0.034862008,
     "conductivity": 0.02300770107232491,
@@ -1078,7 +1078,7 @@
   },
   "W2_R11.13": {
     "type": "EnergyMaterial",
-    "name": "W2_R11.13",
+    "identifier": "W2_R11.13",
     "roughness": "Smooth",
     "thickness": 0.045119036,
     "conductivity": 0.02300770107232491,
@@ -1090,7 +1090,7 @@
   },
   "W3_R11.36": {
     "type": "EnergyMaterial",
-    "name": "W3_R11.36",
+    "identifier": "W3_R11.36",
     "roughness": "Smooth",
     "thickness": 0.04605147,
     "conductivity": 0.02300770107232491,
@@ -1102,7 +1102,7 @@
   },
   "W4_R12.62": {
     "type": "EnergyMaterial",
-    "name": "W4_R12.62",
+    "identifier": "W4_R12.62",
     "roughness": "Smooth",
     "thickness": 0.05115915599999999,
     "conductivity": 0.02300770107232491,
@@ -1114,7 +1114,7 @@
   },
   "W_T24_2013_R13.99": {
     "type": "EnergyMaterial",
-    "name": "W_T24_2013_R13.99",
+    "identifier": "W_T24_2013_R13.99",
     "roughness": "Smooth",
     "thickness": 0.056714136,
     "conductivity": 0.02300770107232491,
@@ -1126,7 +1126,7 @@
   },
   "W_m1_R15": {
     "type": "EnergyMaterial",
-    "name": "W_m1_R15",
+    "identifier": "W_m1_R15",
     "roughness": "Smooth",
     "thickness": 0.060808362,
     "conductivity": 0.02300770107232491,
@@ -1138,7 +1138,7 @@
   },
   "W_m2_R19": {
     "type": "EnergyMaterial",
-    "name": "W_m2_R19",
+    "identifier": "W_m2_R19",
     "roughness": "Smooth",
     "thickness": 0.077023976,
     "conductivity": 0.02300770107232491,
@@ -1150,7 +1150,7 @@
   },
   "W_m3_R21": {
     "type": "EnergyMaterial",
-    "name": "W_m3_R21",
+    "identifier": "W_m3_R21",
     "roughness": "Smooth",
     "thickness": 0.08513190999999999,
     "conductivity": 0.02300770107232491,
@@ -1162,7 +1162,7 @@
   },
   "Wall Insulation [31]": {
     "type": "EnergyMaterial",
-    "name": "Wall Insulation [31]",
+    "identifier": "Wall Insulation [31]",
     "roughness": "MediumRough",
     "thickness": 0.03370000000000008,
     "conductivity": 0.043171109755394975,
@@ -1174,7 +1174,7 @@
   },
   "Wood Frame NonRes Wall Insulation-0.73": {
     "type": "EnergyMaterial",
-    "name": "Wood Frame NonRes Wall Insulation-0.73",
+    "identifier": "Wood Frame NonRes Wall Insulation-0.73",
     "roughness": "MediumRough",
     "thickness": 0.020278246975300705,
     "conductivity": 0.04896723097255453,
@@ -1186,7 +1186,7 @@
   },
   "Wood Frame Wall Insulation R-1.61 IP": {
     "type": "EnergyMaterial",
-    "name": "Wood Frame Wall Insulation R-1.61 IP",
+    "identifier": "Wood Frame Wall Insulation R-1.61 IP",
     "roughness": "MediumRough",
     "thickness": 0.013873826709999999,
     "conductivity": 0.04896723097255453,
@@ -1198,7 +1198,7 @@
   },
   "Wood Siding": {
     "type": "EnergyMaterial",
-    "name": "Wood Siding",
+    "identifier": "Wood Siding",
     "roughness": "MediumSmooth",
     "thickness": 0.010000000000000004,
     "conductivity": 0.10992643687716327,
@@ -1210,7 +1210,7 @@
   },
   "ceiling_2_Insulation": {
     "type": "EnergyMaterial",
-    "name": "ceiling_2_Insulation",
+    "identifier": "ceiling_2_Insulation",
     "roughness": "Smooth",
     "thickness": 0.100778564,
     "conductivity": 0.02300770107232491,
@@ -1222,7 +1222,7 @@
   },
   "Typical Insulation-R1": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R1",
+    "identifier": "Typical Insulation-R1",
     "r_value": 0.17611018380988483,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1231,7 +1231,7 @@
   },
   "Typical Insulation-R2": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R2",
+    "identifier": "Typical Insulation-R2",
     "r_value": 0.35222036761976966,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1240,7 +1240,7 @@
   },
   "Typical Insulation-R3": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R3",
+    "identifier": "Typical Insulation-R3",
     "r_value": 0.5283305514296545,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1249,7 +1249,7 @@
   },
   "Typical Insulation-R4": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R4",
+    "identifier": "Typical Insulation-R4",
     "r_value": 0.7044407352395393,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1258,7 +1258,7 @@
   },
   "Typical Insulation-R5": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R5",
+    "identifier": "Typical Insulation-R5",
     "r_value": 0.8805509190494242,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1267,7 +1267,7 @@
   },
   "Typical Insulation-R6": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R6",
+    "identifier": "Typical Insulation-R6",
     "r_value": 1.056661102859309,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1276,7 +1276,7 @@
   },
   "Typical Insulation-R7": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R7",
+    "identifier": "Typical Insulation-R7",
     "r_value": 1.2327712866691938,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1285,7 +1285,7 @@
   },
   "Typical Insulation-R8": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R8",
+    "identifier": "Typical Insulation-R8",
     "r_value": 1.4088814704790786,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1294,7 +1294,7 @@
   },
   "Typical Insulation-R9": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R9",
+    "identifier": "Typical Insulation-R9",
     "r_value": 1.5849916542889635,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1303,7 +1303,7 @@
   },
   "Typical Insulation-R10": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R10",
+    "identifier": "Typical Insulation-R10",
     "r_value": 1.7611018380988483,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1312,7 +1312,7 @@
   },
   "Typical Insulation-R11": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R11",
+    "identifier": "Typical Insulation-R11",
     "r_value": 1.9372120219087332,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1321,7 +1321,7 @@
   },
   "Typical Insulation-R12": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R12",
+    "identifier": "Typical Insulation-R12",
     "r_value": 2.113322205718618,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1330,7 +1330,7 @@
   },
   "Typical Insulation-R13": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R13",
+    "identifier": "Typical Insulation-R13",
     "r_value": 2.289432389528503,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1339,7 +1339,7 @@
   },
   "Typical Insulation-R14": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R14",
+    "identifier": "Typical Insulation-R14",
     "r_value": 2.4655425733383876,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1348,7 +1348,7 @@
   },
   "Typical Insulation-R15": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R15",
+    "identifier": "Typical Insulation-R15",
     "r_value": 2.6416527571482726,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1357,7 +1357,7 @@
   },
   "Typical Insulation-R16": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R16",
+    "identifier": "Typical Insulation-R16",
     "r_value": 2.8177629409581573,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1366,7 +1366,7 @@
   },
   "Typical Insulation-R17": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R17",
+    "identifier": "Typical Insulation-R17",
     "r_value": 2.9938731247680423,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1375,7 +1375,7 @@
   },
   "Typical Insulation-R18": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R18",
+    "identifier": "Typical Insulation-R18",
     "r_value": 3.169983308577927,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1384,7 +1384,7 @@
   },
   "Typical Insulation-R19": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R19",
+    "identifier": "Typical Insulation-R19",
     "r_value": 3.346093492387812,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1393,7 +1393,7 @@
   },
   "Typical Insulation-R20": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R20",
+    "identifier": "Typical Insulation-R20",
     "r_value": 3.5222036761976967,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1402,7 +1402,7 @@
   },
   "Typical Insulation-R21": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R21",
+    "identifier": "Typical Insulation-R21",
     "r_value": 3.6983138600075818,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1411,7 +1411,7 @@
   },
   "Typical Insulation-R22": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R22",
+    "identifier": "Typical Insulation-R22",
     "r_value": 3.8744240438174664,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1420,7 +1420,7 @@
   },
   "Typical Insulation-R23": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R23",
+    "identifier": "Typical Insulation-R23",
     "r_value": 4.0505342276273515,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1429,7 +1429,7 @@
   },
   "Typical Insulation-R24": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R24",
+    "identifier": "Typical Insulation-R24",
     "r_value": 4.226644411437236,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1438,7 +1438,7 @@
   },
   "Typical Insulation-R25": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R25",
+    "identifier": "Typical Insulation-R25",
     "r_value": 4.402754595247121,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1447,7 +1447,7 @@
   },
   "Typical Insulation-R26": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R26",
+    "identifier": "Typical Insulation-R26",
     "r_value": 4.578864779057006,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1456,7 +1456,7 @@
   },
   "Typical Insulation-R27": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R27",
+    "identifier": "Typical Insulation-R27",
     "r_value": 4.754974962866891,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1465,7 +1465,7 @@
   },
   "Typical Insulation-R28": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R28",
+    "identifier": "Typical Insulation-R28",
     "r_value": 4.931085146676775,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1474,7 +1474,7 @@
   },
   "Typical Insulation-R29": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R29",
+    "identifier": "Typical Insulation-R29",
     "r_value": 5.10719533048666,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1483,7 +1483,7 @@
   },
   "Typical Insulation-R30": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R30",
+    "identifier": "Typical Insulation-R30",
     "r_value": 5.283305514296545,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1492,7 +1492,7 @@
   },
   "Typical Insulation-R31": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R31",
+    "identifier": "Typical Insulation-R31",
     "r_value": 5.45941569810643,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1501,7 +1501,7 @@
   },
   "Typical Insulation-R32": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R32",
+    "identifier": "Typical Insulation-R32",
     "r_value": 5.6355258819163145,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1510,7 +1510,7 @@
   },
   "Typical Insulation-R33": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R33",
+    "identifier": "Typical Insulation-R33",
     "r_value": 5.8116360657262,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1519,7 +1519,7 @@
   },
   "Typical Insulation-R34": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R34",
+    "identifier": "Typical Insulation-R34",
     "r_value": 5.987746249536085,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1528,7 +1528,7 @@
   },
   "Typical Insulation-R35": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R35",
+    "identifier": "Typical Insulation-R35",
     "r_value": 6.163856433345969,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1537,7 +1537,7 @@
   },
   "Typical Insulation-R36": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R36",
+    "identifier": "Typical Insulation-R36",
     "r_value": 6.339966617155854,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1546,7 +1546,7 @@
   },
   "Typical Insulation-R37": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R37",
+    "identifier": "Typical Insulation-R37",
     "r_value": 6.516076800965739,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1555,7 +1555,7 @@
   },
   "Typical Insulation-R38": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R38",
+    "identifier": "Typical Insulation-R38",
     "r_value": 6.692186984775624,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1564,7 +1564,7 @@
   },
   "Typical Insulation-R39": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R39",
+    "identifier": "Typical Insulation-R39",
     "r_value": 6.868297168585508,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1573,7 +1573,7 @@
   },
   "Typical Insulation-R40": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R40",
+    "identifier": "Typical Insulation-R40",
     "r_value": 7.044407352395393,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1582,7 +1582,7 @@
   },
   "Typical Insulation-R41": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R41",
+    "identifier": "Typical Insulation-R41",
     "r_value": 7.2205175362052785,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1591,7 +1591,7 @@
   },
   "Typical Insulation-R42": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R42",
+    "identifier": "Typical Insulation-R42",
     "r_value": 7.3966277200151636,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1600,7 +1600,7 @@
   },
   "Typical Insulation-R43": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R43",
+    "identifier": "Typical Insulation-R43",
     "r_value": 7.572737903825048,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1609,7 +1609,7 @@
   },
   "Typical Insulation-R44": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R44",
+    "identifier": "Typical Insulation-R44",
     "r_value": 7.748848087634933,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1618,7 +1618,7 @@
   },
   "Typical Insulation-R45": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R45",
+    "identifier": "Typical Insulation-R45",
     "r_value": 7.924958271444818,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1627,7 +1627,7 @@
   },
   "Typical Insulation-R46": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R46",
+    "identifier": "Typical Insulation-R46",
     "r_value": 8.101068455254703,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1636,7 +1636,7 @@
   },
   "Typical Insulation-R47": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R47",
+    "identifier": "Typical Insulation-R47",
     "r_value": 8.277178639064587,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1645,7 +1645,7 @@
   },
   "Typical Insulation-R48": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R48",
+    "identifier": "Typical Insulation-R48",
     "r_value": 8.453288822874471,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1654,7 +1654,7 @@
   },
   "Typical Insulation-R49": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R49",
+    "identifier": "Typical Insulation-R49",
     "r_value": 8.629399006684357,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1663,7 +1663,7 @@
   },
   "Typical Insulation-R50": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R50",
+    "identifier": "Typical Insulation-R50",
     "r_value": 8.805509190494242,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1672,7 +1672,7 @@
   },
   "Typical Insulation-R51": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R51",
+    "identifier": "Typical Insulation-R51",
     "r_value": 8.981619374304127,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1681,7 +1681,7 @@
   },
   "Typical Insulation-R52": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R52",
+    "identifier": "Typical Insulation-R52",
     "r_value": 9.157729558114012,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1690,7 +1690,7 @@
   },
   "Typical Insulation-R53": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R53",
+    "identifier": "Typical Insulation-R53",
     "r_value": 9.333839741923896,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1699,7 +1699,7 @@
   },
   "Typical Insulation-R54": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R54",
+    "identifier": "Typical Insulation-R54",
     "r_value": 9.509949925733782,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1708,7 +1708,7 @@
   },
   "Typical Insulation-R55": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R55",
+    "identifier": "Typical Insulation-R55",
     "r_value": 9.686060109543666,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1717,7 +1717,7 @@
   },
   "Typical Insulation-R56": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R56",
+    "identifier": "Typical Insulation-R56",
     "r_value": 9.86217029335355,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1726,7 +1726,7 @@
   },
   "Typical Insulation-R57": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R57",
+    "identifier": "Typical Insulation-R57",
     "r_value": 10.038280477163436,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1735,7 +1735,7 @@
   },
   "Typical Insulation-R58": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R58",
+    "identifier": "Typical Insulation-R58",
     "r_value": 10.21439066097332,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1744,7 +1744,7 @@
   },
   "Typical Insulation-R59": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R59",
+    "identifier": "Typical Insulation-R59",
     "r_value": 10.390500844783205,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
@@ -1753,7 +1753,7 @@
   },
   "Typical Insulation-R60": {
     "type": "EnergyMaterialNoMass",
-    "name": "Typical Insulation-R60",
+    "identifier": "Typical Insulation-R60",
     "r_value": 10.56661102859309,
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,

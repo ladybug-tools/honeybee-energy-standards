@@ -38,7 +38,7 @@ def clean_construction_sets(source_filename, dest_directory, vintage,
             * When multiple variations of a given climate zone number exist for a given
                 zone (ie. 3A, 3B, 3C) prefernce will be given to A.
 
-    * Output resulting dictionary in a format with the name of the ConstructionSet
+    * Output resulting dictionary in a format with the identifier of the ConstructionSet
         as the key and the dictionary of the constructions as the values.
 
     Args:
@@ -86,9 +86,9 @@ ashrae_90_1_2013.construction_properties.json
     for c_zone in climate_zones:
         for constr_type in construction_types:
             # initialize an empty base construction set
-            cz_name = 'ClimateZone{}'.format(c_zone)
-            set_name = '{}::{}::{}'.format(vintage, cz_name, constr_type)
-            base_dict = {'name': set_name,
+            cz_id = 'ClimateZone{}'.format(c_zone)
+            set_id = '{}::{}::{}'.format(vintage, cz_id, constr_type)
+            base_dict = {'name': set_id,
                          'wall_set': {},
                          'floor_set': {},
                          'roof_ceiling_set': {},
@@ -154,7 +154,7 @@ ashrae_90_1_2013.construction_properties.json
             base_dict['door_set']['exterior_glass_construction'] = door_constr['construction']
 
             # add the construction set to the final dictionary
-            constr_set_dict[set_name] = base_dict
+            constr_set_dict[set_id] = base_dict
 
     # write the complete set of constructions
     dest_file_path = os.path.join(dest_directory, '{}_data.json'.format(vintage))
@@ -246,25 +246,25 @@ def adjust_typical_insulation(base_constr_dict, constuction_dict, material_dict)
         return base_constr_dict['construction']
 
     # get the starting construction to work from and calculate its R-value
-    orig_constr_name = base_constr_dict['construction']
-    start_constr = constuction_dict[orig_constr_name]
+    orig_constr_id = base_constr_dict['construction']
+    start_constr = constuction_dict[orig_constr_id]
     base_r = sum(material_dict[mat]['resistance'] for mat in start_constr['materials'])
 
     # calculate the R-value needed by the insulation
     target_r = int(math.ceil(compliant_r_val - base_r))
     if target_r == 0:
         return base_constr_dict['construction']
-    new_constr_name = '{}-R{}'.format(orig_constr_name, math.ceil(compliant_r_val))
+    new_constr_id = '{}-R{}'.format(orig_constr_id, math.ceil(compliant_r_val))
 
     # add the new construction to the global constuction_dict if necessary
-    if new_constr_name not in constuction_dict:
+    if new_constr_id not in constuction_dict:
         new_constr = start_constr.copy()
-        new_constr['name'] = new_constr_name
-        insul_name = 'Typical Insulation-R{}'.format(target_r)
+        new_constr['name'] = new_constr_id
+        insul_id = 'Typical Insulation-R{}'.format(target_r)
         assert 'Typical Insulation' in new_constr['materials'], \
             'Typical Insulation must be in a construction in order to adjust it.'
-        new_constr['materials'] = [mat if mat != 'Typical Insulation' else insul_name
+        new_constr['materials'] = [mat if mat != 'Typical Insulation' else insul_id
                                    for mat in new_constr['materials']]
-        constuction_dict[new_constr_name] = new_constr
+        constuction_dict[new_constr_id] = new_constr
 
-    return new_constr_name
+    return new_constr_id
