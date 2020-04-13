@@ -1,1 +1,1 @@
-honeybee-energy==1.40.0
+honeybee-energy==1.41.2
