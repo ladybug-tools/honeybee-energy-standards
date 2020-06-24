@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>honeybee_energy_standards.extension.programtype &#8212; honeybee-energy-standards  documentation</title>
+    <link rel="stylesheet" href="../../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/custom.css" />
+    <script id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script type="text/javascript" src="../../../_static/js/jquery-1.11.0.min.js "></script>
+<script type="text/javascript" src="../../../_static/js/jquery-fix.js "></script>
+<script type="text/javascript" src="../../../_static/bootstrap-3.3.7/js/bootstrap.min.js "></script>
+<script type="text/javascript" src="../../../_static/bootstrap-sphinx.js "></script>
+
+  </head><body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../../index.html">
+          honeybee-energy-standards</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../honeybee_energy_standards.html">honeybee_energy_standards package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../honeybee_energy_standards.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../honeybee_energy_standards.data.html">honeybee_energy_standards.data package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy_standards.data.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy_standards.data.constructions.html">honeybee_energy_standards.data.constructions package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../honeybee_energy_standards.data.constructions.html#module-honeybee_energy_standards.data.constructions">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy_standards.data.constructionsets.html">honeybee_energy_standards.data.constructionsets package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../honeybee_energy_standards.data.constructionsets.html#module-honeybee_energy_standards.data.constructionsets">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy_standards.data.programtypes.html">honeybee_energy_standards.data.programtypes package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../honeybee_energy_standards.data.programtypes.html#module-honeybee_energy_standards.data.programtypes">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy_standards.data.programtypes_registry.html">honeybee_energy_standards.data.programtypes_registry package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../honeybee_energy_standards.data.programtypes_registry.html#module-honeybee_energy_standards.data.programtypes_registry">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy_standards.data.schedules.html">honeybee_energy_standards.data.schedules package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../honeybee_energy_standards.data.schedules.html#module-honeybee_energy_standards.data.schedules">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy_standards.data.html#module-honeybee_energy_standards.data">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../honeybee_energy_standards.extension.html">honeybee_energy_standards.extension package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy_standards.extension.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy_standards.extension.construction.html">honeybee_energy_standards.extension.construction package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../honeybee_energy_standards.extension.construction.html#submodules">Submodules</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../honeybee_energy_standards.extension.construction.opaque.html">honeybee_energy_standards.extension.construction.opaque module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../honeybee_energy_standards.extension.construction.window.html">honeybee_energy_standards.extension.construction.window module</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../honeybee_energy_standards.extension.construction.html#module-honeybee_energy_standards.extension.construction">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy_standards.extension.material.html">honeybee_energy_standards.extension.material package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../honeybee_energy_standards.extension.material.html#submodules">Submodules</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../honeybee_energy_standards.extension.material.gas.html">honeybee_energy_standards.extension.material.gas module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../honeybee_energy_standards.extension.material.glazing.html">honeybee_energy_standards.extension.material.glazing module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../honeybee_energy_standards.extension.material.opaque.html">honeybee_energy_standards.extension.material.opaque module</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../honeybee_energy_standards.extension.material.html#module-honeybee_energy_standards.extension.material">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy_standards.extension.schedule.html">honeybee_energy_standards.extension.schedule package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../honeybee_energy_standards.extension.schedule.html#submodules">Submodules</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../honeybee_energy_standards.extension.schedule.day.html">honeybee_energy_standards.extension.schedule.day module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../honeybee_energy_standards.extension.schedule.ruleset.html">honeybee_energy_standards.extension.schedule.ruleset module</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../honeybee_energy_standards.extension.schedule.html#module-honeybee_energy_standards.extension.schedule">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy_standards.extension.html#submodules">Submodules</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy_standards.extension.constructionset.html">honeybee_energy_standards.extension.constructionset module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy_standards.extension.programtype.html">honeybee_energy_standards.extension.programtype module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy_standards.extension.html#module-honeybee_energy_standards.extension">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../honeybee_energy_standards.html#module-honeybee_energy_standards">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../honeybee_energy_standards.html">honeybee_energy_standards package</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+              
+            
+            
+            
+            
+              <li class="hidden-sm"></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-4">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../honeybee_energy_standards.html">honeybee_energy_standards package</a></li>
+</ul>
+
+        </div>
+      </div>
+    <div class="body col-md-8 content" role="main">
+      
+  <h1>Source code for honeybee_energy_standards.extension.programtype</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;Classmethod for honeybee-energy program type.&quot;&quot;&quot;</span>
+<span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">division</span>
+
+<span class="kn">import</span> <span class="nn">honeybee_energy.lib.schedules</span> <span class="k">as</span> <span class="nn">sch_lib</span>
+
+<span class="kn">from</span> <span class="nn">honeybee_energy.load.people</span> <span class="kn">import</span> <span class="n">People</span>
+<span class="kn">from</span> <span class="nn">honeybee_energy.load.lighting</span> <span class="kn">import</span> <span class="n">Lighting</span>
+<span class="kn">from</span> <span class="nn">honeybee_energy.load.equipment</span> <span class="kn">import</span> <span class="n">ElectricEquipment</span><span class="p">,</span> <span class="n">GasEquipment</span>
+<span class="kn">from</span> <span class="nn">honeybee_energy.load.infiltration</span> <span class="kn">import</span> <span class="n">Infiltration</span>
+<span class="kn">from</span> <span class="nn">honeybee_energy.load.ventilation</span> <span class="kn">import</span> <span class="n">Ventilation</span>
+<span class="kn">from</span> <span class="nn">honeybee_energy.load.setpoint</span> <span class="kn">import</span> <span class="n">Setpoint</span>
+
+
+<div class="viewcode-block" id="from_standards_dict"><a class="viewcode-back" href="../../../honeybee_energy_standards.extension.programtype.html#honeybee_energy_standards.extension.programtype.from_standards_dict">[docs]</a><span class="k">def</span> <span class="nf">from_standards_dict</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Create a ProgramType from an OpenStudio standards gem dictionary.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        data: An OpenStudio standards dictionary of a space type in the</span>
+<span class="sd">            format below.</span>
+
+<span class="sd">    .. code-block:: python</span>
+
+<span class="sd">        {</span>
+<span class="sd">        &quot;template&quot;: &quot;90.1-2013&quot;,</span>
+<span class="sd">        &quot;building_type&quot;: &quot;Office&quot;,</span>
+<span class="sd">        &quot;space_type&quot;: &quot;MediumOffice - OpenOffice&quot;,</span>
+<span class="sd">        &quot;lighting_standard&quot;: &quot;ASHRAE 90.1-2013&quot;,</span>
+<span class="sd">        &quot;lighting_per_area&quot;: 0.98,</span>
+<span class="sd">        &quot;lighting_per_person&quot;: None,</span>
+<span class="sd">        &quot;additional_lighting_per_area&quot;: None,</span>
+<span class="sd">        &quot;lighting_fraction_to_return_air&quot;: 0.0,</span>
+<span class="sd">        &quot;lighting_fraction_radiant&quot;: 0.7,</span>
+<span class="sd">        &quot;lighting_fraction_visible&quot;: 0.2,</span>
+<span class="sd">        &quot;lighting_schedule&quot;: &quot;OfficeMedium BLDG_LIGHT_SCH_2013&quot;,</span>
+<span class="sd">        &quot;ventilation_standard&quot;: &quot;ASHRAE 62.1-2007&quot;,</span>
+<span class="sd">        &quot;ventilation_primary_space_type&quot;: &quot;Office Buildings&quot;,</span>
+<span class="sd">        &quot;ventilation_secondary_space_type&quot;: &quot;Office space&quot;,</span>
+<span class="sd">        &quot;ventilation_per_area&quot;: 0.06,</span>
+<span class="sd">        &quot;ventilation_per_person&quot;: 5.0,</span>
+<span class="sd">        &quot;ventilation_air_changes&quot;: None,</span>
+<span class="sd">        &quot;minimum_total_air_changes&quot;: None,</span>
+<span class="sd">        &quot;occupancy_per_area&quot;: 5.25,</span>
+<span class="sd">        &quot;occupancy_schedule&quot;: &quot;OfficeMedium BLDG_OCC_SCH&quot;,</span>
+<span class="sd">        &quot;occupancy_activity_schedule&quot;: &quot;OfficeMedium ACTIVITY_SCH&quot;,</span>
+<span class="sd">        &quot;infiltration_per_exterior_area&quot;: 0.0446,</span>
+<span class="sd">        &quot;infiltration_schedule&quot;: &quot;OfficeMedium INFIL_SCH_PNNL&quot;,</span>
+<span class="sd">        &quot;gas_equipment_per_area&quot;: None,</span>
+<span class="sd">        &quot;gas_equipment_fraction_latent&quot;: None,</span>
+<span class="sd">        &quot;gas_equipment_fraction_radiant&quot;: None,</span>
+<span class="sd">        &quot;gas_equipment_fraction_lost&quot;: None,</span>
+<span class="sd">        &quot;gas_equipment_schedule&quot;: None,</span>
+<span class="sd">        &quot;electric_equipment_per_area&quot;: 0.96,</span>
+<span class="sd">        &quot;electric_equipment_fraction_latent&quot;: 0.0,</span>
+<span class="sd">        &quot;electric_equipment_fraction_radiant&quot;: 0.5,</span>
+<span class="sd">        &quot;electric_equipment_fraction_lost&quot;: 0.0,</span>
+<span class="sd">        &quot;electric_equipment_schedule&quot;: &quot;OfficeMedium BLDG_EQUIP_SCH_2013&quot;,</span>
+<span class="sd">        &quot;heating_setpoint_schedule&quot;: &quot;OfficeMedium HTGSETP_SCH_YES_OPTIMUM&quot;,</span>
+<span class="sd">        &quot;cooling_setpoint_schedule&quot;: &quot;OfficeMedium CLGSETP_SCH_YES_OPTIMUM&quot;</span>
+<span class="sd">        }</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">pr_type_identifier</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;space_type&#39;</span><span class="p">]</span>
+    <span class="n">people</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">lighting</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">electric_equipment</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">gas_equipment</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">infiltration</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">ventilation</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">setpoint</span> <span class="o">=</span> <span class="kc">None</span>
+
+    <span class="k">if</span> <span class="s1">&#39;occupancy_schedule&#39;</span> <span class="ow">in</span> <span class="n">data</span> <span class="ow">and</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;occupancy_schedule&#39;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> \
+            <span class="n">data</span><span class="p">[</span><span class="s1">&#39;occupancy_per_area&#39;</span><span class="p">]</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">occ_sched</span> <span class="o">=</span> <span class="n">sch_lib</span><span class="o">.</span><span class="n">schedule_by_identifier</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;occupancy_schedule&#39;</span><span class="p">])</span>
+        <span class="n">act_sched</span> <span class="o">=</span> <span class="n">sch_lib</span><span class="o">.</span><span class="n">schedule_by_identifier</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;occupancy_activity_schedule&#39;</span><span class="p">])</span>
+        <span class="n">occ_density</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;occupancy_per_area&#39;</span><span class="p">]</span> <span class="o">/</span> <span class="mf">92.903</span>
+        <span class="n">people</span> <span class="o">=</span> <span class="n">People</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1">_People&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pr_type_identifier</span><span class="p">),</span> <span class="n">occ_density</span><span class="p">,</span>
+                        <span class="n">occ_sched</span><span class="p">,</span> <span class="n">act_sched</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="s1">&#39;lighting_schedule&#39;</span> <span class="ow">in</span> <span class="n">data</span> <span class="ow">and</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;lighting_schedule&#39;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">light_sched</span> <span class="o">=</span> <span class="n">sch_lib</span><span class="o">.</span><span class="n">schedule_by_identifier</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;lighting_schedule&#39;</span><span class="p">])</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">lpd</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;lighting_per_area&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="mf">10.7639</span>
+        <span class="k">except</span> <span class="p">(</span><span class="ne">TypeError</span><span class="p">,</span> <span class="ne">KeyError</span><span class="p">):</span>
+            <span class="n">lpd</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c1"># there&#39;s a schedule but no actual load object</span>
+        <span class="n">lighting</span> <span class="o">=</span> <span class="n">Lighting</span><span class="p">(</span>
+            <span class="s1">&#39;</span><span class="si">{}</span><span class="s1">_Lighting&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pr_type_identifier</span><span class="p">),</span> <span class="n">lpd</span><span class="p">,</span> <span class="n">light_sched</span><span class="p">,</span>
+            <span class="n">data</span><span class="p">[</span><span class="s1">&#39;lighting_fraction_to_return_air&#39;</span><span class="p">],</span>
+            <span class="n">data</span><span class="p">[</span><span class="s1">&#39;lighting_fraction_radiant&#39;</span><span class="p">],</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;lighting_fraction_visible&#39;</span><span class="p">])</span>
+
+    <span class="k">if</span> <span class="s1">&#39;electric_equipment_schedule&#39;</span> <span class="ow">in</span> <span class="n">data</span> <span class="ow">and</span> \
+            <span class="n">data</span><span class="p">[</span><span class="s1">&#39;electric_equipment_schedule&#39;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">eequip_sched</span> <span class="o">=</span> <span class="n">sch_lib</span><span class="o">.</span><span class="n">schedule_by_identifier</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;electric_equipment_schedule&#39;</span><span class="p">])</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">eepd</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;electric_equipment_per_area&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="mf">10.7639</span>
+        <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
+            <span class="n">eepd</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c1"># there&#39;s a schedule but no actual load object</span>
+        <span class="n">electric_equipment</span> <span class="o">=</span> <span class="n">ElectricEquipment</span><span class="p">(</span>
+            <span class="s1">&#39;</span><span class="si">{}</span><span class="s1">_Electric&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pr_type_identifier</span><span class="p">),</span> <span class="n">eepd</span><span class="p">,</span> <span class="n">eequip_sched</span><span class="p">,</span>
+            <span class="n">data</span><span class="p">[</span><span class="s1">&#39;electric_equipment_fraction_radiant&#39;</span><span class="p">],</span>
+            <span class="n">data</span><span class="p">[</span><span class="s1">&#39;electric_equipment_fraction_latent&#39;</span><span class="p">],</span>
+            <span class="n">data</span><span class="p">[</span><span class="s1">&#39;electric_equipment_fraction_lost&#39;</span><span class="p">])</span>
+
+    <span class="k">if</span> <span class="s1">&#39;gas_equipment_schedule&#39;</span> <span class="ow">in</span> <span class="n">data</span> <span class="ow">and</span> \
+            <span class="n">data</span><span class="p">[</span><span class="s1">&#39;gas_equipment_schedule&#39;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">gequip_sched</span> <span class="o">=</span> <span class="n">sch_lib</span><span class="o">.</span><span class="n">schedule_by_identifier</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;gas_equipment_schedule&#39;</span><span class="p">])</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">gepd</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;gas_equipment_per_area&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="mf">3.15459</span>
+        <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
+            <span class="n">gepd</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c1"># there&#39;s a schedule but no actual load object</span>
+        <span class="n">gas_equipment</span> <span class="o">=</span> <span class="n">GasEquipment</span><span class="p">(</span>
+            <span class="s1">&#39;</span><span class="si">{}</span><span class="s1">_Gas&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pr_type_identifier</span><span class="p">),</span> <span class="n">gepd</span><span class="p">,</span> <span class="n">gequip_sched</span><span class="p">,</span>
+            <span class="n">data</span><span class="p">[</span><span class="s1">&#39;gas_equipment_fraction_radiant&#39;</span><span class="p">],</span>
+            <span class="n">data</span><span class="p">[</span><span class="s1">&#39;gas_equipment_fraction_latent&#39;</span><span class="p">],</span>
+            <span class="n">data</span><span class="p">[</span><span class="s1">&#39;gas_equipment_fraction_lost&#39;</span><span class="p">])</span>
+
+    <span class="k">if</span> <span class="s1">&#39;infiltration_schedule&#39;</span> <span class="ow">in</span> <span class="n">data</span> <span class="ow">and</span> \
+            <span class="n">data</span><span class="p">[</span><span class="s1">&#39;infiltration_schedule&#39;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">inf_sched</span> <span class="o">=</span> <span class="n">sch_lib</span><span class="o">.</span><span class="n">schedule_by_identifier</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;infiltration_schedule&#39;</span><span class="p">])</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">inf</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;infiltration_per_exterior_area&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="mf">0.00508</span>
+        <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>  <span class="c1"># might be using infiltration_per_exterior_wall_area</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">inf</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;infiltration_per_exterior_wall_area&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="mf">0.00508</span>
+            <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
+                <span class="n">inf</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c1"># there&#39;s a schedule but no actual load object</span>
+        <span class="n">infiltration</span> <span class="o">=</span> <span class="n">Infiltration</span><span class="p">(</span>
+            <span class="s1">&#39;</span><span class="si">{}</span><span class="s1">_Infiltration&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pr_type_identifier</span><span class="p">),</span> <span class="n">inf</span><span class="p">,</span> <span class="n">inf_sched</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="s1">&#39;ventilation_standard&#39;</span> <span class="ow">in</span> <span class="n">data</span> <span class="ow">and</span> \
+            <span class="n">data</span><span class="p">[</span><span class="s1">&#39;ventilation_standard&#39;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">person</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;ventilation_per_person&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="mf">0.000471947</span> <span class="k">if</span> \
+            <span class="s1">&#39;ventilation_per_person&#39;</span> <span class="ow">in</span> <span class="n">data</span> <span class="ow">and</span> \
+            <span class="n">data</span><span class="p">[</span><span class="s1">&#39;ventilation_per_person&#39;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="k">else</span> <span class="mi">0</span>
+        <span class="n">area</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;ventilation_per_area&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="mf">0.00508</span> <span class="k">if</span> \
+            <span class="s1">&#39;ventilation_per_area&#39;</span> <span class="ow">in</span> <span class="n">data</span> <span class="ow">and</span> \
+            <span class="n">data</span><span class="p">[</span><span class="s1">&#39;ventilation_per_area&#39;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="k">else</span> <span class="mi">0</span>
+        <span class="n">ach</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;ventilation_air_changes&#39;</span><span class="p">]</span> <span class="k">if</span> \
+            <span class="s1">&#39;ventilation_air_changes&#39;</span> <span class="ow">in</span> <span class="n">data</span> <span class="ow">and</span> \
+            <span class="n">data</span><span class="p">[</span><span class="s1">&#39;ventilation_air_changes&#39;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="k">else</span> <span class="mi">0</span>
+        <span class="n">ventilation</span> <span class="o">=</span> <span class="n">Ventilation</span><span class="p">(</span>
+            <span class="s1">&#39;</span><span class="si">{}</span><span class="s1">_Ventilation&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pr_type_identifier</span><span class="p">),</span> <span class="n">person</span><span class="p">,</span> <span class="n">area</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">ach</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="s1">&#39;heating_setpoint_schedule&#39;</span> <span class="ow">in</span> <span class="n">data</span> <span class="ow">and</span> \
+            <span class="n">data</span><span class="p">[</span><span class="s1">&#39;heating_setpoint_schedule&#39;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">heat_sched</span> <span class="o">=</span> <span class="n">sch_lib</span><span class="o">.</span><span class="n">schedule_by_identifier</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;heating_setpoint_schedule&#39;</span><span class="p">])</span>
+        <span class="n">cool_sched</span> <span class="o">=</span> <span class="n">sch_lib</span><span class="o">.</span><span class="n">schedule_by_identifier</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;cooling_setpoint_schedule&#39;</span><span class="p">])</span>
+        <span class="n">setpoint</span> <span class="o">=</span> <span class="n">Setpoint</span><span class="p">(</span>
+            <span class="s1">&#39;</span><span class="si">{}</span><span class="s1">_Setpoint&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pr_type_identifier</span><span class="p">),</span> <span class="n">heat_sched</span><span class="p">,</span> <span class="n">cool_sched</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="bp">cls</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;space_type&#39;</span><span class="p">],</span> <span class="n">people</span><span class="p">,</span> <span class="n">lighting</span><span class="p">,</span> <span class="n">electric_equipment</span><span class="p">,</span>
+               <span class="n">gas_equipment</span><span class="p">,</span> <span class="n">infiltration</span><span class="p">,</span> <span class="n">ventilation</span><span class="p">,</span> <span class="n">setpoint</span><span class="p">)</span></div>
+</pre></div>
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2020, Ladybug Tools.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.1.1.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+honeybee\_energy\_standards.data.constructionsets package
+=========================================================
+
+Module contents
+---------------
+
+.. automodule:: honeybee_energy_standards.data.constructionsets
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,20 @@
+honeybee\_energy\_standards.extension.material package
+======================================================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   honeybee_energy_standards.extension.material.gas
+   honeybee_energy_standards.extension.material.glazing
+   honeybee_energy_standards.extension.material.opaque
+
+Module contents
+---------------
+
+.. automodule:: honeybee_energy_standards.extension.material
+   :members:
+   :undoc-members:
+   :show-inheritance:

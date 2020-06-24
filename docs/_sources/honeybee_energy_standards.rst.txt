@@ -1,0 +1,19 @@
+honeybee\_energy\_standards package
+===================================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   honeybee_energy_standards.data
+   honeybee_energy_standards.extension
+
+Module contents
+---------------
+
+.. automodule:: honeybee_energy_standards
+   :members:
+   :undoc-members:
+   :show-inheritance:

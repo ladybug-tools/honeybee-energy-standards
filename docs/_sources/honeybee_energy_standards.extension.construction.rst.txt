@@ -1,0 +1,19 @@
+honeybee\_energy\_standards.extension.construction package
+==========================================================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   honeybee_energy_standards.extension.construction.opaque
+   honeybee_energy_standards.extension.construction.window
+
+Module contents
+---------------
+
+.. automodule:: honeybee_energy_standards.extension.construction
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,7 @@
+honeybee\_energy\_standards.extension.schedule.day module
+=========================================================
+
+.. automodule:: honeybee_energy_standards.extension.schedule.day
+   :members:
+   :undoc-members:
+   :show-inheritance:

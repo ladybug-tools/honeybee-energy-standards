@@ -1,0 +1,7 @@
+honeybee\_energy\_standards.extension.construction.opaque module
+================================================================
+
+.. automodule:: honeybee_energy_standards.extension.construction.opaque
+   :members:
+   :undoc-members:
+   :show-inheritance:
