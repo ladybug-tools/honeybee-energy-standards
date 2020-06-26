@@ -5,26 +5,6 @@ import honeybee_energy.lib.constructions as constr_lib
 import pytest
 
 
-def test_window_to_from_standards_dict():
-    """Test the initialization of OpaqueConstruction objects from standards gem."""
-    standards_dict = {
-        "name": "U 0.19 SHGC 0.20 Trp LoE Film (55) Bronze 6mm/13mm Air",
-        "intended_surface_type": "ExteriorWindow",
-        "materials": [
-            "BRONZE 6MM",
-            "AIR 13MM",
-            "COATED POLY-55",
-            "AIR 13MM",
-            "CLEAR 3MM"]}
-    glaz_constr = WindowConstruction.from_standards_dict(standards_dict)
-
-    assert glaz_constr.identifier == 'U 0.19 SHGC 0.20 Trp LoE Film (55) Bronze 6mm/13mm Air'
-    assert glaz_constr.r_value == pytest.approx(0.645449, rel=1e-2)
-    assert glaz_constr.u_value == pytest.approx(1.549307, rel=1e-2)
-    assert glaz_constr.u_factor == pytest.approx(1.2237779, rel=1e-2)
-    assert glaz_constr.r_factor == pytest.approx(0.817141, rel=1e-2)
-
-
 def test_construction_lib():
     """Test that the honeybee-energy lib has been extended with new construction data."""
     assert len(constr_lib.WINDOW_CONSTRUCTIONS) > 2  # should now have many more constructions

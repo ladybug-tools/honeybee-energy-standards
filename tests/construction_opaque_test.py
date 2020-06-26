@@ -6,25 +6,6 @@ import honeybee_energy.lib.constructions as constr_lib
 import pytest
 
 
-def test_opaque_to_from_standards_dict():
-    """Test the initialization of OpaqueConstruction objects from standards gem."""
-    standards_dict = {
-        "name": "Typical Insulated Exterior Mass Wall",
-        "intended_surface_type": "ExteriorWall",
-        "materials": [
-            "1IN Stucco",
-            "8IN CONCRETE HW RefBldg",
-            "Typical Insulation",
-            "1/2IN Gypsum"]}
-    wall_constr = OpaqueConstruction.from_standards_dict(standards_dict)
-
-    assert wall_constr.identifier == 'Typical Insulated Exterior Mass Wall'
-    assert wall_constr.r_value == pytest.approx(0.29934598728, rel=1e-3)
-    assert wall_constr.u_value == pytest.approx(3.3406160178, rel=1e-3)
-    assert wall_constr.u_factor == pytest.approx(2.159364735, rel=1e-3)
-    assert wall_constr.r_factor == pytest.approx(0.463099162, rel=1e-3)
-
-
 def test_construction_lib():
     """Test that the honeybee-energy lib has been extended with new construction data."""
     assert len(constr_lib.OPAQUE_CONSTRUCTIONS) > 12  # should now have many more constructions

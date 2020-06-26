@@ -2,11 +2,11 @@
 """Clean and re-export all ashrae 90.1 data from the standards gem."""
 import os
 
-from honeybee_energy_standards._util._program_type import clean_space_types
-from honeybee_energy_standards._util._schedule import clean_schedules
-from honeybee_energy_standards._util._construction_set import clean_construction_sets
-from honeybee_energy_standards._util._construction import clean_constructions
-from honeybee_energy_standards._util._material import clean_materials
+from standards_update._util._program_type import clean_space_types
+from standards_update._util._schedule import clean_schedules
+from standards_update._util._construction_set import clean_construction_sets
+from standards_update._util._construction import clean_constructions
+from standards_update._util._material import clean_materials
 
 
 def clean_all(ashrae_directory, dest_dir=None):

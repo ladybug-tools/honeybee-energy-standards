@@ -1,9 +1,7 @@
 # coding=utf-8
 """Extend honeybee-energy objects with the classmethods of this library."""
-import os
-import json
 
-# import all of the objects that are being extended from honyebee-energy
+# import all of the objects that are being extended from honeybee-energy
 from honeybee_energy.material.opaque import EnergyMaterial, EnergyMaterialNoMass
 from honeybee_energy.material.glazing import EnergyWindowMaterialGlazing, \
     EnergyWindowMaterialSimpleGlazSys
@@ -15,19 +13,17 @@ from honeybee_energy.schedule.day import ScheduleDay
 from honeybee_energy.schedule.ruleset import ScheduleRuleset
 from honeybee_energy.programtype import ProgramType
 
-import honeybee_energy.lib.programtypes as hb_programtypes
-
 
 # import all of the extension methods from this library
-import honeybee_energy_standards.extension.material.opaque as material_opaque
-import honeybee_energy_standards.extension.material.glazing as material_glazing
-import honeybee_energy_standards.extension.material.gas as material_gas
-import honeybee_energy_standards.extension.construction.opaque as construction_opaque
-import honeybee_energy_standards.extension.construction.window as window_opaque
-import honeybee_energy_standards.extension.constructionset as constructionset
-import honeybee_energy_standards.extension.schedule.day as schedule_day
-import honeybee_energy_standards.extension.schedule.ruleset as schedule_ruleset
-import honeybee_energy_standards.extension.programtype as programtype
+import standards_update.extension.material.opaque as material_opaque
+import standards_update.extension.material.glazing as material_glazing
+import standards_update.extension.material.gas as material_gas
+import standards_update.extension.construction.opaque as construction_opaque
+import standards_update.extension.construction.window as window_opaque
+import standards_update.extension.constructionset as constructionset
+import standards_update.extension.schedule.day as schedule_day
+import standards_update.extension.schedule.ruleset as schedule_ruleset
+import standards_update.extension.programtype as programtype
 
 
 # add classmethods to create honeybee-energy objects from standards gem dictionaries
