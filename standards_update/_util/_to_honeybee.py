@@ -34,7 +34,7 @@ def honeybee_construction_json(source_directory, constr_folder, lib_function, fi
 
 def convert_to_hb_json(source_dir=None, dest_dir=None):
     """Convert OpenStudio standards JSON files into Honeybee JSON files.
-    
+
     Args:
         source_dir: Directory to the cleaned OpenStudio Standards JSONs.
             Default will be the data folder in this package.
@@ -48,13 +48,14 @@ def convert_to_hb_json(source_dir=None, dest_dir=None):
     if dest_dir is None:
         master_dir = local_data_dir()
         dest_dir = os.path.join(master_dir, 'data')
-    
+
     # get all of the destination folders
     constr_dir = os.path.join(dest_dir, 'constructions')
     constrset_dir = os.path.join(dest_dir, 'constructionsets')
     sched_dir = os.path.join(dest_dir, 'schedules')
     ptype_dir = os.path.join(dest_dir, 'programtypes')
-    
+    ptype_reg_dir = os.path.join(dest_dir, 'programtypes_registry')
+
     # translate the materials and constructions to honeybee_json
     honeybee_construction_json(source_dir, constr_dir, mat_lib.opaque_material_by_identifier,
                                'opaque_material.json')
@@ -95,7 +96,7 @@ def convert_to_hb_json(source_dir=None, dest_dir=None):
                 hb_dict[c_id] = base_dict
             with open(dest_file, 'w') as fp:
                 json.dump(hb_dict, fp, indent=2)
-    
+
     # translate schedules to honeybee json
     sched_json = os.path.join(source_dir, 'schedule.json')
     hb_sch_dict = {}
@@ -114,7 +115,7 @@ def convert_to_hb_json(source_dir=None, dest_dir=None):
     sch_path = os.path.join(sched_dir, 'schedule.json')
     with open(sch_path, 'w') as fp:
         fp.write(final_str)
-    
+
     # translate the program types to honeybee json
     src_ptype_dir = os.path.join(source_dir, 'program_type')
     for f in os.listdir(src_ptype_dir):
@@ -130,14 +131,14 @@ def convert_to_hb_json(source_dir=None, dest_dir=None):
             dest_file = os.path.join(ptype_dir, f)
             with open(dest_file, 'w') as fp:
                 json.dump(hb_dict, fp, indent=2)
-    
+
     # copy the program registry files over to the data folder
     for f in os.listdir(src_ptype_dir):
         f_path = os.path.join(src_ptype_dir, f)
         if os.path.isfile(f_path) and f_path.endswith('registry.json'):
-            dest_file = os.path.join(ptype_dir, f)
+            dest_file = os.path.join(ptype_reg_dir, f)
             shutil.copy(f_path, dest_file)
-    
+
     print('Successfully translated OpenStudio JSONs to Honeybee.')
 
 

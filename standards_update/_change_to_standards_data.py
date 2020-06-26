@@ -1,11 +1,11 @@
 # coding=utf-8
 """Change the honeybee-energy lib to load from the _standards_data folder."""
-# import all of the objects that are being extended from honyebee-energy
-import honeybee_energy_standards._lib.materials as material_lib
-import honeybee_energy_standards._lib.constructions as construction_lib
-import honeybee_energy_standards._lib.constructionsets as construction_set_lib
-import honeybee_energy_standards._lib.schedules as schedule_lib
-import honeybee_energy_standards._lib.programtypes as program_type_lib
+# import all of the objects that are being extended from honeybee-energy
+import standards_update._lib.materials as material_lib
+import standards_update._lib.constructions as construction_lib
+import standards_update._lib.constructionsets as construction_set_lib
+import standards_update._lib.schedules as schedule_lib
+import standards_update._lib.programtypes as program_type_lib
 
 from honeybee_energy.lib import materials
 from honeybee_energy.lib import constructions
