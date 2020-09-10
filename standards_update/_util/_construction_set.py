@@ -207,13 +207,13 @@ def extract_construction(data_store, c_zone, srf_type, constr_type,
         return extract_construction(data_store, cz, srf_type, constr_type, bldg_category)
 
 
-def adjust_typical_insulation(base_constr_dict, constuction_dict, material_dict):
-    """Adjust insulation in the the global constuction_dict using a construction property dictionary.
+def adjust_typical_insulation(base_constr_dict, construction_dict, material_dict):
+    """Adjust insulation in the the construction_dict using construction property dictionary.
 
     Args:
         base_constr_dict: A dictionary from the raw OpenStudio standards construction
             properties dictionary.
-        constuction_dict: Complete dictionary from the clean construction JSON. This
+        construction_dict: Complete dictionary from the clean construction JSON. This
             method will add a new construction to this dictionary that meets the
             'assembly_maximum_u_value' in the base_constr_dict and uses the 'construction'
             in the base_constr_dict to start.
@@ -247,7 +247,7 @@ def adjust_typical_insulation(base_constr_dict, constuction_dict, material_dict)
 
     # get the starting construction to work from and calculate its R-value
     orig_constr_id = base_constr_dict['construction']
-    start_constr = constuction_dict[orig_constr_id]
+    start_constr = construction_dict[orig_constr_id]
     base_r = sum(material_dict[mat]['resistance'] for mat in start_constr['materials'])
 
     # calculate the R-value needed by the insulation
@@ -256,8 +256,8 @@ def adjust_typical_insulation(base_constr_dict, constuction_dict, material_dict)
         return base_constr_dict['construction']
     new_constr_id = '{}-R{}'.format(orig_constr_id, math.ceil(compliant_r_val))
 
-    # add the new construction to the global constuction_dict if necessary
-    if new_constr_id not in constuction_dict:
+    # add the new construction to the global construction_dict if necessary
+    if new_constr_id not in construction_dict:
         new_constr = start_constr.copy()
         new_constr['name'] = new_constr_id
         insul_id = 'Typical Insulation-R{}'.format(target_r)
@@ -265,6 +265,6 @@ def adjust_typical_insulation(base_constr_dict, constuction_dict, material_dict)
             'Typical Insulation must be in a construction in order to adjust it.'
         new_constr['materials'] = [mat if mat != 'Typical Insulation' else insul_id
                                    for mat in new_constr['materials']]
-        constuction_dict[new_constr_id] = new_constr
+        construction_dict[new_constr_id] = new_constr
 
     return new_constr_id
