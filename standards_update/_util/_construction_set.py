@@ -132,7 +132,9 @@ ashrae_90_1_2013.construction_properties.json
             # get the exterior window construction
             win_type = 'Nonmetal framing (all)' if constr_type == 'WoodFramed' else \
                 'Metal framing (all other)'
-            win_constr = extract_construction(data_store, c_zone, 'ExteriorWindow', win_type)
+            win_constr = extract_window_construction(data_store, c_zone, 'ExteriorWindow', win_type, 40)
+            if win_constr is None:
+                win_constr = extract_construction(data_store, c_zone, 'ExteriorWindow', win_type)
             base_dict['aperture_set']['window_construction'] = win_constr['construction']
             base_dict['aperture_set']['operable_construction'] = win_constr['construction']
 
@@ -205,6 +207,34 @@ def extract_construction(data_store, c_zone, srf_type, constr_type,
     else:
         cz = '{}A'.format(c_zone)
         return extract_construction(data_store, cz, srf_type, constr_type, bldg_category)
+
+
+def extract_window_construction(data_store, c_zone, srf_type, constr_type, max_ratio):
+    """Get the name of a construction from the whole data_store based on criteria.
+
+    Args:
+        data_store: The full JSON dictionary of construction properties.
+        c_zone: A number between 0 and 8 for the climate zone.
+        srf_type: The type of surface being requested (ie. 'ExteriorWall',
+            'ExteriorWindow', etc.)
+        constr_type: The type of building construction. Choose from:
+            ('SteelFramed', 'WoodFramed', 'Mass', 'MetalBuilding')
+        max_ratio: A number for the maximum window ratio to select.
+    """
+    clim_zone = 'ClimateZone {}'.format(c_zone)
+    # try to find the construction following the building_category
+    for cnst_dict in data_store['construction_properties']:
+        if cnst_dict['construction'] and 'Adiabatic' not in cnst_dict['construction'] and \
+                cnst_dict['climate_zone_set'] == clim_zone and \
+                cnst_dict['intended_surface_type'] == srf_type and \
+                cnst_dict['standards_construction_type'] == constr_type and \
+                cnst_dict['building_category'] == 'Nonresidential' and \
+                cnst_dict['maximum_percent_of_surface'] == max_ratio:
+            return cnst_dict
+    if 'A' not in str(c_zone):
+        cz = '{}A'.format(c_zone)
+        return extract_window_construction(data_store, cz, srf_type, constr_type, max_ratio)
+    return None
 
 
 def adjust_typical_insulation(base_constr_dict, construction_dict, material_dict):
