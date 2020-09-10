@@ -85,6 +85,7 @@ def from_standards_dict(cls, data):
             '{}_Lighting'.format(pr_type_identifier), lpd, light_sched,
             data['lighting_fraction_to_return_air'],
             data['lighting_fraction_radiant'], data['lighting_fraction_visible'])
+        lighting.baseline_watts_per_area = lpd
 
     if 'electric_equipment_schedule' in data and \
             data['electric_equipment_schedule'] is not None:

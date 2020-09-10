@@ -20,7 +20,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Courthouse GENERAL_LIGHT_SCH"
+      "schedule": "Courthouse GENERAL_LIGHT_SCH",
+      "baseline_watts_per_area": 20.279187599999997
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -70,7 +71,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Courthouse GENERAL_LIGHT_SCH"
+      "schedule": "Courthouse GENERAL_LIGHT_SCH",
+      "baseline_watts_per_area": 0.0
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -120,7 +122,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Courthouse GENERAL_LIGHT_SCH"
+      "schedule": "Courthouse GENERAL_LIGHT_SCH",
+      "baseline_watts_per_area": 19.805576
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -159,7 +162,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Courthouse GENERAL_LIGHT_SCH"
+      "schedule": "Courthouse GENERAL_LIGHT_SCH",
+      "baseline_watts_per_area": 8.4496615
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -209,7 +213,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Courthouse COURTROOM_LIGHT_SCH"
+      "schedule": "Courthouse COURTROOM_LIGHT_SCH",
+      "baseline_watts_per_area": 0.0
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -259,7 +264,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Courthouse COURTROOM_LIGHT_SCH"
+      "schedule": "Courthouse COURTROOM_LIGHT_SCH",
+      "baseline_watts_per_area": 21.958356
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -309,7 +315,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Courthouse GENERAL_LIGHT_SCH"
+      "schedule": "Courthouse GENERAL_LIGHT_SCH",
+      "baseline_watts_per_area": 21.958356
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -369,7 +376,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Courthouse GENERAL_LIGHT_SCH"
+      "schedule": "Courthouse GENERAL_LIGHT_SCH",
+      "baseline_watts_per_area": 21.958356
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -419,7 +427,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Courthouse JUDGES_CHAMBER_LIGHT_SCH"
+      "schedule": "Courthouse JUDGES_CHAMBER_LIGHT_SCH",
+      "baseline_watts_per_area": 18.5892553
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -469,7 +478,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Courthouse JURY_ASSEMBLY_LIGHT_SCH"
+      "schedule": "Courthouse JURY_ASSEMBLY_LIGHT_SCH",
+      "baseline_watts_per_area": 21.5278
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -519,7 +529,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Courthouse JURY_DELIBERATION_LIGHT_SCH"
+      "schedule": "Courthouse JURY_DELIBERATION_LIGHT_SCH",
+      "baseline_watts_per_area": 19.805576
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -569,7 +580,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Courthouse GENERAL_LIGHT_SCH"
+      "schedule": "Courthouse GENERAL_LIGHT_SCH",
+      "baseline_watts_per_area": 22.711828999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -619,7 +631,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Courthouse GENERAL_LIGHT_SCH"
+      "schedule": "Courthouse GENERAL_LIGHT_SCH",
+      "baseline_watts_per_area": 18.5892553
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -658,7 +671,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Courthouse GENERAL_LIGHT_SCH"
+      "schedule": "Courthouse GENERAL_LIGHT_SCH",
+      "baseline_watts_per_area": 0.0
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -707,7 +721,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Courthouse GENERAL_LIGHT_SCH"
+      "schedule": "Courthouse GENERAL_LIGHT_SCH",
+      "baseline_watts_per_area": 15.177098999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -756,7 +771,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Courthouse GENERAL_LIGHT_SCH"
+      "schedule": "Courthouse GENERAL_LIGHT_SCH",
+      "baseline_watts_per_area": 21.958356
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -805,7 +821,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Courthouse GENERAL_LIGHT_SCH"
+      "schedule": "Courthouse GENERAL_LIGHT_SCH",
+      "baseline_watts_per_area": 10.139593799999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -844,7 +861,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Courthouse GENERAL_LIGHT_SCH"
+      "schedule": "Courthouse GENERAL_LIGHT_SCH",
+      "baseline_watts_per_area": 13.670152999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -883,7 +901,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Courthouse GENERAL_LIGHT_SCH"
+      "schedule": "Courthouse GENERAL_LIGHT_SCH",
+      "baseline_watts_per_area": 25.3489845
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -943,7 +962,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "FullServiceRestaurant Bldg Light"
+      "schedule": "FullServiceRestaurant Bldg Light",
+      "baseline_watts_per_area": 27.340305999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -993,7 +1013,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "FullServiceRestaurant Bldg Light"
+      "schedule": "FullServiceRestaurant Bldg Light",
+      "baseline_watts_per_area": 16.361128
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1052,7 +1073,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Hospital Admin Light"
+      "schedule": "Hospital Admin Light",
+      "baseline_watts_per_area": 19.37502
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1102,7 +1124,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Hospital Admin Light"
+      "schedule": "Hospital Admin Light",
+      "baseline_watts_per_area": 14.585084499999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1152,7 +1175,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Hospital Admin Light"
+      "schedule": "Hospital Admin Light",
+      "baseline_watts_per_area": 27.7170425
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1202,7 +1226,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Hospital Critical Light"
+      "schedule": "Hospital Critical Light",
+      "baseline_watts_per_area": 41.3441399
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1252,7 +1277,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Hospital Admin Light"
+      "schedule": "Hospital Admin Light",
+      "baseline_watts_per_area": 17.868074
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1302,7 +1328,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Hospital Critical Light"
+      "schedule": "Hospital Critical Light",
+      "baseline_watts_per_area": 41.3441399
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1352,7 +1379,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Hospital Critical Light"
+      "schedule": "Hospital Critical Light",
+      "baseline_watts_per_area": 41.3441399
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1402,7 +1430,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Hospital Admin Light"
+      "schedule": "Hospital Admin Light",
+      "baseline_watts_per_area": 18.406268999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1452,7 +1481,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Hospital Critical Light"
+      "schedule": "Hospital Critical Light",
+      "baseline_watts_per_area": 41.3441399
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1501,7 +1531,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Hospital Critical Light"
+      "schedule": "Hospital Critical Light",
+      "baseline_watts_per_area": 41.3441399
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1551,7 +1582,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Hospital Admin Light"
+      "schedule": "Hospital Admin Light",
+      "baseline_watts_per_area": 15.284737999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1610,7 +1642,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Hospital Admin Light"
+      "schedule": "Hospital Admin Light",
+      "baseline_watts_per_area": 22.60419
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1660,7 +1693,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Hospital Admin Light"
+      "schedule": "Hospital Admin Light",
+      "baseline_watts_per_area": 11.086817
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1710,7 +1744,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Hospital Admin Light"
+      "schedule": "Hospital Admin Light",
+      "baseline_watts_per_area": 15.693766199999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1760,7 +1795,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Hospital Critical Light"
+      "schedule": "Hospital Critical Light",
+      "baseline_watts_per_area": 104.89420549999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1810,7 +1846,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Hospital Admin Light"
+      "schedule": "Hospital Admin Light",
+      "baseline_watts_per_area": 25.7795405
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1860,7 +1897,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Hospital Admin Light"
+      "schedule": "Hospital Admin Light",
+      "baseline_watts_per_area": 14.208348
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1910,7 +1948,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Hospital Critical Light"
+      "schedule": "Hospital Critical Light",
+      "baseline_watts_per_area": 23.551413200000002
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1960,7 +1999,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Hospital Admin Light"
+      "schedule": "Hospital Admin Light",
+      "baseline_watts_per_area": 27.017388999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2010,7 +2050,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Hospital Admin Light"
+      "schedule": "Hospital Admin Light",
+      "baseline_watts_per_area": 23.788218999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2060,7 +2101,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "LargeHotel Bldg Light"
+      "schedule": "LargeHotel Bldg Light",
+      "baseline_watts_per_area": 27.555584
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2110,7 +2152,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "LargeHotel Bldg Light"
+      "schedule": "LargeHotel Bldg Light",
+      "baseline_watts_per_area": 7.534729999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2154,7 +2197,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "LargeHotel Bldg Light"
+      "schedule": "LargeHotel Bldg Light",
+      "baseline_watts_per_area": 15.715293999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2204,7 +2248,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "LargeHotel Bldg Light"
+      "schedule": "LargeHotel Bldg Light",
+      "baseline_watts_per_area": 13.131958
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2254,7 +2299,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "LargeHotel GuestRoom_Ltg_Sch_Base"
+      "schedule": "LargeHotel GuestRoom_Ltg_Sch_Base",
+      "baseline_watts_per_area": 19.052103
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2304,7 +2350,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "LargeHotel GuestRoom_Ltg_Sch_Base"
+      "schedule": "LargeHotel GuestRoom_Ltg_Sch_Base",
+      "baseline_watts_per_area": 19.052103
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2354,7 +2401,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "LargeHotel GuestRoom_Ltg_Sch_Base"
+      "schedule": "LargeHotel GuestRoom_Ltg_Sch_Base",
+      "baseline_watts_per_area": 19.052103
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2404,7 +2452,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "LargeHotel GuestRoom_Ltg_Sch_Base"
+      "schedule": "LargeHotel GuestRoom_Ltg_Sch_Base",
+      "baseline_watts_per_area": 19.052103
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2454,7 +2503,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "LargeHotel Bldg Light"
+      "schedule": "LargeHotel Bldg Light",
+      "baseline_watts_per_area": 16.791684
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2513,7 +2563,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "LargeHotel Bldg Light"
+      "schedule": "LargeHotel Bldg Light",
+      "baseline_watts_per_area": 12.270845999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2572,7 +2623,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "LargeHotel Bldg Light"
+      "schedule": "LargeHotel Bldg Light",
+      "baseline_watts_per_area": 20.236131999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2611,7 +2663,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "LargeHotel Bldg Light"
+      "schedule": "LargeHotel Bldg Light",
+      "baseline_watts_per_area": 8.61112
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2661,7 +2714,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "LargeHotel Bldg Light"
+      "schedule": "LargeHotel Bldg Light",
+      "baseline_watts_per_area": 38.104206
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2711,7 +2765,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "LargeHotel Bldg Light"
+      "schedule": "LargeHotel Bldg Light",
+      "baseline_watts_per_area": 3.982643
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2761,7 +2816,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.0,
       "visible_fraction": 0.0,
-      "schedule": "MidriseApartment Apartment Light"
+      "schedule": "MidriseApartment Apartment Light",
+      "baseline_watts_per_area": 3.8750039999999997
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2800,7 +2856,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.0,
       "visible_fraction": 0.0,
-      "schedule": "MidriseApartment Corridor Light"
+      "schedule": "MidriseApartment Corridor Light",
+      "baseline_watts_per_area": 9.902788
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2849,7 +2906,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.0,
       "visible_fraction": 0.0,
-      "schedule": "MidriseApartment Office Light"
+      "schedule": "MidriseApartment Office Light",
+      "baseline_watts_per_area": 21.958356
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2909,7 +2967,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 20.279187599999997
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2959,7 +3018,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "OfficeLarge BLDG_LIGHT_SCH"
+      "schedule": "OfficeLarge BLDG_LIGHT_SCH",
+      "baseline_watts_per_area": 19.805576
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3009,7 +3069,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 18.5892553
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3059,7 +3120,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 19.805576
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3109,7 +3171,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 8.4496615
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3159,7 +3222,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "OfficeLarge BLDG_LIGHT_SCH"
+      "schedule": "OfficeLarge BLDG_LIGHT_SCH",
+      "baseline_watts_per_area": 20.279187599999997
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3198,7 +3262,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 25.3489845
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3248,7 +3313,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 16.684045
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3298,7 +3364,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 21.958356
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3348,7 +3415,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 20.279187599999997
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3398,7 +3466,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 21.5278
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3448,7 +3517,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 18.5892553
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3498,7 +3568,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 19.805576
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3537,7 +3608,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 8.4496615
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3587,7 +3659,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 15.069459999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3626,7 +3699,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 25.3489845
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3676,7 +3750,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 21.958356
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3726,7 +3801,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 18.621547
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3765,7 +3841,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 15.177098999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3804,7 +3881,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 10.139593799999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3843,7 +3921,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 13.670152999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3882,7 +3961,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "OfficeLarge BLDG_LIGHT_SCH"
+      "schedule": "OfficeLarge BLDG_LIGHT_SCH",
+      "baseline_watts_per_area": 16.684045
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3891,7 +3971,7 @@
       "radiant_fraction": 0.5,
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
-      "schedule": "OfficeLarge ALWAYS_ON"
+      "schedule": "DataCenter_EQUIP_SCH"
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -3910,7 +3990,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "OfficeLarge BLDG_LIGHT_SCH"
+      "schedule": "OfficeLarge BLDG_LIGHT_SCH",
+      "baseline_watts_per_area": 16.684045
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3919,7 +4000,7 @@
       "radiant_fraction": 0.5,
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
-      "schedule": "OfficeLarge ALWAYS_ON"
+      "schedule": "DataCenter_EQUIP_SCH"
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -3949,7 +4030,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 18.621547
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3999,7 +4081,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 16.684045
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4049,7 +4132,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 15.177098999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4099,7 +4183,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 20.279187599999997
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4149,7 +4234,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 21.5278
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4199,7 +4285,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 18.5892553
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4249,7 +4336,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 19.805576
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4288,7 +4376,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 8.4496615
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4338,7 +4427,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 15.069459999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4377,7 +4467,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 25.3489845
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4427,7 +4518,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 21.958356
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4477,7 +4569,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 18.621547
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4516,7 +4609,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 15.177098999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4555,7 +4649,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 10.139593799999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4594,7 +4689,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 13.670152999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4633,7 +4729,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 10.139593799999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4672,7 +4769,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 13.670152999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4722,7 +4820,8 @@
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
-      "schedule": "Office Bldg Light"
+      "schedule": "Office Bldg Light",
+      "baseline_watts_per_area": 16.899323
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4761,7 +4860,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 22.60419
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4800,7 +4900,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 10.7639
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4850,7 +4951,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 13.99307
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4900,7 +5002,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 13.99307
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4950,7 +5053,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 19.37502
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5000,7 +5104,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 19.37502
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5039,7 +5144,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 7.534729999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5077,7 +5183,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 7.534729999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5126,7 +5233,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 17.22224
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5165,7 +5273,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 8.61112
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5215,7 +5324,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 19.37502
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5254,7 +5364,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 10.7639
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5303,7 +5414,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 10.7639
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5353,7 +5465,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 9.68751
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5403,7 +5516,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 9.68751
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5453,7 +5567,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 22.60419
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5503,7 +5618,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 22.60419
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5542,7 +5658,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 10.7639
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5592,7 +5709,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 22.60419
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5642,7 +5760,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 75.34729999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5701,7 +5820,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 19.37502
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5751,7 +5871,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 24.756969999999995
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5801,7 +5922,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 17.22224
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5851,7 +5973,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 15.069459999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5901,7 +6024,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 17.22224
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5951,7 +6075,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 10.7639
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6001,7 +6126,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 9.68751
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6040,7 +6166,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 8.61112
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6078,7 +6205,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 8.61112
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6116,7 +6244,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 0.0
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6165,7 +6294,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Outpatient Bldg Light"
+      "schedule": "Outpatient Bldg Light",
+      "baseline_watts_per_area": 22.60419
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6215,7 +6345,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "PrimarySchool Bldg Light"
+      "schedule": "PrimarySchool Bldg Light",
+      "baseline_watts_per_area": 15.069459999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6265,7 +6396,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "PrimarySchool Bldg Light"
+      "schedule": "PrimarySchool Bldg Light",
+      "baseline_watts_per_area": 21.5278
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6315,7 +6447,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "PrimarySchool Bldg Light"
+      "schedule": "PrimarySchool Bldg Light",
+      "baseline_watts_per_area": 9.68751
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6365,7 +6498,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "PrimarySchool Bldg Light"
+      "schedule": "PrimarySchool Bldg Light",
+      "baseline_watts_per_area": 11.517373000000001
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6415,7 +6549,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "PrimarySchool Bldg Light"
+      "schedule": "PrimarySchool Bldg Light",
+      "baseline_watts_per_area": 17.22224
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6474,7 +6609,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "PrimarySchool Bldg Light"
+      "schedule": "PrimarySchool Bldg Light",
+      "baseline_watts_per_area": 22.711828999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6513,7 +6649,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "PrimarySchool Bldg Light"
+      "schedule": "PrimarySchool Bldg Light",
+      "baseline_watts_per_area": 12.270845999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6563,7 +6700,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "PrimarySchool Bldg Light"
+      "schedule": "PrimarySchool Bldg Light",
+      "baseline_watts_per_area": 8.288203
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6613,7 +6751,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "PrimarySchool Bldg Light"
+      "schedule": "PrimarySchool Bldg Light",
+      "baseline_watts_per_area": 20.343770999999997
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6663,7 +6802,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "PrimarySchool Bldg Light"
+      "schedule": "PrimarySchool Bldg Light",
+      "baseline_watts_per_area": 9.68751
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6723,7 +6863,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "QuickServiceRestaurant Bldg Light"
+      "schedule": "QuickServiceRestaurant Bldg Light",
+      "baseline_watts_per_area": 15.500015999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6773,7 +6914,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "QuickServiceRestaurant Bldg Light"
+      "schedule": "QuickServiceRestaurant Bldg Light",
+      "baseline_watts_per_area": 16.684045
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6832,7 +6974,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Retail Bldg Light"
+      "schedule": "Retail Bldg Light",
+      "baseline_watts_per_area": 12.593763
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6882,7 +7025,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Retail Bldg Light"
+      "schedule": "Retail Bldg Light",
+      "baseline_watts_per_area": 36.274343
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6932,7 +7076,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Retail Bldg Light"
+      "schedule": "Retail Bldg Light",
+      "baseline_watts_per_area": 36.274343
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6982,7 +7127,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Retail Bldg Light"
+      "schedule": "Retail Bldg Light",
+      "baseline_watts_per_area": 36.274343
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7032,7 +7178,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "SecondarySchool Bldg Light"
+      "schedule": "SecondarySchool Bldg Light",
+      "baseline_watts_per_area": 12.055568000000001
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7082,7 +7229,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "SecondarySchool Bldg Light"
+      "schedule": "SecondarySchool Bldg Light",
+      "baseline_watts_per_area": 14.423626
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7132,7 +7280,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "SecondarySchool Bldg Light"
+      "schedule": "SecondarySchool Bldg Light",
+      "baseline_watts_per_area": 21.5278
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7182,7 +7331,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "SecondarySchool Bldg Light"
+      "schedule": "SecondarySchool Bldg Light",
+      "baseline_watts_per_area": 9.256954
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7232,7 +7382,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "SecondarySchool Bldg Light"
+      "schedule": "SecondarySchool Bldg Light",
+      "baseline_watts_per_area": 11.409734
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7282,7 +7433,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "SecondarySchool Bldg Light"
+      "schedule": "SecondarySchool Bldg Light",
+      "baseline_watts_per_area": 11.409734
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7332,7 +7484,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "SecondarySchool Bldg Light"
+      "schedule": "SecondarySchool Bldg Light",
+      "baseline_watts_per_area": 16.791684
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7391,7 +7544,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "SecondarySchool Bldg Light"
+      "schedule": "SecondarySchool Bldg Light",
+      "baseline_watts_per_area": 16.361128
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7430,7 +7584,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "SecondarySchool Bldg Light"
+      "schedule": "SecondarySchool Bldg Light",
+      "baseline_watts_per_area": 11.947929
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7480,7 +7635,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "SecondarySchool Bldg Light"
+      "schedule": "SecondarySchool Bldg Light",
+      "baseline_watts_per_area": 8.072925
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7530,7 +7686,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "SecondarySchool Bldg Light"
+      "schedule": "SecondarySchool Bldg Light",
+      "baseline_watts_per_area": 20.128493
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7580,7 +7737,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
-      "schedule": "SecondarySchool Bldg Light"
+      "schedule": "SecondarySchool Bldg Light",
+      "baseline_watts_per_area": 9.579870999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7629,7 +7787,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Always On"
+      "schedule": "Always On",
+      "baseline_watts_per_area": 9.256954
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7726,7 +7885,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "SmallHotel Exercise Light"
+      "schedule": "SmallHotel Exercise Light",
+      "baseline_watts_per_area": 14.746543
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7776,7 +7936,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "SmallHotel StaffLounge Light"
+      "schedule": "SmallHotel StaffLounge Light",
+      "baseline_watts_per_area": 14.100709
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7826,7 +7987,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "SmallHotel GuestRoom Light"
+      "schedule": "SmallHotel GuestRoom Light",
+      "baseline_watts_per_area": 18.729186
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7876,7 +8038,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "SmallHotel Laundry Light"
+      "schedule": "SmallHotel Laundry Light",
+      "baseline_watts_per_area": 11.194456
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7924,7 +8087,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "SmallHotel Bldg Light"
+      "schedule": "SmallHotel Bldg Light",
+      "baseline_watts_per_area": 10.333343999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7974,7 +8138,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "SmallHotel Meeting Light"
+      "schedule": "SmallHotel Meeting Light",
+      "baseline_watts_per_area": 22.927107
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8024,7 +8189,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "SmallHotel Office Light"
+      "schedule": "SmallHotel Office Light",
+      "baseline_watts_per_area": 21.635438999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8074,7 +8240,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "SmallHotel Bldg Light"
+      "schedule": "SmallHotel Bldg Light",
+      "baseline_watts_per_area": 11.840290000000001
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8123,7 +8290,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "SmallHotel StaffLounge Light"
+      "schedule": "SmallHotel StaffLounge Light",
+      "baseline_watts_per_area": 17.760434999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8162,7 +8330,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "Always On"
+      "schedule": "Always On",
+      "baseline_watts_per_area": 8.826398
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8200,7 +8369,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "SmallHotel Storage Light"
+      "schedule": "SmallHotel Storage Light",
+      "baseline_watts_per_area": 4.843755
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8249,7 +8419,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "StripMall Bldg Light"
+      "schedule": "StripMall Bldg Light",
+      "baseline_watts_per_area": 60.27783999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8299,7 +8470,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "StripMall Bldg Light"
+      "schedule": "StripMall Bldg Light",
+      "baseline_watts_per_area": 35.520869999999995
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8349,7 +8521,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "StripMall Bldg Light"
+      "schedule": "StripMall Bldg Light",
+      "baseline_watts_per_area": 29.062530000000002
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8399,7 +8572,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "SuperMarket Bldg Light"
+      "schedule": "SuperMarket Bldg Light",
+      "baseline_watts_per_area": 29.923641999999997
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8458,7 +8632,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "SuperMarket Bldg Light"
+      "schedule": "SuperMarket Bldg Light",
+      "baseline_watts_per_area": 11.840290000000001
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8508,7 +8683,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "SuperMarket Bldg Light"
+      "schedule": "SuperMarket Bldg Light",
+      "baseline_watts_per_area": 29.923641999999997
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8567,7 +8743,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "SuperMarket Bldg Light"
+      "schedule": "SuperMarket Bldg Light",
+      "baseline_watts_per_area": 11.840290000000001
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8617,7 +8794,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "SuperMarket Bldg Light"
+      "schedule": "SuperMarket Bldg Light",
+      "baseline_watts_per_area": 11.840290000000001
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8656,7 +8834,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "SuperMarket Bldg Light"
+      "schedule": "SuperMarket Bldg Light",
+      "baseline_watts_per_area": 11.840290000000001
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8701,7 +8880,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "SuperMarket Bldg Light"
+      "schedule": "SuperMarket Bldg Light",
+      "baseline_watts_per_area": 21.312521999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8751,7 +8931,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "SuperMarket Bldg Light"
+      "schedule": "SuperMarket Bldg Light",
+      "baseline_watts_per_area": 21.312521999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8801,7 +8982,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "SuperMarket Bldg Light"
+      "schedule": "SuperMarket Bldg Light",
+      "baseline_watts_per_area": 29.923641999999997
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8851,7 +9033,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "SuperMarket Bldg Light"
+      "schedule": "SuperMarket Bldg Light",
+      "baseline_watts_per_area": 11.840290000000001
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8901,7 +9084,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "SuperMarket Bldg Light"
+      "schedule": "SuperMarket Bldg Light",
+      "baseline_watts_per_area": 29.923641999999997
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8951,7 +9135,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
-      "schedule": "SuperMarket Bldg Light"
+      "schedule": "SuperMarket Bldg Light",
+      "baseline_watts_per_area": 11.840290000000001
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8990,7 +9175,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.5,
       "visible_fraction": 0.2,
-      "schedule": "Warehouse Bldg Light"
+      "schedule": "Warehouse Bldg Light",
+      "baseline_watts_per_area": 3.3399972671800002
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9029,7 +9215,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.5,
       "visible_fraction": 0.2,
-      "schedule": "Warehouse Bldg Light"
+      "schedule": "Warehouse Bldg Light",
+      "baseline_watts_per_area": 11.63998889046
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9079,7 +9266,8 @@
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.5,
       "visible_fraction": 0.2,
-      "schedule": "Warehouse Bldg Light"
+      "schedule": "Warehouse Bldg Light",
+      "baseline_watts_per_area": 21.68997860491
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
