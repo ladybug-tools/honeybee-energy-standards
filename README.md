@@ -86,7 +86,8 @@ own extensions for the library of standards accessible to honeybee_energy. For s
 developers, it is important to know the rules that must be followed to have a
 successful honeybee energy standards extension. First, any honeybee energy standards
 extension must have a package name the starts with `honeybee_energy` and ends
-with `standards` (all words in between are up to the user).
+with `standards` (all words in between are up to the user, barring spaces and
+special characters).
 
 Second, the following folders *MUST* be included in any honeybee energy standards
 extension:
