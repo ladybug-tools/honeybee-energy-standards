@@ -32,6 +32,15 @@
       "lost_fraction": 0.0,
       "schedule": "Courthouse BLDG_EQUIP_SCH"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::Courthouse::Break Room_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Courthouse BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::Courthouse::Break Room_Infiltration",
@@ -733,6 +742,15 @@
       "lost_fraction": 0.0,
       "schedule": "Courthouse BLDG_EQUIP_SCH"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::Courthouse::Restrooms_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Courthouse BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::Courthouse::Restrooms_Infiltration",
@@ -854,6 +872,17 @@
   "1980_2004::Courthouse::Storage": {
     "type": "ProgramTypeAbridged",
     "identifier": "1980_2004::Courthouse::Storage",
+    "people": {
+      "type": "PeopleAbridged",
+      "identifier": "1980_2004::Courthouse::Storage_People",
+      "people_per_area": 0.16145872576773623,
+      "radiant_fraction": 0.3,
+      "latent_fraction": {
+        "type": "Autocalculate"
+      },
+      "occupancy_schedule": "Courthouse OFFICE_OCC_SCH",
+      "activity_schedule": "Courthouse ACTIVITY_SCH"
+    },
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "1980_2004::Courthouse::Storage_Lighting",
@@ -1033,6 +1062,15 @@
       "latent_fraction": 0.1,
       "lost_fraction": 0.7,
       "schedule": "FullServiceRestaurant Gas Equip"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::FullServiceRestaurant::Kitchen_SHW",
+      "flow_per_area": 3.6103873419062524,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "RestaurantSitDown BLDG_SWH_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -1238,6 +1276,15 @@
       "lost_fraction": 0.0,
       "schedule": "Hospital Admin Equipment"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::Hospital::ER_Exam_SHW",
+      "flow_per_area": 0.1358193333197514,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Hospital BLDG_SWH_EXTD_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::Hospital::ER_Exam_Infiltration",
@@ -1340,6 +1387,15 @@
       "lost_fraction": 0.0,
       "schedule": "Hospital Critical Equip"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::Hospital::ER_Trauma_SHW",
+      "flow_per_area": 0.1358193333197514,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Hospital BLDG_SWH_EXTD_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::Hospital::ER_Trauma_Infiltration",
@@ -1390,6 +1446,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "Hospital Critical Equip"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::Hospital::ER_Triage_SHW",
+      "flow_per_area": 0.1358193333197514,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Hospital BLDG_SWH_EXTD_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -1603,6 +1668,15 @@
       "lost_fraction": 0.7,
       "schedule": "Hospital Kitchen Gas"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::Hospital::Kitchen_SHW",
+      "flow_per_area": 0.611187,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Hospital BLDG_SWH_EXTD_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::Hospital::Kitchen_Infiltration",
@@ -1653,6 +1727,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "Hospital Admin Equipment"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::Hospital::Lab_SHW",
+      "flow_per_area": 0.028593543861078805,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Hospital BLDG_SWH_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -1807,6 +1890,15 @@
       "lost_fraction": 0.0,
       "schedule": "Hospital Critical Equip"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::Hospital::OR_SHW",
+      "flow_per_area": 0.1358193333197514,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Hospital BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::Hospital::OR_Infiltration",
@@ -1960,6 +2052,15 @@
       "lost_fraction": 0.0,
       "schedule": "Hospital Critical Equip"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::Hospital::PatRoom_SHW",
+      "flow_per_area": 0.1455207142682518,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Hospital BLDG_SWH_EXTD_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::Hospital::PatRoom_Infiltration",
@@ -2011,6 +2112,15 @@
       "lost_fraction": 0.0,
       "schedule": "Hospital Admin Equipment"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::Hospital::PhysTherapy_SHW",
+      "flow_per_area": 0.007717007576004521,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Hospital BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::Hospital::PhysTherapy_Infiltration",
@@ -2061,6 +2171,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "Hospital Admin Equipment"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::Hospital::Radiology_SHW",
+      "flow_per_area": 0.0077611047628749,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Hospital BLDG_SWH_EXTD_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -2311,6 +2430,15 @@
       "lost_fraction": 0.0,
       "schedule": "LargeHotel GuestRoom Equip"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::LargeHotel::GuestRoom_SHW",
+      "flow_per_area": 0.12126726189700081,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "HotelLarge GuestRoom_SWH_Sch"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::LargeHotel::GuestRoom_Infiltration",
@@ -2361,6 +2489,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "LargeHotel GuestRoom Equip"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::LargeHotel::GuestRoom2_SHW",
+      "flow_per_area": 3.6644982173995486,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "HotelLarge GuestRoom_SWH_Sch"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -2413,6 +2550,15 @@
       "lost_fraction": 0.0,
       "schedule": "LargeHotel GuestRoom Equip"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::LargeHotel::GuestRoom3_SHW",
+      "flow_per_area": 0.12126726189700081,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "HotelLarge GuestRoom_SWH_Sch"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::LargeHotel::GuestRoom3_Infiltration",
@@ -2463,6 +2609,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "LargeHotel GuestRoom Equip"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::LargeHotel::GuestRoom4_SHW",
+      "flow_per_area": 1.735863684202034,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "HotelLarge GuestRoom_SWH_Sch"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -2524,6 +2679,15 @@
       "lost_fraction": 0.7,
       "schedule": "LargeHotel Kitchen Gas"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::LargeHotel::Kitchen_SHW",
+      "flow_per_area": 4.8733735592457,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "HotelLarge BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::LargeHotel::Kitchen_Infiltration",
@@ -2583,6 +2747,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "LargeHotel LaundryRoom Gas"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::LargeHotel::Laundry_SHW",
+      "flow_per_area": 7.59618128455012,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "HotelLarge LaundryRoom_SWH_Sch_Pre2004"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -2827,6 +3000,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "ApartmentMidRise EQP_APT_SCH"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::MidriseApartment::Apartment_SHW",
+      "flow_per_area": 0.149258298958091,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "ApartmentMidRise APT_DHW_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -3711,6 +3893,15 @@
       "lost_fraction": 0.0,
       "schedule": "Office Bldg Equip"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::MediumOffice::Elec/MechRoom_SHW",
+      "flow_per_area": 0.751610485952656,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Medium Office Bldg Swh"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::MediumOffice::Elec/MechRoom_Infiltration",
@@ -4144,6 +4335,15 @@
       "lost_fraction": 0.0,
       "schedule": "Office Bldg Equip"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::LargeOffice::Restroom_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Medium Office Bldg Occ"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::LargeOffice::Restroom_Infiltration",
@@ -4478,6 +4678,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "Small Office Bldg Equip"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::SmallOffice::Elec/MechRoom_SHW",
+      "flow_per_area": 0.02221690294246432,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OfficeSmall BLDG_SWH_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -4871,6 +5080,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "Outpatient Bldg Equip"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::Outpatient::Anesthesia_SHW",
+      "flow_per_area": 0.37727592591536224,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OutPatientHealthCare BLDG_SWH_SCH_Pre2004"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -5579,6 +5797,15 @@
       "lost_fraction": 0.0,
       "schedule": "Outpatient Radiology Equip"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::Outpatient::MRI_SHW",
+      "flow_per_area": 0.09260409092020341,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OutPatientHealthCare BLDG_SWH_SCH_Pre2004"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::Outpatient::MRI_Infiltration",
@@ -5629,6 +5856,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "Outpatient Bldg Equip"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::Outpatient::MRI_Control_SHW",
+      "flow_per_area": 0.24253452379400162,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OutPatientHealthCare BLDG_SWH_SCH_Pre2004"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -5781,6 +6017,15 @@
       "lost_fraction": 0.5,
       "schedule": "Outpatient Bldg Equip"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::Outpatient::OR_SHW",
+      "flow_per_area": 0.5179550848769781,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OutPatientHealthCare BLDG_SWH_SCH_Pre2004"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::Outpatient::OR_Infiltration",
@@ -5883,6 +6128,15 @@
       "lost_fraction": 0.0,
       "schedule": "Outpatient Bldg Equip"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::Outpatient::PACU_SHW",
+      "flow_per_area": 0.1289424050622596,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OutPatientHealthCare BLDG_SWH_SCH_Pre2004"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::Outpatient::PACU_Infiltration",
@@ -5933,6 +6187,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "Outpatient Bldg Equip"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::Outpatient::PhysicalTherapy_SHW",
+      "flow_per_area": 0.0430716701727016,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OutPatientHealthCare BLDG_SWH_SCH_Pre2004"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -5985,6 +6248,15 @@
       "lost_fraction": 0.0,
       "schedule": "Outpatient Bldg Equip"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::Outpatient::PreOp_SHW",
+      "flow_per_area": 0.15463301709156121,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OutPatientHealthCare BLDG_SWH_SCH_Pre2004"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::Outpatient::PreOp_Infiltration",
@@ -6035,6 +6307,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "Outpatient Bldg Equip"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::Outpatient::ProcedureRoom_SHW",
+      "flow_per_area": 0.142967719305394,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OutPatientHealthCare BLDG_SWH_SCH_Pre2004"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -6306,6 +6587,15 @@
       "lost_fraction": 0.0,
       "schedule": "Outpatient Radiology Equip"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::Outpatient::Xray_SHW",
+      "flow_per_area": 0.0452731111065838,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OutPatientHealthCare BLDG_SWH_SCH_Pre2004"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::Outpatient::Xray_Infiltration",
@@ -6570,6 +6860,15 @@
       "lost_fraction": 0.7,
       "schedule": "PrimarySchool Kitchen Gas"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::PrimarySchool::Kitchen_SHW",
+      "flow_per_area": 2.253639380397558,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "SchoolPrimary BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::PrimarySchool::Kitchen_Infiltration",
@@ -6814,6 +7113,15 @@
       "lost_fraction": 0.0,
       "schedule": "PrimarySchool Bldg Equip"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::PrimarySchool::Restroom_SHW",
+      "flow_per_area": 1.125739706675188,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "SchoolPrimary BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::PrimarySchool::Restroom_Infiltration",
@@ -6934,6 +7242,15 @@
       "latent_fraction": 0.1,
       "lost_fraction": 0.7,
       "schedule": "QuickServiceRestaurant Gas Equip"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::QuickServiceRestaurant::Kitchen_SHW",
+      "flow_per_area": 1.3038656000000002,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "QuickServiceRestaurant Bldg Swh"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -7394,6 +7711,15 @@
       "lost_fraction": 0.0,
       "schedule": "SecondarySchool Bldg Equip"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::SecondarySchool::Gym_SHW",
+      "flow_per_area": 0.3055599746002348,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "SchoolSecondary BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::SecondarySchool::Gym_Infiltration",
@@ -7444,6 +7770,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "SecondarySchool Bldg Equip"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::SecondarySchool::Gym - audience_SHW",
+      "flow_per_area": 0.3055599746002348,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "SchoolSecondary BLDG_SWH_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -7504,6 +7839,15 @@
       "latent_fraction": 0.1,
       "lost_fraction": 0.7,
       "schedule": "SecondarySchool Kitchen Gas"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::SecondarySchool::Kitchen_SHW",
+      "flow_per_area": 2.330835010945464,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "SchoolSecondary BLDG_SWH_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -7748,6 +8092,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "SecondarySchool Bldg Equip"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::SecondarySchool::Restroom_SHW",
+      "flow_per_area": 0.941119805197954,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "SchoolSecondary BLDG_SWH_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -7999,6 +8352,15 @@
       "lost_fraction": 0.0,
       "schedule": "SmallHotel GuestRoom Equip"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::SmallHotel::GuestRoom_SHW",
+      "flow_per_area": 0.2031485755085588,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "HotelSmall GuestRoom_SHW_Sch"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::SmallHotel::GuestRoom_Infiltration",
@@ -8058,6 +8420,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.5,
       "schedule": "SmallHotel Laundry Gas"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::SmallHotel::Laundry_SHW",
+      "flow_per_area": 2.61191025630578,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "HotelSmall LaundryRoom_SHW_Sch"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -8431,6 +8802,15 @@
       "lost_fraction": 0.0,
       "schedule": "StripMall Bldg Equip"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::StripMall::Type 1_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "RetailStripmall Type1_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::StripMall::Type 1_Infiltration",
@@ -8482,6 +8862,15 @@
       "lost_fraction": 0.0,
       "schedule": "StripMall Bldg Equip"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::StripMall::Type 2_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "RetailStripmall Type2_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "1980_2004::StripMall::Type 2_Infiltration",
@@ -8532,6 +8921,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "StripMall Bldg Equip"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::StripMall::Type 3_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "RetailStripmall Type3_SWH_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -8592,6 +8990,15 @@
       "latent_fraction": 0.1,
       "lost_fraction": 0.7,
       "schedule": "SuperMarket Gas Equip New"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::SuperMarket::Bakery_SHW",
+      "flow_per_area": 0.08726879418525,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "SuperMarket Bldg Swh"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -8703,6 +9110,15 @@
       "latent_fraction": 0.1,
       "lost_fraction": 0.7,
       "schedule": "SuperMarket Gas Equip New"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "1980_2004::SuperMarket::Deli_SHW",
+      "flow_per_area": 0.08726879418525,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "SuperMarket Bldg Swh"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",

@@ -6,6 +6,7 @@ import honeybee_energy.lib.schedules as sch_lib
 from honeybee_energy.load.people import People
 from honeybee_energy.load.lighting import Lighting
 from honeybee_energy.load.equipment import ElectricEquipment, GasEquipment
+from honeybee_energy.load.hotwater import ServiceHotWater
 from honeybee_energy.load.infiltration import Infiltration
 from honeybee_energy.load.ventilation import Ventilation
 from honeybee_energy.load.setpoint import Setpoint
@@ -63,6 +64,7 @@ def from_standards_dict(cls, data):
     lighting = None
     electric_equipment = None
     gas_equipment = None
+    hot_water = None
     infiltration = None
     ventilation = None
     setpoint = None
@@ -105,13 +107,30 @@ def from_standards_dict(cls, data):
         gequip_sched = sch_lib.schedule_by_identifier(data['gas_equipment_schedule'])
         try:
             gepd = data['gas_equipment_per_area'] * 3.15459
-        except KeyError:
+        except (TypeError, KeyError):
             gepd = 0  # there's a schedule but no actual load object
         gas_equipment = GasEquipment(
             '{}_Gas'.format(pr_type_identifier), gepd, gequip_sched,
             data['gas_equipment_fraction_radiant'],
             data['gas_equipment_fraction_latent'],
             data['gas_equipment_fraction_lost'])
+
+    if 'service_water_heating_schedule' in data and \
+            data['service_water_heating_schedule'] is not None:
+        shw_sch = sch_lib.schedule_by_identifier(data['service_water_heating_schedule'])
+        try:
+            shw_load = data['service_water_heating_peak_flow_per_area'] * 40.7458
+        except (TypeError, KeyError):
+            shw_load = 0  # there's a schedule but no actual load object
+        try:
+            shw_temp = round(
+                (data['service_water_heating_target_temperature'] - 32.) * 5. / 9.)
+        except (TypeError, KeyError):
+            shw_temp = 60
+        hot_water = ServiceHotWater(
+            '{}_SHW'.format(pr_type_identifier), shw_load, shw_sch, shw_temp,
+            data['service_water_heating_fraction_sensible'],
+            data['service_water_heating_fraction_latent'])
 
     if 'infiltration_schedule' in data and \
             data['infiltration_schedule'] is not None:
@@ -148,4 +167,4 @@ def from_standards_dict(cls, data):
             '{}_Setpoint'.format(pr_type_identifier), heat_sched, cool_sched)
 
     return cls(data['space_type'], people, lighting, electric_equipment,
-               gas_equipment, infiltration, ventilation, setpoint)
+               gas_equipment, hot_water, infiltration, ventilation, setpoint)

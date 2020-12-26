@@ -44,7 +44,8 @@ def clean_space_types(source_filename, dest_directory, vintage):
             the value is the dictionary representation of all the ProgramType data.
     """
     # list all edits to be made from the original file
-    _exclude_bldg = ('Office', 'Any')
+    _remove_bldg = ('College',)
+    _exclude_bldg = ('Office', 'Any', 'College')
     _exclude = ('Apartment_topfloor_NS',
                 'Apartment_topfloor_WE',
                 'Corridor_topfloor',
@@ -107,7 +108,7 @@ def clean_space_types(source_filename, dest_directory, vintage):
         if bldg_type not in registry_dict and bldg_type not in _exclude_bldg:
             registry_dict[bldg_type] = []
 
-        if prog['space_type'] in _exclude:
+        if prog['space_type'] in _exclude or prog['building_type'] in _remove_bldg:
             # get rid of odd space types that are not generally applicable
             pass
         elif prog['space_type'] in _replace:
