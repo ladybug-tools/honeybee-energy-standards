@@ -32,6 +32,15 @@
       "lost_fraction": 0.0,
       "schedule": "Courthouse BLDG_EQUIP_SCH"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Courthouse::Break Room_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Courthouse BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::Courthouse::Break Room_Infiltration",
@@ -744,6 +753,15 @@
       "lost_fraction": 0.0,
       "schedule": "Courthouse BLDG_EQUIP_SCH"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Courthouse::Restrooms_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Courthouse BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::Courthouse::Restrooms_Infiltration",
@@ -1042,6 +1060,15 @@
       "lost_fraction": 0.7,
       "schedule": "RestaurantSitDown Rest_GAS_EQUIP_SCH"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::FullServiceRestaurant::Kitchen_SHW",
+      "flow_per_area": 3.6103873419062524,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "RestaurantSitDown BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::FullServiceRestaurant::Kitchen_Infiltration",
@@ -1093,6 +1120,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "ApartmentHighRise EQP_APT_SCH"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::HighriseApartment::Apartment_SHW",
+      "flow_per_area": 0.149258298958091,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "ApartmentHighRise APT_DHW_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -1383,6 +1419,15 @@
       "lost_fraction": 0.0,
       "schedule": "Hospital BLDG_EQUIP_EXTD_SCH"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Hospital::ER_Exam_SHW",
+      "flow_per_area": 0.1358193333197514,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Hospital BLDG_SWH_EXTD_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::Hospital::ER_Exam_Infiltration",
@@ -1486,6 +1531,15 @@
       "lost_fraction": 0.0,
       "schedule": "Hospital BLDG_EQUIP_EXTD_SCH"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Hospital::ER_Trauma_SHW",
+      "flow_per_area": 0.1358193333197514,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Hospital BLDG_SWH_EXTD_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::Hospital::ER_Trauma_Infiltration",
@@ -1536,6 +1590,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "Hospital BLDG_EQUIP_EXTD_SCH"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Hospital::ER_Triage_SHW",
+      "flow_per_area": 0.1358193333197514,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Hospital BLDG_SWH_EXTD_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -1803,6 +1866,15 @@
       "lost_fraction": 0.0,
       "schedule": "Hospital BLDG_EQUIP_EXTD_SCH"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Hospital::Kitchen_SHW",
+      "flow_per_area": 0.611187,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Hospital BLDG_SWH_EXTD_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::Hospital::Kitchen_Infiltration",
@@ -1854,6 +1926,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "Hospital BLDG_EQUIP_SCH"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Hospital::Lab_SHW",
+      "flow_per_area": 0.028593543861078805,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Hospital BLDG_SWH_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -2011,6 +2092,15 @@
       "lost_fraction": 0.0,
       "schedule": "Hospital BLDG_EQUIP_SCH"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Hospital::OR_SHW",
+      "flow_per_area": 0.1358193333197514,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Hospital BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::Hospital::OR_Infiltration",
@@ -2165,6 +2255,15 @@
       "lost_fraction": 0.0,
       "schedule": "Hospital BLDG_EQUIP_EXTD_SCH"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Hospital::PatRoom_SHW",
+      "flow_per_area": 0.1455207142682518,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Hospital BLDG_SWH_EXTD_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::Hospital::PatRoom_Infiltration",
@@ -2216,6 +2315,15 @@
       "lost_fraction": 0.0,
       "schedule": "Hospital BLDG_EQUIP_SCH"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Hospital::PhysTherapy_SHW",
+      "flow_per_area": 0.007717007576004521,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Hospital BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::Hospital::PhysTherapy_Infiltration",
@@ -2266,6 +2374,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "Hospital BLDG_EQUIP_SCH"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Hospital::Radiology_SHW",
+      "flow_per_area": 0.0077611047628749,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Hospital BLDG_SWH_EXTD_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -2360,6 +2477,15 @@
       "lost_fraction": 0.0,
       "schedule": "Lab_EQUIP_SCH"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Laboratory::Lab with fume hood_SHW",
+      "flow_per_area": 0.0285935281332,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Lab_BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::Laboratory::Lab with fume hood_Infiltration",
@@ -2413,6 +2539,15 @@
       "lost_fraction": 0.0,
       "schedule": "OfficeMedium BLDG_EQUIP_SCH_2004"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Laboratory::Office_SHW",
+      "flow_per_area": 0.0387490928168,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OfficeMedium BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::Laboratory::Office_Infiltration",
@@ -2464,6 +2599,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "Lab_EQUIP_SCH"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Laboratory::Open lab_SHW",
+      "flow_per_area": 0.0285935281332,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "Lab_BLDG_SWH_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -2784,6 +2928,15 @@
       "lost_fraction": 0.0,
       "schedule": "HotelLarge GuestRoom_Eqp_Sch_Adva"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom_SHW",
+      "flow_per_area": 0.12126726189700081,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "HotelLarge GuestRoom_SWH_Sch"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::LargeHotel::GuestRoom_Infiltration",
@@ -2835,6 +2988,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "HotelLarge GuestRoom_Eqp_Sch_Adva"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom2_SHW",
+      "flow_per_area": 0.19292518940011302,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "HotelLarge GuestRoom_SWH_Sch"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -2888,6 +3050,15 @@
       "lost_fraction": 0.0,
       "schedule": "HotelLarge GuestRoom_Eqp_Sch_Adva"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom3_SHW",
+      "flow_per_area": 0.12126726189700081,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "HotelLarge GuestRoom_SWH_Sch"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::LargeHotel::GuestRoom3_Infiltration",
@@ -2940,6 +3111,15 @@
       "lost_fraction": 0.0,
       "schedule": "HotelLarge GuestRoom_Eqp_Sch_Adva"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom4_SHW",
+      "flow_per_area": 0.19292518940011302,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "HotelLarge GuestRoom_SWH_Sch"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::LargeHotel::GuestRoom4_Infiltration",
@@ -2955,6 +3135,189 @@
     "setpoint": {
       "type": "SetpointAbridged",
       "identifier": "2013::LargeHotel::GuestRoom4_Setpoint",
+      "heating_schedule": "HotelLarge Adva_OccGuestRoom_HtgSP_Sch",
+      "cooling_schedule": "HotelLarge Adva_OccGuestRoom_ClgSP_Sch"
+    }
+  },
+  "2013::LargeHotel::GuestRoom5": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2013::LargeHotel::GuestRoom5",
+    "people": {
+      "type": "PeopleAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom5_People",
+      "people_per_area": 0.04655393259636395,
+      "radiant_fraction": 0.3,
+      "latent_fraction": {
+        "type": "Autocalculate"
+      },
+      "occupancy_schedule": "HotelLarge GuestRoom_Occ_Sch",
+      "activity_schedule": "HotelLarge ACTIVITY_SCH"
+    },
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom5_Lighting",
+      "watts_per_area": 9.795149,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.7,
+      "visible_fraction": 0.2,
+      "schedule": "HotelLarge BLDG_LIGHT_GUESTROOM_SCH_2013",
+      "baseline_watts_per_area": 9.795149
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom5_Electric",
+      "watts_per_area": 8.1698001,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "HotelLarge GuestRoom_Eqp_Sch_Base"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom5_SHW",
+      "flow_per_area": 0.146863465989194,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "HotelLarge GuestRoom_SWH_Sch"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom5_Infiltration",
+      "flow_per_exterior_area": 0.0005689600000000001,
+      "schedule": "HotelLarge INFIL_QUARTER_ON_SCH"
+    },
+    "ventilation": {
+      "type": "VentilationAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom5_Ventilation",
+      "flow_per_person": 0.002359735,
+      "flow_per_area": 0.0003048
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom5_Setpoint",
+      "heating_schedule": "HotelLarge Adva_OccGuestRoom_HtgSP_Sch",
+      "cooling_schedule": "HotelLarge Adva_OccGuestRoom_ClgSP_Sch"
+    }
+  },
+  "2013::LargeHotel::GuestRoom6": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2013::LargeHotel::GuestRoom6",
+    "people": {
+      "type": "PeopleAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom6_People",
+      "people_per_area": 0.037996620130673925,
+      "radiant_fraction": 0.3,
+      "latent_fraction": {
+        "type": "Autocalculate"
+      },
+      "occupancy_schedule": "HotelLarge GuestRoom_Occ_Sch",
+      "activity_schedule": "HotelLarge ACTIVITY_SCH"
+    },
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom6_Lighting",
+      "watts_per_area": 9.795149,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.7,
+      "visible_fraction": 0.2,
+      "schedule": "HotelLarge BLDG_LIGHT_GUESTROOM_SCH_2013",
+      "baseline_watts_per_area": 9.795149
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom6_Electric",
+      "watts_per_area": 6.673617999999999,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "HotelLarge GuestRoom_Eqp_Sch_Base"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom6_SHW",
+      "flow_per_area": 0.1198405882520718,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "HotelLarge GuestRoom_SWH_Sch"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom6_Infiltration",
+      "flow_per_exterior_area": 0.0005689600000000001,
+      "schedule": "HotelLarge INFIL_QUARTER_ON_SCH"
+    },
+    "ventilation": {
+      "type": "VentilationAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom6_Ventilation",
+      "flow_per_person": 0.002359735,
+      "flow_per_area": 0.0003048
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom6_Setpoint",
+      "heating_schedule": "HotelLarge Adva_OccGuestRoom_HtgSP_Sch",
+      "cooling_schedule": "HotelLarge Adva_OccGuestRoom_ClgSP_Sch"
+    }
+  },
+  "2013::LargeHotel::GuestRoom7": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2013::LargeHotel::GuestRoom7",
+    "people": {
+      "type": "PeopleAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom7_People",
+      "people_per_area": 0.02777090083205063,
+      "radiant_fraction": 0.3,
+      "latent_fraction": {
+        "type": "Autocalculate"
+      },
+      "occupancy_schedule": "HotelLarge GuestRoom_Occ_Sch",
+      "activity_schedule": "HotelLarge ACTIVITY_SCH"
+    },
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom7_Lighting",
+      "watts_per_area": 9.795149,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.7,
+      "visible_fraction": 0.2,
+      "schedule": "HotelLarge BLDG_LIGHT_GUESTROOM_SCH_2013",
+      "baseline_watts_per_area": 9.795149
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom7_Electric",
+      "watts_per_area": 4.8760467,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "HotelLarge GuestRoom_Eqp_Sch_Base"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom7_SHW",
+      "flow_per_area": 0.08760276917224001,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "HotelLarge GuestRoom_SWH_Sch"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom7_Infiltration",
+      "flow_per_exterior_area": 0.0005689600000000001,
+      "schedule": "HotelLarge INFIL_QUARTER_ON_SCH"
+    },
+    "ventilation": {
+      "type": "VentilationAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom7_Ventilation",
+      "flow_per_person": 0.002359735,
+      "flow_per_area": 0.0003048
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom7_Setpoint",
       "heating_schedule": "HotelLarge Adva_OccGuestRoom_HtgSP_Sch",
       "cooling_schedule": "HotelLarge Adva_OccGuestRoom_ClgSP_Sch"
     }
@@ -3000,6 +3363,15 @@
       "latent_fraction": 0.1,
       "lost_fraction": 0.7,
       "schedule": "HotelLarge Kitchen_Gas_Equip_SCH"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::LargeHotel::Kitchen_SHW",
+      "flow_per_area": 4.8733735592457,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "HotelLarge BLDG_SWH_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -3061,6 +3433,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "HotelLarge BLDG_EQUIP_SCH"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::LargeHotel::Laundry_SHW",
+      "flow_per_area": 7.59618128455012,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "HotelLarge LaundryRoom_SWH_Sch_Post2004"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -3297,6 +3678,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "ApartmentMidRise EQP_APT_SCH"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::MidriseApartment::Apartment_SHW",
+      "flow_per_area": 0.149258298958091,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "ApartmentMidRise APT_DHW_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -3767,6 +4157,78 @@
       "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
     }
   },
+  "2013::LargeOffice::Elevator Lobby": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2013::LargeOffice::Elevator Lobby",
+    "people": {
+      "type": "PeopleAbridged",
+      "identifier": "2013::LargeOffice::Elevator Lobby_People",
+      "people_per_area": 0.10763915051182416,
+      "radiant_fraction": 0.3,
+      "latent_fraction": {
+        "type": "Autocalculate"
+      },
+      "occupancy_schedule": "OfficeLarge BLDG_OCC_SCH",
+      "activity_schedule": "OfficeMedium ACTIVITY_SCH"
+    },
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2013::LargeOffice::Elevator Lobby_Lighting",
+      "watts_per_area": 6.888896,
+      "return_air_fraction": 0.4,
+      "radiant_fraction": 0.4,
+      "visible_fraction": 0.2,
+      "schedule": "OfficeLarge BLDG_LIGHT_SCH",
+      "baseline_watts_per_area": 6.888896
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2013::LargeOffice::Elevator Lobby_Electric",
+      "watts_per_area": 0.7534730000000001,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "OfficeLarge BLDG_EQUIP_SCH"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2013::LargeOffice::Elevator Lobby_Infiltration",
+      "flow_per_exterior_area": 0.00022656800000000002,
+      "schedule": "OfficeLarge INFIL_SCH_PNNL"
+    },
+    "ventilation": {
+      "type": "VentilationAbridged",
+      "identifier": "2013::LargeOffice::Elevator Lobby_Ventilation",
+      "flow_per_person": 0.002359735,
+      "flow_per_area": 0.0003048
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2013::LargeOffice::Elevator Lobby_Setpoint",
+      "heating_schedule": "OfficeLarge HTGSETP_SCH_YES_OPTIMUM",
+      "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
+    }
+  },
+  "2013::LargeOffice::Elevator Machine Room": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2013::LargeOffice::Elevator Machine Room",
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2013::LargeOffice::Elevator Machine Room_Infiltration",
+      "flow_per_exterior_area": 0.00022656800000000002,
+      "schedule": "OfficeLarge INFIL_SCH_PNNL"
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2013::LargeOffice::Elevator Machine Room_Setpoint",
+      "heating_schedule": "TallBuilding Elevator Machine Room HTGSETP_SCH",
+      "cooling_schedule": "TallBuilding Elevator Machine Room CLGSETP_SCH"
+    }
+  },
+  "2013::LargeOffice::Elevator Shaft": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2013::LargeOffice::Elevator Shaft"
+  },
   "2013::LargeOffice::IT_Room": {
     "type": "ProgramTypeAbridged",
     "identifier": "2013::LargeOffice::IT_Room",
@@ -3867,6 +4329,86 @@
     "setpoint": {
       "type": "SetpointAbridged",
       "identifier": "2013::LargeOffice::Lobby_Setpoint",
+      "heating_schedule": "OfficeLarge HTGSETP_SCH_YES_OPTIMUM",
+      "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
+    }
+  },
+  "2013::LargeOffice::Main Electrical": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2013::LargeOffice::Main Electrical",
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2013::LargeOffice::Main Electrical_Lighting",
+      "watts_per_area": 10.225705,
+      "return_air_fraction": 0.4,
+      "radiant_fraction": 0.4,
+      "visible_fraction": 0.2,
+      "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
+      "baseline_watts_per_area": 10.225705
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2013::LargeOffice::Main Electrical_Electric",
+      "watts_per_area": 2.906253,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "OfficeLarge BLDG_EQUIP_SCH"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2013::LargeOffice::Main Electrical_Infiltration",
+      "flow_per_exterior_area": 0.00022656800000000002,
+      "schedule": "OfficeLarge INFIL_SCH_PNNL"
+    },
+    "ventilation": {
+      "type": "VentilationAbridged",
+      "identifier": "2013::LargeOffice::Main Electrical_Ventilation",
+      "flow_per_area": 0.0006096
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2013::LargeOffice::Main Electrical_Setpoint",
+      "heating_schedule": "OfficeLarge HTGSETP_SCH_YES_OPTIMUM",
+      "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
+    }
+  },
+  "2013::LargeOffice::Main Mechanical": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2013::LargeOffice::Main Mechanical",
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2013::LargeOffice::Main Mechanical_Lighting",
+      "watts_per_area": 10.225705,
+      "return_air_fraction": 0.4,
+      "radiant_fraction": 0.4,
+      "visible_fraction": 0.2,
+      "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
+      "baseline_watts_per_area": 10.225705
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2013::LargeOffice::Main Mechanical_Electric",
+      "watts_per_area": 5.38195,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "OfficeLarge BLDG_EQUIP_SCH"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2013::LargeOffice::Main Mechanical_Infiltration",
+      "flow_per_exterior_area": 0.00022656800000000002,
+      "schedule": "OfficeLarge INFIL_SCH_PNNL"
+    },
+    "ventilation": {
+      "type": "VentilationAbridged",
+      "identifier": "2013::LargeOffice::Main Mechanical_Ventilation",
+      "flow_per_area": 0.0006096
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2013::LargeOffice::Main Mechanical_Setpoint",
       "heating_schedule": "OfficeLarge HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
     }
@@ -4192,6 +4734,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "OfficeMedium BLDG_EQUIP_SCH_2013"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::MediumOffice::Elec/MechRoom_SHW",
+      "flow_per_area": 1.291949267910474,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OfficeMedium BLDG_SWH_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -4629,6 +5180,15 @@
       "lost_fraction": 0.0,
       "schedule": "OfficeLarge BLDG_EQUIP_SCH"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::LargeOffice::Restroom_SHW",
+      "flow_per_area": 8.340904943093921,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OfficeLarge BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::LargeOffice::Restroom_Infiltration",
@@ -4968,6 +5528,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "OfficeSmall BLDG_EQUIP_SCH_2013"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::SmallOffice::Elec/MechRoom_SHW",
+      "flow_per_area": 0.02221690294246432,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OfficeSmall BLDG_SWH_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -5374,6 +5943,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "OutPatientHealthCare BLDG_EQUIP_SCH_2013"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Outpatient::Anesthesia_SHW",
+      "flow_per_area": 0.754551851912216,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OutPatientHealthCare BLDG_SWH_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -6090,6 +6668,15 @@
       "lost_fraction": 0.0,
       "schedule": "OutPatientHealthCare BLDG_EQUIP_SCH_2013"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Outpatient::MRI_SHW",
+      "flow_per_area": 0.185208181799661,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OutPatientHealthCare BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::Outpatient::MRI_Infiltration",
@@ -6140,6 +6727,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "OutPatientHealthCare BLDG_EQUIP_SCH_2013"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Outpatient::MRI_Control_SHW",
+      "flow_per_area": 0.48506904742502,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OutPatientHealthCare BLDG_SWH_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -6293,6 +6889,15 @@
       "lost_fraction": 0.5,
       "schedule": "OutPatientHealthCare BLDG_EQUIP_SCH"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Outpatient::OR_SHW",
+      "flow_per_area": 1.035910169346498,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OutPatientHealthCare BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::Outpatient::OR_Infiltration",
@@ -6397,6 +7002,15 @@
       "lost_fraction": 0.0,
       "schedule": "OutPatientHealthCare BLDG_EQUIP_SCH_2013"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Outpatient::PACU_SHW",
+      "flow_per_area": 0.2578848101245192,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OutPatientHealthCare BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::Outpatient::PACU_Infiltration",
@@ -6449,6 +7063,15 @@
       "lost_fraction": 0.0,
       "schedule": "OutPatientHealthCare BLDG_EQUIP_SCH_2013"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Outpatient::PhysicalTherapy_SHW",
+      "flow_per_area": 0.086143340386149,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OutPatientHealthCare BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::Outpatient::PhysicalTherapy_Infiltration",
@@ -6499,6 +7122,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "OutPatientHealthCare BLDG_EQUIP_SCH_2013"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Outpatient::PreOp_SHW",
+      "flow_per_area": 0.30926603414237663,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OutPatientHealthCare BLDG_SWH_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -6551,6 +7183,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "OutPatientHealthCare BLDG_EQUIP_SCH_2013"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Outpatient::ProcedureRoom_SHW",
+      "flow_per_area": 0.285935438610788,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OutPatientHealthCare BLDG_SWH_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -6824,6 +7465,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "OutPatientHealthCare BLDG_EQUIP_SCH_2013"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Outpatient::Xray_SHW",
+      "flow_per_area": 0.0905462222131676,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "OutPatientHealthCare BLDG_SWH_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -7132,6 +7782,15 @@
       "lost_fraction": 0.7,
       "schedule": "SchoolPrimary KITCHEN_GAS_EQUIP_SCH"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::PrimarySchool::Kitchen_SHW",
+      "flow_per_area": 2.253639380397558,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "SchoolPrimary BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::PrimarySchool::Kitchen_Infiltration",
@@ -7357,6 +8016,15 @@
       "lost_fraction": 0.0,
       "schedule": "SchoolPrimary BLDG_EQUIP_SCH_2013"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::PrimarySchool::Restroom_SHW",
+      "flow_per_area": 1.125739706675188,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "SchoolPrimary BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::PrimarySchool::Restroom_Infiltration",
@@ -7473,6 +8141,15 @@
       "lost_fraction": 0.7,
       "schedule": "RestaurantFastFood FF_GAS_EQUIP_SCH"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::QuickServiceRestaurant::Kitchen_SHW",
+      "flow_per_area": 1.3038656000000002,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "RestaurantFastFood BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::QuickServiceRestaurant::Kitchen_Infiltration",
@@ -7524,6 +8201,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "RetailStandalone BLDG_EQUIP_SCH_2013"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::Retail::Back_Space_SHW",
+      "flow_per_area": 0.2181512195291382,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "RetailStandalone BLDG_SWH_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -8073,6 +8759,15 @@
       "lost_fraction": 0.0,
       "schedule": "SchoolSecondary BLDG_EQUIP_SCH_2013"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::SecondarySchool::Gym_SHW",
+      "flow_per_area": 0.3055599746002348,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "SchoolSecondary BLDG_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::SecondarySchool::Gym_Infiltration",
@@ -8132,6 +8827,15 @@
       "latent_fraction": 0.1,
       "lost_fraction": 0.7,
       "schedule": "SchoolSecondary KITCHEN_GAS_EQUIP_SCH"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::SecondarySchool::Kitchen_SHW",
+      "flow_per_area": 2.330835010945464,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "SchoolSecondary BLDG_SWH_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -8357,6 +9061,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "SchoolSecondary BLDG_EQUIP_SCH_2013"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::SecondarySchool::Restroom_SHW",
+      "flow_per_area": 0.941119805197954,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "SchoolSecondary BLDG_SWH_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -8743,6 +9456,15 @@
       "lost_fraction": 0.0,
       "schedule": "HotelSmall GuestRoom_Eqp_Sch_Adva"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::SmallHotel::GuestRoomOcc_SHW",
+      "flow_per_area": 0.257708478641185,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "HotelSmall GuestRoom_SHW_Sch"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::SmallHotel::GuestRoomOcc_Infiltration",
@@ -8793,6 +9515,15 @@
       "radiant_fraction": 0.5,
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
+      "schedule": "HotelSmall AlwaysOff"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::SmallHotel::GuestRoomVac_SHW",
+      "flow_per_area": 0.257708478641185,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
       "schedule": "HotelSmall AlwaysOff"
     },
     "infiltration": {
@@ -8855,6 +9586,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "HotelSmall LaundryRoom_Eqp_Gas_Sch"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::SmallHotel::Laundry_SHW",
+      "flow_per_area": 2.61191025630578,
+      "target_temperature": 82.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "HotelSmall LaundryRoom_SHW_Sch"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -9202,6 +9942,126 @@
       "cooling_schedule": "SmallHotel UnitHeater ClgSP Sch"
     }
   },
+  "2013::StripMall::Type 0A": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2013::StripMall::Type 0A",
+    "people": {
+      "type": "PeopleAbridged",
+      "identifier": "2013::StripMall::Type 0A_People",
+      "people_per_area": 0.08611132040945932,
+      "radiant_fraction": 0.3,
+      "latent_fraction": {
+        "type": "Autocalculate"
+      },
+      "occupancy_schedule": "RetailStripmall Type1_OCC_SCH",
+      "activity_schedule": "HotelSmall Activity_Sch"
+    },
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2013::StripMall::Type 0A_Lighting",
+      "watts_per_area": 13.454875,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.7,
+      "visible_fraction": 0.2,
+      "schedule": "RetailStripmall Type1_LIGHT_SCH_2013",
+      "baseline_watts_per_area": 13.454875
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2013::StripMall::Type 0A_Electric",
+      "watts_per_area": 4.30556,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "RetailStripmall Type1_EQUIP_SCH"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::StripMall::Type 0A_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "RetailStripmall Type1_SWH_SCH"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2013::StripMall::Type 0A_Infiltration",
+      "flow_per_exterior_area": 0.000251651008,
+      "schedule": "RetailStripmall Type1_Infil_SCH"
+    },
+    "ventilation": {
+      "type": "VentilationAbridged",
+      "identifier": "2013::StripMall::Type 0A_Ventilation",
+      "flow_per_area": 0.0011811
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2013::StripMall::Type 0A_Setpoint",
+      "heating_schedule": "RetailStripmall Type1_HTGSETP_SCH_NO_OPTIMUM",
+      "cooling_schedule": "RetailStripmall Type1_CLGSETP_SCH_NO_OPTIMUM"
+    }
+  },
+  "2013::StripMall::Type 0B": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2013::StripMall::Type 0B",
+    "people": {
+      "type": "PeopleAbridged",
+      "identifier": "2013::StripMall::Type 0B_People",
+      "people_per_area": 0.08611132040945932,
+      "radiant_fraction": 0.3,
+      "latent_fraction": {
+        "type": "Autocalculate"
+      },
+      "occupancy_schedule": "RetailStripmall Type1_OCC_SCH",
+      "activity_schedule": "HotelSmall Activity_Sch"
+    },
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2013::StripMall::Type 0B_Lighting",
+      "watts_per_area": 13.454875,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.7,
+      "visible_fraction": 0.2,
+      "schedule": "RetailStripmall Type1_LIGHT_SCH_2013",
+      "baseline_watts_per_area": 13.454875
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2013::StripMall::Type 0B_Electric",
+      "watts_per_area": 4.30556,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "RetailStripmall Type1_EQUIP_SCH"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::StripMall::Type 0B_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "RetailStripmall Type1_SWH_SCH"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2013::StripMall::Type 0B_Infiltration",
+      "flow_per_exterior_area": 0.000251651008,
+      "schedule": "RetailStripmall Type1_Infil_SCH"
+    },
+    "ventilation": {
+      "type": "VentilationAbridged",
+      "identifier": "2013::StripMall::Type 0B_Ventilation",
+      "flow_per_area": 0.0011811
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2013::StripMall::Type 0B_Setpoint",
+      "heating_schedule": "RetailStripmall Type1_HTGSETP_SCH_NO_OPTIMUM",
+      "cooling_schedule": "RetailStripmall Type1_CLGSETP_SCH_NO_OPTIMUM"
+    }
+  },
   "2013::StripMall::Type 1": {
     "type": "ProgramTypeAbridged",
     "identifier": "2013::StripMall::Type 1",
@@ -9234,6 +10094,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "RetailStripmall Type1_EQUIP_SCH"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::StripMall::Type 1_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "RetailStripmall Type1_SWH_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -9286,6 +10155,15 @@
       "lost_fraction": 0.0,
       "schedule": "RetailStripmall Type2_EQUIP_SCH"
     },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::StripMall::Type 2_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "RetailStripmall Type2_SWH_SCH"
+    },
     "infiltration": {
       "type": "InfiltrationAbridged",
       "identifier": "2013::StripMall::Type 2_Infiltration",
@@ -9336,6 +10214,15 @@
       "latent_fraction": 0.0,
       "lost_fraction": 0.0,
       "schedule": "RetailStripmall Type3_EQUIP_SCH"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::StripMall::Type 3_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "RetailStripmall Type3_SWH_SCH"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -9396,6 +10283,15 @@
       "latent_fraction": 0.1,
       "lost_fraction": 0.7,
       "schedule": "SuperMarket Gas Equip New"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::SuperMarket::Bakery_SHW",
+      "flow_per_area": 0.08726879418525,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "SuperMarket Bldg Swh"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
@@ -9508,6 +10404,15 @@
       "latent_fraction": 0.1,
       "lost_fraction": 0.7,
       "schedule": "SuperMarket Gas Equip New"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::SuperMarket::Deli_SHW",
+      "flow_per_area": 0.08726879418525,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "SuperMarket Bldg Swh"
     },
     "infiltration": {
       "type": "InfiltrationAbridged",
