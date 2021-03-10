@@ -1,0 +1,246 @@
+{
+    "Courthouse": {
+        "2013::Courthouse::Library": 0.030155,
+        "2013::Courthouse::Office": 0.192899,
+        "2013::Courthouse::Restrooms": 0.03999,
+        "2013::Courthouse::Courtroom": 0.113749,
+        "2013::Courthouse::Security Screening": 0.013231,
+        "2013::Courthouse::Corridor": 0.082882,
+        "2013::Courthouse::Entrance Lobby": 0.029918,
+        "2013::Courthouse::Elevator Lobby": 0.008531,
+        "2013::Courthouse::Parking": 0.108328,
+        "2013::Courthouse::Storage": 0.088155,
+        "2013::Courthouse::Elevator Shaft": 0.00474,
+        "2013::Courthouse::Jury Deliberation": 0.01333,
+        "2013::Courthouse::Conference": 0.020291,
+        "2013::Courthouse::Jury Assembly": 0.035546,
+        "2013::Courthouse::Courtroom Waiting": 0.05095,
+        "2013::Courthouse::Service Shaft": 0.001896,
+        "2013::Courthouse::Break Room": 0.006665,
+        "2013::Courthouse::Utility": 0.048432,
+        "2013::Courthouse::Stairs": 0.011138,
+        "2013::Courthouse::Cell": 0.073107,
+        "2013::Courthouse::Judges Chamber": 0.026067
+    },
+    "FullServiceRestaurant": {
+        "2013::FullServiceRestaurant::Kitchen": 0.272726,
+        "2013::FullServiceRestaurant::Dining": 0.727274
+    },
+    "HighriseApartment": {
+        "2013::HighriseApartment::Apartment": 0.89955,
+        "2013::HighriseApartment::Corridor": 0.089189,
+        "2013::HighriseApartment::Office": 0.011261
+    },
+    "Hospital": {
+        "2013::Hospital::OR": 0.019617,
+        "2013::Hospital::ER_Exam": 0.002802,
+        "2013::Hospital::NurseStn": 0.194306,
+        "2013::Hospital::Corridor": 0.196408,
+        "2013::Hospital::ER_Triage": 0.001401,
+        "2013::Hospital::PhysTherapy": 0.024522,
+        "2013::Hospital::Office": 0.011911,
+        "2013::Hospital::Basement": 0.188001,
+        "2013::Hospital::ICU_Open": 0.031069,
+        "2013::Hospital::Kitchen": 0.046708,
+        "2013::Hospital::ICU_PatRm": 0.003503,
+        "2013::Hospital::ER_Trauma": 0.002802,
+        "2013::Hospital::ER_NurseStn": 0.062122,
+        "2013::Hospital::PatRoom": 0.020879,
+        "2013::Hospital::Dining": 0.035031,
+        "2013::Hospital::Lobby": 0.074148,
+        "2013::Hospital::Radiology": 0.024522,
+        "2013::Hospital::Lab": 0.026624,
+        "2013::Hospital::ICU_NurseStn": 0.033623
+    },
+    "Laboratory": {
+        "2013::Laboratory::Office": 0.5,
+        "2013::Laboratory::Lab with fume hood": 0.1,
+        "2013::Laboratory::Open lab": 0.35,
+        "2013::Laboratory::Equipment corridor": 0.05
+    },
+    "LargeDataCenterHighITE": {
+        "2013::LargeDataCenterHighITE::StandaloneDataCenter": 1.0
+    },
+    "LargeDataCenterLowITE": {
+        "2013::LargeDataCenterLowITE::StandaloneDataCenter": 1.0
+    },
+    "LargeHotel": {
+        "2013::LargeHotel::GuestRoom": 0.026756,
+        "2013::LargeHotel::GuestRoom3": 0.013378,
+        "2013::LargeHotel::Laundry": 0.013378,
+        "2013::LargeHotel::Banquet": 0.113708,
+        "2013::LargeHotel::Kitchen": 0.017709,
+        "2013::LargeHotel::Lobby": 0.224254,
+        "2013::LargeHotel::Retail": 0.024812,
+        "2013::LargeHotel::Basement": 0.339218,
+        "2013::LargeHotel::Corridor": 0.137401,
+        "2013::LargeHotel::GuestRoom2": 0.008409,
+        "2013::LargeHotel::GuestRoom4": 0.004205,
+        "2013::LargeHotel::Cafe": 0.032375,
+        "2013::LargeHotel::Mechanical": 0.028155,
+        "2013::LargeHotel::Storage": 0.016244
+    },
+    "LargeOffice": {
+        "2013::LargeOffice::BreakRoom": 0.016723,
+        "2013::LargeOffice::OpenOffice": 0.49017,
+        "2013::LargeOffice::ClosedOffice": 0.149887,
+        "2013::LargeOffice::Corridor": 0.043116,
+        "2013::LargeOffice::Storage": 0.017834,
+        "2013::LargeOffice::Stair": 0.016896,
+        "2013::LargeOffice::Lobby": 0.051955,
+        "2013::LargeOffice::Conference": 0.014382,
+        "2013::LargeOffice::Restroom": 0.029023,
+        "2013::LargeOffice::Dining": 0.015118,
+        "2013::LargeOffice::OfficeLarge Data Center": 0.007666,
+        "2013::LargeOffice::Elec/MechRoom": 0.088456,
+        "2013::LargeOffice::Classroom": 0.003787,
+        "2013::LargeOffice::OfficeLarge Main Data Center": 0.054987
+    },
+    "MediumOffice": {
+        "2013::MediumOffice::OpenOffice": 0.425549,
+        "2013::MediumOffice::Conference": 0.051911,
+        "2013::MediumOffice::Stair": 0.036979,
+        "2013::MediumOffice::Corridor": 0.089647,
+        "2013::MediumOffice::ClosedOffice": 0.186644,
+        "2013::MediumOffice::Storage": 0.068569,
+        "2013::MediumOffice::Lobby": 0.054962,
+        "2013::MediumOffice::Elec/MechRoom": 0.029992,
+        "2013::MediumOffice::Dining": 0.013815,
+        "2013::MediumOffice::Restroom": 0.035951,
+        "2013::MediumOffice::Classroom": 0.005979
+    },
+    "MidriseApartment": {
+        "2013::MidriseApartment::Apartment": 0.863363,
+        "2013::MidriseApartment::Corridor": 0.099099,
+        "2013::MidriseApartment::Office": 0.037538
+    },
+    "Outpatient": {
+        "2013::Outpatient::CleanWork": 0.007107,
+        "2013::Outpatient::Exam": 0.102892,
+        "2013::Outpatient::Reception": 0.036463,
+        "2013::Outpatient::DressingRoom": 0.002125,
+        "2013::Outpatient::PreOp": 0.012871,
+        "2013::Outpatient::Janitor": 0.06721,
+        "2013::Outpatient::Office": 0.182826,
+        "2013::Outpatient::Cafe": 0.010257,
+        "2013::Outpatient::IT_Room": 0.002735,
+        "2013::Outpatient::PACU": 0.023152,
+        "2013::Outpatient::Hall": 0.192424,
+        "2013::Outpatient::Toilet": 0.019294,
+        "2013::Outpatient::Stair": 0.014556,
+        "2013::Outpatient::NurseStation": 0.018879,
+        "2013::Outpatient::Lounge": 0.029282,
+        "2013::Outpatient::PhysicalTherapy": 0.046207,
+        "2013::Outpatient::ElevatorPumpRoom": 0.002222,
+        "2013::Outpatient::Lobby": 0.015191,
+        "2013::Outpatient::OR": 0.034582,
+        "2013::Outpatient::Elec/MechRoom": 0.010941,
+        "2013::Outpatient::Soil Work": 0.008841,
+        "2013::Outpatient::Anesthesia": 0.002638,
+        "2013::Outpatient::MedGas": 0.001368,
+        "2013::Outpatient::LockerRoom": 0.019049,
+        "2013::Outpatient::MRI": 0.010746,
+        "2013::Outpatient::ProcedureRoom": 0.00696,
+        "2013::Outpatient::Undeveloped": 0.083525,
+        "2013::Outpatient::Conference": 0.008206,
+        "2013::Outpatient::Xray": 0.02198,
+        "2013::Outpatient::MRI_Control": 0.004103,
+        "2013::Outpatient::BioHazard": 0.001368
+    },
+    "PrimarySchool": {
+        "2013::PrimarySchool::Classroom": 0.479406,
+        "2013::PrimarySchool::Lobby": 0.024887,
+        "2013::PrimarySchool::Library": 0.05807,
+        "2013::PrimarySchool::Gym": 0.051958,
+        "2013::PrimarySchool::Kitchen": 0.024451,
+        "2013::PrimarySchool::Corridor": 0.163295,
+        "2013::PrimarySchool::ComputerRoom": 0.023577,
+        "2013::PrimarySchool::Mechanical": 0.036676,
+        "2013::PrimarySchool::Cafeteria": 0.045845,
+        "2013::PrimarySchool::Office": 0.064183,
+        "2013::PrimarySchool::Restroom": 0.027652
+    },
+    "QuickServiceRestaurant": {
+        "2013::QuickServiceRestaurant::Dining": 0.5,
+        "2013::QuickServiceRestaurant::Kitchen": 0.5
+    },
+    "Retail": {
+        "2013::Retail::Core_Retail": 0.697684,
+        "2013::Retail::Back_Space": 0.165602,
+        "2013::Retail::Front_Retail": 0.065741,
+        "2013::Retail::Point_of_Sale": 0.065741,
+        "2013::Retail::Entry": 0.005231
+    },
+    "SecondarySchool": {
+        "2013::SecondarySchool::Classroom": 0.304104,
+        "2013::SecondarySchool::Restroom": 0.021437,
+        "2013::SecondarySchool::Lobby": 0.021437,
+        "2013::SecondarySchool::Corridor": 0.214373,
+        "2013::SecondarySchool::Office": 0.054308,
+        "2013::SecondarySchool::Kitchen": 0.011025,
+        "2013::SecondarySchool::Auditorium": 0.050429,
+        "2013::SecondarySchool::Gym": 0.164557,
+        "2013::SecondarySchool::Library": 0.042875,
+        "2013::SecondarySchool::ComputerRoom": 0.048693,
+        "2013::SecondarySchool::Cafeteria": 0.03185,
+        "2013::SecondarySchool::Mechanical": 0.034912
+    },
+    "SmallDataCenterHighITE": {
+        "2013::SmallDataCenterHighITE::ComputerRoom": 1.0
+    },
+    "SmallDataCenterLowITE": {
+        "2013::SmallDataCenterLowITE::ComputerRoom": 1.0
+    },
+    "SmallHotel": {
+        "2013::SmallHotel::Mechanical": 0.008125,
+        "2013::SmallHotel::GuestRoomVac": 0.223128,
+        "2013::SmallHotel::GuestRoomOcc": 0.408121,
+        "2013::SmallHotel::ElevatorCore": 0.01125,
+        "2013::SmallHotel::Stair": 0.040003,
+        "2013::SmallHotel::Corridor": 0.131246,
+        "2013::SmallHotel::Storage": 0.032505,
+        "2013::SmallHotel::Elec/MechRoom": 0.00375,
+        "2013::SmallHotel::GuestLounge": 0.040626,
+        "2013::SmallHotel::Office": 0.032499,
+        "2013::SmallHotel::Exercise": 0.008125,
+        "2013::SmallHotel::PublicRestroom": 0.008125,
+        "2013::SmallHotel::Laundry": 0.024374,
+        "2013::SmallHotel::Meeting": 0.020001,
+        "2013::SmallHotel::StaffLounge": 0.008125
+    },
+    "SmallOffice": {
+        "2013::SmallOffice::Corridor": 0.121281,
+        "2013::SmallOffice::Conference": 0.081788,
+        "2013::SmallOffice::ClosedOffice": 0.332547,
+        "2013::SmallOffice::Lobby": 0.081774,
+        "2013::SmallOffice::Stair": 0.020098,
+        "2013::SmallOffice::Storage": 0.136329,
+        "2013::SmallOffice::OpenOffice": 0.16589,
+        "2013::SmallOffice::Elec/MechRoom": 0.020098,
+        "2013::SmallOffice::Restroom": 0.040196
+    },
+    "StripMall": {
+        "2013::StripMall::Type 2": 0.25,
+        "2013::StripMall::Type 1": 0.25,
+        "2013::StripMall::Type 3": 0.5
+    },
+    "SuperMarket": {
+        "2013::SuperMarket::Deli": 0.053745,
+        "2013::SuperMarket::Sales": 0.549434,
+        "2013::SuperMarket::Meeting": 0.011112,
+        "2013::SuperMarket::Produce": 0.170148,
+        "2013::SuperMarket::Vestibule": 0.006666,
+        "2013::SuperMarket::Office": 0.006658,
+        "2013::SuperMarket::DryStorage": 0.100977,
+        "2013::SuperMarket::Restroom": 0.014999,
+        "2013::SuperMarket::Bakery": 0.049998,
+        "2013::SuperMarket::Corridor": 0.011819,
+        "2013::SuperMarket::Elec/MechRoom": 0.013332,
+        "2013::SuperMarket::Dining": 0.011112
+    },
+    "Warehouse": {
+        "2013::Warehouse::Bulk": 0.662824,
+        "2013::Warehouse::Fine": 0.288184,
+        "2013::Warehouse::Office": 0.048991
+    }
+}

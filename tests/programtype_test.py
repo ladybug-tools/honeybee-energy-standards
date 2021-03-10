@@ -10,6 +10,7 @@ from honeybee_energy.load.setpoint import Setpoint
 from ladybug_geometry.geometry3d.pointvector import Vector3D
 
 import pytest
+import json
 
 
 def test_program_type_lib():
@@ -73,3 +74,18 @@ def test_model_to_dict_with_program_type():
     assert model_dict['rooms'][0]['properties']['energy']['setpoint']['identifier'] == \
         'Humidity Controlled PatRm Setpt'
     assert 'hvac' in model_dict['rooms'][0]['properties']['energy']
+
+
+
+def test_building_mix():
+    """Test that the building_mix ratios."""
+    bld_mix_file = './honeybee_energy_standards/building_mix.json'
+    with open(bld_mix_file) as inf:
+        bld_mix_dict = json.load(inf)
+
+    for building in bld_mix_dict.values():
+        for program in building:
+            prog_from_lib = prog_type_lib.program_type_by_identifier(program)
+            assert isinstance(prog_from_lib, ProgramType)
+        total_fracts = sum(f for f in building.values())
+        assert total_fracts == pytest.approx(1, rel=1e-3)
