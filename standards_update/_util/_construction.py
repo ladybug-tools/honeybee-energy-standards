@@ -13,11 +13,11 @@ def clean_constructions(source_filename, dest_directory):
         as the key and the dictionary of the construction properties as the values.
     * Remove keys from the construction that are not used by honeybee including:
         'insulation_layer', 'standards_construction_type', 'skylight_framing'.
-    * Discount odd constructions that are not generally applicable but are intsead
+    * Discount odd constructions that are not generally applicable but are instead
         specific to a DoE reference building. (eg. 'LargeHotel Interior Ceiling')
     * Remove the few constructions that do not have supporting materials in the
         nearby material.json. Note that this removal will not be performed if there
-        is no neightboring material.json next to where the constructions.json will
+        is no neighboring material.json next to where the constructions.json will
         be output.
 
     Args:
@@ -92,6 +92,11 @@ openstudio-standards/standards/ashrae_90_1/data/ashrae_90_1.constructions.json
                 window_constr_dict[constr['name']] = clean_constr
             else:
                 opaque_constr_dict[constr['name']] = clean_constr
+
+    # add the ground constructions
+    extra_folder = os.path.join(os.path.split(os.path.dirname(__file__))[0], '_extra')
+    with open(os.path.join(extra_folder, 'ground_constructions.json'), 'r') as f:
+        opaque_constr_dict.update(json.load(f))
 
     # remove any constructions that do not have supporting materials
     opaque_mat_fp = os.path.join(dest_directory, 'opaque_material.json')

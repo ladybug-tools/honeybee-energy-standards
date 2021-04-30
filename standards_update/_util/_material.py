@@ -63,6 +63,11 @@ openstudio-standards/standards/ashrae_90_1/data/ashrae_90_1.materials.json
             elif mat['material_type'] in window_types:
                 window_mat_dict[mat['name']] = clean_mat
 
+    # add the ground materials
+    extra_folder = os.path.join(os.path.split(os.path.dirname(__file__))[0], '_extra')
+    with open(os.path.join(extra_folder, 'ground_materials.json'), 'r') as f:
+        opaque_mat_dict.update(json.load(f))
+
     # add typical insulation materials with different resistances to the dictionary
     add_typical_insulation(opaque_mat_dict)
 

@@ -1,0 +1,86 @@
+{
+  "Dry Sand": {
+    "conductivity": 0.33, 
+    "specific_heat": 800.0, 
+    "density": 1555.0, 
+    "thermal_absorptance": 0.85, 
+    "thickness": 0.2, 
+    "solar_absorptance": 0.65, 
+    "visible_absorptance": 0.65, 
+    "roughness": "Rough", 
+    "type": "EnergyMaterial", 
+    "identifier": "Dry Sand"
+  },
+  "Dry Dust": {
+    "conductivity": 0.5, 
+    "specific_heat": 1026.0, 
+    "density": 1600.0, 
+    "thermal_absorptance": 0.9, 
+    "thickness": 0.2, 
+    "solar_absorptance": 0.7, 
+    "visible_absorptance": 0.7, 
+    "roughness": "Rough", 
+    "type": "EnergyMaterial", 
+    "identifier": "Dry Dust"
+  },
+  "Moist Soil": {
+    "conductivity": 1.0, 
+    "specific_heat": 1252.0, 
+    "density": 1250.0, 
+    "thermal_absorptance": 0.92, 
+    "thickness": 0.2, 
+    "solar_absorptance": 0.75, 
+    "visible_absorptance": 0.75, 
+    "roughness": "Rough", 
+    "type": "EnergyMaterial", 
+    "identifier": "Moist Soil"
+  },
+  "Mud": {
+    "conductivity": 1.4, 
+    "specific_heat": 1480.0, 
+    "density": 1840.0, 
+    "thermal_absorptance": 0.95, 
+    "thickness": 0.2, 
+    "solar_absorptance": 0.8, 
+    "visible_absorptance": 0.8, 
+    "roughness": "MediumRough", 
+    "type": "EnergyMaterial", 
+    "identifier": "Mud"
+  },
+  "Concrete Pavement": {
+    "conductivity": 1.73, 
+    "specific_heat": 837.0, 
+    "density": 2243.0, 
+    "thermal_absorptance": 0.9, 
+    "thickness": 0.2, 
+    "solar_absorptance": 0.65, 
+    "visible_absorptance": 0.65, 
+    "roughness": "MediumRough", 
+    "type": "EnergyMaterial", 
+    "identifier": "Concrete Pavement"
+  },
+  "Asphalt Pavement": {
+    "conductivity": 0.75, 
+    "specific_heat": 920.0, 
+    "density": 2360.0, 
+    "thermal_absorptance": 0.93, 
+    "thickness": 0.2, 
+    "solar_absorptance": 0.87, 
+    "visible_absorptance": 0.87, 
+    "roughness": "MediumRough", 
+    "type": "EnergyMaterial", 
+    "identifier": "Asphalt Pavement"
+  },
+  "Solid Rock": {
+    "conductivity": 3.0, 
+    "specific_heat": 790.0, 
+    "density": 2700.0, 
+    "thermal_absorptance": 0.96, 
+    "thickness": 0.2, 
+    "solar_absorptance": 0.55, 
+    "visible_absorptance": 0.55, 
+    "roughness": "MediumRough", 
+    "type": "EnergyMaterial", 
+    "identifier": "Solid Rock"
+  }
+}

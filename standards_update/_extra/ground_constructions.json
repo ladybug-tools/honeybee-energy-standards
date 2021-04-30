@@ -1,0 +1,51 @@
+{
+  "Dry Sand": {
+    "type": "OpaqueConstructionAbridged",
+    "identifier": "Dry Sand",
+    "layers": [
+      "Dry Sand"
+    ]
+  },
+  "Dry Dust": {
+    "type": "OpaqueConstructionAbridged",
+    "identifier": "Dry Dust",
+    "layers": [
+      "Dry Dust"
+    ]
+  },
+  "Moist Soil": {
+    "type": "OpaqueConstructionAbridged",
+    "identifier": "Moist Soil",
+    "layers": [
+      "Moist Soil"
+    ]
+  },
+  "Mud": {
+    "type": "OpaqueConstructionAbridged",
+    "identifier": "Mud",
+    "layers": [
+      "Mud"
+    ]
+  },
+  "Concrete Pavement": {
+    "type": "OpaqueConstructionAbridged",
+    "identifier": "Concrete Pavement",
+    "layers": [
+      "Concrete Pavement"
+    ]
+  },
+  "Asphalt Pavement": {
+    "type": "OpaqueConstructionAbridged",
+    "identifier": "Asphalt Pavement",
+    "layers": [
+      "Asphalt Pavement"
+    ]
+  },
+  "Solid Rock": {
+    "type": "OpaqueConstructionAbridged",
+    "identifier": "Solid Rock",
+    "layers": [
+      "Solid Rock"
+    ]
+  }
+}
