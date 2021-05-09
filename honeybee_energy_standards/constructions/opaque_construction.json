@@ -2,35 +2,35 @@
   "Adiabatic ExteriorFloor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Adiabatic ExteriorFloor",
-    "layers": [
+    "materials": [
       "Adiabatic Material"
     ]
   },
   "Adiabatic GroundContactFloor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Adiabatic GroundContactFloor",
-    "layers": [
+    "materials": [
       "Adiabatic Material"
     ]
   },
   "Adiabatic Roof": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Adiabatic Roof",
-    "layers": [
+    "materials": [
       "Adiabatic Material"
     ]
   },
   "Adiabatic Wall": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Adiabatic Wall",
-    "layers": [
+    "materials": [
       "Adiabatic Material"
     ]
   },
   "Typical Attic Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Attic Floor",
-    "layers": [
+    "materials": [
       "1/2IN Gypsum",
       "Typical Insulation",
       "1/2IN Gypsum"
@@ -39,14 +39,14 @@
   "Typical Attic Soffit": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Attic Soffit",
-    "layers": [
+    "materials": [
       "5/8 in. Plywood"
     ]
   },
   "Typical Built Up Roof": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Built Up Roof",
-    "layers": [
+    "materials": [
       "Built-up Roofing",
       "Typical Insulation",
       "Metal Surface"
@@ -55,7 +55,7 @@
   "Typical Built Up Roof - Highly Reflective": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Built Up Roof - Highly Reflective",
-    "layers": [
+    "materials": [
       "Built-up Roofing - Highly Reflective",
       "Typical Insulation",
       "Metal Surface"
@@ -64,7 +64,7 @@
   "Typical Carpeted 4in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Carpeted 4in Slab Floor",
-    "layers": [
+    "materials": [
       "MAT-CC05 4 HW CONCRETE",
       "Typical Carpet Pad"
     ]
@@ -72,7 +72,7 @@
   "Typical Carpeted 6in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Carpeted 6in Slab Floor",
-    "layers": [
+    "materials": [
       "6 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
     ]
@@ -80,7 +80,7 @@
   "Typical Carpeted 8in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Carpeted 8in Slab Floor",
-    "layers": [
+    "materials": [
       "8 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
     ]
@@ -88,7 +88,7 @@
   "Typical IEAD Roof": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical IEAD Roof",
-    "layers": [
+    "materials": [
       "Roof Membrane",
       "Typical Insulation",
       "Metal Roof Surface"
@@ -97,7 +97,7 @@
   "Typical IEAD Roof - Highly Reflective": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical IEAD Roof - Highly Reflective",
-    "layers": [
+    "materials": [
       "Roof Membrane - Highly Reflective",
       "Typical Insulation",
       "Metal Roof Surface"
@@ -106,7 +106,7 @@
   "Typical Insulated 6in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated 6in Slab Floor",
-    "layers": [
+    "materials": [
       "Typical Insulation",
       "6 in. Normalweight Concrete Floor"
     ]
@@ -114,7 +114,7 @@
   "Typical Insulated 8in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated 8in Slab Floor",
-    "layers": [
+    "materials": [
       "Typical Insulation",
       "8 in. Normalweight Concrete Floor"
     ]
@@ -122,7 +122,7 @@
   "Typical Insulated Basement Mass Wall": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Basement Mass Wall",
-    "layers": [
+    "materials": [
       "Typical Insulation",
       "8 in. Concrete Block Basement Wall"
     ]
@@ -130,7 +130,7 @@
   "Typical Insulated Carpeted 4in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Carpeted 4in Slab Floor",
-    "layers": [
+    "materials": [
       "Typical Insulation",
       "MAT-CC05 4 HW CONCRETE",
       "Typical Carpet Pad"
@@ -139,7 +139,7 @@
   "Typical Insulated Carpeted 6in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Carpeted 6in Slab Floor",
-    "layers": [
+    "materials": [
       "Typical Insulation",
       "6 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
@@ -148,7 +148,7 @@
   "Typical Insulated Carpeted 8in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Carpeted 8in Slab Floor",
-    "layers": [
+    "materials": [
       "Typical Insulation",
       "8 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
@@ -157,7 +157,7 @@
   "Typical Insulated Exterior Mass Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Floor",
-    "layers": [
+    "materials": [
       "Typical Insulation",
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
@@ -166,7 +166,7 @@
   "Typical Insulated Exterior Mass Floor Ceiling": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Floor Ceiling",
-    "layers": [
+    "materials": [
       "Typical Carpet Pad",
       "4 in. Normalweight Concrete Floor",
       "Typical Insulation"
@@ -175,7 +175,7 @@
   "Typical Insulated Exterior Mass Wall": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Wall",
-    "layers": [
+    "materials": [
       "1IN Stucco",
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation",
@@ -185,7 +185,7 @@
   "Typical Insulated Interior Wall": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Interior Wall",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation",
@@ -196,7 +196,7 @@
   "Typical Insulated Metal Building Roof": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Roof",
-    "layers": [
+    "materials": [
       "Metal Roof Surface",
       "Typical Insulation"
     ]
@@ -204,7 +204,7 @@
   "Typical Insulated Metal Building Roof - Highly Reflective": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Roof - Highly Reflective",
-    "layers": [
+    "materials": [
       "Metal Roof Surface - Highly Reflective",
       "Typical Insulation"
     ]
@@ -212,7 +212,7 @@
   "Typical Insulated Metal Building Wall": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Wall",
-    "layers": [
+    "materials": [
       "Metal Siding",
       "Typical Insulation",
       "1/2IN Gypsum"
@@ -221,7 +221,7 @@
   "Typical Insulated Metal Door": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Door",
-    "layers": [
+    "materials": [
       "F08 Metal surface",
       "Typical Insulation"
     ]
@@ -229,7 +229,7 @@
   "Typical Insulated Steel Framed Exterior Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Steel Framed Exterior Floor",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation",
@@ -240,7 +240,7 @@
   "Typical Insulated Steel Framed Exterior Wall": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Steel Framed Exterior Wall",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation",
@@ -250,7 +250,7 @@
   "Typical Insulated Wood Framed Exterior Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Wood Framed Exterior Floor",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation",
@@ -261,7 +261,7 @@
   "Typical Insulated Wood Framed Exterior Wall": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Wood Framed Exterior Wall",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation",
@@ -271,7 +271,7 @@
   "Typical Interior Ceiling": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Interior Ceiling",
-    "layers": [
+    "materials": [
       "CP02 CARPET PAD",
       "100mm Normalweight concrete floor"
     ]
@@ -279,14 +279,14 @@
   "Typical Interior Door": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Interior Door",
-    "layers": [
+    "materials": [
       "G05 25mm wood"
     ]
   },
   "Typical Interior Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Interior Floor",
-    "layers": [
+    "materials": [
       "100mm Normalweight concrete floor",
       "CP02 CARPET PAD"
     ]
@@ -294,14 +294,14 @@
   "Typical Interior Partition": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Interior Partition",
-    "layers": [
+    "materials": [
       "G05 25mm wood"
     ]
   },
   "Typical Interior Slab Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Interior Slab Floor",
-    "layers": [
+    "materials": [
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
     ]
@@ -309,7 +309,7 @@
   "Typical Interior Wall": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Interior Wall",
-    "layers": [
+    "materials": [
       "G01 13mm gypsum board",
       "G01 13mm gypsum board"
     ]
@@ -317,49 +317,49 @@
   "Typical Overhead Door": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Overhead Door",
-    "layers": [
+    "materials": [
       "Typical Insulation"
     ]
   },
   "Typical Uncarpeted 4in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uncarpeted 4in Slab Floor",
-    "layers": [
+    "materials": [
       "MAT-CC05 4 HW CONCRETE"
     ]
   },
   "Typical Uncarpeted 6in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uncarpeted 6in Slab Floor",
-    "layers": [
+    "materials": [
       "6 in. Normalweight Concrete Floor"
     ]
   },
   "Typical Uninsulated 6in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uninsulated 6in Slab Floor",
-    "layers": [
+    "materials": [
       "6 in. Normalweight Concrete Floor"
     ]
   },
   "Typical Uninsulated 8in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uninsulated 8in Slab Floor",
-    "layers": [
+    "materials": [
       "8 in. Normalweight Concrete Floor"
     ]
   },
   "Typical Uninsulated Basement Mass Wall": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uninsulated Basement Mass Wall",
-    "layers": [
+    "materials": [
       "8 in. Concrete Block Basement Wall"
     ]
   },
   "Typical Uninsulated Carpeted 8in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uninsulated Carpeted 8in Slab Floor",
-    "layers": [
+    "materials": [
       "8 in. Concrete Block Basement Wall",
       "Typical Carpet Pad"
     ]
@@ -367,7 +367,7 @@
   "Typical Uninsulated Exterior Mass Wall": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uninsulated Exterior Mass Wall",
-    "layers": [
+    "materials": [
       "1IN Stucco",
       "8IN CONCRETE HW RefBldg",
       "1/2IN Gypsum"
@@ -376,7 +376,7 @@
   "Typical Uninsulated Interior Wall": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uninsulated Interior Wall",
-    "layers": [
+    "materials": [
       "1/2 in. Gypsum Board",
       "1/2 in. Gypsum Board"
     ]
@@ -384,21 +384,21 @@
   "Typical Uninsulated Metal Building Roof": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uninsulated Metal Building Roof",
-    "layers": [
+    "materials": [
       "Metal Roofing"
     ]
   },
   "Typical Uninsulated Metal Building Roof - Highly Reflective": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uninsulated Metal Building Roof - Highly Reflective",
-    "layers": [
+    "materials": [
       "Metal Roofing - Highly Reflective"
     ]
   },
   "Typical Uninsulated Metal Building Wall": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uninsulated Metal Building Wall",
-    "layers": [
+    "materials": [
       "Metal Siding",
       "1/2IN Gypsum"
     ]
@@ -406,7 +406,7 @@
   "Typical Uninsulated Metal Roof Attic Roof": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uninsulated Metal Roof Attic Roof",
-    "layers": [
+    "materials": [
       "Roof Membrane",
       "Metal Decking"
     ]
@@ -414,7 +414,7 @@
   "Typical Uninsulated Steel Framed Exterior Wall": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uninsulated Steel Framed Exterior Wall",
-    "layers": [
+    "materials": [
       "Wood Siding",
       "1/2IN Gypsum"
     ]
@@ -422,14 +422,14 @@
   "Typical Uninsulated Swinging Door": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uninsulated Swinging Door",
-    "layers": [
+    "materials": [
       "Typical Insulation"
     ]
   },
   "Typical Uninsulated Wood Joist Attic Roof": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uninsulated Wood Joist Attic Roof",
-    "layers": [
+    "materials": [
       "Asphalt Shingles",
       "5/8 in. Plywood"
     ]
@@ -437,7 +437,7 @@
   "Typical Unisulated Carpeted 6in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Unisulated Carpeted 6in Slab Floor",
-    "layers": [
+    "materials": [
       "6 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
     ]
@@ -445,7 +445,7 @@
   "Typical Wood Joist Attic Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Wood Joist Attic Floor",
-    "layers": [
+    "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation"
     ]
@@ -453,7 +453,7 @@
   "Typical Wood Joist Attic Floor Ceiling": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Wood Joist Attic Floor Ceiling",
-    "layers": [
+    "materials": [
       "Typical Insulation",
       "5/8 in. Gypsum Board"
     ]
@@ -461,14 +461,14 @@
   "ext-slab": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "ext-slab",
-    "layers": [
+    "materials": [
       "6 in. Normalweight Concrete Floor"
     ]
   },
   "ext-slab-mass": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "ext-slab-mass",
-    "layers": [
+    "materials": [
       "HW CONCRETE",
       "CP02 CARPET PAD"
     ]
@@ -476,14 +476,14 @@
   "ext-slab-metal-building": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "ext-slab-metal-building",
-    "layers": [
+    "materials": [
       "HW CONCRETE 8 in"
     ]
   },
   "ext-slab-steel-frame": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "ext-slab-steel-frame",
-    "layers": [
+    "materials": [
       "HW CONCRETE 8 in",
       "CP02 CARPET PAD"
     ]
@@ -491,7 +491,7 @@
   "Typical Insulated Steel Framed Exterior Wall-R9": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Steel Framed Exterior Wall-R9",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R7",
@@ -501,7 +501,7 @@
   "Typical IEAD Roof - Highly Reflective-R21": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical IEAD Roof - Highly Reflective-R21",
-    "layers": [
+    "materials": [
       "Roof Membrane - Highly Reflective",
       "Typical Insulation-R21",
       "Metal Roof Surface"
@@ -510,7 +510,7 @@
   "Typical Insulated Steel Framed Exterior Floor-R3": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Steel Framed Exterior Floor-R3",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R1",
@@ -521,7 +521,7 @@
   "Typical Insulated Metal Door-R2": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Door-R2",
-    "layers": [
+    "materials": [
       "F08 Metal surface",
       "Typical Insulation-R2"
     ]
@@ -529,14 +529,14 @@
   "Typical Overhead Door-R1": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Overhead Door-R1",
-    "layers": [
+    "materials": [
       "Typical Insulation-R1"
     ]
   },
   "Typical Insulated Wood Framed Exterior Wall-R12": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Wood Framed Exterior Wall-R12",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R10",
@@ -546,7 +546,7 @@
   "Typical Wood Joist Attic Floor-R38": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Wood Joist Attic Floor-R38",
-    "layers": [
+    "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R37"
     ]
@@ -554,7 +554,7 @@
   "Typical Insulated Wood Framed Exterior Floor-R4": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Wood Framed Exterior Floor-R4",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R1",
@@ -565,7 +565,7 @@
   "Typical Insulated Exterior Mass Wall-R2": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Wall-R2",
-    "layers": [
+    "materials": [
       "1IN Stucco",
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R1",
@@ -575,7 +575,7 @@
   "Typical Insulated Exterior Mass Floor-R4": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Floor-R4",
-    "layers": [
+    "materials": [
       "Typical Insulation-R2",
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
@@ -584,7 +584,7 @@
   "Typical Insulated Metal Building Wall-R11": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Wall-R11",
-    "layers": [
+    "materials": [
       "Metal Siding",
       "Typical Insulation-R11",
       "1/2IN Gypsum"
@@ -593,7 +593,7 @@
   "Typical Insulated Metal Building Roof - Highly Reflective-R25": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Roof - Highly Reflective-R25",
-    "layers": [
+    "materials": [
       "Metal Roof Surface - Highly Reflective",
       "Typical Insulation-R25"
     ]
@@ -601,7 +601,7 @@
   "Typical Insulated Steel Framed Exterior Wall-R12": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Steel Framed Exterior Wall-R12",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R11",
@@ -611,7 +611,7 @@
   "Typical IEAD Roof - Highly Reflective-R26": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical IEAD Roof - Highly Reflective-R26",
-    "layers": [
+    "materials": [
       "Roof Membrane - Highly Reflective",
       "Typical Insulation-R26",
       "Metal Roof Surface"
@@ -620,7 +620,7 @@
   "Typical Insulated Steel Framed Exterior Floor-R27": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Steel Framed Exterior Floor-R27",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R24",
@@ -631,14 +631,14 @@
   "Typical Overhead Door-R2": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Overhead Door-R2",
-    "layers": [
+    "materials": [
       "Typical Insulation-R2"
     ]
   },
   "Typical Insulated Wood Framed Exterior Floor-R31": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Wood Framed Exterior Floor-R31",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R28",
@@ -649,7 +649,7 @@
   "Typical Insulated Exterior Mass Wall-R7": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Wall-R7",
-    "layers": [
+    "materials": [
       "1IN Stucco",
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R5",
@@ -659,7 +659,7 @@
   "Typical Insulated Exterior Mass Floor-R10": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Floor-R10",
-    "layers": [
+    "materials": [
       "Typical Insulation-R8",
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
@@ -668,7 +668,7 @@
   "Typical Insulated Metal Building Roof-R25": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Roof-R25",
-    "layers": [
+    "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R25"
     ]
@@ -676,7 +676,7 @@
   "Typical Insulated Steel Framed Exterior Wall-R13": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Steel Framed Exterior Wall-R13",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R12",
@@ -686,7 +686,7 @@
   "Typical Insulated Exterior Mass Wall-R9": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Wall-R9",
-    "layers": [
+    "materials": [
       "1IN Stucco",
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R7",
@@ -696,7 +696,7 @@
   "Typical Insulated Exterior Mass Floor-R14": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Floor-R14",
-    "layers": [
+    "materials": [
       "Typical Insulation-R12",
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
@@ -705,7 +705,7 @@
   "Typical Insulated Steel Framed Exterior Wall-R16": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Steel Framed Exterior Wall-R16",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R15",
@@ -715,7 +715,7 @@
   "Typical Insulated Basement Mass Wall-R8": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Basement Mass Wall-R8",
-    "layers": [
+    "materials": [
       "Typical Insulation-R7",
       "8 in. Concrete Block Basement Wall"
     ]
@@ -723,7 +723,7 @@
   "Typical IEAD Roof-R32": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical IEAD Roof-R32",
-    "layers": [
+    "materials": [
       "Roof Membrane",
       "Typical Insulation-R31",
       "Metal Roof Surface"
@@ -732,7 +732,7 @@
   "Typical Insulated Carpeted 8in Slab Floor-R5": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Carpeted 8in Slab Floor-R5",
-    "layers": [
+    "materials": [
       "Typical Insulation-R4",
       "8 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
@@ -741,7 +741,7 @@
   "Typical Insulated Wood Framed Exterior Wall-R16": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Wood Framed Exterior Wall-R16",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R15",
@@ -751,7 +751,7 @@
   "Typical Wood Joist Attic Floor-R48": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Wood Joist Attic Floor-R48",
-    "layers": [
+    "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R47"
     ]
@@ -759,7 +759,7 @@
   "Typical Insulated Exterior Mass Wall-R10": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Wall-R10",
-    "layers": [
+    "materials": [
       "1IN Stucco",
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R8",
@@ -769,7 +769,7 @@
   "Typical Insulated Exterior Mass Floor-R18": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Floor-R18",
-    "layers": [
+    "materials": [
       "Typical Insulation-R16",
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
@@ -778,7 +778,7 @@
   "Typical Insulated Metal Building Wall-R17": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Wall-R17",
-    "layers": [
+    "materials": [
       "Metal Siding",
       "Typical Insulation-R17",
       "1/2IN Gypsum"
@@ -787,7 +787,7 @@
   "Typical Insulated Metal Building Roof-R28": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Roof-R28",
-    "layers": [
+    "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R27"
     ]
@@ -795,7 +795,7 @@
   "Typical Insulated Steel Framed Exterior Wall-R19": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Steel Framed Exterior Wall-R19",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R17",
@@ -805,7 +805,7 @@
   "Typical Insulated Wood Framed Exterior Wall-R20": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Wood Framed Exterior Wall-R20",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R19",
@@ -815,7 +815,7 @@
   "Typical Insulated Exterior Mass Wall-R12": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Wall-R12",
-    "layers": [
+    "materials": [
       "1IN Stucco",
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R10",
@@ -825,7 +825,7 @@
   "Typical Insulated Metal Building Wall-R20": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Wall-R20",
-    "layers": [
+    "materials": [
       "Metal Siding",
       "Typical Insulation-R20",
       "1/2IN Gypsum"
@@ -834,7 +834,7 @@
   "Typical Insulated Steel Framed Exterior Wall-R21": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Steel Framed Exterior Wall-R21",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R19",
@@ -844,7 +844,7 @@
   "Typical Insulated Basement Mass Wall-R10": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Basement Mass Wall-R10",
-    "layers": [
+    "materials": [
       "Typical Insulation-R9",
       "8 in. Concrete Block Basement Wall"
     ]
@@ -852,7 +852,7 @@
   "Typical Insulated Steel Framed Exterior Floor-R32": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Steel Framed Exterior Floor-R32",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R29",
@@ -863,7 +863,7 @@
   "Typical Insulated Wood Framed Exterior Floor-R38": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Wood Framed Exterior Floor-R38",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R35",
@@ -874,7 +874,7 @@
   "Typical Insulated Exterior Mass Wall-R13": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Wall-R13",
-    "layers": [
+    "materials": [
       "1IN Stucco",
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R11",
@@ -884,7 +884,7 @@
   "Typical Insulated Exterior Mass Floor-R20": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Floor-R20",
-    "layers": [
+    "materials": [
       "Typical Insulation-R18",
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
@@ -893,7 +893,7 @@
   "Typical Insulated Metal Building Roof-R33": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Roof-R33",
-    "layers": [
+    "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R33"
     ]
@@ -901,7 +901,7 @@
   "Typical Insulated Basement Mass Wall-R15": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Basement Mass Wall-R15",
-    "layers": [
+    "materials": [
       "Typical Insulation-R14",
       "8 in. Concrete Block Basement Wall"
     ]
@@ -909,7 +909,7 @@
   "Typical IEAD Roof-R36": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical IEAD Roof-R36",
-    "layers": [
+    "materials": [
       "Roof Membrane",
       "Typical Insulation-R36",
       "Metal Roof Surface"
@@ -918,7 +918,7 @@
   "Typical Wood Joist Attic Floor-R59": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Wood Joist Attic Floor-R59",
-    "layers": [
+    "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R59"
     ]
@@ -926,7 +926,7 @@
   "Typical Insulated Exterior Mass Wall-R15": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Wall-R15",
-    "layers": [
+    "materials": [
       "1IN Stucco",
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R13",
@@ -936,7 +936,7 @@
   "Typical Insulated Exterior Mass Floor-R24": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Floor-R24",
-    "layers": [
+    "materials": [
       "Typical Insulation-R23",
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
@@ -945,7 +945,7 @@
   "Typical Insulated Metal Building Wall-R23": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Wall-R23",
-    "layers": [
+    "materials": [
       "Metal Siding",
       "Typical Insulation-R23",
       "1/2IN Gypsum"
@@ -954,7 +954,7 @@
   "Typical Insulated Metal Building Roof-R35": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Roof-R35",
-    "layers": [
+    "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R35"
     ]
@@ -962,7 +962,7 @@
   "Typical Insulated Steel Framed Exterior Wall-R28": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Steel Framed Exterior Wall-R28",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R26",
@@ -972,7 +972,7 @@
   "Typical Insulated Carpeted 8in Slab Floor-R10": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Carpeted 8in Slab Floor-R10",
-    "layers": [
+    "materials": [
       "Typical Insulation-R9",
       "8 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
@@ -981,7 +981,7 @@
   "Typical Insulated Wood Framed Exterior Wall-R32": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Wood Framed Exterior Wall-R32",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R30",
@@ -991,7 +991,7 @@
   "Typical Insulated Exterior Mass Wall-R21": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Wall-R21",
-    "layers": [
+    "materials": [
       "1IN Stucco",
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R20",
@@ -1001,7 +1001,7 @@
   "Typical Insulated Exterior Mass Floor-R27": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Floor-R27",
-    "layers": [
+    "materials": [
       "Typical Insulation-R25",
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
@@ -1010,7 +1010,7 @@
   "Typical Insulated Metal Building Wall-R26": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Wall-R26",
-    "layers": [
+    "materials": [
       "Metal Siding",
       "Typical Insulation-R26",
       "1/2IN Gypsum"
@@ -1019,7 +1019,7 @@
   "Typical Insulated Metal Building Roof-R39": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Roof-R39",
-    "layers": [
+    "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R39"
     ]
@@ -1027,7 +1027,7 @@
   "Typical IEAD Roof - Highly Reflective-R16": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical IEAD Roof - Highly Reflective-R16",
-    "layers": [
+    "materials": [
       "Roof Membrane - Highly Reflective",
       "Typical Insulation-R16",
       "Metal Roof Surface"
@@ -1036,7 +1036,7 @@
   "Typical Wood Joist Attic Floor-R30": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Wood Joist Attic Floor-R30",
-    "layers": [
+    "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R29"
     ]
@@ -1044,7 +1044,7 @@
   "Typical Insulated Metal Building Roof - Highly Reflective-R16": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Roof - Highly Reflective-R16",
-    "layers": [
+    "materials": [
       "Metal Roof Surface - Highly Reflective",
       "Typical Insulation-R16"
     ]
@@ -1052,7 +1052,7 @@
   "Typical Insulated Steel Framed Exterior Floor-R20": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Steel Framed Exterior Floor-R20",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R17",
@@ -1063,7 +1063,7 @@
   "Typical Insulated Wood Framed Exterior Floor-R20": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Wood Framed Exterior Floor-R20",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R17",
@@ -1074,7 +1074,7 @@
   "Typical Insulated Metal Building Roof-R19": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Roof-R19",
-    "layers": [
+    "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R19"
     ]
@@ -1082,7 +1082,7 @@
   "Typical Insulated Metal Building Wall-R12": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Wall-R12",
-    "layers": [
+    "materials": [
       "Metal Siding",
       "Typical Insulation-R12",
       "1/2IN Gypsum"
@@ -1091,7 +1091,7 @@
   "Typical IEAD Roof-R21": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical IEAD Roof-R21",
-    "layers": [
+    "materials": [
       "Roof Membrane",
       "Typical Insulation-R21",
       "Metal Roof Surface"
@@ -1100,7 +1100,7 @@
   "Typical Insulated Exterior Mass Floor-R12": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Floor-R12",
-    "layers": [
+    "materials": [
       "Typical Insulation-R10",
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
@@ -1109,7 +1109,7 @@
   "Typical Insulated Metal Building Wall-R15": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Wall-R15",
-    "layers": [
+    "materials": [
       "Metal Siding",
       "Typical Insulation-R14",
       "1/2IN Gypsum"
@@ -1118,7 +1118,7 @@
   "Typical Insulated Carpeted 6in Slab Floor-R5": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Carpeted 6in Slab Floor-R5",
-    "layers": [
+    "materials": [
       "Typical Insulation-R4",
       "6 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
@@ -1127,7 +1127,7 @@
   "Typical Insulated Exterior Mass Floor-R16": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Floor-R16",
-    "layers": [
+    "materials": [
       "Typical Insulation-R14",
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
@@ -1136,7 +1136,7 @@
   "Typical Insulated Metal Building Roof-R21": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Roof-R21",
-    "layers": [
+    "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R21"
     ]
@@ -1144,7 +1144,7 @@
   "Typical Insulated Metal Building Wall-R18": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Wall-R18",
-    "layers": [
+    "materials": [
       "Metal Siding",
       "Typical Insulation-R17",
       "1/2IN Gypsum"
@@ -1153,7 +1153,7 @@
   "Typical Insulated Wood Framed Exterior Wall-R28": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Wood Framed Exterior Wall-R28",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R27",
@@ -1163,7 +1163,7 @@
   "Typical Insulated Metal Building Roof-R29": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Roof-R29",
-    "layers": [
+    "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R29"
     ]
@@ -1171,7 +1171,7 @@
   "Typical Insulated Metal Building Wall-R9": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Wall-R9",
-    "layers": [
+    "materials": [
       "Metal Siding",
       "Typical Insulation-R9",
       "1/2IN Gypsum"
@@ -1180,7 +1180,7 @@
   "Typical Insulated Metal Building Roof-R16": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Roof-R16",
-    "layers": [
+    "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R16"
     ]
@@ -1188,7 +1188,7 @@
   "Typical IEAD Roof-R16": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical IEAD Roof-R16",
-    "layers": [
+    "materials": [
       "Roof Membrane",
       "Typical Insulation-R16",
       "Metal Roof Surface"
@@ -1197,7 +1197,7 @@
   "Typical Insulated Exterior Mass Floor-R8": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Floor-R8",
-    "layers": [
+    "materials": [
       "Typical Insulation-R6",
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
@@ -1206,7 +1206,7 @@
   "Typical IEAD Roof-R14": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical IEAD Roof-R14",
-    "layers": [
+    "materials": [
       "Roof Membrane",
       "Typical Insulation-R14",
       "Metal Roof Surface"
@@ -1215,7 +1215,7 @@
   "Typical Wood Joist Attic Floor-R14": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Wood Joist Attic Floor-R14",
-    "layers": [
+    "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R13"
     ]
@@ -1223,7 +1223,7 @@
   "Typical Insulated Metal Building Wall-R1": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Wall-R1",
-    "layers": [
+    "materials": [
       "Metal Siding",
       "Typical Insulation-R1",
       "1/2IN Gypsum"
@@ -1232,7 +1232,7 @@
   "Typical Insulated Metal Building Roof-R10": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Roof-R10",
-    "layers": [
+    "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R10"
     ]
@@ -1240,7 +1240,7 @@
   "Typical Insulated Steel Framed Exterior Wall-R7": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Steel Framed Exterior Wall-R7",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R6",
@@ -1250,7 +1250,7 @@
   "Typical Insulated Wood Framed Exterior Wall-R7": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Wood Framed Exterior Wall-R7",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R6",
@@ -1260,7 +1260,7 @@
   "Typical Wood Joist Attic Floor-R16": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Wood Joist Attic Floor-R16",
-    "layers": [
+    "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R15"
     ]
@@ -1268,7 +1268,7 @@
   "Typical Insulated Exterior Mass Wall-R3": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Wall-R3",
-    "layers": [
+    "materials": [
       "1IN Stucco",
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R2",
@@ -1278,7 +1278,7 @@
   "Typical Insulated Metal Building Wall-R7": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Wall-R7",
-    "layers": [
+    "materials": [
       "Metal Siding",
       "Typical Insulation-R7",
       "1/2IN Gypsum"
@@ -1287,7 +1287,7 @@
   "Typical Insulated Steel Framed Exterior Wall-R8": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Steel Framed Exterior Wall-R8",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R7",
@@ -1297,7 +1297,7 @@
   "Typical Insulated Basement Mass Wall-R7": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Basement Mass Wall-R7",
-    "layers": [
+    "materials": [
       "Typical Insulation-R6",
       "8 in. Concrete Block Basement Wall"
     ]
@@ -1305,7 +1305,7 @@
   "Typical Insulated Wood Framed Exterior Wall-R8": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Wood Framed Exterior Wall-R8",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R7",
@@ -1315,7 +1315,7 @@
   "Typical Insulated Exterior Mass Wall-R4": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Wall-R4",
-    "layers": [
+    "materials": [
       "1IN Stucco",
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R2",
@@ -1325,7 +1325,7 @@
   "Typical Insulated Metal Building Wall-R8": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Wall-R8",
-    "layers": [
+    "materials": [
       "Metal Siding",
       "Typical Insulation-R8",
       "1/2IN Gypsum"
@@ -1334,7 +1334,7 @@
   "Typical IEAD Roof-R18": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical IEAD Roof-R18",
-    "layers": [
+    "materials": [
       "Roof Membrane",
       "Typical Insulation-R17",
       "Metal Roof Surface"
@@ -1343,7 +1343,7 @@
   "Typical Wood Joist Attic Floor-R18": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Wood Joist Attic Floor-R18",
-    "layers": [
+    "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R17"
     ]
@@ -1351,7 +1351,7 @@
   "Typical Insulated Metal Building Roof-R12": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Roof-R12",
-    "layers": [
+    "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R12"
     ]
@@ -1359,7 +1359,7 @@
   "Typical IEAD Roof-R19": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical IEAD Roof-R19",
-    "layers": [
+    "materials": [
       "Roof Membrane",
       "Typical Insulation-R19",
       "Metal Roof Surface"
@@ -1368,7 +1368,7 @@
   "Typical Insulated Wood Framed Exterior Wall-R13": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Wood Framed Exterior Wall-R13",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R11",
@@ -1378,7 +1378,7 @@
   "Typical Wood Joist Attic Floor-R19": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Wood Joist Attic Floor-R19",
-    "layers": [
+    "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R19"
     ]
@@ -1386,7 +1386,7 @@
   "Typical Insulated Metal Building Wall-R13": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Wall-R13",
-    "layers": [
+    "materials": [
       "Metal Siding",
       "Typical Insulation-R12",
       "1/2IN Gypsum"
@@ -1395,7 +1395,7 @@
   "Typical Insulated Metal Building Roof-R14": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Roof-R14",
-    "layers": [
+    "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R14"
     ]
@@ -1403,7 +1403,7 @@
   "Typical Insulated Basement Mass Wall-R13": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Basement Mass Wall-R13",
-    "layers": [
+    "materials": [
       "Typical Insulation-R12",
       "8 in. Concrete Block Basement Wall"
     ]
@@ -1411,7 +1411,7 @@
   "Typical IEAD Roof-R23": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical IEAD Roof-R23",
-    "layers": [
+    "materials": [
       "Roof Membrane",
       "Typical Insulation-R22",
       "Metal Roof Surface"
@@ -1420,7 +1420,7 @@
   "Typical Wood Joist Attic Floor-R23": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Wood Joist Attic Floor-R23",
-    "layers": [
+    "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R22"
     ]
@@ -1428,7 +1428,7 @@
   "Typical Insulated Metal Building Wall-R16": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Wall-R16",
-    "layers": [
+    "materials": [
       "Metal Siding",
       "Typical Insulation-R15",
       "1/2IN Gypsum"
@@ -1437,7 +1437,7 @@
   "Typical Insulated Metal Building Roof-R23": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Roof-R23",
-    "layers": [
+    "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R23"
     ]
@@ -1445,7 +1445,7 @@
   "Typical Insulated Steel Framed Exterior Wall-R18": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Steel Framed Exterior Wall-R18",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R16",
@@ -1455,7 +1455,7 @@
   "Typical IEAD Roof-R25": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical IEAD Roof-R25",
-    "layers": [
+    "materials": [
       "Roof Membrane",
       "Typical Insulation-R25",
       "Metal Roof Surface"
@@ -1464,7 +1464,7 @@
   "Typical Insulated Wood Framed Exterior Wall-R18": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Wood Framed Exterior Wall-R18",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R16",
@@ -1474,7 +1474,7 @@
   "Typical Wood Joist Attic Floor-R25": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Wood Joist Attic Floor-R25",
-    "layers": [
+    "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R25"
     ]
@@ -1482,7 +1482,7 @@
   "Typical Insulated Exterior Mass Wall-R17": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Wall-R17",
-    "layers": [
+    "materials": [
       "1IN Stucco",
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R15",
@@ -1492,7 +1492,7 @@
   "Typical Insulated Steel Framed Exterior Wall-R23": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Steel Framed Exterior Wall-R23",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R21",
@@ -1502,7 +1502,7 @@
   "Typical Insulated Basement Mass Wall-R16": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Basement Mass Wall-R16",
-    "layers": [
+    "materials": [
       "Typical Insulation-R15",
       "8 in. Concrete Block Basement Wall"
     ]
@@ -1510,7 +1510,7 @@
   "Typical IEAD Roof-R33": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical IEAD Roof-R33",
-    "layers": [
+    "materials": [
       "Roof Membrane",
       "Typical Insulation-R32",
       "Metal Roof Surface"
@@ -1519,7 +1519,7 @@
   "Typical Insulated Wood Framed Exterior Wall-R23": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Wood Framed Exterior Wall-R23",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R21",
@@ -1529,7 +1529,7 @@
   "Typical Wood Joist Attic Floor-R33": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Wood Joist Attic Floor-R33",
-    "layers": [
+    "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R32"
     ]
@@ -1537,7 +1537,7 @@
   "Typical Insulated Exterior Mass Wall-R22": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Wall-R22",
-    "layers": [
+    "materials": [
       "1IN Stucco",
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R20",
@@ -1547,7 +1547,7 @@
   "Typical Insulated Steel Framed Exterior Wall-R5": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Steel Framed Exterior Wall-R5",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R3",
@@ -1557,7 +1557,7 @@
   "Typical IEAD Roof-R10": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical IEAD Roof-R10",
-    "layers": [
+    "materials": [
       "Roof Membrane",
       "Typical Insulation-R10",
       "Metal Roof Surface"
@@ -1566,7 +1566,7 @@
   "Typical Insulated Wood Framed Exterior Wall-R5": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Wood Framed Exterior Wall-R5",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R3",
@@ -1576,7 +1576,7 @@
   "Typical Wood Joist Attic Floor-R10": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Wood Joist Attic Floor-R10",
-    "layers": [
+    "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R10"
     ]
@@ -1584,7 +1584,7 @@
   "Typical Insulated Exterior Mass Wall-R5": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Wall-R5",
-    "layers": [
+    "materials": [
       "1IN Stucco",
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R3",
@@ -1594,7 +1594,7 @@
   "Typical Insulated Metal Building Wall-R5": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Wall-R5",
-    "layers": [
+    "materials": [
       "Metal Siding",
       "Typical Insulation-R4",
       "1/2IN Gypsum"
@@ -1603,7 +1603,7 @@
   "Typical Insulated Steel Framed Exterior Wall-R6": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Steel Framed Exterior Wall-R6",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R5",
@@ -1613,7 +1613,7 @@
   "Typical IEAD Roof-R12": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical IEAD Roof-R12",
-    "layers": [
+    "materials": [
       "Roof Membrane",
       "Typical Insulation-R12",
       "Metal Roof Surface"
@@ -1622,7 +1622,7 @@
   "Typical Insulated Wood Framed Exterior Wall-R6": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Wood Framed Exterior Wall-R6",
-    "layers": [
+    "materials": [
       "25mm Stucco",
       "5/8 in. Gypsum Board",
       "Typical Insulation-R5",
@@ -1632,7 +1632,7 @@
   "Typical Wood Joist Attic Floor-R12": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Wood Joist Attic Floor-R12",
-    "layers": [
+    "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R11"
     ]
@@ -1640,7 +1640,7 @@
   "Typical Insulated Exterior Mass Wall-R6": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Wall-R6",
-    "layers": [
+    "materials": [
       "1IN Stucco",
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R4",
@@ -1650,7 +1650,7 @@
   "Typical Insulated Metal Building Wall-R6": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Metal Building Wall-R6",
-    "layers": [
+    "materials": [
       "Metal Siding",
       "Typical Insulation-R6",
       "1/2IN Gypsum"
@@ -1659,7 +1659,7 @@
   "Typical IEAD Roof-R17": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical IEAD Roof-R17",
-    "layers": [
+    "materials": [
       "Roof Membrane",
       "Typical Insulation-R17",
       "Metal Roof Surface"
@@ -1668,7 +1668,7 @@
   "Typical Wood Joist Attic Floor-R17": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Wood Joist Attic Floor-R17",
-    "layers": [
+    "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R16"
     ]
@@ -1676,7 +1676,7 @@
   "Typical Insulated Exterior Mass Wall-R8": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Insulated Exterior Mass Wall-R8",
-    "layers": [
+    "materials": [
       "1IN Stucco",
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R6",
@@ -1686,49 +1686,49 @@
   "Dry Sand": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Dry Sand",
-    "layers": [
+    "materials": [
       "Dry Sand"
     ]
   },
   "Dry Dust": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Dry Dust",
-    "layers": [
+    "materials": [
       "Dry Dust"
     ]
   },
   "Moist Soil": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Moist Soil",
-    "layers": [
+    "materials": [
       "Moist Soil"
     ]
   },
   "Mud": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Mud",
-    "layers": [
+    "materials": [
       "Mud"
     ]
   },
   "Concrete Pavement": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Concrete Pavement",
-    "layers": [
+    "materials": [
       "Concrete Pavement"
     ]
   },
   "Asphalt Pavement": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Asphalt Pavement",
-    "layers": [
+    "materials": [
       "Asphalt Pavement"
     ]
   },
   "Solid Rock": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Solid Rock",
-    "layers": [
+    "materials": [
       "Solid Rock"
     ]
   }
