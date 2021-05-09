@@ -1,4 +1,4 @@
-honeybee-energy>=1.65.0
+honeybee-energy>=1.74.2
 pytest==4.6.9;python_version<'3.0'
 pytest==6.2.4;python_version>='3.6'
 pytest-cov==2.11.1
