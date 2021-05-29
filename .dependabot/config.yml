@@ -3,6 +3,17 @@ update_configs:
   - package_manager: "python"
     directory: "/"
     update_schedule: "daily"
+    ignored_updates:
+      - match:
+          dependency_name: "pytest"
+      - match:
+          dependency_name: "twine"
+      - match:
+          dependency_name: "setuptools"
+      - match:
+          dependency_name: "wheel"
+      - match:
+          dependency_name: "importlib-metadata"
     automerged_updates:
       - match:
           dependency_type: "all"
