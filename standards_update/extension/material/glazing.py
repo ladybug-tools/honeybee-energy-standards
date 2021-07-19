@@ -70,5 +70,5 @@ def simple_from_standards_dict(cls, data):
     assert data['material_type'] == 'SimpleGlazing', \
         'Expected SimpleGlazing. Got {}.'.format(data['material_type'])
     u_factor = data['u_factor'] * 5.678  # convert from Btu/hr*ft2*F
-    return cls(data['name'], u_factor, data['solar_heat_gain_coefficient'],
-               data['visible_transmittance'])
+    vt = data['visible_transmittance'] if 'visible_transmittance' in data else 0.6
+    return cls(data['name'], u_factor, data['solar_heat_gain_coefficient'], vt)

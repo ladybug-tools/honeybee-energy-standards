@@ -93,11 +93,6 @@ openstudio-standards/standards/ashrae_90_1/data/ashrae_90_1.constructions.json
             else:
                 opaque_constr_dict[constr['name']] = clean_constr
 
-    # add the ground constructions
-    extra_folder = os.path.join(os.path.split(os.path.dirname(__file__))[0], '_extra')
-    with open(os.path.join(extra_folder, 'ground_constructions.json'), 'r') as f:
-        opaque_constr_dict.update(json.load(f))
-
     # remove any constructions that do not have supporting materials
     opaque_mat_fp = os.path.join(dest_directory, 'opaque_material.json')
     remove_constructions_without_materials(opaque_mat_fp, opaque_constr_dict)

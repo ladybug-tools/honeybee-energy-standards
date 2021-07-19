@@ -1256,12 +1256,54 @@
     "shgc": 0.24,
     "vt": 0.264
   },
+  "U 0.25 SHGC 0.45 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.25 SHGC 0.45 Simple Glazing",
+    "u_factor": 1.4195,
+    "shgc": 0.45,
+    "vt": 0.6
+  },
+  "U 0.26 SHGC 0.4 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.26 SHGC 0.4 Simple Glazing",
+    "u_factor": 1.47628,
+    "shgc": 0.4,
+    "vt": 0.6
+  },
   "U 0.26 SHGC 0.40 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
     "identifier": "U 0.26 SHGC 0.40 Simple Glazing",
     "u_factor": 1.47628,
     "shgc": 0.4,
     "vt": 0.44000000000000006
+  },
+  "U 0.27 SHGC 0.4 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.27 SHGC 0.4 Simple Glazing",
+    "u_factor": 1.53306,
+    "shgc": 0.4,
+    "vt": 0.6
+  },
+  "U 0.28 SHGC 0.39 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.28 SHGC 0.39 Simple Glazing",
+    "u_factor": 1.5898400000000001,
+    "shgc": 0.39,
+    "vt": 0.6
+  },
+  "U 0.28 SHGC 0.45 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.28 SHGC 0.45 Simple Glazing",
+    "u_factor": 1.5898400000000001,
+    "shgc": 0.45,
+    "vt": 0.6
+  },
+  "U 0.29 SHGC 0.4 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.29 SHGC 0.4 Simple Glazing",
+    "u_factor": 1.64662,
+    "shgc": 0.4,
+    "vt": 0.6
   },
   "U 0.29 SHGC 0.40 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
@@ -1270,6 +1312,48 @@
     "shgc": 0.4,
     "vt": 0.44000000000000006
   },
+  "U 0.29 SHGC 0.45 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.29 SHGC 0.45 Simple Glazing",
+    "u_factor": 1.64662,
+    "shgc": 0.45,
+    "vt": 0.6
+  },
+  "U 0.3 SHGC 0.4 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.3 SHGC 0.4 Simple Glazing",
+    "u_factor": 1.7034,
+    "shgc": 0.4,
+    "vt": 0.6
+  },
+  "U 0.31 SHGC 0.36 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.31 SHGC 0.36 Simple Glazing",
+    "u_factor": 1.76018,
+    "shgc": 0.36,
+    "vt": 0.6
+  },
+  "U 0.31 SHGC 0.38 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.31 SHGC 0.38 Simple Glazing",
+    "u_factor": 1.76018,
+    "shgc": 0.38,
+    "vt": 0.6
+  },
+  "U 0.31 SHGC 0.39 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.31 SHGC 0.39 Simple Glazing",
+    "u_factor": 1.76018,
+    "shgc": 0.39,
+    "vt": 0.6
+  },
+  "U 0.32 SHGC 0.22 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.32 SHGC 0.22 Simple Glazing",
+    "u_factor": 1.81696,
+    "shgc": 0.22,
+    "vt": 0.6
+  },
   "U 0.32 SHGC 0.36 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
     "identifier": "U 0.32 SHGC 0.36 Simple Glazing",
@@ -1277,12 +1361,33 @@
     "shgc": 0.36,
     "vt": 0.396
   },
+  "U 0.32 SHGC 0.45 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.32 SHGC 0.45 Simple Glazing",
+    "u_factor": 1.81696,
+    "shgc": 0.45,
+    "vt": 0.6
+  },
+  "U 0.33 SHGC 0.25 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.33 SHGC 0.25 Simple Glazing",
+    "u_factor": 1.87374,
+    "shgc": 0.25,
+    "vt": 0.6
+  },
+  "U 0.33 SHGC 0.45 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.33 SHGC 0.45 Simple Glazing",
+    "u_factor": 1.87374,
+    "shgc": 0.45,
+    "vt": 0.6
+  },
   "U 0.34 SHGC 0.38 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
     "identifier": "U 0.34 SHGC 0.38 Simple Glazing",
     "u_factor": 1.93052,
     "shgc": 0.38,
-    "vt": 0.41800000000000004
+    "vt": 0.6
   },
   "U 0.35 SHGC 0.22 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
@@ -1298,26 +1403,124 @@
     "shgc": 0.24,
     "vt": 0.264
   },
+  "U 0.35 SHGC 0.38 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.35 SHGC 0.38 Simple Glazing",
+    "u_factor": 1.9872999999999998,
+    "shgc": 0.38,
+    "vt": 0.6
+  },
   "U 0.36 SHGC 0.36 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
     "identifier": "U 0.36 SHGC 0.36 Simple Glazing",
     "u_factor": 2.04408,
     "shgc": 0.36,
-    "vt": 0.396
+    "vt": 0.6
+  },
+  "U 0.36 SHGC 0.37 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.36 SHGC 0.37 Simple Glazing",
+    "u_factor": 2.04408,
+    "shgc": 0.37,
+    "vt": 0.6
   },
   "U 0.36 SHGC 0.38 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
     "identifier": "U 0.36 SHGC 0.38 Simple Glazing",
     "u_factor": 2.04408,
     "shgc": 0.38,
-    "vt": 0.41800000000000004
+    "vt": 0.6
+  },
+  "U 0.36 SHGC 0.4 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.36 SHGC 0.4 Simple Glazing",
+    "u_factor": 2.04408,
+    "shgc": 0.4,
+    "vt": 0.6
+  },
+  "U 0.36 SHGC 0.45 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.36 SHGC 0.45 Simple Glazing",
+    "u_factor": 2.04408,
+    "shgc": 0.45,
+    "vt": 0.6
+  },
+  "U 0.37 SHGC 0.25 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.37 SHGC 0.25 Simple Glazing",
+    "u_factor": 2.10086,
+    "shgc": 0.25,
+    "vt": 0.6
+  },
+  "U 0.37 SHGC 0.36 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.37 SHGC 0.36 Simple Glazing",
+    "u_factor": 2.10086,
+    "shgc": 0.36,
+    "vt": 0.6
+  },
+  "U 0.37 SHGC 0.38 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.37 SHGC 0.38 Simple Glazing",
+    "u_factor": 2.10086,
+    "shgc": 0.38,
+    "vt": 0.6
+  },
+  "U 0.38 SHGC 0.35 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.38 SHGC 0.35 Simple Glazing",
+    "u_factor": 2.15764,
+    "shgc": 0.35,
+    "vt": 0.6
+  },
+  "U 0.38 SHGC 0.36 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.38 SHGC 0.36 Simple Glazing",
+    "u_factor": 2.15764,
+    "shgc": 0.36,
+    "vt": 0.6
+  },
+  "U 0.38 SHGC 0.37 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.38 SHGC 0.37 Simple Glazing",
+    "u_factor": 2.15764,
+    "shgc": 0.37,
+    "vt": 0.6
+  },
+  "U 0.38 SHGC 0.38 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.38 SHGC 0.38 Simple Glazing",
+    "u_factor": 2.15764,
+    "shgc": 0.38,
+    "vt": 0.6
+  },
+  "U 0.38 SHGC 0.45 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.38 SHGC 0.45 Simple Glazing",
+    "u_factor": 2.15764,
+    "shgc": 0.45,
+    "vt": 0.6
+  },
+  "U 0.39 SHGC 0.45 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.39 SHGC 0.45 Simple Glazing",
+    "u_factor": 2.21442,
+    "shgc": 0.45,
+    "vt": 0.6
+  },
+  "U 0.41 SHGC 0.55 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.41 SHGC 0.55 Simple Glazing",
+    "u_factor": 2.3279799999999997,
+    "shgc": 0.55,
+    "vt": 0.6
   },
   "U 0.42 SHGC 0.25 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
     "identifier": "U 0.42 SHGC 0.25 Simple Glazing",
     "u_factor": 2.38476,
     "shgc": 0.25,
-    "vt": 0.275
+    "vt": 0.6
   },
   "U 0.42 SHGC 0.34 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
@@ -1326,12 +1529,26 @@
     "shgc": 0.34,
     "vt": 0.37400000000000005
   },
+  "U 0.43 SHGC 0.25 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.43 SHGC 0.25 Simple Glazing",
+    "u_factor": 2.44154,
+    "shgc": 0.25,
+    "vt": 0.6
+  },
+  "U 0.44 SHGC 0.55 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.44 SHGC 0.55 Simple Glazing",
+    "u_factor": 2.49832,
+    "shgc": 0.55,
+    "vt": 0.6
+  },
   "U 0.45 SHGC 0.25 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
     "identifier": "U 0.45 SHGC 0.25 Simple Glazing",
     "u_factor": 2.5551,
     "shgc": 0.25,
-    "vt": 0.275
+    "vt": 0.6
   },
   "U 0.45 SHGC 0.33 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
@@ -1340,12 +1557,40 @@
     "shgc": 0.33,
     "vt": 0.36300000000000004
   },
+  "U 0.45 SHGC 0.45 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.45 SHGC 0.45 Simple Glazing",
+    "u_factor": 2.5551,
+    "shgc": 0.45,
+    "vt": 0.6
+  },
+  "U 0.46 SHGC 0.25 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.46 SHGC 0.25 Simple Glazing",
+    "u_factor": 2.61188,
+    "shgc": 0.25,
+    "vt": 0.6
+  },
+  "U 0.47 SHGC 0.25 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.47 SHGC 0.25 Simple Glazing",
+    "u_factor": 2.66866,
+    "shgc": 0.25,
+    "vt": 0.6
+  },
   "U 0.47 SHGC 0.33 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
     "identifier": "U 0.47 SHGC 0.33 Simple Glazing",
     "u_factor": 2.66866,
     "shgc": 0.33,
     "vt": 0.36300000000000004
+  },
+  "U 0.47 SHGC 0.4 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.47 SHGC 0.4 Simple Glazing",
+    "u_factor": 2.66866,
+    "shgc": 0.4,
+    "vt": 0.6
   },
   "U 0.48 SHGC 0.19 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
@@ -1375,6 +1620,111 @@
     "shgc": 0.22,
     "vt": 0.24200000000000002
   },
+  "U 0.48 SHGC 0.25 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.48 SHGC 0.25 Simple Glazing",
+    "u_factor": 2.72544,
+    "shgc": 0.25,
+    "vt": 0.6
+  },
+  "U 0.49 SHGC 0.22 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.49 SHGC 0.22 Simple Glazing",
+    "u_factor": 2.78222,
+    "shgc": 0.22,
+    "vt": 0.6
+  },
+  "U 0.49 SHGC 0.25 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.49 SHGC 0.25 Simple Glazing",
+    "u_factor": 2.78222,
+    "shgc": 0.25,
+    "vt": 0.6
+  },
+  "U 0.5 SHGC 0.19 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.5 SHGC 0.19 Simple Glazing",
+    "u_factor": 2.839,
+    "shgc": 0.19,
+    "vt": 0.6
+  },
+  "U 0.5 SHGC 0.22 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.5 SHGC 0.22 Simple Glazing",
+    "u_factor": 2.839,
+    "shgc": 0.22,
+    "vt": 0.6
+  },
+  "U 0.5 SHGC 0.23 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.5 SHGC 0.23 Simple Glazing",
+    "u_factor": 2.839,
+    "shgc": 0.23,
+    "vt": 0.6
+  },
+  "U 0.5 SHGC 0.25 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.5 SHGC 0.25 Simple Glazing",
+    "u_factor": 2.839,
+    "shgc": 0.25,
+    "vt": 0.6
+  },
+  "U 0.5 SHGC 0.27 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.5 SHGC 0.27 Simple Glazing",
+    "u_factor": 2.839,
+    "shgc": 0.27,
+    "vt": 0.6
+  },
+  "U 0.5 SHGC 0.34 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.5 SHGC 0.34 Simple Glazing",
+    "u_factor": 2.839,
+    "shgc": 0.34,
+    "vt": 0.6
+  },
+  "U 0.5 SHGC 0.36 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.5 SHGC 0.36 Simple Glazing",
+    "u_factor": 2.839,
+    "shgc": 0.36,
+    "vt": 0.6
+  },
+  "U 0.5 SHGC 0.39 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.5 SHGC 0.39 Simple Glazing",
+    "u_factor": 2.839,
+    "shgc": 0.39,
+    "vt": 0.6
+  },
+  "U 0.5 SHGC 0.4 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.5 SHGC 0.4 Simple Glazing",
+    "u_factor": 2.839,
+    "shgc": 0.4,
+    "vt": 0.6
+  },
+  "U 0.5 SHGC 0.45 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.5 SHGC 0.45 Simple Glazing",
+    "u_factor": 2.839,
+    "shgc": 0.45,
+    "vt": 0.6
+  },
+  "U 0.5 SHGC 0.55 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.5 SHGC 0.55 Simple Glazing",
+    "u_factor": 2.839,
+    "shgc": 0.55,
+    "vt": 0.6
+  },
+  "U 0.5 SHGC 0.65 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.5 SHGC 0.65 Simple Glazing",
+    "u_factor": 2.839,
+    "shgc": 0.65,
+    "vt": 0.6
+  },
   "U 0.50 SHGC 0.22 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
     "identifier": "U 0.50 SHGC 0.22 Simple Glazing",
@@ -1388,6 +1738,27 @@
     "u_factor": 2.839,
     "shgc": 0.23,
     "vt": 0.25300000000000006
+  },
+  "U 0.51 SHGC 0.22 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.51 SHGC 0.22 Simple Glazing",
+    "u_factor": 2.89578,
+    "shgc": 0.22,
+    "vt": 0.6
+  },
+  "U 0.51 SHGC 0.23 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.51 SHGC 0.23 Simple Glazing",
+    "u_factor": 2.89578,
+    "shgc": 0.23,
+    "vt": 0.6
+  },
+  "U 0.51 SHGC 0.45 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.51 SHGC 0.45 Simple Glazing",
+    "u_factor": 2.89578,
+    "shgc": 0.45,
+    "vt": 0.6
   },
   "U 0.52 SHGC 0.39 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
@@ -1410,12 +1781,75 @@
     "shgc": 0.615,
     "vt": 0.41
   },
+  "U 0.53 SHGC 0.22 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.53 SHGC 0.22 Simple Glazing",
+    "u_factor": 3.00934,
+    "shgc": 0.22,
+    "vt": 0.6
+  },
+  "U 0.53 SHGC 0.23 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.53 SHGC 0.23 Simple Glazing",
+    "u_factor": 3.00934,
+    "shgc": 0.23,
+    "vt": 0.6
+  },
+  "U 0.53 SHGC 0.25 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.53 SHGC 0.25 Simple Glazing",
+    "u_factor": 3.00934,
+    "shgc": 0.25,
+    "vt": 0.6
+  },
   "U 0.54 SHGC 0.23 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
     "identifier": "U 0.54 SHGC 0.23 Simple Glazing",
     "u_factor": 3.06612,
     "shgc": 0.23,
     "vt": 0.25300000000000006
+  },
+  "U 0.54 SHGC 0.25 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.54 SHGC 0.25 Simple Glazing",
+    "u_factor": 3.06612,
+    "shgc": 0.25,
+    "vt": 0.6
+  },
+  "U 0.55 SHGC 0.3 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.55 SHGC 0.3 Simple Glazing",
+    "u_factor": 3.1229,
+    "shgc": 0.3,
+    "vt": 0.6
+  },
+  "U 0.55 SHGC 0.35 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.55 SHGC 0.35 Simple Glazing",
+    "u_factor": 3.1229,
+    "shgc": 0.35,
+    "vt": 0.6
+  },
+  "U 0.55 SHGC 0.55 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.55 SHGC 0.55 Simple Glazing",
+    "u_factor": 3.1229,
+    "shgc": 0.55,
+    "vt": 0.6
+  },
+  "U 0.55 SHGC 0.64 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.55 SHGC 0.64 Simple Glazing",
+    "u_factor": 3.1229,
+    "shgc": 0.64,
+    "vt": 0.6
+  },
+  "U 0.57 SHGC 0.25 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.57 SHGC 0.25 Simple Glazing",
+    "u_factor": 3.2364599999999997,
+    "shgc": 0.25,
+    "vt": 0.6
   },
   "U 0.58 SHGC 0.19 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
@@ -1480,12 +1914,124 @@
     "shgc": 0.41,
     "vt": 0.32
   },
+  "U 0.62 SHGC 0.45 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.62 SHGC 0.45 Simple Glazing",
+    "u_factor": 3.52036,
+    "shgc": 0.45,
+    "vt": 0.6
+  },
+  "U 0.63 SHGC 0.33 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.63 SHGC 0.33 Simple Glazing",
+    "u_factor": 3.57714,
+    "shgc": 0.33,
+    "vt": 0.6
+  },
+  "U 0.63 SHGC 0.34 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.63 SHGC 0.34 Simple Glazing",
+    "u_factor": 3.57714,
+    "shgc": 0.34,
+    "vt": 0.6
+  },
+  "U 0.63 SHGC 0.36 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.63 SHGC 0.36 Simple Glazing",
+    "u_factor": 3.57714,
+    "shgc": 0.36,
+    "vt": 0.6
+  },
+  "U 0.63 SHGC 0.45 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.63 SHGC 0.45 Simple Glazing",
+    "u_factor": 3.57714,
+    "shgc": 0.45,
+    "vt": 0.6
+  },
+  "U 0.65 SHGC 0.3 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.65 SHGC 0.3 Simple Glazing",
+    "u_factor": 3.6907,
+    "shgc": 0.3,
+    "vt": 0.6
+  },
   "U 0.65 SHGC 0.35 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
     "identifier": "U 0.65 SHGC 0.35 Simple Glazing",
     "u_factor": 3.6907,
     "shgc": 0.35,
     "vt": 0.25
+  },
+  "U 0.65 SHGC 0.35 Simple Glazing Window": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.65 SHGC 0.35 Simple Glazing Window",
+    "u_factor": 3.6907,
+    "shgc": 0.35,
+    "vt": 0.6
+  },
+  "U 0.65 SHGC 0.55 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.65 SHGC 0.55 Simple Glazing",
+    "u_factor": 3.6907,
+    "shgc": 0.55,
+    "vt": 0.6
+  },
+  "U 0.65 SHGC 0.68 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.65 SHGC 0.68 Simple Glazing",
+    "u_factor": 3.6907,
+    "shgc": 0.68,
+    "vt": 0.6
+  },
+  "U 0.65 SHGC 0.77 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.65 SHGC 0.77 Simple Glazing",
+    "u_factor": 3.6907,
+    "shgc": 0.77,
+    "vt": 0.6
+  },
+  "U 0.68 SHGC 0.23 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.68 SHGC 0.23 Simple Glazing",
+    "u_factor": 3.86104,
+    "shgc": 0.23,
+    "vt": 0.6
+  },
+  "U 0.68 SHGC 0.25 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.68 SHGC 0.25 Simple Glazing",
+    "u_factor": 3.86104,
+    "shgc": 0.25,
+    "vt": 0.6
+  },
+  "U 0.68 SHGC 0.36 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.68 SHGC 0.36 Simple Glazing",
+    "u_factor": 3.86104,
+    "shgc": 0.36,
+    "vt": 0.6
+  },
+  "U 0.68 SHGC 0.38 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.68 SHGC 0.38 Simple Glazing",
+    "u_factor": 3.86104,
+    "shgc": 0.38,
+    "vt": 0.6
+  },
+  "U 0.68 SHGC 0.4 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.68 SHGC 0.4 Simple Glazing",
+    "u_factor": 3.86104,
+    "shgc": 0.4,
+    "vt": 0.6
+  },
+  "U 0.68 SHGC 0.45 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.68 SHGC 0.45 Simple Glazing",
+    "u_factor": 3.86104,
+    "shgc": 0.45,
+    "vt": 0.6
   },
   "U 0.69 SHGC 0.19 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
@@ -1529,6 +2075,13 @@
     "shgc": 0.68,
     "vt": 0.55
   },
+  "U 0.7 SHGC 0.3 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.7 SHGC 0.3 Simple Glazing",
+    "u_factor": 3.9745999999999997,
+    "shgc": 0.3,
+    "vt": 0.6
+  },
   "U 0.72 SHGC 0.25 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
     "identifier": "U 0.72 SHGC 0.25 Simple Glazing",
@@ -1549,6 +2102,13 @@
     "u_factor": 4.08816,
     "shgc": 0.39,
     "vt": 0.23
+  },
+  "U 0.73 SHGC 0.45 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.73 SHGC 0.45 Simple Glazing",
+    "u_factor": 4.14494,
+    "shgc": 0.45,
+    "vt": 0.6
   },
   "U 0.74 SHGC 0.55 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
@@ -1571,6 +2131,69 @@
     "shgc": 0.35,
     "vt": 0.23
   },
+  "U 0.75 SHGC 0.35 Simple Glazing Window": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.75 SHGC 0.35 Simple Glazing Window",
+    "u_factor": 4.2585,
+    "shgc": 0.35,
+    "vt": 0.6
+  },
+  "U 0.75 SHGC 0.39 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.75 SHGC 0.39 Simple Glazing",
+    "u_factor": 4.2585,
+    "shgc": 0.39,
+    "vt": 0.6
+  },
+  "U 0.75 SHGC 0.49 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.75 SHGC 0.49 Simple Glazing",
+    "u_factor": 4.2585,
+    "shgc": 0.49,
+    "vt": 0.6
+  },
+  "U 0.75 SHGC 0.55 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.75 SHGC 0.55 Simple Glazing",
+    "u_factor": 4.2585,
+    "shgc": 0.55,
+    "vt": 0.6
+  },
+  "U 0.75 SHGC 0.64 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.75 SHGC 0.64 Simple Glazing",
+    "u_factor": 4.2585,
+    "shgc": 0.64,
+    "vt": 0.6
+  },
+  "U 0.75 SHGC 0.68 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.75 SHGC 0.68 Simple Glazing",
+    "u_factor": 4.2585,
+    "shgc": 0.68,
+    "vt": 0.6
+  },
+  "U 0.77 SHGC 0.23 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.77 SHGC 0.23 Simple Glazing",
+    "u_factor": 4.37206,
+    "shgc": 0.23,
+    "vt": 0.6
+  },
+  "U 0.77 SHGC 0.25 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.77 SHGC 0.25 Simple Glazing",
+    "u_factor": 4.37206,
+    "shgc": 0.25,
+    "vt": 0.6
+  },
+  "U 0.77 SHGC 0.45 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.77 SHGC 0.45 Simple Glazing",
+    "u_factor": 4.37206,
+    "shgc": 0.45,
+    "vt": 0.6
+  },
   "U 0.81 SHGC 0.65 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
     "identifier": "U 0.81 SHGC 0.65 Simple Glazing",
@@ -1578,12 +2201,82 @@
     "shgc": 0.65,
     "vt": 0.55
   },
+  "U 0.83 SHGC 0.2 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.83 SHGC 0.2 Simple Glazing",
+    "u_factor": 4.71274,
+    "shgc": 0.2,
+    "vt": 0.6
+  },
+  "U 0.83 SHGC 0.21 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.83 SHGC 0.21 Simple Glazing",
+    "u_factor": 4.71274,
+    "shgc": 0.21,
+    "vt": 0.6
+  },
+  "U 0.83 SHGC 0.22 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.83 SHGC 0.22 Simple Glazing",
+    "u_factor": 4.71274,
+    "shgc": 0.22,
+    "vt": 0.6
+  },
+  "U 0.83 SHGC 0.25 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.83 SHGC 0.25 Simple Glazing",
+    "u_factor": 4.71274,
+    "shgc": 0.25,
+    "vt": 0.6
+  },
+  "U 0.83 SHGC 0.45 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.83 SHGC 0.45 Simple Glazing",
+    "u_factor": 4.71274,
+    "shgc": 0.45,
+    "vt": 0.6
+  },
+  "U 0.85 SHGC 0.19 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.85 SHGC 0.19 Simple Glazing",
+    "u_factor": 4.8263,
+    "shgc": 0.19,
+    "vt": 0.6
+  },
+  "U 0.85 SHGC 0.27 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.85 SHGC 0.27 Simple Glazing",
+    "u_factor": 4.8263,
+    "shgc": 0.27,
+    "vt": 0.6
+  },
+  "U 0.85 SHGC 0.39 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.85 SHGC 0.39 Simple Glazing",
+    "u_factor": 4.8263,
+    "shgc": 0.39,
+    "vt": 0.6
+  },
+  "U 0.85 SHGC 0.55 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.85 SHGC 0.55 Simple Glazing",
+    "u_factor": 4.8263,
+    "shgc": 0.55,
+    "vt": 0.6
+  },
   "U 0.85 SHGC 0.65 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
     "identifier": "U 0.85 SHGC 0.65 Simple Glazing",
     "u_factor": 4.8263,
     "shgc": 0.65,
     "vt": 0.55
+  },
+  "U 0.87 SHGC 0.45 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.87 SHGC 0.45 Simple Glazing",
+    "u_factor": 4.93986,
+    "shgc": 0.45,
+    "vt": 0.6
   },
   "U 0.87 SHGC 0.58 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
@@ -1606,6 +2299,20 @@
     "shgc": 0.77,
     "vt": 0.6
   },
+  "U 0.9 SHGC 0.55 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.9 SHGC 0.55 Simple Glazing",
+    "u_factor": 5.1102,
+    "shgc": 0.55,
+    "vt": 0.6
+  },
+  "U 0.93 SHGC 0.45 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.93 SHGC 0.45 Simple Glazing",
+    "u_factor": 5.28054,
+    "shgc": 0.45,
+    "vt": 0.6
+  },
   "U 0.98 SHGC 0.19 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
     "identifier": "U 0.98 SHGC 0.19 Simple Glazing",
@@ -1613,12 +2320,47 @@
     "shgc": 0.19,
     "vt": 0.15
   },
+  "U 0.98 SHGC 0.27 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.98 SHGC 0.27 Simple Glazing",
+    "u_factor": 5.56444,
+    "shgc": 0.27,
+    "vt": 0.6
+  },
   "U 0.98 SHGC 0.36 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
     "identifier": "U 0.98 SHGC 0.36 Simple Glazing",
     "u_factor": 5.56444,
     "shgc": 0.36,
     "vt": 0.25
+  },
+  "U 0.98 SHGC 0.36 Simple Glazing Weighted": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.98 SHGC 0.36 Simple Glazing Weighted",
+    "u_factor": 5.56444,
+    "shgc": 0.36,
+    "vt": 0.6
+  },
+  "U 0.98 SHGC 0.55 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 0.98 SHGC 0.55 Simple Glazing",
+    "u_factor": 5.56444,
+    "shgc": 0.55,
+    "vt": 0.6
+  },
+  "U 1.1 SHGC 0.25 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 1.1 SHGC 0.25 Simple Glazing",
+    "u_factor": 6.2458,
+    "shgc": 0.25,
+    "vt": 0.6
+  },
+  "U 1.1 SHGC 0.45 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 1.1 SHGC 0.45 Simple Glazing",
+    "u_factor": 6.2458,
+    "shgc": 0.45,
+    "vt": 0.6
   },
   "U 1.10 SHGC 0.62 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
@@ -1632,6 +2374,13 @@
     "identifier": "U 1.10 SHGC 0.77 Simple Glazing",
     "u_factor": 6.2458,
     "shgc": 0.77,
+    "vt": 0.6
+  },
+  "U 1.15 SHGC 0.55 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 1.15 SHGC 0.55 Simple Glazing",
+    "u_factor": 6.529699999999999,
+    "shgc": 0.55,
     "vt": 0.6
   },
   "U 1.15 SHGC 0.77 Simple Glazing": {
@@ -1682,6 +2431,20 @@
     "u_factor": 6.64326,
     "shgc": 0.68,
     "vt": 0.55
+  },
+  "U 1.19 SHGC 0.45 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 1.19 SHGC 0.45 Simple Glazing",
+    "u_factor": 6.756819999999999,
+    "shgc": 0.45,
+    "vt": 0.6
+  },
+  "U 1.2 SHGC 0.45 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 1.2 SHGC 0.45 Simple Glazing",
+    "u_factor": 6.8136,
+    "shgc": 0.45,
+    "vt": 0.6
   },
   "U 1.22 SHGC 0.25 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
@@ -1753,12 +2516,47 @@
     "shgc": 0.61,
     "vt": 0.23
   },
+  "U 1.7 SHGC 0.55 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 1.7 SHGC 0.55 Simple Glazing",
+    "u_factor": 9.6526,
+    "shgc": 0.55,
+    "vt": 0.6
+  },
   "U 1.70 SHGC 0.36 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",
     "identifier": "U 1.70 SHGC 0.36 Simple Glazing",
     "u_factor": 9.6526,
     "shgc": 0.36,
     "vt": 0.23
+  },
+  "U 1.8 SHGC 0.49 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 1.8 SHGC 0.49 Simple Glazing",
+    "u_factor": 10.2204,
+    "shgc": 0.49,
+    "vt": 0.6
+  },
+  "U 1.8 SHGC 0.55 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 1.8 SHGC 0.55 Simple Glazing",
+    "u_factor": 10.2204,
+    "shgc": 0.55,
+    "vt": 0.6
+  },
+  "U 1.8 SHGC 0.64 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 1.8 SHGC 0.64 Simple Glazing",
+    "u_factor": 10.2204,
+    "shgc": 0.64,
+    "vt": 0.6
+  },
+  "U 1.8 SHGC 0.77 Simple Glazing": {
+    "type": "EnergyWindowMaterialSimpleGlazSys",
+    "identifier": "U 1.8 SHGC 0.77 Simple Glazing",
+    "u_factor": 10.2204,
+    "shgc": 0.77,
+    "vt": 0.6
   },
   "U 1.80 SHGC 0.36 Simple Glazing": {
     "type": "EnergyWindowMaterialSimpleGlazSys",

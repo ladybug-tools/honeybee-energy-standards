@@ -5,7 +5,7 @@
     "people": {
       "type": "PeopleAbridged",
       "identifier": "1980_2004::Courthouse::Break Room_People",
-      "people_per_area": 0.07534740535827691,
+      "people_per_area": 0.05381957525591208,
       "radiant_fraction": 0.3,
       "latent_fraction": {
         "type": "Autocalculate"
@@ -258,7 +258,7 @@
     "people": {
       "type": "PeopleAbridged",
       "identifier": "1980_2004::Courthouse::Courtroom Waiting_People",
-      "people_per_area": 0.6458349030709449,
+      "people_per_area": 0.10763915051182416,
       "radiant_fraction": 0.3,
       "latent_fraction": {
         "type": "Autocalculate"
@@ -309,7 +309,7 @@
     "people": {
       "type": "PeopleAbridged",
       "identifier": "1980_2004::Courthouse::Elevator Lobby_People",
-      "people_per_area": 0.32291745153547247,
+      "people_per_area": 0.10763915051182416,
       "radiant_fraction": 0.3,
       "latent_fraction": {
         "type": "Autocalculate"
@@ -370,7 +370,7 @@
     "people": {
       "type": "PeopleAbridged",
       "identifier": "1980_2004::Courthouse::Entrance Lobby_People",
-      "people_per_area": 0.6458349030709449,
+      "people_per_area": 0.10763915051182416,
       "radiant_fraction": 0.3,
       "latent_fraction": {
         "type": "Autocalculate"
@@ -421,7 +421,7 @@
     "people": {
       "type": "PeopleAbridged",
       "identifier": "1980_2004::Courthouse::Judges Chamber_People",
-      "people_per_area": 0.07534740535827691,
+      "people_per_area": 0.05381957525591208,
       "radiant_fraction": 0.3,
       "latent_fraction": {
         "type": "Autocalculate"
@@ -574,7 +574,7 @@
     "people": {
       "type": "PeopleAbridged",
       "identifier": "1980_2004::Courthouse::Library_People",
-      "people_per_area": 0.2152783010236483,
+      "people_per_area": 0.10763915051182416,
       "radiant_fraction": 0.3,
       "latent_fraction": {
         "type": "Autocalculate"
@@ -625,7 +625,7 @@
     "people": {
       "type": "PeopleAbridged",
       "identifier": "1980_2004::Courthouse::Office_People",
-      "people_per_area": 0.07534740535827691,
+      "people_per_area": 0.05381957525591208,
       "radiant_fraction": 0.3,
       "latent_fraction": {
         "type": "Autocalculate"
@@ -774,7 +774,7 @@
     "people": {
       "type": "PeopleAbridged",
       "identifier": "1980_2004::Courthouse::Security Screening_People",
-      "people_per_area": 0.32291745153547247,
+      "people_per_area": 0.10763915051182416,
       "radiant_fraction": 0.3,
       "latent_fraction": {
         "type": "Autocalculate"
@@ -872,17 +872,6 @@
   "1980_2004::Courthouse::Storage": {
     "type": "ProgramTypeAbridged",
     "identifier": "1980_2004::Courthouse::Storage",
-    "people": {
-      "type": "PeopleAbridged",
-      "identifier": "1980_2004::Courthouse::Storage_People",
-      "people_per_area": 0.16145872576773623,
-      "radiant_fraction": 0.3,
-      "latent_fraction": {
-        "type": "Autocalculate"
-      },
-      "occupancy_schedule": "Courthouse OFFICE_OCC_SCH",
-      "activity_schedule": "Courthouse ACTIVITY_SCH"
-    },
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "1980_2004::Courthouse::Storage_Lighting",

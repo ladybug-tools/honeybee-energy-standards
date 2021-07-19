@@ -17,7 +17,8 @@ def local_data_dir():
     return os.path.split(current_dir)[0]
 
 
-def honeybee_construction_json(source_directory, constr_folder, lib_function, file_name):
+def honeybee_construction_json(
+        source_directory, constr_folder, lib_function, file_name, extra_objs=None):
     opa_mat_json = os.path.join(source_directory, file_name)
     hb_dict = {}
     with open(opa_mat_json, 'r') as json_file:
@@ -27,6 +28,10 @@ def honeybee_construction_json(source_directory, constr_folder, lib_function, fi
             hb_dict[mat_id] = lib_function(mat_id).to_dict(abridged=True)
         except Exception:
             hb_dict[mat_id] = lib_function(mat_id).to_dict()
+    if extra_objs is not None:
+        for e_obj in extra_objs:
+            with open(e_obj, 'r') as f:
+                hb_dict.update(json.load(f))
     mat_path = os.path.join(constr_folder, file_name)
     with open(mat_path, 'w') as fp:
         json.dump(hb_dict, fp, indent=2)
@@ -57,13 +62,16 @@ def convert_to_hb_json(source_dir=None, dest_dir=None):
     ptype_reg_dir = os.path.join(dest_dir, 'programtypes_registry')
 
     # translate the materials and constructions to honeybee_json
-    honeybee_construction_json(source_dir, constr_dir, mat_lib.opaque_material_by_identifier,
-                               'opaque_material.json')
-    honeybee_construction_json(source_dir, constr_dir, mat_lib.window_material_by_identifier,
-                               'window_material.json')
+    extra_folder = os.path.join(os.path.split(os.path.dirname(__file__))[0], '_extra')
+    honeybee_construction_json(
+        source_dir, constr_dir, mat_lib.opaque_material_by_identifier,
+        'opaque_material.json', [os.path.join(extra_folder, 'ground_materials.json')])
+    honeybee_construction_json(
+        source_dir, constr_dir, mat_lib.window_material_by_identifier,
+        'window_material.json')
     honeybee_construction_json(
         source_dir, constr_dir, constr_lib.opaque_construction_by_identifier,
-        'opaque_construction.json')
+        'opaque_construction.json', [os.path.join(extra_folder, 'ground_constructions.json')])
     honeybee_construction_json(
         source_dir, constr_dir, constr_lib.window_construction_by_identifier,
         'window_construction.json')

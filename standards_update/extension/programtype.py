@@ -70,7 +70,7 @@ def from_standards_dict(cls, data):
     setpoint = None
 
     if 'occupancy_schedule' in data and data['occupancy_schedule'] is not None and \
-            data['occupancy_per_area'] != 0:
+            'occupancy_per_area' in data and data['occupancy_per_area'] != 0:
         occ_sched = sch_lib.schedule_by_identifier(data['occupancy_schedule'])
         act_sched = sch_lib.schedule_by_identifier(data['occupancy_activity_schedule'])
         occ_density = data['occupancy_per_area'] / 92.903
@@ -83,10 +83,20 @@ def from_standards_dict(cls, data):
             lpd = data['lighting_per_area'] * 10.7639
         except (TypeError, KeyError):
             lpd = 0  # there's a schedule but no actual load object
+        try:
+            raf = data['lighting_fraction_to_return_air']
+        except KeyError:
+            raf = 0
+        try:
+            lfr = data['lighting_fraction_radiant']
+        except KeyError:
+            lfr = 0.32
+        try:
+            lfv = data['lighting_fraction_visible']
+        except KeyError:
+            lfv = 0.25
         lighting = Lighting(
-            '{}_Lighting'.format(pr_type_identifier), lpd, light_sched,
-            data['lighting_fraction_to_return_air'],
-            data['lighting_fraction_radiant'], data['lighting_fraction_visible'])
+            '{}_Lighting'.format(pr_type_identifier), lpd, light_sched, raf, lfr, lfv)
         lighting.baseline_watts_per_area = lpd
 
     if 'electric_equipment_schedule' in data and \
@@ -127,10 +137,16 @@ def from_standards_dict(cls, data):
                 (data['service_water_heating_target_temperature'] - 32.) * 5. / 9.)
         except (TypeError, KeyError):
             shw_temp = 60
+        try:
+            fs = data['service_water_heating_fraction_sensible']
+        except (TypeError, KeyError):
+            fs = 0.2
+        try:
+            fl = data['service_water_heating_fraction_latent']
+        except (TypeError, KeyError):
+            fl = 0.05
         hot_water = ServiceHotWater(
-            '{}_SHW'.format(pr_type_identifier), shw_load, shw_sch, shw_temp,
-            data['service_water_heating_fraction_sensible'],
-            data['service_water_heating_fraction_latent'])
+            '{}_SHW'.format(pr_type_identifier), shw_load, shw_sch, shw_temp, fs, fl)
 
     if 'infiltration_schedule' in data and \
             data['infiltration_schedule'] is not None:
