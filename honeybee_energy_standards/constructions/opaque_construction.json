@@ -518,19 +518,19 @@
       "Typical Carpet Pad"
     ]
   },
-  "Typical Insulated Metal Door-R2": {
+  "Typical Insulated Metal Door-R3": {
     "type": "OpaqueConstructionAbridged",
-    "identifier": "Typical Insulated Metal Door-R2",
+    "identifier": "Typical Insulated Metal Door-R3",
     "materials": [
       "F08 Metal surface",
-      "Typical Insulation-R2"
+      "Typical Insulation-R3"
     ]
   },
-  "Typical Overhead Door-R1": {
+  "Typical Overhead Door-R4": {
     "type": "OpaqueConstructionAbridged",
-    "identifier": "Typical Overhead Door-R1",
+    "identifier": "Typical Overhead Door-R4",
     "materials": [
-      "Typical Insulation-R1"
+      "Typical Insulation-R4"
     ]
   },
   "Typical Insulated Wood Framed Exterior Wall-R12": {
@@ -626,13 +626,6 @@
       "Typical Insulation-R24",
       "5/8 in. Gypsum Board",
       "Typical Carpet Pad"
-    ]
-  },
-  "Typical Overhead Door-R2": {
-    "type": "OpaqueConstructionAbridged",
-    "identifier": "Typical Overhead Door-R2",
-    "materials": [
-      "Typical Insulation-R2"
     ]
   },
   "Typical Insulated Wood Framed Exterior Floor-R31": {
@@ -1022,6 +1015,28 @@
     "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R39"
+    ]
+  },
+  "Typical Insulated Metal Door-R2": {
+    "type": "OpaqueConstructionAbridged",
+    "identifier": "Typical Insulated Metal Door-R2",
+    "materials": [
+      "F08 Metal surface",
+      "Typical Insulation-R2"
+    ]
+  },
+  "Typical Overhead Door-R1": {
+    "type": "OpaqueConstructionAbridged",
+    "identifier": "Typical Overhead Door-R1",
+    "materials": [
+      "Typical Insulation-R1"
+    ]
+  },
+  "Typical Overhead Door-R2": {
+    "type": "OpaqueConstructionAbridged",
+    "identifier": "Typical Overhead Door-R2",
+    "materials": [
+      "Typical Insulation-R2"
     ]
   },
   "Typical IEAD Roof - Highly Reflective-R16": {

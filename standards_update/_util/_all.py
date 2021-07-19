@@ -30,6 +30,10 @@ def clean_all(ashrae_directory, dest_dir=None):
     clean_schedules(source_filename, dest_dir)
 
     # clean the ProgramTypes
+    source_filename_2019 = os.path.join(
+        ashrae_directory, 'ashrae_90_1_2019', 'data', 'ashrae_90_1_2019.spc_typ.json')
+    source_filename_2016 = os.path.join(
+        ashrae_directory, 'ashrae_90_1_2016', 'data', 'ashrae_90_1_2016.spc_typ.json')
     source_filename_2013 = os.path.join(
         ashrae_directory, 'ashrae_90_1_2013', 'data', 'ashrae_90_1_2013.spc_typ.json')
     source_filename_2010 = os.path.join(
@@ -46,6 +50,8 @@ def clean_all(ashrae_directory, dest_dir=None):
     dest_dir_prog = os.path.join(dest_dir, 'program_type')
     if not os.path.isdir(dest_dir_prog):
         os.mkdir(dest_dir_prog)
+    clean_space_types(source_filename_2019, dest_dir_prog, vintage='2019')
+    clean_space_types(source_filename_2016, dest_dir_prog, vintage='2016')
     clean_space_types(source_filename_2013, dest_dir_prog, vintage='2013')
     clean_space_types(source_filename_2010, dest_dir_prog, vintage='2010')
     clean_space_types(source_filename_2007, dest_dir_prog, vintage='2007')
@@ -62,6 +68,12 @@ def clean_all(ashrae_directory, dest_dir=None):
     global_constrs = clean_constructions(source_filename, dest_dir)
 
     # clean the ConstructionSets
+    source_filename_2019 = os.path.join(
+        ashrae_directory, 'ashrae_90_1_2019', 'data',
+        'ashrae_90_1_2019.construction_properties.json')
+    source_filename_2016 = os.path.join(
+        ashrae_directory, 'ashrae_90_1_2016', 'data',
+        'ashrae_90_1_2016.construction_properties.json')
     source_filename_2013 = os.path.join(
         ashrae_directory, 'ashrae_90_1_2013', 'data',
         'ashrae_90_1_2013.construction_properties.json')
@@ -84,6 +96,10 @@ def clean_all(ashrae_directory, dest_dir=None):
     dest_dir_c_set = os.path.join(dest_dir, 'construction_set')
     if not os.path.isdir(dest_dir_c_set):
         os.mkdir(dest_dir_c_set)
+    clean_construction_sets(source_filename_2019, dest_dir_c_set, '2019',
+                            global_constrs[0], global_mats[0])
+    clean_construction_sets(source_filename_2016, dest_dir_c_set, '2016',
+                            global_constrs[0], global_mats[0])
     clean_construction_sets(source_filename_2013, dest_dir_c_set, '2013',
                             global_constrs[0], global_mats[0])
     clean_construction_sets(source_filename_2010, dest_dir_c_set, '2010',

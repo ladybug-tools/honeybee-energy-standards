@@ -3260,6 +3260,67 @@
       "cooling_schedule": "HotelLarge Adva_OccGuestRoom_ClgSP_Sch"
     }
   },
+  "2004::LargeHotel::GuestRoom8": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2004::LargeHotel::GuestRoom8",
+    "people": {
+      "type": "PeopleAbridged",
+      "identifier": "2004::LargeHotel::GuestRoom8_People",
+      "people_per_area": 0.061139037490716114,
+      "radiant_fraction": 0.3,
+      "latent_fraction": {
+        "type": "Autocalculate"
+      },
+      "occupancy_schedule": "Always Off",
+      "activity_schedule": "HotelLarge ACTIVITY_SCH"
+    },
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2004::LargeHotel::GuestRoom8_Lighting",
+      "watts_per_area": 11.840290000000001,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.7,
+      "visible_fraction": 0.2,
+      "schedule": "HotelLarge BLDG_LIGHT_GUESTROOM_SCH",
+      "baseline_watts_per_area": 11.840290000000001
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2004::LargeHotel::GuestRoom8_Electric",
+      "watts_per_area": 10.5163303,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "HotelLarge GuestRoom_Eqp_Sch_Base"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2004::LargeHotel::GuestRoom8_SHW",
+      "flow_per_area": 0.19292518940011302,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "HotelLarge GuestRoom_SWH_Sch"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2004::LargeHotel::GuestRoom8_Infiltration",
+      "flow_per_exterior_area": 0.0005689600000000001,
+      "schedule": "HotelLarge INFIL_QUARTER_ON_SCH"
+    },
+    "ventilation": {
+      "type": "VentilationAbridged",
+      "identifier": "2004::LargeHotel::GuestRoom8_Ventilation",
+      "flow_per_person": 0.002359735,
+      "flow_per_area": 0.0003048
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2004::LargeHotel::GuestRoom8_Setpoint",
+      "heating_schedule": "HotelLarge VAC_OccGuestRoom_HtgSP_Sch",
+      "cooling_schedule": "HotelLarge VAC_OccGuestRoom_ClgSP_Sch"
+    }
+  },
   "2004::LargeHotel::Kitchen": {
     "type": "ProgramTypeAbridged",
     "identifier": "2004::LargeHotel::Kitchen",
@@ -3604,16 +3665,6 @@
       },
       "occupancy_schedule": "RetailStandalone BLDG_OCC_SCH",
       "activity_schedule": "RetailStandalone ACTIVITY_SCH"
-    },
-    "lighting": {
-      "type": "LightingAbridged",
-      "identifier": "2004::LargeOffice::Retail_Lighting",
-      "watts_per_area": 18.29863,
-      "return_air_fraction": 0.0,
-      "radiant_fraction": 0.7,
-      "visible_fraction": 0.2,
-      "schedule": "RetailStandalone BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 18.29863
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10004,12 +10055,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2004::SuperMarket::Corridor_Lighting",
-      "watts_per_area": 4.951394,
+      "watts_per_area": 5.38195,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 4.951394
+      "baseline_watts_per_area": 5.38195
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10124,12 +10175,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2004::SuperMarket::Dining_Lighting",
-      "watts_per_area": 10.010427,
+      "watts_per_area": 9.68751,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 10.010427
+      "baseline_watts_per_area": 9.68751
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10175,12 +10226,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2004::SuperMarket::DryStorage_Lighting",
-      "watts_per_area": 8.934037,
+      "watts_per_area": 8.61112,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 8.934037
+      "baseline_watts_per_area": 8.61112
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10215,12 +10266,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2004::SuperMarket::Elec/MechRoom_Lighting",
-      "watts_per_area": 15.930572,
+      "watts_per_area": 16.14585,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 15.930572
+      "baseline_watts_per_area": 16.14585
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10363,12 +10414,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2004::SuperMarket::Produce_Lighting",
-      "watts_per_area": 35.520869999999995,
+      "watts_per_area": 18.29863,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 35.520869999999995
+      "baseline_watts_per_area": 18.29863
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10414,12 +10465,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2004::SuperMarket::Restroom_Lighting",
-      "watts_per_area": 9.902788,
+      "watts_per_area": 9.68751,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 9.902788
+      "baseline_watts_per_area": 9.68751
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10465,12 +10516,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2004::SuperMarket::Sales_Lighting",
-      "watts_per_area": 35.520869999999995,
+      "watts_per_area": 18.29863,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 35.520869999999995
+      "baseline_watts_per_area": 18.29863
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10516,12 +10567,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2004::SuperMarket::Vestibule_Lighting",
-      "watts_per_area": 4.951394,
+      "watts_per_area": 5.38195,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 4.951394
+      "baseline_watts_per_area": 5.38195
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10556,12 +10607,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2004::Warehouse::Bulk_Lighting",
-      "watts_per_area": 8.61112,
+      "watts_per_area": 9.68751,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.42,
       "visible_fraction": 0.18,
       "schedule": "Warehouse BLDG_LIGHT_STORAGE_SCH",
-      "baseline_watts_per_area": 8.61112
+      "baseline_watts_per_area": 9.68751
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10596,12 +10647,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2004::Warehouse::Fine_Lighting",
-      "watts_per_area": 8.61112,
+      "watts_per_area": 15.069459999999998,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.42,
       "visible_fraction": 0.18,
       "schedule": "Warehouse BLDG_LIGHT_STORAGE_SCH",
-      "baseline_watts_per_area": 8.61112
+      "baseline_watts_per_area": 15.069459999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",

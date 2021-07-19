@@ -1154,12 +1154,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::HighriseApartment::Corridor_Lighting",
-      "watts_per_area": 8.5250088,
+      "watts_per_area": 7.104174,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.6,
       "visible_fraction": 0.2,
       "schedule": "ApartmentHighRise LTG_COR_SCH_2013",
-      "baseline_watts_per_area": 8.5250088
+      "baseline_watts_per_area": 7.104174
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1463,12 +1463,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::Hospital::ER_NurseStn_Lighting",
-      "watts_per_area": 8.4604254,
+      "watts_per_area": 7.6423689999999995,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_NURSEFLR1_SCH",
-      "baseline_watts_per_area": 8.4604254
+      "baseline_watts_per_area": 7.6423689999999995
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1972,12 +1972,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::Hospital::Lobby_Lighting",
-      "watts_per_area": 9.7736212,
+      "watts_per_area": 9.68751,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_LOBBYFLR1_SCH",
-      "baseline_watts_per_area": 9.7736212
+      "baseline_watts_per_area": 9.68751
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2024,12 +2024,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::Hospital::NurseStn_Lighting",
-      "watts_per_area": 8.8694536,
+      "watts_per_area": 7.6423689999999995,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_NURSEFLR234_SCH",
-      "baseline_watts_per_area": 8.8694536
+      "baseline_watts_per_area": 7.6423689999999995
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2716,12 +2716,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::LargeHotel::Banquet_Lighting",
-      "watts_per_area": 9.579870999999999,
+      "watts_per_area": 6.996535,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 9.579870999999999
+      "baseline_watts_per_area": 6.996535
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2820,12 +2820,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::LargeHotel::Cafe_Lighting",
-      "watts_per_area": 9.579870999999999,
+      "watts_per_area": 6.996535,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 9.579870999999999
+      "baseline_watts_per_area": 6.996535
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3322,6 +3322,67 @@
       "cooling_schedule": "HotelLarge Adva_OccGuestRoom_ClgSP_Sch"
     }
   },
+  "2013::LargeHotel::GuestRoom8": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2013::LargeHotel::GuestRoom8",
+    "people": {
+      "type": "PeopleAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom8_People",
+      "people_per_area": 0.061139037490716114,
+      "radiant_fraction": 0.3,
+      "latent_fraction": {
+        "type": "Autocalculate"
+      },
+      "occupancy_schedule": "Always Off",
+      "activity_schedule": "HotelLarge ACTIVITY_SCH"
+    },
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom8_Lighting",
+      "watts_per_area": 9.795149,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.7,
+      "visible_fraction": 0.2,
+      "schedule": "HotelLarge BLDG_LIGHT_GUESTROOM_SCH_2013",
+      "baseline_watts_per_area": 9.795149
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom8_Electric",
+      "watts_per_area": 10.5163303,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "HotelLarge GuestRoom_Eqp_Sch_Adva"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom8_SHW",
+      "flow_per_area": 0.19292518940011302,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "HotelLarge GuestRoom_SWH_Sch"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom8_Infiltration",
+      "flow_per_exterior_area": 0.0005689600000000001,
+      "schedule": "HotelLarge INFIL_QUARTER_ON_SCH"
+    },
+    "ventilation": {
+      "type": "VentilationAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom8_Ventilation",
+      "flow_per_person": 0.002359735,
+      "flow_per_area": 0.0003048
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2013::LargeHotel::GuestRoom8_Setpoint",
+      "heating_schedule": "HotelLarge VAC_OccGuestRoom_HtgSP_Sch",
+      "cooling_schedule": "HotelLarge VAC_OccGuestRoom_ClgSP_Sch"
+    }
+  },
   "2013::LargeHotel::Kitchen": {
     "type": "ProgramTypeAbridged",
     "identifier": "2013::LargeHotel::Kitchen",
@@ -3520,12 +3581,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::LargeHotel::Mechanical_Lighting",
-      "watts_per_area": 10.225705,
+      "watts_per_area": 4.5208379999999995,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_MECHANIC_SCH_2013",
-      "baseline_watts_per_area": 10.225705
+      "baseline_watts_per_area": 4.5208379999999995
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3646,6 +3707,20 @@
       "cooling_schedule": "HotelLarge CLGSETP_SCH"
     }
   },
+  "2013::LargeOffice::Office - open plan": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2013::LargeOffice::Office - open plan",
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2013::LargeOffice::Office - open plan_Lighting",
+      "watts_per_area": 13.562514,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.7,
+      "visible_fraction": 0.2,
+      "schedule": "RetailStandalone BLDG_LIGHT_SCH",
+      "baseline_watts_per_area": 13.562514
+    }
+  },
   "2013::MidriseApartment::Apartment": {
     "type": "ProgramTypeAbridged",
     "identifier": "2013::MidriseApartment::Apartment",
@@ -3712,12 +3787,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::MidriseApartment::Corridor_Lighting",
-      "watts_per_area": 8.5250088,
+      "watts_per_area": 7.104174,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.6,
       "visible_fraction": 0.2,
       "schedule": "ApartmentMidRise LTG_COR_SCH_2013",
-      "baseline_watts_per_area": 8.5250088
+      "baseline_watts_per_area": 7.104174
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4123,12 +4198,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::LargeOffice::Elec/MechRoom_Lighting",
-      "watts_per_area": 10.225705,
+      "watts_per_area": 4.5208379999999995,
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 10.225705
+      "baseline_watts_per_area": 4.5208379999999995
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4339,12 +4414,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::LargeOffice::Main Electrical_Lighting",
-      "watts_per_area": 10.225705,
+      "watts_per_area": 4.5208379999999995,
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 10.225705
+      "baseline_watts_per_area": 4.5208379999999995
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4379,12 +4454,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::LargeOffice::Main Mechanical_Lighting",
-      "watts_per_area": 10.225705,
+      "watts_per_area": 4.5208379999999995,
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 10.225705
+      "baseline_watts_per_area": 4.5208379999999995
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4719,12 +4794,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::MediumOffice::Elec/MechRoom_Lighting",
-      "watts_per_area": 10.225705,
+      "watts_per_area": 4.5208379999999995,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OfficeMedium BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 10.225705
+      "baseline_watts_per_area": 4.5208379999999995
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5513,12 +5588,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::SmallOffice::Elec/MechRoom_Lighting",
-      "watts_per_area": 10.225705,
+      "watts_per_area": 4.5208379999999995,
       "return_air_fraction": 0.4,
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeSmall BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 10.225705
+      "baseline_watts_per_area": 4.5208379999999995
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6224,12 +6299,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::Outpatient::Elec/MechRoom_Lighting",
-      "watts_per_area": 17.868074,
+      "watts_per_area": 4.5208379999999995,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_STORAGE_SCH",
-      "baseline_watts_per_area": 17.868074
+      "baseline_watts_per_area": 4.5208379999999995
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6263,12 +6338,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::Outpatient::ElevatorPumpRoom_Lighting",
-      "watts_per_area": 17.868074,
+      "watts_per_area": 4.5208379999999995,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_STORAGE_SCH",
-      "baseline_watts_per_area": 17.868074
+      "baseline_watts_per_area": 4.5208379999999995
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6353,12 +6428,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::Outpatient::Hall_Lighting",
-      "watts_per_area": 8.5250088,
+      "watts_per_area": 10.656260999999999,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_CORRIDOR_SCH",
-      "baseline_watts_per_area": 8.5250088
+      "baseline_watts_per_area": 10.656260999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7168,12 +7243,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::Outpatient::ProcedureRoom_Lighting",
-      "watts_per_area": 24.326413999999996,
+      "watts_per_area": 17.868074,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_EXAM_SCH",
-      "baseline_watts_per_area": 24.326413999999996
+      "baseline_watts_per_area": 17.868074
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7320,12 +7395,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::Outpatient::Stair_Lighting",
-      "watts_per_area": 8.5250088,
+      "watts_per_area": 10.656260999999999,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_CORRIDOR_SCH",
-      "baseline_watts_per_area": 8.5250088
+      "baseline_watts_per_area": 10.656260999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7908,12 +7983,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::PrimarySchool::Mechanical_Lighting",
-      "watts_per_area": 10.225705,
+      "watts_per_area": 4.5208379999999995,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolPrimary BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 10.225705
+      "baseline_watts_per_area": 4.5208379999999995
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8064,12 +8139,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::QuickServiceRestaurant::Dining_Lighting",
-      "watts_per_area": 6.996535,
+      "watts_per_area": 9.579870999999999,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "RestaurantFastFood BLDG_LIGHT_DINING_SCH_2013",
-      "baseline_watts_per_area": 6.996535
+      "baseline_watts_per_area": 9.579870999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8186,12 +8261,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::Retail::Back_Space_Lighting",
-      "watts_per_area": 7.567021699999999,
+      "watts_per_area": 6.781257,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "RetailStandalone BLDG_LIGHT_BACK_SCH_2013",
-      "baseline_watts_per_area": 7.567021699999999
+      "baseline_watts_per_area": 6.781257
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8954,12 +9029,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::SecondarySchool::Mechanical_Lighting",
-      "watts_per_area": 10.225705,
+      "watts_per_area": 4.5208379999999995,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolSecondary BLDG_LIGHT_MECHANICAL_SCH_2013",
-      "baseline_watts_per_area": 10.225705
+      "baseline_watts_per_area": 4.5208379999999995
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9165,12 +9240,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::SmallHotel::Corridor_Lighting",
-      "watts_per_area": 8.5250088,
+      "watts_per_area": 7.104174,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelSmall BLDG_LIGHT_CORRIDOR_SCH_2013",
-      "baseline_watts_per_area": 8.5250088
+      "baseline_watts_per_area": 7.104174
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9284,12 +9359,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::SmallHotel::Exercise_Lighting",
-      "watts_per_area": 9.3000096,
+      "watts_per_area": 7.750007999999999,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelSmall BLDG_LIGHT_EXERCENTER_SCH",
-      "baseline_watts_per_area": 9.3000096
+      "baseline_watts_per_area": 7.750007999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9621,12 +9696,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::SmallHotel::Mechanical_Lighting",
-      "watts_per_area": 10.225705,
+      "watts_per_area": 4.5208379999999995,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelSmall BLDG_LIGHT_MECHROOM_SCH",
-      "baseline_watts_per_area": 10.225705
+      "baseline_watts_per_area": 4.5208379999999995
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10079,12 +10154,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::StripMall::Type 1_Lighting",
-      "watts_per_area": 13.454875,
+      "watts_per_area": 13.562514,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "RetailStripmall Type1_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 13.454875
+      "baseline_watts_per_area": 13.562514
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10139,12 +10214,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::StripMall::Type 2_Lighting",
-      "watts_per_area": 13.454875,
+      "watts_per_area": 13.562514,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "RetailStripmall Type2_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 13.454875
+      "baseline_watts_per_area": 13.562514
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10199,12 +10274,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::StripMall::Type 3_Lighting",
-      "watts_per_area": 13.454875,
+      "watts_per_area": 13.562514,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "RetailStripmall Type3_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 13.454875
+      "baseline_watts_per_area": 13.562514
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10502,12 +10577,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::SuperMarket::DryStorage_Lighting",
-      "watts_per_area": 6.243061999999999,
+      "watts_per_area": 6.781257,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 6.243061999999999
+      "baseline_watts_per_area": 6.781257
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10692,12 +10767,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::SuperMarket::Produce_Lighting",
-      "watts_per_area": 15.607655,
+      "watts_per_area": 15.500015999999999,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 15.607655
+      "baseline_watts_per_area": 15.500015999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10795,12 +10870,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2013::SuperMarket::Sales_Lighting",
-      "watts_per_area": 15.607655,
+      "watts_per_area": 15.500015999999999,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 15.607655
+      "baseline_watts_per_area": 15.500015999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10907,7 +10982,7 @@
       "type": "InfiltrationAbridged",
       "identifier": "2013::Warehouse::Bulk_Infiltration",
       "flow_per_exterior_area": 0.00022656800000000002,
-      "schedule": "Warehouse ALWAYS_ON"
+      "schedule": "Warehouse Bulk Infil Schedule"
     },
     "ventilation": {
       "type": "VentilationAbridged",
@@ -10947,7 +11022,7 @@
       "type": "InfiltrationAbridged",
       "identifier": "2013::Warehouse::Fine_Infiltration",
       "flow_per_exterior_area": 0.00022656800000000002,
-      "schedule": "Warehouse ALWAYS_ON"
+      "schedule": "Warehouse Fine Infil Schedule"
     },
     "ventilation": {
       "type": "VentilationAbridged",
@@ -10998,7 +11073,7 @@
       "type": "InfiltrationAbridged",
       "identifier": "2013::Warehouse::Office_Infiltration",
       "flow_per_exterior_area": 0.00022656800000000002,
-      "schedule": "Warehouse ALWAYS_ON"
+      "schedule": "Warehouse Office Infil Schedule"
     },
     "ventilation": {
       "type": "VentilationAbridged",

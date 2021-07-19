@@ -1160,12 +1160,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2010::HighriseApartment::Corridor_Lighting",
-      "watts_per_area": 8.5250088,
+      "watts_per_area": 7.104174,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.6,
       "visible_fraction": 0.2,
       "schedule": "ApartmentHighRise LTG_COR_SCH_2010",
-      "baseline_watts_per_area": 8.5250088
+      "baseline_watts_per_area": 7.104174
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2090,12 +2090,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2010::Hospital::Office_Lighting",
-      "watts_per_area": 10.7639,
+      "watts_per_area": 9.68751,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_OFFICE_SCH",
-      "baseline_watts_per_area": 10.7639
+      "baseline_watts_per_area": 9.68751
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2670,12 +2670,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2010::LargeHotel::Banquet_Lighting",
-      "watts_per_area": 9.579870999999999,
+      "watts_per_area": 8.826398,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_SCH_2010",
-      "baseline_watts_per_area": 9.579870999999999
+      "baseline_watts_per_area": 8.826398
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2774,12 +2774,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2010::LargeHotel::Cafe_Lighting",
-      "watts_per_area": 9.579870999999999,
+      "watts_per_area": 8.826398,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 9.579870999999999
+      "baseline_watts_per_area": 8.826398
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3276,6 +3276,67 @@
       "cooling_schedule": "HotelLarge Adva_OccGuestRoom_ClgSP_Sch"
     }
   },
+  "2010::LargeHotel::GuestRoom8": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2010::LargeHotel::GuestRoom8",
+    "people": {
+      "type": "PeopleAbridged",
+      "identifier": "2010::LargeHotel::GuestRoom8_People",
+      "people_per_area": 0.061139037490716114,
+      "radiant_fraction": 0.3,
+      "latent_fraction": {
+        "type": "Autocalculate"
+      },
+      "occupancy_schedule": "Always Off",
+      "activity_schedule": "HotelLarge ACTIVITY_SCH"
+    },
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2010::LargeHotel::GuestRoom8_Lighting",
+      "watts_per_area": 11.947929,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.7,
+      "visible_fraction": 0.2,
+      "schedule": "HotelLarge BLDG_LIGHT_GUESTROOM_SCH_2010",
+      "baseline_watts_per_area": 11.947929
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2010::LargeHotel::GuestRoom8_Electric",
+      "watts_per_area": 10.5163303,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "HotelLarge GuestRoom_Eqp_Sch_Base"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2010::LargeHotel::GuestRoom8_SHW",
+      "flow_per_area": 0.19292518940011302,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "HotelLarge GuestRoom_SWH_Sch"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2010::LargeHotel::GuestRoom8_Infiltration",
+      "flow_per_exterior_area": 0.0005689600000000001,
+      "schedule": "HotelLarge INFIL_QUARTER_ON_SCH"
+    },
+    "ventilation": {
+      "type": "VentilationAbridged",
+      "identifier": "2010::LargeHotel::GuestRoom8_Ventilation",
+      "flow_per_person": 0.002359735,
+      "flow_per_area": 0.0003048
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2010::LargeHotel::GuestRoom8_Setpoint",
+      "heating_schedule": "HotelLarge VAC_OccGuestRoom_HtgSP_Sch",
+      "cooling_schedule": "HotelLarge VAC_OccGuestRoom_ClgSP_Sch"
+    }
+  },
   "2010::LargeHotel::Kitchen": {
     "type": "ProgramTypeAbridged",
     "identifier": "2010::LargeHotel::Kitchen",
@@ -3718,12 +3779,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2010::MidriseApartment::Corridor_Lighting",
-      "watts_per_area": 8.5250088,
+      "watts_per_area": 7.104174,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.6,
       "visible_fraction": 0.2,
       "schedule": "ApartmentMidRise LTG_COR_SCH_2010",
-      "baseline_watts_per_area": 8.5250088
+      "baseline_watts_per_area": 7.104174
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6230,12 +6291,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2010::Outpatient::Elec/MechRoom_Lighting",
-      "watts_per_area": 17.868074,
+      "watts_per_area": 10.225705,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_STORAGE_SCH",
-      "baseline_watts_per_area": 17.868074
+      "baseline_watts_per_area": 10.225705
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6269,12 +6330,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2010::Outpatient::ElevatorPumpRoom_Lighting",
-      "watts_per_area": 17.868074,
+      "watts_per_area": 10.225705,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_STORAGE_SCH",
-      "baseline_watts_per_area": 17.868074
+      "baseline_watts_per_area": 10.225705
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6359,12 +6420,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2010::Outpatient::Hall_Lighting",
-      "watts_per_area": 8.5250088,
+      "watts_per_area": 9.579870999999999,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_CORRIDOR_SCH",
-      "baseline_watts_per_area": 8.5250088
+      "baseline_watts_per_area": 9.579870999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7326,12 +7387,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2010::Outpatient::Stair_Lighting",
-      "watts_per_area": 8.5250088,
+      "watts_per_area": 9.579870999999999,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_CORRIDOR_SCH",
-      "baseline_watts_per_area": 8.5250088
+      "baseline_watts_per_area": 9.579870999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9177,12 +9238,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2010::SmallHotel::Corridor_Lighting",
-      "watts_per_area": 8.5250088,
+      "watts_per_area": 7.104174,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelSmall BLDG_LIGHT_CORRIDOR_SCH",
-      "baseline_watts_per_area": 8.5250088
+      "baseline_watts_per_area": 7.104174
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9296,12 +9357,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2010::SmallHotel::Exercise_Lighting",
-      "watts_per_area": 9.3000096,
+      "watts_per_area": 7.750007999999999,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelSmall BLDG_LIGHT_EXERCENTER_SCH",
-      "baseline_watts_per_area": 9.3000096
+      "baseline_watts_per_area": 7.750007999999999
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10532,12 +10593,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2010::SuperMarket::Produce_Lighting",
-      "watts_per_area": 35.520869999999995,
+      "watts_per_area": 18.083351999999998,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 35.520869999999995
+      "baseline_watts_per_area": 18.083351999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10635,12 +10696,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2010::SuperMarket::Sales_Lighting",
-      "watts_per_area": 35.520869999999995,
+      "watts_per_area": 18.083351999999998,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 35.520869999999995
+      "baseline_watts_per_area": 18.083351999999998
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
