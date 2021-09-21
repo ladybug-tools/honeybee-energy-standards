@@ -52,8 +52,11 @@ openstudio-standards/standards/ashrae_90_1/data/ashrae_90_1.materials.json
         data_store = json.load(f)
 
     # clean the data
+    ignored_materials = {'Interior Wall Addi Insul'}
     for mat in data_store['materials']:
         clean_mat = {}
+        if mat['name'] in ignored_materials:
+            continue
         if mat['notes'] is None and not mat['name'].startswith('Skylight_Frame_Width'):
             for key, value in mat.items():
                 if value is not None:
