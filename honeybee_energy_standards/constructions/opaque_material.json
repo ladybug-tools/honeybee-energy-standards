@@ -539,18 +539,6 @@
     "solar_absorptance": 0.7,
     "visible_absorptance": 0.8
   },
-  "Interior Wall Addi Insul": {
-    "type": "EnergyMaterial",
-    "identifier": "Interior Wall Addi Insul",
-    "roughness": "MediumRough",
-    "thickness": 2.540005148920944e-08,
-    "conductivity": 0.04323107096585415,
-    "density": 22.425885365668197,
-    "specific_heat": 836.2604510890168,
-    "thermal_absorptance": 0.9,
-    "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
-  },
   "M01 100mm brick": {
     "type": "EnergyMaterial",
     "identifier": "M01 100mm brick",
