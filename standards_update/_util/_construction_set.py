@@ -14,7 +14,7 @@ def clean_construction_sets(source_filename, dest_directory, vintage,
     Specifically, this method performs the following major cleaning operations:
 
     * Classify the individual construction properties into complete ConstructionSets
-        oranized by Climate Zone and Construction Type. These include:
+        organized by Climate Zone and Construction Type. These include:
 
         * climate zones: (1, 2, 3, 4, 5, 6, 7, 8)
         * construction types: ('SteelFramed', 'WoodFramed', 'Mass', 'MetalBuilding'
@@ -132,6 +132,8 @@ ashrae_90_1_2013.construction_properties.json
             # get the exterior window construction
             win_type = 'Nonmetal framing (all)' if constr_type == 'WoodFramed' else \
                 'Metal framing (all other)'
+            if win_type == 'Metal framing (all other)' and 'ashrae_90_1_2019' in source_filename:
+                win_type = 'Metal framing (curtainwall/storefront)'
             win_constr = extract_window_construction(data_store, c_zone, 'ExteriorWindow', win_type, 40)
             if win_constr is None:
                 win_constr = extract_construction(data_store, c_zone, 'ExteriorWindow', win_type)

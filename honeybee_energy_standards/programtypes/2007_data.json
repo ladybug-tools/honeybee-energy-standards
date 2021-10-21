@@ -2917,8 +2917,8 @@
     "setpoint": {
       "type": "SetpointAbridged",
       "identifier": "2007::LargeHotel::GuestRoom_Setpoint",
-      "heating_schedule": "HotelLarge HTGSETP_SCH",
-      "cooling_schedule": "HotelLarge CLGSETP_SCH"
+      "heating_schedule": "HotelLarge Adva_OccGuestRoom_HtgSP_Sch",
+      "cooling_schedule": "HotelLarge Adva_OccGuestRoom_ClgSP_Sch"
     }
   },
   "2007::LargeHotel::GuestRoom2": {
@@ -9377,8 +9377,8 @@
     "setpoint": {
       "type": "SetpointAbridged",
       "identifier": "2007::SmallHotel::GuestRoomOcc_Setpoint",
-      "heating_schedule": "HotelSmall Base_OccGuestRoom_HtgSP_Sch",
-      "cooling_schedule": "HotelSmall Base_OccGuestRoom_ClgSP_Sch"
+      "heating_schedule": "HotelSmall Adva_OccGuestRoom_HtgSP_Sch",
+      "cooling_schedule": "HotelSmall Adva_OccGuestRoom_ClgSP_Sch"
     }
   },
   "2007::SmallHotel::GuestRoomVac": {

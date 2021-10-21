@@ -9480,8 +9480,8 @@
     "setpoint": {
       "type": "SetpointAbridged",
       "identifier": "2016::SmallHotel::GuestRoom_Setpoint",
-      "heating_schedule": "Hospital HTGSETP_SCH",
-      "cooling_schedule": "Hospital CLGSETP_SCH"
+      "heating_schedule": "HotelSmall Adva_OccGuestRoom_HtgSP_Sch",
+      "cooling_schedule": "HotelSmall Adva_OccGuestRoom_ClgSP_Sch"
     }
   },
   "2016::SmallHotel::GuestRoomOcc": {
