@@ -420,6 +420,13 @@
       "U 0.31 SHGC 0.39 Simple Glazing"
     ]
   },
+  "U 0.32 SHGC 0.22 Simple Glazing Window": {
+    "type": "WindowConstructionAbridged",
+    "identifier": "U 0.32 SHGC 0.22 Simple Glazing Window",
+    "materials": [
+      "U 0.32 SHGC 0.22 Simple Glazing"
+    ]
+  },
   "U 0.32 SHGC 0.36 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.32 SHGC 0.36 Simple Glazing Window",
@@ -747,6 +754,13 @@
       "LoE SPEC SEL CLEAR 6MM Rev"
     ]
   },
+  "U 0.41 SHGC 0.55 Simple Glazing Skylight": {
+    "type": "WindowConstructionAbridged",
+    "identifier": "U 0.41 SHGC 0.55 Simple Glazing Skylight",
+    "materials": [
+      "U 0.41 SHGC 0.55 Simple Glazing"
+    ]
+  },
   "U 0.41 SHGC 0.55 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.41 SHGC 0.55 Simple Glazing Window",
@@ -852,6 +866,13 @@
       "CLEAR 6MM"
     ]
   },
+  "U 0.44 SHGC 0.55 Simple Glazing Skylight": {
+    "type": "WindowConstructionAbridged",
+    "identifier": "U 0.44 SHGC 0.55 Simple Glazing Skylight",
+    "materials": [
+      "U 0.44 SHGC 0.55 Simple Glazing"
+    ]
+  },
   "U 0.44 SHGC 0.55 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.44 SHGC 0.55 Simple Glazing Window",
@@ -931,6 +952,13 @@
     "identifier": "U 0.47 SHGC 0.33 Simple Glazing Window",
     "materials": [
       "U 0.47 SHGC 0.33 Simple Glazing"
+    ]
+  },
+  "U 0.47 SHGC 0.4 Simple Glazing Skylight": {
+    "type": "WindowConstructionAbridged",
+    "identifier": "U 0.47 SHGC 0.4 Simple Glazing Skylight",
+    "materials": [
+      "U 0.47 SHGC 0.4 Simple Glazing"
     ]
   },
   "U 0.47 SHGC 0.4 Simple Glazing Window": {
@@ -1052,6 +1080,13 @@
     "identifier": "U 0.5 SHGC 0.39 Simple Glazing Skylight",
     "materials": [
       "U 0.5 SHGC 0.39 Simple Glazing"
+    ]
+  },
+  "U 0.5 SHGC 0.4 Simple Glazing Skylight": {
+    "type": "WindowConstructionAbridged",
+    "identifier": "U 0.5 SHGC 0.4 Simple Glazing Skylight",
+    "materials": [
+      "U 0.5 SHGC 0.4 Simple Glazing"
     ]
   },
   "U 0.5 SHGC 0.4 Simple Glazing Window": {
@@ -1255,6 +1290,13 @@
       "Glass_2022F_LayerAvg"
     ]
   },
+  "U 0.55 SHGC 0.3 Simple Glazing Skylight": {
+    "type": "WindowConstructionAbridged",
+    "identifier": "U 0.55 SHGC 0.3 Simple Glazing Skylight",
+    "materials": [
+      "U 0.55 SHGC 0.3 Simple Glazing"
+    ]
+  },
   "U 0.55 SHGC 0.3 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.55 SHGC 0.3 Simple Glazing Window",
@@ -1269,6 +1311,13 @@
       "REF D TINT 6MM",
       "AIR 6MM",
       "CLEAR 6MM"
+    ]
+  },
+  "U 0.55 SHGC 0.35 Simple Glazing Skylight": {
+    "type": "WindowConstructionAbridged",
+    "identifier": "U 0.55 SHGC 0.35 Simple Glazing Skylight",
+    "materials": [
+      "U 0.55 SHGC 0.35 Simple Glazing"
     ]
   },
   "U 0.55 SHGC 0.35 Simple Glazing Window": {
@@ -1487,6 +1536,13 @@
       "CLEAR 6MM"
     ]
   },
+  "U 0.65 SHGC 0.3 Simple Glazing Skylight": {
+    "type": "WindowConstructionAbridged",
+    "identifier": "U 0.65 SHGC 0.3 Simple Glazing Skylight",
+    "materials": [
+      "U 0.65 SHGC 0.3 Simple Glazing"
+    ]
+  },
   "U 0.65 SHGC 0.3 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.65 SHGC 0.3 Simple Glazing Window",
@@ -1618,6 +1674,13 @@
     "identifier": "U 0.69 SHGC 0.68 Simple Glazing Skylight",
     "materials": [
       "U 0.69 SHGC 0.68 Simple Glazing"
+    ]
+  },
+  "U 0.7 SHGC 0.3 Simple Glazing Skylight": {
+    "type": "WindowConstructionAbridged",
+    "identifier": "U 0.7 SHGC 0.3 Simple Glazing Skylight",
+    "materials": [
+      "U 0.7 SHGC 0.3 Simple Glazing"
     ]
   },
   "U 0.7 SHGC 0.3 Simple Glazing Window": {
