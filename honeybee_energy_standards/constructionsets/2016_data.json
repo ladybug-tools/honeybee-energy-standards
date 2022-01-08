@@ -19,7 +19,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.57 SHGC 0.25 Simple Glazing Window",
-      "skylight_construction": "U 0.75 SHGC 0.55 Simple Glazing Skylight",
+      "skylight_construction": "U 0.75 SHGC 0.35 Simple Glazing Skylight",
       "operable_construction": "U 0.57 SHGC 0.25 Simple Glazing Window"
     },
     "door_set": {
@@ -49,7 +49,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.5 SHGC 0.25 Simple Glazing Window",
-      "skylight_construction": "U 0.75 SHGC 0.55 Simple Glazing Skylight",
+      "skylight_construction": "U 0.75 SHGC 0.35 Simple Glazing Skylight",
       "operable_construction": "U 0.5 SHGC 0.25 Simple Glazing Window"
     },
     "door_set": {
@@ -79,7 +79,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.57 SHGC 0.25 Simple Glazing Window",
-      "skylight_construction": "U 0.75 SHGC 0.55 Simple Glazing Skylight",
+      "skylight_construction": "U 0.75 SHGC 0.35 Simple Glazing Skylight",
       "operable_construction": "U 0.57 SHGC 0.25 Simple Glazing Window"
     },
     "door_set": {
@@ -109,7 +109,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.57 SHGC 0.25 Simple Glazing Window",
-      "skylight_construction": "U 0.75 SHGC 0.55 Simple Glazing Skylight",
+      "skylight_construction": "U 0.75 SHGC 0.35 Simple Glazing Skylight",
       "operable_construction": "U 0.57 SHGC 0.25 Simple Glazing Window"
     },
     "door_set": {
@@ -139,7 +139,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.54 SHGC 0.25 Simple Glazing Window",
-      "skylight_construction": "U 0.65 SHGC 0.55 Simple Glazing Skylight",
+      "skylight_construction": "U 0.65 SHGC 0.35 Simple Glazing Skylight",
       "operable_construction": "U 0.54 SHGC 0.25 Simple Glazing Window"
     },
     "door_set": {
@@ -169,7 +169,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.37 SHGC 0.25 Simple Glazing Window",
-      "skylight_construction": "U 0.65 SHGC 0.55 Simple Glazing Skylight",
+      "skylight_construction": "U 0.65 SHGC 0.35 Simple Glazing Skylight",
       "operable_construction": "U 0.37 SHGC 0.25 Simple Glazing Window"
     },
     "door_set": {
@@ -199,7 +199,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.54 SHGC 0.25 Simple Glazing Window",
-      "skylight_construction": "U 0.65 SHGC 0.55 Simple Glazing Skylight",
+      "skylight_construction": "U 0.65 SHGC 0.35 Simple Glazing Skylight",
       "operable_construction": "U 0.54 SHGC 0.25 Simple Glazing Window"
     },
     "door_set": {
@@ -229,7 +229,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.54 SHGC 0.25 Simple Glazing Window",
-      "skylight_construction": "U 0.65 SHGC 0.55 Simple Glazing Skylight",
+      "skylight_construction": "U 0.65 SHGC 0.35 Simple Glazing Skylight",
       "operable_construction": "U 0.54 SHGC 0.25 Simple Glazing Window"
     },
     "door_set": {
@@ -259,7 +259,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.45 SHGC 0.25 Simple Glazing Window",
-      "skylight_construction": "U 0.55 SHGC 0.64 Simple Glazing Skylight",
+      "skylight_construction": "U 0.55 SHGC 0.35 Simple Glazing Skylight",
       "operable_construction": "U 0.45 SHGC 0.25 Simple Glazing Window"
     },
     "door_set": {
@@ -289,7 +289,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.33 SHGC 0.25 Simple Glazing Window",
-      "skylight_construction": "U 0.55 SHGC 0.64 Simple Glazing Skylight",
+      "skylight_construction": "U 0.55 SHGC 0.35 Simple Glazing Skylight",
       "operable_construction": "U 0.33 SHGC 0.25 Simple Glazing Window"
     },
     "door_set": {
@@ -319,7 +319,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.45 SHGC 0.25 Simple Glazing Window",
-      "skylight_construction": "U 0.55 SHGC 0.64 Simple Glazing Skylight",
+      "skylight_construction": "U 0.55 SHGC 0.35 Simple Glazing Skylight",
       "operable_construction": "U 0.45 SHGC 0.25 Simple Glazing Window"
     },
     "door_set": {
@@ -349,7 +349,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.45 SHGC 0.25 Simple Glazing Window",
-      "skylight_construction": "U 0.55 SHGC 0.64 Simple Glazing Skylight",
+      "skylight_construction": "U 0.55 SHGC 0.35 Simple Glazing Skylight",
       "operable_construction": "U 0.45 SHGC 0.25 Simple Glazing Window"
     },
     "door_set": {
@@ -379,7 +379,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.38 SHGC 0.36 Simple Glazing Window",
-      "skylight_construction": "U 0.5 SHGC 0.55 Simple Glazing Skylight",
+      "skylight_construction": "U 0.5 SHGC 0.4 Simple Glazing Skylight",
       "operable_construction": "U 0.38 SHGC 0.36 Simple Glazing Window"
     },
     "door_set": {
@@ -409,7 +409,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.31 SHGC 0.36 Simple Glazing Window",
-      "skylight_construction": "U 0.5 SHGC 0.55 Simple Glazing Skylight",
+      "skylight_construction": "U 0.5 SHGC 0.4 Simple Glazing Skylight",
       "operable_construction": "U 0.31 SHGC 0.36 Simple Glazing Window"
     },
     "door_set": {
@@ -439,7 +439,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.38 SHGC 0.36 Simple Glazing Window",
-      "skylight_construction": "U 0.5 SHGC 0.55 Simple Glazing Skylight",
+      "skylight_construction": "U 0.5 SHGC 0.4 Simple Glazing Skylight",
       "operable_construction": "U 0.38 SHGC 0.36 Simple Glazing Window"
     },
     "door_set": {
@@ -469,7 +469,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.38 SHGC 0.36 Simple Glazing Window",
-      "skylight_construction": "U 0.5 SHGC 0.55 Simple Glazing Skylight",
+      "skylight_construction": "U 0.5 SHGC 0.4 Simple Glazing Skylight",
       "operable_construction": "U 0.38 SHGC 0.36 Simple Glazing Window"
     },
     "door_set": {
@@ -499,7 +499,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.38 SHGC 0.38 Simple Glazing Window",
-      "skylight_construction": "U 0.5 SHGC 0.36 Simple Glazing Skylight",
+      "skylight_construction": "U 0.5 SHGC 0.4 Simple Glazing Skylight",
       "operable_construction": "U 0.38 SHGC 0.38 Simple Glazing Window"
     },
     "door_set": {
@@ -529,7 +529,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.31 SHGC 0.38 Simple Glazing Window",
-      "skylight_construction": "U 0.5 SHGC 0.36 Simple Glazing Skylight",
+      "skylight_construction": "U 0.5 SHGC 0.4 Simple Glazing Skylight",
       "operable_construction": "U 0.31 SHGC 0.38 Simple Glazing Window"
     },
     "door_set": {
@@ -559,7 +559,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.38 SHGC 0.38 Simple Glazing Window",
-      "skylight_construction": "U 0.5 SHGC 0.36 Simple Glazing Skylight",
+      "skylight_construction": "U 0.5 SHGC 0.4 Simple Glazing Skylight",
       "operable_construction": "U 0.38 SHGC 0.38 Simple Glazing Window"
     },
     "door_set": {
@@ -589,7 +589,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.38 SHGC 0.38 Simple Glazing Window",
-      "skylight_construction": "U 0.5 SHGC 0.36 Simple Glazing Skylight",
+      "skylight_construction": "U 0.5 SHGC 0.4 Simple Glazing Skylight",
       "operable_construction": "U 0.38 SHGC 0.38 Simple Glazing Window"
     },
     "door_set": {
@@ -619,7 +619,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.36 SHGC 0.4 Simple Glazing Window",
-      "skylight_construction": "U 0.5 SHGC 0.19 Simple Glazing Skylight",
+      "skylight_construction": "U 0.5 SHGC 0.4 Simple Glazing Skylight",
       "operable_construction": "U 0.36 SHGC 0.4 Simple Glazing Window"
     },
     "door_set": {
@@ -649,7 +649,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.3 SHGC 0.4 Simple Glazing Window",
-      "skylight_construction": "U 0.5 SHGC 0.19 Simple Glazing Skylight",
+      "skylight_construction": "U 0.5 SHGC 0.4 Simple Glazing Skylight",
       "operable_construction": "U 0.3 SHGC 0.4 Simple Glazing Window"
     },
     "door_set": {
@@ -679,7 +679,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.36 SHGC 0.4 Simple Glazing Window",
-      "skylight_construction": "U 0.5 SHGC 0.19 Simple Glazing Skylight",
+      "skylight_construction": "U 0.5 SHGC 0.4 Simple Glazing Skylight",
       "operable_construction": "U 0.36 SHGC 0.4 Simple Glazing Window"
     },
     "door_set": {
@@ -709,7 +709,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.36 SHGC 0.4 Simple Glazing Window",
-      "skylight_construction": "U 0.5 SHGC 0.19 Simple Glazing Skylight",
+      "skylight_construction": "U 0.5 SHGC 0.4 Simple Glazing Skylight",
       "operable_construction": "U 0.36 SHGC 0.4 Simple Glazing Window"
     },
     "door_set": {
@@ -739,7 +739,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.33 SHGC 0.45 Simple Glazing Window",
-      "skylight_construction": "U 0.5 SHGC 0.27 Simple Glazing Skylight",
+      "skylight_construction": "U 0.5 SHGC 0.55 Simple Glazing Skylight",
       "operable_construction": "U 0.33 SHGC 0.45 Simple Glazing Window"
     },
     "door_set": {
@@ -769,7 +769,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.28 SHGC 0.45 Simple Glazing Window",
-      "skylight_construction": "U 0.5 SHGC 0.27 Simple Glazing Skylight",
+      "skylight_construction": "U 0.5 SHGC 0.55 Simple Glazing Skylight",
       "operable_construction": "U 0.28 SHGC 0.45 Simple Glazing Window"
     },
     "door_set": {
@@ -799,7 +799,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.33 SHGC 0.45 Simple Glazing Window",
-      "skylight_construction": "U 0.5 SHGC 0.27 Simple Glazing Skylight",
+      "skylight_construction": "U 0.5 SHGC 0.55 Simple Glazing Skylight",
       "operable_construction": "U 0.33 SHGC 0.45 Simple Glazing Window"
     },
     "door_set": {
@@ -829,7 +829,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.33 SHGC 0.45 Simple Glazing Window",
-      "skylight_construction": "U 0.5 SHGC 0.27 Simple Glazing Skylight",
+      "skylight_construction": "U 0.5 SHGC 0.55 Simple Glazing Skylight",
       "operable_construction": "U 0.33 SHGC 0.45 Simple Glazing Window"
     },
     "door_set": {
@@ -859,7 +859,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.29 SHGC 0.45 Simple Glazing Window",
-      "skylight_construction": "U 0.5 SHGC 0.39 Simple Glazing Skylight",
+      "skylight_construction": "U 0.41 SHGC 0.55 Simple Glazing Skylight",
       "operable_construction": "U 0.29 SHGC 0.45 Simple Glazing Window"
     },
     "door_set": {
@@ -889,7 +889,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.25 SHGC 0.45 Simple Glazing Window",
-      "skylight_construction": "U 0.5 SHGC 0.39 Simple Glazing Skylight",
+      "skylight_construction": "U 0.41 SHGC 0.55 Simple Glazing Skylight",
       "operable_construction": "U 0.25 SHGC 0.45 Simple Glazing Window"
     },
     "door_set": {
@@ -919,7 +919,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.29 SHGC 0.45 Simple Glazing Window",
-      "skylight_construction": "U 0.5 SHGC 0.39 Simple Glazing Skylight",
+      "skylight_construction": "U 0.41 SHGC 0.55 Simple Glazing Skylight",
       "operable_construction": "U 0.29 SHGC 0.45 Simple Glazing Window"
     },
     "door_set": {
@@ -949,7 +949,7 @@
     "aperture_set": {
       "type": "ApertureConstructionSetAbridged",
       "window_construction": "U 0.29 SHGC 0.45 Simple Glazing Window",
-      "skylight_construction": "U 0.5 SHGC 0.39 Simple Glazing Skylight",
+      "skylight_construction": "U 0.41 SHGC 0.55 Simple Glazing Skylight",
       "operable_construction": "U 0.29 SHGC 0.45 Simple Glazing Window"
     },
     "door_set": {
