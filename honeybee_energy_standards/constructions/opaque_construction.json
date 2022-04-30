@@ -1746,5 +1746,12 @@
     "materials": [
       "Solid Rock"
     ]
+  },
+  "Grassy Lawn": {
+    "type": "OpaqueConstructionAbridged",
+    "identifier": "Grassy Lawn",
+    "materials": [
+      "Grassy Lawn"
+    ]
   }
 }
