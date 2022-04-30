@@ -82,5 +82,26 @@
     "roughness": "MediumRough", 
     "type": "EnergyMaterial", 
     "identifier": "Solid Rock"
+  },
+  "Grassy Lawn": {
+      "specific_heat": 1200.0, 
+      "leaf_reflectivity": 0.22, 
+      "leaf_emissivity": 0.95, 
+      "conductivity": 0.35, 
+      "soil_visible_absorptance": 0.7, 
+      "init_vol_moist_cont": 0.1, 
+      "soil_solar_absorptance": 0.7, 
+      "roughness": "MediumRough", 
+      "min_stomatal_resist": 180.0, 
+      "soil_thermal_absorptance": 0.9, 
+      "moist_diff_model": "Simple", 
+      "leaf_area_index": 1.0, 
+      "thickness": 0.1, 
+      "sat_vol_moist_cont": 0.3, 
+      "plant_height": 0.2, 
+      "density": 1100.0, 
+      "residual_vol_moist_cont": 0.01, 
+      "type": "EnergyMaterialVegetation", 
+      "identifier": "Grassy Lawn"  
   }
 }

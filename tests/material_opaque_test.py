@@ -1,5 +1,6 @@
 # coding=utf-8
-from honeybee_energy.material.opaque import EnergyMaterial, EnergyMaterialNoMass
+from honeybee_energy.material.opaque import EnergyMaterial, EnergyMaterialNoMass, \
+    EnergyMaterialVegetation
 import honeybee_energy.lib.materials as mat_lib
 
 import pytest
@@ -20,7 +21,7 @@ def test_material_lib():
 
 def test_opaque_material_by_identifier():
     """Test that all of the materials in the library can be loaded by identifier."""
-    possible_types = (EnergyMaterial, EnergyMaterialNoMass)
+    possible_types = (EnergyMaterial, EnergyMaterialNoMass, EnergyMaterialVegetation)
 
     for mat in mat_lib.OPAQUE_MATERIALS:
         mat_from_lib = mat_lib.opaque_material_by_identifier(mat)
