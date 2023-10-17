@@ -10,7 +10,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R3",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -40,7 +40,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Wood Framed Exterior Floor-R4",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -70,7 +70,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Exterior Mass Floor",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -100,7 +100,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R3",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -130,7 +130,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R20",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -160,7 +160,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Wood Framed Exterior Floor-R20",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -190,7 +190,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Exterior Mass Floor",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -220,7 +220,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R20",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -250,7 +250,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R20",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -280,7 +280,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Wood Framed Exterior Floor-R20",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -310,7 +310,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Exterior Mass Floor",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -340,7 +340,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R20",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -370,7 +370,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R20",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -400,7 +400,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Wood Framed Exterior Floor-R20",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -430,7 +430,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Exterior Mass Floor",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -460,7 +460,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R20",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -490,7 +490,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R20",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -520,7 +520,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Wood Framed Exterior Floor-R31",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -550,7 +550,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Exterior Mass Floor",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -580,7 +580,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R20",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -610,7 +610,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R27",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -640,7 +640,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Wood Framed Exterior Floor-R31",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -670,7 +670,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Exterior Mass Floor",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -700,7 +700,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R27",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -730,7 +730,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R27",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -760,7 +760,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Wood Framed Exterior Floor-R31",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -790,7 +790,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Exterior Mass Floor",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -820,7 +820,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R27",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -850,7 +850,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R27",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor-R5"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -880,7 +880,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Wood Framed Exterior Floor-R31",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor-R5"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -910,7 +910,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Exterior Mass Floor",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor-R5"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
@@ -940,7 +940,7 @@
     "floor_set": {
       "type": "FloorConstructionSetAbridged",
       "exterior_construction": "Typical Insulated Steel Framed Exterior Floor-R27",
-      "ground_construction": "ext-slab"
+      "ground_construction": "Typical Insulated Carpeted 6in Slab Floor-R5"
     },
     "roof_ceiling_set": {
       "type": "RoofCeilingConstructionSetAbridged",
