@@ -3,7 +3,7 @@ import json
 
 from honeybee.model import Model
 
-ref_blgd_folder = 'G:/My Drive/LadybugTools/Baseline_Models/hbjson'
+ref_blgd_folder = 'H:/My Drive/LadybugTools/Baseline_Models/hbjson'
 output_file = 'honeybee_energy_standards/building_mix.json'
 
 # programs to exclude
@@ -45,7 +45,7 @@ for hbjson_file in os.listdir(ref_blgd_folder):
     bld_fraction_dict = {}
     for key, value in bld_area_dict.items():
         new_key = key.replace(bldg_name, '', 1).replace('-', '').strip()
-        new_key = '2013::{}::{}'.format(bldg_name, new_key)
+        new_key = '2019::{}::{}'.format(bldg_name, new_key)
         bld_fraction_dict[new_key] = round(value / total_area, 6)
     building_mix[bldg_name] = bld_fraction_dict
 
