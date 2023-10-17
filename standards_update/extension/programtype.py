@@ -84,6 +84,11 @@ def from_standards_dict(cls, data):
         except (TypeError, KeyError):
             lpd = 0  # there's a schedule but no actual load object
         try:
+            if data['additional_lighting_per_area'] is not None:
+                lpd += data['additional_lighting_per_area'] * 10.7639
+        except (TypeError, KeyError):
+            pass  # no additional lighting per area present
+        try:
             raf = data['lighting_fraction_to_return_air']
         except KeyError:
             raf = 0
