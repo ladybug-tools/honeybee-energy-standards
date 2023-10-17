@@ -1111,12 +1111,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2010::HighriseApartment::Apartment_Lighting",
-      "watts_per_area": 11.517373000000001,
+      "watts_per_area": 14.423626,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.6,
       "visible_fraction": 0.2,
       "schedule": "ApartmentHighRise LTG_APT_SCH",
-      "baseline_watts_per_area": 11.517373000000001
+      "baseline_watts_per_area": 14.423626
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3730,12 +3730,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2010::MidriseApartment::Apartment_Lighting",
-      "watts_per_area": 11.517373000000001,
+      "watts_per_area": 14.423626,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.6,
       "visible_fraction": 0.2,
       "schedule": "ApartmentMidRise LTG_APT_SCH",
-      "baseline_watts_per_area": 11.517373000000001
+      "baseline_watts_per_area": 14.423626
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9012,6 +9012,7 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2010::SecondarySchool::Lobby_Ventilation",
+      "flow_per_person": 0.002359735,
       "flow_per_area": 0.0003048
     },
     "setpoint": {
@@ -9980,12 +9981,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2010::StripMall::Type 1_Lighting",
-      "watts_per_area": 15.069459999999998,
+      "watts_per_area": 22.604189999999996,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "RetailStripmall Type1_LIGHT_SCH_2010",
-      "baseline_watts_per_area": 15.069459999999998
+      "baseline_watts_per_area": 22.604189999999996
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10040,12 +10041,12 @@
     "lighting": {
       "type": "LightingAbridged",
       "identifier": "2010::StripMall::Type 2_Lighting",
-      "watts_per_area": 15.069459999999998,
+      "watts_per_area": 22.4319676,
       "return_air_fraction": 0.0,
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "RetailStripmall Type2_LIGHT_SCH_2010",
-      "baseline_watts_per_area": 15.069459999999998
+      "baseline_watts_per_area": 22.4319676
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10179,7 +10180,7 @@
     "gas_equipment": {
       "type": "GasEquipmentAbridged",
       "identifier": "2010::SuperMarket::Bakery_Gas",
-      "watts_per_area": 26.908652699999998,
+      "watts_per_area": 26.940198599999995,
       "radiant_fraction": 0.2,
       "latent_fraction": 0.1,
       "lost_fraction": 0.7,
@@ -10300,7 +10301,7 @@
     "gas_equipment": {
       "type": "GasEquipmentAbridged",
       "identifier": "2010::SuperMarket::Deli_Gas",
-      "watts_per_area": 26.908652699999998,
+      "watts_per_area": 26.877106799999996,
       "radiant_fraction": 0.2,
       "latent_fraction": 0.1,
       "lost_fraction": 0.7,
