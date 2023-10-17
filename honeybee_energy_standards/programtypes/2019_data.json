@@ -1,4 +1,730 @@
 {
+  "2019::College::Art Classroom": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2019::College::Art Classroom",
+    "people": {
+      "type": "PeopleAbridged",
+      "identifier": "2019::College::Art Classroom_People",
+      "people_per_area": 0.2152783010236483,
+      "radiant_fraction": 0.3,
+      "latent_fraction": {
+        "type": "Autocalculate"
+      },
+      "occupancy_schedule": "College BLDG_Studio_OCC_SCH",
+      "activity_schedule": "College ACTIVITY_SCH"
+    },
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2019::College::Art Classroom_Lighting",
+      "watts_per_area": 7.6423689999999995,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.32,
+      "visible_fraction": 0.25,
+      "schedule": "College BLDG_LIGHT_SCH",
+      "baseline_watts_per_area": 7.6423689999999995
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2019::College::Art Classroom_Electric",
+      "watts_per_area": 9.9996631,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "College BLDG_EQUIP_SCH_Base"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2019::College::Art Classroom_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "College BLDG_SWH_SCH"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2019::College::Art Classroom_Infiltration",
+      "flow_per_exterior_area": 0.001024128,
+      "schedule": "College INFIL_SCH_PNNL"
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2019::College::Art Classroom_Setpoint",
+      "heating_schedule": "College HTGSETP_SCH",
+      "cooling_schedule": "College CLGSETP_SCH"
+    }
+  },
+  "2019::College::Classroom": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2019::College::Classroom",
+    "people": {
+      "type": "PeopleAbridged",
+      "identifier": "2019::College::Classroom_People",
+      "people_per_area": 0.699654478326857,
+      "radiant_fraction": 0.3,
+      "latent_fraction": {
+        "type": "Autocalculate"
+      },
+      "occupancy_schedule": "College BLDG_Class_OCC_SCH",
+      "activity_schedule": "College ACTIVITY_SCH"
+    },
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2019::College::Classroom_Lighting",
+      "watts_per_area": 7.6423689999999995,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.32,
+      "visible_fraction": 0.25,
+      "schedule": "College BLDG_LIGHT_SCH",
+      "baseline_watts_per_area": 7.6423689999999995
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2019::College::Classroom_Electric",
+      "watts_per_area": 9.9996631,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "College BLDG_EQUIP_SCH_Base"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2019::College::Classroom_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "College BLDG_SWH_SCH"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2019::College::Classroom_Infiltration",
+      "flow_per_exterior_area": 0.001024128,
+      "schedule": "College INFIL_SCH_PNNL"
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2019::College::Classroom_Setpoint",
+      "heating_schedule": "College HTGSETP_SCH",
+      "cooling_schedule": "College CLGSETP_SCH"
+    }
+  },
+  "2019::College::Conference": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2019::College::Conference",
+    "people": {
+      "type": "PeopleAbridged",
+      "identifier": "2019::College::Conference_People",
+      "people_per_area": 0.5381957525591208,
+      "radiant_fraction": 0.3,
+      "latent_fraction": {
+        "type": "Autocalculate"
+      },
+      "occupancy_schedule": "College BLDG_OCC_SCH",
+      "activity_schedule": "College ACTIVITY_SCH"
+    },
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2019::College::Conference_Lighting",
+      "watts_per_area": 10.440983,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.32,
+      "visible_fraction": 0.25,
+      "schedule": "College BLDG_LIGHT_SCH",
+      "baseline_watts_per_area": 10.440983
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2019::College::Conference_Electric",
+      "watts_per_area": 10.7639,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "College BLDG_EQUIP_SCH_Base"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2019::College::Conference_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "College BLDG_SWH_SCH"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2019::College::Conference_Infiltration",
+      "flow_per_exterior_area": 0.001024128,
+      "schedule": "College INFIL_SCH_PNNL"
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2019::College::Conference_Setpoint",
+      "heating_schedule": "College HTGSETP_SCH",
+      "cooling_schedule": "College CLGSETP_SCH"
+    }
+  },
+  "2019::College::Corridor": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2019::College::Corridor",
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2019::College::Corridor_Lighting",
+      "watts_per_area": 4.413199,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.32,
+      "visible_fraction": 0.25,
+      "schedule": "College BLDG_LIGHT_SCH",
+      "baseline_watts_per_area": 4.413199
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2019::College::Corridor_Electric",
+      "watts_per_area": 3.982643,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "College BLDG_EQUIP_SCH_Base"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2019::College::Corridor_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "College BLDG_SWH_SCH"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2019::College::Corridor_Infiltration",
+      "flow_per_exterior_area": 0.001024128,
+      "schedule": "College INFIL_SCH_PNNL"
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2019::College::Corridor_Setpoint",
+      "heating_schedule": "College HTGSETP_SCH",
+      "cooling_schedule": "College CLGSETP_SCH"
+    }
+  },
+  "2019::College::Elevator Shaft": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2019::College::Elevator Shaft",
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2019::College::Elevator Shaft_Lighting",
+      "watts_per_area": 0.0,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.32,
+      "visible_fraction": 0.25,
+      "schedule": "College ELEV_LIGHT_FAN_SCH_24_7",
+      "baseline_watts_per_area": 0.0
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2019::College::Elevator Shaft_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "College BLDG_SWH_SCH"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2019::College::Elevator Shaft_Infiltration",
+      "flow_per_exterior_area": 0.001024128,
+      "schedule": "College INFIL_SCH_PNNL"
+    }
+  },
+  "2019::College::Entrance Lobby": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2019::College::Entrance Lobby",
+    "people": {
+      "type": "PeopleAbridged",
+      "identifier": "2019::College::Entrance Lobby_People",
+      "people_per_area": 0.10763915051182416,
+      "radiant_fraction": 0.3,
+      "latent_fraction": {
+        "type": "Autocalculate"
+      },
+      "occupancy_schedule": "College BLDG_OCC_SCH",
+      "activity_schedule": "College ACTIVITY_SCH"
+    },
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2019::College::Entrance Lobby_Lighting",
+      "watts_per_area": 0.0,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.32,
+      "visible_fraction": 0.25,
+      "schedule": "College BLDG_LIGHT_SCH",
+      "baseline_watts_per_area": 0.0
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2019::College::Entrance Lobby_Electric",
+      "watts_per_area": 3.982643,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "College BLDG_EQUIP_SCH_Base"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2019::College::Entrance Lobby_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "College BLDG_SWH_SCH"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2019::College::Entrance Lobby_Infiltration",
+      "flow_per_exterior_area": 0.001024128,
+      "schedule": "College INFIL_SCH_PNNL"
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2019::College::Entrance Lobby_Setpoint",
+      "heating_schedule": "College HTGSETP_SCH",
+      "cooling_schedule": "College CLGSETP_SCH"
+    }
+  },
+  "2019::College::Laboratory": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2019::College::Laboratory",
+    "people": {
+      "type": "PeopleAbridged",
+      "identifier": "2019::College::Laboratory_People",
+      "people_per_area": 0.2690978762795604,
+      "radiant_fraction": 0.3,
+      "latent_fraction": {
+        "type": "Autocalculate"
+      },
+      "occupancy_schedule": "College BLDG_Lab_OCC_SCH",
+      "activity_schedule": "College ACTIVITY_SCH"
+    },
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2019::College::Laboratory_Lighting",
+      "watts_per_area": 14.315987,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.32,
+      "visible_fraction": 0.25,
+      "schedule": "College BLDG_LIGHT_SCH",
+      "baseline_watts_per_area": 14.315987
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2019::College::Laboratory_Electric",
+      "watts_per_area": 43.0556,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "College BLDG_EQUIP_SCH_Base"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2019::College::Laboratory_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "College BLDG_SWH_SCH"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2019::College::Laboratory_Infiltration",
+      "flow_per_exterior_area": 0.001024128,
+      "schedule": "College INFIL_SCH_PNNL"
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2019::College::Laboratory_Setpoint",
+      "heating_schedule": "College HTGSETP_SCH",
+      "cooling_schedule": "College CLGSETP_SCH"
+    }
+  },
+  "2019::College::Lecture Hall": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2019::College::Lecture Hall",
+    "people": {
+      "type": "PeopleAbridged",
+      "identifier": "2019::College::Lecture Hall_People",
+      "people_per_area": 0.699654478326857,
+      "radiant_fraction": 0.3,
+      "latent_fraction": {
+        "type": "Autocalculate"
+      },
+      "occupancy_schedule": "College BLDG_Lecture_OCC_SCH",
+      "activity_schedule": "College ACTIVITY_SCH"
+    },
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2019::College::Lecture Hall_Lighting",
+      "watts_per_area": 6.565979,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.32,
+      "visible_fraction": 0.25,
+      "schedule": "College BLDG_LIGHT_SCH",
+      "baseline_watts_per_area": 6.565979
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2019::College::Lecture Hall_Electric",
+      "watts_per_area": 9.9996631,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "College BLDG_EQUIP_SCH_Base"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2019::College::Lecture Hall_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "College BLDG_SWH_SCH"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2019::College::Lecture Hall_Infiltration",
+      "flow_per_exterior_area": 0.001024128,
+      "schedule": "College INFIL_SCH_PNNL"
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2019::College::Lecture Hall_Setpoint",
+      "heating_schedule": "College HTGSETP_SCH",
+      "cooling_schedule": "College CLGSETP_SCH"
+    }
+  },
+  "2019::College::Lounge": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2019::College::Lounge",
+    "people": {
+      "type": "PeopleAbridged",
+      "identifier": "2019::College::Lounge_People",
+      "people_per_area": 0.2690978762795604,
+      "radiant_fraction": 0.3,
+      "latent_fraction": {
+        "type": "Autocalculate"
+      },
+      "occupancy_schedule": "College BLDG_Cafe_OCC_SCH",
+      "activity_schedule": "College ACTIVITY_SCH"
+    },
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2019::College::Lounge_Lighting",
+      "watts_per_area": 6.350700999999999,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.32,
+      "visible_fraction": 0.25,
+      "schedule": "College BLDG_LIGHT_SCH",
+      "baseline_watts_per_area": 6.350700999999999
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2019::College::Lounge_Electric",
+      "watts_per_area": 76.961885,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "College BLDG_EQUIP_SCH_Base"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2019::College::Lounge_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "College BLDG_SWH_SCH"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2019::College::Lounge_Infiltration",
+      "flow_per_exterior_area": 0.001024128,
+      "schedule": "College INFIL_SCH_PNNL"
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2019::College::Lounge_Setpoint",
+      "heating_schedule": "College HTGSETP_SCH",
+      "cooling_schedule": "College CLGSETP_SCH"
+    }
+  },
+  "2019::College::Media Center": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2019::College::Media Center",
+    "people": {
+      "type": "PeopleAbridged",
+      "identifier": "2019::College::Media Center_People",
+      "people_per_area": 0.10763915051182416,
+      "radiant_fraction": 0.3,
+      "latent_fraction": {
+        "type": "Autocalculate"
+      },
+      "occupancy_schedule": "College BLDG_Lecture_OCC_SCH",
+      "activity_schedule": "College ACTIVITY_SCH"
+    },
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2019::College::Media Center_Lighting",
+      "watts_per_area": 8.934037,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.32,
+      "visible_fraction": 0.25,
+      "schedule": "College BLDG_LIGHT_SCH",
+      "baseline_watts_per_area": 8.934037
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2019::College::Media Center_Electric",
+      "watts_per_area": 10.010427,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "College BLDG_EQUIP_SCH_Base"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2019::College::Media Center_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "College BLDG_SWH_SCH"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2019::College::Media Center_Infiltration",
+      "flow_per_exterior_area": 0.001024128,
+      "schedule": "College INFIL_SCH_PNNL"
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2019::College::Media Center_Setpoint",
+      "heating_schedule": "College HTGSETP_SCH",
+      "cooling_schedule": "College CLGSETP_SCH"
+    }
+  },
+  "2019::College::Office": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2019::College::Office",
+    "people": {
+      "type": "PeopleAbridged",
+      "identifier": "2019::College::Office_People",
+      "people_per_area": 0.05381957525591208,
+      "radiant_fraction": 0.3,
+      "latent_fraction": {
+        "type": "Autocalculate"
+      },
+      "occupancy_schedule": "College BLDG_OCC_SCH_Offices",
+      "activity_schedule": "College ACTIVITY_SCH"
+    },
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2019::College::Office_Lighting",
+      "watts_per_area": 7.965286,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.32,
+      "visible_fraction": 0.25,
+      "schedule": "College BLDG_LIGHT_SCH",
+      "baseline_watts_per_area": 7.965286
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2019::College::Office_Electric",
+      "watts_per_area": 10.7639,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "College BLDG_EQUIP_SCH_Base"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2019::College::Office_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "College BLDG_SWH_SCH"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2019::College::Office_Infiltration",
+      "flow_per_exterior_area": 0.001024128,
+      "schedule": "College INFIL_SCH_PNNL"
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2019::College::Office_Setpoint",
+      "heating_schedule": "College HTGSETP_SCH",
+      "cooling_schedule": "College CLGSETP_SCH"
+    }
+  },
+  "2019::College::Restroom": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2019::College::Restroom",
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2019::College::Restroom_Lighting",
+      "watts_per_area": 6.781257,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.32,
+      "visible_fraction": 0.25,
+      "schedule": "College BLDG_LIGHT_SCH",
+      "baseline_watts_per_area": 6.781257
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2019::College::Restroom_Electric",
+      "watts_per_area": 3.982643,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "College BLDG_EQUIP_SCH_Base"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2019::College::Restroom_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "College BLDG_SWH_SCH"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2019::College::Restroom_Infiltration",
+      "flow_per_exterior_area": 0.001024128,
+      "schedule": "College INFIL_SCH_PNNL"
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2019::College::Restroom_Setpoint",
+      "heating_schedule": "College HTGSETP_SCH_SETBACK",
+      "cooling_schedule": "College CLGSETP_SCH_SETUP"
+    }
+  },
+  "2019::College::Stairs": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2019::College::Stairs",
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2019::College::Stairs_Lighting",
+      "watts_per_area": 5.274311,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.32,
+      "visible_fraction": 0.25,
+      "schedule": "College BLDG_LIGHT_SCH",
+      "baseline_watts_per_area": 5.274311
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2019::College::Stairs_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "College BLDG_SWH_SCH"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2019::College::Stairs_Infiltration",
+      "flow_per_exterior_area": 0.001024128,
+      "schedule": "College INFIL_SCH_PNNL"
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2019::College::Stairs_Setpoint",
+      "heating_schedule": "College HTGSETP_SCH",
+      "cooling_schedule": "College CLGSETP_SCH"
+    }
+  },
+  "2019::College::Storage": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2019::College::Storage",
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2019::College::Storage_Lighting",
+      "watts_per_area": 4.090282,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.32,
+      "visible_fraction": 0.25,
+      "schedule": "College BLDG_LIGHT_SCH",
+      "baseline_watts_per_area": 4.090282
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2019::College::Storage_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "College BLDG_SWH_SCH"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2019::College::Storage_Infiltration",
+      "flow_per_exterior_area": 0.001024128,
+      "schedule": "College INFIL_SCH_PNNL"
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2019::College::Storage_Setpoint",
+      "heating_schedule": "College HTGSETP_SCH",
+      "cooling_schedule": "College CLGSETP_SCH"
+    }
+  },
+  "2019::College::Utility": {
+    "type": "ProgramTypeAbridged",
+    "identifier": "2019::College::Utility",
+    "lighting": {
+      "type": "LightingAbridged",
+      "identifier": "2019::College::Utility_Lighting",
+      "watts_per_area": 4.628477,
+      "return_air_fraction": 0.0,
+      "radiant_fraction": 0.32,
+      "visible_fraction": 0.25,
+      "schedule": "College BLDG_LIGHT_SCH",
+      "baseline_watts_per_area": 4.628477
+    },
+    "electric_equipment": {
+      "type": "ElectricEquipmentAbridged",
+      "identifier": "2019::College::Utility_Electric",
+      "watts_per_area": 3.982643,
+      "radiant_fraction": 0.5,
+      "latent_fraction": 0.0,
+      "lost_fraction": 0.0,
+      "schedule": "College BLDG_EQUIP_SCH_Base"
+    },
+    "service_hot_water": {
+      "type": "ServiceHotWaterAbridged",
+      "identifier": "2019::College::Utility_SHW",
+      "flow_per_area": 0.0,
+      "target_temperature": 60.0,
+      "sensible_fraction": 0.2,
+      "latent_fraction": 0.05,
+      "schedule": "College BLDG_SWH_SCH"
+    },
+    "infiltration": {
+      "type": "InfiltrationAbridged",
+      "identifier": "2019::College::Utility_Infiltration",
+      "flow_per_exterior_area": 0.001024128,
+      "schedule": "College INFIL_SCH_PNNL"
+    },
+    "setpoint": {
+      "type": "SetpointAbridged",
+      "identifier": "2019::College::Utility_Setpoint",
+      "heating_schedule": "College HTGSETP_SCH_SETBACK",
+      "cooling_schedule": "College CLGSETP_SCH_SETUP"
+    }
+  },
   "2019::Courthouse::Break Room": {
     "type": "ProgramTypeAbridged",
     "identifier": "2019::Courthouse::Break Room",

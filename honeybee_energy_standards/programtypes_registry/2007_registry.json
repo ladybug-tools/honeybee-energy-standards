@@ -53,6 +53,23 @@
     "Stair",
     "Storage"
   ],
+  "College": [
+    "Art Classroom",
+    "Classroom",
+    "Conference",
+    "Corridor",
+    "Elevator Shaft",
+    "Entrance Lobby",
+    "Laboratory",
+    "Lecture Hall",
+    "Lounge",
+    "Media Center",
+    "Office",
+    "Restroom",
+    "Stairs",
+    "Storage",
+    "Utility"
+  ],
   "Courthouse": [
     "Break Room",
     "Cell",

@@ -44,8 +44,8 @@ def clean_space_types(source_filename, dest_directory, vintage):
             the value is the dictionary representation of all the ProgramType data.
     """
     # list all edits to be made from the original file
-    _remove_bldg = ('College',)
-    _exclude_bldg = ('Office', 'Any', 'College')
+    _remove_bldg = ()
+    _exclude_bldg = ('Office', 'Any')
     _exclude = ('Apartment_topfloor_NS',
                 'Apartment_topfloor_WE',
                 'Corridor_topfloor',
@@ -85,14 +85,14 @@ def clean_space_types(source_filename, dest_directory, vintage):
                 'Courthouse - Stairs': 'Stairs',
                 'Courthouse - Storage': 'Storage',
                 'Courthouse - Utility': 'Utility',
-                'College -  Conference': 'Conference',
-                'College -  Corridor': 'Corridor',
-                'College -  Elevator Shaft': 'Elevator Shaft',
+                'College - Conference': 'Conference',
+                'College - Corridor': 'Corridor',
+                'College - Elevator Shaft': 'Elevator Shaft',
                 'College -  Entrance Lobby': 'Entrance Lobby',
                 'College -  Lounge': 'Lounge',
                 'College -  Office': 'Office',
-                'College -  Restroom': 'Restroom',
-                'College -  Utility': 'Utility',
+                'College - Restroom': 'Restroom',
+                'College - Utility': 'Utility',
                 'College - Art Classroom': 'Art Classroom',
                 'College - Classroom': 'Classroom',
                 'College - Entrance Lobby': 'Entrance Lobby',
