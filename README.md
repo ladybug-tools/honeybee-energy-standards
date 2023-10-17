@@ -65,7 +65,7 @@ from standards_update._util._to_honeybee import convert_to_hb_json, remove_hb_js
 remove_hb_jsons()  # remove all of the honeybee JSON data that currently exists
 
 # generate clean OpenStudio Standards Data JSONs from the gem
-ashrae_standards = 'C:/Users/chris/Documents/GitHub/openstudio-standards/lib/' \
+ashrae_standards = 'C:/Users/chris/Documents/GitHub/nrel/openstudio-standards/lib/' \
     'openstudio-standards/standards/ashrae_90_1/'
 clean_all(ashrae_standards)
 
