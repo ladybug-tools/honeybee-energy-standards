@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.com/ladybug-tools/honeybee-energy-standards.svg?branch=master)](https://travis-ci.com/ladybug-tools/honeybee-energy-standards)
+[![Build Status](https://github.com/ladybug-tools/honeybee-energy-standards/workflows/CI/badge.svg)](https://github.com/ladybug-tools/honeybee-energy-standards/actions)
 
-[![Python 2.7](https://img.shields.io/badge/python-2.7-green.svg)](https://www.python.org/downloads/release/python-270/) [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
+[![Python 3.10](https://img.shields.io/badge/python-3.10-orange.svg)](https://www.python.org/downloads/release/python-3100/) [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/) [![Python 2.7](https://img.shields.io/badge/python-2.7-green.svg)](https://www.python.org/downloads/release/python-270/) [![IronPython](https://img.shields.io/badge/ironpython-2.7-red.svg)](https://github.com/IronLanguages/ironpython2/releases/tag/ipy-2.7.8/)
 
 # honeybee-energy-standards
 
