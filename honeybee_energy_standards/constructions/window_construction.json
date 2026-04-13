@@ -4,175 +4,250 @@
     "identifier": "ASHRAE 189.1-2009 ExtWindow ClimateZone 1",
     "materials": [
       "Theoretical Glass [167]"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "ASHRAE 189.1-2009 ExtWindow ClimateZone 2": {
     "type": "WindowConstructionAbridged",
     "identifier": "ASHRAE 189.1-2009 ExtWindow ClimateZone 2",
     "materials": [
       "Theoretical Glass [197]"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "ASHRAE 189.1-2009 ExtWindow ClimateZone 3": {
     "type": "WindowConstructionAbridged",
     "identifier": "ASHRAE 189.1-2009 ExtWindow ClimateZone 3",
     "materials": [
       "Theoretical Glass [202]"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "ASHRAE 189.1-2009 ExtWindow ClimateZone 4-5": {
     "type": "WindowConstructionAbridged",
     "identifier": "ASHRAE 189.1-2009 ExtWindow ClimateZone 4-5",
     "materials": [
       "Theoretical Glass [207]"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "ASHRAE 189.1-2009 ExtWindow ClimateZone 6": {
     "type": "WindowConstructionAbridged",
     "identifier": "ASHRAE 189.1-2009 ExtWindow ClimateZone 6",
     "materials": [
       "Theoretical Glass [216]"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "ASHRAE 189.1-2009 ExtWindow ClimateZone 7-8": {
     "type": "WindowConstructionAbridged",
     "identifier": "ASHRAE 189.1-2009 ExtWindow ClimateZone 7-8",
     "materials": [
       "Theoretical Glass [221]"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "ASHRAE 189.1-2009 ExtWindow ClimateZone alt-res 4-5": {
     "type": "WindowConstructionAbridged",
     "identifier": "ASHRAE 189.1-2009 ExtWindow ClimateZone alt-res 4-5",
     "materials": [
       "Theoretical Glass [216]"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Interior Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "Typical Interior Window",
     "materials": [
       "Clear 3mm"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.11 SHGC 0.34 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.11 SHGC 0.34 Simple Glazing Window",
     "materials": [
       "U 0.11 SHGC 0.34 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.11 SHGC 0.38 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.11 SHGC 0.38 Simple Glazing Window",
     "materials": [
       "U 0.11 SHGC 0.38 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.12 SHGC 0.34 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.12 SHGC 0.34 Simple Glazing Window",
     "materials": [
       "U 0.12 SHGC 0.34 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.12 SHGC 0.38 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.12 SHGC 0.38 Simple Glazing Window",
     "materials": [
       "U 0.12 SHGC 0.38 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.13 SHGC 0.32 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.13 SHGC 0.32 Simple Glazing Window",
     "materials": [
       "U 0.13 SHGC 0.32 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.13 SHGC 0.38 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.13 SHGC 0.38 Simple Glazing Window",
     "materials": [
       "U 0.13 SHGC 0.38 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.14 SHGC 0.31 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.14 SHGC 0.31 Simple Glazing Window",
     "materials": [
       "U 0.14 SHGC 0.31 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.14 SHGC 0.34 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.14 SHGC 0.34 Simple Glazing Window",
     "materials": [
       "U 0.14 SHGC 0.34 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.14 SHGC 0.36 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.14 SHGC 0.36 Simple Glazing Window",
     "materials": [
       "U 0.14 SHGC 0.36 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.14 SHGC 0.38 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.14 SHGC 0.38 Simple Glazing Window",
     "materials": [
       "U 0.14 SHGC 0.38 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.15 SHGC 0.31 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.15 SHGC 0.31 Simple Glazing Window",
     "materials": [
       "U 0.15 SHGC 0.31 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.15 SHGC 0.34 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.15 SHGC 0.34 Simple Glazing Window",
     "materials": [
       "U 0.15 SHGC 0.34 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.17 SHGC 0.31 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.17 SHGC 0.31 Simple Glazing Window",
     "materials": [
       "U 0.17 SHGC 0.31 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.17 SHGC 0.32 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.17 SHGC 0.32 Simple Glazing Window",
     "materials": [
       "U 0.17 SHGC 0.32 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.17 SHGC 0.36 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.17 SHGC 0.36 Simple Glazing Window",
     "materials": [
       "U 0.17 SHGC 0.36 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.18 SHGC 0.22 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.18 SHGC 0.22 Simple Glazing Window",
     "materials": [
       "U 0.18 SHGC 0.22 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.18 SHGC 0.24 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.18 SHGC 0.24 Simple Glazing Window",
     "materials": [
       "U 0.18 SHGC 0.24 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.19 SHGC 0.20 Trp LoE Film (55) Bronze 6mm/13mm Air": {
     "type": "WindowConstructionAbridged",
@@ -183,49 +258,70 @@
       "COATED POLY-55",
       "AIR 13MM",
       "CLEAR 3MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.20 SHGC 0.19 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.20 SHGC 0.19 Simple Glazing Window",
     "materials": [
       "U 0.20 SHGC 0.19 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.20 SHGC 0.20 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.20 SHGC 0.20 Simple Glazing Window",
     "materials": [
       "U 0.20 SHGC 0.20 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.20 SHGC 0.21 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.20 SHGC 0.21 Simple Glazing Window",
     "materials": [
       "U 0.20 SHGC 0.21 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.20 SHGC 0.22 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.20 SHGC 0.22 Simple Glazing Window",
     "materials": [
       "U 0.20 SHGC 0.22 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.23 SHGC 0.31 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.23 SHGC 0.31 Simple Glazing Window",
     "materials": [
       "U 0.23 SHGC 0.31 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.23 SHGC 0.34 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.23 SHGC 0.34 Simple Glazing Window",
     "materials": [
       "U 0.23 SHGC 0.34 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.24 SHGC 0.11 Dbl LoE Elec Abs Colored 6mm/13mm Arg": {
     "type": "WindowConstructionAbridged",
@@ -234,7 +330,10 @@
       "ECABS-2 COLORED 6MM",
       "ARGON 13MM",
       "LoE SPEC SEL CLEAR 6MM Rev"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.24 SHGC 0.16 Dbl Elec Abs Colored 6mm/13mm Arg": {
     "type": "WindowConstructionAbridged",
@@ -243,7 +342,10 @@
       "ECABS-2 COLORED 6MM",
       "ARGON 13MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.24 SHGC 0.23 Dbl LoE Spec Sel Tint 6mm/13mm Arg": {
     "type": "WindowConstructionAbridged",
@@ -252,21 +354,30 @@
       "LoE SPEC SEL TINT 6MM",
       "ARGON 13MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.25 SHGC 0.22 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.25 SHGC 0.22 Simple Glazing Window",
     "materials": [
       "U 0.25 SHGC 0.22 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.25 SHGC 0.24 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.25 SHGC 0.24 Simple Glazing Window",
     "materials": [
       "U 0.25 SHGC 0.24 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.25 SHGC 0.40 Dbl LoE (e2-.1) Tint 6mm/13mm Arg": {
     "type": "WindowConstructionAbridged",
@@ -275,56 +386,80 @@
       "LoE TINT 6MM",
       "ARGON 13MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.25 SHGC 0.45 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.25 SHGC 0.45 Simple Glazing Window",
     "materials": [
       "U 0.25 SHGC 0.45 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.26 SHGC 0.4 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.26 SHGC 0.4 Simple Glazing Window",
     "materials": [
       "U 0.26 SHGC 0.4 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.26 SHGC 0.40 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.26 SHGC 0.40 Simple Glazing Window",
     "materials": [
       "U 0.26 SHGC 0.40 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.27 SHGC 0.4 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.27 SHGC 0.4 Simple Glazing Window",
     "materials": [
       "U 0.27 SHGC 0.4 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.27 SHGC 0.4 Simple Glazing Window Weighted": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.27 SHGC 0.4 Simple Glazing Window Weighted",
     "materials": [
       "U 0.27 SHGC 0.4 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.28 SHGC 0.39 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.28 SHGC 0.39 Simple Glazing Window",
     "materials": [
       "U 0.28 SHGC 0.39 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.28 SHGC 0.45 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.28 SHGC 0.45 Simple Glazing Window",
     "materials": [
       "U 0.28 SHGC 0.45 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.29 SHGC 0.11 Dbl LoE Elec Ref Colored 6mm/13mm Air": {
     "type": "WindowConstructionAbridged",
@@ -333,7 +468,10 @@
       "ECREF-2 COLORED 6MM",
       "AIR 13MM",
       "LoE SPEC SEL CLEAR 6MM Rev"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.29 SHGC 0.17 Dbl Elec Abs Colored 6mm/13mm Air": {
     "type": "WindowConstructionAbridged",
@@ -342,7 +480,10 @@
       "ECABS-2 COLORED 6MM",
       "AIR 13MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.29 SHGC 0.22 Trp LoE Film (55) Bronze 6mm/6mm Air": {
     "type": "WindowConstructionAbridged",
@@ -353,42 +494,60 @@
       "COATED POLY-55",
       "AIR 6MM",
       "CLEAR 3MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.29 SHGC 0.4 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.29 SHGC 0.4 Simple Glazing Window",
     "materials": [
       "U 0.29 SHGC 0.4 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.29 SHGC 0.40 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.29 SHGC 0.40 Simple Glazing Window",
     "materials": [
       "U 0.29 SHGC 0.40 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.29 SHGC 0.45 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.29 SHGC 0.45 Simple Glazing Window",
     "materials": [
       "U 0.29 SHGC 0.45 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.3 SHGC 0.4 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.3 SHGC 0.4 Simple Glazing Window",
     "materials": [
       "U 0.3 SHGC 0.4 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.3 SHGC 0.4 Simple Glazing Window Weighted": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.3 SHGC 0.4 Simple Glazing Window Weighted",
     "materials": [
       "U 0.3 SHGC 0.4 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.30 SHGC 0.40 Dbl LoE (e2-.1) Tint 6mm/13mm Air": {
     "type": "WindowConstructionAbridged",
@@ -397,49 +556,70 @@
       "LoE TINT 6MM",
       "AIR 13MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.31 SHGC 0.36 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.31 SHGC 0.36 Simple Glazing Window",
     "materials": [
       "U 0.31 SHGC 0.36 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.31 SHGC 0.38 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.31 SHGC 0.38 Simple Glazing Window",
     "materials": [
       "U 0.31 SHGC 0.38 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.31 SHGC 0.39 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.31 SHGC 0.39 Simple Glazing Window",
     "materials": [
       "U 0.31 SHGC 0.39 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.32 SHGC 0.22 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.32 SHGC 0.22 Simple Glazing Window",
     "materials": [
       "U 0.32 SHGC 0.22 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.32 SHGC 0.36 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.32 SHGC 0.36 Simple Glazing Window",
     "materials": [
       "U 0.32 SHGC 0.36 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.32 SHGC 0.45 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.32 SHGC 0.45 Simple Glazing Window",
     "materials": [
       "U 0.32 SHGC 0.45 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.33 SHGC 0.11 Dbl LoE Elec Ref Colored 6mm/13mm Air": {
     "type": "WindowConstructionAbridged",
@@ -448,14 +628,20 @@
       "ECREF-2 COLORED 6MM",
       "AIR 13MM",
       "LoE SPEC SEL CLEAR 6MM Rev"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.33 SHGC 0.25 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.33 SHGC 0.25 Simple Glazing Window",
     "materials": [
       "U 0.33 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.33 SHGC 0.40 Dbl LoE (e2-.1) Tint 6mm/13mm Air": {
     "type": "WindowConstructionAbridged",
@@ -464,14 +650,20 @@
       "LoE TINT 6MM",
       "AIR 13MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.33 SHGC 0.45 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.33 SHGC 0.45 Simple Glazing Window",
     "materials": [
       "U 0.33 SHGC 0.45 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.33 SHGC 0.45 Trp LoE Film (77) Clr 3mm/6mm Air": {
     "type": "WindowConstructionAbridged",
@@ -482,21 +674,30 @@
       "COATED POLY-77",
       "AIR 6MM",
       "CLEAR 3MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.34 SHGC 0.38 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.34 SHGC 0.38 Simple Glazing Window",
     "materials": [
       "U 0.34 SHGC 0.38 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.34 SHGC 0.38 Simple Glazing Window Weighted": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.34 SHGC 0.38 Simple Glazing Window Weighted",
     "materials": [
       "U 0.34 SHGC 0.38 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.34 SHGC 0.40 Dbl LoE (e2-.1) Tint 6mm/13mm Air": {
     "type": "WindowConstructionAbridged",
@@ -505,7 +706,10 @@
       "LoE TINT 6MM",
       "AIR 13MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.34 SHGC 0.45 Dbl LoE (e2-.2) Clr 6mm/13mm Air": {
     "type": "WindowConstructionAbridged",
@@ -514,21 +718,30 @@
       "PYR B CLEAR 6MM",
       "AIR 13MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.35 SHGC 0.22 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.35 SHGC 0.22 Simple Glazing Window",
     "materials": [
       "U 0.35 SHGC 0.22 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.35 SHGC 0.24 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.35 SHGC 0.24 Simple Glazing Window",
     "materials": [
       "U 0.35 SHGC 0.24 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.35 SHGC 0.26 Dbl Ref-C-M Clr 6mm/13mm Arg": {
     "type": "WindowConstructionAbridged",
@@ -537,7 +750,10 @@
       "REF C CLEAR MID 6MM",
       "ARGON 13MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.35 SHGC 0.35 Dbl LoE (e2-.1) Tint 6mm/13mm Air": {
     "type": "WindowConstructionAbridged",
@@ -546,21 +762,30 @@
       "LoE TINT 6MM",
       "AIR 13MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.35 SHGC 0.38 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.35 SHGC 0.38 Simple Glazing Window",
     "materials": [
       "U 0.35 SHGC 0.38 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.35 SHGC 0.38 Simple Glazing Window Weighted": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.35 SHGC 0.38 Simple Glazing Window Weighted",
     "materials": [
       "U 0.35 SHGC 0.38 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.36 SHGC 0.35 Dbl LoE Spec Sel Tint 6mm/6mm Air": {
     "type": "WindowConstructionAbridged",
@@ -569,98 +794,140 @@
       "LoE SPEC SEL TINT 6MM",
       "AIR 6MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.36 SHGC 0.36 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.36 SHGC 0.36 Simple Glazing Window",
     "materials": [
       "U 0.36 SHGC 0.36 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.36 SHGC 0.36 Simple Glazing Window Weighted": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.36 SHGC 0.36 Simple Glazing Window Weighted",
     "materials": [
       "U 0.36 SHGC 0.36 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.36 SHGC 0.37 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.36 SHGC 0.37 Simple Glazing Window",
     "materials": [
       "U 0.36 SHGC 0.37 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.36 SHGC 0.38 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.36 SHGC 0.38 Simple Glazing Window",
     "materials": [
       "U 0.36 SHGC 0.38 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.36 SHGC 0.38 Simple Glazing Window Weighted": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.36 SHGC 0.38 Simple Glazing Window Weighted",
     "materials": [
       "U 0.36 SHGC 0.38 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.36 SHGC 0.4 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.36 SHGC 0.4 Simple Glazing Window",
     "materials": [
       "U 0.36 SHGC 0.4 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.36 SHGC 0.4 Simple Glazing Window Weighted": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
     "materials": [
       "U 0.36 SHGC 0.4 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.36 SHGC 0.45 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.36 SHGC 0.45 Simple Glazing Window",
     "materials": [
       "U 0.36 SHGC 0.45 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.37 SHGC 0.25 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.37 SHGC 0.25 Simple Glazing Window",
     "materials": [
       "U 0.37 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.37 SHGC 0.36 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.37 SHGC 0.36 Simple Glazing Window",
     "materials": [
       "U 0.37 SHGC 0.36 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.37 SHGC 0.36 Simple Glazing Window Weighted": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.37 SHGC 0.36 Simple Glazing Window Weighted",
     "materials": [
       "U 0.37 SHGC 0.36 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.37 SHGC 0.38 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.37 SHGC 0.38 Simple Glazing Window",
     "materials": [
       "U 0.37 SHGC 0.38 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.37 SHGC 0.38 Simple Glazing Window Weighted": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.37 SHGC 0.38 Simple Glazing Window Weighted",
     "materials": [
       "U 0.37 SHGC 0.38 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.38 SHGC 0.26 Dbl Ref B-H Tint 6mm/13mm Arg": {
     "type": "WindowConstructionAbridged",
@@ -669,7 +936,10 @@
       "REF B TINT HI 6MM",
       "ARGON 13MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.38 SHGC 0.30 Dbl Ref-B-H Clr 6mm/13mm Arg": {
     "type": "WindowConstructionAbridged",
@@ -678,63 +948,90 @@
       "REF B CLEAR HI 6MM",
       "ARGON 13MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.38 SHGC 0.35 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.38 SHGC 0.35 Simple Glazing Window",
     "materials": [
       "U 0.38 SHGC 0.35 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.38 SHGC 0.36 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.38 SHGC 0.36 Simple Glazing Window",
     "materials": [
       "U 0.38 SHGC 0.36 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.38 SHGC 0.37 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.38 SHGC 0.37 Simple Glazing Window",
     "materials": [
       "U 0.38 SHGC 0.37 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.38 SHGC 0.38 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.38 SHGC 0.38 Simple Glazing Window",
     "materials": [
       "U 0.38 SHGC 0.38 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.38 SHGC 0.45 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.38 SHGC 0.45 Simple Glazing Window",
     "materials": [
       "U 0.38 SHGC 0.45 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.39 SHGC 0.32": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.39 SHGC 0.32",
     "materials": [
       "Theoretical Glass 347"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.39 SHGC 0.38": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.39 SHGC 0.38",
     "materials": [
       "Theoretical Glass 297"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.39 SHGC 0.45 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.39 SHGC 0.45 Simple Glazing Window",
     "materials": [
       "U 0.39 SHGC 0.45 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.40 SHGC 0.43 Dbl LoE Spec Sel Clr 3mm/6mm/6mm Air": {
     "type": "WindowConstructionAbridged",
@@ -743,7 +1040,10 @@
       "LoE SPEC SEL CLEAR 3MM",
       "AIR 6MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.40 SHGC 0.45": {
     "type": "WindowConstructionAbridged",
@@ -752,42 +1052,60 @@
       "ECABS-2 BLEACHED 6MM",
       "AIR 6MM",
       "LoE SPEC SEL CLEAR 6MM Rev"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.41 SHGC 0.55 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.41 SHGC 0.55 Simple Glazing Skylight",
     "materials": [
       "U 0.41 SHGC 0.55 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.41 SHGC 0.55 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.41 SHGC 0.55 Simple Glazing Window",
     "materials": [
       "U 0.41 SHGC 0.55 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.42 SHGC 0.25 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.42 SHGC 0.25 Simple Glazing Window",
     "materials": [
       "U 0.42 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.42 SHGC 0.25 Simple Glazing Window Weighted": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.42 SHGC 0.25 Simple Glazing Window Weighted",
     "materials": [
       "U 0.42 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.42 SHGC 0.34 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.42 SHGC 0.34 Simple Glazing Window",
     "materials": [
       "U 0.42 SHGC 0.34 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.42 SHGC 0.35 Dbl LoE (e2-.1) Tint 6mm/6mm Air": {
     "type": "WindowConstructionAbridged",
@@ -796,7 +1114,10 @@
       "LoE TINT 6MM",
       "AIR 6MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.42 SHGC 0.40 Dbl LoE (e2-.1) Tint 6mm/6mm Air": {
     "type": "WindowConstructionAbridged",
@@ -805,7 +1126,10 @@
       "LoE TINT 6MM",
       "AIR 6MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.42 SHGC 0.45 Dbl Ref-D Clr 6mm/13mm Arg": {
     "type": "WindowConstructionAbridged",
@@ -814,21 +1138,30 @@
       "REF D CLEAR 6MM",
       "ARGON 13MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.43 SHGC 0.25 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.43 SHGC 0.25 Simple Glazing Window",
     "materials": [
       "U 0.43 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.43 SHGC 0.25 Simple Glazing Window Weighted": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.43 SHGC 0.25 Simple Glazing Window Weighted",
     "materials": [
       "U 0.43 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.43 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air": {
     "type": "WindowConstructionAbridged",
@@ -837,7 +1170,10 @@
       "REF B CLEAR HI 6MM",
       "AIR 13MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.43 SHGC 0.29 Dbl LoE Spec Sel Tint 6mm/6mm Air": {
     "type": "WindowConstructionAbridged",
@@ -846,7 +1182,10 @@
       "LoE SPEC SEL TINT 6MM",
       "AIR 6MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.44 SHGC 0.20 Dbl Ref-B-H Tint 6mm/13mm Air": {
     "type": "WindowConstructionAbridged",
@@ -855,7 +1194,10 @@
       "REF B TINT HI 6MM",
       "AIR 13MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air": {
     "type": "WindowConstructionAbridged",
@@ -864,35 +1206,50 @@
       "REF B CLEAR HI 6MM",
       "AIR 13MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.44 SHGC 0.55 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.44 SHGC 0.55 Simple Glazing Skylight",
     "materials": [
       "U 0.44 SHGC 0.55 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.44 SHGC 0.55 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.44 SHGC 0.55 Simple Glazing Window",
     "materials": [
       "U 0.44 SHGC 0.55 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.45 SHGC 0.25 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.45 SHGC 0.25 Simple Glazing Window",
     "materials": [
       "U 0.45 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.45 SHGC 0.25 Simple Glazing Window Weighted": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.45 SHGC 0.25 Simple Glazing Window Weighted",
     "materials": [
       "U 0.45 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.45 SHGC 0.31 Dbl Ref-B-H Clr 6mm/13mm Air": {
     "type": "WindowConstructionAbridged",
@@ -901,28 +1258,40 @@
       "REF B CLEAR HI 6MM",
       "AIR 13MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.45 SHGC 0.33 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.45 SHGC 0.33 Simple Glazing Window",
     "materials": [
       "U 0.45 SHGC 0.33 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.45 SHGC 0.45 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.45 SHGC 0.45 Simple Glazing Window",
     "materials": [
       "U 0.45 SHGC 0.45 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.46 SHGC 0.25 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.46 SHGC 0.25 Simple Glazing Window",
     "materials": [
       "U 0.46 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.46 SHGC 0.45 Dbl Grey 6mm/13mm Air": {
     "type": "WindowConstructionAbridged",
@@ -931,77 +1300,110 @@
       "GREY 6MM",
       "AIR 13MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.47 SHGC 0.25 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.47 SHGC 0.25 Simple Glazing Window",
     "materials": [
       "U 0.47 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.47 SHGC 0.25 Simple Glazing Window Weighted": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.47 SHGC 0.25 Simple Glazing Window Weighted",
     "materials": [
       "U 0.47 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.47 SHGC 0.33 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.47 SHGC 0.33 Simple Glazing Window",
     "materials": [
       "U 0.47 SHGC 0.33 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.47 SHGC 0.4 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.47 SHGC 0.4 Simple Glazing Skylight",
     "materials": [
       "U 0.47 SHGC 0.4 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.47 SHGC 0.4 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.47 SHGC 0.4 Simple Glazing Window",
     "materials": [
       "U 0.47 SHGC 0.4 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.48 SHGC 0.19 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.48 SHGC 0.19 Simple Glazing Window",
     "materials": [
       "U 0.48 SHGC 0.19 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.48 SHGC 0.20 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.48 SHGC 0.20 Simple Glazing Window",
     "materials": [
       "U 0.48 SHGC 0.20 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.48 SHGC 0.21 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.48 SHGC 0.21 Simple Glazing Window",
     "materials": [
       "U 0.48 SHGC 0.21 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.48 SHGC 0.22 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.48 SHGC 0.22 Simple Glazing Window",
     "materials": [
       "U 0.48 SHGC 0.22 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.48 SHGC 0.25 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.48 SHGC 0.25 Simple Glazing Window",
     "materials": [
       "U 0.48 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.48 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm": {
     "type": "WindowConstructionAbridged",
@@ -1010,168 +1412,240 @@
       "REF D CLEAR 6MM",
       "AIR 13MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.49 SHGC 0.22 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.49 SHGC 0.22 Simple Glazing Window",
     "materials": [
       "U 0.49 SHGC 0.22 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.49 SHGC 0.25 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.49 SHGC 0.25 Simple Glazing Window",
     "materials": [
       "U 0.49 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.5 SHGC 0.19 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.5 SHGC 0.19 Simple Glazing Skylight",
     "materials": [
       "U 0.5 SHGC 0.19 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.5 SHGC 0.22 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.5 SHGC 0.22 Simple Glazing Window",
     "materials": [
       "U 0.5 SHGC 0.22 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.5 SHGC 0.23 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.5 SHGC 0.23 Simple Glazing Window",
     "materials": [
       "U 0.5 SHGC 0.23 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.5 SHGC 0.25 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.5 SHGC 0.25 Simple Glazing Window",
     "materials": [
       "U 0.5 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.5 SHGC 0.27 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.5 SHGC 0.27 Simple Glazing Skylight",
     "materials": [
       "U 0.5 SHGC 0.27 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.5 SHGC 0.34 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.5 SHGC 0.34 Simple Glazing Skylight",
     "materials": [
       "U 0.5 SHGC 0.34 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.5 SHGC 0.36 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.5 SHGC 0.36 Simple Glazing Skylight",
     "materials": [
       "U 0.5 SHGC 0.36 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.5 SHGC 0.39 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.5 SHGC 0.39 Simple Glazing Skylight",
     "materials": [
       "U 0.5 SHGC 0.39 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.5 SHGC 0.4 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.5 SHGC 0.4 Simple Glazing Skylight",
     "materials": [
       "U 0.5 SHGC 0.4 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.5 SHGC 0.4 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.5 SHGC 0.4 Simple Glazing Window",
     "materials": [
       "U 0.5 SHGC 0.4 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.5 SHGC 0.45 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.5 SHGC 0.45 Simple Glazing Window",
     "materials": [
       "U 0.5 SHGC 0.45 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.5 SHGC 0.55 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.5 SHGC 0.55 Simple Glazing Skylight",
     "materials": [
       "U 0.5 SHGC 0.55 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.5 SHGC 0.55 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.5 SHGC 0.55 Simple Glazing Window",
     "materials": [
       "U 0.5 SHGC 0.55 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.5 SHGC 0.65 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.5 SHGC 0.65 Simple Glazing Skylight",
     "materials": [
       "U 0.5 SHGC 0.65 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.50 SHGC 0.22 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.50 SHGC 0.22 Simple Glazing Window",
     "materials": [
       "U 0.50 SHGC 0.22 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.50 SHGC 0.23 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.50 SHGC 0.23 Simple Glazing Window",
     "materials": [
       "U 0.50 SHGC 0.23 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.51 SHGC 0.22 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.51 SHGC 0.22 Simple Glazing Window",
     "materials": [
       "U 0.51 SHGC 0.22 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.51 SHGC 0.22 Simple Glazing Window Weighted": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.51 SHGC 0.22 Simple Glazing Window Weighted",
     "materials": [
       "U 0.51 SHGC 0.22 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.51 SHGC 0.23 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.51 SHGC 0.23 Simple Glazing Window",
     "materials": [
       "U 0.51 SHGC 0.23 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.51 SHGC 0.23 Simple Glazing Window Weighted": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.51 SHGC 0.23 Simple Glazing Window Weighted",
     "materials": [
       "U 0.51 SHGC 0.23 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.51 SHGC 0.45 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.51 SHGC 0.45 Simple Glazing Window",
     "materials": [
       "U 0.51 SHGC 0.45 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.52 SHGC 0.22 Dbl Ref-B-L Clr 6mm/6mm Air": {
     "type": "WindowConstructionAbridged",
@@ -1180,14 +1654,20 @@
       "REF B CLEAR LO 6MM",
       "AIR 6MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.52 SHGC 0.39 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.52 SHGC 0.39 Simple Glazing Window",
     "materials": [
       "U 0.52 SHGC 0.39 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.52 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm Air": {
     "type": "WindowConstructionAbridged",
@@ -1196,49 +1676,70 @@
       "REF D CLEAR 6MM",
       "AIR 13MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.52 SHGC 0.49 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.52 SHGC 0.49 Simple Glazing Window",
     "materials": [
       "U 0.52 SHGC 0.49 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.52 SHGC 0.615 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.52 SHGC 0.615 Simple Glazing Window",
     "materials": [
       "U 0.52 SHGC 0.615 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.53 SHGC 0.22 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.53 SHGC 0.22 Simple Glazing Window",
     "materials": [
       "U 0.53 SHGC 0.22 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.53 SHGC 0.23 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.53 SHGC 0.23 Simple Glazing Window",
     "materials": [
       "U 0.53 SHGC 0.23 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.53 SHGC 0.25 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.53 SHGC 0.25 Simple Glazing Window",
     "materials": [
       "U 0.53 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.53 SHGC 0.25 Simple Glazing Window Weighted": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.53 SHGC 0.25 Simple Glazing Window Weighted",
     "materials": [
       "U 0.53 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.54 SHGC 0.13 Dbl Ref-A-L Clr 6mm/13mm Air": {
     "type": "WindowConstructionAbridged",
@@ -1247,7 +1748,10 @@
       "REF A CLEAR LO 6MM",
       "AIR 13MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.54 SHGC 0.18 Dbl Ref-A-M Tint 6mm/6mm Air": {
     "type": "WindowConstructionAbridged",
@@ -1256,21 +1760,30 @@
       "REF A TINT MID 6MM",
       "AIR 6MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.54 SHGC 0.23 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.54 SHGC 0.23 Simple Glazing Window",
     "materials": [
       "U 0.54 SHGC 0.23 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.54 SHGC 0.25 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.54 SHGC 0.25 Simple Glazing Window",
     "materials": [
       "U 0.54 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.54 SHGC 0.27 Dbl Ref-C-H Clr 6mm/6mm Air": {
     "type": "WindowConstructionAbridged",
@@ -1279,7 +1792,10 @@
       "REF C CLEAR HI 6MM",
       "AIR 6MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.55 SHGC 0.25": {
     "type": "WindowConstructionAbridged",
@@ -1288,21 +1804,30 @@
       "Glass_2175_LayerAvg",
       "Gap_1_W_0_0032",
       "Glass_2022F_LayerAvg"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.55 SHGC 0.3 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.55 SHGC 0.3 Simple Glazing Skylight",
     "materials": [
       "U 0.55 SHGC 0.3 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.55 SHGC 0.3 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.55 SHGC 0.3 Simple Glazing Window",
     "materials": [
       "U 0.55 SHGC 0.3 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.55 SHGC 0.31 Dbl Ref-D Tint 6mm/6mm Air": {
     "type": "WindowConstructionAbridged",
@@ -1311,35 +1836,50 @@
       "REF D TINT 6MM",
       "AIR 6MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.55 SHGC 0.35 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.55 SHGC 0.35 Simple Glazing Skylight",
     "materials": [
       "U 0.55 SHGC 0.35 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.55 SHGC 0.35 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.55 SHGC 0.35 Simple Glazing Window",
     "materials": [
       "U 0.55 SHGC 0.35 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.55 SHGC 0.55 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.55 SHGC 0.55 Simple Glazing Skylight",
     "materials": [
       "U 0.55 SHGC 0.55 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.55 SHGC 0.64 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.55 SHGC 0.64 Simple Glazing Skylight",
     "materials": [
       "U 0.55 SHGC 0.64 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.56 SHGC 0.35 Dbl Ref-D Tint 6mm/6mm": {
     "type": "WindowConstructionAbridged",
@@ -1348,7 +1888,10 @@
       "REF D TINT 6MM",
       "AIR 6MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.56 SHGC 0.76 Dbl Clr 3mm/6mm Air": {
     "type": "WindowConstructionAbridged",
@@ -1357,7 +1900,10 @@
       "CLEAR 3MM",
       "AIR 6MM",
       "CLEAR 3MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.57 SHGC 0.25 Dbl Ref-C-H Clr 6mm/6mm Air": {
     "type": "WindowConstructionAbridged",
@@ -1366,14 +1912,20 @@
       "REF C CLEAR HI 6MM",
       "AIR 6MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.57 SHGC 0.25 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.57 SHGC 0.25 Simple Glazing Window",
     "materials": [
       "U 0.57 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air": {
     "type": "WindowConstructionAbridged",
@@ -1382,7 +1934,10 @@
       "REF D CLEAR 6MM",
       "AIR 6MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.57 SHGC 0.49 Dbl Blue 6mm/6mm Air": {
     "type": "WindowConstructionAbridged",
@@ -1391,42 +1946,60 @@
       "BLUE 6MM",
       "AIR 6MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.58 SHGC 0.19 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.58 SHGC 0.19 Simple Glazing Skylight",
     "materials": [
       "U 0.58 SHGC 0.19 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.58 SHGC 0.36 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.58 SHGC 0.36 Simple Glazing Skylight",
     "materials": [
       "U 0.58 SHGC 0.36 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.59 SHGC 0.36 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.59 SHGC 0.36 Simple Glazing Window",
     "materials": [
       "U 0.59 SHGC 0.36 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.59 SHGC 0.39 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.59 SHGC 0.39 Simple Glazing Window",
     "materials": [
       "U 0.59 SHGC 0.39 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.60 SHGC 0.23 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.60 SHGC 0.23 Simple Glazing Window",
     "materials": [
       "U 0.60 SHGC 0.23 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.60 SHGC 0.25 Dbl 2.5mm air": {
     "type": "WindowConstructionAbridged",
@@ -1435,28 +2008,40 @@
       "Glass_2175_LayerAvg",
       "Gap_1_W_0_0025",
       "Glass_2022F_LayerAvg"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.61 SHGC 0.77 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.61 SHGC 0.77 Simple Glazing Skylight",
     "materials": [
       "U 0.61 SHGC 0.77 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.62 SHGC 0.20 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.62 SHGC 0.20 Simple Glazing Window",
     "materials": [
       "U 0.62 SHGC 0.20 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.62 SHGC 0.21 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.62 SHGC 0.21 Simple Glazing Window",
     "materials": [
       "U 0.62 SHGC 0.21 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.62 SHGC 0.25 Dbl Ref-C-H Clr 6mm/6mm Air": {
     "type": "WindowConstructionAbridged",
@@ -1465,7 +2050,10 @@
       "REF C CLEAR HI 6MM",
       "AIR 6MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.62 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air": {
     "type": "WindowConstructionAbridged",
@@ -1474,21 +2062,30 @@
       "REF D CLEAR 6MM",
       "AIR 6MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.62 SHGC 0.41 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.62 SHGC 0.41 Simple Glazing Window",
     "materials": [
       "U 0.62 SHGC 0.41 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.62 SHGC 0.45 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.62 SHGC 0.45 Simple Glazing Window",
     "materials": [
       "U 0.62 SHGC 0.45 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.62 SHGC 0.49 Dbl Blue 6mm/6mm Air": {
     "type": "WindowConstructionAbridged",
@@ -1497,35 +2094,50 @@
       "BLUE 6MM",
       "AIR 6MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.63 SHGC 0.33 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.63 SHGC 0.33 Simple Glazing Window",
     "materials": [
       "U 0.63 SHGC 0.33 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.63 SHGC 0.34 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.63 SHGC 0.34 Simple Glazing Window",
     "materials": [
       "U 0.63 SHGC 0.34 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.63 SHGC 0.36 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.63 SHGC 0.36 Simple Glazing Window",
     "materials": [
       "U 0.63 SHGC 0.36 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.63 SHGC 0.45 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.63 SHGC 0.45 Simple Glazing Window",
     "materials": [
       "U 0.63 SHGC 0.45 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.65 SHGC 0.25 Dbl Ref-C-H Clr 6mm/6mm Air": {
     "type": "WindowConstructionAbridged",
@@ -1534,161 +2146,230 @@
       "REF C CLEAR HI 6MM",
       "AIR 6MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.65 SHGC 0.3 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.65 SHGC 0.3 Simple Glazing Skylight",
     "materials": [
       "U 0.65 SHGC 0.3 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.65 SHGC 0.3 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.65 SHGC 0.3 Simple Glazing Window",
     "materials": [
       "U 0.65 SHGC 0.3 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.65 SHGC 0.35 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.65 SHGC 0.35 Simple Glazing Skylight",
     "materials": [
       "U 0.65 SHGC 0.35 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.65 SHGC 0.35 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.65 SHGC 0.35 Simple Glazing Window",
     "materials": [
       "U 0.65 SHGC 0.35 Simple Glazing Window"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.65 SHGC 0.55 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.65 SHGC 0.55 Simple Glazing Skylight",
     "materials": [
       "U 0.65 SHGC 0.55 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.65 SHGC 0.68 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.65 SHGC 0.68 Simple Glazing Skylight",
     "materials": [
       "U 0.65 SHGC 0.68 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.65 SHGC 0.77 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.65 SHGC 0.77 Simple Glazing Skylight",
     "materials": [
       "U 0.65 SHGC 0.77 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.67 SHGC 0.77 Sgl LoE (e2-.2) Clr 3mm": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.67 SHGC 0.77 Sgl LoE (e2-.2) Clr 3mm",
     "materials": [
       "PYR B CLEAR 3MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.68 SHGC 0.23 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.68 SHGC 0.23 Simple Glazing Window",
     "materials": [
       "U 0.68 SHGC 0.23 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.68 SHGC 0.25 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.68 SHGC 0.25 Simple Glazing Window",
     "materials": [
       "U 0.68 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.68 SHGC 0.36 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.68 SHGC 0.36 Simple Glazing Window",
     "materials": [
       "U 0.68 SHGC 0.36 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.68 SHGC 0.38 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.68 SHGC 0.38 Simple Glazing Window",
     "materials": [
       "U 0.68 SHGC 0.38 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.68 SHGC 0.4 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.68 SHGC 0.4 Simple Glazing Window",
     "materials": [
       "U 0.68 SHGC 0.4 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.68 SHGC 0.45 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.68 SHGC 0.45 Simple Glazing Window",
     "materials": [
       "U 0.68 SHGC 0.45 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.69 SHGC 0.19 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.69 SHGC 0.19 Simple Glazing Skylight",
     "materials": [
       "U 0.69 SHGC 0.19 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.69 SHGC 0.36 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.69 SHGC 0.36 Simple Glazing Skylight",
     "materials": [
       "U 0.69 SHGC 0.36 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.69 SHGC 0.39 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.69 SHGC 0.39 Simple Glazing Skylight",
     "materials": [
       "U 0.69 SHGC 0.39 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.69 SHGC 0.49 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.69 SHGC 0.49 Simple Glazing Skylight",
     "materials": [
       "U 0.69 SHGC 0.49 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.69 SHGC 0.64 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.69 SHGC 0.64 Simple Glazing Skylight",
     "materials": [
       "U 0.69 SHGC 0.64 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.69 SHGC 0.68 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.69 SHGC 0.68 Simple Glazing Skylight",
     "materials": [
       "U 0.69 SHGC 0.68 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.7 SHGC 0.3 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.7 SHGC 0.3 Simple Glazing Skylight",
     "materials": [
       "U 0.7 SHGC 0.3 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.7 SHGC 0.3 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.7 SHGC 0.3 Simple Glazing Window",
     "materials": [
       "U 0.7 SHGC 0.3 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.71 SHGC 0.25 Dbl Ref-C-H Clr 6mm/6mm Air": {
     "type": "WindowConstructionAbridged",
@@ -1697,784 +2378,1120 @@
       "REF C CLEAR HI 6MM",
       "AIR 6MM",
       "CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.72 SHGC 0.25 Sgl Ref-B-M Tint 6mm": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.72 SHGC 0.25 Sgl Ref-B-M Tint 6mm",
     "materials": [
       "REF B TINT MID 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.72 SHGC 0.25 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.72 SHGC 0.25 Simple Glazing Window",
     "materials": [
       "U 0.72 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.72 SHGC 0.36 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.72 SHGC 0.36 Simple Glazing Window",
     "materials": [
       "U 0.72 SHGC 0.36 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.72 SHGC 0.39 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.72 SHGC 0.39 Simple Glazing Window",
     "materials": [
       "U 0.72 SHGC 0.39 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.73 SHGC 0.45 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.73 SHGC 0.45 Simple Glazing Window",
     "materials": [
       "U 0.73 SHGC 0.45 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.74 SHGC 0.55 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.74 SHGC 0.55 Simple Glazing Skylight",
     "materials": [
       "U 0.74 SHGC 0.55 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.74 SHGC 0.65 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.74 SHGC 0.65 Simple Glazing Skylight",
     "materials": [
       "U 0.74 SHGC 0.65 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.75 SHGC 0.35 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.75 SHGC 0.35 Simple Glazing Skylight",
     "materials": [
       "U 0.75 SHGC 0.35 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.75 SHGC 0.35 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.75 SHGC 0.35 Simple Glazing Window",
     "materials": [
       "U 0.75 SHGC 0.35 Simple Glazing Window"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.75 SHGC 0.39 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.75 SHGC 0.39 Simple Glazing Skylight",
     "materials": [
       "U 0.75 SHGC 0.39 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.75 SHGC 0.49 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.75 SHGC 0.49 Simple Glazing Skylight",
     "materials": [
       "U 0.75 SHGC 0.49 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.75 SHGC 0.55 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.75 SHGC 0.55 Simple Glazing Skylight",
     "materials": [
       "U 0.75 SHGC 0.55 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.75 SHGC 0.55 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.75 SHGC 0.55 Simple Glazing Window",
     "materials": [
       "U 0.75 SHGC 0.55 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.75 SHGC 0.64 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.75 SHGC 0.64 Simple Glazing Skylight",
     "materials": [
       "U 0.75 SHGC 0.64 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.75 SHGC 0.68 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.75 SHGC 0.68 Simple Glazing Skylight",
     "materials": [
       "U 0.75 SHGC 0.68 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.75 SHGC 0.72 Sgl LoE (e2-.2) Clr 6mm": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.75 SHGC 0.72 Sgl LoE (e2-.2) Clr 6mm",
     "materials": [
       "PYR B CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.77 SHGC 0.23 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.77 SHGC 0.23 Simple Glazing Window",
     "materials": [
       "U 0.77 SHGC 0.23 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.77 SHGC 0.25 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.77 SHGC 0.25 Simple Glazing Window",
     "materials": [
       "U 0.77 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.77 SHGC 0.45 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.77 SHGC 0.45 Simple Glazing Window",
     "materials": [
       "U 0.77 SHGC 0.45 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.81 SHGC 0.65 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.81 SHGC 0.65 Simple Glazing Skylight",
     "materials": [
       "U 0.81 SHGC 0.65 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.83 SHGC 0.2 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.83 SHGC 0.2 Simple Glazing Window",
     "materials": [
       "U 0.83 SHGC 0.2 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.83 SHGC 0.21 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.83 SHGC 0.21 Simple Glazing Window",
     "materials": [
       "U 0.83 SHGC 0.21 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.83 SHGC 0.22 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.83 SHGC 0.22 Simple Glazing Window",
     "materials": [
       "U 0.83 SHGC 0.22 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.83 SHGC 0.25 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.83 SHGC 0.25 Simple Glazing Window",
     "materials": [
       "U 0.83 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.83 SHGC 0.45 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.83 SHGC 0.45 Simple Glazing Window",
     "materials": [
       "U 0.83 SHGC 0.45 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.85 SHGC 0.19 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.85 SHGC 0.19 Simple Glazing Skylight",
     "materials": [
       "U 0.85 SHGC 0.19 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.85 SHGC 0.27 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.85 SHGC 0.27 Simple Glazing Skylight",
     "materials": [
       "U 0.85 SHGC 0.27 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.85 SHGC 0.39 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.85 SHGC 0.39 Simple Glazing Skylight",
     "materials": [
       "U 0.85 SHGC 0.39 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.85 SHGC 0.55 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.85 SHGC 0.55 Simple Glazing Skylight",
     "materials": [
       "U 0.85 SHGC 0.55 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.85 SHGC 0.55 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.85 SHGC 0.55 Simple Glazing Window",
     "materials": [
       "U 0.85 SHGC 0.55 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.85 SHGC 0.65 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.85 SHGC 0.65 Simple Glazing Skylight",
     "materials": [
       "U 0.85 SHGC 0.65 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.87 SHGC 0.45 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.87 SHGC 0.45 Simple Glazing Window",
     "materials": [
       "U 0.87 SHGC 0.45 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.87 SHGC 0.58 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.87 SHGC 0.58 Simple Glazing Skylight",
     "materials": [
       "U 0.87 SHGC 0.58 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.87 SHGC 0.71 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.87 SHGC 0.71 Simple Glazing Skylight",
     "materials": [
       "U 0.87 SHGC 0.71 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.87 SHGC 0.77 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.87 SHGC 0.77 Simple Glazing Skylight",
     "materials": [
       "U 0.87 SHGC 0.77 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.88 SHGC 0.16 Sgl Ref-A-L Clr 6mm",
     "materials": [
       "REF A CLEAR LO 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.88 SHGC 0.27 Sgl Elec Ref Colored 6mm": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.88 SHGC 0.27 Sgl Elec Ref Colored 6mm",
     "materials": [
       "ECREF-1 COLORED 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.9 SHGC 0.55 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.9 SHGC 0.55 Simple Glazing Window",
     "materials": [
       "U 0.9 SHGC 0.55 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.93 SHGC 0.45 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.93 SHGC 0.45 Simple Glazing Window",
     "materials": [
       "U 0.93 SHGC 0.45 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.98 SHGC 0.19 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.98 SHGC 0.19 Simple Glazing Skylight",
     "materials": [
       "U 0.98 SHGC 0.19 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.98 SHGC 0.27 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.98 SHGC 0.27 Simple Glazing Skylight",
     "materials": [
       "U 0.98 SHGC 0.27 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.98 SHGC 0.36 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.98 SHGC 0.36 Simple Glazing Skylight",
     "materials": [
       "U 0.98 SHGC 0.36 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.98 SHGC 0.36 Simple Glazing Skylight Weighted": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.98 SHGC 0.36 Simple Glazing Skylight Weighted",
     "materials": [
       "U 0.98 SHGC 0.36 Simple Glazing Weighted"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.98 SHGC 0.45 Sgl Ref-B-H Clr 6mm": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.98 SHGC 0.45 Sgl Ref-B-H Clr 6mm",
     "materials": [
       "REF B CLEAR HI 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.98 SHGC 0.55 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.98 SHGC 0.55 Simple Glazing Skylight",
     "materials": [
       "U 0.98 SHGC 0.55 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.98 SHGC 0.55 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.98 SHGC 0.55 Simple Glazing Window",
     "materials": [
       "U 0.98 SHGC 0.55 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 0.98 SHGC 0.68 Sgl Ref-B-H Clr 6mm": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 0.98 SHGC 0.68 Sgl Ref-B-H Clr 6mm",
     "materials": [
       "REF B CLEAR HI 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.1 SHGC 0.25 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.1 SHGC 0.25 Simple Glazing Window",
     "materials": [
       "U 1.1 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.1 SHGC 0.45 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.1 SHGC 0.45 Simple Glazing Window",
     "materials": [
       "U 1.1 SHGC 0.45 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.10 SHGC 0.62 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.10 SHGC 0.62 Simple Glazing Skylight",
     "materials": [
       "U 1.10 SHGC 0.62 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.10 SHGC 0.77 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.10 SHGC 0.77 Simple Glazing Skylight",
     "materials": [
       "U 1.10 SHGC 0.77 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.15 SHGC 0.55 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.15 SHGC 0.55 Simple Glazing Skylight",
     "materials": [
       "U 1.15 SHGC 0.55 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.15 SHGC 0.55 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.15 SHGC 0.55 Simple Glazing Window",
     "materials": [
       "U 1.15 SHGC 0.55 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.15 SHGC 0.77 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.15 SHGC 0.77 Simple Glazing Skylight",
     "materials": [
       "U 1.15 SHGC 0.77 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.17 SHGC 0.19 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.17 SHGC 0.19 Simple Glazing Skylight",
     "materials": [
       "U 1.17 SHGC 0.19 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.17 SHGC 0.36 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.17 SHGC 0.36 Simple Glazing Skylight",
     "materials": [
       "U 1.17 SHGC 0.36 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.17 SHGC 0.39 Sgl Ref-B-H Clr 6mm": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.17 SHGC 0.39 Sgl Ref-B-H Clr 6mm",
     "materials": [
       "REF B CLEAR HI 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.17 SHGC 0.39 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.17 SHGC 0.39 Simple Glazing Skylight",
     "materials": [
       "U 1.17 SHGC 0.39 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.17 SHGC 0.49 Sgl Ref-D Clr 6mm": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.17 SHGC 0.49 Sgl Ref-D Clr 6mm",
     "materials": [
       "REF D CLEAR 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.17 SHGC 0.49 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.17 SHGC 0.49 Simple Glazing Skylight",
     "materials": [
       "U 1.17 SHGC 0.49 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.17 SHGC 0.64 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.17 SHGC 0.64 Simple Glazing Skylight",
     "materials": [
       "U 1.17 SHGC 0.64 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.17 SHGC 0.68 Sgl Green 3mm": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.17 SHGC 0.68 Sgl Green 3mm",
     "materials": [
       "GREEN 3MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.17 SHGC 0.68 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.17 SHGC 0.68 Simple Glazing Skylight",
     "materials": [
       "U 1.17 SHGC 0.68 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.19 SHGC 0.45 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.19 SHGC 0.45 Simple Glazing Window",
     "materials": [
       "U 1.19 SHGC 0.45 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.2 SHGC 0.45 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.2 SHGC 0.45 Simple Glazing Window",
     "materials": [
       "U 1.2 SHGC 0.45 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.22 SHGC 0.25 Sgl Elec Ref Colored 6mm": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.22 SHGC 0.25 Sgl Elec Ref Colored 6mm",
     "materials": [
       "ECREF-1 COLORED 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.22 SHGC 0.25 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.22 SHGC 0.25 Simple Glazing Window",
     "materials": [
       "U 1.22 SHGC 0.25 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.22 SHGC 0.34 Sgl Ref-C-H Clr 6mm": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.22 SHGC 0.34 Sgl Ref-C-H Clr 6mm",
     "materials": [
       "REF C CLEAR HI 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.22 SHGC 0.39 Sgl Ref-B-H Clr 6mm": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.22 SHGC 0.39 Sgl Ref-B-H Clr 6mm",
     "materials": [
       "REF B CLEAR HI 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.22 SHGC 0.54 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.22 SHGC 0.54 Simple Glazing Window",
     "materials": [
       "U 1.22 SHGC 0.54 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.22 SHGC 0.61 Sgl Green 6mm": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.22 SHGC 0.61 Sgl Green 6mm",
     "materials": [
       "GREEN 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.30 SHGC 0.27 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.30 SHGC 0.27 Simple Glazing Skylight",
     "materials": [
       "U 1.30 SHGC 0.27 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.30 SHGC 0.34 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.30 SHGC 0.34 Simple Glazing Skylight",
     "materials": [
       "U 1.30 SHGC 0.34 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.30 SHGC 0.62 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.30 SHGC 0.62 Simple Glazing Skylight",
     "materials": [
       "U 1.30 SHGC 0.62 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.30 SHGC 0.65 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.30 SHGC 0.65 Simple Glazing Skylight",
     "materials": [
       "U 1.30 SHGC 0.65 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.36 SHGC 0.19 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.36 SHGC 0.19 Simple Glazing Skylight",
     "materials": [
       "U 1.36 SHGC 0.19 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.36 SHGC 0.36 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.36 SHGC 0.36 Simple Glazing Skylight",
     "materials": [
       "U 1.36 SHGC 0.36 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.36 SHGC 0.39 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.36 SHGC 0.39 Simple Glazing Skylight",
     "materials": [
       "U 1.36 SHGC 0.39 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.36 SHGC 0.61 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.36 SHGC 0.61 Simple Glazing Skylight",
     "materials": [
       "U 1.36 SHGC 0.61 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.7 SHGC 0.55 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.7 SHGC 0.55 Simple Glazing Skylight",
     "materials": [
       "U 1.7 SHGC 0.55 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.7 SHGC 0.55 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.7 SHGC 0.55 Simple Glazing Window",
     "materials": [
       "U 1.7 SHGC 0.55 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.70 SHGC 0.36 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.70 SHGC 0.36 Simple Glazing Skylight",
     "materials": [
       "U 1.70 SHGC 0.36 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.8 SHGC 0.49 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.8 SHGC 0.49 Simple Glazing Skylight",
     "materials": [
       "U 1.8 SHGC 0.49 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.8 SHGC 0.55 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.8 SHGC 0.55 Simple Glazing Skylight",
     "materials": [
       "U 1.8 SHGC 0.55 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.8 SHGC 0.55 Simple Glazing Window": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.8 SHGC 0.55 Simple Glazing Window",
     "materials": [
       "U 1.8 SHGC 0.55 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.8 SHGC 0.64 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.8 SHGC 0.64 Simple Glazing Skylight",
     "materials": [
       "U 1.8 SHGC 0.64 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.8 SHGC 0.77 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.8 SHGC 0.77 Simple Glazing Skylight",
     "materials": [
       "U 1.8 SHGC 0.77 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.80 SHGC 0.36 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.80 SHGC 0.36 Simple Glazing Skylight",
     "materials": [
       "U 1.80 SHGC 0.36 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.90 SHGC 0.27 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.90 SHGC 0.27 Simple Glazing Skylight",
     "materials": [
       "U 1.90 SHGC 0.27 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.90 SHGC 0.34 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.90 SHGC 0.34 Simple Glazing Skylight",
     "materials": [
       "U 1.90 SHGC 0.34 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.90 SHGC 0.39 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.90 SHGC 0.39 Simple Glazing Skylight",
     "materials": [
       "U 1.90 SHGC 0.39 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.90 SHGC 0.65 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.90 SHGC 0.65 Simple Glazing Skylight",
     "materials": [
       "U 1.90 SHGC 0.65 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.98 SHGC 0.16 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.98 SHGC 0.16 Simple Glazing Skylight",
     "materials": [
       "U 1.98 SHGC 0.16 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.98 SHGC 0.19 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.98 SHGC 0.19 Simple Glazing Skylight",
     "materials": [
       "U 1.98 SHGC 0.19 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.98 SHGC 0.36 Sgl Ref-B-H Clr 6mm": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.98 SHGC 0.36 Sgl Ref-B-H Clr 6mm",
     "materials": [
       "REF B CLEAR HI 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.98 SHGC 0.36 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.98 SHGC 0.36 Simple Glazing Skylight",
     "materials": [
       "U 1.98 SHGC 0.36 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.98 SHGC 0.39 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.98 SHGC 0.39 Simple Glazing Skylight",
     "materials": [
       "U 1.98 SHGC 0.39 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.98 SHGC 0.61 Sgl Green 6mm": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.98 SHGC 0.61 Sgl Green 6mm",
     "materials": [
       "GREEN 6MM"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U 1.98 SHGC 0.61 Simple Glazing Skylight": {
     "type": "WindowConstructionAbridged",
     "identifier": "U 1.98 SHGC 0.61 Simple Glazing Skylight",
     "materials": [
       "U 1.98 SHGC 0.61 Simple Glazing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U0.47_SHGC0.46_SimpleGlazing_Window_07": {
     "type": "WindowConstructionAbridged",
     "identifier": "U0.47_SHGC0.46_SimpleGlazing_Window_07",
     "materials": [
       "U0.47_SHGC0.46_SimpleGlazing_Window_07"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U0.47_SHGC0.47_SimpleGlazing_Window_06": {
     "type": "WindowConstructionAbridged",
     "identifier": "U0.47_SHGC0.47_SimpleGlazing_Window_06",
     "materials": [
       "U0.47_SHGC0.47_SimpleGlazing_Window_06"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U0.47_SHGC0.47_SimpleGlazing_Window_11": {
     "type": "WindowConstructionAbridged",
     "identifier": "U0.47_SHGC0.47_SimpleGlazing_Window_11",
     "materials": [
       "U0.47_SHGC0.47_SimpleGlazing_Window_11"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U0.47_SHGC0.5_SimpleGlazing_Window_03": {
     "type": "WindowConstructionAbridged",
     "identifier": "U0.47_SHGC0.5_SimpleGlazing_Window_03",
     "materials": [
       "U0.47_SHGC0.5_SimpleGlazing_Window_03"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U0.47_SHGC_0.49_SimpleGlazing_Window_05": {
     "type": "WindowConstructionAbridged",
     "identifier": "U0.47_SHGC_0.49_SimpleGlazing_Window_05",
     "materials": [
       "U0.47_SHGC_0.49_SimpleGlazing_Window_05"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U0.77_SHGC0.5_SimpleGlazing_Window_09": {
     "type": "WindowConstructionAbridged",
     "identifier": "U0.77_SHGC0.5_SimpleGlazing_Window_09",
     "materials": [
       "U0.77_SHGC0.5_SimpleGlazing_Window_09"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U0.77_SHGC0.61_SimpleGlazing_Window_08": {
     "type": "WindowConstructionAbridged",
     "identifier": "U0.77_SHGC0.61_SimpleGlazing_Window_08",
     "materials": [
       "U0.77_SHGC0.61_SimpleGlazing_Window_08"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U0.77_SHGC0.62_SimpleGlazing_Window_04": {
     "type": "WindowConstructionAbridged",
     "identifier": "U0.77_SHGC0.62_SimpleGlazing_Window_04",
     "materials": [
       "U0.77_SHGC0.62_SimpleGlazing_Window_04"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U0.77_SHGC_0.77_SimpleGlazing_Window_02": {
     "type": "WindowConstructionAbridged",
     "identifier": "U0.77_SHGC_0.77_SimpleGlazing_Window_02",
     "materials": [
       "U0.77_SHGC_0.77_SimpleGlazing_Window_02"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U1.23_SHGC0.5_SimpleGlazing_Window_12": {
     "type": "WindowConstructionAbridged",
     "identifier": "U1.23_SHGC0.5_SimpleGlazing_Window_12",
     "materials": [
       "U1.23_SHGC0.5_SimpleGlazing_Window_12"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U1.23_SHGC0.82_SimpleGlazing_Window_01": {
     "type": "WindowConstructionAbridged",
     "identifier": "U1.23_SHGC0.82_SimpleGlazing_Window_01",
     "materials": [
       "U1.23_SHGC0.82_SimpleGlazing_Window_01"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "U1.23_SHGC0.82_SimpleGlazing_Window_10": {
     "type": "WindowConstructionAbridged",
     "identifier": "U1.23_SHGC0.82_SimpleGlazing_Window_10",
     "materials": [
       "U1.23_SHGC0.82_SimpleGlazing_Window_10"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Window_U_0.50_SHGC_0.40_Skylight_Frame_Width_0.000_in": {
     "type": "WindowConstructionAbridged",
@@ -2483,7 +3500,10 @@
       "Glass_2052_LayerAvg",
       "Gap_1_W_0_0038",
       "Glass_2027F_LayerAvg"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Window_U_0.50_SHGC_0.40_Skylight_Frame_Width_0.334_in": {
     "type": "WindowConstructionAbridged",
@@ -2492,7 +3512,10 @@
       "Glass_2052_LayerAvg",
       "Gap_1_W_0_0038",
       "Glass_2027F_LayerAvg"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Window_U_0.50_SHGC_0.40_Skylight_Frame_Width_0.430_in": {
     "type": "WindowConstructionAbridged",
@@ -2501,7 +3524,10 @@
       "Glass_2052_LayerAvg",
       "Gap_1_W_0_0038",
       "Glass_2027F_LayerAvg"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Window_U_0.55_SHGC_0.35_Skylight_Frame_Width_0.709_in": {
     "type": "WindowConstructionAbridged",
@@ -2510,7 +3536,10 @@
       "Glass_2052_LayerAvg",
       "Gap_1_W_0_0038",
       "Glass_2027F_LayerAvg"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Window_U_0.65_SHGC_0.35_Skylight_Frame_Width_2.339_in": {
     "type": "WindowConstructionAbridged",
@@ -2519,7 +3548,10 @@
       "Glass_2052_LayerAvg",
       "Gap_1_W_0_0024",
       "Glass_2027F_LayerAvg"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Window_U_0.75_SHGC_0.35_Skylight_Frame_Width_2.339_in": {
     "type": "WindowConstructionAbridged",
@@ -2528,6 +3560,9 @@
       "Glass_2052_LayerAvg",
       "Gap_1_W_0_0018",
       "Glass_2027F_LayerAvg"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   }
 }

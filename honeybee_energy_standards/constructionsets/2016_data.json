@@ -27,6 +27,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.65 SHGC 0.25 Dbl Ref-C-H Clr 6mm/6mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone1::WoodFramed": {
@@ -57,6 +60,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.65 SHGC 0.25 Dbl Ref-C-H Clr 6mm/6mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone1::Mass": {
@@ -87,6 +93,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.65 SHGC 0.25 Dbl Ref-C-H Clr 6mm/6mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone1::Metal Building": {
@@ -117,6 +126,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.65 SHGC 0.25 Dbl Ref-C-H Clr 6mm/6mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone2::SteelFramed": {
@@ -147,6 +159,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.65 SHGC 0.25 Dbl Ref-C-H Clr 6mm/6mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone2::WoodFramed": {
@@ -177,6 +192,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.65 SHGC 0.25 Dbl Ref-C-H Clr 6mm/6mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone2::Mass": {
@@ -207,6 +225,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.65 SHGC 0.25 Dbl Ref-C-H Clr 6mm/6mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone2::Metal Building": {
@@ -237,6 +258,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.65 SHGC 0.25 Dbl Ref-C-H Clr 6mm/6mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone3::SteelFramed": {
@@ -267,6 +291,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.60 SHGC 0.25 Dbl 2.5mm air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone3::WoodFramed": {
@@ -297,6 +324,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.60 SHGC 0.25 Dbl 2.5mm air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone3::Mass": {
@@ -327,6 +357,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.60 SHGC 0.25 Dbl 2.5mm air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone3::Metal Building": {
@@ -357,6 +390,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.60 SHGC 0.25 Dbl 2.5mm air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone4::SteelFramed": {
@@ -387,6 +423,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone4::WoodFramed": {
@@ -417,6 +456,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone4::Mass": {
@@ -447,6 +489,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone4::Metal Building": {
@@ -477,6 +522,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone5::SteelFramed": {
@@ -507,6 +555,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone5::WoodFramed": {
@@ -537,6 +588,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone5::Mass": {
@@ -567,6 +621,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone5::Metal Building": {
@@ -597,6 +654,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone6::SteelFramed": {
@@ -627,6 +687,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone6::WoodFramed": {
@@ -657,6 +720,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone6::Mass": {
@@ -687,6 +753,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone6::Metal Building": {
@@ -717,6 +786,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone7::SteelFramed": {
@@ -747,6 +819,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.40 SHGC 0.43 Dbl LoE Spec Sel Clr 3mm/6mm/6mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone7::WoodFramed": {
@@ -777,6 +852,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.40 SHGC 0.43 Dbl LoE Spec Sel Clr 3mm/6mm/6mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone7::Mass": {
@@ -807,6 +885,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.40 SHGC 0.43 Dbl LoE Spec Sel Clr 3mm/6mm/6mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone7::Metal Building": {
@@ -837,6 +918,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.40 SHGC 0.43 Dbl LoE Spec Sel Clr 3mm/6mm/6mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone8::SteelFramed": {
@@ -867,6 +951,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.40 SHGC 0.43 Dbl LoE Spec Sel Clr 3mm/6mm/6mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone8::WoodFramed": {
@@ -897,6 +984,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.40 SHGC 0.43 Dbl LoE Spec Sel Clr 3mm/6mm/6mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone8::Mass": {
@@ -927,6 +1017,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.40 SHGC 0.43 Dbl LoE Spec Sel Clr 3mm/6mm/6mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2016::ClimateZone8::Metal Building": {
@@ -957,6 +1050,9 @@
       "exterior_construction": "Typical Insulated Metal Door-R3",
       "exterior_glass_construction": "U 0.40 SHGC 0.43 Dbl LoE Spec Sel Clr 3mm/6mm/6mm Air",
       "overhead_construction": "Typical Overhead Door-R4"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   }
 }

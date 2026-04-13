@@ -9,7 +9,10 @@
     "specific_heat": 1089.2971854559414,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.5
+    "visible_absorptance": 0.5,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "1/2IN Gypsum": {
     "type": "EnergyMaterial",
@@ -21,7 +24,10 @@
     "specific_heat": 829.4648292921422,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.4,
-    "visible_absorptance": 0.4
+    "visible_absorptance": 0.4,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "100mm Normalweight concrete floor": {
     "type": "EnergyMaterial",
@@ -33,7 +39,10 @@
     "specific_heat": 832.0199665271966,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "12 in. Normalweight Concrete Floor": {
     "type": "EnergyMaterial",
@@ -45,7 +54,10 @@
     "specific_heat": 831.4635397241673,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "1IN Stucco": {
     "type": "EnergyMaterial",
@@ -57,7 +69,10 @@
     "specific_heat": 836.4603158042426,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.92
+    "visible_absorptance": 0.92,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "25mm Stucco": {
     "type": "EnergyMaterial",
@@ -69,7 +84,10 @@
     "specific_heat": 839.4583814522845,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "4 in. Normalweight Concrete Floor": {
     "type": "EnergyMaterial",
@@ -81,7 +99,10 @@
     "specific_heat": 831.4635397241673,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "4 in. Normalweight Concrete Wall": {
     "type": "EnergyMaterial",
@@ -93,7 +114,10 @@
     "specific_heat": 831.4635397241673,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "5/8 in. Gypsum Board": {
     "type": "EnergyMaterial",
@@ -105,7 +129,10 @@
     "specific_heat": 1089.2971854559414,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "5/8 in. Plywood": {
     "type": "EnergyMaterial",
@@ -117,7 +144,10 @@
     "specific_heat": 1209.2198113776988,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "6 in. Heavyweight Concrete Roof": {
     "type": "EnergyMaterial",
@@ -129,7 +159,10 @@
     "specific_heat": 831.4635397241673,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "6 in. Normalweight Concrete Floor": {
     "type": "EnergyMaterial",
@@ -141,7 +174,10 @@
     "specific_heat": 831.4635397241673,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "8 in. Concrete Block Basement Wall": {
     "type": "EnergyMaterial",
@@ -153,7 +189,10 @@
     "specific_heat": 911.4119570053389,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "8 in. Concrete Block Wall": {
     "type": "EnergyMaterial",
@@ -165,7 +204,10 @@
     "specific_heat": 831.4635397241673,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "8 in. Normalweight Concrete Floor": {
     "type": "EnergyMaterial",
@@ -177,7 +219,10 @@
     "specific_heat": 831.4635397241673,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "8 in. Normalweight Concrete Wall": {
     "type": "EnergyMaterial",
@@ -189,7 +234,10 @@
     "specific_heat": 831.4635397241673,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "8IN CONCRETE HW RefBldg": {
     "type": "EnergyMaterial",
@@ -201,7 +249,10 @@
     "specific_heat": 836.2604447610418,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "8IN Concrete HW": {
     "type": "EnergyMaterial",
@@ -213,7 +264,10 @@
     "specific_heat": 836.4603158042426,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.65,
-    "visible_absorptance": 0.65
+    "visible_absorptance": 0.65,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Acoustic Ceiling": {
     "type": "EnergyMaterial",
@@ -225,7 +279,10 @@
     "specific_heat": 1338.1366342435858,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.2
+    "visible_absorptance": 0.2,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Adiabatic Material": {
     "type": "EnergyMaterialNoMass",
@@ -234,7 +291,10 @@
     "roughness": "MediumRough",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Asphalt Shingles": {
     "type": "EnergyMaterial",
@@ -246,7 +306,10 @@
     "specific_heat": 1259.1875721784268,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "AtticFloor Insulation": {
     "type": "EnergyMaterial",
@@ -258,7 +321,10 @@
     "specific_heat": 836.2604447610418,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Built-up Roofing": {
     "type": "EnergyMaterial",
@@ -270,7 +336,10 @@
     "specific_heat": 1459.0586153813556,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Built-up Roofing - Highly Reflective": {
     "type": "EnergyMaterial",
@@ -282,7 +351,10 @@
     "specific_heat": 1459.0586153813556,
     "thermal_absorptance": 0.75,
     "solar_absorptance": 0.45,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Bulk Storage Products Material": {
     "type": "EnergyMaterial",
@@ -294,7 +366,10 @@
     "specific_heat": 836.2604510890168,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "CP02 CARPET PAD": {
     "type": "EnergyMaterialNoMass",
@@ -303,7 +378,10 @@
     "roughness": "VeryRough",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Carpet - 3/4 in. CBES": {
     "type": "EnergyMaterial",
@@ -315,7 +393,10 @@
     "specific_heat": 1380.753138075314,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "F04 Wall air space resistance": {
     "type": "EnergyMaterialNoMass",
@@ -324,7 +405,10 @@
     "roughness": "MediumRough",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "F05 Ceiling air space resistance": {
     "type": "EnergyMaterialNoMass",
@@ -333,7 +417,10 @@
     "roughness": "MediumRough",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "F08 Metal surface": {
     "type": "EnergyMaterial",
@@ -345,7 +432,10 @@
     "specific_heat": 499.6776080073138,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "F16 Acoustic tile": {
     "type": "EnergyMaterial",
@@ -357,7 +447,10 @@
     "specific_heat": 589.6195774486317,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.3,
-    "visible_absorptance": 0.3
+    "visible_absorptance": 0.3,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "G01 13mm gypsum board": {
     "type": "EnergyMaterial",
@@ -369,7 +462,10 @@
     "specific_heat": 1090.0261589958159,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.5
+    "visible_absorptance": 0.5,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "G01a 19mm gypsum board": {
     "type": "EnergyMaterial",
@@ -381,7 +477,10 @@
     "specific_heat": 1089.2971854559455,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.4,
-    "visible_absorptance": 0.4
+    "visible_absorptance": 0.4,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "G05 25mm wood": {
     "type": "EnergyMaterial",
@@ -393,7 +492,10 @@
     "specific_heat": 1628.949002103841,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.5,
-    "visible_absorptance": 0.5
+    "visible_absorptance": 0.5,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Ground_Floor_R11_T2013": {
     "type": "EnergyMaterial",
@@ -405,7 +507,10 @@
     "specific_heat": 1129.7071129707113,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Ground_Floor_R17_T2013": {
     "type": "EnergyMaterial",
@@ -417,7 +522,10 @@
     "specific_heat": 1129.7071129707113,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Ground_Floor_R22_T2013": {
     "type": "EnergyMaterial",
@@ -429,7 +537,10 @@
     "specific_heat": 1129.7071129707113,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Gypsum Board - 1/2 in. CBES": {
     "type": "EnergyMaterial",
@@ -441,7 +552,10 @@
     "specific_heat": 1129.7071129707113,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Gypsum Or Plaster Board - 3/8 in.": {
     "type": "EnergyMaterial",
@@ -453,7 +567,10 @@
     "specific_heat": 1089.2971854559414,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "HW CONCRETE": {
     "type": "EnergyMaterial",
@@ -465,7 +582,10 @@
     "specific_heat": 836.8200836820084,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "HW CONCRETE 8 in": {
     "type": "EnergyMaterial",
@@ -477,7 +597,10 @@
     "specific_heat": 836.8200836820084,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "I01 25mm insulation board": {
     "type": "EnergyMaterial",
@@ -489,7 +612,10 @@
     "specific_heat": 1209.2198113776988,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.6,
-    "visible_absorptance": 0.6
+    "visible_absorptance": 0.6,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "I02 50mm insulation board": {
     "type": "EnergyMaterial",
@@ -501,7 +627,10 @@
     "specific_heat": 1209.2198113776988,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.6,
-    "visible_absorptance": 0.6
+    "visible_absorptance": 0.6,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "IEAD NonRes Roof Insulation-1.76": {
     "type": "EnergyMaterial",
@@ -513,7 +642,10 @@
     "specific_heat": 836.2604447610418,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "IEAD Roof Insulation R-3.47 IP": {
     "type": "EnergyMaterial",
@@ -525,7 +657,10 @@
     "specific_heat": 836.2604447610418,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Insulation 1m": {
     "type": "EnergyMaterial",
@@ -537,7 +672,10 @@
     "specific_heat": 1129.7071129707113,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "M01 100mm brick": {
     "type": "EnergyMaterial",
@@ -549,7 +687,10 @@
     "specific_heat": 789.4906206515565,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "M11 100mm lightweight concrete": {
     "type": "EnergyMaterial",
@@ -561,7 +702,10 @@
     "specific_heat": 839.4583814522887,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.5,
-    "visible_absorptance": 0.5
+    "visible_absorptance": 0.5,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "M15 200mm heavyweight concrete": {
     "type": "EnergyMaterial",
@@ -573,7 +717,10 @@
     "specific_heat": 899.4196944131631,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.5,
-    "visible_absorptance": 0.5
+    "visible_absorptance": 0.5,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "MAT-CC05 4 HW CONCRETE": {
     "type": "EnergyMaterial",
@@ -585,7 +732,10 @@
     "specific_heat": 836.2604447610418,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.85,
-    "visible_absorptance": 0.85
+    "visible_absorptance": 0.85,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "MAT-CC05 8 HW CONCRETE": {
     "type": "EnergyMaterial",
@@ -597,7 +747,10 @@
     "specific_heat": 836.2604447610418,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.85,
-    "visible_absorptance": 0.85
+    "visible_absorptance": 0.85,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "MAT-SHEATH": {
     "type": "EnergyMaterialNoMass",
@@ -606,7 +759,10 @@
     "roughness": "MediumRough",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Mass NonRes Wall Insulation-0.43": {
     "type": "EnergyMaterial",
@@ -618,7 +774,10 @@
     "specific_heat": 836.2604447610418,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Mass Wall Insulation R-4.23 IP": {
     "type": "EnergyMaterial",
@@ -630,7 +789,10 @@
     "specific_heat": 836.2604447610418,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Metal Building Semi-Cond Wall Insulation-0.54": {
     "type": "EnergyMaterial",
@@ -642,7 +804,10 @@
     "specific_heat": 836.2604447610418,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Metal Building Wall Insulation R-4.14 IP": {
     "type": "EnergyMaterial",
@@ -654,7 +819,10 @@
     "specific_heat": 836.2604447610418,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Metal Decking": {
     "type": "EnergyMaterial",
@@ -666,7 +834,10 @@
     "specific_heat": 418.1302223805201,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.6,
-    "visible_absorptance": 0.6
+    "visible_absorptance": 0.6,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Metal Roof Insulation R-5.21 IP": {
     "type": "EnergyMaterial",
@@ -678,7 +849,10 @@
     "specific_heat": 836.2604447610418,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Metal Roof Surface": {
     "type": "EnergyMaterial",
@@ -690,7 +864,10 @@
     "specific_heat": 499.67760800730963,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Metal Roof Surface - Highly Reflective": {
     "type": "EnergyMaterial",
@@ -702,7 +879,10 @@
     "specific_heat": 499.67760800730963,
     "thermal_absorptance": 0.75,
     "solar_absorptance": 0.45,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Metal Roofing": {
     "type": "EnergyMaterial",
@@ -714,7 +894,10 @@
     "specific_heat": 418.1302223805201,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.6,
-    "visible_absorptance": 0.6
+    "visible_absorptance": 0.6,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Metal Roofing - Highly Reflective": {
     "type": "EnergyMaterial",
@@ -726,7 +909,10 @@
     "specific_heat": 418.1302223805201,
     "thermal_absorptance": 0.75,
     "solar_absorptance": 0.45,
-    "visible_absorptance": 0.6
+    "visible_absorptance": 0.6,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Metal Semi-Cond Roof Insulation-1.05": {
     "type": "EnergyMaterial",
@@ -738,7 +924,10 @@
     "specific_heat": 836.2604447610418,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Metal Siding": {
     "type": "EnergyMaterial",
@@ -750,7 +939,10 @@
     "specific_heat": 409.7356385659975,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Metal Standing Seam - 1/16 in. CBES": {
     "type": "EnergyMaterial",
@@ -762,7 +954,10 @@
     "specific_heat": 502.09205020920496,
     "thermal_absorptance": 0.85,
     "solar_absorptance": 0.37,
-    "visible_absorptance": 0.85
+    "visible_absorptance": 0.85,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Metal Surface": {
     "type": "EnergyMaterial",
@@ -774,7 +969,10 @@
     "specific_heat": 499.67760800730963,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "NACM_Carpet 3/4in": {
     "type": "EnergyMaterial",
@@ -786,7 +984,10 @@
     "specific_heat": 1380.753138075314,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.9
+    "visible_absorptance": 0.9,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "NACM_Concrete 4in_140lb/ft3": {
     "type": "EnergyMaterial",
@@ -798,7 +999,10 @@
     "specific_heat": 920.5020920502092,
     "thermal_absorptance": 0.75,
     "solar_absorptance": 0.92,
-    "visible_absorptance": 0.75
+    "visible_absorptance": 0.75,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "NACM_Gypsum Board 5/8in": {
     "type": "EnergyMaterial",
@@ -810,7 +1014,10 @@
     "specific_heat": 1129.7071129707113,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.5
+    "visible_absorptance": 0.5,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Nonres_Floor_Insulation": {
     "type": "EnergyMaterialNoMass",
@@ -819,7 +1026,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Plywood - 5/8 in. CBES": {
     "type": "EnergyMaterial",
@@ -831,7 +1041,10 @@
     "specific_heat": 1882.8451882845188,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "R1_R14.20": {
     "type": "EnergyMaterial",
@@ -843,7 +1056,10 @@
     "specific_heat": 1129.7071129707113,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "R2_R12.90": {
     "type": "EnergyMaterial",
@@ -855,7 +1071,10 @@
     "specific_heat": 1129.7071129707113,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "R3_R17.74": {
     "type": "EnergyMaterial",
@@ -867,7 +1086,10 @@
     "specific_heat": 1129.7071129707113,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "R4_R20.28": {
     "type": "EnergyMaterial",
@@ -879,7 +1101,10 @@
     "specific_heat": 1129.7071129707113,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "R_R30": {
     "type": "EnergyMaterial",
@@ -891,7 +1116,10 @@
     "specific_heat": 1129.7071129707113,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "R_R38": {
     "type": "EnergyMaterial",
@@ -903,7 +1131,10 @@
     "specific_heat": 1129.7071129707113,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "R_T24_2013_24.86": {
     "type": "EnergyMaterial",
@@ -915,7 +1146,10 @@
     "specific_heat": 1129.7071129707113,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Roof Insulation [18]": {
     "type": "EnergyMaterial",
@@ -927,7 +1161,10 @@
     "specific_heat": 836.2604447610418,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Roof Membrane": {
     "type": "EnergyMaterial",
@@ -939,7 +1176,10 @@
     "specific_heat": 1459.0586153813556,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Roof Membrane - Highly Reflective": {
     "type": "EnergyMaterial",
@@ -951,7 +1191,10 @@
     "specific_heat": 1459.0586153813556,
     "thermal_absorptance": 0.75,
     "solar_absorptance": 0.45,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Std Wood 6 in.": {
     "type": "EnergyMaterial",
@@ -963,7 +1206,10 @@
     "specific_heat": 1209.2198113776988,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Std Wood 6inch Furnishings": {
     "type": "EnergyMaterial",
@@ -975,7 +1221,10 @@
     "specific_heat": 1213.389121338912,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Steel Frame NonRes Wall Insulation-0.73": {
     "type": "EnergyMaterial",
@@ -987,7 +1236,10 @@
     "specific_heat": 836.2604447610418,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Steel Frame Wall Insulation R-1.02 IP": {
     "type": "EnergyMaterial",
@@ -999,7 +1251,10 @@
     "specific_heat": 836.2604447610418,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Steel Frame/Cavity": {
     "type": "EnergyMaterial",
@@ -1011,7 +1266,10 @@
     "specific_heat": 501.75627065341007,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Stucco - 7/8 in. CBES": {
     "type": "EnergyMaterial",
@@ -1023,7 +1281,10 @@
     "specific_heat": 836.8200836820084,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Air Wall": {
     "type": "EnergyMaterialNoMass",
@@ -1032,7 +1293,10 @@
     "roughness": "MediumRough",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Carpet Pad": {
     "type": "EnergyMaterialNoMass",
@@ -1041,7 +1305,10 @@
     "roughness": "VeryRough",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation": {
     "type": "EnergyMaterialNoMass",
@@ -1050,7 +1317,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "W1_R8.60": {
     "type": "EnergyMaterial",
@@ -1062,7 +1332,10 @@
     "specific_heat": 1129.7071129707113,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "W2_R11.13": {
     "type": "EnergyMaterial",
@@ -1074,7 +1347,10 @@
     "specific_heat": 1129.7071129707113,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "W3_R11.36": {
     "type": "EnergyMaterial",
@@ -1086,7 +1362,10 @@
     "specific_heat": 1129.7071129707113,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "W4_R12.62": {
     "type": "EnergyMaterial",
@@ -1098,7 +1377,10 @@
     "specific_heat": 1129.7071129707113,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "W_T24_2013_R13.99": {
     "type": "EnergyMaterial",
@@ -1110,7 +1392,10 @@
     "specific_heat": 1129.7071129707113,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "W_m1_R15": {
     "type": "EnergyMaterial",
@@ -1122,7 +1407,10 @@
     "specific_heat": 1129.7071129707113,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "W_m2_R19": {
     "type": "EnergyMaterial",
@@ -1134,7 +1422,10 @@
     "specific_heat": 1129.7071129707113,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "W_m3_R21": {
     "type": "EnergyMaterial",
@@ -1146,7 +1437,10 @@
     "specific_heat": 1129.7071129707113,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Wall Insulation [31]": {
     "type": "EnergyMaterial",
@@ -1158,7 +1452,10 @@
     "specific_heat": 836.4603158042426,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.5,
-    "visible_absorptance": 0.5
+    "visible_absorptance": 0.5,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Wood Frame NonRes Wall Insulation-0.73": {
     "type": "EnergyMaterial",
@@ -1170,7 +1467,10 @@
     "specific_heat": 836.2604447610418,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Wood Frame Wall Insulation R-1.61 IP": {
     "type": "EnergyMaterial",
@@ -1182,7 +1482,10 @@
     "specific_heat": 836.2604447610418,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Wood Siding": {
     "type": "EnergyMaterial",
@@ -1194,7 +1497,10 @@
     "specific_heat": 1209.2198113776988,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.78,
-    "visible_absorptance": 0.78
+    "visible_absorptance": 0.78,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "ceiling_2_Insulation": {
     "type": "EnergyMaterial",
@@ -1206,7 +1512,10 @@
     "specific_heat": 1129.7071129707113,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.8
+    "visible_absorptance": 0.8,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R1": {
     "type": "EnergyMaterialNoMass",
@@ -1215,7 +1524,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R2": {
     "type": "EnergyMaterialNoMass",
@@ -1224,7 +1536,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R3": {
     "type": "EnergyMaterialNoMass",
@@ -1233,7 +1548,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R4": {
     "type": "EnergyMaterialNoMass",
@@ -1242,7 +1560,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R5": {
     "type": "EnergyMaterialNoMass",
@@ -1251,7 +1572,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R6": {
     "type": "EnergyMaterialNoMass",
@@ -1260,7 +1584,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R7": {
     "type": "EnergyMaterialNoMass",
@@ -1269,7 +1596,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R8": {
     "type": "EnergyMaterialNoMass",
@@ -1278,7 +1608,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R9": {
     "type": "EnergyMaterialNoMass",
@@ -1287,7 +1620,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R10": {
     "type": "EnergyMaterialNoMass",
@@ -1296,7 +1632,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R11": {
     "type": "EnergyMaterialNoMass",
@@ -1305,7 +1644,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R12": {
     "type": "EnergyMaterialNoMass",
@@ -1314,7 +1656,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R13": {
     "type": "EnergyMaterialNoMass",
@@ -1323,7 +1668,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R14": {
     "type": "EnergyMaterialNoMass",
@@ -1332,7 +1680,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R15": {
     "type": "EnergyMaterialNoMass",
@@ -1341,7 +1692,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R16": {
     "type": "EnergyMaterialNoMass",
@@ -1350,7 +1704,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R17": {
     "type": "EnergyMaterialNoMass",
@@ -1359,7 +1716,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R18": {
     "type": "EnergyMaterialNoMass",
@@ -1368,7 +1728,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R19": {
     "type": "EnergyMaterialNoMass",
@@ -1377,7 +1740,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R20": {
     "type": "EnergyMaterialNoMass",
@@ -1386,7 +1752,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R21": {
     "type": "EnergyMaterialNoMass",
@@ -1395,7 +1764,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R22": {
     "type": "EnergyMaterialNoMass",
@@ -1404,7 +1776,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R23": {
     "type": "EnergyMaterialNoMass",
@@ -1413,7 +1788,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R24": {
     "type": "EnergyMaterialNoMass",
@@ -1422,7 +1800,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R25": {
     "type": "EnergyMaterialNoMass",
@@ -1431,7 +1812,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R26": {
     "type": "EnergyMaterialNoMass",
@@ -1440,7 +1824,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R27": {
     "type": "EnergyMaterialNoMass",
@@ -1449,7 +1836,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R28": {
     "type": "EnergyMaterialNoMass",
@@ -1458,7 +1848,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R29": {
     "type": "EnergyMaterialNoMass",
@@ -1467,7 +1860,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R30": {
     "type": "EnergyMaterialNoMass",
@@ -1476,7 +1872,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R31": {
     "type": "EnergyMaterialNoMass",
@@ -1485,7 +1884,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R32": {
     "type": "EnergyMaterialNoMass",
@@ -1494,7 +1896,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R33": {
     "type": "EnergyMaterialNoMass",
@@ -1503,7 +1908,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R34": {
     "type": "EnergyMaterialNoMass",
@@ -1512,7 +1920,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R35": {
     "type": "EnergyMaterialNoMass",
@@ -1521,7 +1932,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R36": {
     "type": "EnergyMaterialNoMass",
@@ -1530,7 +1944,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R37": {
     "type": "EnergyMaterialNoMass",
@@ -1539,7 +1956,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R38": {
     "type": "EnergyMaterialNoMass",
@@ -1548,7 +1968,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R39": {
     "type": "EnergyMaterialNoMass",
@@ -1557,7 +1980,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R40": {
     "type": "EnergyMaterialNoMass",
@@ -1566,7 +1992,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R41": {
     "type": "EnergyMaterialNoMass",
@@ -1575,7 +2004,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R42": {
     "type": "EnergyMaterialNoMass",
@@ -1584,7 +2016,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R43": {
     "type": "EnergyMaterialNoMass",
@@ -1593,7 +2028,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R44": {
     "type": "EnergyMaterialNoMass",
@@ -1602,7 +2040,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R45": {
     "type": "EnergyMaterialNoMass",
@@ -1611,7 +2052,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R46": {
     "type": "EnergyMaterialNoMass",
@@ -1620,7 +2064,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R47": {
     "type": "EnergyMaterialNoMass",
@@ -1629,7 +2076,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R48": {
     "type": "EnergyMaterialNoMass",
@@ -1638,7 +2088,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R49": {
     "type": "EnergyMaterialNoMass",
@@ -1647,7 +2100,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R50": {
     "type": "EnergyMaterialNoMass",
@@ -1656,7 +2112,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R51": {
     "type": "EnergyMaterialNoMass",
@@ -1665,7 +2124,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R52": {
     "type": "EnergyMaterialNoMass",
@@ -1674,7 +2136,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R53": {
     "type": "EnergyMaterialNoMass",
@@ -1683,7 +2148,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R54": {
     "type": "EnergyMaterialNoMass",
@@ -1692,7 +2160,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R55": {
     "type": "EnergyMaterialNoMass",
@@ -1701,7 +2172,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R56": {
     "type": "EnergyMaterialNoMass",
@@ -1710,7 +2184,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R57": {
     "type": "EnergyMaterialNoMass",
@@ -1719,7 +2196,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R58": {
     "type": "EnergyMaterialNoMass",
@@ -1728,7 +2208,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R59": {
     "type": "EnergyMaterialNoMass",
@@ -1737,7 +2220,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulation-R60": {
     "type": "EnergyMaterialNoMass",
@@ -1746,7 +2232,10 @@
     "roughness": "MediumSmooth",
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
-    "visible_absorptance": 0.7
+    "visible_absorptance": 0.7,
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Dry Sand": {
     "conductivity": 0.33,

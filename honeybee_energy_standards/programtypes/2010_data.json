@@ -58,6 +58,9 @@
       "identifier": "2010::College::Art Classroom_Setpoint",
       "heating_schedule": "College HTGSETP_SCH",
       "cooling_schedule": "College CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::College::Classroom": {
@@ -119,6 +122,9 @@
       "identifier": "2010::College::Classroom_Setpoint",
       "heating_schedule": "College HTGSETP_SCH",
       "cooling_schedule": "College CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::College::Conference": {
@@ -180,6 +186,9 @@
       "identifier": "2010::College::Conference_Setpoint",
       "heating_schedule": "College HTGSETP_SCH",
       "cooling_schedule": "College CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::College::Corridor": {
@@ -229,6 +238,9 @@
       "identifier": "2010::College::Corridor_Setpoint",
       "heating_schedule": "College HTGSETP_SCH",
       "cooling_schedule": "College CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::College::Elevator Shaft": {
@@ -263,6 +275,9 @@
       "type": "VentilationAbridged",
       "identifier": "2010::College::Elevator Shaft_Ventilation",
       "flow_per_area": 0.0006096
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::College::Entrance Lobby": {
@@ -324,6 +339,9 @@
       "identifier": "2010::College::Entrance Lobby_Setpoint",
       "heating_schedule": "College HTGSETP_SCH",
       "cooling_schedule": "College CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::College::Laboratory": {
@@ -385,6 +403,9 @@
       "identifier": "2010::College::Laboratory_Setpoint",
       "heating_schedule": "College HTGSETP_SCH",
       "cooling_schedule": "College CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::College::Lecture Hall": {
@@ -446,6 +467,9 @@
       "identifier": "2010::College::Lecture Hall_Setpoint",
       "heating_schedule": "College HTGSETP_SCH",
       "cooling_schedule": "College CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::College::Lounge": {
@@ -507,6 +531,9 @@
       "identifier": "2010::College::Lounge_Setpoint",
       "heating_schedule": "College HTGSETP_SCH",
       "cooling_schedule": "College CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::College::Media Center": {
@@ -568,6 +595,9 @@
       "identifier": "2010::College::Media Center_Setpoint",
       "heating_schedule": "College HTGSETP_SCH",
       "cooling_schedule": "College CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::College::Office": {
@@ -629,6 +659,9 @@
       "identifier": "2010::College::Office_Setpoint",
       "heating_schedule": "College HTGSETP_SCH",
       "cooling_schedule": "College CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::College::Restroom": {
@@ -678,6 +711,9 @@
       "identifier": "2010::College::Restroom_Setpoint",
       "heating_schedule": "College HTGSETP_SCH_SETBACK",
       "cooling_schedule": "College CLGSETP_SCH_SETUP"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::College::Stairs": {
@@ -718,6 +754,9 @@
       "identifier": "2010::College::Stairs_Setpoint",
       "heating_schedule": "College HTGSETP_SCH",
       "cooling_schedule": "College CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::College::Storage": {
@@ -758,6 +797,9 @@
       "identifier": "2010::College::Storage_Setpoint",
       "heating_schedule": "College HTGSETP_SCH",
       "cooling_schedule": "College CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::College::Utility": {
@@ -807,6 +849,9 @@
       "identifier": "2010::College::Utility_Setpoint",
       "heating_schedule": "College HTGSETP_SCH_SETBACK",
       "cooling_schedule": "College CLGSETP_SCH_SETUP"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Courthouse::Break Room": {
@@ -868,6 +913,9 @@
       "identifier": "2010::Courthouse::Break Room_Setpoint",
       "heating_schedule": "Courthouse HTGSETP",
       "cooling_schedule": "Courthouse CLGSETP"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Courthouse::Cell": {
@@ -920,6 +968,9 @@
       "identifier": "2010::Courthouse::Cell_Setpoint",
       "heating_schedule": "Courthouse HTGSETP",
       "cooling_schedule": "Courthouse CLGSETP"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Courthouse::Conference": {
@@ -972,6 +1023,9 @@
       "identifier": "2010::Courthouse::Conference_Setpoint",
       "heating_schedule": "Courthouse HTGSETP",
       "cooling_schedule": "Courthouse CLGSETP"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Courthouse::Corridor": {
@@ -1012,6 +1066,9 @@
       "identifier": "2010::Courthouse::Corridor_Setpoint",
       "heating_schedule": "Courthouse HTGSETP",
       "cooling_schedule": "Courthouse CLGSETP"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Courthouse::Courtroom": {
@@ -1064,6 +1121,9 @@
       "identifier": "2010::Courthouse::Courtroom_Setpoint",
       "heating_schedule": "Courthouse HTGSETP",
       "cooling_schedule": "Courthouse CLGSETP"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Courthouse::Courtroom Waiting": {
@@ -1116,6 +1176,9 @@
       "identifier": "2010::Courthouse::Courtroom Waiting_Setpoint",
       "heating_schedule": "Courthouse HTGSETP",
       "cooling_schedule": "Courthouse CLGSETP"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Courthouse::Elevator Lobby": {
@@ -1168,6 +1231,9 @@
       "identifier": "2010::Courthouse::Elevator Lobby_Setpoint",
       "heating_schedule": "Courthouse HTGSETP",
       "cooling_schedule": "Courthouse CLGSETP"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Courthouse::Elevator Shaft": {
@@ -1178,6 +1244,9 @@
       "identifier": "2010::Courthouse::Elevator Shaft_Infiltration",
       "flow_per_exterior_area": 0.00022656800000000002,
       "schedule": "Courthouse_INFIL_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Courthouse::Entrance Lobby": {
@@ -1230,6 +1299,9 @@
       "identifier": "2010::Courthouse::Entrance Lobby_Setpoint",
       "heating_schedule": "Courthouse HTGSETP",
       "cooling_schedule": "Courthouse CLGSETP"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Courthouse::Judges Chamber": {
@@ -1282,6 +1354,9 @@
       "identifier": "2010::Courthouse::Judges Chamber_Setpoint",
       "heating_schedule": "Courthouse HTGSETP",
       "cooling_schedule": "Courthouse CLGSETP"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Courthouse::Jury Assembly": {
@@ -1334,6 +1409,9 @@
       "identifier": "2010::Courthouse::Jury Assembly_Setpoint",
       "heating_schedule": "Courthouse HTGSETP",
       "cooling_schedule": "Courthouse CLGSETP"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Courthouse::Jury Deliberation": {
@@ -1386,6 +1464,9 @@
       "identifier": "2010::Courthouse::Jury Deliberation_Setpoint",
       "heating_schedule": "Courthouse HTGSETP",
       "cooling_schedule": "Courthouse CLGSETP"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Courthouse::Library": {
@@ -1438,6 +1519,9 @@
       "identifier": "2010::Courthouse::Library_Setpoint",
       "heating_schedule": "Courthouse HTGSETP",
       "cooling_schedule": "Courthouse CLGSETP"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Courthouse::Office": {
@@ -1490,6 +1574,9 @@
       "identifier": "2010::Courthouse::Office_Setpoint",
       "heating_schedule": "Courthouse HTGSETP",
       "cooling_schedule": "Courthouse CLGSETP"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Courthouse::Parking": {
@@ -1529,6 +1616,9 @@
       "identifier": "2010::Courthouse::Parking_Setpoint",
       "heating_schedule": "Courthouse HTGSETP",
       "cooling_schedule": "Courthouse CLGSETP"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Courthouse::Plenum": {
@@ -1539,6 +1629,9 @@
       "identifier": "2010::Courthouse::Plenum_Infiltration",
       "flow_per_exterior_area": 0.00022656800000000002,
       "schedule": "Courthouse_INFIL_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Courthouse::Restrooms": {
@@ -1588,6 +1681,9 @@
       "identifier": "2010::Courthouse::Restrooms_Setpoint",
       "heating_schedule": "Courthouse HTGSETP",
       "cooling_schedule": "Courthouse CLGSETP"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Courthouse::Security Screening": {
@@ -1640,6 +1736,9 @@
       "identifier": "2010::Courthouse::Security Screening_Setpoint",
       "heating_schedule": "Courthouse HTGSETP",
       "cooling_schedule": "Courthouse CLGSETP"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Courthouse::Service Shaft": {
@@ -1650,6 +1749,9 @@
       "identifier": "2010::Courthouse::Service Shaft_Infiltration",
       "flow_per_exterior_area": 0.00022656800000000002,
       "schedule": "Courthouse_INFIL_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Courthouse::Stairs": {
@@ -1690,6 +1792,9 @@
       "identifier": "2010::Courthouse::Stairs_Setpoint",
       "heating_schedule": "Courthouse HTGSETP",
       "cooling_schedule": "Courthouse CLGSETP"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Courthouse::Storage": {
@@ -1730,6 +1835,9 @@
       "identifier": "2010::Courthouse::Storage_Setpoint",
       "heating_schedule": "Courthouse HTGSETP",
       "cooling_schedule": "Courthouse CLGSETP"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Courthouse::Utility": {
@@ -1770,6 +1878,9 @@
       "identifier": "2010::Courthouse::Utility_Setpoint",
       "heating_schedule": "Courthouse HTGSETP",
       "cooling_schedule": "Courthouse CLGSETP"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::FullServiceRestaurant::Attic": {
@@ -1780,6 +1891,9 @@
       "identifier": "2010::FullServiceRestaurant::Attic_Infiltration",
       "flow_per_exterior_area": 0.0,
       "schedule": "Always On"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::FullServiceRestaurant::Dining": {
@@ -1832,6 +1946,9 @@
       "identifier": "2010::FullServiceRestaurant::Dining_Setpoint",
       "heating_schedule": "RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "RestaurantSitDown CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::FullServiceRestaurant::Kitchen": {
@@ -1902,6 +2019,9 @@
       "identifier": "2010::FullServiceRestaurant::Kitchen_Setpoint",
       "heating_schedule": "RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM",
       "cooling_schedule": "RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::HighriseApartment::Apartment": {
@@ -1962,6 +2082,9 @@
       "identifier": "2010::HighriseApartment::Apartment_Setpoint",
       "heating_schedule": "ApartmentHighRise HTGSETP_APT_SCH",
       "cooling_schedule": "ApartmentHighRise CLGSETP_APT_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::HighriseApartment::Corridor": {
@@ -1995,6 +2118,9 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2010::HighriseApartment::Corridor_Ventilation"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::HighriseApartment::Office": {
@@ -2046,6 +2172,9 @@
       "identifier": "2010::HighriseApartment::Office_Setpoint",
       "heating_schedule": "ApartmentHighRise HTGSETP_APT_SCH",
       "cooling_schedule": "ApartmentHighRise CLGSETP_APT_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Hospital::Basement": {
@@ -2097,6 +2226,9 @@
       "identifier": "2010::Hospital::Basement_Setpoint",
       "heating_schedule": "Hospital HTGSETP_SCH",
       "cooling_schedule": "Hospital CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Hospital::Corridor": {
@@ -2148,6 +2280,9 @@
       "identifier": "2010::Hospital::Corridor_Setpoint",
       "heating_schedule": "Hospital HTGSETP_SCH",
       "cooling_schedule": "Hospital CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Hospital::Dining": {
@@ -2200,6 +2335,9 @@
       "identifier": "2010::Hospital::Dining_Setpoint",
       "heating_schedule": "Hospital HTGSETP_SCH",
       "cooling_schedule": "Hospital CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Hospital::ER_Exam": {
@@ -2260,6 +2398,9 @@
       "identifier": "2010::Hospital::ER_Exam_Setpoint",
       "heating_schedule": "Hospital HTGSETP_SCH",
       "cooling_schedule": "Hospital CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Hospital::ER_NurseStn": {
@@ -2312,6 +2453,9 @@
       "identifier": "2010::Hospital::ER_NurseStn_Setpoint",
       "heating_schedule": "Hospital HTGSETP_SCH",
       "cooling_schedule": "Hospital CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Hospital::ER_Trauma": {
@@ -2372,6 +2516,9 @@
       "identifier": "2010::Hospital::ER_Trauma_Setpoint",
       "heating_schedule": "Hospital HTGSETP_SCH",
       "cooling_schedule": "Hospital CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Hospital::ER_Triage": {
@@ -2432,6 +2579,9 @@
       "identifier": "2010::Hospital::ER_Triage_Setpoint",
       "heating_schedule": "Hospital HTGSETP_SCH",
       "cooling_schedule": "Hospital CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Hospital::ICU_NurseStn": {
@@ -2484,6 +2634,9 @@
       "identifier": "2010::Hospital::ICU_NurseStn_Setpoint",
       "heating_schedule": "Hospital HTGSETP_SCH",
       "cooling_schedule": "Hospital CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Hospital::ICU_Open": {
@@ -2535,6 +2688,9 @@
       "identifier": "2010::Hospital::ICU_Open_Setpoint",
       "heating_schedule": "Hospital HTGSETP_SCH",
       "cooling_schedule": "Hospital CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Hospital::ICU_PatRm": {
@@ -2586,6 +2742,9 @@
       "identifier": "2010::Hospital::ICU_PatRm_Setpoint",
       "heating_schedule": "Hospital HTGSETP_SCH",
       "cooling_schedule": "Hospital CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Hospital::Kitchen": {
@@ -2656,6 +2815,9 @@
       "identifier": "2010::Hospital::Kitchen_Setpoint",
       "heating_schedule": "Hospital HTGSETP_SCH",
       "cooling_schedule": "Hospital CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Hospital::Lab": {
@@ -2717,6 +2879,9 @@
       "identifier": "2010::Hospital::Lab_Setpoint",
       "heating_schedule": "Hospital HTGSETP_SCH",
       "cooling_schedule": "Hospital CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Hospital::Lobby": {
@@ -2769,6 +2934,9 @@
       "identifier": "2010::Hospital::Lobby_Setpoint",
       "heating_schedule": "Hospital HTGSETP_SCH",
       "cooling_schedule": "Hospital CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Hospital::NurseStn": {
@@ -2821,6 +2989,9 @@
       "identifier": "2010::Hospital::NurseStn_Setpoint",
       "heating_schedule": "Hospital HTGSETP_SCH",
       "cooling_schedule": "Hospital CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Hospital::OR": {
@@ -2881,6 +3052,9 @@
       "identifier": "2010::Hospital::OR_Setpoint",
       "heating_schedule": "Hospital HTGSETP_SCH",
       "cooling_schedule": "Hospital CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Hospital::Office": {
@@ -2933,6 +3107,9 @@
       "identifier": "2010::Hospital::Office_Setpoint",
       "heating_schedule": "Hospital HTGSETP_SCH",
       "cooling_schedule": "Hospital CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Hospital::PatCorridor": {
@@ -2984,6 +3161,9 @@
       "identifier": "2010::Hospital::PatCorridor_Setpoint",
       "heating_schedule": "Hospital HTGSETP_SCH",
       "cooling_schedule": "Hospital CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Hospital::PatRoom": {
@@ -3044,6 +3224,9 @@
       "identifier": "2010::Hospital::PatRoom_Setpoint",
       "heating_schedule": "Hospital HTGSETP_SCH",
       "cooling_schedule": "Hospital CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Hospital::PhysTherapy": {
@@ -3104,6 +3287,9 @@
       "identifier": "2010::Hospital::PhysTherapy_Setpoint",
       "heating_schedule": "Hospital HTGSETP_SCH",
       "cooling_schedule": "Hospital CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Hospital::Radiology": {
@@ -3164,6 +3350,9 @@
       "identifier": "2010::Hospital::Radiology_Setpoint",
       "heating_schedule": "Hospital HTGSETP_SCH",
       "cooling_schedule": "Hospital CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Laboratory::Equipment corridor": {
@@ -3206,6 +3395,9 @@
       "identifier": "2010::Laboratory::Equipment corridor_Setpoint",
       "heating_schedule": "Lab_HTGSETP_SCH",
       "cooling_schedule": "Lab_CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Laboratory::Lab with fume hood": {
@@ -3268,6 +3460,9 @@
       "identifier": "2010::Laboratory::Lab with fume hood_Setpoint",
       "heating_schedule": "Lab_HTGSETP_SCH",
       "cooling_schedule": "Lab_CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Laboratory::Office": {
@@ -3329,6 +3524,9 @@
       "identifier": "2010::Laboratory::Office_Setpoint",
       "heating_schedule": "OfficeMedium HTGSETP_SCH_PACU_VAV_bot",
       "cooling_schedule": "OfficeMedium CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Laboratory::Open lab": {
@@ -3391,6 +3589,9 @@
       "identifier": "2010::Laboratory::Open lab_Setpoint",
       "heating_schedule": "Lab_HTGSETP_SCH",
       "cooling_schedule": "Lab_CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeDataCenterHighITE::StandaloneDataCenter": {
@@ -3426,6 +3627,9 @@
       "identifier": "2010::LargeDataCenterHighITE::StandaloneDataCenter_Setpoint",
       "heating_schedule": "DataCenter HTGSETP_SCH",
       "cooling_schedule": "DataCenter CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeDataCenterLowITE::StandaloneDataCenter": {
@@ -3461,6 +3665,9 @@
       "identifier": "2010::LargeDataCenterLowITE::StandaloneDataCenter_Setpoint",
       "heating_schedule": "DataCenter HTGSETP_SCH",
       "cooling_schedule": "DataCenter CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeHotel::Banquet": {
@@ -3513,6 +3720,9 @@
       "identifier": "2010::LargeHotel::Banquet_Setpoint",
       "heating_schedule": "HotelLarge HTGSETP_SCH",
       "cooling_schedule": "HotelLarge CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeHotel::Basement": {
@@ -3565,6 +3775,9 @@
       "identifier": "2010::LargeHotel::Basement_Setpoint",
       "heating_schedule": "HotelLarge HTGSETP_SCH",
       "cooling_schedule": "HotelLarge CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeHotel::Cafe": {
@@ -3617,6 +3830,9 @@
       "identifier": "2010::LargeHotel::Cafe_Setpoint",
       "heating_schedule": "HotelLarge HTGSETP_SCH",
       "cooling_schedule": "HotelLarge CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeHotel::Corridor": {
@@ -3657,6 +3873,9 @@
       "identifier": "2010::LargeHotel::Corridor_Setpoint",
       "heating_schedule": "HotelLarge HTGSETP_SCH",
       "cooling_schedule": "HotelLarge CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeHotel::GuestRoom": {
@@ -3718,6 +3937,9 @@
       "identifier": "2010::LargeHotel::GuestRoom_Setpoint",
       "heating_schedule": "HotelLarge Adva_OccGuestRoom_HtgSP_Sch",
       "cooling_schedule": "HotelLarge Adva_OccGuestRoom_ClgSP_Sch"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeHotel::GuestRoom2": {
@@ -3779,6 +4001,9 @@
       "identifier": "2010::LargeHotel::GuestRoom2_Setpoint",
       "heating_schedule": "HotelLarge Adva_OccGuestRoom_HtgSP_Sch",
       "cooling_schedule": "HotelLarge Adva_OccGuestRoom_ClgSP_Sch"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeHotel::GuestRoom3": {
@@ -3840,6 +4065,9 @@
       "identifier": "2010::LargeHotel::GuestRoom3_Setpoint",
       "heating_schedule": "HotelLarge Adva_OccGuestRoom_HtgSP_Sch",
       "cooling_schedule": "HotelLarge Adva_OccGuestRoom_ClgSP_Sch"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeHotel::GuestRoom4": {
@@ -3901,6 +4129,9 @@
       "identifier": "2010::LargeHotel::GuestRoom4_Setpoint",
       "heating_schedule": "HotelLarge Adva_OccGuestRoom_HtgSP_Sch",
       "cooling_schedule": "HotelLarge Adva_OccGuestRoom_ClgSP_Sch"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeHotel::GuestRoom5": {
@@ -3962,6 +4193,9 @@
       "identifier": "2010::LargeHotel::GuestRoom5_Setpoint",
       "heating_schedule": "HotelLarge Adva_OccGuestRoom_HtgSP_Sch",
       "cooling_schedule": "HotelLarge Adva_OccGuestRoom_ClgSP_Sch"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeHotel::GuestRoom6": {
@@ -4023,6 +4257,9 @@
       "identifier": "2010::LargeHotel::GuestRoom6_Setpoint",
       "heating_schedule": "HotelLarge Adva_OccGuestRoom_HtgSP_Sch",
       "cooling_schedule": "HotelLarge Adva_OccGuestRoom_ClgSP_Sch"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeHotel::GuestRoom7": {
@@ -4084,6 +4321,9 @@
       "identifier": "2010::LargeHotel::GuestRoom7_Setpoint",
       "heating_schedule": "HotelLarge Adva_OccGuestRoom_HtgSP_Sch",
       "cooling_schedule": "HotelLarge Adva_OccGuestRoom_ClgSP_Sch"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeHotel::GuestRoom8": {
@@ -4145,6 +4385,9 @@
       "identifier": "2010::LargeHotel::GuestRoom8_Setpoint",
       "heating_schedule": "HotelLarge VAC_OccGuestRoom_HtgSP_Sch",
       "cooling_schedule": "HotelLarge VAC_OccGuestRoom_ClgSP_Sch"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeHotel::Kitchen": {
@@ -4215,6 +4458,9 @@
       "identifier": "2010::LargeHotel::Kitchen_Setpoint",
       "heating_schedule": "HotelLarge HTGSETP_SCH",
       "cooling_schedule": "HotelLarge CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeHotel::Laundry": {
@@ -4285,6 +4531,9 @@
       "identifier": "2010::LargeHotel::Laundry_Setpoint",
       "heating_schedule": "HotelLarge HTGSETP_SCH",
       "cooling_schedule": "HotelLarge CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeHotel::Lobby": {
@@ -4337,6 +4586,9 @@
       "identifier": "2010::LargeHotel::Lobby_Setpoint",
       "heating_schedule": "HotelLarge HTGSETP_SCH",
       "cooling_schedule": "HotelLarge CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeHotel::Mechanical": {
@@ -4377,6 +4629,9 @@
       "identifier": "2010::LargeHotel::Mechanical_Setpoint",
       "heating_schedule": "HotelLarge HTGSETP_SCH",
       "cooling_schedule": "HotelLarge CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeHotel::Retail": {
@@ -4429,6 +4684,9 @@
       "identifier": "2010::LargeHotel::Retail_Setpoint",
       "heating_schedule": "HotelLarge HTGSETP_SCH",
       "cooling_schedule": "HotelLarge CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeHotel::Storage": {
@@ -4469,6 +4727,9 @@
       "identifier": "2010::LargeHotel::Storage_Setpoint",
       "heating_schedule": "HotelLarge HTGSETP_SCH",
       "cooling_schedule": "HotelLarge CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::Point_of_Sale": {
@@ -4521,6 +4782,9 @@
       "identifier": "2010::LargeOffice::Point_of_Sale_Setpoint",
       "heating_schedule": "RetailStandalone HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "RetailStandalone CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::MidriseApartment::Apartment": {
@@ -4581,6 +4845,9 @@
       "identifier": "2010::MidriseApartment::Apartment_Setpoint",
       "heating_schedule": "ApartmentMidRise HTGSETP_APT_SCH",
       "cooling_schedule": "ApartmentMidRise CLGSETP_APT_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::MidriseApartment::Corridor": {
@@ -4620,6 +4887,9 @@
       "identifier": "2010::MidriseApartment::Corridor_Setpoint",
       "heating_schedule": "ApartmentMidRise HTGSETP_APT_SCH",
       "cooling_schedule": "ApartmentMidRise CLGSETP_APT_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::MidriseApartment::Office": {
@@ -4671,6 +4941,9 @@
       "identifier": "2010::MidriseApartment::Office_Setpoint",
       "heating_schedule": "ApartmentMidRise HTGSETP_OFF_SCH_NO_OPTIMUM",
       "cooling_schedule": "ApartmentMidRise CLGSETP_OFF_SCH_No_Setback"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::Attic": {
@@ -4681,6 +4954,9 @@
       "identifier": "2010::LargeOffice::Attic_Infiltration",
       "flow_per_exterior_area": 0.0005689600000000001,
       "schedule": "OfficeLarge INFIL_SCH_PNNL"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::BreakRoom": {
@@ -4733,6 +5009,9 @@
       "identifier": "2010::LargeOffice::BreakRoom_Setpoint",
       "heating_schedule": "OfficeLarge HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::Classroom": {
@@ -4785,6 +5064,9 @@
       "identifier": "2010::LargeOffice::Classroom_Setpoint",
       "heating_schedule": "OfficeLarge HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::ClosedOffice": {
@@ -4837,6 +5119,9 @@
       "identifier": "2010::LargeOffice::ClosedOffice_Setpoint",
       "heating_schedule": "OfficeLarge HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::Conference": {
@@ -4889,6 +5174,9 @@
       "identifier": "2010::LargeOffice::Conference_Setpoint",
       "heating_schedule": "OfficeLarge HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::Corridor": {
@@ -4940,6 +5228,9 @@
       "identifier": "2010::LargeOffice::Corridor_Setpoint",
       "heating_schedule": "OfficeLarge HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::Dining": {
@@ -4992,6 +5283,9 @@
       "identifier": "2010::LargeOffice::Dining_Setpoint",
       "heating_schedule": "OfficeLarge HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::Elec/MechRoom": {
@@ -5032,6 +5326,9 @@
       "identifier": "2010::LargeOffice::Elec/MechRoom_Setpoint",
       "heating_schedule": "OfficeLarge HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::Elevator Lobby": {
@@ -5084,6 +5381,9 @@
       "identifier": "2010::LargeOffice::Elevator Lobby_Setpoint",
       "heating_schedule": "OfficeLarge HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::Elevator Machine Room": {
@@ -5100,11 +5400,17 @@
       "identifier": "2010::LargeOffice::Elevator Machine Room_Setpoint",
       "heating_schedule": "TallBuilding Elevator Machine Room HTGSETP_SCH",
       "cooling_schedule": "TallBuilding Elevator Machine Room CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::Elevator Shaft": {
     "type": "ProgramTypeAbridged",
-    "identifier": "2010::LargeOffice::Elevator Shaft"
+    "identifier": "2010::LargeOffice::Elevator Shaft",
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "2010::LargeOffice::IT_Room": {
     "type": "ProgramTypeAbridged",
@@ -5156,6 +5462,9 @@
       "identifier": "2010::LargeOffice::IT_Room_Setpoint",
       "heating_schedule": "OfficeLarge HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::Lobby": {
@@ -5208,6 +5517,9 @@
       "identifier": "2010::LargeOffice::Lobby_Setpoint",
       "heating_schedule": "OfficeLarge HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::Main Electrical": {
@@ -5248,6 +5560,9 @@
       "identifier": "2010::LargeOffice::Main Electrical_Setpoint",
       "heating_schedule": "OfficeLarge HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::Main Mechanical": {
@@ -5288,6 +5603,9 @@
       "identifier": "2010::LargeOffice::Main Mechanical_Setpoint",
       "heating_schedule": "OfficeLarge HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::MediumOffice::Breakroom": {
@@ -5340,6 +5658,9 @@
       "identifier": "2010::MediumOffice::Breakroom_Setpoint",
       "heating_schedule": "OfficeMedium HTGSETP_SCH_PACU_VAV_bot",
       "cooling_schedule": "OfficeMedium CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::MediumOffice::Classroom": {
@@ -5392,6 +5713,9 @@
       "identifier": "2010::MediumOffice::Classroom_Setpoint",
       "heating_schedule": "OfficeMedium HTGSETP_SCH_PACU_VAV_bot",
       "cooling_schedule": "OfficeMedium CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::MediumOffice::ClosedOffice": {
@@ -5444,6 +5768,9 @@
       "identifier": "2010::MediumOffice::ClosedOffice_Setpoint",
       "heating_schedule": "OfficeMedium HTGSETP_SCH_PACU_VAV_bot",
       "cooling_schedule": "OfficeMedium CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::MediumOffice::Conference": {
@@ -5496,6 +5823,9 @@
       "identifier": "2010::MediumOffice::Conference_Setpoint",
       "heating_schedule": "OfficeMedium HTGSETP_SCH_PACU_VAV_bot",
       "cooling_schedule": "OfficeMedium CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::MediumOffice::Corridor": {
@@ -5536,6 +5866,9 @@
       "identifier": "2010::MediumOffice::Corridor_Setpoint",
       "heating_schedule": "OfficeMedium HTGSETP_SCH_PACU_VAV_bot",
       "cooling_schedule": "OfficeMedium CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::MediumOffice::Dining": {
@@ -5588,6 +5921,9 @@
       "identifier": "2010::MediumOffice::Dining_Setpoint",
       "heating_schedule": "OfficeMedium HTGSETP_SCH_PACU_VAV_bot",
       "cooling_schedule": "OfficeMedium CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::MediumOffice::Elec/MechRoom": {
@@ -5637,6 +5973,9 @@
       "identifier": "2010::MediumOffice::Elec/MechRoom_Setpoint",
       "heating_schedule": "OfficeMedium HTGSETP_SCH_PACU_VAV_bot",
       "cooling_schedule": "OfficeMedium CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::MediumOffice::Lobby": {
@@ -5689,6 +6028,9 @@
       "identifier": "2010::MediumOffice::Lobby_Setpoint",
       "heating_schedule": "OfficeMedium HTGSETP_SCH_PACU_VAV_bot",
       "cooling_schedule": "OfficeMedium CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::MediumOffice::OpenOffice": {
@@ -5741,6 +6083,9 @@
       "identifier": "2010::MediumOffice::OpenOffice_Setpoint",
       "heating_schedule": "OfficeMedium HTGSETP_SCH_PACU_VAV_bot",
       "cooling_schedule": "OfficeMedium CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::MediumOffice::Restroom": {
@@ -5781,6 +6126,9 @@
       "identifier": "2010::MediumOffice::Restroom_Setpoint",
       "heating_schedule": "OfficeMedium HTGSETP_SCH_PACU_VAV_bot",
       "cooling_schedule": "OfficeMedium CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::MediumOffice::Stair": {
@@ -5821,6 +6169,9 @@
       "identifier": "2010::MediumOffice::Stair_Setpoint",
       "heating_schedule": "OfficeMedium HTGSETP_SCH_PACU_VAV_bot",
       "cooling_schedule": "OfficeMedium CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::MediumOffice::Storage": {
@@ -5861,6 +6212,9 @@
       "identifier": "2010::MediumOffice::Storage_Setpoint",
       "heating_schedule": "OfficeMedium HTGSETP_SCH_PACU_VAV_bot",
       "cooling_schedule": "OfficeMedium CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::OfficeLarge Data Center": {
@@ -5890,6 +6244,9 @@
       "identifier": "2010::LargeOffice::OfficeLarge Data Center_Setpoint",
       "heating_schedule": "OfficeLarge HTGSETP_DC_SCH",
       "cooling_schedule": "OfficeLarge CLGSETP_DC_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::OfficeLarge Main Data Center": {
@@ -5919,6 +6276,9 @@
       "identifier": "2010::LargeOffice::OfficeLarge Main Data Center_Setpoint",
       "heating_schedule": "OfficeLarge HTGSETP_DC_SCH",
       "cooling_schedule": "OfficeLarge CLGSETP_DC_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::OpenOffice": {
@@ -5971,6 +6331,9 @@
       "identifier": "2010::LargeOffice::OpenOffice_Setpoint",
       "heating_schedule": "OfficeLarge HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::PrintRoom": {
@@ -6022,6 +6385,9 @@
       "identifier": "2010::LargeOffice::PrintRoom_Setpoint",
       "heating_schedule": "OfficeLarge HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::Restroom": {
@@ -6082,6 +6448,9 @@
       "identifier": "2010::LargeOffice::Restroom_Setpoint",
       "heating_schedule": "OfficeLarge HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallOffice::Breakroom": {
@@ -6134,6 +6503,9 @@
       "identifier": "2010::SmallOffice::Breakroom_Setpoint",
       "heating_schedule": "OfficeSmall HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "OfficeSmall CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallOffice::Classroom": {
@@ -6186,6 +6558,9 @@
       "identifier": "2010::SmallOffice::Classroom_Setpoint",
       "heating_schedule": "OfficeSmall HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "OfficeSmall CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallOffice::ClosedOffice": {
@@ -6238,6 +6613,9 @@
       "identifier": "2010::SmallOffice::ClosedOffice_Setpoint",
       "heating_schedule": "OfficeSmall HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "OfficeSmall CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallOffice::Conference": {
@@ -6290,6 +6668,9 @@
       "identifier": "2010::SmallOffice::Conference_Setpoint",
       "heating_schedule": "OfficeSmall HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "OfficeSmall CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallOffice::Corridor": {
@@ -6330,6 +6711,9 @@
       "identifier": "2010::SmallOffice::Corridor_Setpoint",
       "heating_schedule": "OfficeSmall HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "OfficeSmall CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallOffice::Dining": {
@@ -6382,6 +6766,9 @@
       "identifier": "2010::SmallOffice::Dining_Setpoint",
       "heating_schedule": "OfficeSmall HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "OfficeSmall CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallOffice::Elec/MechRoom": {
@@ -6431,6 +6818,9 @@
       "identifier": "2010::SmallOffice::Elec/MechRoom_Setpoint",
       "heating_schedule": "OfficeSmall HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "OfficeSmall CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallOffice::Lobby": {
@@ -6483,6 +6873,9 @@
       "identifier": "2010::SmallOffice::Lobby_Setpoint",
       "heating_schedule": "OfficeSmall HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "OfficeSmall CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallOffice::OpenOffice": {
@@ -6535,6 +6928,9 @@
       "identifier": "2010::SmallOffice::OpenOffice_Setpoint",
       "heating_schedule": "OfficeSmall HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "OfficeSmall CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallOffice::Restroom": {
@@ -6575,6 +6971,9 @@
       "identifier": "2010::SmallOffice::Restroom_Setpoint",
       "heating_schedule": "OfficeSmall HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "OfficeSmall CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallOffice::Stair": {
@@ -6615,6 +7014,9 @@
       "identifier": "2010::SmallOffice::Stair_Setpoint",
       "heating_schedule": "OfficeSmall HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "OfficeSmall CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallOffice::Storage": {
@@ -6655,6 +7057,9 @@
       "identifier": "2010::SmallOffice::Storage_Setpoint",
       "heating_schedule": "OfficeSmall HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "OfficeSmall CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::Stair": {
@@ -6695,6 +7100,9 @@
       "identifier": "2010::LargeOffice::Stair_Setpoint",
       "heating_schedule": "OfficeLarge HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::Storage": {
@@ -6735,6 +7143,9 @@
       "identifier": "2010::LargeOffice::Storage_Setpoint",
       "heating_schedule": "OfficeLarge HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::LargeOffice::Vending": {
@@ -6786,6 +7197,9 @@
       "identifier": "2010::LargeOffice::Vending_Setpoint",
       "heating_schedule": "OfficeLarge HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OfficeLarge CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::Anesthesia": {
@@ -6846,6 +7260,9 @@
       "identifier": "2010::Outpatient::Anesthesia_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::BioHazard": {
@@ -6886,6 +7303,9 @@
       "identifier": "2010::Outpatient::BioHazard_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::Cafe": {
@@ -6938,6 +7358,9 @@
       "identifier": "2010::Outpatient::Cafe_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::CleanWork": {
@@ -6989,6 +7412,9 @@
       "identifier": "2010::Outpatient::CleanWork_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::Conference": {
@@ -7041,6 +7467,9 @@
       "identifier": "2010::Outpatient::Conference_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::DressingRoom": {
@@ -7093,6 +7522,9 @@
       "identifier": "2010::Outpatient::DressingRoom_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::Elec/MechRoom": {
@@ -7132,6 +7564,9 @@
       "identifier": "2010::Outpatient::Elec/MechRoom_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::ElevatorPumpRoom": {
@@ -7171,6 +7606,9 @@
       "identifier": "2010::Outpatient::ElevatorPumpRoom_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::Exam": {
@@ -7222,6 +7660,9 @@
       "identifier": "2010::Outpatient::Exam_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::Hall": {
@@ -7262,6 +7703,9 @@
       "identifier": "2010::Outpatient::Hall_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::IT_Room": {
@@ -7314,6 +7758,9 @@
       "identifier": "2010::Outpatient::IT_Room_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::Janitor": {
@@ -7354,6 +7801,9 @@
       "identifier": "2010::Outpatient::Janitor_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::Lobby": {
@@ -7406,6 +7856,9 @@
       "identifier": "2010::Outpatient::Lobby_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::LockerRoom": {
@@ -7458,6 +7911,9 @@
       "identifier": "2010::Outpatient::LockerRoom_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::Lounge": {
@@ -7510,6 +7966,9 @@
       "identifier": "2010::Outpatient::Lounge_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::MRI": {
@@ -7570,6 +8029,9 @@
       "identifier": "2010::Outpatient::MRI_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::MRI_Control": {
@@ -7630,6 +8092,9 @@
       "identifier": "2010::Outpatient::MRI_Control_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::MedGas": {
@@ -7670,6 +8135,9 @@
       "identifier": "2010::Outpatient::MedGas_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::NurseStation": {
@@ -7722,6 +8190,9 @@
       "identifier": "2010::Outpatient::NurseStation_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::OR": {
@@ -7792,6 +8263,9 @@
       "identifier": "2010::Outpatient::OR_Setpoint",
       "heating_schedule": "OutPatientHealthCare OR_HTGSETP_SCH",
       "cooling_schedule": "OutPatientHealthCare OR_CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::Office": {
@@ -7844,6 +8318,9 @@
       "identifier": "2010::Outpatient::Office_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::PACU": {
@@ -7905,6 +8382,9 @@
       "identifier": "2010::Outpatient::PACU_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::PhysicalTherapy": {
@@ -7965,6 +8445,9 @@
       "identifier": "2010::Outpatient::PhysicalTherapy_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::PreOp": {
@@ -8026,6 +8509,9 @@
       "identifier": "2010::Outpatient::PreOp_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::ProcedureRoom": {
@@ -8086,6 +8572,9 @@
       "identifier": "2010::Outpatient::ProcedureRoom_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::Reception": {
@@ -8138,6 +8627,9 @@
       "identifier": "2010::Outpatient::Reception_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::Soil Work": {
@@ -8189,6 +8681,9 @@
       "identifier": "2010::Outpatient::Soil Work_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::Stair": {
@@ -8229,6 +8724,9 @@
       "identifier": "2010::Outpatient::Stair_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::Toilet": {
@@ -8268,6 +8766,9 @@
       "identifier": "2010::Outpatient::Toilet_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::Undeveloped": {
@@ -8308,6 +8809,9 @@
       "identifier": "2010::Outpatient::Undeveloped_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Outpatient::Xray": {
@@ -8368,6 +8872,9 @@
       "identifier": "2010::Outpatient::Xray_Setpoint",
       "heating_schedule": "OutPatientHealthCare HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "OutPatientHealthCare CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::PrimarySchool::Cafeteria": {
@@ -8420,6 +8927,9 @@
       "identifier": "2010::PrimarySchool::Cafeteria_Setpoint",
       "heating_schedule": "SchoolPrimary HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "SchoolPrimary CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::PrimarySchool::Classroom": {
@@ -8472,6 +8982,9 @@
       "identifier": "2010::PrimarySchool::Classroom_Setpoint",
       "heating_schedule": "SchoolPrimary HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "SchoolPrimary CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::PrimarySchool::ComputerRoom": {
@@ -8524,6 +9037,9 @@
       "identifier": "2010::PrimarySchool::ComputerRoom_Setpoint",
       "heating_schedule": "SchoolPrimary HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "SchoolPrimary CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::PrimarySchool::Corridor": {
@@ -8564,6 +9080,9 @@
       "identifier": "2010::PrimarySchool::Corridor_Setpoint",
       "heating_schedule": "SchoolPrimary HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "SchoolPrimary CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::PrimarySchool::Gym": {
@@ -8615,6 +9134,9 @@
       "identifier": "2010::PrimarySchool::Gym_Setpoint",
       "heating_schedule": "SchoolPrimary HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "SchoolPrimary CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::PrimarySchool::Kitchen": {
@@ -8685,6 +9207,9 @@
       "identifier": "2010::PrimarySchool::Kitchen_Setpoint",
       "heating_schedule": "SchoolPrimary HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "SchoolPrimary CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::PrimarySchool::Library": {
@@ -8737,6 +9262,9 @@
       "identifier": "2010::PrimarySchool::Library_Setpoint",
       "heating_schedule": "SchoolPrimary HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "SchoolPrimary CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::PrimarySchool::Lobby": {
@@ -8777,6 +9305,9 @@
       "identifier": "2010::PrimarySchool::Lobby_Setpoint",
       "heating_schedule": "SchoolPrimary HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "SchoolPrimary CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::PrimarySchool::Mechanical": {
@@ -8817,6 +9348,9 @@
       "identifier": "2010::PrimarySchool::Mechanical_Setpoint",
       "heating_schedule": "SchoolPrimary HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "SchoolPrimary CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::PrimarySchool::Office": {
@@ -8869,6 +9403,9 @@
       "identifier": "2010::PrimarySchool::Office_Setpoint",
       "heating_schedule": "SchoolPrimary HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "SchoolPrimary CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::PrimarySchool::Restroom": {
@@ -8918,6 +9455,9 @@
       "identifier": "2010::PrimarySchool::Restroom_Setpoint",
       "heating_schedule": "SchoolPrimary HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "SchoolPrimary CLGSETP_SCH_NO_OPTIMUM"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::QuickServiceRestaurant::Attic": {
@@ -8928,6 +9468,9 @@
       "identifier": "2010::QuickServiceRestaurant::Attic_Infiltration",
       "flow_per_exterior_area": 0.0,
       "schedule": "Always On"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::QuickServiceRestaurant::Dining": {
@@ -8980,6 +9523,9 @@
       "identifier": "2010::QuickServiceRestaurant::Dining_Setpoint",
       "heating_schedule": "RestaurantFastFood HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "RestaurantFastFood CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::QuickServiceRestaurant::Kitchen": {
@@ -9050,6 +9596,9 @@
       "identifier": "2010::QuickServiceRestaurant::Kitchen_Setpoint",
       "heating_schedule": "RestaurantFastFood HTGSETP_KITCHEN_SCH_NO_OPTIMUM",
       "cooling_schedule": "RestaurantFastFood CLGSETP_KITCHEN_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Retail::Back_Space": {
@@ -9110,6 +9659,9 @@
       "identifier": "2010::Retail::Back_Space_Setpoint",
       "heating_schedule": "RetailStandalone HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "RetailStandalone CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Retail::Core_Retail": {
@@ -9162,6 +9714,9 @@
       "identifier": "2010::Retail::Core_Retail_Setpoint",
       "heating_schedule": "RetailStandalone HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "RetailStandalone CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Retail::Entry": {
@@ -9203,6 +9758,9 @@
       "identifier": "2010::Retail::Entry_Setpoint",
       "heating_schedule": "RetailStandalone HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "RetailStandalone FRONT_ENTRY_COOLING"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Retail::Front_Retail": {
@@ -9255,6 +9813,9 @@
       "identifier": "2010::Retail::Front_Retail_Setpoint",
       "heating_schedule": "RetailStandalone HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "RetailStandalone CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Retail::Point_of_Sale": {
@@ -9307,6 +9868,9 @@
       "identifier": "2010::Retail::Point_of_Sale_Setpoint",
       "heating_schedule": "RetailStandalone HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "RetailStandalone CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Retail::Retail": {
@@ -9359,6 +9923,9 @@
       "identifier": "2010::Retail::Retail_Setpoint",
       "heating_schedule": "RetailStandalone HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "RetailStandalone CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SecondarySchool::Auditorium": {
@@ -9411,6 +9978,9 @@
       "identifier": "2010::SecondarySchool::Auditorium_Setpoint",
       "heating_schedule": "SchoolSecondary HTGSETP_SCH_PSZ_AC",
       "cooling_schedule": "SchoolSecondary CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SecondarySchool::Cafeteria": {
@@ -9463,6 +10033,9 @@
       "identifier": "2010::SecondarySchool::Cafeteria_Setpoint",
       "heating_schedule": "SchoolSecondary HTGSETP_SCH_PSZ_AC",
       "cooling_schedule": "SchoolSecondary CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SecondarySchool::Classroom": {
@@ -9515,6 +10088,9 @@
       "identifier": "2010::SecondarySchool::Classroom_Setpoint",
       "heating_schedule": "SchoolSecondary HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "SchoolSecondary CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SecondarySchool::ComputerRoom": {
@@ -9567,6 +10143,9 @@
       "identifier": "2010::SecondarySchool::ComputerRoom_Setpoint",
       "heating_schedule": "SchoolSecondary HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "SchoolSecondary CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SecondarySchool::Corridor": {
@@ -9607,6 +10186,9 @@
       "identifier": "2010::SecondarySchool::Corridor_Setpoint",
       "heating_schedule": "SchoolSecondary HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "SchoolSecondary CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SecondarySchool::Gym": {
@@ -9667,6 +10249,9 @@
       "identifier": "2010::SecondarySchool::Gym_Setpoint",
       "heating_schedule": "SchoolSecondary HTGSETP_SCH_PSZ_AC",
       "cooling_schedule": "SchoolSecondary CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SecondarySchool::Kitchen": {
@@ -9737,6 +10322,9 @@
       "identifier": "2010::SecondarySchool::Kitchen_Setpoint",
       "heating_schedule": "SchoolSecondary HTGSETP_SCH_PSZ_AC",
       "cooling_schedule": "SchoolSecondary CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SecondarySchool::Library": {
@@ -9789,6 +10377,9 @@
       "identifier": "2010::SecondarySchool::Library_Setpoint",
       "heating_schedule": "SchoolSecondary HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "SchoolSecondary CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SecondarySchool::Lobby": {
@@ -9830,6 +10421,9 @@
       "identifier": "2010::SecondarySchool::Lobby_Setpoint",
       "heating_schedule": "SchoolSecondary HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "SchoolSecondary CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SecondarySchool::Mechanical": {
@@ -9870,6 +10464,9 @@
       "identifier": "2010::SecondarySchool::Mechanical_Setpoint",
       "heating_schedule": "SchoolSecondary HTGSETP_SCH_Setback",
       "cooling_schedule": "SchoolSecondary CLGSETP_SCH_Setback"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SecondarySchool::Office": {
@@ -9922,6 +10519,9 @@
       "identifier": "2010::SecondarySchool::Office_Setpoint",
       "heating_schedule": "SchoolSecondary HTGSETP_SCH_YES_OPTIMUM",
       "cooling_schedule": "SchoolSecondary CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SecondarySchool::Restroom": {
@@ -9971,6 +10571,9 @@
       "identifier": "2010::SecondarySchool::Restroom_Setpoint",
       "heating_schedule": "SchoolSecondary HTGSETP_SCH_Setback",
       "cooling_schedule": "SchoolSecondary CLGSETP_SCH_Setback"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallDataCenterHighITE::ComputerRoom": {
@@ -10006,6 +10609,9 @@
       "identifier": "2010::SmallDataCenterHighITE::ComputerRoom_Setpoint",
       "heating_schedule": "DataCenter HTGSETP_SCH",
       "cooling_schedule": "DataCenter CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallDataCenterLowITE::ComputerRoom": {
@@ -10041,6 +10647,9 @@
       "identifier": "2010::SmallDataCenterLowITE::ComputerRoom_Setpoint",
       "heating_schedule": "DataCenter HTGSETP_SCH",
       "cooling_schedule": "DataCenter CLGSETP_SCH"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallHotel::Corridor": {
@@ -10081,6 +10690,9 @@
       "identifier": "2010::SmallHotel::Corridor_Setpoint",
       "heating_schedule": "HotelSmall CommonArea_HtgSP_Sch",
       "cooling_schedule": "HotelSmall CommonArea_ClgSP_Sch"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallHotel::Elec/MechRoom": {
@@ -10115,6 +10727,9 @@
       "type": "VentilationAbridged",
       "identifier": "2010::SmallHotel::Elec/MechRoom_Ventilation",
       "flow_per_area": 0.0006096
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallHotel::ElevatorCore": {
@@ -10149,6 +10764,9 @@
       "type": "VentilationAbridged",
       "identifier": "2010::SmallHotel::ElevatorCore_Ventilation",
       "flow_per_area": 0.0006096
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallHotel::Exercise": {
@@ -10201,6 +10819,9 @@
       "identifier": "2010::SmallHotel::Exercise_Setpoint",
       "heating_schedule": "HotelSmall CommonArea_HtgSP_Sch",
       "cooling_schedule": "HotelSmall CommonArea_ClgSP_Sch"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallHotel::GuestLounge": {
@@ -10253,6 +10874,9 @@
       "identifier": "2010::SmallHotel::GuestLounge_Setpoint",
       "heating_schedule": "HotelSmall CommonArea_HtgSP_Sch",
       "cooling_schedule": "HotelSmall CommonArea_ClgSP_Sch"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallHotel::GuestRoomOcc": {
@@ -10314,6 +10938,9 @@
       "identifier": "2010::SmallHotel::GuestRoomOcc_Setpoint",
       "heating_schedule": "HotelSmall Adva_OccGuestRoom_HtgSP_Sch",
       "cooling_schedule": "HotelSmall Adva_OccGuestRoom_ClgSP_Sch"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallHotel::GuestRoomVac": {
@@ -10375,6 +11002,9 @@
       "identifier": "2010::SmallHotel::GuestRoomVac_Setpoint",
       "heating_schedule": "HotelSmall VacGuestRoom_HtgSP_Sch",
       "cooling_schedule": "HotelSmall VacGuestRoom_ClgSP_Sch"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallHotel::Laundry": {
@@ -10445,6 +11075,9 @@
       "identifier": "2010::SmallHotel::Laundry_Setpoint",
       "heating_schedule": "HotelSmall CommonArea_HtgSP_Sch",
       "cooling_schedule": "HotelSmall CommonArea_ClgSP_Sch"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallHotel::Mechanical": {
@@ -10485,6 +11118,9 @@
       "identifier": "2010::SmallHotel::Mechanical_Setpoint",
       "heating_schedule": "HotelSmall SemiHeated_HtgSP_Sch",
       "cooling_schedule": "SmallHotel UnitHeater ClgSP Sch"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallHotel::Meeting": {
@@ -10537,6 +11173,9 @@
       "identifier": "2010::SmallHotel::Meeting_Setpoint",
       "heating_schedule": "HotelSmall CommonArea_HtgSP_Sch",
       "cooling_schedule": "HotelSmall CommonArea_ClgSP_Sch"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallHotel::Office": {
@@ -10589,6 +11228,9 @@
       "identifier": "2010::SmallHotel::Office_Setpoint",
       "heating_schedule": "HotelSmall CommonArea_HtgSP_Sch",
       "cooling_schedule": "HotelSmall CommonArea_ClgSP_Sch"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallHotel::PublicRestroom": {
@@ -10640,6 +11282,9 @@
       "identifier": "2010::SmallHotel::PublicRestroom_Setpoint",
       "heating_schedule": "HotelSmall CommonArea_HtgSP_Sch",
       "cooling_schedule": "HotelSmall CommonArea_ClgSP_Sch"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallHotel::StaffLounge": {
@@ -10692,6 +11337,9 @@
       "identifier": "2010::SmallHotel::StaffLounge_Setpoint",
       "heating_schedule": "HotelSmall CommonArea_HtgSP_Sch",
       "cooling_schedule": "HotelSmall CommonArea_ClgSP_Sch"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallHotel::Stair": {
@@ -10732,6 +11380,9 @@
       "identifier": "2010::SmallHotel::Stair_Setpoint",
       "heating_schedule": "HotelSmall SemiHeated_HtgSP_Sch",
       "cooling_schedule": "SmallHotel UnitHeater ClgSP Sch"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SmallHotel::Storage": {
@@ -10772,6 +11423,9 @@
       "identifier": "2010::SmallHotel::Storage_Setpoint",
       "heating_schedule": "HotelSmall SemiHeated_HtgSP_Sch",
       "cooling_schedule": "SmallHotel UnitHeater ClgSP Sch"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::StripMall::Type 1": {
@@ -10832,6 +11486,9 @@
       "identifier": "2010::StripMall::Type 1_Setpoint",
       "heating_schedule": "RetailStripmall Type1_HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "RetailStripmall Type1_CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::StripMall::Type 2": {
@@ -10892,6 +11549,9 @@
       "identifier": "2010::StripMall::Type 2_Setpoint",
       "heating_schedule": "RetailStripmall Type2_HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "RetailStripmall Type2_CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::StripMall::Type 3": {
@@ -10952,6 +11612,9 @@
       "identifier": "2010::StripMall::Type 3_Setpoint",
       "heating_schedule": "RetailStripmall Type3_HTGSETP_SCH_NO_OPTIMUM",
       "cooling_schedule": "RetailStripmall Type3_CLGSETP_SCH_NO_SETBACK"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SuperMarket::Bakery": {
@@ -10990,7 +11653,7 @@
     "gas_equipment": {
       "type": "GasEquipmentAbridged",
       "identifier": "2010::SuperMarket::Bakery_Gas",
-      "watts_per_area": 26.940198599999995,
+      "watts_per_area": 26.908652699999998,
       "radiant_fraction": 0.2,
       "latent_fraction": 0.1,
       "lost_fraction": 0.7,
@@ -11022,6 +11685,9 @@
       "identifier": "2010::SuperMarket::Bakery_Setpoint",
       "heating_schedule": "SuperMarket HtgSetp",
       "cooling_schedule": "SuperMarket ClgSetp"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SuperMarket::Corridor": {
@@ -11073,6 +11739,9 @@
       "identifier": "2010::SuperMarket::Corridor_Setpoint",
       "heating_schedule": "SuperMarket HtgSetp",
       "cooling_schedule": "SuperMarket ClgSetp"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SuperMarket::Deli": {
@@ -11111,7 +11780,7 @@
     "gas_equipment": {
       "type": "GasEquipmentAbridged",
       "identifier": "2010::SuperMarket::Deli_Gas",
-      "watts_per_area": 26.877106799999996,
+      "watts_per_area": 26.908652699999998,
       "radiant_fraction": 0.2,
       "latent_fraction": 0.1,
       "lost_fraction": 0.7,
@@ -11143,6 +11812,9 @@
       "identifier": "2010::SuperMarket::Deli_Setpoint",
       "heating_schedule": "SuperMarket HtgSetp",
       "cooling_schedule": "SuperMarket ClgSetp"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SuperMarket::Dining": {
@@ -11195,6 +11867,9 @@
       "identifier": "2010::SuperMarket::Dining_Setpoint",
       "heating_schedule": "SuperMarket HtgSetp",
       "cooling_schedule": "SuperMarket ClgSetp"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SuperMarket::DryStorage": {
@@ -11246,6 +11921,9 @@
       "identifier": "2010::SuperMarket::DryStorage_Setpoint",
       "heating_schedule": "SuperMarket HtgSetp",
       "cooling_schedule": "SuperMarket ClgSetp"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SuperMarket::Elec/MechRoom": {
@@ -11281,6 +11959,9 @@
       "identifier": "2010::SuperMarket::Elec/MechRoom_Setpoint",
       "heating_schedule": "SuperMarket HtgSetp",
       "cooling_schedule": "SuperMarket ClgSetp"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SuperMarket::Meeting": {
@@ -11333,6 +12014,9 @@
       "identifier": "2010::SuperMarket::Meeting_Setpoint",
       "heating_schedule": "SuperMarket HtgSetp",
       "cooling_schedule": "SuperMarket ClgSetp"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SuperMarket::Office": {
@@ -11385,6 +12069,9 @@
       "identifier": "2010::SuperMarket::Office_Setpoint",
       "heating_schedule": "SuperMarket HtgSetp",
       "cooling_schedule": "SuperMarket ClgSetp"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SuperMarket::Produce": {
@@ -11437,6 +12124,9 @@
       "identifier": "2010::SuperMarket::Produce_Setpoint",
       "heating_schedule": "SuperMarket HtgSetp",
       "cooling_schedule": "SuperMarket ClgSetp"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SuperMarket::Restroom": {
@@ -11488,6 +12178,9 @@
       "identifier": "2010::SuperMarket::Restroom_Setpoint",
       "heating_schedule": "SuperMarket HtgSetp",
       "cooling_schedule": "SuperMarket ClgSetp"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SuperMarket::Sales": {
@@ -11540,6 +12233,9 @@
       "identifier": "2010::SuperMarket::Sales_Setpoint",
       "heating_schedule": "SuperMarket HtgSetp",
       "cooling_schedule": "SuperMarket ClgSetp"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::SuperMarket::Vestibule": {
@@ -11591,6 +12287,9 @@
       "identifier": "2010::SuperMarket::Vestibule_Setpoint",
       "heating_schedule": "SuperMarket Vestibule HtgSetp",
       "cooling_schedule": "SuperMarket Vestibule ClgSetp"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Warehouse::Bulk": {
@@ -11631,6 +12330,9 @@
       "identifier": "2010::Warehouse::Bulk_Setpoint",
       "heating_schedule": "Warehouse Bulk Storage Heating Setpoint Schedule",
       "cooling_schedule": "Warehouse ClgSetp BulkStorage"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Warehouse::Fine": {
@@ -11671,6 +12373,9 @@
       "identifier": "2010::Warehouse::Fine_Setpoint",
       "heating_schedule": "Warehouse Fine Storage Heating Setpoint Schedule",
       "cooling_schedule": "Warehouse Fine Storage Cooling Setpoint Schedule"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   },
   "2010::Warehouse::Office": {
@@ -11723,6 +12428,9 @@
       "identifier": "2010::Warehouse::Office_Setpoint",
       "heating_schedule": "Warehouse HtgSetp",
       "cooling_schedule": "Warehouse ClgSetp"
+    },
+    "user_data": {
+      "source": "US DOE"
     }
   }
 }

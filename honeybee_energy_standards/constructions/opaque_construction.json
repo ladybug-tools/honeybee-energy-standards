@@ -4,28 +4,40 @@
     "identifier": "Adiabatic ExteriorFloor",
     "materials": [
       "Adiabatic Material"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Adiabatic GroundContactFloor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Adiabatic GroundContactFloor",
     "materials": [
       "Adiabatic Material"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Adiabatic Roof": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Adiabatic Roof",
     "materials": [
       "Adiabatic Material"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Adiabatic Wall": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Adiabatic Wall",
     "materials": [
       "Adiabatic Material"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Attic Floor": {
     "type": "OpaqueConstructionAbridged",
@@ -34,14 +46,20 @@
       "1/2IN Gypsum",
       "Typical Insulation",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Attic Soffit": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Attic Soffit",
     "materials": [
       "5/8 in. Plywood"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Built Up Roof": {
     "type": "OpaqueConstructionAbridged",
@@ -50,7 +68,10 @@
       "Built-up Roofing",
       "Typical Insulation",
       "Metal Surface"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Built Up Roof - Highly Reflective": {
     "type": "OpaqueConstructionAbridged",
@@ -59,7 +80,10 @@
       "Built-up Roofing - Highly Reflective",
       "Typical Insulation",
       "Metal Surface"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Carpeted 4in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
@@ -67,7 +91,10 @@
     "materials": [
       "MAT-CC05 4 HW CONCRETE",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Carpeted 6in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
@@ -75,7 +102,10 @@
     "materials": [
       "6 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Carpeted 8in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
@@ -83,7 +113,10 @@
     "materials": [
       "8 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical IEAD Roof": {
     "type": "OpaqueConstructionAbridged",
@@ -92,7 +125,10 @@
       "Roof Membrane",
       "Typical Insulation",
       "Metal Roof Surface"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical IEAD Roof - Highly Reflective": {
     "type": "OpaqueConstructionAbridged",
@@ -101,7 +137,10 @@
       "Roof Membrane - Highly Reflective",
       "Typical Insulation",
       "Metal Roof Surface"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated 6in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
@@ -109,7 +148,10 @@
     "materials": [
       "Typical Insulation",
       "6 in. Normalweight Concrete Floor"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated 8in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
@@ -117,7 +159,10 @@
     "materials": [
       "Typical Insulation",
       "8 in. Normalweight Concrete Floor"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Basement Mass Wall": {
     "type": "OpaqueConstructionAbridged",
@@ -125,7 +170,10 @@
     "materials": [
       "Typical Insulation",
       "8 in. Concrete Block Basement Wall"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Carpeted 4in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
@@ -134,7 +182,10 @@
       "Typical Insulation",
       "MAT-CC05 4 HW CONCRETE",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Carpeted 6in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
@@ -143,7 +194,10 @@
       "Typical Insulation",
       "6 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Carpeted 8in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
@@ -152,7 +206,10 @@
       "Typical Insulation",
       "8 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Floor": {
     "type": "OpaqueConstructionAbridged",
@@ -161,7 +218,10 @@
       "Typical Insulation",
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Floor Ceiling": {
     "type": "OpaqueConstructionAbridged",
@@ -170,7 +230,10 @@
       "Typical Carpet Pad",
       "4 in. Normalweight Concrete Floor",
       "Typical Insulation"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Wall": {
     "type": "OpaqueConstructionAbridged",
@@ -180,7 +243,10 @@
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Interior Wall": {
     "type": "OpaqueConstructionAbridged",
@@ -191,7 +257,10 @@
       "Typical Insulation",
       "Steel Frame/Cavity",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Roof": {
     "type": "OpaqueConstructionAbridged",
@@ -199,7 +268,10 @@
     "materials": [
       "Metal Roof Surface",
       "Typical Insulation"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Roof - Highly Reflective": {
     "type": "OpaqueConstructionAbridged",
@@ -207,7 +279,10 @@
     "materials": [
       "Metal Roof Surface - Highly Reflective",
       "Typical Insulation"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Wall": {
     "type": "OpaqueConstructionAbridged",
@@ -216,7 +291,10 @@
       "Metal Siding",
       "Typical Insulation",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Door": {
     "type": "OpaqueConstructionAbridged",
@@ -224,7 +302,10 @@
     "materials": [
       "F08 Metal surface",
       "Typical Insulation"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Steel Framed Exterior Floor": {
     "type": "OpaqueConstructionAbridged",
@@ -235,7 +316,10 @@
       "Typical Insulation",
       "5/8 in. Gypsum Board",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Steel Framed Exterior Wall": {
     "type": "OpaqueConstructionAbridged",
@@ -245,7 +329,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Wood Framed Exterior Floor": {
     "type": "OpaqueConstructionAbridged",
@@ -256,7 +343,10 @@
       "Typical Insulation",
       "5/8 in. Gypsum Board",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Wood Framed Exterior Wall": {
     "type": "OpaqueConstructionAbridged",
@@ -266,7 +356,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Interior Ceiling": {
     "type": "OpaqueConstructionAbridged",
@@ -274,14 +367,20 @@
     "materials": [
       "CP02 CARPET PAD",
       "100mm Normalweight concrete floor"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Interior Door": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Interior Door",
     "materials": [
       "G05 25mm wood"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Interior Floor": {
     "type": "OpaqueConstructionAbridged",
@@ -289,14 +388,20 @@
     "materials": [
       "100mm Normalweight concrete floor",
       "CP02 CARPET PAD"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Interior Partition": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Interior Partition",
     "materials": [
       "G05 25mm wood"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Interior Slab Floor": {
     "type": "OpaqueConstructionAbridged",
@@ -304,7 +409,10 @@
     "materials": [
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Interior Wall": {
     "type": "OpaqueConstructionAbridged",
@@ -312,49 +420,70 @@
     "materials": [
       "G01 13mm gypsum board",
       "G01 13mm gypsum board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Overhead Door": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Overhead Door",
     "materials": [
       "Typical Insulation"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Uncarpeted 4in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uncarpeted 4in Slab Floor",
     "materials": [
       "MAT-CC05 4 HW CONCRETE"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Uncarpeted 6in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uncarpeted 6in Slab Floor",
     "materials": [
       "6 in. Normalweight Concrete Floor"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Uninsulated 6in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uninsulated 6in Slab Floor",
     "materials": [
       "6 in. Normalweight Concrete Floor"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Uninsulated 8in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uninsulated 8in Slab Floor",
     "materials": [
       "8 in. Normalweight Concrete Floor"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Uninsulated Basement Mass Wall": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uninsulated Basement Mass Wall",
     "materials": [
       "8 in. Concrete Block Basement Wall"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Uninsulated Carpeted 8in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
@@ -362,7 +491,10 @@
     "materials": [
       "8 in. Concrete Block Basement Wall",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Uninsulated Exterior Mass Wall": {
     "type": "OpaqueConstructionAbridged",
@@ -371,7 +503,10 @@
       "1IN Stucco",
       "8IN CONCRETE HW RefBldg",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Uninsulated Interior Wall": {
     "type": "OpaqueConstructionAbridged",
@@ -379,21 +514,30 @@
     "materials": [
       "1/2 in. Gypsum Board",
       "1/2 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Uninsulated Metal Building Roof": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uninsulated Metal Building Roof",
     "materials": [
       "Metal Roofing"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Uninsulated Metal Building Roof - Highly Reflective": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uninsulated Metal Building Roof - Highly Reflective",
     "materials": [
       "Metal Roofing - Highly Reflective"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Uninsulated Metal Building Wall": {
     "type": "OpaqueConstructionAbridged",
@@ -401,7 +545,10 @@
     "materials": [
       "Metal Siding",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Uninsulated Metal Roof Attic Roof": {
     "type": "OpaqueConstructionAbridged",
@@ -409,7 +556,10 @@
     "materials": [
       "Roof Membrane",
       "Metal Decking"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Uninsulated Steel Framed Exterior Wall": {
     "type": "OpaqueConstructionAbridged",
@@ -417,14 +567,20 @@
     "materials": [
       "Wood Siding",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Uninsulated Swinging Door": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Uninsulated Swinging Door",
     "materials": [
       "Typical Insulation"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Uninsulated Wood Joist Attic Roof": {
     "type": "OpaqueConstructionAbridged",
@@ -432,7 +588,10 @@
     "materials": [
       "Asphalt Shingles",
       "5/8 in. Plywood"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Unisulated Carpeted 6in Slab Floor": {
     "type": "OpaqueConstructionAbridged",
@@ -440,7 +599,10 @@
     "materials": [
       "6 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Wood Joist Attic Floor": {
     "type": "OpaqueConstructionAbridged",
@@ -448,7 +610,10 @@
     "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Wood Joist Attic Floor Ceiling": {
     "type": "OpaqueConstructionAbridged",
@@ -456,14 +621,20 @@
     "materials": [
       "Typical Insulation",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "ext-slab": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "ext-slab",
     "materials": [
       "6 in. Normalweight Concrete Floor"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "ext-slab-mass": {
     "type": "OpaqueConstructionAbridged",
@@ -471,14 +642,20 @@
     "materials": [
       "HW CONCRETE",
       "CP02 CARPET PAD"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "ext-slab-metal-building": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "ext-slab-metal-building",
     "materials": [
       "HW CONCRETE 8 in"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "ext-slab-steel-frame": {
     "type": "OpaqueConstructionAbridged",
@@ -486,7 +663,10 @@
     "materials": [
       "HW CONCRETE 8 in",
       "CP02 CARPET PAD"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Steel Framed Exterior Wall-R9": {
     "type": "OpaqueConstructionAbridged",
@@ -496,7 +676,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R7",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical IEAD Roof - Highly Reflective-R21": {
     "type": "OpaqueConstructionAbridged",
@@ -505,7 +688,10 @@
       "Roof Membrane - Highly Reflective",
       "Typical Insulation-R21",
       "Metal Roof Surface"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Steel Framed Exterior Floor-R3": {
     "type": "OpaqueConstructionAbridged",
@@ -516,7 +702,10 @@
       "Typical Insulation-R1",
       "5/8 in. Gypsum Board",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Door-R3": {
     "type": "OpaqueConstructionAbridged",
@@ -524,14 +713,20 @@
     "materials": [
       "F08 Metal surface",
       "Typical Insulation-R3"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Overhead Door-R4": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Overhead Door-R4",
     "materials": [
       "Typical Insulation-R4"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Wood Framed Exterior Wall-R12": {
     "type": "OpaqueConstructionAbridged",
@@ -541,7 +736,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R10",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Wood Joist Attic Floor-R38": {
     "type": "OpaqueConstructionAbridged",
@@ -549,7 +747,10 @@
     "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R37"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Wood Framed Exterior Floor-R4": {
     "type": "OpaqueConstructionAbridged",
@@ -560,7 +761,10 @@
       "Typical Insulation-R1",
       "5/8 in. Gypsum Board",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Wall-R2": {
     "type": "OpaqueConstructionAbridged",
@@ -570,7 +774,10 @@
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R1",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Floor-R4": {
     "type": "OpaqueConstructionAbridged",
@@ -579,7 +786,10 @@
       "Typical Insulation-R2",
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Wall-R11": {
     "type": "OpaqueConstructionAbridged",
@@ -588,7 +798,10 @@
       "Metal Siding",
       "Typical Insulation-R11",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Roof - Highly Reflective-R25": {
     "type": "OpaqueConstructionAbridged",
@@ -596,7 +809,10 @@
     "materials": [
       "Metal Roof Surface - Highly Reflective",
       "Typical Insulation-R25"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Steel Framed Exterior Wall-R12": {
     "type": "OpaqueConstructionAbridged",
@@ -606,7 +822,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R11",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical IEAD Roof - Highly Reflective-R26": {
     "type": "OpaqueConstructionAbridged",
@@ -615,7 +834,10 @@
       "Roof Membrane - Highly Reflective",
       "Typical Insulation-R26",
       "Metal Roof Surface"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Steel Framed Exterior Floor-R27": {
     "type": "OpaqueConstructionAbridged",
@@ -626,7 +848,10 @@
       "Typical Insulation-R24",
       "5/8 in. Gypsum Board",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Wood Framed Exterior Floor-R31": {
     "type": "OpaqueConstructionAbridged",
@@ -637,7 +862,10 @@
       "Typical Insulation-R28",
       "5/8 in. Gypsum Board",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Wall-R7": {
     "type": "OpaqueConstructionAbridged",
@@ -647,7 +875,10 @@
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R5",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Floor-R10": {
     "type": "OpaqueConstructionAbridged",
@@ -656,7 +887,10 @@
       "Typical Insulation-R8",
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Roof-R25": {
     "type": "OpaqueConstructionAbridged",
@@ -664,7 +898,10 @@
     "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R25"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Steel Framed Exterior Wall-R13": {
     "type": "OpaqueConstructionAbridged",
@@ -674,7 +911,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R12",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Wall-R9": {
     "type": "OpaqueConstructionAbridged",
@@ -684,7 +924,10 @@
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R7",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Floor-R14": {
     "type": "OpaqueConstructionAbridged",
@@ -693,7 +936,10 @@
       "Typical Insulation-R12",
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Steel Framed Exterior Wall-R16": {
     "type": "OpaqueConstructionAbridged",
@@ -703,7 +949,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R15",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Basement Mass Wall-R8": {
     "type": "OpaqueConstructionAbridged",
@@ -711,7 +960,10 @@
     "materials": [
       "Typical Insulation-R7",
       "8 in. Concrete Block Basement Wall"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical IEAD Roof-R32": {
     "type": "OpaqueConstructionAbridged",
@@ -720,7 +972,10 @@
       "Roof Membrane",
       "Typical Insulation-R31",
       "Metal Roof Surface"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Carpeted 8in Slab Floor-R5": {
     "type": "OpaqueConstructionAbridged",
@@ -729,7 +984,10 @@
       "Typical Insulation-R4",
       "8 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Wood Framed Exterior Wall-R16": {
     "type": "OpaqueConstructionAbridged",
@@ -739,7 +997,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R15",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Wood Joist Attic Floor-R48": {
     "type": "OpaqueConstructionAbridged",
@@ -747,7 +1008,10 @@
     "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R47"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Wall-R10": {
     "type": "OpaqueConstructionAbridged",
@@ -757,7 +1021,10 @@
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R8",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Floor-R18": {
     "type": "OpaqueConstructionAbridged",
@@ -766,7 +1033,10 @@
       "Typical Insulation-R16",
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Wall-R17": {
     "type": "OpaqueConstructionAbridged",
@@ -775,7 +1045,10 @@
       "Metal Siding",
       "Typical Insulation-R17",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Roof-R28": {
     "type": "OpaqueConstructionAbridged",
@@ -783,7 +1056,10 @@
     "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R27"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Steel Framed Exterior Wall-R19": {
     "type": "OpaqueConstructionAbridged",
@@ -793,7 +1069,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R17",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Wood Framed Exterior Wall-R20": {
     "type": "OpaqueConstructionAbridged",
@@ -803,7 +1082,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R19",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Wall-R12": {
     "type": "OpaqueConstructionAbridged",
@@ -813,7 +1095,10 @@
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R10",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Wall-R20": {
     "type": "OpaqueConstructionAbridged",
@@ -822,7 +1107,10 @@
       "Metal Siding",
       "Typical Insulation-R20",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Steel Framed Exterior Wall-R21": {
     "type": "OpaqueConstructionAbridged",
@@ -832,7 +1120,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R19",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Basement Mass Wall-R10": {
     "type": "OpaqueConstructionAbridged",
@@ -840,7 +1131,10 @@
     "materials": [
       "Typical Insulation-R9",
       "8 in. Concrete Block Basement Wall"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Steel Framed Exterior Floor-R32": {
     "type": "OpaqueConstructionAbridged",
@@ -851,7 +1145,10 @@
       "Typical Insulation-R29",
       "5/8 in. Gypsum Board",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Wood Framed Exterior Floor-R38": {
     "type": "OpaqueConstructionAbridged",
@@ -862,7 +1159,10 @@
       "Typical Insulation-R35",
       "5/8 in. Gypsum Board",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Wall-R13": {
     "type": "OpaqueConstructionAbridged",
@@ -872,7 +1172,10 @@
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R11",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Floor-R20": {
     "type": "OpaqueConstructionAbridged",
@@ -881,7 +1184,10 @@
       "Typical Insulation-R18",
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Roof-R33": {
     "type": "OpaqueConstructionAbridged",
@@ -889,7 +1195,10 @@
     "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R33"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Basement Mass Wall-R15": {
     "type": "OpaqueConstructionAbridged",
@@ -897,7 +1206,10 @@
     "materials": [
       "Typical Insulation-R14",
       "8 in. Concrete Block Basement Wall"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical IEAD Roof-R36": {
     "type": "OpaqueConstructionAbridged",
@@ -906,7 +1218,10 @@
       "Roof Membrane",
       "Typical Insulation-R36",
       "Metal Roof Surface"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Wood Joist Attic Floor-R59": {
     "type": "OpaqueConstructionAbridged",
@@ -914,7 +1229,10 @@
     "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R59"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Wall-R15": {
     "type": "OpaqueConstructionAbridged",
@@ -924,7 +1242,10 @@
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R13",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Floor-R24": {
     "type": "OpaqueConstructionAbridged",
@@ -933,7 +1254,10 @@
       "Typical Insulation-R23",
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Wall-R23": {
     "type": "OpaqueConstructionAbridged",
@@ -942,7 +1266,10 @@
       "Metal Siding",
       "Typical Insulation-R23",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Roof-R35": {
     "type": "OpaqueConstructionAbridged",
@@ -950,7 +1277,10 @@
     "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R35"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Steel Framed Exterior Wall-R28": {
     "type": "OpaqueConstructionAbridged",
@@ -960,7 +1290,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R26",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Carpeted 8in Slab Floor-R10": {
     "type": "OpaqueConstructionAbridged",
@@ -969,7 +1302,10 @@
       "Typical Insulation-R9",
       "8 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Wood Framed Exterior Wall-R32": {
     "type": "OpaqueConstructionAbridged",
@@ -979,7 +1315,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R30",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Wall-R21": {
     "type": "OpaqueConstructionAbridged",
@@ -989,7 +1328,10 @@
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R20",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Floor-R27": {
     "type": "OpaqueConstructionAbridged",
@@ -998,7 +1340,10 @@
       "Typical Insulation-R25",
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Wall-R26": {
     "type": "OpaqueConstructionAbridged",
@@ -1007,7 +1352,10 @@
       "Metal Siding",
       "Typical Insulation-R26",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Roof-R39": {
     "type": "OpaqueConstructionAbridged",
@@ -1015,7 +1363,10 @@
     "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R39"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Door-R2": {
     "type": "OpaqueConstructionAbridged",
@@ -1023,21 +1374,30 @@
     "materials": [
       "F08 Metal surface",
       "Typical Insulation-R2"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Overhead Door-R1": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Overhead Door-R1",
     "materials": [
       "Typical Insulation-R1"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Overhead Door-R2": {
     "type": "OpaqueConstructionAbridged",
     "identifier": "Typical Overhead Door-R2",
     "materials": [
       "Typical Insulation-R2"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical IEAD Roof - Highly Reflective-R16": {
     "type": "OpaqueConstructionAbridged",
@@ -1046,7 +1406,10 @@
       "Roof Membrane - Highly Reflective",
       "Typical Insulation-R16",
       "Metal Roof Surface"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Wood Joist Attic Floor-R30": {
     "type": "OpaqueConstructionAbridged",
@@ -1054,7 +1417,10 @@
     "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R29"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Roof - Highly Reflective-R16": {
     "type": "OpaqueConstructionAbridged",
@@ -1062,7 +1428,10 @@
     "materials": [
       "Metal Roof Surface - Highly Reflective",
       "Typical Insulation-R16"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Steel Framed Exterior Floor-R20": {
     "type": "OpaqueConstructionAbridged",
@@ -1073,7 +1442,10 @@
       "Typical Insulation-R17",
       "5/8 in. Gypsum Board",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Wood Framed Exterior Floor-R20": {
     "type": "OpaqueConstructionAbridged",
@@ -1084,7 +1456,10 @@
       "Typical Insulation-R17",
       "5/8 in. Gypsum Board",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Roof-R19": {
     "type": "OpaqueConstructionAbridged",
@@ -1092,7 +1467,10 @@
     "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R19"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Wall-R12": {
     "type": "OpaqueConstructionAbridged",
@@ -1101,7 +1479,10 @@
       "Metal Siding",
       "Typical Insulation-R12",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical IEAD Roof-R21": {
     "type": "OpaqueConstructionAbridged",
@@ -1110,7 +1491,10 @@
       "Roof Membrane",
       "Typical Insulation-R21",
       "Metal Roof Surface"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Floor-R12": {
     "type": "OpaqueConstructionAbridged",
@@ -1119,7 +1503,10 @@
       "Typical Insulation-R10",
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Wall-R15": {
     "type": "OpaqueConstructionAbridged",
@@ -1128,7 +1515,10 @@
       "Metal Siding",
       "Typical Insulation-R14",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Carpeted 6in Slab Floor-R5": {
     "type": "OpaqueConstructionAbridged",
@@ -1137,7 +1527,10 @@
       "Typical Insulation-R4",
       "6 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Floor-R16": {
     "type": "OpaqueConstructionAbridged",
@@ -1146,7 +1539,10 @@
       "Typical Insulation-R14",
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Roof-R21": {
     "type": "OpaqueConstructionAbridged",
@@ -1154,7 +1550,10 @@
     "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R21"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Wall-R18": {
     "type": "OpaqueConstructionAbridged",
@@ -1163,7 +1562,10 @@
       "Metal Siding",
       "Typical Insulation-R17",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Wood Framed Exterior Wall-R28": {
     "type": "OpaqueConstructionAbridged",
@@ -1173,7 +1575,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R27",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Roof-R29": {
     "type": "OpaqueConstructionAbridged",
@@ -1181,7 +1586,10 @@
     "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R29"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Wall-R9": {
     "type": "OpaqueConstructionAbridged",
@@ -1190,7 +1598,10 @@
       "Metal Siding",
       "Typical Insulation-R9",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Roof-R16": {
     "type": "OpaqueConstructionAbridged",
@@ -1198,7 +1609,10 @@
     "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R16"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical IEAD Roof-R16": {
     "type": "OpaqueConstructionAbridged",
@@ -1207,7 +1621,10 @@
       "Roof Membrane",
       "Typical Insulation-R16",
       "Metal Roof Surface"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Floor-R8": {
     "type": "OpaqueConstructionAbridged",
@@ -1216,7 +1633,10 @@
       "Typical Insulation-R6",
       "4 in. Normalweight Concrete Floor",
       "Typical Carpet Pad"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical IEAD Roof-R14": {
     "type": "OpaqueConstructionAbridged",
@@ -1225,7 +1645,10 @@
       "Roof Membrane",
       "Typical Insulation-R14",
       "Metal Roof Surface"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Wood Joist Attic Floor-R14": {
     "type": "OpaqueConstructionAbridged",
@@ -1233,7 +1656,10 @@
     "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R13"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Wall-R1": {
     "type": "OpaqueConstructionAbridged",
@@ -1242,7 +1668,10 @@
       "Metal Siding",
       "Typical Insulation-R1",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Roof-R10": {
     "type": "OpaqueConstructionAbridged",
@@ -1250,7 +1679,10 @@
     "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R10"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Steel Framed Exterior Wall-R7": {
     "type": "OpaqueConstructionAbridged",
@@ -1260,7 +1692,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R6",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Wood Framed Exterior Wall-R7": {
     "type": "OpaqueConstructionAbridged",
@@ -1270,7 +1705,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R6",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Wood Joist Attic Floor-R16": {
     "type": "OpaqueConstructionAbridged",
@@ -1278,7 +1716,10 @@
     "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R15"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Wall-R3": {
     "type": "OpaqueConstructionAbridged",
@@ -1288,7 +1729,10 @@
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R2",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Wall-R7": {
     "type": "OpaqueConstructionAbridged",
@@ -1297,7 +1741,10 @@
       "Metal Siding",
       "Typical Insulation-R7",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Steel Framed Exterior Wall-R8": {
     "type": "OpaqueConstructionAbridged",
@@ -1307,7 +1754,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R7",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Basement Mass Wall-R7": {
     "type": "OpaqueConstructionAbridged",
@@ -1315,7 +1765,10 @@
     "materials": [
       "Typical Insulation-R6",
       "8 in. Concrete Block Basement Wall"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Wood Framed Exterior Wall-R8": {
     "type": "OpaqueConstructionAbridged",
@@ -1325,7 +1778,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R7",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Wall-R4": {
     "type": "OpaqueConstructionAbridged",
@@ -1335,7 +1791,10 @@
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R2",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Wall-R8": {
     "type": "OpaqueConstructionAbridged",
@@ -1344,7 +1803,10 @@
       "Metal Siding",
       "Typical Insulation-R8",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical IEAD Roof-R18": {
     "type": "OpaqueConstructionAbridged",
@@ -1353,7 +1815,10 @@
       "Roof Membrane",
       "Typical Insulation-R17",
       "Metal Roof Surface"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Wood Joist Attic Floor-R18": {
     "type": "OpaqueConstructionAbridged",
@@ -1361,7 +1826,10 @@
     "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R17"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Roof-R12": {
     "type": "OpaqueConstructionAbridged",
@@ -1369,7 +1837,10 @@
     "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R12"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical IEAD Roof-R19": {
     "type": "OpaqueConstructionAbridged",
@@ -1378,7 +1849,10 @@
       "Roof Membrane",
       "Typical Insulation-R19",
       "Metal Roof Surface"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Wood Framed Exterior Wall-R13": {
     "type": "OpaqueConstructionAbridged",
@@ -1388,7 +1862,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R11",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Wood Joist Attic Floor-R19": {
     "type": "OpaqueConstructionAbridged",
@@ -1396,7 +1873,10 @@
     "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R19"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Wall-R13": {
     "type": "OpaqueConstructionAbridged",
@@ -1405,7 +1885,10 @@
       "Metal Siding",
       "Typical Insulation-R12",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Roof-R14": {
     "type": "OpaqueConstructionAbridged",
@@ -1413,7 +1896,10 @@
     "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R14"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Basement Mass Wall-R13": {
     "type": "OpaqueConstructionAbridged",
@@ -1421,7 +1907,10 @@
     "materials": [
       "Typical Insulation-R12",
       "8 in. Concrete Block Basement Wall"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical IEAD Roof-R23": {
     "type": "OpaqueConstructionAbridged",
@@ -1430,7 +1919,10 @@
       "Roof Membrane",
       "Typical Insulation-R22",
       "Metal Roof Surface"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Wood Joist Attic Floor-R23": {
     "type": "OpaqueConstructionAbridged",
@@ -1438,7 +1930,10 @@
     "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R22"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Wall-R16": {
     "type": "OpaqueConstructionAbridged",
@@ -1447,7 +1942,10 @@
       "Metal Siding",
       "Typical Insulation-R15",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Roof-R23": {
     "type": "OpaqueConstructionAbridged",
@@ -1455,7 +1953,10 @@
     "materials": [
       "Metal Roof Surface",
       "Typical Insulation-R23"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Steel Framed Exterior Wall-R18": {
     "type": "OpaqueConstructionAbridged",
@@ -1465,7 +1966,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R16",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical IEAD Roof-R25": {
     "type": "OpaqueConstructionAbridged",
@@ -1474,7 +1978,10 @@
       "Roof Membrane",
       "Typical Insulation-R25",
       "Metal Roof Surface"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Wood Framed Exterior Wall-R18": {
     "type": "OpaqueConstructionAbridged",
@@ -1484,7 +1991,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R16",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Wood Joist Attic Floor-R25": {
     "type": "OpaqueConstructionAbridged",
@@ -1492,7 +2002,10 @@
     "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R25"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Wall-R17": {
     "type": "OpaqueConstructionAbridged",
@@ -1502,7 +2015,10 @@
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R15",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Steel Framed Exterior Wall-R23": {
     "type": "OpaqueConstructionAbridged",
@@ -1512,7 +2028,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R21",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Basement Mass Wall-R16": {
     "type": "OpaqueConstructionAbridged",
@@ -1520,7 +2039,10 @@
     "materials": [
       "Typical Insulation-R15",
       "8 in. Concrete Block Basement Wall"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical IEAD Roof-R33": {
     "type": "OpaqueConstructionAbridged",
@@ -1529,7 +2051,10 @@
       "Roof Membrane",
       "Typical Insulation-R32",
       "Metal Roof Surface"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Wood Framed Exterior Wall-R23": {
     "type": "OpaqueConstructionAbridged",
@@ -1539,7 +2064,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R21",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Wood Joist Attic Floor-R33": {
     "type": "OpaqueConstructionAbridged",
@@ -1547,7 +2075,10 @@
     "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R32"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Wall-R22": {
     "type": "OpaqueConstructionAbridged",
@@ -1557,7 +2088,10 @@
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R20",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Steel Framed Exterior Wall-R5": {
     "type": "OpaqueConstructionAbridged",
@@ -1567,7 +2101,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R3",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical IEAD Roof-R10": {
     "type": "OpaqueConstructionAbridged",
@@ -1576,7 +2113,10 @@
       "Roof Membrane",
       "Typical Insulation-R10",
       "Metal Roof Surface"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Wood Framed Exterior Wall-R5": {
     "type": "OpaqueConstructionAbridged",
@@ -1586,7 +2126,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R3",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Wood Joist Attic Floor-R10": {
     "type": "OpaqueConstructionAbridged",
@@ -1594,7 +2137,10 @@
     "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R10"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Wall-R5": {
     "type": "OpaqueConstructionAbridged",
@@ -1604,7 +2150,10 @@
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R3",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Wall-R5": {
     "type": "OpaqueConstructionAbridged",
@@ -1613,7 +2162,10 @@
       "Metal Siding",
       "Typical Insulation-R4",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Steel Framed Exterior Wall-R6": {
     "type": "OpaqueConstructionAbridged",
@@ -1623,7 +2175,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R5",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical IEAD Roof-R12": {
     "type": "OpaqueConstructionAbridged",
@@ -1632,7 +2187,10 @@
       "Roof Membrane",
       "Typical Insulation-R12",
       "Metal Roof Surface"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Wood Framed Exterior Wall-R6": {
     "type": "OpaqueConstructionAbridged",
@@ -1642,7 +2200,10 @@
       "5/8 in. Gypsum Board",
       "Typical Insulation-R5",
       "5/8 in. Gypsum Board"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Wood Joist Attic Floor-R12": {
     "type": "OpaqueConstructionAbridged",
@@ -1650,7 +2211,10 @@
     "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R11"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Wall-R6": {
     "type": "OpaqueConstructionAbridged",
@@ -1660,7 +2224,10 @@
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R4",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Metal Building Wall-R6": {
     "type": "OpaqueConstructionAbridged",
@@ -1669,7 +2236,10 @@
       "Metal Siding",
       "Typical Insulation-R6",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical IEAD Roof-R17": {
     "type": "OpaqueConstructionAbridged",
@@ -1678,7 +2248,10 @@
       "Roof Membrane",
       "Typical Insulation-R17",
       "Metal Roof Surface"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Wood Joist Attic Floor-R17": {
     "type": "OpaqueConstructionAbridged",
@@ -1686,7 +2259,10 @@
     "materials": [
       "5/8 in. Gypsum Board",
       "Typical Insulation-R16"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Typical Insulated Exterior Mass Wall-R8": {
     "type": "OpaqueConstructionAbridged",
@@ -1696,7 +2272,10 @@
       "8IN CONCRETE HW RefBldg",
       "Typical Insulation-R6",
       "1/2IN Gypsum"
-    ]
+    ],
+    "user_data": {
+      "source": "US DOE"
+    }
   },
   "Dry Sand": {
     "type": "OpaqueConstructionAbridged",
