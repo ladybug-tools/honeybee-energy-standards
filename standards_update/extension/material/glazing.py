@@ -47,6 +47,7 @@ def from_standards_dict(cls, data):
     new_mat.dirt_correction = \
         data['dirt_correction_factor_for_solar_and_visible_transmittance']
     new_mat.solar_diffusing = solar_diff
+    new_mat.user_data = {'source': 'US DOE'}
     return new_mat
 
 
@@ -56,9 +57,9 @@ def simple_from_standards_dict(cls, data):
     Args:
         data: An OpenStudio standards dictionary of a simple glazing material in the
             format below.
-            
+
     .. code-block:: python
-    
+
         {
         "name": 'Fixed Window',
         "material_type": "SimpleGlazing",
@@ -71,4 +72,6 @@ def simple_from_standards_dict(cls, data):
         'Expected SimpleGlazing. Got {}.'.format(data['material_type'])
     u_factor = data['u_factor'] * 5.678  # convert from Btu/hr*ft2*F
     vt = data['visible_transmittance'] if 'visible_transmittance' in data else 0.6
-    return cls(data['name'], u_factor, data['solar_heat_gain_coefficient'], vt)
+    new_mat = cls(data['name'], u_factor, data['solar_heat_gain_coefficient'], vt)
+    new_mat.user_data = {'source': 'US DOE'}
+    return new_mat

@@ -20,4 +20,6 @@ def from_standards_dict(cls, data):
     assert data['material_type'] == 'Gas', \
         'Expected Gas. Got {}.'.format(data['material_type'])
     thickness = 0.0254 * data['thickness']  # convert from inches
-    return cls(data['name'], thickness, data['gas_type'])
+    material = cls(data['name'], thickness, data['gas_type'])
+    material.user_data = {'source': 'US DOE'}
+    return material

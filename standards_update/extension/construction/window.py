@@ -19,4 +19,6 @@ def from_standards_dict(cls, data):
     """
     materials = tuple(mat_lib.window_material_by_identifier(mat)
                       for mat in data['materials'])
-    return cls(data['name'], materials)
+    construction = cls(data['name'], materials)
+    construction.user_data = {'source': 'US DOE'}
+    return construction

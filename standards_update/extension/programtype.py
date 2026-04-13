@@ -187,5 +187,9 @@ def from_standards_dict(cls, data):
         setpoint = Setpoint(
             '{}_Setpoint'.format(pr_type_identifier), heat_sched, cool_sched)
 
-    return cls(data['space_type'], people, lighting, electric_equipment,
-               gas_equipment, hot_water, infiltration, ventilation, setpoint)
+    program = cls(
+        data['space_type'], people, lighting, electric_equipment,
+        gas_equipment, hot_water, infiltration, ventilation, setpoint
+    )
+    program.user_data = {'source': 'US DOE'}
+    return program

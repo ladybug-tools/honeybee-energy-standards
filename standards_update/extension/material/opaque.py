@@ -37,10 +37,14 @@ def from_standards_dict(cls, data):
         if key not in data or data[key] is None:
             data[key] = val
 
-    return cls(data['name'], thickness, conductivity,
-               density, specific_heat, data['roughness'],
-               data['thermal_absorptance'], data['solar_absorptance'],
-               data['visible_absorptance'])
+    new_mat = cls(
+        data['name'], thickness, conductivity,
+        density, specific_heat, data['roughness'],
+        data['thermal_absorptance'], data['solar_absorptance'],
+        data['visible_absorptance']
+    )
+    new_mat.user_data = {'source': 'US DOE'}
+    return new_mat
 
 
 def no_mass_from_standards_dict(cls, data):
@@ -71,6 +75,10 @@ def no_mass_from_standards_dict(cls, data):
         if key not in data or data[key] is None:
             data[key] = val
     r_value = data['resistance'] / 5.678263337  # convert from hr*ft2*F/Btu
-    return cls(data['name'], r_value, data['roughness'],
-               data['thermal_absorptance'], data['solar_absorptance'],
-               data['visible_absorptance'])
+    new_mat = cls(
+        data['name'], r_value, data['roughness'],
+        data['thermal_absorptance'], data['solar_absorptance'],
+        data['visible_absorptance']
+    )
+    new_mat.user_data = {'source': 'US DOE'}
+    return new_mat

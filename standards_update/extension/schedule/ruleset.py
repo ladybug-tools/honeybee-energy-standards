@@ -72,8 +72,10 @@ def from_standards_dict(cls, data):
                              'found in the standards gem dictionary.')
 
     # return the schedule
-    return cls(data[0]['name'], default_day, schedule_rules, schedule_type,
-               holiday, summer_day, winter_day)
+    schedule = cls(data[0]['name'], default_day, schedule_rules, schedule_type,
+                   holiday, summer_day, winter_day)
+    schedule.user_data = {'source': 'US DOE'}
+    return schedule
 
 
 def _process_date_string(date_string):

@@ -66,4 +66,5 @@ def from_standards_dict(cls, data):
     construction_set.door_set.exterior_glass_construction = \
         con_lib.window_construction_by_identifier(data['door_set']['exterior_glass_construction'])
 
+    construction_set.user_data = {'source': 'US DOE'}
     return construction_set
