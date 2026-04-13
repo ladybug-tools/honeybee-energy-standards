@@ -1,5 +1,5 @@
 honeybee-energy>=1.74.2
-pytest==8.3.2;python_version>='3.6'
+pytest==9.0.3;python_version>='3.6'
 twine==6.1.0;python_version>='3.6'
 wheel==0.45.1;python_version>='3.6'
 setuptools==80.9.0;python_version>='3.6'
