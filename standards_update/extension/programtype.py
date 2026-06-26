@@ -179,6 +179,15 @@ def from_standards_dict(cls, data):
             data['ventilation_air_changes'] is not None else 0
         ventilation = Ventilation(
             '{}_Ventilation'.format(pr_type_identifier), person, area, 0, ach)
+        if 'ventilation_primary_space_type' in data and \
+                data['ventilation_primary_space_type'] is not None:
+            ventilation.user_data = {
+                'primary_occupancy': data['ventilation_primary_space_type']
+            }
+            if 'ventilation_secondary_space_type' in data and \
+                    data['ventilation_secondary_space_type'] is not None:
+                ventilation.user_data['secondary_occupancy'] = \
+                    data['ventilation_secondary_space_type']
 
     if 'heating_setpoint_schedule' in data and \
             data['heating_setpoint_schedule'] is not None:

@@ -1841,7 +1841,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "ApartmentMidRise Activity Schedule_SmrDsn",
-        "values": [95.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -3652,7 +3652,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "College ACTIVITY_SCH_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -6455,7 +6455,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "Courthouse ACTIVITY_SCH_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -137300,7 +137300,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "FullServiceRestaurant Activity_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -137900,7 +137900,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "Hospital ACTIVITY_SCH_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -138026,7 +138026,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "Hospital Activity_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -146503,7 +146503,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "HotelLarge ACTIVITY_SCH_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -152541,7 +152541,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "HotelSmall Activity_Sch_SmrDsn",
-        "values": [132.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -156144,7 +156144,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "Large Office Activity_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -157768,7 +157768,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "LargeHotel Activity_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -162436,7 +162436,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "Medium Office Activity_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -163184,7 +163184,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "MidriseApartment Activity_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -164948,7 +164948,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "NECB-Activity_SmrDsn",
-        "values": [130.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -170164,7 +170164,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "Office Activity_SmrDsn",
-        "values": [132.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -170940,7 +170940,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "OfficeLarge ACTIVITY_SCH_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -174466,7 +174466,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "OfficeMedium ACTIVITY_SCH_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -179812,7 +179812,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "OfficeSmall ACTIVITY_SCH_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -182049,7 +182049,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "OutPatientHealthCare ACTIVITY_SCH_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -187549,7 +187549,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "Outpatient Activity_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -188210,7 +188210,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "PrimarySchool Activity_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -189913,7 +189913,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "QuickServiceRestaurant Activity_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -190491,7 +190491,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "RestaurantFastFood ACTIVITY_SCH_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -193141,7 +193141,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "RestaurantSitDown ACTIVITY_SCH_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -196202,7 +196202,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "Retail Activity_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -197625,7 +197625,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "RetailPeopleActivityLevel_SmrDsn",
-        "values": [131.9],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -197958,7 +197958,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "RetailStandalone ACTIVITY_SCH_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -201301,7 +201301,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "RetailStripmall ACTIVITY_SCH_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -204864,7 +204864,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "SchoolPrimary ACTIVITY_SCH_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -212335,7 +212335,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "SchoolSecondary ACTIVITY_SCH_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -220484,7 +220484,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "SecondarySchool Activity_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -222581,7 +222581,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "Small Office Activity_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -224173,7 +224173,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "SmallHotel Activity_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -225904,7 +225904,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "StripMall Activity_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -226596,7 +226596,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "SuperMarket Activity_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -227887,7 +227887,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "Warehouse Activity_SmrDsn",
-        "values": [120.0],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },
@@ -229607,7 +229607,7 @@
       {
         "type": "ScheduleDay",
         "identifier": "Warehouse Office Activity Schedule_SmrDsn",
-        "values": [131.85],
+        "values": [146.5],
         "times": [[0, 0]],
         "interpolate": false
       },

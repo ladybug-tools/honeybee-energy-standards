@@ -51,7 +51,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::College::Art Classroom_Ventilation",
       "flow_per_person": 0.00471947,
-      "flow_per_area": 0.0009144
+      "flow_per_area": 0.0009144,
+      "user_data": {
+        "primary_occupancy": "Education",
+        "secondary_occupancy": "Classroom"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -115,7 +119,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::College::Classroom_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Education",
+        "secondary_occupancy": "Classroom"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -179,7 +187,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::College::Conference_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Offices",
+        "secondary_occupancy": "Conference rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -231,7 +243,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::College::Corridor_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Public Spaces",
+        "secondary_occupancy": "Corridors and utilities"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -274,7 +290,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::College::Elevator Shaft_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Public Spaces",
+        "secondary_occupancy": "Elevators"
+      }
     },
     "user_data": {
       "source": "US DOE"
@@ -332,7 +352,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::College::Entrance Lobby_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Offices",
+        "secondary_occupancy": "Reception areas"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -396,7 +420,10 @@
       "type": "VentilationAbridged",
       "identifier": "2013::College::Laboratory_Ventilation",
       "flow_per_person": 0.00471947,
-      "flow_per_area": 0.0009144
+      "flow_per_area": 0.0009144,
+      "user_data": {
+        "primary_occupancy": "college/university-laboratories"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -460,7 +487,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::College::Lecture Hall_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Education",
+        "secondary_occupancy": "Classroom"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -524,7 +555,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::College::Lounge_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0009144
+      "flow_per_area": 0.0009144,
+      "user_data": {
+        "primary_occupancy": "Food and Beverage Service",
+        "secondary_occupancy": "Cafeteria, fast food"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -588,7 +623,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::College::Media Center_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Education",
+        "secondary_occupancy": "Libraries"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -652,7 +691,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::College::Office_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Offices",
+        "secondary_occupancy": "Office space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -704,7 +747,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::College::Restroom_Ventilation",
-      "flow_per_area": 0.0048768
+      "flow_per_area": 0.0048768,
+      "user_data": {
+        "primary_occupancy": "Public Spaces",
+        "secondary_occupancy": "Public restrooms (Assume 12 toilet/625 ft^2)"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -747,7 +794,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::College::Stairs_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Public Spaces",
+        "secondary_occupancy": "Corridors and utilities"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -790,7 +841,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::College::Storage_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Retail Stores, Sales Floors, and Show Room Floors",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -842,7 +897,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::College::Utility_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Public Spaces",
+        "secondary_occupancy": "Corridors and utilities"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -906,7 +965,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Courthouse::Break Room_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Reception Areas"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -961,7 +1024,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Courthouse::Cell_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Correctional Facilities",
+        "secondary_occupancy": "Cell"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -1016,7 +1083,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Courthouse::Conference_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Conference/meeting"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -1059,7 +1130,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Courthouse::Corridor_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -1114,7 +1189,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Courthouse::Courtroom_Ventilation",
       "flow_per_person": 0.00471947,
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Educational Facilities",
+        "secondary_occupancy": "Classrooms (age 9 plus)"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -1169,7 +1248,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Courthouse::Courtroom Waiting_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Main entry lobbies"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -1224,7 +1307,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Courthouse::Elevator Lobby_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Main entry lobbies"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -1292,7 +1379,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Courthouse::Entrance Lobby_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Main entry lobbies"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -1347,7 +1438,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Courthouse::Judges Chamber_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Office space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -1402,7 +1497,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Courthouse::Jury Assembly_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Hotels, Motels, Resorts, Dormitories",
+        "secondary_occupancy": "Multipurpose assembly"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -1457,7 +1556,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Courthouse::Jury Deliberation_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Conference/meeting"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -1512,7 +1615,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Courthouse::Library_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Public Assembly Spaces",
+        "secondary_occupancy": "Libraries"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -1567,7 +1674,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Courthouse::Office_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Office space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -1674,7 +1785,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Courthouse::Restrooms_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -1729,7 +1844,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Courthouse::Security Screening_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Main entry lobbies"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -1785,7 +1904,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Courthouse::Stairs_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -1828,7 +1951,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Courthouse::Storage_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -1871,7 +1998,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Courthouse::Utility_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -1933,7 +2064,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::FullServiceRestaurant::Dining_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0009144
+      "flow_per_area": 0.0009144,
+      "user_data": {
+        "primary_occupancy": "Food and Beverage Service",
+        "secondary_occupancy": "Restaurant dining rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -2006,7 +2141,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::FullServiceRestaurant::Kitchen_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0009144
+      "flow_per_area": 0.0009144,
+      "user_data": {
+        "primary_occupancy": "Food and Beverage Service",
+        "secondary_occupancy": "Cafeteria/fast food dining"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -2069,7 +2208,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::HighriseApartment::Apartment_Ventilation",
-      "air_changes_per_hour": 0.35
+      "air_changes_per_hour": 0.35,
+      "user_data": {
+        "primary_occupancy": "Hotels, Motels, Resorts, Dormitories",
+        "secondary_occupancy": "Apartment"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -2111,7 +2254,11 @@
     },
     "ventilation": {
       "type": "VentilationAbridged",
-      "identifier": "2013::HighriseApartment::Corridor_Ventilation"
+      "identifier": "2013::HighriseApartment::Corridor_Ventilation",
+      "user_data": {
+        "primary_occupancy": "Public Spaces",
+        "secondary_occupancy": "Public restrooms"
+      }
     },
     "user_data": {
       "source": "US DOE"
@@ -2159,7 +2306,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::HighriseApartment::Office_Ventilation",
-      "flow_per_area": 0.00043180000000000003
+      "flow_per_area": 0.00043180000000000003,
+      "user_data": {
+        "primary_occupancy": "Hotels, Motels, Resorts, Dormitories",
+        "secondary_occupancy": "Living rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -2213,7 +2364,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Hospital::Basement_Ventilation",
-      "flow_per_area": 0.0003682746
+      "flow_per_area": 0.0003682746,
+      "user_data": {
+        "primary_occupancy": "Basement",
+        "secondary_occupancy": "For Hospital"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -2267,7 +2422,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Hospital::Corridor_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -2322,7 +2481,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Hospital::Dining_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0009144
+      "flow_per_area": 0.0009144,
+      "user_data": {
+        "primary_occupancy": "Food and Beverage Service",
+        "secondary_occupancy": "Cafeteria/fast food dining"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -2385,7 +2548,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Hospital::ER_Exam_Ventilation",
-      "air_changes_per_hour": 2.0
+      "air_changes_per_hour": 2.0,
+      "user_data": {
+        "primary_occupancy": "Surgery and Critical Care",
+        "secondary_occupancy": "ER Waiting Room"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -2440,7 +2607,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Hospital::ER_NurseStn_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Office space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -2503,7 +2674,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Hospital::ER_Trauma_Ventilation",
-      "air_changes_per_hour": 2.0
+      "air_changes_per_hour": 2.0,
+      "user_data": {
+        "primary_occupancy": "Surgery and Critical Care",
+        "secondary_occupancy": "ER Waiting Room"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -2566,7 +2741,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Hospital::ER_Triage_Ventilation",
-      "air_changes_per_hour": 2.0
+      "air_changes_per_hour": 2.0,
+      "user_data": {
+        "primary_occupancy": "Surgery and Critical Care",
+        "secondary_occupancy": "ER Waiting Room"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -2621,7 +2800,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Hospital::HospitalOffice_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Office space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -2676,7 +2859,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Hospital::ICU_NurseStn_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Office space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -2730,7 +2917,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Hospital::ICU_Open_Ventilation",
-      "air_changes_per_hour": 2.0
+      "air_changes_per_hour": 2.0,
+      "user_data": {
+        "primary_occupancy": "Surgery and Critical Care",
+        "secondary_occupancy": "Newborn Intensive Care"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -2784,7 +2975,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Hospital::ICU_PatRm_Ventilation",
-      "air_changes_per_hour": 2.0
+      "air_changes_per_hour": 2.0,
+      "user_data": {
+        "primary_occupancy": "Surgery and Critical Care",
+        "secondary_occupancy": "Newborn Intensive Care"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -2857,7 +3052,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Hospital::Kitchen_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Food and Beverage Service",
+        "secondary_occupancy": "Kitchen (cooking)"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -2921,7 +3120,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Hospital::Lab_Ventilation",
       "flow_per_person": 0.00471947,
-      "flow_per_area": 0.0009144
+      "flow_per_area": 0.0009144,
+      "user_data": {
+        "primary_occupancy": "Educational Facilities",
+        "secondary_occupancy": "Science laboratories"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -2976,7 +3179,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Hospital::Lobby_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Main entry lobbies"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -3031,7 +3238,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Hospital::NurseStn_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Office space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -3094,7 +3305,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Hospital::OR_Ventilation",
-      "air_changes_per_hour": 3.0
+      "air_changes_per_hour": 3.0,
+      "user_data": {
+        "primary_occupancy": "Surgery and Critical Care",
+        "secondary_occupancy": "Operating/Surgical Cystoscopic Rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -3149,7 +3364,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Hospital::Office_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Office space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -3203,7 +3422,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Hospital::PatCorridor_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -3266,7 +3489,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Hospital::PatRoom_Ventilation",
-      "air_changes_per_hour": 2.0
+      "air_changes_per_hour": 2.0,
+      "user_data": {
+        "primary_occupancy": "Nursing",
+        "secondary_occupancy": "Patient Room"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -3329,7 +3556,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Hospital::PhysTherapy_Ventilation",
-      "flow_per_person": 0.007079205
+      "flow_per_person": 0.007079205,
+      "user_data": {
+        "primary_occupancy": "Hospitals, Nursing and Convalescent Homes",
+        "secondary_occupancy": "Physical therapy"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -3392,7 +3623,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Hospital::Radiology_Ventilation",
-      "flow_per_person": 0.007079205
+      "flow_per_person": 0.007079205,
+      "user_data": {
+        "primary_occupancy": "Hospitals, Nursing and Convalescent Homes",
+        "secondary_occupancy": "Medical procedure"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -3437,7 +3672,11 @@
       "identifier": "2013::Laboratory::Equipment corridor_Ventilation",
       "flow_per_person": 0.00471947,
       "flow_per_area": 0.00508,
-      "air_changes_per_hour": 6.0
+      "air_changes_per_hour": 6.0,
+      "user_data": {
+        "primary_occupancy": "Laboratory",
+        "secondary_occupancy": "Equipment corridor"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -3502,7 +3741,11 @@
       "identifier": "2013::Laboratory::Lab with fume hood_Ventilation",
       "flow_per_person": 0.00471947,
       "flow_per_area": 0.0009144,
-      "air_changes_per_hour": 15.0
+      "air_changes_per_hour": 15.0,
+      "user_data": {
+        "primary_occupancy": "Laboratory",
+        "secondary_occupancy": "Lab with fume hood"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -3566,7 +3809,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Laboratory::Office_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Office Space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -3631,7 +3878,11 @@
       "identifier": "2013::Laboratory::Open lab_Ventilation",
       "flow_per_person": 0.00471947,
       "flow_per_area": 0.00508,
-      "air_changes_per_hour": 6.0
+      "air_changes_per_hour": 6.0,
+      "user_data": {
+        "primary_occupancy": "Laboratory",
+        "secondary_occupancy": "Open lab"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -3669,7 +3920,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeDataCenterHighITE::StandaloneDataCenter_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Miscellaneous Spaces",
+        "secondary_occupancy": "Computer (not printing)"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -3707,7 +3962,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeDataCenterLowITE::StandaloneDataCenter_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Miscellaneous Spaces",
+        "secondary_occupancy": "Computer (not printing)"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -3762,7 +4021,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeHotel::Banquet_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Hotels, Motels, Resorts, Dormitories",
+        "secondary_occupancy": "Multipurpose assembly"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -3817,7 +4080,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeHotel::Basement_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Hotels, Motels, Resorts, Dormitories",
+        "secondary_occupancy": "Multipurpose assembly"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -3872,7 +4139,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeHotel::Cafe_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0009144
+      "flow_per_area": 0.0009144,
+      "user_data": {
+        "primary_occupancy": "Food and Beverage Service",
+        "secondary_occupancy": "Cafeteria/fast food dining"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -3915,7 +4186,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::LargeHotel::Corridor_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -3979,7 +4254,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeHotel::GuestRoom_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Hotels, Motels, Resorts, Dormitories",
+        "secondary_occupancy": "Bedroom/living Room"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -4043,7 +4322,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeHotel::GuestRoom2_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Hotels, Motels, Resorts, Dormitories",
+        "secondary_occupancy": "Bedroom/living Room"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -4107,7 +4390,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeHotel::GuestRoom3_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Hotels, Motels, Resorts, Dormitories",
+        "secondary_occupancy": "Bedroom/living Room"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -4171,7 +4458,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeHotel::GuestRoom4_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Hotels, Motels, Resorts, Dormitories",
+        "secondary_occupancy": "Bedroom/living Room"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -4235,7 +4526,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeHotel::GuestRoom5_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Hotels, Motels, Resorts, Dormitories",
+        "secondary_occupancy": "Bedroom/living Room"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -4299,7 +4594,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeHotel::GuestRoom6_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Hotels, Motels, Resorts, Dormitories",
+        "secondary_occupancy": "Bedroom/living Room"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -4363,7 +4662,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeHotel::GuestRoom7_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Hotels, Motels, Resorts, Dormitories",
+        "secondary_occupancy": "Bedroom/living Room"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -4427,7 +4730,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeHotel::GuestRoom8_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Hotels, Motels, Resorts, Dormitories",
+        "secondary_occupancy": "Bedroom/living Room"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -4500,7 +4807,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeHotel::Kitchen_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0009144
+      "flow_per_area": 0.0009144,
+      "user_data": {
+        "primary_occupancy": "Food and Beverage Service",
+        "secondary_occupancy": "Cafeteria/fast food dining"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -4573,7 +4884,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeHotel::Laundry_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Retail",
+        "secondary_occupancy": "Coinoperated laundries"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -4628,7 +4943,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeHotel::Lobby_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Hotels, Motels, Resorts, Dormitories",
+        "secondary_occupancy": "Lobbies/prefunction"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -4671,7 +4990,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::LargeHotel::Mechanical_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -4726,7 +5049,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeHotel::Retail_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Retail",
+        "secondary_occupancy": "General Sales"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -4769,7 +5096,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::LargeHotel::Storage_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -4849,7 +5180,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::MidriseApartment::Apartment_Ventilation",
-      "air_changes_per_hour": 0.35
+      "air_changes_per_hour": 0.35,
+      "user_data": {
+        "primary_occupancy": "Hotels, Motels, Resorts, Dormitories",
+        "secondary_occupancy": "Apartment"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -4891,7 +5226,11 @@
     },
     "ventilation": {
       "type": "VentilationAbridged",
-      "identifier": "2013::MidriseApartment::Corridor_Ventilation"
+      "identifier": "2013::MidriseApartment::Corridor_Ventilation",
+      "user_data": {
+        "primary_occupancy": "Public Spaces",
+        "secondary_occupancy": "Public restrooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -4945,7 +5284,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::MidriseApartment::Office_Ventilation",
-      "flow_per_area": 0.00043180000000000003
+      "flow_per_area": 0.00043180000000000003,
+      "user_data": {
+        "primary_occupancy": "Hotels, Motels, Resorts, Dormitories",
+        "secondary_occupancy": "Living rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -5013,7 +5356,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeOffice::BreakRoom_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Conference/meeting"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -5068,7 +5415,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeOffice::Classroom_Ventilation",
       "flow_per_person": 0.00471947,
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Educational Facilities",
+        "secondary_occupancy": "Classrooms (age 9 plus)"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -5123,7 +5474,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeOffice::ClosedOffice_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Office space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -5178,7 +5533,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeOffice::Conference_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Conference/meeting"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -5232,7 +5591,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::LargeOffice::Corridor_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -5287,7 +5650,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeOffice::Dining_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Reception areas"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -5330,7 +5697,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::LargeOffice::Elec/MechRoom_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -5385,7 +5756,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeOffice::Elevator Lobby_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Main entry lobbies"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -5466,7 +5841,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeOffice::IT_Room_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Telephone/data entry"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -5521,7 +5900,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeOffice::Lobby_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Main entry lobbies"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -5564,7 +5947,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::LargeOffice::Main Electrical_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -5607,7 +5994,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::LargeOffice::Main Mechanical_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -5662,7 +6053,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::MediumOffice::Breakroom_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Conference/meeting"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -5717,7 +6112,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::MediumOffice::Classroom_Ventilation",
       "flow_per_person": 0.00471947,
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Educational Facilities",
+        "secondary_occupancy": "Classrooms (age 9 plus)"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -5772,7 +6171,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::MediumOffice::ClosedOffice_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Office space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -5827,7 +6230,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::MediumOffice::Conference_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Conference/meeting"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -5870,7 +6277,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::MediumOffice::Corridor_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -5925,7 +6336,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::MediumOffice::Dining_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Reception areas"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -5977,7 +6392,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::MediumOffice::Elec/MechRoom_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -6032,7 +6451,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::MediumOffice::Lobby_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Main entry lobbies"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -6087,7 +6510,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::MediumOffice::OpenOffice_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Office space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -6130,7 +6557,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::MediumOffice::Restroom_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -6173,7 +6604,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::MediumOffice::Stair_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -6216,7 +6651,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::MediumOffice::Storage_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -6335,7 +6774,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::LargeOffice::OpenOffice_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Office space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -6389,7 +6832,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::LargeOffice::PrintRoom_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -6452,7 +6899,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::LargeOffice::Restroom_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -6507,7 +6958,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SmallOffice::Breakroom_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Conference/meeting"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -6562,7 +7017,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SmallOffice::Classroom_Ventilation",
       "flow_per_person": 0.00471947,
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Educational Facilities",
+        "secondary_occupancy": "Classrooms (age 9 plus)"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -6617,7 +7076,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SmallOffice::ClosedOffice_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Office space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -6672,7 +7135,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SmallOffice::Conference_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Conference/meeting"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -6715,7 +7182,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::SmallOffice::Corridor_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -6770,7 +7241,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SmallOffice::Dining_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Reception areas"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -6822,7 +7297,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::SmallOffice::Elec/MechRoom_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -6877,7 +7356,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SmallOffice::Lobby_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Main entry lobbies"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -6932,7 +7415,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SmallOffice::OpenOffice_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Office space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -6975,7 +7462,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::SmallOffice::Restroom_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -7018,7 +7509,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::SmallOffice::Stair_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -7061,7 +7556,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::SmallOffice::Storage_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -7104,7 +7603,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::LargeOffice::Stair_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -7147,7 +7650,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::LargeOffice::Storage_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -7201,7 +7708,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::LargeOffice::Vending_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -7264,7 +7775,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::Anesthesia_Ventilation",
-      "flow_per_area": 0.001524
+      "flow_per_area": 0.001524,
+      "user_data": {
+        "primary_occupancy": "Health Care",
+        "secondary_occupancy": "Treatment / Examination"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -7307,7 +7822,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::BioHazard_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -7362,7 +7881,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::Cafe_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0009144
+      "flow_per_area": 0.0009144,
+      "user_data": {
+        "primary_occupancy": "Food and Beverage Service",
+        "secondary_occupancy": "Cafeteria/fast food dining"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -7416,7 +7939,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::CleanWork_Ventilation",
-      "flow_per_area": 0.001524
+      "flow_per_area": 0.001524,
+      "user_data": {
+        "primary_occupancy": "Health Care",
+        "secondary_occupancy": "Clean Utility / Workroom"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -7471,7 +7998,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::Conference_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Conference/meeting"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -7526,7 +8057,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::DressingRoom_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Office space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -7568,7 +8103,11 @@
     },
     "ventilation": {
       "type": "VentilationAbridged",
-      "identifier": "2013::Outpatient::Elec/MechRoom_Ventilation"
+      "identifier": "2013::Outpatient::Elec/MechRoom_Ventilation",
+      "user_data": {
+        "primary_occupancy": "Public Spaces",
+        "secondary_occupancy": "Public restrooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -7610,7 +8149,11 @@
     },
     "ventilation": {
       "type": "VentilationAbridged",
-      "identifier": "2013::Outpatient::ElevatorPumpRoom_Ventilation"
+      "identifier": "2013::Outpatient::ElevatorPumpRoom_Ventilation",
+      "user_data": {
+        "primary_occupancy": "Public Spaces",
+        "secondary_occupancy": "Public restrooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -7664,7 +8207,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::Exam_Ventilation",
-      "flow_per_area": 0.001524
+      "flow_per_area": 0.001524,
+      "user_data": {
+        "primary_occupancy": "Health Care",
+        "secondary_occupancy": "Special Procedure Room, Diagnostic"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -7707,7 +8254,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::Hall_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -7762,7 +8313,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::IT_Room_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Telephone/data entry"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -7805,7 +8360,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::Janitor_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -7860,7 +8419,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::Lobby_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Main entry lobbies"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -7915,7 +8478,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::LockerRoom_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Main entry lobbies"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -7970,7 +8537,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::Lounge_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Main entry lobbies"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -8033,7 +8604,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::MRI_Ventilation",
-      "flow_per_area": 0.001524
+      "flow_per_area": 0.001524,
+      "user_data": {
+        "primary_occupancy": "Health Care",
+        "secondary_occupancy": "X-ray, Diagnostic and Treatment"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -8096,7 +8671,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::MRI_Control_Ventilation",
-      "flow_per_area": 0.001524
+      "flow_per_area": 0.001524,
+      "user_data": {
+        "primary_occupancy": "Health Care",
+        "secondary_occupancy": "X-ray, Diagnostic and Treatment"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -8139,7 +8718,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::MedGas_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -8194,7 +8777,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::NurseStation_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Office space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -8267,7 +8854,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::OR_Ventilation",
       "flow_per_person": 0.01415841,
-      "flow_per_area": 0.00254
+      "flow_per_area": 0.00254,
+      "user_data": {
+        "primary_occupancy": "Hospitals, Nursing and Convalescent Homes",
+        "secondary_occupancy": "Operating rooms outpatient"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -8322,7 +8913,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::Office_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Office space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -8386,7 +8981,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::PACU_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0027076400000000003
+      "flow_per_area": 0.0027076400000000003,
+      "user_data": {
+        "primary_occupancy": "Hospitals, Nursing and Convalescent Homes",
+        "secondary_occupancy": "PACU/Pre-Op Outpatient"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -8449,7 +9048,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::PhysicalTherapy_Ventilation",
-      "flow_per_person": 0.007079205
+      "flow_per_person": 0.007079205,
+      "user_data": {
+        "primary_occupancy": "Hospitals, Nursing and Convalescent Homes",
+        "secondary_occupancy": "Physical therapy"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -8513,7 +9116,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::PreOp_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0027076400000000003
+      "flow_per_area": 0.0027076400000000003,
+      "user_data": {
+        "primary_occupancy": "Hospitals, Nursing and Convalescent Homes",
+        "secondary_occupancy": "PACU/Pre-Op Outpatient"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -8576,7 +9183,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::ProcedureRoom_Ventilation",
-      "flow_per_area": 0.004064000000000001
+      "flow_per_area": 0.004064000000000001,
+      "user_data": {
+        "primary_occupancy": "Hospitals, Nursing and Convalescent Homes",
+        "secondary_occupancy": "Procedure Room Outpatient"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -8631,7 +9242,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::Reception_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Main entry lobbies"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -8685,7 +9300,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::Soil Work_Ventilation",
-      "flow_per_area": 0.001524
+      "flow_per_area": 0.001524,
+      "user_data": {
+        "primary_occupancy": "Health Care",
+        "secondary_occupancy": "Clean Linen Storage"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -8728,7 +9347,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::Stair_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -8770,7 +9393,11 @@
     },
     "ventilation": {
       "type": "VentilationAbridged",
-      "identifier": "2013::Outpatient::Toilet_Ventilation"
+      "identifier": "2013::Outpatient::Toilet_Ventilation",
+      "user_data": {
+        "primary_occupancy": "Public Spaces",
+        "secondary_occupancy": "Public restrooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -8813,7 +9440,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::Undeveloped_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -8876,7 +9507,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Outpatient::Xray_Ventilation",
-      "flow_per_area": 0.001524
+      "flow_per_area": 0.001524,
+      "user_data": {
+        "primary_occupancy": "Health Care",
+        "secondary_occupancy": "X-ray, Diagnostic and Treatment"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -8931,7 +9566,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::PrimarySchool::Cafeteria_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0009144
+      "flow_per_area": 0.0009144,
+      "user_data": {
+        "primary_occupancy": "Food and Beverage Service",
+        "secondary_occupancy": "Cafeteria/fast food dining"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -8986,7 +9625,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::PrimarySchool::Classroom_Ventilation",
       "flow_per_person": 0.00471947,
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Educational Facilities",
+        "secondary_occupancy": "Classrooms (ages 5-8)"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -9041,7 +9684,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::PrimarySchool::ComputerRoom_Ventilation",
       "flow_per_person": 0.00471947,
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Educational Facilities",
+        "secondary_occupancy": "Classrooms (ages 5-8)"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -9084,7 +9731,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::PrimarySchool::Corridor_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -9138,7 +9789,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::PrimarySchool::Gym_Ventilation",
-      "flow_per_area": 0.001524
+      "flow_per_area": 0.001524,
+      "user_data": {
+        "primary_occupancy": "Sports and Entertainment",
+        "secondary_occupancy": "Gym, stadium (play area)"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -9211,7 +9866,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::PrimarySchool::Kitchen_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0009144
+      "flow_per_area": 0.0009144,
+      "user_data": {
+        "primary_occupancy": "Food and Beverage Service",
+        "secondary_occupancy": "Cafeteria/fast food dining"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -9266,7 +9925,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::PrimarySchool::Library_Ventilation",
       "flow_per_person": 0.00471947,
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Educational Facilities",
+        "secondary_occupancy": "Media center"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -9309,7 +9972,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::PrimarySchool::Lobby_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -9352,7 +10019,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::PrimarySchool::Mechanical_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -9407,7 +10078,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::PrimarySchool::Office_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Office space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -9459,7 +10134,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::PrimarySchool::Restroom_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -9521,7 +10200,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::QuickServiceRestaurant::Dining_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0009144
+      "flow_per_area": 0.0009144,
+      "user_data": {
+        "primary_occupancy": "Food and Beverage Service",
+        "secondary_occupancy": "Cafeteria/fast food dining"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -9594,7 +10277,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::QuickServiceRestaurant::Kitchen_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0009144
+      "flow_per_area": 0.0009144,
+      "user_data": {
+        "primary_occupancy": "Food and Beverage Service",
+        "secondary_occupancy": "Cafeteria/fast food dining"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -9657,7 +10344,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Retail::Back_Space_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -9712,7 +10403,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Retail::Core_Retail_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Retail",
+        "secondary_occupancy": "General Sales"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -9756,7 +10451,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Retail::Entry_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Retail",
+        "secondary_occupancy": "General Sales"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -9811,7 +10510,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Retail::Front_Retail_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Retail",
+        "secondary_occupancy": "General Sales"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -9866,7 +10569,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Retail::Point_of_Sale_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Retail",
+        "secondary_occupancy": "General Sales"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -9921,7 +10628,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Retail::Retail_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Retail",
+        "secondary_occupancy": "General Sales"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -9976,7 +10687,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SecondarySchool::Auditorium_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Public Assembly Spaces",
+        "secondary_occupancy": "Auditorium seating area"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -10031,7 +10746,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SecondarySchool::Cafeteria_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0009144
+      "flow_per_area": 0.0009144,
+      "user_data": {
+        "primary_occupancy": "Food and Beverage Service",
+        "secondary_occupancy": "Cafeteria/fast food dining"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -10086,7 +10805,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SecondarySchool::Classroom_Ventilation",
       "flow_per_person": 0.00471947,
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Educational Facilities",
+        "secondary_occupancy": "Classrooms (age 9 plus)"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -10141,7 +10864,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SecondarySchool::ComputerRoom_Ventilation",
       "flow_per_person": 0.00471947,
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Educational Facilities",
+        "secondary_occupancy": "Classrooms (age 9 plus)"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -10184,7 +10911,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::SecondarySchool::Corridor_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -10247,7 +10978,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::SecondarySchool::Gym_Ventilation",
-      "flow_per_area": 0.001524
+      "flow_per_area": 0.001524,
+      "user_data": {
+        "primary_occupancy": "Sports and Entertainment",
+        "secondary_occupancy": "Gym, stadium (play area)"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -10320,7 +11055,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SecondarySchool::Kitchen_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0009144
+      "flow_per_area": 0.0009144,
+      "user_data": {
+        "primary_occupancy": "Food and Beverage Service",
+        "secondary_occupancy": "Cafeteria/fast food dining"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -10375,7 +11114,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SecondarySchool::Library_Ventilation",
       "flow_per_person": 0.00471947,
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "Educational Facilities",
+        "secondary_occupancy": "Media center"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -10419,7 +11162,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SecondarySchool::Lobby_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office",
+        "secondary_occupancy": "Buildings Main entry lobbies"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -10462,7 +11209,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::SecondarySchool::Mechanical_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -10517,7 +11268,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SecondarySchool::Office_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Office space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -10569,7 +11324,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::SecondarySchool::Restroom_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -10607,7 +11366,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SmallDataCenterHighITE::ComputerRoom_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Miscellaneous Spaces",
+        "secondary_occupancy": "Computer (not printing)"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -10645,7 +11408,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SmallDataCenterLowITE::ComputerRoom_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Miscellaneous Spaces",
+        "secondary_occupancy": "Computer (not printing)"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -10688,7 +11455,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::SmallHotel::Corridor_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -10731,7 +11502,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::SmallHotel::Elec/MechRoom_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "user_data": {
       "source": "US DOE"
@@ -10768,7 +11543,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::SmallHotel::ElevatorCore_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "user_data": {
       "source": "US DOE"
@@ -10817,7 +11596,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SmallHotel::Exercise_Ventilation",
       "flow_per_person": 0.00943894,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Sports and Entertainment",
+        "secondary_occupancy": "Health club/weight rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -10872,7 +11655,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SmallHotel::GuestLounge_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Hotels, Motels, Resorts, Dormitories",
+        "secondary_occupancy": "Lobbies/prefunction"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -10927,7 +11714,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SmallHotel::GuestRoom_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Main entry lobbies"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -10991,7 +11782,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SmallHotel::GuestRoomOcc_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Hotels, Motels, Resorts, Dormitories",
+        "secondary_occupancy": "Bedroom/living Room"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -11055,7 +11850,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SmallHotel::GuestRoomVac_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Hotels, Motels, Resorts, Dormitories",
+        "secondary_occupancy": "Bedroom/living Room"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -11128,7 +11927,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SmallHotel::Laundry_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Retail",
+        "secondary_occupancy": "Coinoperated laundries"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -11171,7 +11974,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::SmallHotel::Mechanical_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -11226,7 +12033,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SmallHotel::Meeting_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Conference/meeting"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -11281,7 +12092,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SmallHotel::Office_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Office space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -11335,7 +12150,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::SmallHotel::PublicRestroom_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -11390,7 +12209,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SmallHotel::StaffLounge_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Hotels, Motels, Resorts, Dormitories",
+        "secondary_occupancy": "Lobbies/prefunction"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -11433,7 +12256,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::SmallHotel::Stair_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -11476,7 +12303,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::SmallHotel::Storage_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -11539,7 +12370,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::StripMall::Type 0A_Ventilation",
-      "flow_per_area": 0.0011811
+      "flow_per_area": 0.0011811,
+      "user_data": {
+        "primary_occupancy": "Retail",
+        "secondary_occupancy": "General Sales combined by area"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -11602,7 +12437,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::StripMall::Type 0B_Ventilation",
-      "flow_per_area": 0.0011811
+      "flow_per_area": 0.0011811,
+      "user_data": {
+        "primary_occupancy": "Retail",
+        "secondary_occupancy": "General Sales combined by area"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -11665,7 +12504,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::StripMall::Type 1_Ventilation",
-      "flow_per_area": 0.0011811
+      "flow_per_area": 0.0011811,
+      "user_data": {
+        "primary_occupancy": "Retail",
+        "secondary_occupancy": "General Sales combined by area"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -11728,7 +12571,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::StripMall::Type 2_Ventilation",
-      "flow_per_area": 0.0011811
+      "flow_per_area": 0.0011811,
+      "user_data": {
+        "primary_occupancy": "Retail",
+        "secondary_occupancy": "General Sales combined by area"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -11791,7 +12638,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::StripMall::Type 3_Ventilation",
-      "flow_per_area": 0.0011811
+      "flow_per_area": 0.0011811,
+      "user_data": {
+        "primary_occupancy": "Retail",
+        "secondary_occupancy": "General Sales combined by area"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -11864,7 +12715,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SuperMarket::Bakery_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0009144
+      "flow_per_area": 0.0009144,
+      "user_data": {
+        "primary_occupancy": "Food and Beverage Service",
+        "secondary_occupancy": "Cafeteria/fast food dining"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -11918,7 +12773,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::SuperMarket::Corridor_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -11991,7 +12850,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SuperMarket::Deli_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0009144
+      "flow_per_area": 0.0009144,
+      "user_data": {
+        "primary_occupancy": "Food and Beverage Service",
+        "secondary_occupancy": "Cafeteria/fast food dining"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -12046,7 +12909,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SuperMarket::Dining_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0009144
+      "flow_per_area": 0.0009144,
+      "user_data": {
+        "primary_occupancy": "Food and Beverage Service",
+        "secondary_occupancy": "Cafeteria/fast food dining"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -12100,7 +12967,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::SuperMarket::DryStorage_Ventilation",
-      "flow_per_area": 0.0006096
+      "flow_per_area": 0.0006096,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Storage rooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -12193,7 +13064,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SuperMarket::Meeting_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Conference/meeting"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -12248,7 +13123,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SuperMarket::Office_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Office space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -12303,7 +13182,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SuperMarket::Produce_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Retail",
+        "secondary_occupancy": "Supermarket"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -12357,7 +13240,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::SuperMarket::Restroom_Ventilation",
-      "flow_per_area": 0.005283200000000001
+      "flow_per_area": 0.005283200000000001,
+      "user_data": {
+        "primary_occupancy": "Public Spaces",
+        "secondary_occupancy": "Public restrooms"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -12412,7 +13299,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::SuperMarket::Sales_Ventilation",
       "flow_per_person": 0.0035396025,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Retail",
+        "secondary_occupancy": "Supermarket"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -12466,7 +13357,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::SuperMarket::Vestibule_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "General",
+        "secondary_occupancy": "Corridors"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -12509,7 +13404,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Warehouse::Bulk_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Miscellaneous Spaces",
+        "secondary_occupancy": "Warehouses"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -12552,7 +13451,11 @@
     "ventilation": {
       "type": "VentilationAbridged",
       "identifier": "2013::Warehouse::Fine_Ventilation",
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Miscellaneous Spaces",
+        "secondary_occupancy": "Warehouses"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -12607,7 +13510,11 @@
       "type": "VentilationAbridged",
       "identifier": "2013::Warehouse::Office_Ventilation",
       "flow_per_person": 0.002359735,
-      "flow_per_area": 0.0003048
+      "flow_per_area": 0.0003048,
+      "user_data": {
+        "primary_occupancy": "Office Buildings",
+        "secondary_occupancy": "Office space"
+      }
     },
     "setpoint": {
       "type": "SetpointAbridged",

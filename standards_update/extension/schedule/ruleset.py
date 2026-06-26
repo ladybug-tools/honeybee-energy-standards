@@ -20,6 +20,7 @@ def from_standards_dict(cls, data):
         'Sat': [7], 'Hol': [8], 'Wknd': [1, 7], 'Wkdy': [2, 3, 4, 5, 6]}
 
     # empty variables to be replaced
+    sch_id = data[0]['name']
     default_day = None
     holiday = None
     summer_day = None
@@ -42,6 +43,9 @@ def from_standards_dict(cls, data):
             summer_day = schedule_day.duplicate()
             summer_day.identifier = '{}_SmrDsn'.format(schedule_day.identifier)
             day_types.remove('SmrDsn')
+            if 'ACTIVITY' in sch_id.upper() and 'DEER' not in sch_id:
+                if summer_day.values[0] < 146.5:  # align schedule with TRACE 700 default
+                    summer_day.values = [146.5] * len(summer_day.values)
         if 'WntrDsn' in day_sch_dict['day_types']:
             winter_day = schedule_day.duplicate()
             winter_day.identifier = '{}_WntrDsn'.format(schedule_day.identifier)
@@ -72,7 +76,7 @@ def from_standards_dict(cls, data):
                              'found in the standards gem dictionary.')
 
     # return the schedule
-    schedule = cls(data[0]['name'], default_day, schedule_rules, schedule_type,
+    schedule = cls(sch_id, default_day, schedule_rules, schedule_type,
                    holiday, summer_day, winter_day)
     schedule.user_data = {'source': 'US DOE'}
     return schedule
