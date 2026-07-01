@@ -21,7 +21,11 @@
       "radiant_fraction": 0.32,
       "visible_fraction": 0.25,
       "schedule": "College BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 7.6423689999999995
+      "baseline_watts_per_area": 7.6423689999999995,
+      "user_data": {
+        "primary_space_type": "Classroom/lecture/training",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -79,7 +83,11 @@
       "radiant_fraction": 0.32,
       "visible_fraction": 0.25,
       "schedule": "College BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 7.6423689999999995
+      "baseline_watts_per_area": 7.6423689999999995,
+      "user_data": {
+        "primary_space_type": "Classroom",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -137,7 +145,11 @@
       "radiant_fraction": 0.32,
       "visible_fraction": 0.25,
       "schedule": "College BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 10.440983
+      "baseline_watts_per_area": 10.440983,
+      "user_data": {
+        "primary_space_type": "Conference",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -184,7 +196,11 @@
       "radiant_fraction": 0.32,
       "visible_fraction": 0.25,
       "schedule": "College BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Corridor",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -231,7 +247,10 @@
       "radiant_fraction": 0.32,
       "visible_fraction": 0.25,
       "schedule": "College ELEV_LIGHT_FAN_SCH_24_7",
-      "baseline_watts_per_area": 0.0
+      "baseline_watts_per_area": 0.0,
+      "user_data": {
+        "primary_space_type": "ElevatorCore"
+      }
     },
     "service_hot_water": {
       "type": "ServiceHotWaterAbridged",
@@ -274,7 +293,11 @@
       "radiant_fraction": 0.32,
       "visible_fraction": 0.25,
       "schedule": "College BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 0.0
+      "baseline_watts_per_area": 0.0,
+      "user_data": {
+        "primary_space_type": "Lobby - elevator",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -332,7 +355,11 @@
       "radiant_fraction": 0.32,
       "visible_fraction": 0.25,
       "schedule": "College BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 14.315987
+      "baseline_watts_per_area": 14.315987,
+      "user_data": {
+        "primary_space_type": "Lab",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -390,7 +417,11 @@
       "radiant_fraction": 0.32,
       "visible_fraction": 0.25,
       "schedule": "College BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 6.565979
+      "baseline_watts_per_area": 6.565979,
+      "user_data": {
+        "primary_space_type": "Auditorium",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -448,7 +479,11 @@
       "radiant_fraction": 0.32,
       "visible_fraction": 0.25,
       "schedule": "College BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 6.350700999999999
+      "baseline_watts_per_area": 6.350700999999999,
+      "user_data": {
+        "primary_space_type": "Lounge",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -506,7 +541,11 @@
       "radiant_fraction": 0.32,
       "visible_fraction": 0.25,
       "schedule": "College BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 8.934037
+      "baseline_watts_per_area": 8.934037,
+      "user_data": {
+        "primary_space_type": "Auditorium",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -564,7 +603,11 @@
       "radiant_fraction": 0.32,
       "visible_fraction": 0.25,
       "schedule": "College BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 7.965286
+      "baseline_watts_per_area": 7.965286,
+      "user_data": {
+        "primary_space_type": "Office - enclosed",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -611,7 +654,11 @@
       "radiant_fraction": 0.32,
       "visible_fraction": 0.25,
       "schedule": "College BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 6.781257
+      "baseline_watts_per_area": 6.781257,
+      "user_data": {
+        "primary_space_type": "Restroom",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -658,7 +705,11 @@
       "radiant_fraction": 0.32,
       "visible_fraction": 0.25,
       "schedule": "College BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 5.274311
+      "baseline_watts_per_area": 5.274311,
+      "user_data": {
+        "primary_space_type": "Stair",
+        "secondary_space_type": "General"
+      }
     },
     "service_hot_water": {
       "type": "ServiceHotWaterAbridged",
@@ -696,7 +747,11 @@
       "radiant_fraction": 0.32,
       "visible_fraction": 0.25,
       "schedule": "College BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 4.090282
+      "baseline_watts_per_area": 4.090282,
+      "user_data": {
+        "primary_space_type": "Storage",
+        "secondary_space_type": "General"
+      }
     },
     "service_hot_water": {
       "type": "ServiceHotWaterAbridged",
@@ -734,7 +789,11 @@
       "radiant_fraction": 0.32,
       "visible_fraction": 0.25,
       "schedule": "College BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Electrical/Mechanical",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -792,7 +851,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Courthouse GENERAL_LIGHT_SCH",
-      "baseline_watts_per_area": 6.350700999999999
+      "baseline_watts_per_area": 6.350700999999999,
+      "user_data": {
+        "primary_space_type": "Lounge/Recreation",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -860,7 +923,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Courthouse GENERAL_LIGHT_SCH",
-      "baseline_watts_per_area": 7.534729999999999
+      "baseline_watts_per_area": 7.534729999999999,
+      "user_data": {
+        "primary_space_type": "Confinement Cells",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -919,7 +986,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Courthouse GENERAL_LIGHT_SCH",
-      "baseline_watts_per_area": 10.440983
+      "baseline_watts_per_area": 10.440983,
+      "user_data": {
+        "primary_space_type": "Conference/Meeting/Multipurpose",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -967,7 +1038,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Courthouse GENERAL_LIGHT_SCH",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Corridor",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1025,7 +1100,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Courthouse COURTROOM_LIGHT_SCH",
-      "baseline_watts_per_area": 12.91668
+      "baseline_watts_per_area": 12.91668,
+      "user_data": {
+        "primary_space_type": "Courtroom",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1084,7 +1163,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Courthouse COURTROOM_LIGHT_SCH",
-      "baseline_watts_per_area": 9.041675999999999
+      "baseline_watts_per_area": 9.041675999999999,
+      "user_data": {
+        "primary_space_type": "Lobby",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1143,7 +1226,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Courthouse GENERAL_LIGHT_SCH",
-      "baseline_watts_per_area": 6.996535
+      "baseline_watts_per_area": 6.996535,
+      "user_data": {
+        "primary_space_type": "Lobby",
+        "secondary_space_type": "For Elevator"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1215,7 +1302,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Courthouse GENERAL_LIGHT_SCH",
-      "baseline_watts_per_area": 9.041675999999999
+      "baseline_watts_per_area": 9.041675999999999,
+      "user_data": {
+        "primary_space_type": "Lobby",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1274,7 +1365,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Courthouse JUDGES_CHAMBER_LIGHT_SCH",
-      "baseline_watts_per_area": 8.503481
+      "baseline_watts_per_area": 8.503481,
+      "user_data": {
+        "primary_space_type": "Office-Enclosed",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1333,7 +1428,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Courthouse JURY_ASSEMBLY_LIGHT_SCH",
-      "baseline_watts_per_area": 7.6423689999999995
+      "baseline_watts_per_area": 7.6423689999999995,
+      "user_data": {
+        "primary_space_type": "Classroom/Lecture/Training",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1392,7 +1491,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Courthouse JURY_DELIBERATION_LIGHT_SCH",
-      "baseline_watts_per_area": 10.440983
+      "baseline_watts_per_area": 10.440983,
+      "user_data": {
+        "primary_space_type": "Conference/Meeting/Multipurpose",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1451,7 +1554,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Courthouse GENERAL_LIGHT_SCH",
-      "baseline_watts_per_area": 10.333343999999999
+      "baseline_watts_per_area": 10.333343999999999,
+      "user_data": {
+        "primary_space_type": "Library",
+        "secondary_space_type": "Reading Area"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1510,7 +1617,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Courthouse GENERAL_LIGHT_SCH",
-      "baseline_watts_per_area": 7.965286
+      "baseline_watts_per_area": 7.965286,
+      "user_data": {
+        "primary_space_type": "Office-Enclosed",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1558,7 +1669,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Courthouse GENERAL_LIGHT_SCH",
-      "baseline_watts_per_area": 1.614585
+      "baseline_watts_per_area": 1.614585,
+      "user_data": {
+        "primary_space_type": "Parking Garage",
+        "secondary_space_type": "Garage Area"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1613,7 +1728,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Courthouse GENERAL_LIGHT_SCH",
-      "baseline_watts_per_area": 6.781257
+      "baseline_watts_per_area": 6.781257,
+      "user_data": {
+        "primary_space_type": "Restrooms",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1680,7 +1799,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Courthouse GENERAL_LIGHT_SCH",
-      "baseline_watts_per_area": 9.041675999999999
+      "baseline_watts_per_area": 9.041675999999999,
+      "user_data": {
+        "primary_space_type": "Lobby",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1741,7 +1864,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Courthouse GENERAL_LIGHT_SCH",
-      "baseline_watts_per_area": 5.274311
+      "baseline_watts_per_area": 5.274311,
+      "user_data": {
+        "primary_space_type": "Stairway",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1788,7 +1915,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Courthouse GENERAL_LIGHT_SCH",
-      "baseline_watts_per_area": 4.090282
+      "baseline_watts_per_area": 4.090282,
+      "user_data": {
+        "primary_space_type": "Storage",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1835,7 +1966,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Courthouse GENERAL_LIGHT_SCH",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Electrical/Mechanical",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1900,7 +2035,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013",
-      "baseline_watts_per_area": 6.45834
+      "baseline_watts_per_area": 6.45834,
+      "user_data": {
+        "primary_space_type": "Dining Area",
+        "secondary_space_type": "For Family Dining"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -1959,7 +2098,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013",
-      "baseline_watts_per_area": 11.732651
+      "baseline_watts_per_area": 11.732651,
+      "user_data": {
+        "primary_space_type": "Food Preparation",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2036,7 +2179,11 @@
       "radiant_fraction": 0.6,
       "visible_fraction": 0.2,
       "schedule": "ApartmentHighRise LTG_APT_SCH",
-      "baseline_watts_per_area": 9.364593
+      "baseline_watts_per_area": 9.364593,
+      "user_data": {
+        "primary_space_type": "HighriseApartment",
+        "secondary_space_type": "Apartment"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2092,7 +2239,11 @@
       "radiant_fraction": 0.6,
       "visible_fraction": 0.2,
       "schedule": "ApartmentHighRise LTG_COR_SCH_2013",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Corridor - Note 2",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2143,7 +2294,11 @@
       "radiant_fraction": 0.6,
       "visible_fraction": 0.2,
       "schedule": "ApartmentHighRise LTG_OFF_SCH_2013",
-      "baseline_watts_per_area": 7.965286
+      "baseline_watts_per_area": 7.965286,
+      "user_data": {
+        "primary_space_type": "HighriseApartment",
+        "secondary_space_type": "Office"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2201,7 +2356,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_OFFICE_BSMT_SCH",
-      "baseline_watts_per_area": 6.888896
+      "baseline_watts_per_area": 6.888896,
+      "user_data": {
+        "primary_space_type": "Basement",
+        "secondary_space_type": "For Hospital"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2259,7 +2418,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_CORRIDOR_SCH",
-      "baseline_watts_per_area": 7.6423689999999995
+      "baseline_watts_per_area": 7.6423689999999995,
+      "user_data": {
+        "primary_space_type": "Corridor",
+        "secondary_space_type": "For Hospital"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2317,7 +2480,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Dining Area",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2376,7 +2543,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_EXTD_SCH",
-      "baseline_watts_per_area": 15.069459999999998
+      "baseline_watts_per_area": 15.069459999999998,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Exam/Treatment"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2443,7 +2614,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_NURSEFLR1_SCH",
-      "baseline_watts_per_area": 12.593763
+      "baseline_watts_per_area": 12.593763,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Nurse Station"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2502,7 +2677,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_EXTD_SCH",
-      "baseline_watts_per_area": 15.069459999999998
+      "baseline_watts_per_area": 15.069459999999998,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Operating Room"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2569,7 +2748,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_EXTD_SCH",
-      "baseline_watts_per_area": 15.069459999999998
+      "baseline_watts_per_area": 15.069459999999998,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Operating Room"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2636,7 +2819,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_OFFICE_SCH",
-      "baseline_watts_per_area": 6.888896
+      "baseline_watts_per_area": 6.888896,
+      "user_data": {
+        "primary_space_type": "Office",
+        "secondary_space_type": "For Hospital"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2695,7 +2882,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_EXTD_SCH",
-      "baseline_watts_per_area": 12.593763
+      "baseline_watts_per_area": 12.593763,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Nurse Station"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2754,7 +2945,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_EXTD_SCH",
-      "baseline_watts_per_area": 13.454875
+      "baseline_watts_per_area": 13.454875,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Recovery"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2812,7 +3007,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_EXTD_SCH",
-      "baseline_watts_per_area": 7.319452
+      "baseline_watts_per_area": 7.319452,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Patient Room"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2870,7 +3069,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 11.732651
+      "baseline_watts_per_area": 11.732651,
+      "user_data": {
+        "primary_space_type": "Food Preparation",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -2947,7 +3150,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 14.315987
+      "baseline_watts_per_area": 14.315987,
+      "user_data": {
+        "primary_space_type": "Laboratory",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3015,7 +3222,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_LOBBYFLR1_SCH",
-      "baseline_watts_per_area": 9.041675999999999
+      "baseline_watts_per_area": 9.041675999999999,
+      "user_data": {
+        "primary_space_type": "Lobby",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3074,7 +3285,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_NURSEFLR234_SCH",
-      "baseline_watts_per_area": 12.593763
+      "baseline_watts_per_area": 12.593763,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Nurse Station"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3133,7 +3348,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_EXTD_SCH",
-      "baseline_watts_per_area": 24.326413999999996
+      "baseline_watts_per_area": 24.326413999999996,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Operating Room"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3200,7 +3419,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_OFFICE_SCH",
-      "baseline_watts_per_area": 6.888896
+      "baseline_watts_per_area": 6.888896,
+      "user_data": {
+        "primary_space_type": "Office",
+        "secondary_space_type": "For Hospital"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3259,7 +3482,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_CORRIDOR_SCH",
-      "baseline_watts_per_area": 7.6423689999999995
+      "baseline_watts_per_area": 7.6423689999999995,
+      "user_data": {
+        "primary_space_type": "Corridor",
+        "secondary_space_type": "For Hospital"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3317,7 +3544,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 7.319452
+      "baseline_watts_per_area": 7.319452,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Patient Room"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3384,7 +3615,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 9.795149
+      "baseline_watts_per_area": 9.795149,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Physical Therapy"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3451,7 +3686,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_RADIOLOGY_SCH",
-      "baseline_watts_per_area": 10.118065999999999
+      "baseline_watts_per_area": 10.118065999999999,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Radiology/Imaging"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3507,7 +3746,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Lab_LIGHT_CORRIDOR_SCH",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Corridor",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3567,7 +3810,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Lab_LIGHT_SCH",
-      "baseline_watts_per_area": 14.315987
+      "baseline_watts_per_area": 14.315987,
+      "user_data": {
+        "primary_space_type": "Laboratory",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3636,7 +3883,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OfficeMedium BLDG_LIGHT_SCH_2004",
-      "baseline_watts_per_area": 6.565979
+      "baseline_watts_per_area": 6.565979,
+      "user_data": {
+        "primary_space_type": "Office-Open Plan",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3704,7 +3955,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Lab_LIGHT_SCH",
-      "baseline_watts_per_area": 14.315987
+      "baseline_watts_per_area": 14.315987,
+      "user_data": {
+        "primary_space_type": "Laboratory",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3762,7 +4017,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "DataCenter Lighting_SCH",
-      "baseline_watts_per_area": 6.888896
+      "baseline_watts_per_area": 6.888896,
+      "user_data": {
+        "primary_space_type": "OfficeLarge",
+        "secondary_space_type": "Data Center"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3804,7 +4063,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "DataCenter Lighting_SCH",
-      "baseline_watts_per_area": 6.888896
+      "baseline_watts_per_area": 6.888896,
+      "user_data": {
+        "primary_space_type": "OfficeLarge",
+        "secondary_space_type": "Data Center"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3857,7 +4120,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Dining Area",
+        "secondary_space_type": "For Hotel"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3916,7 +4183,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_OFFICE_BSMT_SCH_2013",
-      "baseline_watts_per_area": 6.888896
+      "baseline_watts_per_area": 6.888896,
+      "user_data": {
+        "primary_space_type": "Basement",
+        "secondary_space_type": "For Hotel"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -3975,7 +4246,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Dining Area",
+        "secondary_space_type": "For Hotel"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4023,7 +4298,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_CORRIDOR_SCH_2013",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Corridor",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4081,7 +4360,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_GUESTROOM_SCH_2013",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Guest Room",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4149,7 +4432,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_GUESTROOM_SCH_2013",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Guest Room",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4217,7 +4504,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_GUESTROOM_SCH_2013",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Guest Room",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4285,7 +4576,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_GUESTROOM_SCH_2013",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Guest Room",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4353,7 +4648,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_GUESTROOM_SCH_2013",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Guest Room",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4421,7 +4720,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_GUESTROOM_SCH_2013",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Guest Room",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4489,7 +4792,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_GUESTROOM_SCH_2013",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Guest Room",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4557,7 +4864,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_GUESTROOM_SCH_2013",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Guest Room",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4625,7 +4936,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 11.732651
+      "baseline_watts_per_area": 11.732651,
+      "user_data": {
+        "primary_space_type": "Food Preparation",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4702,7 +5017,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 5.704867
+      "baseline_watts_per_area": 5.704867,
+      "user_data": {
+        "primary_space_type": "Laundry/Washing Area",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4779,7 +5098,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 5.489589
+      "baseline_watts_per_area": 5.489589,
+      "user_data": {
+        "primary_space_type": "Lobby",
+        "secondary_space_type": "For Hotel"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4827,7 +5150,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_MECHANIC_SCH_2013",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Electrical/Mechanical",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4885,7 +5212,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 9.041675999999999
+      "baseline_watts_per_area": 9.041675999999999,
+      "user_data": {
+        "primary_space_type": "Retail",
+        "secondary_space_type": "Building Area"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4933,7 +5264,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelLarge BLDG_LIGHT_STORAGE_SCH_2013",
-      "baseline_watts_per_area": 4.090282
+      "baseline_watts_per_area": 4.090282,
+      "user_data": {
+        "primary_space_type": "Storage",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -4991,7 +5326,11 @@
       "radiant_fraction": 0.6,
       "visible_fraction": 0.2,
       "schedule": "ApartmentMidRise LTG_APT_SCH",
-      "baseline_watts_per_area": 9.364593
+      "baseline_watts_per_area": 9.364593,
+      "user_data": {
+        "primary_space_type": "MidriseApartment",
+        "secondary_space_type": "Apartment"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5047,7 +5386,11 @@
       "radiant_fraction": 0.6,
       "visible_fraction": 0.2,
       "schedule": "ApartmentMidRise LTG_COR_SCH_2013",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Corridor - Note 2",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5104,7 +5447,11 @@
       "radiant_fraction": 0.6,
       "visible_fraction": 0.2,
       "schedule": "ApartmentMidRise LTG_OFF_SCH_2013",
-      "baseline_watts_per_area": 7.965286
+      "baseline_watts_per_area": 7.965286,
+      "user_data": {
+        "primary_space_type": "MidriseApartment",
+        "secondary_space_type": "Office"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5175,7 +5522,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 6.350700999999999
+      "baseline_watts_per_area": 6.350700999999999,
+      "user_data": {
+        "primary_space_type": "Lounge/Recreation",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5234,7 +5585,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 7.6423689999999995
+      "baseline_watts_per_area": 7.6423689999999995,
+      "user_data": {
+        "primary_space_type": "Classroom/Lecture/Training",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5293,7 +5648,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 7.965286
+      "baseline_watts_per_area": 7.965286,
+      "user_data": {
+        "primary_space_type": "Office-Enclosed",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5352,7 +5711,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 10.440983
+      "baseline_watts_per_area": 10.440983,
+      "user_data": {
+        "primary_space_type": "Conference/Meeting/Multipurpose",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5411,7 +5774,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Corridor",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5469,7 +5836,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Dining Area",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5517,7 +5888,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Electrical/Mechanical",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5575,7 +5950,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 6.996535
+      "baseline_watts_per_area": 6.996535,
+      "user_data": {
+        "primary_space_type": "Lobby",
+        "secondary_space_type": "For Elevator"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5660,7 +6039,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 7.965286
+      "baseline_watts_per_area": 7.965286,
+      "user_data": {
+        "primary_space_type": "Office-Enclosed",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5719,7 +6102,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 9.041675999999999
+      "baseline_watts_per_area": 9.041675999999999,
+      "user_data": {
+        "primary_space_type": "Lobby",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5767,7 +6154,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Electrical/Mechanical",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5814,7 +6205,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Electrical/Mechanical",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5872,7 +6267,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OfficeMedium BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 6.350700999999999
+      "baseline_watts_per_area": 6.350700999999999,
+      "user_data": {
+        "primary_space_type": "Lounge/Recreation",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5931,7 +6330,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OfficeMedium BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 7.6423689999999995
+      "baseline_watts_per_area": 7.6423689999999995,
+      "user_data": {
+        "primary_space_type": "Classroom/Lecture/Training",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -5990,7 +6393,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OfficeMedium BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 7.965286
+      "baseline_watts_per_area": 7.965286,
+      "user_data": {
+        "primary_space_type": "Office-Enclosed",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6049,7 +6456,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OfficeMedium BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 10.440983
+      "baseline_watts_per_area": 10.440983,
+      "user_data": {
+        "primary_space_type": "Conference/Meeting/Multipurpose",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6097,7 +6508,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OfficeMedium BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Corridor",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6155,7 +6570,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OfficeMedium BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Dining Area",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6203,7 +6622,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OfficeMedium BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Electrical/Mechanical",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6270,7 +6693,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OfficeMedium BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 9.041675999999999
+      "baseline_watts_per_area": 9.041675999999999,
+      "user_data": {
+        "primary_space_type": "Lobby",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6329,7 +6756,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OfficeMedium BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 6.565979
+      "baseline_watts_per_area": 6.565979,
+      "user_data": {
+        "primary_space_type": "Office-Open Plan",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6377,7 +6808,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OfficeMedium BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 6.781257
+      "baseline_watts_per_area": 6.781257,
+      "user_data": {
+        "primary_space_type": "Restrooms",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6424,7 +6859,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OfficeMedium BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 5.274311
+      "baseline_watts_per_area": 5.274311,
+      "user_data": {
+        "primary_space_type": "Stairway",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6471,7 +6910,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OfficeMedium BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 4.090282
+      "baseline_watts_per_area": 4.090282,
+      "user_data": {
+        "primary_space_type": "Storage",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6518,7 +6961,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 6.888896
+      "baseline_watts_per_area": 6.888896,
+      "user_data": {
+        "primary_space_type": "OfficeLarge",
+        "secondary_space_type": "Data Center"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6550,7 +6997,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 6.888896
+      "baseline_watts_per_area": 6.888896,
+      "user_data": {
+        "primary_space_type": "OfficeLarge",
+        "secondary_space_type": "Data Center"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6593,7 +7044,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 6.565979
+      "baseline_watts_per_area": 6.565979,
+      "user_data": {
+        "primary_space_type": "Office-Open Plan",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6652,7 +7107,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 7.965286
+      "baseline_watts_per_area": 7.965286,
+      "user_data": {
+        "primary_space_type": "Office-Enclosed",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6710,7 +7169,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 6.781257
+      "baseline_watts_per_area": 6.781257,
+      "user_data": {
+        "primary_space_type": "Restrooms",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6777,7 +7240,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeSmall BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 6.350700999999999
+      "baseline_watts_per_area": 6.350700999999999,
+      "user_data": {
+        "primary_space_type": "Lounge/Recreation",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6836,7 +7303,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeSmall BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 7.6423689999999995
+      "baseline_watts_per_area": 7.6423689999999995,
+      "user_data": {
+        "primary_space_type": "Classroom/Lecture/Training",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6895,7 +7366,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeSmall BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 7.965286
+      "baseline_watts_per_area": 7.965286,
+      "user_data": {
+        "primary_space_type": "Office-Enclosed",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -6954,7 +7429,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeSmall BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 10.440983
+      "baseline_watts_per_area": 10.440983,
+      "user_data": {
+        "primary_space_type": "Conference/Meeting/Multipurpose",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7002,7 +7481,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeSmall BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Corridor",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7060,7 +7543,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeSmall BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Dining Area",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7108,7 +7595,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeSmall BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Electrical/Mechanical",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7175,7 +7666,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeSmall BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 9.041675999999999
+      "baseline_watts_per_area": 9.041675999999999,
+      "user_data": {
+        "primary_space_type": "Lobby",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7234,7 +7729,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeSmall BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 6.565979
+      "baseline_watts_per_area": 6.565979,
+      "user_data": {
+        "primary_space_type": "Office-Open Plan",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7282,7 +7781,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeSmall BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 6.781257
+      "baseline_watts_per_area": 6.781257,
+      "user_data": {
+        "primary_space_type": "Restrooms",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7329,7 +7832,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeSmall BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 5.274311
+      "baseline_watts_per_area": 5.274311,
+      "user_data": {
+        "primary_space_type": "Stairway",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7376,7 +7883,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeSmall BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 4.090282
+      "baseline_watts_per_area": 4.090282,
+      "user_data": {
+        "primary_space_type": "Storage",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7423,7 +7934,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 5.274311
+      "baseline_watts_per_area": 5.274311,
+      "user_data": {
+        "primary_space_type": "Stairway",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7470,7 +7985,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 4.090282
+      "baseline_watts_per_area": 4.090282,
+      "user_data": {
+        "primary_space_type": "Storage",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7528,7 +8047,11 @@
       "radiant_fraction": 0.4,
       "visible_fraction": 0.2,
       "schedule": "OfficeLarge BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Corridor",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7586,7 +8109,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 15.069459999999998
+      "baseline_watts_per_area": 15.069459999999998,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Exam/Treatment"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7642,7 +8169,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 4.090282
+      "baseline_watts_per_area": 4.090282,
+      "user_data": {
+        "primary_space_type": "Storage",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7700,7 +8231,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Dining Area",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7759,7 +8294,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 15.069459999999998
+      "baseline_watts_per_area": 15.069459999999998,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Exam/Treatment"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7817,7 +8356,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 10.440983
+      "baseline_watts_per_area": 10.440983,
+      "user_data": {
+        "primary_space_type": "Conference/Meeting/Multipurpose",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7876,7 +8419,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 7.965286
+      "baseline_watts_per_area": 7.965286,
+      "user_data": {
+        "primary_space_type": "Office-Enclosed",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7924,7 +8471,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_STORAGE_SCH",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Exam/Treatment"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -7970,7 +8521,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_STORAGE_SCH",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Exam/Treatment"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8027,7 +8582,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_EXAM_SCH",
-      "baseline_watts_per_area": 15.069459999999998
+      "baseline_watts_per_area": 15.069459999999998,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Exam/Treatment"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8074,7 +8633,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_CORRIDOR_SCH",
-      "baseline_watts_per_area": 7.6423689999999995
+      "baseline_watts_per_area": 7.6423689999999995,
+      "user_data": {
+        "primary_space_type": "Corridor - Note 2",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8132,7 +8695,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 7.965286
+      "baseline_watts_per_area": 7.965286,
+      "user_data": {
+        "primary_space_type": "Office-Enclosed",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8180,7 +8747,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_STORAGE_SCH_20102013",
-      "baseline_watts_per_area": 4.090282
+      "baseline_watts_per_area": 4.090282,
+      "user_data": {
+        "primary_space_type": "Storage",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8238,7 +8809,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 9.041675999999999
+      "baseline_watts_per_area": 9.041675999999999,
+      "user_data": {
+        "primary_space_type": "Lobby",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8297,7 +8872,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 4.5208379999999995
+      "baseline_watts_per_area": 4.5208379999999995,
+      "user_data": {
+        "primary_space_type": "Lounge/Recreation",
+        "secondary_space_type": "For Healthcare Facility"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8356,7 +8935,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 4.5208379999999995
+      "baseline_watts_per_area": 4.5208379999999995,
+      "user_data": {
+        "primary_space_type": "Lounge/Recreation",
+        "secondary_space_type": "For Healthcare Facility"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8415,7 +8998,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 10.118065999999999
+      "baseline_watts_per_area": 10.118065999999999,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Radiology/Imaging"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8482,7 +9069,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 10.118065999999999
+      "baseline_watts_per_area": 10.118065999999999,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Radiology/Imaging"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8538,7 +9129,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 4.090282
+      "baseline_watts_per_area": 4.090282,
+      "user_data": {
+        "primary_space_type": "Storage",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8596,7 +9191,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 12.593763
+      "baseline_watts_per_area": 12.593763,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Nurse Station"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8655,7 +9254,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_EXAM_SCH",
-      "baseline_watts_per_area": 24.326413999999996
+      "baseline_watts_per_area": 24.326413999999996,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Operating Room"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8732,7 +9335,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_OFFICE_SCH_20102013",
-      "baseline_watts_per_area": 7.965286
+      "baseline_watts_per_area": 7.965286,
+      "user_data": {
+        "primary_space_type": "Office-Enclosed",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8791,7 +9398,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_EXAM_SCH",
-      "baseline_watts_per_area": 13.454875
+      "baseline_watts_per_area": 13.454875,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Recovery"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8859,7 +9470,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_EXAM_SCH",
-      "baseline_watts_per_area": 9.795149
+      "baseline_watts_per_area": 9.795149,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Physical Therapy"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8926,7 +9541,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_EXAM_SCH",
-      "baseline_watts_per_area": 7.319452
+      "baseline_watts_per_area": 7.319452,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Patient Room"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -8994,7 +9613,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_EXAM_SCH",
-      "baseline_watts_per_area": 15.069459999999998
+      "baseline_watts_per_area": 15.069459999999998,
+      "user_data": {
+        "primary_space_type": "Hospital",
+        "secondary_space_type": "Emergency"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9061,7 +9684,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 9.041675999999999
+      "baseline_watts_per_area": 9.041675999999999,
+      "user_data": {
+        "primary_space_type": "Lobby",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9120,7 +9747,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_EXAM_SCH",
-      "baseline_watts_per_area": 15.069459999999998
+      "baseline_watts_per_area": 15.069459999999998,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Exam/Treatment"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9167,7 +9798,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_CORRIDOR_SCH",
-      "baseline_watts_per_area": 7.6423689999999995
+      "baseline_watts_per_area": 7.6423689999999995,
+      "user_data": {
+        "primary_space_type": "Corridor - Note 2",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9214,7 +9849,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_SCH",
-      "baseline_watts_per_area": 6.781257
+      "baseline_watts_per_area": 6.781257,
+      "user_data": {
+        "primary_space_type": "Restrooms",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9260,7 +9899,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_STORAGE_SCH",
-      "baseline_watts_per_area": 4.090282
+      "baseline_watts_per_area": 4.090282,
+      "user_data": {
+        "primary_space_type": "Storage",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9318,7 +9961,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "OutPatientHealthCare BLDG_LIGHT_EXAM_SCH",
-      "baseline_watts_per_area": 10.118065999999999
+      "baseline_watts_per_area": 10.118065999999999,
+      "user_data": {
+        "primary_space_type": "Healthcare Facility",
+        "secondary_space_type": "Radiology/Imaging"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9385,7 +10032,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolPrimary BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Dining Area",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9444,7 +10095,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolPrimary BLDG_LIGHT_CLASSROOM_SCH_2013",
-      "baseline_watts_per_area": 7.6423689999999995
+      "baseline_watts_per_area": 7.6423689999999995,
+      "user_data": {
+        "primary_space_type": "Classroom/Lecture/Training",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9503,7 +10158,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolPrimary BLDG_LIGHT_CLASSROOM_SCH_2013",
-      "baseline_watts_per_area": 7.6423689999999995
+      "baseline_watts_per_area": 7.6423689999999995,
+      "user_data": {
+        "primary_space_type": "Classroom/Lecture/Training",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9551,7 +10210,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolPrimary BLDG_LIGHT_CORRIDOR_SCH_2013",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Corridor",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9609,7 +10272,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolPrimary BLDG_LIGHT_GYM_SCH_2013",
-      "baseline_watts_per_area": 9.68751
+      "baseline_watts_per_area": 9.68751,
+      "user_data": {
+        "primary_space_type": "Gymnasium/Fitness Center",
+        "secondary_space_type": "Exercise Area"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9667,7 +10334,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolPrimary BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 11.732651
+      "baseline_watts_per_area": 11.732651,
+      "user_data": {
+        "primary_space_type": "Food Preparation",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9744,7 +10415,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolPrimary BLDG_LIGHT_LIBRARY_SCH_2013",
-      "baseline_watts_per_area": 8.934037
+      "baseline_watts_per_area": 8.934037,
+      "user_data": {
+        "primary_space_type": "Whole Building",
+        "secondary_space_type": "Library"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9792,7 +10467,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolPrimary BLDG_LIGHT_LOBBYFLR1_SCH_2013",
-      "baseline_watts_per_area": 9.041675999999999
+      "baseline_watts_per_area": 9.041675999999999,
+      "user_data": {
+        "primary_space_type": "Lobby",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9839,7 +10518,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolPrimary BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Electrical/Mechanical",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9897,7 +10580,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolPrimary BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 7.965286
+      "baseline_watts_per_area": 7.965286,
+      "user_data": {
+        "primary_space_type": "Office-Enclosed",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -9945,7 +10632,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolPrimary BLDG_LIGHT_BATH_SCH_2013",
-      "baseline_watts_per_area": 6.781257
+      "baseline_watts_per_area": 6.781257,
+      "user_data": {
+        "primary_space_type": "Restrooms",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10019,7 +10710,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "RestaurantFastFood BLDG_LIGHT_DINING_SCH_2013",
-      "baseline_watts_per_area": 6.45834
+      "baseline_watts_per_area": 6.45834,
+      "user_data": {
+        "primary_space_type": "Dining Area",
+        "secondary_space_type": "For Family Dining"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10078,7 +10773,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "RestaurantFastFood BLDG_LIGHT_KITCHEN_SCH_2010_2013",
-      "baseline_watts_per_area": 11.732651
+      "baseline_watts_per_area": 11.732651,
+      "user_data": {
+        "primary_space_type": "Food Preparation",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10155,7 +10854,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "RetailStandalone BLDG_LIGHT_BACK_SCH_2013",
-      "baseline_watts_per_area": 4.090282
+      "baseline_watts_per_area": 4.090282,
+      "user_data": {
+        "primary_space_type": "Storage",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10222,7 +10925,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "RetailStandalone BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 11.302095
+      "baseline_watts_per_area": 11.302095,
+      "user_data": {
+        "primary_space_type": "Sales Area",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10270,7 +10977,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "RetailStandalone BLDG_LIGHT_ENTRY_SCH_2013",
-      "baseline_watts_per_area": 9.041675999999999
+      "baseline_watts_per_area": 9.041675999999999,
+      "user_data": {
+        "primary_space_type": "Lobby",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10329,7 +11040,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "RetailStandalone BLDG_LIGHT_FRONT_SCH_2013",
-      "baseline_watts_per_area": 11.302095
+      "baseline_watts_per_area": 11.302095,
+      "user_data": {
+        "primary_space_type": "Sales Area",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10388,7 +11103,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "RetailStandalone BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 11.302095
+      "baseline_watts_per_area": 11.302095,
+      "user_data": {
+        "primary_space_type": "Sales Area",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10447,7 +11166,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "RetailStandalone BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 11.302095
+      "baseline_watts_per_area": 11.302095,
+      "user_data": {
+        "primary_space_type": "Sales Area",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10506,7 +11229,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolSecondary BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 6.565979
+      "baseline_watts_per_area": 6.565979,
+      "user_data": {
+        "primary_space_type": "Audience/Seating Area",
+        "secondary_space_type": "For Auditorium"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10565,7 +11292,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolSecondary BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Dining Area",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10624,7 +11355,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolSecondary BLDG_LIGHT_CLASSROOM_SCH_2013",
-      "baseline_watts_per_area": 7.6423689999999995
+      "baseline_watts_per_area": 7.6423689999999995,
+      "user_data": {
+        "primary_space_type": "Classroom/Lecture/Training",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10683,7 +11418,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolSecondary BLDG_LIGHT_CLASSROOM_SCH_2013",
-      "baseline_watts_per_area": 7.6423689999999995
+      "baseline_watts_per_area": 7.6423689999999995,
+      "user_data": {
+        "primary_space_type": "Classroom/Lecture/Training",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10731,7 +11470,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolSecondary BLDG_LIGHT_CORRIDOR_SCH_2013",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Corridor",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10789,7 +11532,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolSecondary BLDG_LIGHT_GYM_SCH_2013",
-      "baseline_watts_per_area": 9.68751
+      "baseline_watts_per_area": 9.68751,
+      "user_data": {
+        "primary_space_type": "Gymnasium/Fitness Center",
+        "secondary_space_type": "Exercise Area"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10856,7 +11603,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolSecondary BLDG_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 11.732651
+      "baseline_watts_per_area": 11.732651,
+      "user_data": {
+        "primary_space_type": "Food Preparation",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10933,7 +11684,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolSecondary BLDG_LIGHT_LIBRARY_SCH_2013",
-      "baseline_watts_per_area": 8.934037
+      "baseline_watts_per_area": 8.934037,
+      "user_data": {
+        "primary_space_type": "Whole Building",
+        "secondary_space_type": "Library"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -10981,7 +11736,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolSecondary BLDG_LIGHT_LOBBYFLR1_SCH_2013",
-      "baseline_watts_per_area": 9.041675999999999
+      "baseline_watts_per_area": 9.041675999999999,
+      "user_data": {
+        "primary_space_type": "Lobby",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -11029,7 +11788,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolSecondary BLDG_LIGHT_MECHANICAL_SCH_2013",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Electrical/Mechanical",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -11087,7 +11850,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolSecondary BLDG_LIGHT_OFFICE_SCH_2013",
-      "baseline_watts_per_area": 7.965286
+      "baseline_watts_per_area": 7.965286,
+      "user_data": {
+        "primary_space_type": "Office-Enclosed",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -11135,7 +11902,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.2,
       "schedule": "SchoolSecondary BLDG_LIGHT_BATH_SCH_2013",
-      "baseline_watts_per_area": 6.781257
+      "baseline_watts_per_area": 6.781257,
+      "user_data": {
+        "primary_space_type": "Restrooms",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -11191,7 +11962,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "DataCenter Lighting_SCH",
-      "baseline_watts_per_area": 6.888896
+      "baseline_watts_per_area": 6.888896,
+      "user_data": {
+        "primary_space_type": "OfficeLarge",
+        "secondary_space_type": "Data Center"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -11233,7 +12008,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "DataCenter Lighting_SCH",
-      "baseline_watts_per_area": 6.888896
+      "baseline_watts_per_area": 6.888896,
+      "user_data": {
+        "primary_space_type": "OfficeLarge",
+        "secondary_space_type": "Data Center"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -11275,7 +12054,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelSmall BLDG_LIGHT_CORRIDOR_SCH_2013",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Corridor - Note 2",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -11322,7 +12105,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelSmall AlwaysOff",
-      "baseline_watts_per_area": 0.0
+      "baseline_watts_per_area": 0.0,
+      "user_data": {
+        "primary_space_type": "SmallHotel",
+        "secondary_space_type": "Elec/MechRoom"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -11363,7 +12150,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelSmall AlwaysOff",
-      "baseline_watts_per_area": 0.0
+      "baseline_watts_per_area": 0.0,
+      "user_data": {
+        "primary_space_type": "SmallHotel",
+        "secondary_space_type": "ElevatorCore"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -11415,7 +12206,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelSmall BLDG_LIGHT_EXERCENTER_SCH",
-      "baseline_watts_per_area": 9.68751
+      "baseline_watts_per_area": 9.68751,
+      "user_data": {
+        "primary_space_type": "Gymnasium/Fitness Center - RCR adj",
+        "secondary_space_type": "Exercise Area"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -11474,7 +12269,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelSmall BLDG_LIGHT_FRONTLOUNGE_SCH",
-      "baseline_watts_per_area": 5.489589
+      "baseline_watts_per_area": 5.489589,
+      "user_data": {
+        "primary_space_type": "Lobby",
+        "secondary_space_type": "For Hotel"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -11533,7 +12332,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "Hospital BLDG_LIGHT_LOBBYFLR1_SCH",
-      "baseline_watts_per_area": 9.041675999999999
+      "baseline_watts_per_area": 9.041675999999999,
+      "user_data": {
+        "primary_space_type": "Lobby",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -11592,7 +12395,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelSmall BLDG_LIGHT_GUESTROOM_SCH_2013",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Guest Room",
+        "secondary_space_type": "For Hotel"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -11660,7 +12467,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelSmall AlwaysOff",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Guest Room",
+        "secondary_space_type": "For Hotel"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -11728,7 +12539,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelSmall BLDG_LIGHT_LAUNDRY_SCH",
-      "baseline_watts_per_area": 5.704867
+      "baseline_watts_per_area": 5.704867,
+      "user_data": {
+        "primary_space_type": "Laundry/Washing Area",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -11794,7 +12609,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelSmall BLDG_LIGHT_MECHROOM_SCH",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Electrical/Mechanical",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -11852,7 +12671,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelSmall BLDG_LIGHT_MEETINGROOM_SCH",
-      "baseline_watts_per_area": 10.440983
+      "baseline_watts_per_area": 10.440983,
+      "user_data": {
+        "primary_space_type": "Conference/Meeting/Multipurpose",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -11911,7 +12734,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelSmall BLDG_LIGHT_OFFICE_SCH",
-      "baseline_watts_per_area": 7.965286
+      "baseline_watts_per_area": 7.965286,
+      "user_data": {
+        "primary_space_type": "Office-Enclosed",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -11970,7 +12797,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelSmall BLDG_LIGHT_RESTROOM_SCH",
-      "baseline_watts_per_area": 6.781257
+      "baseline_watts_per_area": 6.781257,
+      "user_data": {
+        "primary_space_type": "Restrooms",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -12028,7 +12859,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelSmall BLDG_LIGHT_EMPLOYEELOUNGE_SCH",
-      "baseline_watts_per_area": 6.350700999999999
+      "baseline_watts_per_area": 6.350700999999999,
+      "user_data": {
+        "primary_space_type": "Lounge/Recreation",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -12076,7 +12911,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelSmall BLDG_LIGHT_STAIR_SCH",
-      "baseline_watts_per_area": 5.274311
+      "baseline_watts_per_area": 5.274311,
+      "user_data": {
+        "primary_space_type": "Stairway",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -12123,7 +12962,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "HotelSmall BLDG_LIGHT_STORAGE_SCH",
-      "baseline_watts_per_area": 4.090282
+      "baseline_watts_per_area": 4.090282,
+      "user_data": {
+        "primary_space_type": "Storage",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -12295,7 +13138,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "RetailStripmall Type1_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 15.693747869078297
+      "baseline_watts_per_area": 15.693747869078297,
+      "user_data": {
+        "primary_space_type": "Whole Building",
+        "secondary_space_type": "Retail"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -12362,7 +13209,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "RetailStripmall Type2_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 15.995155399999998
+      "baseline_watts_per_area": 15.995155399999998,
+      "user_data": {
+        "primary_space_type": "Whole Building",
+        "secondary_space_type": "Retail"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -12429,7 +13280,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "RetailStripmall Type3_LIGHT_SCH_2013",
-      "baseline_watts_per_area": 9.041675999999999
+      "baseline_watts_per_area": 9.041675999999999,
+      "user_data": {
+        "primary_space_type": "Whole Building",
+        "secondary_space_type": "Retail"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -12496,7 +13351,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 11.732651
+      "baseline_watts_per_area": 11.732651,
+      "user_data": {
+        "primary_space_type": "Supermarket",
+        "secondary_space_type": "Deli/Bakery"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -12573,7 +13432,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Supermarket",
+        "secondary_space_type": "Corridor"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -12631,7 +13494,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 11.732651
+      "baseline_watts_per_area": 11.732651,
+      "user_data": {
+        "primary_space_type": "Supermarket",
+        "secondary_space_type": "Deli/Bakery"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -12708,7 +13575,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Supermarket",
+        "secondary_space_type": "Dining"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -12767,7 +13638,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 4.090282
+      "baseline_watts_per_area": 4.090282,
+      "user_data": {
+        "primary_space_type": "Supermarket",
+        "secondary_space_type": "DryStorage"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -12814,7 +13689,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 4.628477
+      "baseline_watts_per_area": 4.628477,
+      "user_data": {
+        "primary_space_type": "Supermarket",
+        "secondary_space_type": "Elec/Mech"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -12863,7 +13742,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 10.440983
+      "baseline_watts_per_area": 10.440983,
+      "user_data": {
+        "primary_space_type": "Supermarket",
+        "secondary_space_type": "Meeting"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -12922,7 +13805,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 7.965286
+      "baseline_watts_per_area": 7.965286,
+      "user_data": {
+        "primary_space_type": "Supermarket",
+        "secondary_space_type": "Office"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -12981,7 +13868,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 11.302095
+      "baseline_watts_per_area": 11.302095,
+      "user_data": {
+        "primary_space_type": "Supermarket",
+        "secondary_space_type": "Sales/Produce"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -13040,7 +13931,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 6.781257
+      "baseline_watts_per_area": 6.781257,
+      "user_data": {
+        "primary_space_type": "Supermarket",
+        "secondary_space_type": "Restroom"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -13098,7 +13993,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 11.302095
+      "baseline_watts_per_area": 11.302095,
+      "user_data": {
+        "primary_space_type": "Supermarket",
+        "secondary_space_type": "Sales/Produce"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -13157,7 +14056,11 @@
       "radiant_fraction": 0.7,
       "visible_fraction": 0.2,
       "schedule": "SuperMarket Bldg Light",
-      "baseline_watts_per_area": 4.413199
+      "baseline_watts_per_area": 4.413199,
+      "user_data": {
+        "primary_space_type": "Supermarket",
+        "secondary_space_type": "Vestibule"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -13204,7 +14107,11 @@
       "radiant_fraction": 0.42,
       "visible_fraction": 0.18,
       "schedule": "Warehouse BLDG_LIGHT_STORAGE_SCH",
-      "baseline_watts_per_area": 3.552087
+      "baseline_watts_per_area": 3.552087,
+      "user_data": {
+        "primary_space_type": "Warehouse",
+        "secondary_space_type": "Medium/Bulky Material Storage"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -13251,7 +14158,11 @@
       "radiant_fraction": 0.42,
       "visible_fraction": 0.18,
       "schedule": "Warehouse BLDG_LIGHT_STORAGE_SCH",
-      "baseline_watts_per_area": 7.427090999999999
+      "baseline_watts_per_area": 7.427090999999999,
+      "user_data": {
+        "primary_space_type": "Warehouse",
+        "secondary_space_type": "Fine Material Storage"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",
@@ -13309,7 +14220,11 @@
       "radiant_fraction": 0.37,
       "visible_fraction": 0.18,
       "schedule": "Warehouse BLDG_LIGHT_OFFICE_SCH_2013",
-      "baseline_watts_per_area": 6.888896
+      "baseline_watts_per_area": 6.888896,
+      "user_data": {
+        "primary_space_type": "Office-Enclosed",
+        "secondary_space_type": "General"
+      }
     },
     "electric_equipment": {
       "type": "ElectricEquipmentAbridged",

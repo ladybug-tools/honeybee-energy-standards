@@ -103,6 +103,15 @@ def from_standards_dict(cls, data):
         lighting = Lighting(
             '{}_Lighting'.format(pr_type_identifier), lpd, light_sched, raf, lfr, lfv)
         lighting.baseline_watts_per_area = lpd
+        if 'lighting_primary_space_type' in data and \
+                data['lighting_primary_space_type'] is not None:
+            lighting.user_data = {
+                'primary_space_type': data['lighting_primary_space_type']
+            }
+            if 'lighting_secondary_space_type' in data and \
+                    data['lighting_secondary_space_type'] is not None:
+                lighting.user_data['secondary_space_type'] = \
+                    data['lighting_secondary_space_type']
 
     if 'electric_equipment_schedule' in data and \
             data['electric_equipment_schedule'] is not None:
