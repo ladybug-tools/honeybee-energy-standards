@@ -1,0 +1,82 @@
+{
+    "BREEAM::Creche_buildings::Occupied_spaces": {
+        "type": "ProgramTypeAbridged",
+        "identifier": "BREEAM::Creche_buildings::Occupied_spaces",
+        "display_name": "BREEAM::Creche buildings::Occupied spaces"
+    },
+    "BREEAM::Other_buildings::Occupied_spaces": {
+        "type": "ProgramTypeAbridged",
+        "identifier": "BREEAM::Other_buildings::Occupied_spaces",
+        "display_name": "BREEAM::Other buildings::Occupied spaces"
+    },
+    "BREEAM::Prison_buildings::Teaching_lecture_and_seminar_spaces": {
+        "type": "ProgramTypeAbridged",
+        "identifier": "BREEAM::Prison_buildings::Teaching_lecture_and_seminar_spaces",
+        "display_name": "BREEAM::Prison buildings::Teaching, lecture and seminar spaces"
+    },
+    "BREEAM::Prison_buildings::Internal_association_or_atrium": {
+        "type": "ProgramTypeAbridged",
+        "identifier": "BREEAM::Prison_buildings::Internal_association_or_atrium",
+        "display_name": "BREEAM::Prison buildings::Internal association or atrium"
+    },
+    "BREEAM::Retail_buildings::Other_occupied_areas": {
+        "type": "ProgramTypeAbridged",
+        "identifier": "BREEAM::Retail_buildings::Other_occupied_areas",
+        "display_name": "BREEAM::Retail buildings::Other occupied areas"
+    },
+    "BREEAM::Retail_buildings::Sales_areas": {
+        "type": "ProgramTypeAbridged",
+        "identifier": "BREEAM::Retail_buildings::Sales_areas",
+        "display_name": "BREEAM::Retail buildings::Sales areas"
+    },
+    "BREEAM::Multi_residential_buildings::Non_residential_or_communal_spaces": {
+        "type": "ProgramTypeAbridged",
+        "identifier": "BREEAM::Multi_residential_buildings::Non_residential_or_communal_spaces",
+        "display_name": "BREEAM::Multi-residential buildings::Non-residential or communal spaces"
+    },
+    "BREEAM::Multi_residential_buildings::Living_rooms_dining_rooms_studies": {
+        "type": "ProgramTypeAbridged",
+        "identifier": "BREEAM::Multi_residential_buildings::Living_rooms_dining_rooms_studies",
+        "display_name": "BREEAM::Multi-residential buildings::Living rooms, dining rooms, studies"
+    },
+    "BREEAM::Multi_residential_buildings::Kitchen": {
+        "type": "ProgramTypeAbridged",
+        "identifier": "BREEAM::Multi_residential_buildings::Kitchen",
+        "display_name": "BREEAM::Multi-residential buildings::Kitchen"
+    },
+    "BREEAM::Healthcare_buildings::Patients_areas_and_consulting_rooms": {
+        "type": "ProgramTypeAbridged",
+        "identifier": "BREEAM::Healthcare_buildings::Patients_areas_and_consulting_rooms",
+        "display_name": "BREEAM::Healthcare buildings::Patients areas and consulting rooms"
+    },
+    "BREEAM::Healthcare_buildings::Staff_and_public_areas": {
+        "type": "ProgramTypeAbridged",
+        "identifier": "BREEAM::Healthcare_buildings::Staff_and_public_areas",
+        "display_name": "BREEAM::Healthcare buildings::Staff and public areas"
+    },
+    "BREEAM::Prison_buildings::Patient_care_spaces": {
+        "type": "ProgramTypeAbridged",
+        "identifier": "BREEAM::Prison_buildings::Patient_care_spaces",
+        "display_name": "BREEAM::Prison buildings::Patient care spaces"
+    },
+    "BREEAM::Prison_buildings::Cells_and_custody_cells": {
+        "type": "ProgramTypeAbridged",
+        "identifier": "BREEAM::Prison_buildings::Cells_and_custody_cells",
+        "display_name": "BREEAM::Prison buildings::Cells and custody cells"
+    },
+    "BREEAM::Education_buildings::Preschools": {
+        "type": "ProgramTypeAbridged",
+        "identifier": "BREEAM::Education_buildings::Preschools",
+        "display_name": "BREEAM::Education buildings::Preschools"
+    },
+    "BREEAM::Education_buildings::Higher_education": {
+        "type": "ProgramTypeAbridged",
+        "identifier": "BREEAM::Education_buildings::Higher_education",
+        "display_name": "BREEAM::Education buildings::Higher education"
+    },
+    "BREEAM::Office_buildings::Occupied_spaces": {
+        "type": "ProgramTypeAbridged",
+        "identifier": "BREEAM::Office_buildings::Occupied_spaces",
+        "display_name": "BREEAM::Office buildings::Occupied spaces"
+    }
+}
