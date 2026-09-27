@@ -2296,6 +2296,15 @@
         "secondary_occupancy": "Cafeteria/fast food dining"
       }
     },
+    "exhaust": {
+      "type": "ExhaustAirAbridged",
+      "identifier": "2010::FullServiceRestaurant::Kitchen_Exhaust",
+      "flow_per_area": 0.003556,
+      "schedule": "RestaurantSitDown Kitchen_Exhaust_SCH",
+      "pressure_rise": 124.42,
+      "efficiency": 0.338,
+      "balancing_schedule": "RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule"
+    },
     "setpoint": {
       "type": "SetpointAbridged",
       "identifier": "2010::FullServiceRestaurant::Kitchen_Setpoint",
@@ -3203,6 +3212,15 @@
         "primary_occupancy": "Food and Beverage Service",
         "secondary_occupancy": "Cafeteria/fast food dining"
       }
+    },
+    "exhaust": {
+      "type": "ExhaustAirAbridged",
+      "identifier": "2010::Hospital::Kitchen_Exhaust",
+      "flow_per_area": 0.003556,
+      "schedule": "Hospital Kitchen_Exhaust_SCH",
+      "pressure_rise": 124.5,
+      "efficiency": 0.16,
+      "balancing_schedule": "Hospital Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule"
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -4237,6 +4255,13 @@
         "secondary_occupancy": "Multipurpose assembly"
       }
     },
+    "exhaust": {
+      "type": "ExhaustAirAbridged",
+      "identifier": "2010::LargeHotel::Banquet_Exhaust",
+      "flow_per_fixture": 0.48022747447999997,
+      "schedule": "HotelLarge Kitchen_Exhaust_SCH",
+      "efficiency": 0.35
+    },
     "setpoint": {
       "type": "SetpointAbridged",
       "identifier": "2010::LargeHotel::Banquet_Setpoint",
@@ -5071,6 +5096,14 @@
         "secondary_occupancy": "Cafeteria/fast food dining"
       }
     },
+    "exhaust": {
+      "type": "ExhaustAirAbridged",
+      "identifier": "2010::LargeHotel::Kitchen_Exhaust",
+      "flow_per_area": 0.003556,
+      "schedule": "HotelLarge Kitchen_Exhaust_SCH",
+      "efficiency": 0.16,
+      "balancing_schedule": "HotelLarge Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule"
+    },
     "setpoint": {
       "type": "SetpointAbridged",
       "identifier": "2010::LargeHotel::Kitchen_Setpoint",
@@ -5151,6 +5184,13 @@
         "primary_occupancy": "Retail",
         "secondary_occupancy": "Coinoperated laundries"
       }
+    },
+    "exhaust": {
+      "type": "ExhaustAirAbridged",
+      "identifier": "2010::LargeHotel::Laundry_Exhaust",
+      "flow_per_fixture": 0.236,
+      "schedule": "HotelLarge Hours_of_operation",
+      "efficiency": 0.16
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -8297,6 +8337,14 @@
         "secondary_occupancy": "Treatment / Examination"
       }
     },
+    "exhaust": {
+      "type": "ExhaustAirAbridged",
+      "identifier": "2010::Outpatient::Anesthesia_Exhaust",
+      "flow_per_area": 0.00677333988819237,
+      "schedule": "OutPatientHealthCare Hours_of_operation",
+      "pressure_rise": 248.84,
+      "efficiency": 0.31
+    },
     "setpoint": {
       "type": "SetpointAbridged",
       "identifier": "2010::Outpatient::Anesthesia_Setpoint",
@@ -9186,6 +9234,14 @@
         "secondary_occupancy": "X-ray, Diagnostic and Treatment"
       }
     },
+    "exhaust": {
+      "type": "ExhaustAirAbridged",
+      "identifier": "2010::Outpatient::MRI_Exhaust",
+      "flow_per_area": 0.005080004916144278,
+      "schedule": "OutPatientHealthCare Hours_of_operation",
+      "pressure_rise": 248.84,
+      "efficiency": 0.31
+    },
     "setpoint": {
       "type": "SetpointAbridged",
       "identifier": "2010::Outpatient::MRI_Setpoint",
@@ -9256,6 +9312,14 @@
         "primary_occupancy": "Health Care",
         "secondary_occupancy": "X-ray, Diagnostic and Treatment"
       }
+    },
+    "exhaust": {
+      "type": "ExhaustAirAbridged",
+      "identifier": "2010::Outpatient::MRI_Control_Exhaust",
+      "flow_per_area": 0.005080004916144278,
+      "schedule": "OutPatientHealthCare Hours_of_operation",
+      "pressure_rise": 248.84,
+      "efficiency": 0.31
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -9926,6 +9990,14 @@
         "secondary_occupancy": "Clean Linen Storage"
       }
     },
+    "exhaust": {
+      "type": "ExhaustAirAbridged",
+      "identifier": "2010::Outpatient::Soil Work_Exhaust",
+      "flow_per_area": 0.008466674860240464,
+      "schedule": "OutPatientHealthCare Hours_of_operation",
+      "pressure_rise": 248.84,
+      "efficiency": 0.31
+    },
     "setpoint": {
       "type": "SetpointAbridged",
       "identifier": "2010::Outpatient::Soil Work_Setpoint",
@@ -10026,6 +10098,14 @@
         "primary_occupancy": "Public Spaces",
         "secondary_occupancy": "Public restrooms"
       }
+    },
+    "exhaust": {
+      "type": "ExhaustAirAbridged",
+      "identifier": "2010::Outpatient::Toilet_Exhaust",
+      "flow_per_area": 0.008466674860240463,
+      "schedule": "OutPatientHealthCare Hours_of_operation",
+      "pressure_rise": 248.84,
+      "efficiency": 0.31
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -10532,6 +10612,15 @@
         "secondary_occupancy": "Cafeteria/fast food dining"
       }
     },
+    "exhaust": {
+      "type": "ExhaustAirAbridged",
+      "identifier": "2010::PrimarySchool::Kitchen_Exhaust",
+      "flow_per_area": 0.003556,
+      "schedule": "SchoolPrimary Kitchen_Exhaust_SCH",
+      "pressure_rise": 124.42,
+      "efficiency": 0.338,
+      "balancing_schedule": "SchoolPrimary Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule"
+    },
     "setpoint": {
       "type": "SetpointAbridged",
       "identifier": "2010::PrimarySchool::Kitchen_Setpoint",
@@ -10820,6 +10909,13 @@
         "secondary_occupancy": "Corridors"
       }
     },
+    "exhaust": {
+      "type": "ExhaustAirAbridged",
+      "identifier": "2010::PrimarySchool::Restroom_Exhaust",
+      "flow_per_area": 0.0014903617892360482,
+      "pressure_rise": 124.42,
+      "efficiency": 0.338
+    },
     "setpoint": {
       "type": "SetpointAbridged",
       "identifier": "2010::PrimarySchool::Restroom_Setpoint",
@@ -10976,6 +11072,15 @@
         "primary_occupancy": "Food and Beverage Service",
         "secondary_occupancy": "Cafeteria/fast food dining"
       }
+    },
+    "exhaust": {
+      "type": "ExhaustAirAbridged",
+      "identifier": "2010::QuickServiceRestaurant::Kitchen_Exhaust",
+      "flow_per_area": 0.003556,
+      "schedule": "RestaurantFastFood Hours_of_operation",
+      "pressure_rise": 125.02009646302251,
+      "efficiency": 0.338,
+      "balancing_schedule": "RestaurantFastFood Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule_2004"
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -11807,6 +11912,15 @@
         "secondary_occupancy": "Cafeteria/fast food dining"
       }
     },
+    "exhaust": {
+      "type": "ExhaustAirAbridged",
+      "identifier": "2010::SecondarySchool::Kitchen_Exhaust",
+      "flow_per_area": 0.003556,
+      "schedule": "SchoolSecondary Kitchen_Exhaust_SCH",
+      "pressure_rise": 124.42,
+      "efficiency": 0.338,
+      "balancing_schedule": "SchoolSecondary Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule"
+    },
     "setpoint": {
       "type": "SetpointAbridged",
       "identifier": "2010::SecondarySchool::Kitchen_Setpoint",
@@ -12095,6 +12209,13 @@
         "primary_occupancy": "General",
         "secondary_occupancy": "Corridors"
       }
+    },
+    "exhaust": {
+      "type": "ExhaustAirAbridged",
+      "identifier": "2010::SecondarySchool::Restroom_Exhaust",
+      "flow_per_area": 0.0014285741526204926,
+      "pressure_rise": 124.42,
+      "efficiency": 0.338
     },
     "setpoint": {
       "type": "SetpointAbridged",
@@ -12919,6 +13040,13 @@
         "secondary_occupancy": "Corridors"
       }
     },
+    "exhaust": {
+      "type": "ExhaustAirAbridged",
+      "identifier": "2010::SmallHotel::PublicRestroom_Exhaust",
+      "flow_per_area": 0.005788996012569747,
+      "pressure_rise": 124.42,
+      "efficiency": 0.338
+    },
     "setpoint": {
       "type": "SetpointAbridged",
       "identifier": "2010::SmallHotel::PublicRestroom_Setpoint",
@@ -13378,6 +13506,14 @@
         "secondary_occupancy": "Cafeteria/fast food dining"
       }
     },
+    "exhaust": {
+      "type": "ExhaustAirAbridged",
+      "identifier": "2010::SuperMarket::Bakery_Exhaust",
+      "flow_per_area": 0.006300479262078345,
+      "schedule": "SuperMarket HVACOperationSchd",
+      "pressure_rise": 124.42,
+      "efficiency": 0.338
+    },
     "setpoint": {
       "type": "SetpointAbridged",
       "identifier": "2010::SuperMarket::Bakery_Setpoint",
@@ -13520,6 +13656,14 @@
         "primary_occupancy": "Food and Beverage Service",
         "secondary_occupancy": "Cafeteria/fast food dining"
       }
+    },
+    "exhaust": {
+      "type": "ExhaustAirAbridged",
+      "identifier": "2010::SuperMarket::Deli_Exhaust",
+      "flow_per_area": 0.006300479262078345,
+      "schedule": "SuperMarket HVACOperationSchd",
+      "pressure_rise": 124.42,
+      "efficiency": 0.338
     },
     "setpoint": {
       "type": "SetpointAbridged",

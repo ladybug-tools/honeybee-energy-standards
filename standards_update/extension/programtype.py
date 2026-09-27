@@ -9,6 +9,7 @@ from honeybee_energy.load.equipment import ElectricEquipment, GasEquipment
 from honeybee_energy.load.hotwater import ServiceHotWater
 from honeybee_energy.load.infiltration import Infiltration
 from honeybee_energy.load.ventilation import Ventilation
+from honeybee_energy.load.exhaust import ExhaustAir
 from honeybee_energy.load.setpoint import Setpoint
 
 
@@ -67,6 +68,7 @@ def from_standards_dict(cls, data):
     hot_water = None
     infiltration = None
     ventilation = None
+    exhaust = None
     setpoint = None
 
     if 'occupancy_schedule' in data and data['occupancy_schedule'] is not None and \
@@ -198,6 +200,40 @@ def from_standards_dict(cls, data):
                 ventilation.user_data['secondary_occupancy'] = \
                     data['ventilation_secondary_space_type']
 
+    if 'exhaust_fan_efficiency' in data and \
+            isinstance(data['exhaust_fan_efficiency'], (float, int)):
+        area = data['exhaust_per_area'] * 0.00508 if \
+            'exhaust_per_area' in data and \
+            data['exhaust_per_area'] is not None else 0
+        fixture = 0
+        if area == 0:
+            if 'exhaust_fan_maximum_flow_rate' in data and \
+                    data['exhaust_fan_maximum_flow_rate'] is not None:
+                fixture = data['exhaust_fan_maximum_flow_rate'] * 0.000472
+        if area != 0 or fixture != 0:
+            pressure = data['exhaust_fan_pressure_rise'] if \
+                'exhaust_fan_pressure_rise' in data and \
+                data['exhaust_fan_pressure_rise'] is not None else 0
+            if pressure < 100:  # convert inH2O to Pa
+                pressure = pressure * 248.84
+            if pressure == 0:
+                pressure = 125
+            eff = data['exhaust_fan_efficiency'] if \
+                'exhaust_fan_efficiency' in data and \
+                data['exhaust_fan_efficiency'] is not None else 0.35
+            if eff == 1:
+                eff = 0.35
+            exhaust = ExhaustAir(
+                '{}_Exhaust'.format(pr_type_identifier), area, fixture, 1, None, pressure, eff)
+            if 'exhaust_flow_fraction_schedule' in data and \
+                    data['exhaust_flow_fraction_schedule'] is not None:
+                exhaust.schedule = \
+                    sch_lib.schedule_by_identifier(data['exhaust_flow_fraction_schedule'])
+            if 'balanced_exhaust_fraction_schedule' in data and \
+                    data['balanced_exhaust_fraction_schedule'] is not None:
+                exhaust.balancing_schedule = \
+                    sch_lib.schedule_by_identifier(data['balanced_exhaust_fraction_schedule'])
+
     if 'heating_setpoint_schedule' in data and \
             data['heating_setpoint_schedule'] is not None:
         heat_sched = sch_lib.schedule_by_identifier(data['heating_setpoint_schedule'])
@@ -207,7 +243,7 @@ def from_standards_dict(cls, data):
 
     program = cls(
         data['space_type'], people, lighting, electric_equipment,
-        gas_equipment, hot_water, infiltration, ventilation, setpoint
+        gas_equipment, hot_water, infiltration, ventilation, setpoint, exhaust
     )
     program.user_data = {'source': 'US DOE'}
     return program
