@@ -1,11 +1,10 @@
 # coding=utf-8
 from honeybee.room import Room
 from honeybee.model import Model
-from  honeybee.boundarycondition import boundary_conditions
+from honeybee.boundarycondition import boundary_conditions
 
 from honeybee_energy.programtype import ProgramType
 import honeybee_energy.lib.programtypes as prog_type_lib
-from honeybee_energy.load.setpoint import Setpoint
 
 from ladybug_geometry.geometry3d.pointvector import Vector3D
 
@@ -74,7 +73,6 @@ def test_model_to_dict_with_program_type():
     assert model_dict['rooms'][0]['properties']['energy']['setpoint']['identifier'] == \
         'Humidity Controlled PatRm Setpt'
     assert 'hvac' in model_dict['rooms'][0]['properties']['energy']
-
 
 
 def test_building_mix():
